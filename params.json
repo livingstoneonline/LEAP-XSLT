@@ -1,0 +1,6 @@
+{
+  "name": "Leap-xslt",
+  "tagline": "Repository containing XSLT for the Livingstone-online Enrichment and Access Project",
+  "body": "### LEAP-XSLT Repository\r\nThis is the LEAP-XSLT Repository for XSLT mostly written by @jamescummings hosted using the gh-pages branch.\r\n\r\nThis is just here so we can point directly at the XSLT it contains, etc.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
