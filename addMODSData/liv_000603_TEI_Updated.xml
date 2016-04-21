@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0"><!-- LP115 -->
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to James R. Bennett Letter to James R. Bennett, 26 December 1845</title>
+                <title type="alternative">Letter to James R. Bennett, 26 December 1845</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>London</pubPlace>
+				<date>2006-10-09</date>
+				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+				<idno type="LEAP-ID">liv_000603</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="ccnumber">Letters, 0141</bibl>
+				<bibl xml:id="recipient"><persName role="recipient">Bennett, James R., 1809-1891</persName>
+<note type="desc">Son of a secretary of the London Missionary Society. Graduated in medicine at Edinburgh in 1833. Practiced at Charing Cross Hospital in London where he taught Livingstone. President of the Royal College of Physicians 1876-81.</note></bibl>
+				<bibl xml:id="date"><date when="1845-12-26">26 December 1845</date></bibl>
+				<bibl xml:id="where">Chonuane</bibl>
+				<bibl>National Library of Scotland Ms. 10707, ff. 21r-22v</bibl><!--1845-12-26--><!--Original:1845-12-26-->
+				<bibl>4 pages</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change>
+				<date>2006-08-07</date>
+				<name>Sharon Messenger</name>initial transcription
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+
+	<pb n="0001" facs="liv_000603_0001"/><!--pb/@n='21r'-->
+<!--hand1 top right 21-->
+<lb/><p rend="right"><placeName>Chounane</placeName> 26<hi rend="sup"><hi rend="underline">th</hi></hi> December 1845 </p>
+<lb/><p rend="left"><persName>My Dear Friend</persName></p>
+<lb/><p>As I have not yet <choice><sic>recieved</sic><corr>received</corr></choice> any answers to my last I presume it 
+<lb/>may not have reached its destination. And as I cannot without an effort 
+<lb/>afford to lose your correspondence I take this gigantic sheet in order to 
+<lb/>stir you up to think on a poor "dweller in the wilderness" the longer 
+<lb/>I am absent from home the fewer my correspondents are likely to become 
+<lb/>And as you are in heart engaged to the same cause, you must not 
+<lb/>leave me entirely to the wearisome round of news furnished in this 
+<lb/>benighted region. We have wars &amp; rumours of wars untill the heart is 
+<lb/>sick of them. Right pleasant indeed then comes the stimulus of a letter 
+<lb/>from home. I have seen and was glad on reading a notice of your 
+<lb/>promotion to St Thomas' and wish you every degree of success which 
+<lb/>will be for your good. Your connection with the Sydenham society 
+<lb/>a benefit which every one at home may enjoy almost made me 
+<lb/>envious on the long weary journey we undertake I had my books untill 
+<lb/>tired of their sameness. I should be glad if it were possible <unclear cert="medium">but</unclear> I need 
+<lb/>long for what cannot be. We commenced a new station about 200 
+<lb/>miles North of the <placeName>Kuruman</placeName> or <placeName>Lattakoo</placeName> and shortly afterwards I was 
+<lb/>much injured by a lion. The failure of strength in consequence of a 
+<lb/>profuse discharge from eleven gashes was so great I could not move 
+<lb/>my limbs. And while lying in my little native hut I often saw you 
+<lb/>in my dreams and I shall not soon forget the lively disappointment 
+<lb/>I as often experience on finding that all surgical and was still on the 
+<lb/>other side of the <placeName>Atlantic</placeName> When only partially recovered I had to begin 
+<lb/>the erection of my house and a jerk <choice><sic>recieved</sic><corr>received</corr></choice> in lifting a stone 
+<lb/>has led to a false joint in my left humerus. I often think of 
+<lb/>putting a <unclear cert="low">seton</unclear> through it But never have been able to plan a six 
+<lb/>weeks leisure. It is not however a great hindrance even in heavy 
+<lb/>work - the chief inconvenience is the want of power to steady 
+<lb/>the arm when extended. The <unclear cert="low">fissure</unclear> is oblique and being situated 
+<lb/>in the upper third of the bone seems to run into the socket <figure><graphic style="float:right" url="lp115-1.gif"/><figDesc>image of an arm</figDesc></figure>
+<lb/>the point of bone indicated at A starts out when my arm 
+<lb/>is extended and the hand in the supine position and appears as 
+<lb/>if it would burst through the skin But the biceps being situated 
+<lb/>internally to it I could easily put the needle through I can use 
+<lb/>the adze hammer &amp; lift heavy weights notwithstanding and if I 
+<lb/>try the seton I shall let you know how it suceeds. But I 
+<lb/>must not speak so much about ego. I shall give you a little infor
+<lb/>mation concerning the diseases of this country and then proceed 
+<lb/>to missionary intelligence. </p>
+<lb/><p>Compared with other countries this has very few <term type="ailment">maladies</term>
+<lb/>indeed. I have only seen one case of <term type="ailment">consumption</term> and only two 
+<lb/>of <term type="ailment">scrofula</term> in a period of four years Amongst the <term type="tribe">hottentots</term> in 
+<lb/>the <placeName>Cape Colony</placeName> the former disease is by no means rare but let 
+<lb/>them come up to the dry and healthy climate of <placeName>Lattakoo</placeName> &amp; 
+<lb/>they invariably recover. I am no <unclear cert="low">believer</unclear> on the curability of <unclear cert="low">Phthisis</unclear>the general But some cases which have occured have quite 
+
+	<pb n="0002" facs="liv_000603_0002"/><!--pb/@n='21v'-->
+<lb/>astonished me. One young woman I carefully examined and found no evidence 
+<lb/>of her former disease although that had been pronounced by a medical man 
+<lb/>well acquainted with the stethoscope as a real case of <term type="ailment">consumption</term>
+<lb/>She bacame the subject of tumour on the ovarium and this having been 
+<lb/>dispersed by iodine she is now quite well. Poor <persName>Mr William<hi rend="sup">s</hi></persName> of 
+<lb/>Hankey was disuaded from coming up here. the medical men in 
+<lb/>the colony having about as much knowledge of this climate as of the 
+<lb/>planet Mars. I felt extremely sorry that he followed their advice and 
+<lb/>went home to your cold wet cloudy climate. I <choice><sic>concieve</sic><corr>conceive</corr></choice> there is not 
+<lb/>a better than this for patients with <term type="ailment">pulmonary complaints</term> in the 
+<lb/>world. I have not seen one patient from either <placeName>India</placeName> or <placeName>England.</placeName>
+<lb/>return unbenefitted by their sojourn. It is now in consequence 
+<lb/>of the abundance of game to all sorts become very common 
+<lb/>for Indian invalids who can afford it to make a trip up here &amp; 
+<lb/>from their enthusiastic statement it is probable it will become 
+<lb/>much more so. I wonder why the medical men connected with 
+<lb/>our society do not recommend our Indian missionaries to come here 
+<lb/>instead of going home. The East India company find <unclear cert="low">their</unclear> plan of sending 
+<lb/>to the <placeName>Cape</placeName> good. The same plan adopted by our old society might save 
+<lb/>a great deal of the funds. As I remember <persName>Mr Arundel</persName> once mentioning 
+<lb/>that they considered you one of their staff I take the liberty of speaking 
+<lb/>to you on this subject. And as I intend to make a series of observations 
+<lb/>in reference to this subject I shall be glad of any hints you may 
+<lb/>feel inclinded to give. We are if my thermometer can be depended on 
+<lb/>nearly three thousand feet above the level of the sea. the climate is dry 
+<lb/>&amp; clear and the nights are never so warm as to prevent sleep. the 
+<lb/>winters are always bracing, and disease is decidedly rare. I have been 
+<lb/>through the whole country and though well aquainted with the 
+<lb/>inhabitants I cannot say they have more than three diseases at all 
+<lb/>common among them. Neither natives nor Europeans are 
+<lb/>subject <add place="above">to</add> any other maladies but <term type="ailment">opthtalmia</term><term type="ailment">indigestion</term> and 
+<lb/>occasionally, a kind of <term type="ailment">bilious fever.</term> I have not yet 
+<lb/>been able to ascertain in any part a mortailty equal to ten 
+<lb/>per thousand. I have seen only six cases of <term type="ailment">Pneumonia</term> and 
+<lb/>all these were infants except one. Only 2 cases of 
+<w>Hydro-<lb break="no"/>cephalus</w> in native children and two in European infants have 
+<lb/>come to my knowledge One only of these came under my own observation 
+<lb/>the <term type="ailment">venereal disease</term> has often been communicated to bechuanas 
+<lb/>but invariably dies out. <term type="ailment">Rhumatism</term> and <term type="ailment">disease of the heart</term>
+<lb/>occur occasionally but surprisingly seldom when we think on 
+<lb/>habits of the natives. In travelling they sleep on the ground &amp; have 
+<lb/>but few precautions against damp. I have heard it remarked 
+<lb/>that in certain climates injurious effects are produced by exposure 
+<lb/>to the influence of the moon in sleep Nothing of the sort is ever 
+<lb/>known here. I have myself slept for weeks on the bare ground 
+<lb/>and often looked up to the beautifully clear orb until I have fallen 
+<lb/>asleep But I have felt nothing in consequence nor have I heard the 
+<lb/>natives ascribe anything harmful to her rays. If it is true that in 
+<lb/>these countries <term type="ailment">malaria</term> acts with increased virulence at certain 
+<lb/>lunar periods, the entire absence of effects at these periods in 
+
+	<pb n="0003" facs="liv_000603_0003"/><!--pb/@n='22r'-->
+<lb/><!--hand 1 top right 22-->relation to the production of disease would seem to shew that <term type="ailment">malaria</term> is 
+<lb/>not abundant here. And that where it is in existence it is at least ponderable 
+<lb/>&amp; acted upon in somewhat the same way as the tides. There have been 
+<lb/>no epidemics except <term type="ailment">influenza</term> &amp; <term type="ailment"><choice><sic>hooping</sic><corr>whooping</corr></choice> cough</term> since I came into the 
+<lb/>country - <term type="ailment">a kind of madness</term> previously unknown to the natives appeared 
+<lb/>last year amongst the dogs. but it differs essentially from <term type="ailment">Hydrophobia</term>
+<lb/>As a precautionary measure I have excised the bitten parts of all those 
+<lb/>who applied for assistance, the disease appeared to be communicated 
+<lb/>to a child &amp; a calf, both died. The long illness I was subjected to 
+<lb/>by the lion and my subsequent building operations have produced 
+<lb/>a great hiatus in my examinations &amp;c in the materia medica of 
+<lb/>the country. Many roots &amp;c. have been spoiled by long keeping so 
+<lb/>I must commence all over again </p>
+<lb/><p>I have lately transfered my labours from <placeName>Mabotsa</placeName> to a new 
+<lb/>station still farther to the North. It is a mountainous country but 
+<lb/>you see a blank alone on the maps. The tribe is called <term type="tribe">Bakwain</term>
+<lb/>or <term type="tribe">Baquane.</term> the country around is populous and away towards 
+<lb/>the East densely so But as we descend the country is more unhealthy 
+<lb/>the descent is shewn by the deep warm channels of the rivers <add place="above">rapid course</add> is 
+<lb/>great But we hope to spread a knowledge of the gospel 
+<lb/>even there by means of native teachers. I have two very 
+<lb/>efficient men in connection with the new station, all 
+<lb/>we have effected in this region may be called preperation only 
+<lb/>We continue to gain influence and only a month ago two 
+<lb/>wars were prevented by our mediation. <persName>The chief</persName> with whom I live 
+<lb/>refrained from attacking the murderers of <persName>his father</persName> because said 
+<lb/>he to them "I have promised to my missionary not to shed 
+<lb/>human blood." This is an enterprising man. He built a stone wall 
+<lb/>entirely round his town with loop holes &amp;c. and fruit 
+<lb/>of his own invention. He had never heard of any <gap extent="1" unit="words" agent="damage"/> He 
+<lb/>quickly learned to read, after acquiring a perfect know<supplied resp="#CO">ledge</supplied>
+<lb/>of the large &amp; small alphabets in two days. Polygamy is the 
+<lb/>great barrier. this chief often says "O I wish you had <gap extent="1" unit="words" agent="damage"/> to me before I became entangled with my wives." they can 
+<lb/>form no idea of or rather they give no credit to historical evidence 
+<lb/>because all they have <choice><sic>recieved</sic><corr>received</corr></choice> from their ancestors are a few 
+<lb/>vague and unsettled notions. We who have had greater ad
+<lb/>vantages can see <gap extent="1" unit="words" agent="damage"/> in these notions the fragments of a wreck 
+<lb/>of their primitive faith but though we often make sure 
+<lb/>of their own ideas in argument to the simple &amp; sublime 
+<w>declara-<lb break="no"/>tions</w> of the Divine word have far more effect than reasoning 
+<lb/>When we tell them of the great white throne and Him who shall 
+<lb/>sit upon it they sometimes say "Stop now, you alarm us" But they 
+<lb/>continue still in unbelief and nothing but a Divine influence 
+<lb/>will change their hearts. may that be granted and the Divine 
+<lb/>glory advanced in their conversion. </p>
+<lb/><p>Towards the south the progress of evangelization is 
+<lb/>steadily advancing. the fruits of the long continued labours 
+<lb/>of our predessors are now apparent everywhere. I cannot 
+<lb/>give any details as we have not heard from <placeName>Lattakoo</placeName>
+
+	<pb n="0004" facs="liv_000603_0004"/><!--pb/@n='22v'-->
+<lb/>for many months Indeed in reference to conveyance you are 
+<lb/>about as near <placeName>New York</placeName> as we are to <placeName>Kuruman</placeName>. A misanthrope 
+<lb/>who did not wish to hear any more about the civilized world would 
+<lb/>find this almost as good for his purpose as one of the silent system 
+<lb/>establishments in <placeName>America</placeName> But all will come right at last. 
+<lb/>Will you kindly remember me to your honoured Father and believe 
+<lb/>me. Yours ever Affectionately <persName>David Livingston</persName></p>
+<lb/><p>Please address me care of <persName>Rev D<hi rend="sup">r</hi> Philip</persName><placeName>Cape town.</placeName> It is 
+<lb/>not necessary to send to the mission house </p><!-- No position marker needed since addSpan position marks text position --><addSpan spanTo="#addEnd-22v" place="end"><!--addSpan/@place='Sheet folded to make envelope. Envelope text on the middle of fol. 22v'--></addSpan>
+<lb/><p><!--address on envelope-->Care of <persName>Rev. D<hi rend="sup">r</hi> Philip</persName><placeName>Cape Town</placeName>
+<lb/><persName>James Risdon Bennett M.D.</persName></p>
+<lb/><p rend="right">8 Finsbury Place </p>
+<lb/><p rend="right">Finsbury Square </p>
+<lb/><p rend="right">London </p>
+<lb/><p>Single sheet </p><anchor xml:id="addEnd-22v"/>
+			
+</div>
+		</body>
+	</text></TEI>
