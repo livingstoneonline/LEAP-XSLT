@@ -49,19 +49,19 @@
     <!-- linebreak before TEI element -->
     <xsl:template match="TEI"><xsl:text>
          </xsl:text>
-        <TEI><xsl:apply-templates select="node()"/></TEI>
+        <TEI><xsl:apply-templates select="@*|node()"/></TEI>
     </xsl:template>
     
     <!-- update title -->
     <xsl:template match="/TEI/teiHeader/fileDesc/titleStmt/title[1]">
         <xsl:choose>
-            <xsl:when test="$doc//mods:titleInfo/mods:title"><title><xsl:value-of select="$doc//mods:titleInfo/mods:title"/></title></xsl:when>
+            <xsl:when test="$doc//mods:titleInfo/mods:title"><title><xsl:value-of select="$doc//mods:titleInfo[not(@type='alternate')][1]/mods:title[1]"/></title></xsl:when>
             <xsl:otherwise><xsl:copy><xsl:apply-templates select="@*|node()"></xsl:apply-templates></xsl:copy></xsl:otherwise>
         </xsl:choose>
         <xsl:if test="$doc//mods:titleInfo[@type='alternative']/mods:title">
             <xsl:text>
                 </xsl:text>
-                <title type="alternative"><xsl:value-of select="$doc//mods:titleInfo[@type='alternative']/mods:title"/></title></xsl:if>
+                <title type="alternative"><xsl:value-of select="$doc//mods:titleInfo[@type='alternative']/mods:title[1]"/></title></xsl:if>
     </xsl:template>
     
     <!-- update author: defaulting to David Livingstone if author has Livingstone -->

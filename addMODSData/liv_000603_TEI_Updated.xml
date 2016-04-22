@@ -2,11 +2,11 @@
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
-         <TEI xmlns="http://www.tei-c.org/ns/1.0"><!-- LP115 -->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000603"><!-- LP115 -->
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter to James R. Bennett Letter to James R. Bennett, 26 December 1845</title>
+				<title>Letter to James R. Bennett</title>
                 <title type="alternative">Letter to James R. Bennett, 26 December 1845</title>
 				<author xml:id="DL">Livingstone, David, 1813-1873</author>
 			</titleStmt>
