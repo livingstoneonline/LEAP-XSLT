@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<mods:mods xmlns:mods='http://www.loc.gov/mods/v3' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.loc.gov/standards/mods/v3/mods-3-5.xsd'>
+  <mods:identifier type='local' displayLabel='master_id'>liv_000455</mods:identifier>
+  <mods:identifier type='local' displayLabel='Canonical Catalog Number'>Letters, 0001</mods:identifier>
+  <mods:titleInfo>
+    <mods:title>Letter to [John Arundel]</mods:title>
+  </mods:titleInfo>
+  <mods:titleInfo type='alternative'>
+    <mods:title>Letter to [John Arundel], 5 September 1837</mods:title>
+  </mods:titleInfo>
+  <mods:name type='personal'>
+    <mods:namePart>Livingstone, David, 1813-1873</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type='text'>creator</mods:roleTerm>
+    </mods:role>
+  </mods:name>
+  <mods:name type='personal'>
+    <mods:namePart>Arundel, John, 1778-1848</mods:namePart>
+    <mods:role>
+      <mods:roleTerm type='text'>addressee</mods:roleTerm>
+    </mods:role>
+    <mods:description>Home Secretary of the London Missionary Society 1819-46, hence Livingstone's first contact with the Society.</mods:description>
+  </mods:name>
+  <mods:genre authority='aat'>letters</mods:genre>
+  <mods:genre authority='aat'>autographs (manuscripts)</mods:genre>
+  <mods:originInfo>
+    <mods:publisher>Livingstone Online (http://livingstoneonline.org/)</mods:publisher>
+    <mods:dateCreated>5 September 1837</mods:dateCreated>
+    <mods:dateCreated encoding='iso8601'>1837-09-05</mods:dateCreated>
+  </mods:originInfo>
+  <mods:originInfo displayLabel='Livingstone'>
+    <mods:place>
+      <mods:placeTerm type='text'>Blantyre Works</mods:placeTerm>
+    </mods:place>
+  </mods:originInfo>
+  <mods:originInfo displayLabel='LoC'>
+    <mods:place>
+      <mods:placeTerm type='text'>Blantyre (Scotland)</mods:placeTerm>
+    </mods:place>
+  </mods:originInfo>
+  <mods:subject>
+    <mods:cartographics>
+      <mods:coordinates>55.793,-4.097</mods:coordinates>
+    </mods:cartographics>
+  </mods:subject>
+  <mods:physicalDescription>
+    <mods:note type='physical details'>Complete manuscript in creator's hand</mods:note>
+    <mods:extent unit='pages'>4</mods:extent>
+    <mods:note>1 folio, folded to create 4 pages, with writing on 4 pages</mods:note>
+    <mods:extent unit='mm'>228 x 184</mods:extent>
+  </mods:physicalDescription>
+  <mods:relatedItem type='original'>
+    <mods:name type='corporate' authorityURI='http://id.loc.gov/authorities/names' valueURI='http://id.loc.gov/authorities/names/n79092591'>
+      <mods:namePart>University of London. School of Oriental and African Studies</mods:namePart>
+      <mods:role>
+        <mods:roleTerm type='text' authority='marclerator'>repository</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:location>
+      <mods:shelfLocator>CWM/LMS/Livingstone Wooden Box, item 3</mods:shelfLocator>
+    </mods:location>
+    <mods:accessCondition type='use and reproduction'>Images from SOAS Library, University of London. Images &amp;#169; Council for World Mission. Used by permission for private study, educational or research purposes only. Please contact SOAS Archives &amp;amp; Special Collections on docenquiry&amp;#64;soas.ac.uk for permission to use this material for any other purpose.</mods:accessCondition>
+    <mods:accessCondition type='use and reproduction'>As relevant, &amp;#169; Dr. Neil Imray Livingstone Wilson. Creative Commons Attribution-NonCommercial 3.0 Unported (https://creativecommons.org/licenses/by-nc/3.0/).</mods:accessCondition>
+  </mods:relatedItem>
+  <mods:identifier type='local' displayLabel='NLS copy identifier'>MS. 10778</mods:identifier>
+  <mods:relatedItem type='otherVersion'>
+    <mods:identifier>Judith Listowel, The Other Livingstone (Lewes, Sussex: Julian Friedmann Publishers Ltd., 1974), 6-7, ex.</mods:identifier>
+  </mods:relatedItem>
+</mods:mods>

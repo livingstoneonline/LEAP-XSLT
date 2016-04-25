@@ -19,8 +19,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl xml:id="ccnumber">Letters, 0141</bibl>
-				<bibl xml:id="recipient"><persName role="recipient">Bennett, James R., 1809-1891</persName>
-<note type="desc">Son of a secretary of the London Missionary Society. Graduated in medicine at Edinburgh in 1833. Practiced at Charing Cross Hospital in London where he taught Livingstone. President of the Royal College of Physicians 1876-81.</note></bibl>
+				<bibl xml:id="recipient">James Risdon Bennett</bibl>
 				<bibl xml:id="date"><date when="1845-12-26">26 December 1845</date></bibl>
 				<bibl xml:id="where">Chonuane</bibl>
 				<bibl>National Library of Scotland Ms. 10707, ff. 21r-22v</bibl><!--1845-12-26--><!--Original:1845-12-26-->

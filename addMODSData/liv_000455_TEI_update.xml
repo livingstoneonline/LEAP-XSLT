@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <!--Converted from a TEI P5 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000455">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to [John Arundel]</title>
+                <title type="alternative">Letter to [John Arundel], 5 September 1837</title>
+                <title type="alternative">Letter to [John Arundel], 5 September 1837</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>London, UK</pubPlace>
+				<publisher>University College London</publisher>
+				<date>2012</date>
+				<idno type="LEAP-ID">liv_000455</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="shelfmark">
+    
+      University of London. School of Oriental and African Studies
+      
+        repository
+      
+    
+    
+      CWM/LMS/Livingstone Wooden Box, item 3
+    
+    Images from SOAS Library, University of London. Images &amp;#169; Council for World Mission. Used by permission for private study, educational or research purposes only. Please contact SOAS Archives &amp;amp; Special Collections on docenquiry&amp;#64;soas.ac.uk for permission to use this material for any other purpose.
+    As relevant, &amp;#169; Dr. Neil Imray Livingstone Wilson. Creative Commons Attribution-NonCommercial 3.0 Unported (https://creativecommons.org/licenses/by-nc/3.0/).
+  ; </bibl>
+				<bibl xml:id="ccnumber">Letters, 0001</bibl>
+				<bibl xml:id="recipient"><persName role="recipient">Arundel, John, 1778-1848</persName>
+<note type="desc">Home Secretary of the London Missionary Society 1819-46, hence Livingstone's first contact with the Society.</note></bibl>
+				<bibl xml:id="date"><date when="1837-09-05">5 September 1837</date></bibl>
+				<bibl xml:id="where">Blantyre Works</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2012-03-03</date>
+				<name xml:id="AJS">AJ Schmitz</name> Initial transcription and XML encoding.
+            
+			</change>
+			<change>
+				<date>2012-05-30</date>
+				<name xml:id="DC">Danielle Cyphert</name> Proofreading.
+            
+			</change>
+			<change>
+				<date>2012-06-01</date>
+				<name xml:id="AW">Adrian S. Wisnicki</name> Additional encoding.
+            
+			</change>
+			<change>
+				<date>2012-07-07</date>
+				<name xml:id="HFB">Heather F. Ball</name> XML editing.
+            
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+
+	<pb n="0001" facs="liv_000455_0001"><!--pb/@n='1r'--></pb>
+<lb/><p rend="right"><placeName><settlement type="town">Blantyre Works</settlement></placeName><date when="1837-09-05">5<hi rend="sup">th</hi><choice><abbr>Sept.</abbr><expan>September</expan></choice> 1837.</date></p>
+<lb/><p rend="left">Dear Sir.</p><!-- Inserted period to reflect text HB 7/7/12 -->
+<lb/><p>Being very desirous, for some years past, to devote my life to the 
+<lb/>cause of missions, and thinking, at one time, that my education for that purpose 
+<lb/>might be prosecuted throughout by the fruits of my own industry; after a 
+<lb/>trial of one season at some medical, and other classes I find that this 
+<lb/>is nearly impracticable:  Observing frequent appeals for missionaries,  
+<lb/>in the Evangelical Magazine, and talking over the matter to my pastor 
+<lb/>the <persName>Rev.<hi rend="sup">nd</hi> M.<hi rend="sup">r</hi> Moir</persName> of the <choice><sic>Independant</sic><corr>Independent</corr></choice> church, <placeName><settlement type="town">Hamilton</settlement></placeName>, I was encouraged <!-- Inserted coding for correct spelling of Independent HB 7/7/12 -->
+<lb/>to offer myself to your society:  and, subsequently, I received information to 
+<lb/>give an account of my christian experience, Doctrinal views, and Christian 
+<lb/>motives, which I now endeavour shortly to give.</p>
+<lb/><p>Through the merciful providence of a gracious god, it was my <choice><sic>privelege</sic><corr>privilege</corr></choice> to enjoy the
+<lb/>instructions, example, and prayers, of pious parents, who still walk before god in the 
+<lb/>land of the living. These, however, had no effect on my desperately wicked heart, only 
+<lb/>serving to restrain me, in some measure, from outward immorality; When about my 
+<lb/>twelfth year, I was visited with great distress of mind on account of my sinfulness, and 
+<lb/>anxious desire to possess the peace of mind, and happiness, which I felt convinced, 
+<lb/>the true christian alone enjoyed, This I could not attain, because of my looking 
+<lb/>continually within for an effect, which I thought must be produced there, by 
+<lb/>the spirit of god, ere I could be entitled to take the benefit of the gospel, and 
+<lb/>this delusion being strengthened by some preaching, which I then heard, my only 
+<lb/>course appeared to be, just to wait the good pleasure <add place="above">of</add> god.  Thus, continuing to look for 
+<lb/>another ground of hope, than the finished work of christ, I found neither peace nor 
+ 
+       
+
+	<pb n="0002" facs="liv_000455_0002"><!--pb/@n='1v'--></pb>
+<lb/>happiness, which caused me, (never having revealed the state of my mind to any one) often to 
+<lb/>bewail my sad state with tears in secret.  The anxiety of my mind after some time abated 
+<lb/>but a perpetual uneasiness, a soreness of heart still remained, which no amusements <del type="cancelled">nor</del>
+<lb/>nor pursuit could assuage, Until in my nineteenth year, it pleased god in <choice><orig>mercifull</orig><reg>merciful</reg></choice>
+<lb/>kindness &amp; compassion to <choice><orig>shew</orig><reg>show</reg></choice> me my folly &amp; error, by means of a work, entitled,
+<lb/>"The Philosophy of a future state," previous to reading which though <choice><orig>sceptical</orig><reg>skeptical</reg></choice> thoughts 
+<lb/>were not actually entertained, concerning the reality of the existence of such a state 
+<lb/>yet it had no influence whatever on <add place="below">^</add><add place="above">my</add> conduct, If I bestowed on them a thought 
+<lb/>Heaven had no attractions for me, and Hell was never an object of alarm. But now <del type="cancelled">full</del>
+<lb/>full conviction of their relation to me, filled my mind, and I likewise felt that the 
+<lb/>atoning work of <persName>Christ</persName> was the only ground on which I could hope to find peace 
+<lb/>to my soul here, and enjoy the prospects of bliss hereafter, and enabled by divine 
+<lb/>grace to cast myself on the mercy of god through Christ. a peace and joy entered 
+<lb/>my heart, to which till then I had been an entire stranger.  This has
+<lb/>occasionaly been interrupted by <choice><sic>unbeleiving</sic><corr>unbelieving</corr></choice> doubts &amp; fears, but with the help
+<lb/>of a gracious god, I have been enabled to dismiss these, by repairing to the only 
+<lb/>hope of the sinner, the lamb that was slain.  and now, trusting that he will keep 
+<lb/>me from falling, through life, and believing he will save me at last, not for anything 
+<lb/>I am, or can do, for I see nothing in me nor about me to merit such great mercy 
+<lb/>but on the contrary every thing deserving the wrath and curse of god through eternity:  
+<lb/>But solely, through his own <choice><sic>sovreign</sic><corr>sovereign</corr></choice> grace &amp; love, flowing through the propitiatory blood 
+<lb/>of <persName>Jesus Christ</persName> his son.</p>
+<lb/><p>That, the scriptures of the old and new Testaments, are a revelation of the will 
+<lb/>of god to fallen man, this being attested by such evidence as no one with <add place="below">an</add> unbiased
+<lb/>mind can resist.  That they contain a perfect rule of faith and practice. "All 
+
+       
+
+	<pb n="0003" facs="liv_000455_0003"><!--pb/@n='2r'--></pb>
+<lb/>scripture being given by inspiration of god, and profitable for doctrines for 
+<lb/>reproof, for correction, for instruction in righteousness,"  From these we learn that 
+<lb/>there is one god, in three persons, Father, son, and holy spirit; that he is the creator 
+<lb/>preserver, and moral governor of the universe__ That man was created by him holy 
+<lb/>and happy.  but broke his law, and introduced rebellion into the world, thereby 
+<lb/>losing the favour and image of god, and entailing sin and misery on himself and all 
+<lb/>his posterity, "By one man sin entered into the world," and "by one man's disobedience 
+<lb/>many were made sinners"__ The total depravity of all men, "There is none righteous, no, not one" 
+<lb/>God's righteous law being violated, man might have been justly condemned to eternal 
+<lb/>punishment, the desert of his sin, but god, in infinite mercy and love, devised a 
+<lb/>way whereby the claims of his justice are satisfied and the sinner saved, By the <w>substitu-
+<w><lb break="no"/>-tionary</w></w> sufferings &amp; death of his own son, who offered himself, a sacrifice without sp<gap agent="tear" extent="3" unit="chars"/>
+<lb/>god.  Thus, procuring a righteousness, which is unto, and upon all them that <gap agent="tear" extent="1" unit="words"/>
+<lb/>the sinner who renounces his selfrighteousness, and places all his <choice><sic>dependance</sic><corr>dependence</corr></choice> on the rig<gap agent="tear" extent="5" unit="chars"/><w><lb break="no"/>-usness</w> of christ, is justified before god.  and <choice><sic>asissted</sic><corr>assisted</corr></choice> by the spirit of god, works out his
+<lb/>own deliverance from the pollution of sin- all are invited to accept salvation through <persName>Christ</persName>
+<lb/>but because of the moral depravity of man, a divine influence is <choice><sic>necassary</sic><corr>necessary</corr></choice> to make him 
+<lb/>willing to receive it, which is promised to all who ask it; and those who choose to reject this 
+<lb/>salvation must perish__ That the son is truely &amp; properly god, equal with the Father-- The divinity 
+<lb/>and personality of the holy spirit__ <choice><sic>Ressurection</sic><corr>Resurrection</corr></choice> and final <choice><sic>Judgement</sic><corr>Judgment</corr></choice>__ Eternity of future bliss &amp; punishment 
+<lb/><unclear cert="medium">Pacdobaptism</unclear>__ Weekly communion__ <choice><sic>Congregetional</sic><corr>Congregational</corr></choice> or <choice><sic>Independant</sic><corr>Independent</corr></choice> form of church government, 
+<lb/>Experiencing in some degree that happiness which the gospel imparts, and feeling, in some 
+<lb/>measure, my obligation to redeeming love, it is my <choice><sic>ernest</sic><corr>earnest</corr></choice> desire to consecrate my whole
+<lb/>life to the advancement of the cause of our blessed redeemer in the world, thereby endeavouring 
+<lb/>to evince my love &amp; gratitude to him "who though rich, yet for our sakes became poor"</p>
+<lb/><p rend="right"><persName>David <choice><orig>Livingston</orig><reg>Livingstone</reg></choice></persName></p>
+
+	<pb n="0004" facs="liv_000455_0004"><!--pb/@n='2v'--></pb>
+<lb/><p>The <persName>Rev.<hi rend="sup">d</hi> John Arundel</persName></p>
+<lb/><p><placeName>Mission House</placeName><placeName>Bloomfield Street</placeName></p>
+<lb/><p><placeName><settlement type="city">London</settlement></placeName></p><!-- Postal information on letter- not transcribed HB 9/11/12 -->
+			
+</div>
+		</body>
+	</text></TEI>

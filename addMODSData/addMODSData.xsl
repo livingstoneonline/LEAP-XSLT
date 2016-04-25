@@ -78,7 +78,7 @@
     <xsl:template match="bibl[@xml:id='shelfmark']">
         <xsl:choose>
             <xsl:when test="$doc//mods:relatedItem[@type='original'][mods:name/mods:role/mods:roleTerm[contains(.,'repository')]/../../mods:namePart/text()][mods:location/mods:shelfLocator/text()]">
-                <bibl xml:id="shelfmark"><xsl:value-of select="$doc//mods:relatedItem[@type='original'][mods:name/mods:role/mods:roleTerm[contains(.,'repository')]/../../mods:namePart]"/>; <xsl:value-of select="mods:location/mods:shelfLocator"/></bibl>
+                <bibl xml:id="shelfmark"><xsl:value-of select="$doc//mods:relatedItem[@type='original'][mods:name/mods:role/mods:roleTerm[contains(.,'repository')]]/mods:name[@type='corporate']/mods:namePart"/>; <xsl:value-of select="$doc//mods:relatedItem[@type='original'][mods:name/mods:role/mods:roleTerm[contains(.,'repository')]]/mods:location/mods:shelfLocator"/></bibl>
                 </xsl:when>
             <xsl:otherwise><xsl:copy><xsl:apply-templates select="@*|node()"></xsl:apply-templates></xsl:copy></xsl:otherwise>
             </xsl:choose>
@@ -109,8 +109,8 @@
     <xsl:template match="bibl[@xml:id='recipient']">
         <xsl:choose>
             <xsl:when test="$doc//mods:name[@type='personal'][mods:role/mods:roleTerm[contains(.,'addressee')]/../../mods:namePart/text()]">
-                <bibl xml:id="recipient"><persName role="recipient"><xsl:value-of select="$doc//mods:name[@type='personal']/mods:role/mods:roleTerm[contains(.,'addressee')]/../../mods:namePart"/></persName> <xsl:if test="$doc//mods:name[@type='personal'][mods:role/mods:roleTerm[contains(.,'addressee')]/../../mods:description/text()]"><xsl:text>
-</xsl:text><note type="desc"><xsl:value-of select="$doc//mods:name[@type='personal']/mods:role/mods:roleTerm[contains(.,'addressee')]/../../mods:description"/></note></xsl:if>
+                <bibl xml:id="recipient"><persName role="recipient"><xsl:value-of select="$doc//mods:name[@type='personal']/mods:role/mods:roleTerm[contains(.,'addressee')]/../../mods:namePart"/></persName> <!--<xsl:if test="$doc//mods:name[@type='personal'][mods:role/mods:roleTerm[contains(.,'addressee')]/../../mods:description/text()]"><xsl:text>
+</xsl:text><note type="desc"><xsl:value-of select="$doc//mods:name[@type='personal']/mods:role/mods:roleTerm[contains(.,'addressee')]/../../mods:description"/></note></xsl:if>-->
                 </bibl>
             </xsl:when>
             <xsl:otherwise><xsl:copy><xsl:apply-templates select="@*|node()"></xsl:apply-templates></xsl:copy></xsl:otherwise>
