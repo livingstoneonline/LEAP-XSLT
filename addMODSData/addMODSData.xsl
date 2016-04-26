@@ -75,7 +75,6 @@
             <xsl:otherwise><xsl:copy><xsl:apply-templates select="@*|node()"></xsl:apply-templates></xsl:copy></xsl:otherwise>
         </xsl:choose>
    </xsl:template>
-    
     <xsl:template match="/TEI/teiHeader/fileDesc/titleStmt/author[2-99]"/>
     
     <!-- update shelfmark -->
