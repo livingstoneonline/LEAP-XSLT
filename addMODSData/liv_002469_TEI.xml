@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
+         <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_002469"><!-- LP113 -->
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to Agnes Livingstone 3</title>
+                <title type="alternative">Letter to Agnes Livingstone 3, 22, 29 January, 6 February 1866</title>
+				<author xml:id="DL">Livingstone, David, 1813-1873</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>London</pubPlace>
+				<date>2006-10-09</date>
+				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+				<idno type="LEAP-ID">liv_002469</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="ccnumber">Letters, 1871</bibl>
+				<bibl xml:id="recipient"><persName role="recipient">Livingstone, Agnes 3, 1847-1912</persName></bibl>
+				<bibl xml:id="date"><date when="1866-01-22/1866-02-06">22, 29 January, 6 February 1866</date></bibl>
+				<bibl xml:id="where">[At Sea] -Zanzibar</bibl>
+				<bibl>National Library of Scotland Ms. 10704, ff. 33r-40v</bibl><!--1866-01-22--><!--Original:1866-01-22-->
+				<bibl>16 pages</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change>
+				<date>2006-08-31</date>
+				<name xml:id="SM">Sharon Messenger</name>Initial Transcription
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<div>
+
+	<pb n="0001" facs="liv_002469_0001"/><!--pb/@n='33r'-->
+<!--hand01topright33--><!--hand02topleft47crossedout--><!--hand03centre15inacircle-->
+<lb/><p rend="right">Crossing the Line in </p>
+<lb/><p rend="right"><choice><abbr>Long.</abbr><expan>longitude</expan></choice> 49° E. 22<hi rend="underline"><hi rend="sup">nd</hi></hi> Januar </p>
+<lb/><p rend="right">y</p>
+<lb/><p rend="right">1866</p>
+<lb/><p rend="left">My Dear <persName>Nannie</persName></p>
+<lb/><p>I begin a letter now 
+<lb/>in order to be part ready 
+<lb/>when we come to <placeName>Zanzibar</placeName> which may be in a week 
+<lb/>hence. We are getting on 
+<lb/>pretty well but such a 
+<lb/>rolling ship never was 
+<lb/>known by the name of 
+<lb/>a pleasure yacht. I suppose 
+<lb/>she was sold in <placeName>England</placeName> because she was so 
+<lb/>lively. As soon as we 
+<lb/>sit down to dinner 
+
+	<pb n="0002" facs="liv_002469_0002"/><!--pb/@n='33v'-->
+<lb/>our entire attention is taken 
+<lb/>up in balancing the soup 
+<lb/>plates. If you forget the 
+<lb/>vessel in your hand, the 
+<lb/>other vessel gives a lurch. 
+<lb/>and the greasy fluid flows 
+<lb/>into your lap. Fancy a 
+<lb/>comfortable old gentleman 
+<lb/><add place="above">about my size</add> taking a bath while she is 
+<lb/>playing her beastly pranks. 
+<lb/>One bucket of salt water 
+<lb/>is all he can venture to put 
+<lb/>in. One moment he is 
+<lb/>holding on by the sides to 
+<lb/>avoid sliding to the other 
+<lb/>end. the next the mad 
+<lb/>fluid sloshes up to his 
+<lb/>chest &amp; mouth, and the 
+<lb/>mice in their holes &amp; the 
+
+	<pb n="0003" facs="liv_002469_0003"/><!--pb/@n='34r'-->
+<lb/><!--hand0134-->very flies on the wall laugh 
+<lb/>at him. Most of the marine 
+<lb/>sepoys were sick. You 
+<lb/>would have been a victim 
+<lb/>unless you had tried the 
+<lb/>new remedy of a bag of 
+<lb/>pounded ice along the spine, 
+<lb/>which sounds as hopeful 
+<lb/>as the old cure for 
+<w>tooth-<lb break="no"/>ache,</w> namely, "take a 
+<w>mouth-<lb break="no"/>ful</w> of cold water &amp; sit on the 
+<lb/>fire till it boils. You 
+<lb/>will suffer no more from 
+<lb/>toothache " We have had 
+<w>no-<lb break="no"/>thing</w> to attract our attention 
+<lb/>in coming over this wide 
+<lb/>waste of waters - a sea broke 
+<lb/>one of the boats so that half of 
+<lb/>it was swept away &amp; two 
+<lb/>seedies or black sailors were 
+<lb/>taken with it. The life buoys 
+
+	<pb n="0004" facs="liv_002469_0004"/><!--pb/@n='34v'-->
+<lb/>were thrown to them and a 
+<lb/>boat lowered &amp; they were 
+<lb/>picked up. All the sailors 
+<lb/>are <add place="above">either</add> Lascars or Seedies. They 
+<lb/>get confused in any 
+<lb/>emergency. The <persName>Captain</persName>
+<lb/>had to go &amp; shew them every 
+<lb/>rope to be hauled when 
+<lb/>taking in sail, and I took 
+<lb/>the wheel and brought her 
+<lb/>"up in the wind" while the 
+<lb/>above affair took place. 
+<lb/>This stopped the ship's course 
+<lb/>otherwise we should have 
+<lb/>left the poor fellows 
+<w>hope-<lb break="no"/>lessly</w> out of sight. A 
+<lb/>shark took a bite at the 
+<lb/>revolving vane of the 
+<lb/>patent log today. He 
+<lb/>left some pieces of the 
+<lb/><!--hand01top right 35--><!--hand02top left 2/4-->
+
+	<pb n="0005" facs="liv_002469_0005"/><!--pb/@n='35r'-->
+<lb/>enamel of his teeth in the 
+<lb/>brass, and probably has the 
+<lb/><term type="ailment">toothache;</term> you will of 
+<lb/>course sympathize with 
+<lb/>him. The vane revolves 
+<lb/>in the water and the number 
+<lb/>of revolutions are registered 
+<lb/>in a little machine in 
+<lb/>front of it so that the 
+<lb/>distance travelled over is 
+<lb/>known. It trails behind the 
+<lb/>ship. </p>
+<lb/><p>If you ask <persName>M<hi rend="underline"><hi rend="sup">r</hi></hi> Murray</persName>
+<lb/>to send by <persName>M<hi rend="underline"><hi rend="sup">r</hi></hi> Conyingham</persName>
+<lb/>"<persName>Buckland's</persName> curiosities of 
+<lb/>natural history",and <persName>M<hi rend="underline"><hi rend="sup">r</hi></hi>
+<lb/>Gladstones</persName> address to the 
+<lb/><placeName>Edinburgh</placeName> students it will 
+<lb/>save me writing to him 
+
+	<pb n="0006" facs="liv_002469_0006"/><!--pb/@n='35v'-->
+<lb/>When you return home you 
+<lb/>will be scrutinized to see if 
+<lb/>you are spoiled. You have 
+<lb/>only to act naturally &amp; 
+<lb/>kindly to all your old 
+<lb/>friends to disarm their 
+<lb/>prejudices. I think you 
+<lb/>will find the <persName>Youngs</persName> true 
+<lb/>friends. <persName>M<hi rend="sup">rs</hi> Williamson</persName>
+<lb/>of <placeName>Widdicombe hill</placeName> near 
+<lb/><placeName>Bath</placeName> writes to me that 
+<lb/>she would like to shew you 
+<lb/>her plans for the benefit 
+<lb/>of poor orphans. If you 
+<lb/>thought of going to <placeName>Bath</placeName>
+<lb/>it might be well to get 
+<lb/>all the insight you could 
+<lb/>into that, and every other 
+<lb/>good work. It is well to be 
+
+	<pb n="0007" facs="liv_002469_0007"/><!--pb/@n='36r'-->
+<lb/><!--hand01top right 36-->able to take a comprehensive 
+<lb/>view of all benevolent 
+<lb/>enterprises, and resolve 
+<lb/>to do our duty in life in 
+<lb/>some way or other for 
+<lb/>we cannot live for 
+<w>our-<lb break="no"/>selves</w> alone. A life of 
+<w>self-<lb break="no"/>ishness</w> is one of misery. 
+<lb/>and it is unlike that of 
+<lb/>our blessed saviour who 
+<lb/>pleased not himself. He 
+<lb/>followed not his own 
+<lb/>will even, but the will of 
+<lb/>his father in Heaven. I have 
+<lb/>read with much pleasure 
+<lb/>a book called "Rose Douglas" 
+<lb/>It is the life of a minister's 
+<lb/>daughter with ficticious 
+<lb/>names, but all true. She 
+<lb/>was near <placeName>Lanark</placeName> and 
+<lb/>came through <placeName>Hamilton</placeName> you 
+
+	<pb n="0008" facs="liv_002469_0008"/><!--pb/@n='36v'-->
+<lb/>had better read it if you come 
+<lb/>in contact with it. </p>
+<lb/><p>I would not stop too long 
+<lb/>at <placeName>Newstead Abbey.</placeName> Travelling 
+<lb/>about is very expensive.If <persName>Tom</persName> &amp; <persName>Oswell</persName> go again to 
+<lb/><unclear cert="low">Mull</unclear> you had better go with 
+<lb/>them. </p>
+<lb/><p>What a mistake to say any 
+<lb/>thing about the <unclear cert="low">Marsauceaux</unclear>
+<lb/>wine before the review 
+<lb/>was written. If I say now 
+<lb/>that it was very good. It 
+<lb/>really had something very 
+<lb/>sparkling in it, <persName>M<hi rend="underline"><hi rend="sup">r</hi></hi><unclear cert="low">Cailliate</unclear></persName>
+<lb/>will see that I am dreading 
+<lb/>his Review, But I 
+<w>main-<lb break="no"/>tain</w> that I only <choice><sic>depretiated</sic><corr>depreciated</corr></choice> it 
+<lb/>as a means of writing 
+<lb/>not for drinking. No. No! 
+
+	<pb n="0009" facs="liv_002469_0009"/><!--pb/@n='37r'-->
+<lb/><!--hand01 top right 37--><!--hand04 top left 3/-->You did not mention 
+<lb/>what you considered most 
+<lb/>precious on the night of the 
+<lb/>fire, so I dreamed that I 
+<lb/>saw one young lady 
+<w>hug-<lb break="no"/>ging</w> a German Grammar 
+<lb/>to her bosom - another with 
+<lb/>a pair of curling tongs - a 
+<lb/>toothpick and a pinafore. 
+<lb/>Another with a bunch of 
+<lb/>used up postage stamps &amp; 
+<lb/>autographs in a crinoline 
+<lb/>turned upside down, and 
+<lb/>a fourth lifted up <persName>Madame 
+<lb/><unclear cert="low">Hocede</unclear></persName> &amp; insisted on carrying 
+<lb/>her as her most precious 
+<lb/>baggage. Her name which I 
+<lb/>did not catch will go down to 
+<lb/>posterity alongside of the ladies 
+<lb/>who each carried out her 
+<lb/>husband from the besiged city 
+<lb/>&amp; took care never to let him 
+
+	<pb n="0010" facs="liv_002469_0010"/><!--pb/@n='37v'-->
+<lb/>hear the last of it afterwards. 
+<lb/>I am so penetrated with 
+<w>ad-<lb break="no"/>miration</w> of her that I enclose 
+<lb/>the wing of a flying fish for 
+<lb/>her. It lighted among us last 
+<lb/>night while we were at 
+<w>din-<lb break="no"/>ner</w> coming right through 
+<lb/>the skylight - You will make 
+<lb/>use of this fact in the high flying 
+<lb/>speech which you will deliver 
+<lb/>there in French </p>
+<lb/><p>If the "Anties" would get 
+<lb/><persName>M<hi rend="underline"><hi rend="sup">r</hi></hi><choice><sic>Youngs</sic><corr>Young's</corr></choice></persName> lawyer to manage 
+<lb/>the affair of the house they 
+<lb/>would get a double storeyed 
+<lb/>one built for them some 
+<lb/>where else but they wont 
+<lb/>take advice. They put no 
+<lb/>accounts down - make 
+<lb/>no memoranda so are 
+<lb/>at the mercy of any one 
+<lb/>who gives them a fair story 
+<lb/>I cannot interfere further 
+
+	<pb n="0011" facs="liv_002469_0011"/><!--pb/@n='38r'-->
+<lb/><!--hand01 top right 38-->than to ask <persName>M<hi rend="underline"><hi rend="sup">r</hi></hi> Young</persName> to 
+<lb/>help them. <persName>Janet</persName> will 
+<lb/>say "Oh aye its a in my 
+<lb/>heed" &amp; no documents 
+<lb/>are necessary. I question 
+<lb/>if the ground is theirs. 
+<lb/>I wanted them to get all 
+<lb/>acccounts settled in 1858. 
+<lb/>with some lawyer fellow 
+<lb/>from whom instead of 
+<lb/>the town council they got 
+<lb/>the <unclear cert="low">fen,</unclear> but they only 
+<lb/>vexed me with their 
+<lb/>fencing my questions &amp; 
+<lb/>shall never say a word 
+<lb/>to them about it again. </p>
+<lb/><p>Write a note to <persName>R.L. 
+<lb/>Tracey esq.</persName><persName>Ritchie Stewart</persName>
+<lb/>&amp; co. <placeName>Bombay</placeName> and say 
+<lb/>that I desired you to give 
+<lb/>him <del type="strikethrough">my</del><add place="above">(your)</add> address in 
+<lb/>reference to the money 
+<lb/>he has been kind enough 
+
+	<pb n="0012" facs="liv_002469_0012"/><!--pb/@n='38v'-->
+<lb/>to invest. It wont be put 
+<lb/>in your name until perhaps 
+<lb/>twelve months hence. If 
+<lb/>much above £2000 then 
+<lb/>you had better make the 
+<lb/>surplus stand for <persName>Anna 
+<lb/>Mary.</persName> You will give 
+<lb/>him your address say half 
+<lb/>a year hence. </p>
+<lb/><p><placeName>Zanzibar</placeName> 29<hi rend="underline"><hi rend="sup">th</hi></hi> we arrived 
+<lb/>here yesterday &amp; found that 
+<lb/>9 of my buffaloes had 
+<lb/>died. It is a bad climate 
+<lb/>for both man &amp; beast 
+<lb/>2 males 2 cows &amp; 2 
+<lb/>calves alone remain to 
+<lb/>try the experiment with 
+<lb/>the Tsetse. We went today 
+<lb/>to call on the <persName>Sultan</persName>. His Highness met us at 
+<lb/>the bottom of the stairs 
+
+	<pb n="0013" facs="liv_002469_0013"/><!--pb/@n='39r'-->
+<lb/><!--hand01 top right 39-->and as he shook hands 
+<lb/>a brass band which he 
+<lb/>got at <placeName>Bombay</placeName> blared 
+<lb/>forth "God Save the Queen" 
+<lb/>This was excessively ludicrious 
+<lb/>but I maintained sufficient 
+<lb/>official gravity. After 
+<lb/>coffee &amp; sherbert we came 
+<lb/>away and the wretched 
+<lb/>band now struck up "The 
+<lb/>British Grenadiers" as if 
+<lb/>the fact of my being only 
+<lb/>5 ft 8 &amp; <unclear cert="low"> Brebner</unclear> about 
+<lb/>2 inches lower ought not 
+<lb/>to have suggested "Wee 
+<lb/>Willie Winkle" as more 
+<lb/>appropiate. I was ready 
+<lb/>to explode but got out of 
+<lb/>sight before giving way 
+<lb/>to cachinations </p>
+
+	<pb n="0014" facs="liv_002469_0014"/><!--pb/@n='39v'-->
+<lb/><p>There can be no doubt of 
+<lb/>the <persName>Baron Van der Decken's</persName>
+<lb/>death. He was excessively 
+<lb/>aggressive. &amp; over bearing 
+<lb/>entertaining the utmost 
+<lb/>contempt for the natives 
+<lb/>and taking pains on all 
+<lb/>occasions to shew that 
+<lb/>contempt. His Hauteur 
+<lb/>was accompanied with 
+<lb/>great stinginess in small 
+<lb/>matters. This was the 
+<lb/>more remarkable 
+<w>in-<lb break="no"/>asmuch</w> as he bought two 
+<lb/>steamers from his own 
+<lb/>pocket. but these were 
+<lb/>to confer honour on 
+<lb/>himself as an explorer 
+<lb/>he imagined that I had 
+<lb/>gone into the <unclear cert="low">Juba</unclear> with 
+
+	<pb n="0015" facs="liv_002469_0015"/><!--pb/@n='40r'-->
+<lb/><!--hand01 top right 40-->the <term type="boat">Lady Nyassa</term> instead of 
+<lb/>to <placeName>Bombay</placeName> &amp; raged against 
+<lb/>me like a wild bull in 
+<lb/>a net. Imagining that I 
+<lb/>had purposefully forestalled 
+<lb/>him in his exploration. 
+<lb/>I saw the water discoloured 
+<lb/>8 miles out from the 
+<lb/><unclear cert="low">Juba</unclear> as fluent to <placeName>Bombay</placeName>
+<lb/>but I had only three men 
+<lb/>on whom I could depend 
+<lb/>and I felt it would not be 
+<lb/>wise to go in so short 
+<lb/>handed. The poor man 
+<lb/>had so much contempt 
+<lb/>for the natives that up to 
+<lb/>the moment when they 
+<lb/>pinioned him he never 
+<lb/>believed they dared lay 
+<lb/>a finger on the <unclear cert="low">Noch weil</unclear>
+<lb/><unclear cert="low">geboren</unclear><persName>Baron.</persName> He went 
+<lb/><gap extent="1" unit="lines" agent="damage"/>
+
+	<pb n="0016" facs="liv_002469_0016"/><!--pb/@n='40v'-->
+<lb/>rage before he was killed 
+<lb/>to <hi rend="underline">demand</hi> why provisions 
+<lb/>had not been sent regularly 
+<lb/>now this in their own 
+<lb/>country &amp; other things which 
+<lb/>we shall never know 
+<lb/>was simply insanity, but 
+<lb/>we must say nothing 
+<lb/>6 February The <persName>Sultan</persName> had 
+<lb/>toothache - a gum boil too. 
+<lb/>but this afternoon the Thule 
+<lb/>is to be taken over. He salutes 
+<lb/>the English flag ere we haul 
+<lb/>it down 21 guns &amp; then the 
+<lb/>wasp <persName>Captain Bradshaw</persName>
+<lb/>salutes the Sultan's flag 
+<lb/>as it runs up. Plenty of 
+<lb/>powder burned. The <term type="boat">Penguin</term>
+<lb/>comes some 3 weeks hence 
+<lb/>to take me to <placeName>Rovuma</placeName>
+<lb/>God bless you dear <persName>Nannie</persName>
+<lb/><gap extent="1" unit="lines" agent="damage"/></p>
+			
+</div>
+		</body>
+	</text></TEI>

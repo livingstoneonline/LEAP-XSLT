@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Converted from a TEI P4 XML file to the LEAP TEI P5 Schema by James Cummings on 2015-03-02-->
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000063">
+	<teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+		<fileDesc>
+			<titleStmt>
+				<title>Letter from Reginald Stuart Poole to ?John Murray</title>
+				<author xml:id="DL">David Livingstone</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<pubPlace>London</pubPlace>
+				<date>2008-11-12</date>
+				<publisher>Wellcome Centre for the History of Medicine, UCL</publisher>
+				<idno type="LEAP-ID">liv_000063</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl xml:id="custodian">NLS</bibl>
+				<bibl xml:id="shelfmark">Ms.42421</bibl>
+				<bibl xml:id="folio">ff.69-70</bibl>
+				<bibl xml:id="recipient">?John Murray</bibl>
+				<bibl xml:id="where">British Museum</bibl>
+				<bibl xml:id="date">[1865]-05-10</bibl>
+				<bibl xml:id="ccnumber"/><!--no c & c and letter from Reginald Stuart Poole enclosing para in D L's hand-->
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+				<language ident="la">Latin</language>
+			</langUsage>
+			<handNotes>
+				<handNote xml:id="hand01">Scribe: Reginald Stuart Poole</handNote>
+				<handNote xml:id="hand02">Scribe: John Murray</handNote>
+			</handNotes>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2008-11-12</date>
+				<name xml:id="CO">Caroline Overy</name>Initial Transcription by Caroline Overy
+			</change>
+			<change>
+				<date>2008-11-22</date>
+				<name xml:id="CL">Chris Lawrence</name>Proof by Chris Lawrence
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xmlns:tei="http://www.tei-c.org/ns/1.0">
+		<body xml:lang="en">
+			
+	<div corresp="#hand01">
+	<pb n="0001" facs="liv_000063_0001"/><!--pb/@n='69r'-->
+<!-- this is a letter by R S poole including some by DL and John Murray - don't know how to do various hands Poole is hand01-->
+<lb/><p rend="right">British Museum</p>
+<lb/><p>10th May</p>
+<lb/><p>My dear Sir,</p>
+<lb/><p>The passage from 
+<lb/><persName>Livy</persName> is as follows:</p>
+<lb/><p><foreign xml:lang="la">Perfugas, fugitivosque, et 
+<lb/>captivos omnes rederrent Romanis, 
+<lb/>et naves rostratas, praeter decem 
+<lb/>triremes, traderent: elephantosque, 
+<lb/>quos haberent domitos neque 
+<lb/>domarent alios</foreign> XXX. 37.</p>
+<lb/><p>I have kept this note 
+<lb/>to insert <persName>D<hi rend="sup">r</hi>. Birch's</persName> reply as 
+<lb/>to the Egyptian name of the 
+
+	<pb n="0002" facs="liv_000063_0002"/><!--pb/@n='69v'-->
+<lb/>Island of Elephantine <unclear cert="low">vol</unclear>
+<lb/>Philae, but will do so no 
+<lb/>longer, but write again.</p>
+<lb/><p rend="center"> Pray believe me</p>
+<lb/><p rend="center">Yours very faithfully</p>
+<lb/><p rend="center"><persName>Reg<hi rend="sup">d</hi>. Stuart Poole</persName></p><!--end of Poole's hand-->
+	</div>
+	
+	<div>
+	<pb n="0003" facs="liv_000063_0003"/><!--pb/@n='?'-->
+<!--don't know page number-->
+<lb/><p><!--this is now DL hand-->Note enclose that 
+<lb/>printer may be 
+<lb/>correct in 
+<lb/>Latin quotation 
+<lb/>of footnote 
+<lb/>page 600</p><!--end of DL hand-->
+	</div>
+	<div corresp="#hand02">
+<lb/><p><!-- this is now in JM's hand -hand02-->This <hi rend="underline">impossible</hi> to put 
+<lb/>this note on Elephants 
+<lb/>at page 600 - which is wholly 
+<lb/>on Religion. Nowhere in 
+<lb/>these 3 sheets can it be 
+<lb/><hi rend="underline">suitably</hi> inserted 
+<lb/>I would omit it. <unclear cert="medium">J.M</unclear></p>
+	</div>
+
+		</body>
+	</text></TEI>
