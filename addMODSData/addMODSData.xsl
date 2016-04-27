@@ -38,7 +38,7 @@
 </xsl:text>
     <xsl:processing-instruction name="xml-model"> href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction><xsl:text>
 </xsl:text>  <xsl:processing-instruction name="xml-model">href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:processing-instruction><xsl:text>
- </xsl:text>  <xsl:processing-instruction name="xml-stylesheet">href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl type="text/xsl"</xsl:processing-instruction><xsl:text>
+ </xsl:text>  <xsl:processing-instruction name="xml-stylesheet">href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"</xsl:processing-instruction><xsl:text>
  </xsl:text>
         <xsl:apply-templates select="node()"/>
     </xsl:template>
