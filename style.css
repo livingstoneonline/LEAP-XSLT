@@ -432,7 +432,11 @@ span.foreignItalic{
 }
 .head{
 }
-.item{
+.list{
+	display:block;
+	margin-left:8%;
+}
+.listitem{
 }
 .label{
 }
@@ -445,13 +449,13 @@ span.foreignItalic{
 }
 .milestone{
 	display:block;
-	width:100%;
+	width:60%;
 	background:#FFF;
-	border-bottom:black 1px solid;
-	height:1px;
-	margin-left:auto;
-	margin-right:auto;
-	padding:2px;
+	color:black;
+	height:0px;
+	margin-left:8%;
+	margin-right:8%;
+	padding:0px;
 } /*AW*/
 .pb{
 }

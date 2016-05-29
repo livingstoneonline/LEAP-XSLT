@@ -128,7 +128,7 @@
 
 	<!-- exclude those inside notes -->
 
-	<xsl:template match="lb">
+	<xsl:template match="lb"><!--[not(ancestor::note)]-->
 		<br/>
 		<xsl:variable name="num">
 			<xsl:number level="any" from="pb"/>
@@ -360,12 +360,12 @@
 
 	<!-- AW -->
 	<xsl:template match="list">
-		<xsl:apply-templates/>
+		<span class="list" title="list"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- AW -->
 	<xsl:template match="list/item">
-		<xsl:apply-templates/>
+		<span class="listitem" title="item"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="milestone">
