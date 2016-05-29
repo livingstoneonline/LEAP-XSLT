@@ -245,11 +245,11 @@
 		</span>
 	</xsl:template>
 
-	<!--<xsl:template match="dateline">
-		<span class="dateline">
+	<xsl:template match="dateline">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
       <xsl:apply-templates/>
     </span>
-	</xsl:template>-->
+	</xsl:template>
 
 	<xsl:template match="del[@type='cancelled']">
 		<span class="del cancelled">
@@ -330,6 +330,10 @@
 					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
 					<br class="verticalSpace"/> </span>
 			</xsl:when>
+			<xsl:otherwise>
+				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
+					[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>]</span>
+			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 

@@ -105,9 +105,9 @@ p.noindent{
 	font-variant:small-caps;
 }
 .center{
-	margin-left:auto;
-	margin-right:auto;
-	width:50%;
+	text-indent:0;
+	margin-left:15%;
+	margin-bottom:0;
 }
 .doubleunderline{
 	border-bottom:3px double;
@@ -170,10 +170,9 @@ p.noindent{
 .other{
 }
 .right{
-	float:right;
-	margin-right:25%;
-	width:50%;
-	text-align:left;
+	text-indent:0;
+	margin-left:25%;
+	margin-bottom:0;
 }
 .above,
 .below,
@@ -400,12 +399,28 @@ span.foreignItalic{
 .body{
 	display:block;
 }
-.p,
-.p right,
-.p center{
+.p{
 	display:inline-block;
 	text-indent:20px;
 	margin-left:7%;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+.p.right,
+.dateline.right{
+	display:inline-block;
+	text-indent:0;
+	margin-left:25%;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+.p.center,
+.dateline.center{
+	display:inline-block;
+	text-indent:0;
+	margin-left:15%;
 	margin-top:0;
 	margin-bottom:0;
 	
@@ -425,7 +440,7 @@ span.foreignItalic{
 	margin-left:7%;
 }
 .dateline{
-	display:block;
+	display:inline-block;
 }
 .div{
 	display:block;
