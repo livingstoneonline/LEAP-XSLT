@@ -1,9 +1,10 @@
-/* Karin Dalziel's changes carried over by Adrian Wisnicki plus more changes added, May 2016 */
+/* Extensive revisions by Adrian S. Wisnicki, May 2016*/
+/* Karin Dalziel's changes carried over by Adrian S. Wisnicki, May 2016*/
 
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:100%; /*AW*/
+	width:100%;
 	font-family:calibri, arial, helvetica, sans-serif;
 }
 .linenumber{
@@ -46,21 +47,21 @@ lb.center{
 	display:block;
 	color:gray;
 	font-size:90%;
-	margin-left:8%;
-	margin-bottom:-1em; /*AW*/
+	margin-left:7%;
+	margin-bottom:-1em;
 	margin-top:1.5em;
 }
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
-} /*AW*/
+}
 p.ab{
 	display:block;
 	text-indent:0;
-	margin-left:8%;
+	margin-left:7%;
 	margin-top:0;
 	margin-bottom:0;
-} /*AW*/
+}
 p.ab .center{
 	margin-left:auto;
 	margin-right:auto;
@@ -74,16 +75,16 @@ p.ab .center{
 p.noindent{
 	display:inline-block;
 	text-indent:0;
-	margin-left:8%;
+	margin-left:7%;
 	margin-top:0;
 	margin-bottom:0;
-} /*AW*/
+}
 /*p.right{
 	float:right;
 	clear:both;
 	text-align:left;
 	text-indent:0;
-	margin-left:8%;
+	margin-left:7%;
 	margin-top:0;
 	margin-bottom:0;
 }*/ /*I'm making p.right and p.center the same as p. AW*/
@@ -121,7 +122,7 @@ p.noindent{
 .doubleline{
 	border-bottom:3px double;
 	display:block;
-	width:90%; /*AW*/
+	width:90%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -129,7 +130,7 @@ p.noindent{
 	border-bottom:3px double;
 	line-height:1.9em;
 	display:block;
-	width:90%; /*AW*/
+	width:90%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -151,7 +152,7 @@ p.noindent{
 	margin-left:+20%;
 }
 .inline{
-	color:gray
+	color:gray;
 }
 .italic{
 	font-style:italic;
@@ -209,21 +210,21 @@ p.noindent{
 
 /**place= above, below, bottom, end, inline, inspace, marginleft, margineright, margintop, marginbottom, top **/
 
-.marginLeft{
-	/*width:20%;
-    float:left;*/
-	/*margin-left:-25%;*/ /* This made the text dissapear on many pages */
-	/*margin-right:10px;
-    clear:left;*/
-	/*color:red;*/ /* commented out for now, changes to the XSLT will need to be made to make margin left and right work -KMD*/
-}
-.marginRight{
+/*.marginLeft{
+	width:20%;
+    float:left;
+	margin-left:-25%;
+	margin-right:10px;
+    clear:left;
+	color:red;
+}*/ /* commented out for now, changes to the XSLT will need to be made to make margin left and right work -KMD*/
+/*.marginRight{
 	width:20%;
 	float:right;
 	margin-right:5%;
 	clear:right;
-	/*color:red;*/ /* commented out for now, changes to the XSLT will need to be made to make margin left and right work -KMD*/
-}
+	color:red;
+}*/ /* commented out for now, changes to the XSLT will need to be made to make margin left and right work -KMD*/
 /* Too difficult for now inside target framework*/
 .marginTop{
 }
@@ -268,29 +269,36 @@ span.vertical{
 	color:green;
 }
 .orange{
-	color:orange; /*AW*/
+	color:orange;
 }
 .purple{
-	color:purple; /*AW*/
+	color:purple;
 }
 .red{
 	color:red;
 }
 .yellow{
-	color:yellow; /*AW*/
+	color:yellow;
 }
 
 
 /** elements **/
 
 .gap{
-	border-bottom:1px dotted black; /*AW*/
+	border-bottom:1px dotted black;
 }
 .space{
 	/*border-bottom:1px dotted black;*/
 }
 .space-other{
-	border-bottom:1px dotted black; /*AW*/
+	border-bottom:1px dotted black;
+	display:block;
+	margin-left:7%;
+}
+.verticalSpace{
+	display:inline-block;
+	margin-left:7%;
+	border-bottom:1px dotted black;
 }
 .del{
 	text-decoration:line-through;
@@ -307,7 +315,9 @@ span.foreignItalic{
 }
 .w{
 }
-.add{
+.addmargin{
+	display:inline-block;
+	text-indent:0px;
 }
 .address{
 	display:block;
@@ -317,7 +327,14 @@ span.foreignItalic{
 }
 .fw{
 	display:inline-block;
-	margin-left:8%;
+	margin-left:7%;
+}
+.metamark{
+	color:gray;
+}
+.unclear{
+	color:gray;
+	border-bottom:1px dotted gray;
 }
 
 /* Are these supposed to be seperate? When I added commas it messed up the display -KMD */
@@ -356,7 +373,6 @@ span.foreignItalic{
 .gloss
 .seg
 .damage
-.unclear
 .monogr
 .addrLine{
 	display:block;
@@ -388,25 +404,25 @@ span.foreignItalic{
 .p right,
 .p center{
 	display:inline-block;
-	text-indent:20px; /*AW*/
-	margin-left:8%;
-	margin-top:0; /*AW*/
-	margin-bottom:0; /*AW*/
-
+	text-indent:20px;
+	margin-left:7%;
+	margin-top:0;
+	margin-bottom:0;
+	
 }
 .ab{
 	display:block;
-	margin-left:8%;
-	margin-top:0; /*AW*/
-	margin-bottom:0; /*AW*/
+	margin-left:7%;
+	margin-top:0;
+	margin-bottom:0;
 }
 .closer{
 	display:block;
-	margin-left:8%;
+	margin-left:7%;
 }
 .opener{
 	display:block;
-	margin-left:8%;
+	margin-left:7%;
 }
 .dateline{
 	display:block;
@@ -418,7 +434,7 @@ span.foreignItalic{
 	display:block;
 }
 .salute{
-	display:inline-block;
+	display:block;
 }
 .signed{
 	display:block;
@@ -434,7 +450,7 @@ span.foreignItalic{
 }
 .list{
 	display:block;
-	margin-left:8%;
+	margin-left:7%;
 }
 .listitem{
 }
@@ -453,10 +469,10 @@ span.foreignItalic{
 	background:#FFF;
 	color:black;
 	height:0px;
-	margin-left:8%;
-	margin-right:8%;
+	margin-left:7%;
+	margin-right:7%;
 	padding:0px;
-} /*AW*/
+}
 .pb{
 }
 .graphic{

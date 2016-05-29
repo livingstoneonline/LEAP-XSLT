@@ -10,6 +10,11 @@
 			<xd:p>First attempt at LEAP to HTML conversion</xd:p>
 			<xd:p>Updated in Feb/Mar 2015.</xd:p>
 		</xd:desc>
+		<xd:desc>
+			<xd:p><xd:b>Author:</xd:b> Adrian S. Wisnicki</xd:p>
+			<xd:p>Extensive revisions</xd:p>
+			<xd:p>Updated in Mary 2016.</xd:p>
+		</xd:desc>
 	</xd:doc>
 	<xsl:output method="xml" indent="yes"/>
 
@@ -28,7 +33,6 @@
 			<head>
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="style.css"/>
-				<!-- AW -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -126,8 +130,6 @@
 		</p>
 	</xsl:template>
 
-	<!-- exclude those inside notes -->
-
 	<xsl:template match="lb">
 		<!--[not(ancestor::note)]-->
 		<br/>
@@ -199,21 +201,22 @@
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
+	<xsl:template match="add[@place='marginleft']|add[@place='marginright']">
+		<span class="addmargin"> [<xsl:apply-templates/>] </span>
+	</xsl:template>
+
 	<xsl:template match="address">
 		<span class="address">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="addrLine">
 		<br/>
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
-
 
 	<!-- app: show first rdg -->
 	<xsl:template match="app">
@@ -227,25 +230,21 @@
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="cb">
 		<br/>
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="cb/ab" priority="10">
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="closer">
 		<span class="closer">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<!--<xsl:template match="dateline">
 		<span class="dateline">
       <xsl:apply-templates/>
@@ -270,26 +269,22 @@
 	<!-- foreign should be italiced in edited view -->
 	<xsl:template match="foreign" xml:space="preserve"><span class="foreign diplomatic"><xsl:if test="@xml:lang"><xsl:attribute name="title"><xsl:value-of select="concat('lang: ', @xml:lang)"/></xsl:attribute></xsl:if><xsl:apply-templates/></span><span class="foreign foreignItalic edited hidden" style="font-style:italic;"><xsl:if test="@xml:lang"><xsl:attribute name="title"><xsl:value-of select="concat('lang: ', @xml:lang)"/></xsl:attribute></xsl:if><xsl:apply-templates/></span></xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="figure">
 		<span class="figure" title="{concat(head, ';  ', figDesc)}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="figure/figDesc">
 		<span class="figfigDesc" title="figure">[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="fw[@type='catch']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="fw[@type='pageno']">
 		<span class="fw pageno" title="">
 			<xsl:apply-templates/>
@@ -297,28 +292,26 @@
 		<br/>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="gap[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
 				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}"> [<xsl:for-each
+					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
 					select="1 to @extent">&#x00A0;</xsl:for-each>]</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
 				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}"> [<xsl:for-each
+					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
 					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="gap"
-					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}"> [<xsl:for-each
+					title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each
 					select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="space[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
@@ -332,15 +325,16 @@
 						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
-			<xsl:otherwise>
-				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
-					[<xsl:for-each select="1 to @extent"
-					>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span>
-			</xsl:otherwise>
+			<xsl:when test="@dim='vertical'">
+				<span class="verticalSpace" title="{concat('vertical space: ',@extent, ' ', @unit)}">
+					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
+					<br class="verticalSpace"/> </span>
+			</xsl:when>
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="space[@extent][@unit][@dim='vertical']" priority="1">
+	<!-- I decided not to do this. AW -->
+	<!--<xsl:template match="space[@extent][@unit][@dim='vertical']" priority="1">
 		<span class="space-other vertical verticalSpace">
 			<xsl:attribute name="title">
 				<xsl:for-each select="@*">
@@ -352,7 +346,7 @@
 				<br class="verticalSpace"/>
 			</xsl:for-each>
 		</span>
-	</xsl:template>
+	</xsl:template>-->
 
 	<!-- do not show graphic -->
 	<xsl:template match="graphic"/>
@@ -370,19 +364,27 @@
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="list">
 		<span class="list" title="list">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="list/item">
 		<span class="listitem" title="item">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
+	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
+		<span class="metamark italic" title="metamark">mark</span>
+	</xsl:template>
+
+	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
+		<span class="metamark italic" title="metamark">mark</span>
+	</xsl:template>
+
+	<xsl:template match="metamark"> [<span class="metamark italic" title="metamark">mark</span>] </xsl:template>
 
 	<xsl:template match="milestone">
 		<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}">
@@ -398,12 +400,10 @@
 		</hr>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="note">
 		<span class="note"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="opener">
 		<span class="opener">
 			<xsl:apply-templates/>
@@ -425,21 +425,17 @@
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template
 		match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
 		<xsl:apply-templates/>
 	</xsl:template>
 
-
-	<!-- AW -->
 	<xsl:template match="salute">
 		<span class="salute">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<!-- AW -->
 	<xsl:template match="signed">
 		<span class="signed">
 			<xsl:apply-templates/>
@@ -459,11 +455,13 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</table>
 	</xsl:template>
+
 	<xsl:template match="row">
 		<tr>
 			<xsl:apply-templates select="@*|node()"/>
 		</tr>
 	</xsl:template>
+
 	<xsl:template match="cell">
 		<td>
 			<xsl:apply-templates select="@*|node()"/>
