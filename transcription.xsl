@@ -128,7 +128,8 @@
 
 	<!-- exclude those inside notes -->
 
-	<xsl:template match="lb"><!--[not(ancestor::note)]-->
+	<xsl:template match="lb">
+		<!--[not(ancestor::note)]-->
 		<br/>
 		<xsl:variable name="num">
 			<xsl:number level="any" from="pb"/>
@@ -229,12 +230,12 @@
 	<!-- AW -->
 	<xsl:template match="cb">
 		<br/>
-			<xsl:apply-templates/>
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- AW -->
 	<xsl:template match="cb/ab" priority="10">
-			<xsl:apply-templates/>
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<!-- AW -->
@@ -277,13 +278,24 @@
 	</xsl:template>
 
 	<!-- AW -->
-	<xsl:template match="figure/figDesc"><span class="figfigDesc" title="figure">[<xsl:apply-templates/>]</span></xsl:template>
+	<xsl:template match="figure/figDesc">
+		<span class="figfigDesc" title="figure">[<xsl:apply-templates/>]</span>
+	</xsl:template>
 
 	<!-- AW -->
-	<xsl:template match="fw[@type='catch']"><span class="{concat(name(), ' ', @type, ' ', @rend)}" title=""><xsl:apply-templates/></span></xsl:template>
+	<xsl:template match="fw[@type='catch']">
+		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 
 	<!-- AW -->
-	<xsl:template match="fw[@type='pageno']"><span class="fw pageno" title=""><xsl:apply-templates/></span><br/></xsl:template>
+	<xsl:template match="fw[@type='pageno']">
+		<span class="fw pageno" title="">
+			<xsl:apply-templates/>
+		</span>
+		<br/>
+	</xsl:template>
 
 	<!-- AW -->
 	<xsl:template match="gap[@extent][@unit]" priority="10">
@@ -360,12 +372,16 @@
 
 	<!-- AW -->
 	<xsl:template match="list">
-		<span class="list" title="list"><xsl:apply-templates/></span>
+		<span class="list" title="list">
+			<xsl:apply-templates/>
+		</span>
 	</xsl:template>
 
 	<!-- AW -->
 	<xsl:template match="list/item">
-		<span class="listitem" title="item"><xsl:apply-templates/></span>
+		<span class="listitem" title="item">
+			<xsl:apply-templates/>
+		</span>
 	</xsl:template>
 
 	<xsl:template match="milestone">
@@ -384,9 +400,7 @@
 
 	<!-- AW -->
 	<xsl:template match="note">
-		<span class="note">
-			[<xsl:apply-templates/>]
-		</span>
+		<span class="note"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
 	<!-- AW -->
@@ -398,13 +412,17 @@
 
 	<xsl:template match="jc:page">
 		<div class="page">
-			<span class="pb-title"><xsl:value-of select="@n"/></span>
+			<span class="pb-title">
+				<xsl:value-of select="@n"/>
+			</span>
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="pb">
-		<span class="pb-title"><xsl:value-of select="@n"/></span>
+		<span class="pb-title">
+			<xsl:value-of select="@n"/>
+		</span>
 	</xsl:template>
 
 	<!-- AW -->
