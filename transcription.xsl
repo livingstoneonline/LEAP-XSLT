@@ -452,27 +452,31 @@
 
 	<!-- Removed spaces in this. Need to see if it removes the trailing space. AW -->
 	<xsl:template match="supplied">
-		<span class="supplied edited hidden"><xsl:if test="@*"><xsl:attribute name="title"><xsl:value-of
-			select="concat(name(), ':  ')"/><xsl:for-each select="@*"><xsl:sort/><xsl:value-of
-			select="concat(name(),': ', ., '; ')"/></xsl:for-each></xsl:attribute></xsl:if>
-			[<xsl:apply-templates select="node()"/>]</span>
+		<span class="supplied edited hidden">
+			<xsl:if test="@*">
+				<xsl:attribute name="title">
+					<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
+				</xsl:attribute>
+			</xsl:if>
+			[<xsl:apply-templates select="node()"/>]
+		</span>
 	</xsl:template>
 
 	<xsl:template match="table">
 		<table>
-			<xsl:apply-templates select="@*|node()"/>
+			<xsl:apply-templates/><!-- select="@*|node()" -->
 		</table>
 	</xsl:template>
 
 	<xsl:template match="row">
 		<tr>
-			<xsl:apply-templates select="@*|node()"/>
+			<xsl:apply-templates/><!-- select="@*|node()" -->
 		</tr>
 	</xsl:template>
 
 	<xsl:template match="cell">
 		<td>
-			<xsl:apply-templates select="@*|node()"/>
+			&#x00A0;<xsl:apply-templates/>&#x00A0;<!-- select="@*|node()" -->
 		</td>
 	</xsl:template>
 

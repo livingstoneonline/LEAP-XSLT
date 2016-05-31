@@ -50,10 +50,12 @@ lb.center{
 	margin-left:7%;
 	margin-bottom:-1em;
 	margin-top:1.5em;
+	text-decoration:none !important;
 }
 p span.pb-title{
 	margin-left:0;
 	text-indent:0;
+	text-decoration:none !important;
 }
 p.ab{
 	display:block;
@@ -112,41 +114,46 @@ p.noindent{
 .doubleunderline{
 	border-bottom:3px double;
 }
-.quarterline{
-	border-bottom:1px solid;
-	display:block;
-	width:25% !important;
-	margin-left:0px !important;
-	text-align:left;
-}
-.doubleline{
-	border-bottom:3px double;
-	display:block;
-	width:90%;
-	margin-left:auto;
-	margin-right:auto;
-}
-.tripleline{
-	border-bottom:3px double;
-	line-height:1.9em;
-	display:block;
-	width:90%;
-	margin-left:auto;
-	margin-right:auto;
-}
-.halfline{
-	border-bottom:1px solid;
-	display:block;
-	width:50% !important;
-	margin-left:0px !important;
-	text-align:left;
-}
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:90%;
+	width:90% !important;
 	margin-left:auto;
 	margin-right:auto;
+	text-align:left;
+}
+.doubleline{
+	border-top: 4px double #8c8b8b;
+	display:block;
+	width:90% !important;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+.tripleline{
+	border-top: 4px double #8c8b8b;
+	line-height:1.9em;
+	display:block;
+	width:90% !important;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+.halfline{
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:40% !important;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+.quarterline{
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:20% !important;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
 }
 .indent{
 	margin-left:+20%;
@@ -164,8 +171,10 @@ p.noindent{
 }
 .noindent{
 }
-
 .other{
+}
+.overtext{
+	color:gray;
 }
 .right{
 	text-indent:0;
@@ -329,6 +338,8 @@ span.foreignItalic{
 	display:inline-block;
 	text-indent:0px;
 }
+.addSpan{
+}
 .address{
 	display:block;
 }
@@ -337,6 +348,10 @@ span.foreignItalic{
 .fw{
 	display:inline-block;
 	margin-left:7%;
+}
+.fw.pageno{
+	text-indent:0 !important;
+	margin-left:0 !important;
 }
 .catch.right{
 	margin-left:25%;
@@ -521,14 +536,13 @@ span.foreignItalic{
 .figfigDesc{
 	color:gray;
 }
-.table,
-table{
+.table{
+	margin-left:7%;
+	display:inline-block;
 }
-.row,
-tr{
+.row{
 }
-.cell,
-td{
+.cell{
 }
 .anchor{
 }
@@ -565,7 +579,8 @@ td{
 }
 .undo{
 }
-div.metadataContainer{
+
+/*div.metadataContainer{
 	margin-left:auto;
 	margin-right:auto;
 	width:90%;
@@ -588,4 +603,4 @@ table.MODS_metadataTable tr td.metadataTableData{
 	text-align:left;
 	padding-right:10px;
 	font-weight:normal;
-}
+}*/ /*No longer needed. AW*/
