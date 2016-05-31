@@ -10,7 +10,7 @@ div.transcription{
 .linenumber{
 	float:left;
 	color:#AAA;
-	margin-left:-5em;
+	margin-left:-4em;
 	font-size:80%;
 	width:3em;
 }
@@ -47,7 +47,7 @@ lb.center{
 	display:block;
 	color:gray;
 	font-size:90%;
-	margin-left:7%;
+	margin-left:9%;
 	margin-bottom:-1em;
 	margin-top:1.5em;
 	text-decoration:none !important;
@@ -60,7 +60,7 @@ p span.pb-title{
 p.ab{
 	display:block;
 	text-indent:0;
-	margin-left:7%;
+	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
 }
@@ -77,7 +77,7 @@ p.ab.center{
 p.noindent{
 	display:inline-block;
 	text-indent:0;
-	margin-left:7%;
+	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
 }
@@ -86,7 +86,7 @@ p.noindent{
 	clear:both;
 	text-align:left;
 	text-indent:0;
-	margin-left:7%;
+	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
 }*/ /*I'm making p.right and p.center the same as p. AW*/
@@ -313,11 +313,11 @@ span.vertical{
 .space-other{
 	border-bottom:1px dotted black;
 	display:block;
-	margin-left:7%;
+	margin-left:9%;
 }
 .verticalSpace{
 	display:inline-block;
-	margin-left:7%;
+	margin-left:9%;
 	border-bottom:1px dotted black;
 }
 .del{
@@ -347,7 +347,7 @@ span.foreignItalic{
 }
 .fw{
 	display:inline-block;
-	margin-left:7%;
+	margin-left:9%;
 }
 .fw.pageno{
 	text-indent:0 !important;
@@ -438,8 +438,8 @@ span.foreignItalic{
 }
 .p{
 	display:inline-block;
-	text-indent:20px;
-	margin-left:7%;
+	text-indent:29px;
+	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
 	
@@ -464,17 +464,17 @@ span.foreignItalic{
 }
 .ab{
 	display:block;
-	margin-left:7%;
+	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
 }
 .closer{
 	display:block;
-	margin-left:7%;
+	margin-left:9%;
 }
 .opener{
 	display:block;
-	margin-left:7%;
+	margin-left:9%;
 	margin-bottom:0px;
 	margin-top:1em;
 }
@@ -504,7 +504,7 @@ span.foreignItalic{
 }
 .list{
 	display:block;
-	margin-left:7%;
+	margin-left:9%;
 }
 .listitem{
 }
@@ -523,8 +523,8 @@ span.foreignItalic{
 	background:#FFF;
 	color:black;
 	height:0px;
-	margin-left:7%;
-	margin-right:7%;
+	margin-left:9%;
+	margin-right:9%;
 	padding:0px;
 }
 .pb{
@@ -537,7 +537,7 @@ span.foreignItalic{
 	color:gray;
 }
 .table{
-	margin-left:7%;
+	margin-left:9%;
 	display:inline-block;
 }
 .row{
