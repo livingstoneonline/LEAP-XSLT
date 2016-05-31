@@ -248,7 +248,7 @@
 	<xsl:template match="dateline">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
       <xsl:apply-templates/>
-    </span>
+		</span>
 	</xsl:template>
 
 	<xsl:template match="del[@type='cancelled']">
@@ -328,7 +328,7 @@
 			<xsl:when test="@dim='vertical'">
 				<span class="verticalSpace" title="{concat('vertical space: ',@extent, ' ', @unit)}">
 					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
-					<br class="verticalSpace"/> </span>
+					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
@@ -405,7 +405,11 @@
 	</xsl:template>
 
 	<xsl:template match="note">
-		<span class="note"> [<xsl:apply-templates/>] </span>
+		<span class="note">[<xsl:apply-templates/>]</span>
+	</xsl:template>
+
+	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
+		<span class="note"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="opener">
@@ -473,20 +477,16 @@
 	</xsl:template>
 
 	<xsl:template match="term[@type]" priority="1">
-		<span class="term" title="{@type}">
+		<!--<span class="term" title="{@type}">-->
 			<xsl:apply-templates/>
-		</span>
+		<!--</span>-->
 	</xsl:template>
 
 	<xsl:template match="unclear">
 		<span class="unclear">
-			<xsl:if test="@*">
+			<xsl:if test="@cert">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), ':  ')"/>
-					<xsl:for-each select="@*">
-						<xsl:sort/>
-						<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-					</xsl:for-each>
+					<xsl:value-of select="concat(name(), ', certainty: ', @cert)"/>
 				</xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>

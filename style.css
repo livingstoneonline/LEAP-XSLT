@@ -10,7 +10,7 @@ div.transcription{
 .linenumber{
 	float:left;
 	color:#AAA;
-	margin-left:-4em;
+	margin-left:-5em;
 	font-size:80%;
 	width:3em;
 }
@@ -62,7 +62,7 @@ p.ab{
 	margin-top:0;
 	margin-bottom:0;
 }
-p.ab .center{
+p.ab.center{
 	margin-left:auto;
 	margin-right:auto;
 	width:50%;
@@ -161,8 +161,6 @@ p.noindent{
 	font-size:120%;
 }
 .left{
-	float:left;
-	margin-left:15%;
 }
 .noindent{
 }
@@ -174,6 +172,22 @@ p.noindent{
 	margin-left:25%;
 	margin-bottom:0;
 }
+.right.margintop{
+	margin-left:0;
+	color:gray;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+	top:-1em;
+}
+.left.margintop{
+	margin-left:0;
+	color:gray;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+	top:-1em;
+}/*Needs to be sorted out once we have a good example. AW*/
 .above,
 .below,
 .sub,
@@ -225,8 +239,6 @@ p.noindent{
 	color:red;
 }*/ /* commented out for now, changes to the XSLT will need to be made to make margin left and right work -KMD*/
 /* Too difficult for now inside target framework*/
-.marginTop{
-}
 .marginBottom{
 }
 
@@ -307,7 +319,6 @@ span.vertical{
 .strikethrough,
 .overwritten{
 	text-decoration:line-through;
-	border-bottom:1px solid black;
 }
 span.foreignItalic{
 	font-style:italic;
@@ -322,11 +333,14 @@ span.foreignItalic{
 	display:block;
 }
 .catch{
-	text-align:right;
 }
 .fw{
 	display:inline-block;
 	margin-left:7%;
+}
+.catch.right{
+	margin-left:25%;
+	text-indent:0;
 }
 .metamark{
 	color:gray;
@@ -375,6 +389,14 @@ span.foreignItalic{
 .monogr
 .addrLine{
 	display:block;
+}
+.addrLine.center{
+	margin-left:15%;
+	margin-right:0;
+}
+.addrLine.right{
+	margin-left:25%;
+	margin-right:0;
 }
 .author
 .bibl{
@@ -438,6 +460,8 @@ span.foreignItalic{
 .opener{
 	display:block;
 	margin-left:7%;
+	margin-bottom:0px;
+	margin-top:1em;
 }
 .dateline{
 	display:inline-block;
