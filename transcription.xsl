@@ -49,7 +49,8 @@
 
 	<xsl:template match="TEI">
 		<div class="transcription">
-			<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>
+			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
+			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
 			<!--<h2>
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
