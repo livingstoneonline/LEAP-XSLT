@@ -353,8 +353,8 @@ span.foreignItalic{
 	text-indent:0 !important;
 	margin-left:0 !important;
 }
-.catch.right{
-	margin-left:25%;
+.fw.catch.right{
+	margin-left:80%;/*AW revisit*/
 	text-indent:0;
 }
 .metamark{
@@ -435,6 +435,7 @@ span.foreignItalic{
 }
 .body{
 	display:block;
+	padding-bottom:2em;
 }
 .p{
 	display:inline-block;
