@@ -92,7 +92,7 @@
 		<xsl:variable name="title">
 			<xsl:for-each select="@*">
 				<xsl:sort/>
-				<xsl:value-of select="concat(name(),': ', ., '; ')"/>
+				<xsl:if test="not(name()='status')"><xsl:value-of select="concat(name(),': ', ., '; ')"/></xsl:if>
 			</xsl:for-each>
 		</xsl:variable>
 		<span>
@@ -130,8 +130,7 @@
 		</p>
 	</xsl:template>
 
-	<xsl:template match="lb">
-		<!--[not(ancestor::note)]-->
+	<!--<xsl:template match="lb">
 		<br/>
 		<xsl:variable name="num">
 			<xsl:number level="any" from="pb"/>
@@ -141,7 +140,33 @@
 				<xsl:value-of select="$num"/>
 			</span>
 		</xsl:if>
-	</xsl:template>
+	</xsl:template>--><!--[not(ancestor::note)]-->
+
+<xsl:template match="lb">
+		<xsl:variable name="class">
+			<xsl:if test="@rend">
+				<xsl:value-of select="translate(@rend, '-', '')"/>
+				<xsl:text> </xsl:text>
+			</xsl:if>
+			<xsl:if test="@place">
+				<xsl:value-of select="translate(@place, '-', '')"/>
+				<xsl:text> </xsl:text>
+			</xsl:if>
+			<xsl:if test="@type">
+				<xsl:value-of select="translate(@type, '-', '')"/>
+				<xsl:text> </xsl:text>
+			</xsl:if>
+		</xsl:variable>
+		<br><xsl:if test="$class/text()"><xsl:attribute name="class"><xsl:value-of select="$class"/></xsl:attribute></xsl:if></br>
+		<xsl:variable name="num">
+			<xsl:number level="any" from="pb"/>
+		</xsl:variable>
+		<xsl:if test="number($num) mod 5 =0">
+			<span class="linenumber">
+				<xsl:value-of select="$num"/>
+			</span>
+		</xsl:if>
+</xsl:template>
 
 	<!--
     <xsl:template match="*[not(@type)][not(@reason)][not(@unit)][not(@extent)]" priority="-1"><span class="{name()}"><xsl:apply-templates select="@*|node()"/></span></xsl:template>
@@ -152,6 +177,7 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
 	<xsl:template match="choice/abbr">
 		<span class="abbr diplomatic">
 			<xsl:if test="../expan">
@@ -160,6 +186,7 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
 	<xsl:template match="choice/expan">
 		<span class="abbr edited hidden">
 			<xsl:if test="../abbr">
@@ -168,6 +195,7 @@
 			<xsl:apply-templates select="../abbr[1]/node()"/>
 		</span>
 	</xsl:template>
+
 	<xsl:template match="choice/orig">
 		<span class="orig diplomatic">
 			<xsl:if test="../reg">
@@ -176,7 +204,8 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
-	<xsl:template match="choice/reg">
+
+	<xsl:template match="choice/reg" priority="10">
 		<span class="reg edited hidden">
 			<xsl:if test="../orig">
 				<xsl:attribute name="title">orig: <xsl:value-of select="../orig"/></xsl:attribute>
@@ -184,6 +213,10 @@
 			<xsl:apply-templates select="../orig/node()"/>
 		</span>
 	</xsl:template>
+
+	<xsl:template match="reg">
+	</xsl:template>
+
 	<xsl:template match="choice/sic">
 		<span class="sic diplomatic ">
 			<xsl:if test="../corr">
@@ -192,6 +225,7 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
 	<xsl:template match="choice/corr">
 		<span class="corr edited hidden">
 			<xsl:if test="../sic">
@@ -251,14 +285,14 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="del[@type='cancelled']">
+	<xsl:template match="del[@type='cancelled'] | del[@type='strikethrough']">
 		<span class="del cancelled">
 			<xsl:if test="@*">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), ':  ')"/>
+					<xsl:value-of select="concat(name(), 'etion, ')"/>
 					<xsl:for-each select="@*">
 						<xsl:sort/>
-						<xsl:value-of select="concat(name(),': ', ., '; ')"/>
+						<xsl:if test="not(name()='status')"><xsl:value-of select="concat(name(),': ', ., '; ')"/></xsl:if>
 					</xsl:for-each>
 				</xsl:attribute>
 			</xsl:if>
@@ -394,7 +428,7 @@
 		<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:if test="@*">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), ':  ')"/>
+					<xsl:value-of select="concat(name(), ': ')"/>
 					<xsl:for-each select="@*">
 						<xsl:sort/>
 						<xsl:value-of select="concat(name(),': ', ., '; ')"/>
@@ -437,6 +471,8 @@
 		match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
 		<xsl:apply-templates/>
 	</xsl:template>
+
+	<xsl:template match="rdg"><xsl:apply-templates/></xsl:template>
 
 	<xsl:template match="salute">
 		<span class="salute">
@@ -493,8 +529,7 @@
 					<xsl:value-of select="concat(name(), ', certainty: ', @cert)"/>
 				</xsl:attribute>
 			</xsl:if>
-			<xsl:apply-templates select="node()"/>
-		</span>
+			<xsl:apply-templates select="node()"/></span>
 	</xsl:template>
 
 </xsl:stylesheet>
