@@ -25,7 +25,7 @@ div.transcription{
 	margin-left:auto;
 	margin-right:auto;
 	width:100%;
-	font-family:source sans pro, calibri, arial, helvetica, sans-serif;
+	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:.9em;
 	white-space: nowrap;
 }
@@ -36,7 +36,7 @@ div.transcription{
 }
 .body{
 	display:block;
-	padding-bottom:2em;
+	padding-bottom:2.4em;
 }
 .front,
 .back{
@@ -50,24 +50,35 @@ div.transcription{
 
 .opener,
 .closer{
-	display:block;
 	margin-left:9%;
 	margin-bottom:0px;
+}
+.opener{
+	display:inline;
 	margin-top:1em;
 }
-.dateline{
+.closer{
 	display:inline-block;
+}
+.dateline{
+	display:inline;
 	text-indent:0;
 }
 .dateline.center{
 	margin-left:15%;
 }
 .dateline.right{
+	display:inline-block;
 	margin-left:25%;
 }
-.salute,
+.opener-salute{
+	margin-left:9% !important;
+}
+.closer-salute{
+	margin-left:0 !important;
+}
 .signed{
-	display:block;
+	display:inline-block;
 }
 .address{
 	display:block;
@@ -95,6 +106,9 @@ p span.pb-title{
 	margin-top:1.5em;
 	margin-bottom:-1em;
 }
+.del-pb{
+}
+/*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
 .lb{
 	display:block;
 }
@@ -107,12 +121,12 @@ p span.pb-title{
 .linenumber{
 	float:left;
 	color:#AAA;
-	margin-left:-4em;
+	margin-left:-4em !important;
+	text-indent:0;
 	font-size:80%;
 	width:3em;
 }
-.p.noindent.linenumber,
-.ab.linenumber{
+.p.noindent.linenumber{
 	text-indent:1em;
 }
 
@@ -193,7 +207,6 @@ p span.pb-title{
 	margin-left:25%;
 }
 .ab{
-	display:block;
 	text-indent:0;
 	margin-left:9%;
 	margin-top:0;
@@ -222,8 +235,10 @@ p span.pb-title{
 
 /* 6. Additions and Deletions */
 
+.opener-add{
+}
+/*Needs to be sorted out. See 1340-1. AW*/
 .addmargin{
-	display:inline-block;
 	text-indent:0px;
 }
 .del,
@@ -335,8 +350,10 @@ p span.pb-title{
 
 .above,
 .below,
+.bottom,
 .sub,
-.sup{
+.sup,
+.top{
 	/* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
 	font-size:75%;
@@ -353,12 +370,21 @@ p span.pb-title{
      is already set and you can remove this rule */
 	vertical-align:baseline;
 }
+.marginbottom{
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+}
+
 .above,
-.sup{
+.sup,
+.top{
 	/* Move the superscripted text up */
 	top:-0.5em;
 }
 .below,
+.bottom,
+.marginbottom,
 .sub{
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */
@@ -372,7 +398,13 @@ p span.pb-title{
 	vertical-align:baseline;
 	top:-1em;
 }
-
+.margintop.left{
+	margin-left:9% !important;
+}
+.margintop.right{
+	margin-left:25% !important;
+}
+/*Needs to be revisited. See 2133-1. AW*/
 
 /* 10. Colors */
 

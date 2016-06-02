@@ -158,7 +158,8 @@
 				<xsl:text> </xsl:text>
 			</xsl:if>
 		</xsl:variable>
-		<br><xsl:if test="$class/text()"><xsl:attribute name="class"><xsl:value-of select="$class"/></xsl:attribute></xsl:if></br>
+		<!--<br><xsl:if test="$class/text()"><xsl:attribute name="class"><xsl:value-of select="$class"/></xsl:attribute></xsl:if></br>-->
+			<br/>
 		<xsl:variable name="num">
 			<xsl:number level="any" from="pb"/>
 		</xsl:variable>
@@ -197,26 +198,36 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="choice/orig">
+
+	<!-- This is necessary rather than what follows to eliminate white space after <orig> in the HTML. AW -->
+	<xsl:template match="choice/orig|choice/reg">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="orig">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="reg" priority="10">
+	</xsl:template>
+
+	<!--<xsl:template match="choice/orig">
 		<span class="orig diplomatic">
 			<xsl:if test="../reg">
 				<xsl:attribute name="title">reg: <xsl:value-of select="../reg"/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
-	</xsl:template>
+	</xsl:template>-->
 
-	<xsl:template match="choice/reg" priority="10">
+	<!--<xsl:template match="choice/reg" priority="10">
 		<span class="reg edited hidden">
 			<xsl:if test="../orig">
 				<xsl:attribute name="title">orig: <xsl:value-of select="../orig"/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="../orig/node()"/>
 		</span>
-	</xsl:template>
-
-	<xsl:template match="reg">
-	</xsl:template>
+	</xsl:template>-->
 
 	<xsl:template match="choice/sic">
 		<span class="sic diplomatic ">
@@ -415,6 +426,10 @@
 		</span>
 	</xsl:template>
 
+	<xsl:template match="opener/add">
+		<span class="opener-add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
 		<span class="metamark italic" title="metamark">mark</span>
 	</xsl:template>
@@ -468,6 +483,12 @@
 		</span>
 	</xsl:template>
 
+	<xsl:template match="del/pb" priority="10">
+		<span class="pb-title del-pb">
+			<xsl:value-of select="@n"/>
+		</span>
+	</xsl:template>
+
 	<xsl:template
 		match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
 		<xsl:apply-templates/>
@@ -475,8 +496,14 @@
 
 	<xsl:template match="rdg"><xsl:apply-templates/></xsl:template>
 
-	<xsl:template match="salute">
-		<span class="salute">
+	<xsl:template match="opener/salute">
+		<span class="opener-salute">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="closer/salute">
+		<span class="closer-salute">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
