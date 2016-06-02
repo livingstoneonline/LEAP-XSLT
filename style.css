@@ -93,10 +93,6 @@ div.transcription{
 
 /* 3. pb, lb, linenumber */
 
-p span.pb-title{
-	margin-left:0;
-	text-indent:0;
-}
 .pb-title{
 	display:block;
 	color:#428bca;
@@ -105,6 +101,13 @@ p span.pb-title{
 	margin-left:9%;
 	margin-top:1.5em;
 	margin-bottom:-1em;
+}
+.pb-title:first-of-type {
+  margin-top: 0;
+}/*This is to prevent scrolling up when the first image opens. AW*/
+p span.pb-title{
+	margin-left:0;
+	text-indent:0;
 }
 .del-pb{
 }
