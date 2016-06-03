@@ -58,13 +58,14 @@ div.transcription{
 	margin-top:1em;
 }
 .closer{
-	display:inline-block;
+	display:block;
 }
 .dateline{
 	display:inline;
 	text-indent:0;
 }
 .dateline.center{
+	display:inline-block;
 	margin-left:15%;
 }
 .dateline.right{
@@ -218,9 +219,11 @@ p span.pb-title{
 .ab.center{
 	margin-left:15%;
 }
-
+.head{
+	font-weight:normal;
+}
 .note{
-	display:block;
+	display:inline;
 }
 .fw{
 	display:inline-block;
@@ -229,6 +232,10 @@ p span.pb-title{
 .fw.pageno{
 	text-indent:0 !important;
 	margin-left:0 !important;
+}
+.fw.catch.left{
+	margin-left:0;/*AW revisit*/
+	text-indent:0;
 }
 .fw.catch.right{
 	margin-left:80%;/*AW revisit*/
@@ -373,12 +380,6 @@ p span.pb-title{
      is already set and you can remove this rule */
 	vertical-align:baseline;
 }
-.marginbottom{
-	line-height:0;
-	position:relative;
-	vertical-align:baseline;
-}
-
 .above,
 .sup,
 .top{
@@ -387,7 +388,6 @@ p span.pb-title{
 }
 .below,
 .bottom,
-.marginbottom,
 .sub{
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */

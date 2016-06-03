@@ -119,10 +119,16 @@
 		</xsl:attribute>
 	</xsl:template>
 
-	<xsl:template match="front|back|body|div|text">
+	<xsl:template match="front|back|body|text">
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
+	</xsl:template>
+
+	<xsl:template match="div">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</div><br/>
 	</xsl:template>
 
 	<xsl:template match="p|ab">
@@ -276,6 +282,10 @@
 		</span>
 	</xsl:template>
 
+	<xsl:template match="div/cb">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<xsl:template match="cb">
 		<br/>
 		<xsl:apply-templates/>
@@ -286,7 +296,7 @@
 	</xsl:template>
 
 	<xsl:template match="closer">
-		<span class="closer">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -463,7 +473,7 @@
 	</xsl:template>
 
 	<xsl:template match="opener">
-		<span class="opener">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
