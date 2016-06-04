@@ -335,18 +335,18 @@
 		<span class="figfigDesc" title="figure">[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
-	<xsl:template match="fw[@type='catch']">
+	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="fw[@type='pageno']">
+	<!--<xsl:template match="fw[@type='pageno']">
 		<span class="fw pageno" title="">
 			<xsl:apply-templates/>
 		</span>
 		<br/>
-	</xsl:template>
+	</xsl:template>-->
 
 	<xsl:template match="gap[@extent][@unit]" priority="10">
 		<xsl:choose>
