@@ -103,6 +103,9 @@ div.transcription{
 	margin-top:1.5em;
 	margin-bottom:-1em;
 }
+.pb-title:hover{
+	color:#AAA;
+}
 .pb-title:first-of-type {
   margin-top: 0;
 }/*This is to prevent scrolling up when the first image opens. AW*/
