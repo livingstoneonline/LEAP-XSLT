@@ -333,7 +333,7 @@ p span.pb-title{
 	margin-left:25%;
 }
 .small{
-	font-size:80%;
+	font-size:85%;
 }
 .smallcaps{
 	font-variant:small-caps;
@@ -407,6 +407,11 @@ p span.pb-title{
 	margin-left:25% !important;
 }
 /*Needs to be revisited. See 2133-1. AW*/
+.true{
+	display:inline-block;
+	margin-left:9% !important; 
+}/*Goes with standalone <note>s*/
+
 
 /* 10. Colors */
 

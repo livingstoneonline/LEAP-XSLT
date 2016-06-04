@@ -465,11 +465,15 @@
 	</xsl:template>
 
 	<xsl:template match="note">
-		<span class="note">[<xsl:apply-templates/>]</span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @anchored)}">[<xsl:apply-templates/>]</span>
+	</xsl:template>
+
+	<xsl:template match="p/note" priority="8">
+		<span class="{concat(name(), ' ', @type, ' ', @rend)}">[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
 	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
-		<span class="note"><xsl:apply-templates/></span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="opener">
