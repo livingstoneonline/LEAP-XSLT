@@ -151,16 +151,14 @@ p span.pb-title{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:90% !important;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:9%;
 	text-align:left;
 }
 .doubleline{
 	border-top: 4px double #8c8b8b;
 	display:block;
 	width:90% !important;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:9%;
 	text-align:left;
 }
 .tripleline{
@@ -168,24 +166,21 @@ p span.pb-title{
 	line-height:1.9em;
 	display:block;
 	width:90% !important;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:9%;
 	text-align:left;
 }
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:40% !important;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:9%;
 	text-align:left;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:20% !important;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:9%;
 	text-align:left;
 }
 
