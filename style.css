@@ -150,14 +150,14 @@ p span.pb-title{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:90% !important;
+	width:75% !important;
 	margin-left:9%;
 	text-align:left;
 }
 .doubleline{
 	border-top: 4px double #8c8b8b;
 	display:block;
-	width:90% !important;
+	width:75% !important;
 	margin-left:9%;
 	text-align:left;
 }
@@ -165,7 +165,7 @@ p span.pb-title{
 	border-top: 4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
-	width:90% !important;
+	width:75% !important;
 	margin-left:9%;
 	text-align:left;
 }
@@ -443,15 +443,17 @@ p span.pb-title{
 .list{
 	display:block;
 	margin-left:9%;
+	margin-top:12px;
 }
-.table{
+table{
 	margin-left:9%;
-	display:inline-block;
+	font-size:85%;
 	border-style:none;
 }
 tr,
 td{
 	border-style:none;
+	margin-left:9%;
 }
 
 
