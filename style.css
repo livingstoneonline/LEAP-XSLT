@@ -1,352 +1,364 @@
+/* 
+
+Table of Contents
+-----------------
+1. Textual divisions 
+2. Letters 
+3. pb, lb, linenumber 
+4. Milestone and lines 
+5. p, ab, note, fw 
+6. Additions and Deletions 
+7. Editorial 
+8. @rend classes (except lines, page placement, colors) 
+9. Page placement 
+10. Colors 
+11. Lists and Tables 
+12. Misc 
+
+* /
+
+
+
+/* 1. Textual divisions */
+
 div.transcription{
-    margin-left:auto;
-    margin-right:auto;
-    width:80%;
-    font-family:calibri, arial, helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+	font-size:.9em;
+	white-space: nowrap;
 }
-
-.linenumber{
-    float:left;
-    color:#AAA;
-    margin-left: -3em;
-    font-size:80%;
-    width:3em;
+.TEI{
+	display:block;
 }
-
-.expan {display:none;}
-.abbr,
-.expan{
-    border-bottom:1px green dotted
-}
-.orig,
-.reg{
-    border-bottom:1px blue dotted
-}
-.sic,
-.corr{
-    border-bottom:1px red dotted
-}
-
-.pb-title{
-    font-weight:bold;
-    text-align:center;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
-p.center{
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
-    text-align:left;
-}
-p.right{
-    float:right;
-    clear:both;
-    width:40%;
-    text-align:left;
+.text{
 }
 .TEI p{
     margin-left:5%;
 }
-p.ab,
-p.noindent{
-    margin-left:-5%;
+.body{
+	display:block;
+	padding-bottom:2.4em;
+}
+.front,
+.back{
+	display:block;
 }
 
 .TEI table,
 .TEI tr,
 .TEI td{
     border-style:none;
+.div{
 }
 
 
+/* 2. Letters */
 
-
-.hidden{
-    display:none;
+.opener,
+.closer{
+	margin-left:9%;
+	margin-bottom:0px;
 }
-
-
-/** @rend classes */
-
-.caps{
-    font-variant:small-caps;
-}
-.center{
-    margin-left:auto;
-    margin-right:auto;
-    width:70%;
-}
-.doubleunderline{
-    border-bottom:3px double;
-}
-.quarterline{
-    border-bottom:1px solid;
-    display:block;
-    width:25% !important;
-    margin-left:0px !important;
-    text-align:left;
-}
-.doubleline{
-    border-bottom:3px double;
-    display:block;
-    width:50%;
-    margin-left:auto;
-    margin-right:auto;
-}
-.tripleline{
-    border-bottom:3px double;
-    line-height:1.9em;
-    display:block;
-    width:50%;
-    margin-left:auto;
-    margin-right:auto;
-}
-.halfline{
-    border-bottom:1px solid;
-    display:block;
-    width:50% !important;
-    margin-left:0px !important;
-    text-align:left;
-}
-.line{
-    border-bottom:1px solid #d0d0d0;
-    display:block;
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-
-.indent{
-    margin-left:+20%;
-}
-.italic{
-    font-style:italic;
-}
-.large{
-    font-size:120%;
-}
-.left{
-    float:left;
-    margin-left:15%;
-}
-
-.noindent{
-    margin-left:0%;
-}
-.other{
-}
-
-.right{
-    float:right;
-    margin-right:15%;
-    width:50%;
-    text-align:left;
-}
-
-.above,
-.below,
-.sub,
-.sup{
-    /* Specified in % so that the sup/sup is the
-     right size relative to the surrounding text */
-    font-size:75%;
-
-    /* Zero out the line-height so that it doesn't
-     interfere with the positioning that follows */
-    line-height:0;
-
-    /* Where the magic happens: makes all browsers position
-     the sup/sup properly, relative to the surrounding text */
-    position:relative;
-
-    /* Note that if you're using Eric Meyer's reset.css, this
-     is already set and you can remove this rule */
-    vertical-align:baseline;
-}
-
-.above,
-.sup{
-    /* Move the superscripted text up */
-    top:-0.5em;
-}
-
-.below,
-.sub{
-    /* Move the subscripted text down, but only
-     half as far down as the superscript moved up */
-    bottom:-0.25em;
-}
-
-/**place= above, below, bottom, end, inline, inspace, marginleft, margineright, margintop, marginbottom, top **/
-
-.marginLeft{
-    width:20%;
-    float:left;
-    margin-left:-25%;
-    margin-right:10px;
-    clear:left;
-    color:red;
-}
-.marginRight{
-    width:20%;
-    float:right;
-    margin-right:5%;
-    clear:right;
-    color:red;
-}
-/* Too difficult for now inside target framework*/
-.marginTop{
-}
-.marginBottom{
-}
-
-.small{
-    font-size:80%;
-}
-.smallcaps{
-    font-variant:small-caps;
-}
-.underline{
-    text-decoration:underline;
-}
-.upsidedown{
-    -ms-transform:rotate(180deg); /* IE 9 */
-    -moz-transform:rotate(180deg); /* Firefox */
-    -webkit-transform:rotate(180deg); /* Safari and Chrome */
-    -o-transform:rotate(180deg); /* Opera */
-}
-span.vertical{
-    -ms-transform:rotate(90deg); /* IE 9 */
-    -moz-transform:rotate(90deg); /* Firefox */
-    -webkit-transform:rotate(90deg); /* Safari and Chrome */
-    -o-transform:rotate(90deg); /* Opera */
-}
-
-
-.black{
-    color:black;
-}
-.blue{
-    color:blue;
-}
-.brown{
-    color:brown;
-}
-.gray{
-    color:gray;
-}
-.green{
-    color:green;
-}
-.red{
-    color:red;
-}
-
-
-
-
-
-/** elements **/
-
-.space{
-    border-bottom:1px dotted black;
-}
-.del{
-    text-decoration:line-through;
-}
-.cancelled, .strike-through, .strikethrough, .overwritten{
-    text-decoration:line-through;
-    border-bottom:1px solid black;
-}
-
-
-span.foreignItalic{
-    font-style:italic;
-}
-
-
-.w{
-}
-.add{
-}
-.address{
-    display:block;
-}
-.date
-.desc
-.editor
-.hi
-.imprint
-.label
-.measure
-.measureGrp
-.name
-.addName
-.forename
-.geogFeat
-.geogName
-.orgName
-.persName
-.placeName
-.roleName
-.surname
-.fw
-.q
-.quote
-
-.term
-.note{display:block;}
-.gap {margin-left:5px; margin-right:5px;}
-.desc
-.gloss
-.seg
-.damage
-.unclear
-
-.monogr
-.addrLine
-.author
-.bibl{
-    display:block;
-}
-.biblScope
-.date
-.pubPlace
-.publisher
-.title
-
-.quote{
-    display:block;
-}
-.TEI{
-    display:block;
-}
-.back{
-    display:block;
-}
-.body{
-    display:block;
-}
-.p{
-    display:block;
-}
-.ab{
-    display:block;
+.opener{
+	display:inline;
+	margin-top:1em;
 }
 .closer{
-    display:block;
+	display:block;
 }
 .dateline{
-    display:block;
+	display:inline;
+	text-indent:0;
 }
-.div{
-    display:block;
+.dateline.center{
+	display:inline-block;
+	margin-left:15%;
 }
-.front{
-    display:block;
+.dateline.right{
+	display:block;
+	margin-left:25%;
+}
+.opener-salute{
+	margin-left:9% !important;
+}
+.closer-salute{
+	margin-left:0 !important;
+}
+.signed{
+	display:inline-block;
+}
+.address{
+	display:block;
+}
+.addrLine.center{
+	margin-left:15%;
+}
+.addrLine.right{
+	margin-left:25%;
+}
+
+
+/* 3. pb, lb, linenumber */
+
+.pb-title{
+	display:block;
+	color:#428bca;
+	text-decoration:underline;
+	font-size:90%;
+	margin-left:9%;
+	margin-top:1.5em;
+	margin-bottom:-1em;
+}
+.pb-title:hover{
+	color:#AAA;
+	cursor:pointer
+}
+.pb-title:first-of-type {
+  margin-top: 0;
+}/*This is to prevent scrolling up when the first image opens. AW*/
+p span.pb-title{
+	margin-left:0;
+	text-indent:0;
+}
+.del-pb{
+}
+/*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
+.lb{
+	display:block;
+}
+.lb.center{
+	margin-left:15%;
+}
+.lb.right{
+	margin-right:25%;
+}
+.linenumber{
+	float:left;
+	color:#AAA;
+	margin-left:-3em !important;
+	text-indent:0;
+	font-size:80%;
+	width:3em;
+}
+.p.noindent.linenumber{
+	text-indent:1em;
+}
+
+
+/* 4. Milestone and lines */
+
+.milestone{
+	display:block;
+	width:60%;
+	background:#FFF;
+	color:black;
+	height:0px;
+	margin-left:9%;
+	margin-right:9%;
+	padding:0px;
+}
+.line{
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:75% !important;
+	margin-left:9%;
+	text-align:left;
+}
+.doubleline{
+	border-top: 4px double #8c8b8b;
+	display:block;
+	width:75% !important;
+	margin-left:9%;
+	text-align:left;
+}
+.tripleline{
+	border-top: 4px double #8c8b8b;
+	line-height:1.9em;
+	display:block;
+	width:75% !important;
+	margin-left:9%;
+	text-align:left;
+}
+.halfline{
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:40% !important;
+	margin-left:9%;
+	text-align:left;
+}
+.quarterline{
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:20% !important;
+	margin-left:9%;
+	text-align:left;
+}
+
+
+/* 5. p, ab, note, fw */
+
+.p{
+	display:inline-block;
+	text-indent:25px;
+	margin-left:9%;
+	margin-top:0;
+	margin-bottom:0;	
+}
+.p.noindent{
+	text-indent:0 !important;
+}
+.p.center{
+	text-indent:0 !important;
+	margin-left:15%;
+}
+.p.right{
+	text-indent:0 !important;
+	margin-left:25%;
+}
+.ab{
+	text-indent:0;
+	margin-left:9%;
+	margin-top:0;
+	margin-bottom:0;
+}
+.ab.center{
+	margin-left:15%;
+}
+.head{
+	font-weight:normal;
+}
+.note{
+	display:inline;
+}
+.fw{
+	display:inline-block;
+	margin-left:9%;
+}
+.fw.pageno{
+	text-indent:0 !important;
+}
+.fw.catch.left{
+	margin-left:0;/*AW revisit*/
+	text-indent:0;
+}
+.fw.catch.right{
+	margin-left:80%;/*AW revisit*/
+	text-indent:0;
+}
+
+
+/* 6. Additions and Deletions */
+
+.opener-add{
+}
+/*Needs to be sorted out. See 1340-1. AW*/
+.addmargin{
+	text-indent:0px;
+}
+.del,
+.cancelled,
+.strikethrough,
+.overwritten{
+	text-decoration:line-through;
+}
+
+
+/* 7. Unclear, gap, space */
+.unclear{
+	color:gray;
+	border-bottom:1px dotted gray;
+}
+.gap{
+	border-bottom:1px dotted black;
+}
+.space-other{
+	border-bottom:1px dotted black;
+	display:block;
+	margin-left:9%;
+}
+.verticalSpace{
+	display:inline-block;
+	margin-left:9%;
+	border-bottom:1px dotted black;
+}
+
+
+
+/* 7. Editorial */
+
+.sic,
+.corr{
+	border-bottom:1px red dotted
+}
+.orig,
+.reg{
+	border-bottom:1px green dotted
+}
+.abbr,
+.expan{
+	border-bottom:1px blue dotted
+}
+.expan{
+	display:none;
+}
+.hidden{
+	display:none;
+}
+.rdg{
+	display:block;
+}
+
+
+/* 8. @rend classes (except colors, lines, and up-down placement) */
+
+.caps{
+	font-variant:small-caps;
+}
+.center{
+	text-indent:0;
+	margin-left:15%;
+}
+.doubleunderline{
+	border-bottom:3px double;
+}
+.inline{
+	color:gray;
+}
+.italic{
+	font-style:italic;
+}
+.large{
+	font-size:120%;
+}
+.overtext{
+	color:gray;
+}
+.right{
+	text-indent:0;
+	margin-left:25%;
+}
+.small{
+	font-size:85%;
+}
+.smallcaps{
+	font-variant:small-caps;
+}
+.underline{
+	text-decoration:underline;
+}
+.upsidedown{
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-moz-transform:rotate(180deg); /* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+	-o-transform:rotate(180deg); /* Opera */
+}
+.vertical{
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
 }
 
 
@@ -356,81 +368,122 @@ span.foreignItalic{
     font-weight:bold;
     color:#AAF;
 }
+/* 9. Page placement */
+.above,
+.below,
+.bottom,
+.sub,
+.sup,
+.top{
+	/* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+	font-size:75%;
 
-.head
+	/* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+	line-height:0;
 
-.item{
+	/* Where the magic happens: makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+	position:relative;
+
+	/* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+	vertical-align:baseline;
 }
-.label{
+.above,
+.sup,
+.top{
+	/* Move the superscripted text up */
+	top:-0.5em;
+}
+.below,
+.bottom,
+.sub{
+	/* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+	bottom:-0.25em;
+}
+.margintop{
+	margin-left:0;
+	color:gray;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+	top:-1em;
+}
+.margintop.left{
+	margin-left:9% !important;
+}
+.margintop.right{
+	margin-left:25% !important;
+}
+/*Needs to be revisited. See 2133-1. AW*/
+.true{
+	display:inline-block;
+	margin-left:9% !important; 
+}/*Goes with standalone <note>s*/
+
+
+/* 10. Colors */
+
+.black{
+	color:black;
+}
+.blue{
+	color:blue;
+}
+.brown{
+	color:brown;
+}
+.gray{
+	color:gray;
+}
+.green{
+	color:green;
+}
+.orange{
+	color:orange;
+}
+.purple{
+	color:purple;
+}
+.red{
+	color:red;
+}
+.yellow{
+	color:yellow;
 }
 
-.cb{
-}
-.gb{
-}
-.lb{
-}
-/*.milestone {display:block; width:100%; background:#FFF; border-bottom:black 1px solid; height:1px; margin-left:auto; margin-right:auto; padding:2px;}*/
-.pb{
-    display:block;
-}
 
-.graphic{
+/* 11. Lists and Tables */
+.list{
+	display:block;
+	margin-left:9%;
+	margin-top:12px;
 }
-.figure{
-}
-.table,
 table{
+	margin-left:9%;
+	font-size:85%;
+	border-style:none;
 }
-.row,
-tr{
-}
-.cell,
+tr,
 td{
+	border-style:none;
+	margin-left:9%;
 }
-.anchor{
-}
-.app{
-}
-.rdg{
-    display:block;
-}
-.addSpan{
-}
-.damageSpan{
-}
-.delSpan{
-}
-.handShift{
+
+
+/* 12. Misc */
+.figfigDesc{
+	color:gray;
 }
 .metamark{
+	color:gray;
 }
-.mod{
+.quote{
+	display:block;
 }
-.redo{
-}
-.restore{
-}
-.retrace{
-}
-.subst{
-}
-.supplied{
-}
-.surplus{
-}
-.transpose{
-}
-.undo{
-}
-
-div.metadataContainer{
-    margin-left:auto;
-    margin-right:auto;
-    width:90%;
-    font-family:calibri, arial, helvetica, sans-serif;
-}
-
 table.MODS_metadataTable {width:90%;}
 table.MODS_metadataTable, table.MODS_metadataTable tr td {border:1px black dotted}
 table.MODS_metadataTable tr td.metadataTableLabel {width:20%; text-align:right; padding-right:10px; font-weight:bold;}
