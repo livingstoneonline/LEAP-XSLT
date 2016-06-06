@@ -34,9 +34,6 @@ div.transcription{
 }
 .text{
 }
-.TEI p{
-    margin-left:5%;
-}
 .body{
 	display:block;
 	padding-bottom:2.4em;
@@ -45,11 +42,6 @@ div.transcription{
 .back{
 	display:block;
 }
-
-.TEI table,
-.TEI tr,
-.TEI td{
-    border-style:none;
 .div{
 }
 
@@ -362,13 +354,8 @@ p span.pb-title{
 }
 
 
-.ref,
-.TEI a, .TEI a:visited{
-    text-decoration:none;
-    font-weight:bold;
-    color:#AAF;
-}
 /* 9. Page placement */
+
 .above,
 .below,
 .bottom,
@@ -484,7 +471,3 @@ td{
 .quote{
 	display:block;
 }
-table.MODS_metadataTable {width:90%;}
-table.MODS_metadataTable, table.MODS_metadataTable tr td {border:1px black dotted}
-table.MODS_metadataTable tr td.metadataTableLabel {width:20%; text-align:right; padding-right:10px; font-weight:bold;}
-table.MODS_metadataTable tr td.metadataTableData {text-align:left; padding-right:10px; font-weight:normal;}
