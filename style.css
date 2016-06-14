@@ -150,19 +150,21 @@ p span.pb-title{
 	height:0px;
 	margin-left:9%;
 	margin-right:9%;
+	margin-top:-.5em;
+	margin-bottom:-.5em;
 	padding:0px;
 }
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:75% !important;
+	width:65% !important;
 	margin-left:9%;
 	text-align:left;
 }
 .doubleline{
 	border-top: 4px double #8c8b8b;
 	display:block;
-	width:75% !important;
+	width:65% !important;
 	margin-left:9%;
 	text-align:left;
 }
@@ -170,7 +172,7 @@ p span.pb-title{
 	border-top: 4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
-	width:75% !important;
+	width:65% !important;
 	margin-left:9%;
 	text-align:left;
 }
@@ -469,9 +471,28 @@ td{
 /* 12. Misc */
 .figfigDesc{
 	color:gray;
+	font-style:italic;
+	font-size:.8em;
+}
+.figure{
+	margin-left:9%;
+}
+.figHead{
+	display:inline-block;
+}
+.p .figure,
+.p.noindent .figure,
+.ab .figure{
+	margin-left:0px !important;
 }
 .metamark{
 	color:gray;
+	font-size:.8em;
+	margin-left:9%;
+}
+p. metamark{
+	margin-left:0px !important;
+	text-indent:0px !important;
 }
 .quote{
 	display:block;
