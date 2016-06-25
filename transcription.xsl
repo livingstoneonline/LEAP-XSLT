@@ -203,7 +203,7 @@
 	<xsl:template match="choice/sic">
 		<span class="sic diplomatic ">
 			<xsl:if test="../corr">
-				<xsl:attribute name="title">corrected version: <xsl:value-of select="../corr"/></xsl:attribute>
+				<xsl:attribute name="title">corr: <xsl:value-of select="../corr"/></xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
@@ -259,6 +259,26 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
+
+	<!-- Start of addSpan/anchor -->
+
+	<xsl:template match="tei:addSpan[preceding-sibling::node()[1][name()='p']]|tei:addSpan[preceding-sibling::node()[2][name()='p']]|p/addSpan">
+		<br/>
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="tei:addSpan|p/anchor">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="tei:anchor">		
+		<xsl:apply-templates/>
+		<br/>
+	</xsl:template>
+
+	<!-- End of addSpan/anchor -->
+
 
 	<!-- app: show first rdg -->
 	<xsl:template match="app">
@@ -331,20 +351,13 @@
 	</xsl:template>
 
 	<xsl:template match="figure">
-		<span class="figure" title="">
+		<span class="figure" title="{concat(head, ';  ', figDesc)}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="figure/head">
-		<span class="figHead">
-			[<xsl:apply-templates/>]
-		</span>
-	</xsl:template>
-
-
 	<!-- foreign should be italiced in edited view -->
-	<!--<xsl:template match="foreign" xml:space="preserve">
+	<xsl:template match="foreign" xml:space="preserve">
 		<span class="foreign diplomatic">
 		<xsl:if test="@xml:lang">
 			<xsl:attribute name="title">
@@ -360,7 +373,7 @@
 			</xsl:attribute>
 		</xsl:if>
 			<xsl:apply-templates/></span>
-		</xsl:template>-->
+		</xsl:template>
 
 	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
@@ -399,6 +412,12 @@
 		</xsl:element>
 	</xsl:template>
 
+	<xsl:template match="figure/head">
+		<span class="figHead">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
 	<xsl:template match="list/item">
 		<span class="listitem" title="item">
 			<xsl:apply-templates/>
@@ -413,22 +432,17 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="measure/measure">
-			<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="metamark"><span class="metamark" title="metamark"> [<span class="italic">metamark</span>] </span></xsl:template>
+	<xsl:template match="metamark">[<span class="metamark italic" title="metamark">symbol</span>]</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">metamark</span>
+		<span class="metamark italic" title="metamark">symbol</span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginright']/metamark" priority="10">
-		<span class="metamark italic" title="metamark">metamark</span>
+		<span class="metamark italic" title="metamark">symbol</span>
 	</xsl:template>
 
 	<xsl:template match="milestone">
-		<br/>
 		<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:if test="@*">
 				<xsl:attribute name="title">
