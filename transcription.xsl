@@ -357,7 +357,7 @@
 	</xsl:template>
 
 	<!-- foreign should be italiced in edited view -->
-	<xsl:template match="foreign" xml:space="preserve">
+	<!--<xsl:template match="foreign" xml:space="preserve">
 		<span class="foreign diplomatic">
 		<xsl:if test="@xml:lang">
 			<xsl:attribute name="title">
@@ -373,7 +373,7 @@
 			</xsl:attribute>
 		</xsl:if>
 			<xsl:apply-templates/></span>
-		</xsl:template>
+		</xsl:template>-->
 
 	<xsl:template match="fw[@type='catch']|fw[@type='pageno']">
 		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
