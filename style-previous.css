@@ -261,10 +261,6 @@ p{
 .overwritten{
 	text-decoration:line-through;
 }
-.del-by-over-text{
-	color:gray;
-	text-decoration:line-through;
-}
 
 
 /* 7. Unclear, gap, space */
@@ -292,15 +288,15 @@ p{
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:1px red dotted
 }
 .orig,
 .reg{
-	/*border-bottom:1px green dotted*/
+	border-bottom:1px green dotted
 }
 .abbr,
 .expan{
-	border-bottom:1px green dotted
+	border-bottom:1px blue dotted
 }
 .expan{
 	display:none;
@@ -335,7 +331,7 @@ p{
 	font-size:120%;
 }
 .overtext{
-	/*color:gray;*/
+	color:gray;
 }
 .right{
 	text-indent:0;
@@ -351,16 +347,16 @@ p{
 	text-decoration:underline;
 }
 .upsidedown{
-	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
-	/*-moz-transform:rotate(180deg);*/ /* Firefox */
-	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
-	/*-o-transform:rotate(180deg);*/ /* Opera */
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-moz-transform:rotate(180deg); /* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+	-o-transform:rotate(180deg); /* Opera */
 }
 .vertical{
-	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
-	/*-moz-transform:rotate(90deg);*/ /* Firefox */
-	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
-	/*-o-transform:rotate(90deg);*/ /* Opera */
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
 }
 
 
@@ -446,7 +442,7 @@ p{
 	color:purple;
 }
 .red{
-	color:#B33B24;
+	color:red;
 }
 .yellow{
 	color:yellow;
@@ -491,11 +487,13 @@ td{
 }
 .metamark{
 	color:gray;
+	font-size:.8em;
 	margin-left:9%;
-	border-bottom:1px gray dotted;
 }
-p .metamark{
+p. metamark{
 	margin-left:0px !important;
 	text-indent:0px !important;
 }
-
+.quote{
+	display:block;
+}
