@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Livingstone Online: Annotated Region List</title>
+				<author>Adrian S. Wisnicki</author>
+				<author>Megan Ward</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<publisher>University of Maryland Libraries</publisher>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<date>2017</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
+						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
+						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A Livingstone Online project.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+			<listPlace>
+
+				<place xml:id="region0001" type="region">
+					<placeName type="main">Chunya district of Mbeya region[?]</placeName>
+					<note type="editorial">Area in the western part of present-day Tanzania that is home to the
+						Bungu people and that lies just to the south east of Lake Rukwa.</note>
+				</place>
+
+				<place xml:id="region0002" type="region">
+					<placeName type="main">Dodoma[?]</placeName>
+					<note type="editorial">Region in the central part of present-day Tanzania that is home to the
+						Gogo people.</note>
+				</place>
+
+				<place xml:id="region0003" type="region">
+					<placeName type="main">Iringa[?]</placeName>
+					<note type="editorial">Region in the south central part of present-day Tanzania that is home to
+						the Bena people.</note>
+				</place>
+
+				<place xml:id="region0004" type="region">
+					<placeName type="main">Karagwe</placeName>
+					<note type="editorial">Region in present-day northern Tanzania lying just to the west of Lake
+						Victoria and to the east of Rwanda that served as the site of a major kingdom in the
+						nineteenth century.</note>
+				</place>
+
+				<place xml:id="region0005" type="region">
+					<placeName type="main">Katanga</placeName>
+					<note type="editorial">Region in the southern part of present-day Democratic Republic of the
+						Congo. During the period in question, ruled by Msiri and known for its underground mines and
+						for resources such as copper, gold, and malachite.</note>
+				</place>
+
+				<place xml:id="region0006" type="region">
+					<placeName type="main">Kingdom of Tirhaka</placeName>
+					<note type="editorial">Tirhaka (also Taharqa, Taharka, or Tirhakah) ruled over Egypt and Kush
+						from 690 to 664, B.C.</note>
+				</place>
+
+				<place xml:id="region0007" type="region">
+					<placeName type="main">Legaland</placeName>
+					<note type="editorial">Region in the eastern part of present-day Democratic Republic of the
+						Congo that is home to the Lega people and that encompasses the valleys of the middle and upper
+						Elila and the upper Ulindi rivers.</note>
+				</place>
+
+				<place xml:id="region0009" type="region">
+					<placeName type="main">Linyanti</placeName>
+					<note type="editorial">Region in the northern part of present-day Botswana, just south of the
+						Zambesi River, which became one of the primary settlements of the Kololo state.</note>
+				</place>
+
+				<place xml:id="region0010" type="region">
+					<placeName type="main">Lubaland</placeName>
+					<note type="editorial">Savannah region in the central part of present-day Democratic Republic
+						of the Congo that served as the site of the Luba kingdom, a major African empire in the
+						nineteenth century.</note>
+				</place>
+
+				<place xml:id="region0011" type="region">
+					<placeName type="main">Lunda</placeName>
+					<note type="editorial">Significant central African kingdom that, in the nineteenth century,
+						encompassed what are now the southern part of the Democratic Republic of the Congo,
+						north-eastern Angola, and north-western Zambia.</note>
+				</place>
+
+				<place xml:id="region0012" type="region">
+					<placeName type="main">Maasailand</placeName>
+					<note type="editorial">Region in east Africa that is home to the Maasi people and stretches
+						from northern Tanzania to southern Kenya.</note>
+				</place>
+
+				<place xml:id="region0013" type="region">
+					<placeName type="main">Maniema</placeName>
+					<note type="editorial">Also Manyema or Mayuema. Region in the eastern part of present-day
+						Democratic Republic of the Congo roughly bordering the Lomami River to the west, Katanga to
+						the south, Lakes Tanganyika and Kivu to the east, and the territory of Stanley Falls to the
+						north</note>
+				</place>
+
+				<place xml:id="region0014" type="region">
+					<placeName type="main">Mbeya[?]</placeName>
+					<note type="editorial">Also called Usango in Livingstone's time. Region in the western part of
+						present-day Tanzania that is home to the Sangu people and that lies just to the east and south
+						east of Lake Rukwa.</note>
+				</place>
+
+				<place xml:id="region0015" type="region">
+					<placeName type="main">Midian</placeName>
+					<note type="editorial">Ancient civilization in the northwest Arabian peninsula.</note>
+				</place>
+
+				<place xml:id="region0016" type="region">
+					<placeName type="main">Shire highlands</placeName>
+					<note type="editorial">Plateau east of the Shire River in the southern part of present-day
+						Malawi.</note>
+				</place>
+
+				<!-- Current higest number = region0016 -->
+
+			</listPlace>
+
+		</body>
+	</text>
+</TEI>

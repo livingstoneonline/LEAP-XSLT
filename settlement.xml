@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Livingstone Online: Annotated Settlement List</title>
+				<author>Adrian S. Wisnicki</author>
+				<author>Megan Ward</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<publisher>University of Maryland Libraries</publisher>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<date>2017</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
+						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
+						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A Livingstone Online project.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+			<listPlace>
+
+				<place xml:id="sett0001" type="settlement_town">
+					<placeName type="main">Bagamoyo</placeName>
+					<note type="editorial">East African costal town in present-day Tanzania that served as one of
+						the most important trading ports of the nineteenth century.</note>
+				</place>
+
+				<place xml:id="sett0002" type="settlement_village">
+					<placeName type="main">Bambarre</placeName>
+					<note type="editorial">Also Bambare, Kabambare, and Kabambarre. Village in Maniema, an eastern
+						region in present-day Democratic Republic of the Congo. Livingstone stayed there 21
+						September-1 November 1869, 19-26 December 1869, and 22 July 1870-16 February 1871, and wrote
+						most of the 1870 Field Diary there.</note>
+				</place>
+
+				<place xml:id="sett0003" type="settlement">
+					<placeName type="main">Delphi</placeName>
+					<note type="editorial">City in Greece known for its oracle in ancient times.</note>
+				</place>
+
+				<place xml:id="sett0004" type="settlement_village">
+					<placeName type="main">Kanyembo</placeName>
+					<note type="editorial">In present-day northern Zambia). The capital of Cazembe (Kazembe VIII),
+						chief of the Balunda.</note>
+				</place>
+
+				<place xml:id="sett0005" type="settlement_village">
+					<placeName type="main">Kasongo</placeName>
+					<note type="editorial">Village in Maniema, an eastern region in present-day Democratic Republic
+						of the Congo, lying to the east of the Lualaba River. One of the key nineteenth-century
+						outposts for Zanzibari traders</note>
+				</place>
+
+				<place xml:id="sett0006" type="settlement_village">
+					<placeName type="main">Kolobeng</placeName>
+					<note type="editorial">Livingstone’s third mission station, near Gaborone in present-day
+						Botswana. Livingstone, Sechele, and the Bakwena settled here in 1847 following serious water
+						shortage at Chonuane. From Kolobeng, Livingstone journeyed to Lake Ngami, and laid plans to
+						make contact with Sebituane and explore the Zambezi. A group of Transvaal Boers ransacked the
+						Kolobeng mission in 1852 as part of an attack on Sechele.</note>
+				</place>
+
+				<place xml:id="sett0007" type="settlement_village">
+					<placeName type="main">Kuruman</placeName>
+					<note type="editorial">London Missionary Society (LMS) mission to the Tlhaping (a SeTswana
+						speaking group) in the Northern Cape of present-day South Africa. Owed its origins to the work
+						of missionary James Read and was developed in the 1820s by Robert and Mary Moffat, later
+						Livingstone's parents-in-law. When Livingstone arrived, Kuruman was the northernmost of the
+						LMS’s mission stations in southern Africa and was considered to be a prototype of a successful
+						mission station.</note>
+				</place>
+
+				<place xml:id="sett0008" type="settlement_town">
+					<placeName type="main">Lebadea</placeName>
+					<note type="editorial">Town in ancient Greece (Livadeia in modern Greece).</note>
+				</place>
+
+				<place xml:id="sett0009" type="settlement_city">
+					<placeName type="main">Meroe</placeName>
+					<note type="editorial">Ancient city on the east bank of the Nile.</note>
+				</place>
+
+				<place xml:id="sett0010" type="settlement_city">
+					<placeName type="main">Nashik</placeName>
+					<note type="editorial">City in India.</note>
+				</place>
+
+				<place xml:id="sett0011" type="settlement_city">
+					<placeName type="main">Nineveh</placeName>
+					<note type="editorial">Ancient city of Upper Mesopotamia, located in modern-day Iraq.</note>
+				</place>
+
+				<place xml:id="sett0012" type="settlement_village">
+					<placeName type="main">Nyangwe</placeName>
+					<note type="editorial">Village and marketplace on the banks of the Lualaba River in Maniema, an
+						eastern region in present-day Democratic Republic of the Congo. Livingstone stayed there 23
+						March-20 July 1871 and wrote most of the 1871 Field Diary there.</note>
+				</place>
+
+				<place xml:id="sett0013" type="settlement_city">
+					<placeName type="main">Sais</placeName>
+					<note type="editorial">Ancient Egyptian town in the Western Nile delta.</note>
+				</place>
+
+				<place xml:id="sett0014" type="settlement_village">
+					<placeName type="main">Ujiji</placeName>
+					<note type="editorial">Village on the eastern shore of Lake Tanganyika. In the nineteenth
+						century, Ujiji was one of the major trading depots in the Arab-African trading network of East
+						Africa.</note>
+				</place>
+
+				<place xml:id="sett0015" type="settlement_town">
+					<placeName type="main">Unyanyembe</placeName>
+					<note type="editorial">Town in the central part of present-day Tanzania that, in the nineteenth
+						century, served as one of the major depots on the trade routes that ran between the east coast
+						of Africa and the interior.</note>
+				</place>
+
+				<!-- Current higest number = sett0015 -->
+
+			</listPlace>
+
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Livingstone Online: Personography</title>
+				<author>Adrian S. Wisnicki</author>
+				<author>Megan Ward</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<publisher>University of Maryland Libraries</publisher>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<date>2017</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
+						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
+						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A Livingstone Online project.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+			<listPerson>
+
+				<person xml:id="pers0003">
+					<persName type="main">Aaron</persName>
+					<note type="editorial">Biblical prophet. Older brother of Moses and son of Abraham.</note>
+				</person>
+
+				<person xml:id="pers0004">
+					<persName type="main">Abdullah</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0005">
+					<persName type="main">Abdullah Masudi</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0006">
+					<persName type="main">Abed</persName>
+					<note type="editorial">Arab trader, and one of the first Arab settlers in Nyangwe. Assisted
+						Livingstone's travels; produced the Zingifure ink with which Livingstone wrote the 1871 Field
+						Diary.</note>
+				</person>
+
+				<person xml:id="pers0007">
+					<persName type="main">Abraham</persName>
+					<note type="editorial">One of three biblical patriarchs.</note>
+				</person>
+
+				<person xml:id="pers0008">
+					<persName type="main">Abram</persName>
+					<note type="editorial">One of a group of men from a government-run school for freed slaves in
+						Nashik (spelled "Nassick" by Livingstone), India who accompanied Livingstone on his last
+						journey.</note>
+				</person>
+
+				<person xml:id="pers0009">
+					<persName type="main">Absalom</persName>
+					<note type="editorial">Third son of David, the king of Israel, in the Old Testament.</note>
+				</person>
+
+				<person xml:id="pers0010">
+					<persName type="main">Achilles</persName>
+					<note type="editorial">In Greek mythology, hero of the Trojan war and a main character of
+						Homer's Iliad.</note>
+				</person>
+
+				<person xml:id="pers0011">
+					<persName type="main">Adams, Henry Gardiner</persName>
+					<note type="editorial">Author of Dr. Livingston[sic]: His Life and Adventures in the Interior
+						of South Africa (1857), a book based on Livingstone's letters regarding his transcontinental
+						African journey. Also wrote David Livingstone: The Weaver Boy who Became a Missionary
+						(1874).</note>
+				</person>
+
+				<person xml:id="pers0012">
+					<persName type="main">Amur</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0013">
+					<persName type="main">Awathe</persName>
+					<note type="editorial">Arab trader, dispatched with Shereef Bosher from the coast in 1869 by
+						Ludha Damji, "the richest Banian in Zanzibar," to supply Livingstone with goods and
+						men.</note>
+				</person>
+
+				<person xml:id="pers0014">
+					<persName type="main">Baines, Thomas</persName>
+					<birth when="1820">1820</birth>
+					<death when="1875">1875</death>
+					<note type="editorial">Appointed artist-storekeeper to the Zambesi Expedition. Dismissed by
+						Livingstone for the misuse of government property. Journeyed to Victoria Falls with James
+						Chapman. Published first paintings of the Falls in 1865.</note>
+				</person>
+
+				<person xml:id="pers0015">
+					<persName type="main">Baker, Florence</persName>
+					<birth when="1841">1841</birth>
+					<death when="1916">1916</death>
+					<note type="editorial">Explorer. Born in the Austrian Empire, she was purchased at a Bulgarian
+						slave market by her future husband Samuel W. Baker in 1859. In 1864, she and Samuel became the
+						first Europeans to visit present-day Lake Albert, one of the most important central African
+						lakes.</note>
+				</person>
+
+				<person xml:id="pers0016">
+					<persName type="main">Baker, Samuel W.</persName>
+					<birth when="1821">1821</birth>
+					<death when="1893">1893</death>
+					<note type="editorial">Explorer and hunter. In 1864, he and his wife Florence Baker became the
+						first Europeans to visit present-day Lake Albert, one of the most important central African
+						lakes. On a subsequent expedition to the region (1869-73), served as Governor-General of the
+						Equatorial Nile Basin.</note>
+				</person>
+
+				<person xml:id="pers0017">
+					<persName type="main">Baldwin, William C.</persName>
+					<note type="editorial">Individual based in Natal, who found the missionary Holloway Helmore and
+						his family in the desert en route to Linyanti in 1859 and assisted them.</note>
+				</person>
+
+				<person xml:id="pers0018">
+					<persName type="main">Bell, Bessie</persName>
+					<note type="editorial">Reference uncertain. Bessie Bell and Mary Gray are the heroines of an
+						eponymous Scottish ballad collected in English and Scottish Ballads (1860), a well-known
+						anthology created by Francis James Child.</note>
+				</person>
+
+				<person xml:id="pers0019">
+					<persName type="main">Bin Mbegu</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0020">
+					<persName type="main">Bin Omar</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0021">
+					<persName type="main">Bleek, Wilhelm H.I.</persName>
+					<birth when="1827">1827</birth>
+					<death when="1875">1875</death>
+					<note type="editorial">German philologist who specialized in South African languages. Settled
+						in Cape Town in 1856 and was appointed by Sir George Grey as interpreter in 1857 and librarian
+						of his collection in 1860.</note>
+				</person>
+
+				<person xml:id="pers0022">
+					<persName type="main">Braithwaite, Joseph B.</persName>
+					<birth when="1818">1818</birth>
+					<death when="1905">1905</death>
+					<note type="editorial">Barrister and member of the Society of Friends whom Livingstone met in
+						1857 and corresponded with for the rest of his life. Was a friend of the Moffats,
+						Livingstone's in-laws.</note>
+				</person>
+
+				<person xml:id="pers0023">
+					<persName type="main">Burton, Richard F.</persName>
+					<birth when="1821">1821</birth>
+					<death when="1890">1890</death>
+					<note type="editorial">Explorer, writer, translator. Made a famous expedition to Mecca in
+						disguise in 1853. Led an expedition (1856-59) that resulted in the first sighting of Lake
+						Tanganyika by Europeans. However, John H. Speke's discovery of Lake Victoria, the source of
+						the Nile, on that same expedition led to a bitter public dispute that ultimately derailed the
+						overall trajectory of Burton's later career.</note>
+				</person>
+
+				<person xml:id="pers0024">
+					<persName type="main">Captain Black</persName>
+					<note type="editorial">Apparently an agent of the P &amp; O Company (Peninsular and Oriental
+						Steam Navigation Company), a British shipping company. This may be the "W. Black" to whom
+						Livingstone wrote a letter on 15 November 1871.</note>
+				</person>
+
+				<person xml:id="pers0025">
+					<persName type="main">Chakanja</persName>
+					<note type="editorial">One of the "ringleaders" of a rebellious group of liberated Banian
+						slaves hired by John Kirk, the acting British Consul and Political Resident at Zanzibar, to
+						assist Livingstone.</note>
+				</person>
+
+				<person xml:id="pers0026">
+					<persName type="main">Charura</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0027">
+					<persName type="main">Chassa</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0028">
+					<persName type="main">Chimembwe</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0029">
+					<persName type="main">Chuma, James</persName>
+					<birth when="1850">c.1850</birth>
+					<death when="1882">1882</death>
+					<note type="editorial">Member of the Yao tribe and freed slave. Travelled with Livingstone
+						until the latter's death, then accompanied Livingstone's body back to Britain where he helped
+						edit the Last Journals (1874).</note>
+				</person>
+
+				<person xml:id="pers0030">
+					<persName type="main">Chunda</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0031">
+					<persName type="main">Clarendon, The Earl of</persName>
+					<birth when="1800">1800</birth>
+					<death when="1870">1870</death>
+					<note type="editorial">George William Frederick Villiers. Foreign Secretary 1853-58, 1865-66,
+						and 1868-70. Involved in both Livingstone's Zambesi and final expeditions. Livingstone gave
+						his name to Mount Clarendon, east of the Shire river.</note>
+				</person>
+
+				<person xml:id="pers0032">
+					<persName type="main">Cooley, William D.</persName>
+					<birth when="1795">1795[?]</birth>
+					<death when="1883">1883</death>
+					<note type="editorial">Geographer and founder of the Hakluyt Society. Early work on mapping the
+						African interior (via classical sources and contemporary accounts) built his reputation as a
+						geographical authority. Later critiques of explorers transformed him into one of the most
+						notorious "armchair geographers" of his day.</note>
+				</person>
+
+				<person xml:id="pers0033">
+					<persName type="main">d"Arnauld, Joseph-Pons</persName>
+					<birth when="1811">1811</birth>
+					<death when="1884">1884</death>
+					<note type="editorial">French explorer and geographer. With Louis Sabatier and Ferdinand Werne,
+						navigated the White Nile to 4° 42' in 1841.</note>
+				</person>
+
+				<person xml:id="pers0034">
+					<persName type="main">Damji, Ludha</persName>
+					<birth>?</birth>
+					<death when="1871">1871</death>
+					<note type="editorial">Wealthy Banian customs collector and slave trader based in Zanzibar.
+						Livingstone blamed him for supplying all the guns and gunpowder of Tagamoio, the chief
+						perpetrator of the massacre at Nyangwe in 1871.</note>
+				</person>
+
+				<person xml:id="pers0035">
+					<persName type="main">Dugumbe</persName>
+					<note type="editorial">Also Molembalemba. Arab trader. His followers were the main instigators
+						of the Nyangwe massacre in 1871.</note>
+				</person>
+
+				<person xml:id="pers0036">
+					<persName type="main">Frere, H. Bartle E.</persName>
+					<birth when="1815">1815</birth>
+					<death when="1884">1884</death>
+					<note type="editorial">Colonial administrator. Entered the Bombay Civil Service in 1834. Went
+						to Zanzibar in 1872 to negotiate the suppression of the slave trade. Governor of Bombay
+						1862-67. President of Royal Geographical Society 1873-74.</note>
+				</person>
+
+				<person xml:id="pers0037">
+					<persName type="main">Fungafunga</persName>
+					<note type="editorial">African of the Nyamwezi tribe.</note>
+				</person>
+
+				<person xml:id="pers0038">
+					<persName type="main">Garahenga</persName>
+					<note type="editorial">African person also known as Kimamure.</note>
+				</person>
+
+				<person xml:id="pers0039">
+					<persName type="main">Gardner, Edward</persName>
+					<birth>?</birth>
+					<death when="1874">1874</death>
+					<note type="editorial">One of a group of men from a government-run school for freed slaves in
+						Nashik (spelled "Nassick" by Livingstone), India who accompanied Livingstone on his last
+						journey. Later also accompanied Henry M. Stanley.</note>
+				</person>
+
+				<person xml:id="pers0040">
+					<persName type="main">Ghamees</persName>
+					<note type="editorial">One of Livingstone's porters.</note>
+				</person>
+
+				<person xml:id="pers0041">
+					<persName type="main">Goambari</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0042">
+					<persName type="main">Grant, James A.</persName>
+					<birth when="1827">1827</birth>
+					<death when="1892">1892</death>
+					<note type="editorial">Officer in the Indian Army. Was seconded to John H. Speke's second
+						African expedition, 1860-63, which sought to confirm the source of the Nile.</note>
+				</person>
+
+				<person xml:id="pers0198">
+					<persName type="main">Gray, Jeannie</persName>
+					<note type="editorial">Reference uncertain. Bessie Bell and Mary Gray are the heroines of an
+						eponymous Scottish ballad collected in English and Scottish Ballads (1860), a well-known
+						anthology created by Francis James Child.</note>
+				</person>
+
+				<person xml:id="pers0043">
+					<persName type="main">Halzani</persName>
+					<note type="editorial">African trader.</note>
+				</person>
+
+				<person xml:id="pers0044">
+					<persName type="main">Ham</persName>
+					<note type="editorial">One of Noah's three sons in the Old Testament.</note>
+				</person>
+
+				<person xml:id="pers0045">
+					<persName type="main">Hamilton, James</persName>
+					<birth when="1814">1814</birth>
+					<death when="1867">1867</death>
+					<note type="editorial">Minister of Regent Square Presbyterian Church, London 1841-67. Editor of
+						Evangelical Christendom 1864-67. Livingstone attended his church and stayed at his house in
+						1865, and contributed a paper to his periodical.</note>
+				</person>
+
+				<person xml:id="pers0046">
+					<persName type="main">Hamoydah Amoda</persName>
+					<note type="editorial">African who assisted Livingstone on the Zambesi expedition, was taken to
+						India, then returned with Livingstone for the final expedition.</note>
+				</person>
+
+				<person xml:id="pers0047">
+					<persName type="main">Hassani</persName>
+					<note type="editorial">Arab trader, and one of the first Arab settlers in Nyangwe. Known
+						locally in Nyangwe for his violence and suspected by Livingstone of stirring up the latter's
+						Banian slaves to rebellion.</note>
+				</person>
+
+				<person xml:id="pers0048">
+					<persName type="main">Helmore, Holloway</persName>
+					<birth when="1815">1815</birth>
+					<death when="1860">1860</death>
+					<note type="editorial">Missionary. Sent with his family by the London Missionary Society at the
+						behest of Livingstone, to settle among the Kololo at Linyanti (in present-day Namibia), where
+						he and much of his family died in 1860. Livingstone grieved at the deaths and, indeed, in some
+						quarters was held responsible.</note>
+				</person>
+
+				<person xml:id="pers0049">
+					<persName type="main">Herodotus</persName>
+					<birth when="-0484">c.484</birth>
+					<death when="-0425">c.425 BC</death>
+					<note type="editorial">Ancient Greek traveler and historian, known for his History, which
+						chronicles the origins of the Greco-Persian wars.</note>
+				</person>
+
+				<person xml:id="pers0050">
+					<persName type="main">Ibram</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0051">
+					<persName type="main">Isaiah</persName>
+					<note type="editorial">Biblical prophet, documented in the Book of Isaiah.</note>
+				</person>
+
+				<person xml:id="pers0052">
+					<persName type="main">Isana</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0053">
+					<persName type="main">James</persName>
+					<note type="editorial">One of Livingstone's porters, killed in February 1871.</note>
+				</person>
+
+				<person xml:id="pers0054">
+					<persName type="main">Jangeonge</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0055">
+					<persName type="main">Jesus</persName>
+					<note type="editorial">Jesus Christ or Jesus of Nazareth. The central figure of
+						Christianity.</note>
+				</person>
+
+				<person xml:id="pers0056">
+					<persName type="main">Jethro</persName>
+					<note type="editorial">Also Reuel. Father-in-law of Moses in the Bible.</note>
+				</person>
+
+				<person xml:id="pers0057">
+					<persName type="main">Jomard, Edme-François</persName>
+					<birth when="1777">1777</birth>
+					<death when="1862">1862</death>
+					<note type="editorial">Cartographer, engineer, and archaeologist. Under Napoleon, edited the
+						monumental Description of Egypt (1809-29).</note>
+				</person>
+
+				<person xml:id="pers0058">
+					<persName type="main">Josuf</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0059">
+					<persName type="main">Jowett, Benjamin</persName>
+					<birth when="1817">1817</birth>
+					<death when="1893">1893</death>
+					<note type="editorial">Master of Balliol College, University of Oxford.</note>
+				</person>
+
+				<person xml:id="pers0060">
+					<persName type="main">Juma</persName>
+					<note type="editorial">One of the "ringleaders" of a rebellious group of liberated Banian
+						slaves hired by John Kirk, the acting British Consul and Political Resident at Zanzibar, to
+						assist Livingstone.</note>
+				</person>
+
+				<person xml:id="pers0061">
+					<persName type="main">Juma Merikano</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0062">
+					<persName type="main">Kandahara</persName>
+					<note type="editorial">African chief; brother of Moenekuss, chief of Bambarre.</note>
+				</person>
+
+				<person xml:id="pers0063">
+					<persName type="main">Kasessa</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0064">
+					<persName type="main">Kasongo</persName>
+					<note type="editorial">Chief of a strategically important African village on the Lualaba River.
+						During the period in question, developed friendly relations with Arab traders and began to
+						employ Arab methods of violence against other local African populations.</note>
+				</person>
+
+				<person xml:id="pers0065">
+					<persName type="main">Katomba</persName>
+					<note type="editorial">Also known as Moenemokaia. Arab trader based at Mamohela. Brother of Moeneghere.</note>
+				</person>
+
+				<person xml:id="pers0066">
+					<persName type="main">Kayingere</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0067">
+					<persName type="main">Kazembe VIII</persName>
+					<note type="editorial">Chief of the Balunda (r. 1862-68), whom Livingstone visited at the
+						former's capital Kanyembo (in present-day northern Zambia) in 1867 and again in 1868. On the
+						latter visit, the chief provided Livingstone with key geographical information about the Congo
+						river system.</note>
+				</person>
+
+				<person xml:id="pers0068">
+					<persName type="main">Keturah</persName>
+					<note type="editorial">Abraham's concubine in the Bible.</note>
+				</person>
+
+				<person xml:id="pers0069">
+					<persName type="main">Kimamure</persName>
+					<note type="editorial">African person also known as Garahenga.</note>
+				</person>
+
+				<person xml:id="pers0070">
+					<persName type="main">Kinnaird, Lord</persName>
+					<birth when="1807">1807</birth>
+					<death when="1878">1878</death>
+					<note type="editorial">George William Fox Kinnaird. Agricultural reformer and philanthropist,
+						concerned with the conditions of laborers.</note>
+				</person>
+
+				<person xml:id="pers0071">
+					<persName type="main">Kirk, John</persName>
+					<birth when="1832">1832</birth>
+					<death when="1922">1922</death>
+					<note type="editorial">Doctor, naturalist, political agent. Served as Livingstone's chief
+						assistant during the Zambesi Expedition. Appointed Surgeon to the British Agency in Zanzibar
+						in 1865. During the period in question, was acting Consul and Political Resident at
+						Zanzibar</note>
+				</person>
+
+				<person xml:id="pers0072">
+					<persName type="main">Kurbelosi or Kurbelori</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0073">
+					<persName type="main">Lazarus</persName>
+					<note type="editorial">Lazarus of Bethany (brother of Martha and Mary). Said to be raised from
+						the dead by Jesus in the Gospel of John.</note>
+				</person>
+
+				<person xml:id="pers0074">
+					<persName type="main">Linant de Bellefonds, Louis Maurice Adolphe</persName>
+					<birth when="1799">1799</birth>
+					<death when="1883">1883</death>
+					<note type="editorial">Explorer and chief engineer of the Suez Canal. In 1827, traveled up the
+						White Nile to about 13° N.</note>
+				</person>
+
+				<person xml:id="pers0075">
+					<persName type="main">Lincoln, Abraham</persName>
+					<birth when="1809">1809</birth>
+					<death when="1865">1865</death>
+					<note type="editorial">Sixteenth president of the United States. Known for abolishing slavery
+						in the U.S. by signing the Emancipation Proclamation. </note>
+				</person>
+
+				<person xml:id="pers0076">
+					<persName type="main">Livingstone, Agnes</persName>
+					<birth when="1847">1847</birth>
+					<death when="1912">1912</death>
+					<note type="editorial">Eldest daughter of David Livingstone. Went to England with her mother in
+						1852, accompanied her father in 1864-65. Was one of Livingstone's most engaged correspondents
+						and transcribed some of his manuscripts, including the 1870 Field Diary.</note>
+				</person>
+
+				<person xml:id="pers0077">
+					<persName type="main">Livingstone, Charles</persName>
+					<birth when="1821">1821</birth>
+					<death when="1873">1873</death>
+					<note type="editorial">Brother of David Livingstone. Educated at Oberlin College, Ohio 1840-47,
+						and Union Theological Seminary, New York 1847-49. David's assistant on the Zambesi
+						Expedition.</note>
+				</person>
+
+				<person xml:id="pers0078">
+					<persName type="main">Livingstone, David</persName>
+					<birth when="1813">1813</birth>
+					<death when="1873">1873</death>
+					<note type="editorial">Famous Victorian explorer, missionary, and abolitionist. Renowned for
+						his travels across Africa and extensive manuscript corpus.</note>
+				</person>
+
+				<person xml:id="pers0079">
+					<persName type="main">Livingstone, John</persName>
+					<birth when="1811">1811</birth>
+					<death when="1899">1899</death>
+					<note type="editorial">Brother of David Livingstone. Emigrated to Canada, where after some
+						years he settled as a farmer at Listowel, Ontario.</note>
+				</person>
+
+				<person xml:id="pers0080">
+					<persName type="main">Livingstone, Thomas S.</persName>
+					<birth when="1849">1849</birth>
+					<death when="1876">1876</death>
+					<note type="editorial">Second son of David Livingstone. Went to England with his mother in
+						1852. Lived in Egypt for the benefit of his health.</note>
+				</person>
+
+				<person xml:id="pers0081">
+					<persName type="main">Livingstone, William O.</persName>
+					<birth when="1851">1851</birth>
+					<death when="1892">1892</death>
+					<note type="editorial">Third son of David Livingstone, generally called "Oswell" or "Zouga."
+						Went to England with his mother in 1852. Joined the Livingstone Search Expedition in 1872, but
+						did not reach his father.</note>
+				</person>
+
+				<person xml:id="pers0082">
+					<persName type="main">Lowell, James Russell</persName>
+					<birth when="1819">1819</birth>
+					<death when="1891">1891</death>
+					<note type="editorial">American Romantic poet, associated with the Fireside Poets. Interested
+						in poetry as a vehicle of reform, particularly for the cause of abolition.</note>
+				</person>
+
+				<person xml:id="pers0083">
+					<persName type="main">Luambo</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0084">
+					<persName type="main">Luapanga</persName>
+					<note type="editorial">Chief of the Bahika tribe.</note>
+				</person>
+
+				<person xml:id="pers0085">
+					<persName type="main">Luther, Martin</persName>
+					<birth when="1483">1483</birth>
+					<death when="1546">1546</death>
+					<note type="editorial">German theologian of the fifteenth and sixteenth centuries and a key
+						figure of the Protestant Reformation.</note>
+				</person>
+
+				<person xml:id="pers0086">
+					<persName type="main">Mackenzie, Charles F.</persName>
+					<birth when="1825">1825</birth>
+					<death when="1862">1862</death>
+					<note type="editorial">Chosen to lead the Universities' Mission to Central Africa. Consecrated
+						Bishop of Central Africa in Cape Town 1861. Died in 1862 of fever at the confluence of the Ruo
+						and Shire Rivers. In some quarters, Livingstone was held responsible for his death.</note>
+				</person>
+
+				<person xml:id="pers0087">
+					<persName type="main">Maclear, Thomas</persName>
+					<birth when="1794">1794</birth>
+					<death when="1879">1879</death>
+					<note type="editorial">Astronomer of the Royal Observatory at Cape Town. Met Livingstone in
+						1852, became a close friend. Thereafter Livingstone depended on him to check his observations.
+						Livingstone named Cape Maclear after him.</note>
+				</person>
+
+				<person xml:id="pers0089">
+					<persName type="main">Mamea</persName>
+					<note type="editorial">Reference uncertain. Possibly a Banian customs collector and/or slave
+						trader.</note>
+				</person>
+
+				<person xml:id="pers0090">
+					<persName type="main">Mangara</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0091">
+					<persName type="main">Marbruki (also possibly Nathaniel Cumba)</persName>
+					<note type="editorial">One of a group of men from a government-run school for freed slaves in
+						Nashik (spelled "Nassick" by Livingstone), India who accompanied Livingstone on his last
+						journey.</note>
+				</person>
+
+				<person xml:id="pers0092">
+					<persName type="main">Martha</persName>
+					<note type="editorial">Martha of Bethany (sister of Lazarus and Mary). Witness to Lazarus's
+						resurrection by Jesus in the Gospel of John.</note>
+				</person>
+
+				<person xml:id="pers0093">
+					<persName type="main">Mary</persName>
+					<note type="editorial">Mary of Bethany (sister of Lazarus and Martha). Witness to Lazarus's
+						resurrection by Jesus in the Gospel of John.</note>
+				</person>
+
+				<person xml:id="pers0094">
+					<persName type="main">Masudi</persName>
+					<note type="editorial">One of Livingstone's porters.</note>
+				</person>
+
+				<person xml:id="pers0095">
+					<persName type="main">Matiamvo</persName>
+					<note type="editorial">The paramount chief of the Lunda kingdom.</note>
+				</person>
+
+				<person xml:id="pers0096">
+					<persName type="main">Mbarawa</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0097">
+					<persName type="main">Meller, Charles J.</persName>
+					<birth when="1836">1836</birth>
+					<death when="1869">1869</death>
+					<note type="editorial">Surgeon of the "Pioneer." Served in the Zambesi region 1861-63. Was
+						Vice-Consul in Madagascar 1865-66, and was associated with botanical gardens in Mauritius and
+						Queensland.</note>
+				</person>
+
+				<person xml:id="pers0098">
+					<persName type="main">Merere</persName>
+					<note type="editorial">African chief who resisted Arab encroachment into central Africa.</note>
+				</person>
+
+				<person xml:id="pers0099">
+					<persName type="main">Merr</persName>
+					<note type="editorial">Foster-mother of Moses in the Bible.</note>
+				</person>
+
+				<person xml:id="pers0100">
+					<persName type="main">Midian</persName>
+					<note type="editorial">Herdsman and child of Abraham and Keturah in the Bible.</note>
+				</person>
+
+				<person xml:id="pers0101">
+					<persName type="main">Minerva</persName>
+					<note type="editorial">Ancient goddess whom the Romans equated with the Greek goddess Athena.
+						Her secretary (or scribe) met the ancient Greek historian Herodotus in the city of Sais and
+						provided the latter with a variety of geographical details related to the source of the
+						Nile.</note>
+				</person>
+
+				<person xml:id="pers0102">
+					<persName type="main">Miriam</persName>
+					<note type="editorial">Older sister of Moses and Aaron in the Bible.</note>
+				</person>
+
+				<person xml:id="pers0103">
+					<persName type="main">Moamba</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0104">
+					<persName type="main">Moene Lualaba</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0105">
+					<persName type="main">Moeneghere</persName>
+					<note type="editorial">Arab trader. Brother of Moenemokaia (a.k.a. Katomba).</note>
+				</person>
+
+				<person xml:id="pers0106">
+					<persName type="main">Moenekurumbo</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0107">
+					<persName type="main">Moenekuss</persName>
+					<note type="editorial">Chief of Bambarre and, according to Livingstone, the most influential
+						chief in the Manyema region.</note>
+				</person>
+
+				<person xml:id="pers0108">
+					<persName type="main">Moenembag</persName>
+					<note type="editorial">Older son of Moenekuss, chief of Bambarre.</note>
+				</person>
+
+				<person xml:id="pers0109">
+					<persName type="main">Moenemgoi</persName>
+					<note type="editorial">Younger son of Moenekuss; chief of Bambarre when Livingstone composed
+						the 1870 Field Diary.</note>
+				</person>
+
+				<person xml:id="pers0110">
+					<persName type="main">Moenemgoi</persName>
+					<note type="editorial">Chief of Luamo; married to sister of Moenekuss, chief of
+						Bambarre.</note>
+				</person>
+
+				<person xml:id="pers0197">
+					<persName type="main">Moenendeba</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0111">
+					<persName type="main">Moeneokila</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0112">
+					<persName type="main">Moenepembe</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0113">
+					<persName type="main">Moenyeghere</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0114">
+					<persName type="main">Moenyegumbe</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0115">
+					<persName type="main">Mogandira</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0116">
+					<persName type="main">Mokasi</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0117">
+					<persName type="main">Mokhosi</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0118">
+					<persName type="main">Monamyembo</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0119">
+					<persName type="main">Monandewa</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0120">
+					<persName type="main">Monasimba</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0122">
+					<persName type="main">Monyungo</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0123">
+					<persName type="main">Moses</persName>
+					<note type="editorial">Biblical prophet. Brother of Aaron and son of Abraham.</note>
+				</person>
+
+				<person xml:id="pers0124">
+					<persName type="main">Mosielele</persName>
+					<note type="editorial">African chief whom Livingstone attempt to convert during his earliest
+						efforts as a missionary.</note>
+				</person>
+
+				<person xml:id="pers0125">
+					<persName type="main">Mpweto</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0126">
+					<persName type="main">Msenga</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0001">
+					<persName type="main">Muhamad</persName>
+					<birth when="0570">570</birth>
+					<death when="0632">632</death>
+					<note type="editorial">Prophet and founder of Islam.</note>
+				</person>
+
+				<person xml:id="pers0127">
+					<persName type="main">Muhamad bin Abdullah</persName>
+					<note type="editorial">Vizier ("Wuzeer") of Zanzibar.</note>
+				</person>
+
+				<person xml:id="pers0128">
+					<persName type="main">Muhamad bin Saleh</persName>
+					<note type="editorial">Arab trader based at Ujiji who assisted Livingstone in his
+						travels.</note>
+				</person>
+
+				<person xml:id="pers0002">
+					<persName type="main">Muhamad Bogharib</persName>
+					<note type="editorial">Liberated Swahili slave turned trader, with whom Livingstone had
+						previously travelled in 1867-68. Although known locally in Central Africa for the violence of
+						his followers, Bogharib assisted Livingstone and treated him kindly.</note>
+				</person>
+
+				<person xml:id="pers0130">
+					<persName type="main">Munanbunda</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0131">
+					<persName type="main">Murchison, Charlotte</persName>
+					<birth>?</birth>
+					<death when="1869">1869</death>
+					<note type="editorial">Geologist. Wife and intellectual partner of Roderick Murchison,
+						geologist and president of the Royal Geographical Society.</note>
+				</person>
+
+				<person xml:id="pers0132">
+					<persName type="main">Murchison, Roderick I.</persName>
+					<birth when="1792">1792</birth>
+					<death when="1871">1871</death>
+					<note type="editorial">Famous geologist and president of the Royal Geographical Society
+						1843-45, 1851-53, 1856-59 and 1862-71. Met Livingstone in 1856, and they became close
+						friends.</note>
+				</person>
+
+				<person xml:id="pers0133">
+					<persName type="main">Murray, James</persName>
+					<note type="editorial">Foreign Office official. Drew up a set of instructions dated 28 March
+						1865 and signed by Lord John Russell that denied Livingstone a salary and pension for his
+						honorary consulship. Livingstone found the wording of the instructions offensive, carried a
+						grudge to the end of his life, and held Murray responsible.</note>
+				</person>
+
+				<person xml:id="pers0134">
+					<persName type="main">Musa</persName>
+					<note type="editorial">Leader of a group of ten men from Johanna (Anjouan), Comoros, who
+						accompanied Livingstone during his last journey.</note>
+				</person>
+
+				<person xml:id="pers0135">
+					<persName type="main">Musa bin Salem</persName>
+					<note type="editorial">Baluchi slave of Syde bin Salem Burashid, the governor ("Lewale") or
+						trade agent of Unyanyembe. Apparently defrauded Livingstone of some portion of goods sent from
+						the coast.</note>
+				</person>
+
+				<person xml:id="pers0136">
+					<persName type="main">Musa Kamaal</persName>
+					<note type="editorial">One of the freed Banian slaves hired by John Kirk, the acting British
+						Consul and Political Resident at Zanzibar, to transport goods for Livingstone. Detained by
+						Syde bin Salem Burashid, the governor ("Lewale") or trade agent of Unyanyembe, so the goods
+						could be plundered by Musa bin Salem, the governor's slave.</note>
+				</person>
+
+				<person xml:id="pers0137">
+					<persName type="main">Mutesa</persName>
+					<note type="editorial">Ruler of Buganda (r.1857-84). During his second expedition to Africa
+						(1860-63), John H. Speke stayed at Mutesa’s court from early to mid 1862.</note>
+				</person>
+
+				<person xml:id="pers0138">
+					<persName type="main">Nasangwa</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0139">
+					<persName type="main">Nero</persName>
+					<birth when="0054">54</birth>
+					<death when="0068">68</death>
+					<note type="editorial">Nero Caesar Augustus. Fifth emperor of the Roman empire.</note>
+				</person>
+
+				<person xml:id="pers0140">
+					<persName type="main">Nsama</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0141">
+					<persName type="main">Owen, Richard</persName>
+					<birth when="1804">1804</birth>
+					<death when="1892">1892</death>
+					<note type="editorial">Anatomist and naturalist. Taught Livingstone in 1840. Conservator of the
+						Hunterian Museum at the Royal College of Surgeons of England 1827-56. Professor of Comparative
+						Anatomy and Physiology 1836-56. Superintendent of the British Museum 1856-83. Knighted
+						1884.</note>
+				</person>
+
+				<person xml:id="pers0142">
+					<persName type="main">Palmerston, Lord</persName>
+					<birth when="1784">1784</birth>
+					<death when="1865">1865</death>
+					<note type="editorial">Henry John Temple. Foreign Secretary 1830-41, 1846-51. Prime Minister
+						1859-65. Livingstone was in agreement with his anti-slavery policies.</note>
+				</person>
+
+				<person xml:id="pers0143">
+					<persName type="main">Plato</persName>
+					<birth when="-0428">428/27 or 424/23</birth>
+					<death when="-0347">348/47 BC</death>
+					<note type="editorial">Classical Greek philosopher. Pupil of Socrates.</note>
+				</person>
+
+				<person xml:id="pers0144">
+					<persName type="main">Playfair, Robert L.</persName>
+					<birth when="1828">1828</birth>
+					<death when="1899">1899</death>
+					<note type="editorial">Lieutenant Colonel in the Madras army. Consul at Zanzibar, and for
+						Algeria 1867-96. Knighted 1886.</note>
+				</person>
+
+				<person xml:id="pers0145">
+					<persName type="main">Posho</persName>
+					<note type="editorial">African of the Nyamwezi tribe.</note>
+				</person>
+
+				<person xml:id="pers0146">
+					<persName type="main">Price</persName>
+					<note type="editorial">One of a group of men from a government-run school for freed slaves in
+						Nashik (spelled "Nassick" by Livingstone), India who accompanied Livingstone on his last
+						journey.</note>
+				</person>
+
+				<person xml:id="pers0147">
+					<persName type="main">Ptolemy</persName>
+					<birth when="0100">c.100</birth>
+					<death when="0170">c.170</death>
+					<note type="editorial">Greco-Egyptian writer and geographer; Livingstone depended on his
+						information about the source of the Nile.</note>
+				</person>
+
+				<person xml:id="pers0148">
+					<persName type="main">Pusey, Edward B.</persName>
+					<birth when="1800">1800</birth>
+					<death when="1882">1882</death>
+					<note type="editorial">Church of England clergyman and theologian.</note>
+				</person>
+
+				<person xml:id="pers0149">
+					<persName type="main">Rae, George</persName>
+					<birth when="1831">1831</birth>
+					<death when="1865">1865</death>
+					<note type="editorial">Appointed engineer to the Zambesi Expedition in February 1858, until
+						1864. Went into business in Zanzibar, but died prematurely in Glasgow a year later.</note>
+				</person>
+
+				<person xml:id="pers0150">
+					<persName type="main">Ramadan</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0151">
+					<persName type="main">Rashid</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0152">
+					<persName type="main">Reuel</persName>
+					<note type="editorial">Also Jethro. Father-in-law of Moses in the Bible.</note>
+				</person>
+
+				<person xml:id="pers0153">
+					<persName type="main">Russell, Lord John</persName>
+					<birth when="1792">1792</birth>
+					<death when="1878">1878</death>
+					<note type="editorial">Member of Parliament and leader of the Whigs. Created Earl Russell 1861.
+					</note>
+				</person>
+
+				<person xml:id="pers0154">
+					<persName type="main">Sabatier, Louis</persName>
+					<note type="editorial">French explorer. With Joseph-Pons d'Arnauld and Ferdinand Werne,
+						navigated the White Nile to 4° 42' in 1841.</note>
+				</person>
+
+				<person xml:id="pers0155">
+					<persName type="main">Salem</persName>
+					<note type="editorial">One of Livingstone's porters.</note>
+				</person>
+
+				<person xml:id="pers0156">
+					<persName type="main">Salem Mokadam</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0157">
+					<persName type="main">Saul</persName>
+					<note type="editorial">First king of the united kingdom of Israel and Judah in the Hebrew
+						bible.</note>
+				</person>
+
+				<person xml:id="pers0158">
+					<persName type="main">Sayedd Majid bin Said Al-Busaid</persName>
+					<birth when="1834">1834/35</birth>
+					<death when="1870">1870</death>
+					<note type="editorial">Son of Said ibn Sultan, the first Omani ruler of Zanzibar, and himself
+						Sultan of Zanzibar 1856-70. Helped develop a far-ranging empire in East Africa, including a
+						well-developed slave trading network.</note>
+				</person>
+
+				<person xml:id="pers0159">
+					<persName type="main">Sebituane</persName>
+					<birth when="1790">c.1790/1800</birth>
+					<death when="1851">1851</death>
+					<note type="editorial">Leader of the Kololo. Displaced with the Kololo from southern Africa
+						during the Mfecane in the 1820s, eventually settling in the Zambezi Valley in the 1840s where
+						the Kololo conquered the local Lozi. Died shortly after meeting Livingstone in 1851, when the
+						Kololo state was at the height of its power.</note>
+				</person>
+
+				<person xml:id="pers0160">
+					<persName type="main">Sechele</persName>
+					<birth when="1810">c.1810</birth>
+					<death when="1892">1892</death>
+					<note type="editorial">Leader of the Bakwena. Built power and prestige by trading with visiting
+						Europeans and extending trading routes. Converted to Christianity soon after Livingstone
+						arrived among the Bakwena in 1846. Became an important figure in the Christianisation of
+						southern Africa. Also instrumental in the formation of the Bechuanaland Protectorate and in
+						contesting the efforts of Transvaal Boers to appropriate his lands.</note>
+				</person>
+
+				<person xml:id="pers0161">
+					<persName type="main">Secretary of Minerva</persName>
+					<note type="editorial">Individual whom the ancient Greek traveler and historian Herodotus
+						visited in the city of Sais and who provided Herodotus with a variety of geographical details
+						related to the source of the Nile.</note>
+				</person>
+
+				<person xml:id="pers0162">
+					<persName type="main">Sekeletu</persName>
+					<birth when="1835">c.1835</birth>
+					<death when="1863">1863</death>
+					<note type="editorial">Chief of the Kololo, son of Sebituane. Supported Livingstone’s
+						transcontinental expedition (1852-56) in the hope of extending his trade routes and authority.
+						A London Missionary Society mission to the Kololo in the 1860s resulted in the majority of the
+						members dying from fever, with Sekeletu wrongly suspected of having poisoned the party.</note>
+				</person>
+
+				<person xml:id="pers0163">
+					<persName type="main">Seward, George E.</persName>
+					<birth>?</birth>
+					<death when="1909">1909</death>
+					<note type="editorial">Assistant Surgeon in the Bombay establishment 1855. Served as Agency
+						Surgeon, Acting Political Agent, and Acting Consul in Zanzibar, where Livingstone met him in
+						1864. Retired in 1884.</note>
+				</person>
+
+				<person xml:id="pers0164">
+					<persName type="main">Seyed Suleiman</persName>
+					<note type="editorial">Arab governor ("Lewale") of Zanzibar.</note>
+				</person>
+
+				<person xml:id="pers0165">
+					<persName type="main">Sheikh bin Nassib</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0196">
+					<persName type="main">Sheikh Suleiman</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0166">
+					<persName type="main">Shereef Bosher</persName>
+					<note type="editorial">Arab trader. Dispatched from the coast in 1869 by Ludha Damji, a very
+						rich Banian from Zanzibar, to supply Livingstone with goods and men, then spent fourteen
+						months on the journey to Ujiji, while systematically plundering Livingstone of his
+						goods.</note>
+				</person>
+
+				<person xml:id="pers0167">
+					<persName type="main">Sicard, Tito Augosto d"Araujo</persName>
+					<birth>?</birth>
+					<death when="1864">1864</death>
+					<note type="editorial">Portuguese Commandant of Tete up to 1859. Commandant of Mazaro and the
+						Shire 1862-64. Temporary Governor of Quilimane.</note>
+				</person>
+
+				<person xml:id="pers0168">
+					<persName type="main">Simon</persName>
+					<note type="editorial">One of a group of men from a government-run school for freed slaves in
+						Nashik (spelled "Nassick" by Livingstone), India who accompanied Livingstone on his last
+						journey.</note>
+				</person>
+
+				<person xml:id="pers0169">
+					<persName type="main">Solomon</persName>
+					<note type="editorial">Biblical King of Israel and son of David.</note>
+				</person>
+
+				<person xml:id="pers0170">
+					<persName type="main">Speke, John H.</persName>
+					<birth when="1827">1827</birth>
+					<death when="1864">1864</death>
+					<note type="editorial">Explorer. In 1858, became the first European to visit present-day Lake
+						Victoria, which he claimed (correctly), but could not prove was the mythical source of the
+						Nile. Led a second expedition to the lake in 1860-63, which also failed to establish his claim
+						definitively. Died on the eve of major public debate with his rival Richard F. Burton.</note>
+				</person>
+
+				<person xml:id="pers0171">
+					<persName type="main">St. John</persName>
+					<note type="editorial">Author of the book of Revelation in the Bible.</note>
+				</person>
+
+				<person xml:id="pers0172">
+					<persName type="main">St. Patrick</persName>
+					<note type="editorial">Fifth-century Christian missionary in Ireland. Primary patron saint of
+						Ireland.</note>
+				</person>
+
+				<person xml:id="pers0173">
+					<persName type="main">St. Paul</persName>
+					<birth when="0005">c.5</birth>
+					<death when="0067">c.67</death>
+					<note type="editorial">Apostle of the New Testament and one of the main proponents of early
+						Christianity.</note>
+				</person>
+
+				<person xml:id="pers0174">
+					<persName type="main">St. Stephen</persName>
+					<note type="editorial">First martyr of Christianity. Mentioned in the Acts of the Apostles in
+						the New Testament.</note>
+				</person>
+
+				<person xml:id="pers0175">
+					<persName type="main">Stanley, Lord</persName>
+					<birth when="1826">1826</birth>
+					<death when="1893">1893</death>
+					<note type="editorial">Edward Henry Stanley. Succeeded as 15th Earl of Derby in 1869.
+						Conservative politician, inter alia Foreign Secretary 1866-68.</note>
+				</person>
+
+				<person xml:id="pers0176">
+					<persName type="main">Stearns, William F.</persName>
+					<birth when="1834">1834</birth>
+					<death when="1874">1874</death>
+					<note type="editorial">Merchant from Massachusetts. Partner of Stearns, Hobart and Co. in
+						Bombay 1857-68. Livingstone met him on board ship in 1865 and lived in his house for much of
+						his stay in Bombay.</note>
+				</person>
+
+				<person xml:id="pers0177">
+					<persName type="main">Suleiman bin Ali</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0178">
+					<persName type="main">Suleiman bin Juma</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0179">
+					<persName type="main">Susi</persName>
+					<note type="editorial">African of the Shupanga tribe. With Livingstone when the latter died and
+						helped transport Livingstone's body to the African coast. Spoke good English and provided
+						Horace Waller with a narrative of Livingstone's last days.</note>
+				</person>
+
+				<person xml:id="pers0180">
+					<persName type="main">Syde bin Ali</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0181">
+					<persName type="main">Syde bin Habib</persName>
+					<note type="editorial">Arab trader, who traveled widely in central Africa. Livingstone first
+						encountered him in 1855 during the former's famous transcontinental African journey and again
+						during his (Livingstone's) last journey.</note>
+				</person>
+
+				<person xml:id="pers0182">
+					<persName type="main">Syde bin Salem Burashid</persName>
+					<note type="editorial">Arab governor ("Lewale") or trade agent of Unyanyembe, who apparently
+						detained and/or destroyed a packet of letters Livingstone had tried to send to the coast and
+						also prevented other goods from reaching Livingstone in Manyema.</note>
+				</person>
+
+				<person xml:id="pers0183">
+					<persName type="main">Thani bin Suellim</persName>
+					<note type="editorial">Arab trader based in Ujiji.</note>
+				</person>
+
+				<person xml:id="pers0184">
+					<persName type="main">Tinné, Alexandrine</persName>
+					<birth when="1835">1835</birth>
+					<death when="1869">1869</death>
+					<note type="editorial">Explorer. Ascended the White Nile to Gondokoro in 1862, then traveled
+						along the Bahr el Ghazal, the principal western tributary of the Nile. Killed in 1869 during
+						an expedition across the Sahara Desert.</note>
+				</person>
+
+				<person xml:id="pers0185">
+					<persName type="main">Tippu Tip</persName>
+					<birth when="1837">1837</birth>
+					<death when="1905">1905</death>
+					<note type="editorial">Renowned central African ivory and slave trader.</note>
+				</person>
+
+				<person xml:id="pers0186">
+					<persName type="main">Tirhaka</persName>
+					<note type="editorial">Also Taharqa, Taharka, or Tirhakah. Pharaoh of the twenty-fifth dynasty
+						in ancient Egypt (r.690-664 BC) and king of the kingdom of Kush.</note>
+				</person>
+
+				<person xml:id="pers0187">
+					<persName type="main">Todd, James Henthorne</persName>
+					<birth when="1805">1805</birth>
+					<death when="1869">1869</death>
+					<note type="editorial">Biblical scholar and Irish historian. Wrote St. Patrick, Apostle of
+						Ireland: A Memoir of His Life and Mission (1864). On his last journey, Livingstone had with
+						him a review of this book published in the Quarterly Review (1866) and used the page margins
+						of this review to construct the first gathering of the 1870 Field Diary.</note>
+				</person>
+
+				<person xml:id="pers0188">
+					<persName type="main">Tozer, William G.</persName>
+					<birth when="1829">1829/30</birth>
+					<death when="1899">1899</death>
+					<note type="editorial">Bishop of Universities' Mission to Central Africa 1862-63, Zanzibar
+						1863-73, Jamaica 1879-80, and Honduras 1880-81. Livingstone never forgave him for moving the
+						UMCA to Zanzibar in 1862-63.</note>
+				</person>
+
+				<person xml:id="pers0189">
+					<persName type="main">Tracey, R.L.</persName>
+					<note type="editorial">Resident of Bombay with whom Livingstone stayed in 1865.</note>
+				</person>
+
+				<person xml:id="pers0190">
+					<persName type="main">von der Decken, Karl Klaus</persName>
+					<birth when="1833">1833</birth>
+					<death when="1865">1865</death>
+					<note type="editorial">German explorer. In 1861 became the first European to attempt an ascent
+						of Mount Kilimanjaro. Murdered on a subsequent expedition in the area of present-day Bardera,
+						Somalia.</note>
+				</person>
+
+				<person xml:id="pers0191">
+					<persName type="main">Waller, Horace</persName>
+					<birth when="1833">1833</birth>
+					<death when="1896">1896</death>
+					<note type="editorial">Lay Superintendent, Universities' Mission to Central Africa 1860-64.
+						Curate, St. John's Chatham 1867-70. Vicar of Leytonstone, 1870-74. Rector of Twywell, 1874-95.
+						In addition to editing Livingstone's Last Journals, wrote several articles on slavery and the
+						slave trade in Africa.</note>
+				</person>
+
+				<person xml:id="pers0192">
+					<persName type="main">Webb, William F.</persName>
+					<birth when="1829">1829</birth>
+					<death when="1899">1899</death>
+					<note type="editorial">Big-game hunter whom Livingstone and his son Oswell met in 1850.
+						Livingstone stayed at his house, Newstead Abbey in Nottinghamshire, in 1864-65.</note>
+				</person>
+
+				<person xml:id="pers0193">
+					<persName type="main">Yahood</persName>
+					<note type="editorial">Slave of Arab trader Thani bin Suellim.</note>
+				</person>
+
+				<person xml:id="pers0194">
+					<persName type="main">Young, James</persName>
+					<birth when="1811">1811</birth>
+					<death when="1883">1883</death>
+					<note type="editorial">Scottish industrialist who made a fortune distilling paraffin from
+						shale. Met Livingstone at Anderson's College. Was one of Livingstone's three trustees.</note>
+				</person>
+
+				<person xml:id="pers0195">
+					<persName type="main">Zerah</persName>
+					<note type="editorial">Warrior from Cush (present-day Ethiopia) mentioned in the Book of
+						Chronicles.</note>
+				</person>
+
+
+				<!-- Current higest number = pers0198 -->
+
+			</listPerson>
+
+		</body>
+	</text>
+</TEI>

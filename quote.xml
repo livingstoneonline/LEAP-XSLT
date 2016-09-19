@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Livingstone Online: Citation List</title>
+				<author>Adrian S. Wisnicki</author>
+				<author>Megan Ward</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<publisher>University of Maryland Libraries</publisher>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<date>2017</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
+						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
+						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A Livingstone Online project.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+			<listBibl>
+
+				<!-- Bible -->
+
+				<bibl xml:id="qt0001" type="bible"><title>Bible</title><biblScope unit="book">Acts</biblScope><biblScope
+					unit="chapter">7</biblScope><biblScope unit="verse">22</biblScope></bibl>
+
+				<bibl xml:id="qt0002" type="bible"><title>Bible</title><biblScope unit="book">Acts</biblScope><biblScope
+					unit="chapter">7</biblScope><biblScope unit="verse">25</biblScope></bibl>
+
+				<bibl xml:id="qt0008" type="bible"><title>Bible</title><biblScope unit="book"
+					>Ecclesiastes</biblScope><biblScope unit="chapter">4</biblScope><biblScope unit="verse"
+					>1</biblScope></bibl>
+
+				<bibl xml:id="qt0009" type="bible"><title>Bible</title><biblScope unit="book"
+					>Ecclesiastes</biblScope><biblScope unit="chapter">5</biblScope><biblScope unit="verse"
+					>8</biblScope></bibl>
+
+				<bibl xml:id="qt0010" type="bible"><title>Bible</title><biblScope unit="book">Genesis</biblScope><biblScope
+					unit="chapter">41</biblScope><biblScope unit="verse">37</biblScope></bibl>
+
+				<bibl xml:id="qt0007" type="bible"><title>Bible</title><biblScope unit="book">Luke</biblScope><biblScope
+					unit="chapter">6</biblScope><biblScope unit="verse">30</biblScope></bibl>
+				<!-- Also Mark 5:42 -->
+
+				<bibl xml:id="qt0011" type="bible"><title>Bible</title><biblScope unit="book">Numbers</biblScope><biblScope
+					unit="chapter">12</biblScope><biblScope unit="verse">3</biblScope></bibl>
+
+				<bibl xml:id="qt0012" type="bible"><title>Bible</title><biblScope unit="book">Proverbs</biblScope><biblScope
+					unit="chapter">13</biblScope><biblScope unit="verse">24</biblScope></bibl>
+
+				<bibl xml:id="qt0013" type="bible"><title>Bible</title><biblScope unit="book">Proverbs</biblScope><biblScope
+					unit="chapter">19</biblScope><biblScope unit="verse">18</biblScope></bibl>
+
+				<!-- Other texts -->
+
+				<bibl xml:id="qt0003" type="book"><author><persName><forename>Arthur</forename> <forename>Penrhyn</forename>
+					<surname>Stanley</surname></persName></author><title>The Bible: Its Form and Substance</title>
+					<pubPlace>Oxford and London</pubPlace><publisher>John Henry and James
+					Parker</publisher><date when="1863">1863</date><biblScope unit="page">33</biblScope></bibl>
+
+				<bibl xml:id="qt0004" type="book"><author><persName><forename>Arthur</forename> <forename>Penrhyn</forename>
+					<surname>Stanley</surname></persName></author><title>The Bible: Its Form and Substance</title>
+					<pubPlace>Oxford and London</pubPlace><publisher>John Henry and James
+					Parker</publisher><date when="1863">1863</date><biblScope unit="page">33</biblScope></bibl>
+
+				<bibl xml:id="qt0005" type="book"><author><persName><forename>Arthur</forename> <forename>Penrhyn</forename>
+					<surname>Stanley</surname></persName></author><title>The Bible: Its Form and Substance</title>
+					<pubPlace>Oxford and London</pubPlace><publisher>John Henry and James
+					Parker</publisher><date when="1863">1863</date><biblScope unit="page">51</biblScope></bibl>
+
+				<bibl xml:id="qt0006" type="book"><author><persName><forename>Arthur</forename> <forename>Penrhyn</forename>
+					<surname>Stanley</surname></persName></author><title>The Bible: Its Form and Substance</title>
+					<pubPlace>Oxford and London</pubPlace><publisher>John Henry and James
+					Parker</publisher><date when="1863">1863</date><biblScope unit="page">51</biblScope></bibl>
+
+				<!-- Current higest number = qt0013 -->
+
+			</listBibl>
+
+		</body>
+	</text>
+</TEI>

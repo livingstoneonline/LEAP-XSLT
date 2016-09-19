@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Livingstone Online: Annotated Foreign Word List</title>
+				<author>Adrian S. Wisnicki</author>
+				<author>Megan Ward</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<publisher>University of Maryland Libraries</publisher>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<date>2017</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
+						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
+						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A Livingstone Online project.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+
+				<entry xml:id="frgn0022" xml:lang="und">
+					<form>
+						<orth>Amerikano</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Type of cloth made in the United States (America) but traded in East Africa</def>
+				</entry>
+
+				<entry xml:id="frgn0001" xml:lang="la">
+					<form>
+						<orth>Caput</orth>
+						<lang>Latin</lang>
+					</form>
+					<def>Head</def>
+				</entry>
+
+				<entry xml:id="frgn0002" xml:lang="und">
+					<form>
+						<orth>Frasilah</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Unit of weight, equal to about 35 lbs/16 kg</def>
+				</entry>
+
+				<entry xml:id="frgn0003" xml:lang="gd">
+					<form>
+						<orth>Glaur</orth>
+						<lang>Scottish Gaelic</lang>
+					</form>
+					<def>Mire</def>
+				</entry>
+
+				<entry xml:id="frgn0004" xml:lang="und">
+					<form>
+						<orth>Junduguru</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Type of bead used as currency in nineteenth-century Africa</def>
+				</entry>
+
+				<entry xml:id="frgn0005" xml:lang="und">
+					<form>
+						<orth>Kanike</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Type of cloth used as currency in nineteenth-century Africa</def>
+				</entry>
+
+				<entry xml:id="frgn0006" xml:lang="mg">
+					<form>
+						<orth>Lamba</orth>
+						<lang>Malagasy</lang>
+					</form>
+					<def>Traditional garment from Madagascar</def>
+				</entry>
+
+				<entry xml:id="frgn0007" xml:lang="fa">
+					<form>
+						<orth>Lascar</orth>
+						<lang>Persian</lang>
+					</form>
+					<def>Soldier or sailor</def>
+				</entry>
+
+				<entry xml:id="frgn0008" xml:lang="und">
+					<form>
+						<orth>Lewale</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Governor</def>
+				</entry>
+
+				<entry xml:id="frgn0009" xml:lang="und">
+					<form>
+						<orth>Metamba</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Forest</def>
+				</entry>
+
+				<entry xml:id="frgn0010" xml:lang="la">
+					<form>
+						<orth>Nili</orth>
+						<lang>Latin</lang>
+					</form>
+					<def>Of the Nile</def>
+				</entry>
+
+				<entry xml:id="frgn0011" xml:lang="nym">
+					<form>
+						<orth>Pagazi</orth>
+						<lang>Nyamwezi</lang>
+					</form>
+					<def>Carrier</def>
+				</entry>
+
+				<entry xml:id="frgn0012" xml:lang="und">
+					<form>
+						<orth>Safura</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Geophagy; eating earth</def>
+				</entry>
+
+				<entry xml:id="frgn0013" xml:lang="und">
+					<form>
+						<orth>Samsam</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Type of bead used as currency in nineteenth-century Africa</def>
+				</entry>
+
+				<entry xml:id="frgn0014" xml:lang="und">
+					<form>
+						<orth>Soko</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Gorilla or monkey</def>
+				</entry>
+
+				<entry xml:id="frgn0015" xml:lang="swh">
+					<form>
+						<orth>Sokoni</orth>
+						<lang>Swahili</lang>
+					</form>
+					<def>Market</def>
+				</entry>
+
+				<entry xml:id="frgn0016" xml:lang="und">
+					<form>
+						<orth>Talaka</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Type of bead used as currency in nineteenth-century Africa</def>
+				</entry>
+
+				<entry xml:id="frgn0017" xml:lang="und">
+					<form>
+						<orth>Tembe</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Type of east African house</def>
+				</entry>
+
+				<entry xml:id="frgn0018" xml:lang="lea">
+					<form>
+						<orth>Uerere</orth>
+						<lang>Lega-Shabunda</lang>
+					</form>
+					<def>Lake</def>
+				</entry>
+
+				<entry xml:id="frgn0019" xml:lang="swh">
+					<form>
+						<orth>Uerere</orth>
+						<lang>Swahili</lang>
+					</form>
+					<def>Lake</def>
+				</entry>
+
+				<entry xml:id="frgn0020" xml:lang="und">
+					<form>
+						<orth>Viramba</orth>
+						<lang>undetermined language</lang>
+					</form>
+					<def>Cloth woven from grass</def>
+				</entry>
+
+				<entry xml:id="frgn0021" xml:lang="tr">
+					<form>
+						<orth>Wuzeer</orth>
+						<lang>Turkish</lang>
+					</form>
+					<def>Vizier</def>
+				</entry>
+
+				<!-- Current higest number = frgn0022 -->
+
+			</div>
+		</body>
+	</text>
+</TEI>

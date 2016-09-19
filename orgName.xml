@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Livingstone Online: Annotated Organization List</title>
+				<author>Adrian S. Wisnicki</author>
+				<author>Megan Ward</author>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Livingstone Online</authority>
+				<publisher>University of Maryland Libraries</publisher>
+				<pubPlace>College Park, MD, USA</pubPlace>
+				<date>2017</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
+						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
+						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>A Livingstone Online project.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+			<listOrg>
+
+				<org xml:id="org0001">
+					<orgName type="main">2nd Egyptian expedition</orgName>
+					<note type="editorial">Expedition (1840-41) organized by Muhammad Ali, Viceroy of Egypt (r.
+						1805–48), and led by Joseph-Pons d'Arnauld, Louis Sabatier, and Ferdinand Werne that navigated
+						the White Nile to 4° 42' N in 1841. The first expedition (1839-40) only reached as far as,
+						roughly, the modern town of Bor, Sudan (6° 12' N.).</note>
+				</org>
+
+				<org xml:id="org0003">
+					<orgName type="main">Banian</orgName>
+					<note type="editorial">Related to people who were an offshoot of the Indian merchant class at
+						Muscat and became important traders in Zanzibar.</note>
+				</org>
+
+				<org xml:id="org0004">
+					<orgName type="main">Banian slaves</orgName>
+					<note type="editorial">Group of liberated slaves formerly owned by Banian merchants and hired
+						by John Kirk, the acting British Consul and Political Resident at Zanzibar, to assist
+						Livingstone. These slaves were a constant source of irritation to Livingstone due to their
+						resistance to his travel plans.</note>
+				</org>
+
+				<org xml:id="org0005">
+					<orgName type="main">Banians</orgName>
+					<note type="editorial">People who were an offshoot of the Indian merchant class at Muscat and
+						were important traders in Zanzibar</note>
+				</org>
+
+				<org xml:id="org0006">
+					<orgName type="main">Boers</orgName>
+					<note type="editorial">European farmers who settled at the Cape. They were predominantly,
+						though not exclusively, of Dutch origin. After the Great Trek of the 1830s, the term was used
+						interchangeably with Voortrekkers.</note>
+				</org>
+
+				<org xml:id="org0008">
+					<orgName type="main">Cushite</orgName>
+					<note type="editorial">Person from Cush (in present-day Ethiopia).</note>
+				</org>
+
+				<org xml:id="org0010">
+					<orgName type="main">Johanna men</orgName>
+					<note type="editorial">Group of ten men (including their leader Musa) from Johanna (Anjouan),
+						Comoros, who accompanied Livingstone during his last journey. The Johanna men had been hired
+						with the assistance of the British Consul at Johanna.</note>
+				</org>
+
+				<org xml:id="org0011">
+					<orgName type="main">Kilwans</orgName>
+					<note type="editorial">Kilwa (a collective name for Kilwa Kisiwani, Kilwa Kivinje, and Kilwa
+						Masoko, all in present-day Tanzania) was one of the most important centers for the slave trade
+						on the east coast of Africa in the nineteenth century.</note>
+				</org>
+
+				<org xml:id="org0013">
+					<orgName type="main">London Hunterian Society</orgName>
+					<note type="editorial">Society of medical professionals based in London, founded in 1819 and
+						named in honor of the Scottish surgeon John Hunter.</note>
+				</org>
+
+				<org xml:id="org0014">
+					<orgName type="main">London Missionary Society</orgName>
+					<note type="editorial">Non-denominational missionary society formed in England in 1795 by
+						evangelical Christians, primarily serving missions in Africa and the South Pacific.</note>
+				</org>
+
+				<org xml:id="org0007">
+					<orgName type="main">Messrs Coutts and Co.</orgName>
+					<note type="editorial">Livingstone's bankers, based on the Strand in London.</note>
+				</org>
+
+				<org xml:id="org0015">
+					<orgName type="main">Moravian</orgName>
+					<note type="editorial">Related to Moravia, a region in the eastern part of the present-day
+						Czech Republic.</note>
+				</org>
+
+				<org xml:id="org0002">
+					<orgName type="main">Nassick African Asylum</orgName>
+					<note type="editorial">Government-run school for freed slaves in Nashik, India.</note>
+				</org>
+
+				<org xml:id="org0017">
+					<orgName type="main">Nassickers</orgName>
+					<note type="editorial">Group of nine men who accompanied Livingstone on his last journey
+						selected on the advice of Sir Bartle Frere, then Governor of Bombay, from a government-run
+						school for freed slaves in Nashik, India.</note>
+				</org>
+
+				<org xml:id="org0018">
+					<orgName type="main">P &amp; O company</orgName>
+					<note type="editorial">Peninsular and Oriental Steam Navigation Company. British shipping
+						company.</note>
+				</org>
+
+				<org xml:id="org0019">
+					<orgName type="main">Phoenician</orgName>
+					<note type="editorial">Person from the ancient civilization of Phoenicia, on the coastlines of
+						present-day Lebanon, Palestine, Israel, and Syria.</note>
+				</org>
+
+
+				<org xml:id="org0025">
+					<orgName type="main">Ringleading Nassick deserters</orgName>
+					<note type="editorial">The Nassickers were a group of nine men who accompanied Livingstone on
+						his last journey selected on the advice of Sir Bartle Frere, then Governor of Bombay, from a
+						government-run school for freed slaves in Nashik, India.</note>
+				</org>
+
+				<org xml:id="org0020">
+					<orgName type="main">Royal Geographical Society</orgName>
+					<note type="editorial">Society of geographers, founded in 1830 in London. One of Livingstone's
+						sponsoring organizations.</note>
+				</org>
+
+				<org xml:id="org0021">
+					<orgName type="main">Routledge</orgName>
+					<note type="editorial">British publishing company.</note>
+				</org>
+
+				<org xml:id="org0023">
+					<orgName type="main">Sepoys</orgName>
+					<note type="editorial">Group from the Bombay Marine Battalion and under the command of an
+						Indian corporal that joined Livingstone for part of his last journey.</note>
+				</org>
+
+				<org xml:id="org0024">
+					<orgName type="main">Swahili</orgName>
+					<note type="editorial">African group of complex intercultural origins. Resides along the coast
+						of East Africa from Somalia to Mozambique.</note>
+				</org>
+
+				<org xml:id="org0026">
+					<orgName type="main">Ujijian</orgName>
+					<note type="editorial">Ujiji, a village on the eastern shore of Lake Tanganyika, served as one
+						of the major trading depots in the Arab-African trading network of East Africa in the
+						nineteenth century.</note>
+				</org>
+
+				<org xml:id="org0027">
+					<orgName type="main">Ujijian traders</orgName>
+					<note type="editorial">Ujiji, a village on the eastern shore of Lake Tanganyika, served as one
+						of the major trading depots in the Arab-African trading network of East Africa in the
+						nineteenth century.</note>
+				</org>
+
+				<org xml:id="org0028">
+					<orgName type="main">Ujijian trading</orgName>
+					<note type="editorial">Ujiji, a village on the eastern shore of Lake Tanganyika, served as one
+						of the major trading depots in the Arab-African trading network of East Africa in the
+						nineteenth century.</note>
+				</org>
+
+				<org xml:id="org0009">
+					<orgName type="main">Voertrekkers</orgName>
+					<note type="editorial">Dutch and other European settlers who voluntarily left the Cape Colony
+						in the 1830s during the Greak Trek, a series of migrations north into the southern African
+						interior in order to escape British control. The Voortrekkers eventually established the Boer
+						Republics, the Orange Free State and the Transvaal. </note>
+				</org>
+
+				<!-- Current higest number = org0028 -->
+
+			</listOrg>
+
+		</body>
+	</text>
+</TEI>
