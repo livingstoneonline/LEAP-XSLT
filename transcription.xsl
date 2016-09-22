@@ -188,6 +188,7 @@
 				<xsl:when test="../corr/app/rdg">
 					<xsl:value-of select="../corr/app/rdg[1]"/> [or] <xsl:value-of select="../corr/app/rdg[2]"/>
 				</xsl:when>
+				<xsl:when test="../corr[not(text())]">[no text]</xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="../corr"/>
 				</xsl:otherwise>
@@ -408,6 +409,20 @@
 		<xsl:variable name="newFigDesc">
 			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
 		</xsl:variable>
+		<xsl:choose>
+			<xsl:when test="head and $newFigDesc/text()">
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="head and not($newFigDesc/text())">
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
+			</xsl:when>
+			<xsl:when test="not(head) and $newFigDesc/text()">
+				<span class="figure" title="{$newFigDesc}">{figure}</span>
+			</xsl:when>
+			<xsl:otherwise>
+				<span class="figure">{figure}</span>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 
 	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->

@@ -188,6 +188,7 @@
 				<xsl:when test="../corr/app/rdg">
 					<xsl:value-of select="../corr/app/rdg[1]"/> [or] <xsl:value-of select="../corr/app/rdg[2]"/>
 				</xsl:when>
+				<xsl:when test="../corr[not(text())]">[no text]</xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="../corr"/>
 				</xsl:otherwise>
@@ -873,8 +874,8 @@
 			</xsl:when>
 			<xsl:when test="@rend='triple-line'">
 				<hr class="{concat(name(), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', 'second-line')}"/>
-				<hr class="{concat(name(), ' ', 'second-line')}"/>
+				<hr class="{concat(name(), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
 				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>

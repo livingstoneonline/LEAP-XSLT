@@ -217,7 +217,14 @@ p.right .linenumber{
 	text-align:left;
 	margin-top:-1em;
 }
-
+.third-line{
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:20em !important;
+	margin-left:9%;
+	text-align:left;
+	margin-top:1.5em;
+}
 
 /* 5. p, ab, note, fw */
 
