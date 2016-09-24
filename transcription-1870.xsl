@@ -34,7 +34,7 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="style-1870.css"/>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-1870.css"/>
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
@@ -135,6 +135,7 @@
 	</xsl:template>
 
 	<xsl:template match="div">
+		<span class="idno"><xsl:value-of select="//idno[@type='LEAP-ID']"/> - project id</span><br/><br/>
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
@@ -843,6 +844,10 @@
 		<xsl:element name="{concat('h', $num)}">
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:element>
+	</xsl:template>
+
+<xsl:template match="idno[@type='LEAP-ID']">
+		<span class="idno"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="list/item">
