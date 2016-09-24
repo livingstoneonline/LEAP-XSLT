@@ -406,7 +406,9 @@ p{
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
-
+.overline .underline{
+		text-decoration:overline underline;
+}
 
 /* 9. Page placement */
 
