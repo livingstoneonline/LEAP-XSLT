@@ -375,6 +375,9 @@ p{
 .large{
 	font-size:120%;
 }
+.overline{
+	text-decoration: overline;
+}
 .overtext{
 	/*color:gray;*/
 }
