@@ -31,7 +31,7 @@
 			<listPlace>
 
 				<place xml:id="geog0001" type="geogName_island">
-					<placeName type="main">Anjouan, Comoros</placeName>
+					<placeName type="main">Anjouan, Comoros</placeName><!-- Johanna -->
 					<note type="editorial">Ten men from this island, hired with the assistance of the island's
 						British Consul, accompanied Livingstone on his last journey.</note>
 				</place>
@@ -69,7 +69,7 @@
 				</place>
 
 				<place xml:id="geog0007" type="geogName_source">
-					<placeName type="main">Fountain of the Lufira River</placeName>
+					<placeName type="main">Fountain of the Lufira River</placeName><!-- Bartle Frere's fountain -->
 					<note type="editorial">The Lufira River is tributary of the Lualaba River in present-day
 						Democratic Republic of the Congo. Livingstone believed that the Lufira united with the Lualaba
 						River to form the fictitious Lake Kamolondo. Livingstone placed the source of the Lufira
@@ -122,7 +122,7 @@
 				</place>
 
 				<place xml:id="geog0015" type="geogName_river">
-					<placeName type="main">Kafue River</placeName>
+					<placeName type="main">Kafue River</placeName><!-- Luenge, Lunga -->
 					<note type="editorial">Significant river in Zambia and one of the main tributaries of the
 						Zambesi River.</note>
 				</place>
@@ -139,14 +139,14 @@
 				</place>
 
 				<place xml:id="geog0018" type="geogName_lake">
-					<placeName type="main">Lake Albert (Uganda)</placeName>
+					<placeName type="main">Lake Albert (Uganda)</placeName><!-- Albert Nyanza, Baker's Water/Lake, Uerere -->
 					<note type="editorial">In 1864, explorer and hunter Samuel W. Baker (1821-1893) became the
 						first European to visit the lake, which he named after Prince Albert, husband of Queen
 						Victoria.</note>
 				</place>
 
 				<place xml:id="geog0019" type="geogName_lake">
-					<placeName type="main">Lake Albert (Uganda)</placeName>
+					<placeName type="main">Lake Albert (Uganda)</placeName><!-- Lower Tanganyika -->
 					<note type="editorial">In 1864, explorer and hunter Samuel W. Baker (1821-1893) became the
 						first European to visit the lake, which he named after Prince Albert, husband of Queen
 						Victoria. At the time, Livingstone incorrectly believed that this lake was part of Lake
@@ -154,13 +154,13 @@
 				</place>
 
 				<place xml:id="geog0020" type="geogName_lake">
-					<placeName type="main">Lake Bangweulu (Zambia)</placeName>
+					<placeName type="main">Lake Bangweulu (Zambia)</placeName><!-- Bangweolo -->
 					<note type="editorial">Livingstone incorrectly believed that this lake was part of the Nile
 						river system. The lake is actually part of the Congo river system.</note>
 				</place>
 
 				<place xml:id="geog0021" type="geogName_lake">
-					<placeName type="main">Lake Chibungo</placeName>
+					<placeName type="main">Lake Chibungo</placeName><!-- Lake Lincoln -->
 					<note type="editorial">Also called Lake Lincoln by Livingstone. Fictitious lake created via the
 						union of the Lufira and Lomami/Lomani Rivers in what would have been present-day Democratic
 						Republic of the Congo. Livingstone named the lake after the American president Abraham Lincoln
@@ -168,21 +168,21 @@
 				</place>
 
 				<place xml:id="geog0022" type="geogName_lake">
-					<placeName type="main">Lake Kamolondo</placeName>
+					<placeName type="main">Lake Kamolondo</placeName><!-- Riverein Lake -->
 					<note type="editorial">Livingstone believed that the Lufira and Lualaba Rivers united to form
 						this fictitious lake in what would have been present-day Democratic Republic of the
 						Congo.</note>
 				</place>
 
 				<place xml:id="geog0023" type="geogName_lake">
-					<placeName type="main">Lake Malawi (Malawi, Mozambique, and Tanzania)</placeName>
+					<placeName type="main">Lake Malawi (Malawi, Mozambique, and Tanzania)</placeName><!-- Nyassa -->
 					<note type="editorial">Also known as Lake Nyasa (in Tanzania) and Lago Niassa (in Mozambique).
 						Although not the first European to do so, Livingstone visited this lake in 1859 and gave it
 						the name Lake Nyassa.</note>
 				</place>
 
 				<place xml:id="geog0024" type="geogName_lake">
-					<placeName type="main">Lake Mweru (Zambia and Democratic Republic of the Congo)</placeName>
+					<placeName type="main">Lake Mweru (Zambia and Democratic Republic of the Congo)</placeName><!-- Lake Moero -->
 					<note type="editorial">Livingstone incorrectly believed that this lake was part of the Nile
 						river system. The lake is actually part of the Congo river system.</note>
 				</place>
@@ -194,14 +194,14 @@
 						system.</note>
 				</place>
 
-				<place xml:id="geog0026" type="geogName_lake">
+				<place xml:id="geog0026" type="geogName_lake"><!-- Lower and Upper Tanganyika -->
 					<placeName type="main">Lake Victoria (Tanzania, Uganda, and Kenya) and Lake Albert (Uganda),
 						respectively.</placeName>
 					<note type="editorial">Livingstone incorrectly believed that these two distinct and unrelated
 						lakes were in fact part of one larger lake.</note>
 				</place>
 
-				<place xml:id="geog0027" type="geogName_lake">
+				<place xml:id="geog0027" type="geogName_lake"><!-- Upper Tanganyika, Victoria Nyanza, Nyanza -->
 					<placeName type="main">Lake Victoria (Tanzania, Uganda, and Kenya)</placeName>
 					<note type="editorial">In 1858, explorer John H. Speke (1827-1864) became the first European to
 						visit the lake, which he named after Queen Victoria, and asserted correctly but without
@@ -216,14 +216,14 @@
 				</place>
 
 				<place xml:id="geog0029" type="geogName_river">
-					<placeName type="main">Lomami/Lomani River</placeName>
+					<placeName type="main">Lomami/Lomani River</placeName><!-- Lomame, Loeki, Lofubu, Lualaba West -->
 					<note type="editorial">Major river in present-day Democratic Republic of the Congo. Livingstone
 						believed that the Lomami/Lomani formed part of the Nile River system, but in fact the river
 						joins the Lualaba River to become the Congo River.</note>
 				</place>
 
 				<place xml:id="geog0030" type="geogName_river">
-					<placeName type="main">Lomami/Lomani River</placeName>
+					<placeName type="main">Lomami/Lomani River</placeName><!-- Young's Lualaba, Young's River -->
 					<note type="editorial">Major river in present-day Democratic Republic of the Congo. Livingstone
 						believed that the Lomami/Lomani formed part of the Nile River system, but in fact the river
 						joins the Lualaba River to become the Congo River. Livingstone named the river after James
@@ -232,7 +232,7 @@
 				</place>
 
 				<place xml:id="geog0031" type="geogName_river">
-					<placeName type="main">Lomami/Lomani River</placeName>
+					<placeName type="main">Lomami/Lomani River</placeName><!-- Young's lake river -->
 					<note type="editorial">Major river in present-day Democratic Republic of the Congo. Livingstone
 						believed that the Lomami/Lomani formed part of the Nile River system, but in fact the river
 						joins the Lualaba River to become the Congo River. Livingstone named the river after James
@@ -249,14 +249,14 @@
 				</place>
 
 				<place xml:id="geog0033" type="geogName_river">
-					<placeName type="main">Lualaba River</placeName>
+					<placeName type="main">Lualaba River</placeName><!-- Central Lualaba, Lualaba East, Lacustrine River  -->
 					<note type="editorial">Major river in present-day Democratic Republic of the Congo. Livingstone
 						believed that the Lualaba formed part of the Nile River system, but in fact the river joins
 						the Lomami/Lomani River to become the Congo River.</note>
 				</place>
 
 				<place xml:id="geog0034" type="geogName_river">
-					<placeName type="main">Lualaba River</placeName>
+					<placeName type="main">Lualaba River</placeName><!-- Webb's Lualaba -->
 					<note type="editorial">Major river in present-day Democratic Republic of the Congo. Livingstone
 						believed that the Lualaba formed part of the Nile River system, but in fact the river joins
 						the Lomami/Lomani River to become the Congo River. Livingstone named the river after hunter
@@ -264,7 +264,7 @@
 				</place>
 
 				<place xml:id="geog0035" type="geogName_river">
-					<placeName type="main">Lualaba River</placeName>
+					<placeName type="main">Lualaba River</placeName><!-- Lake River Webb -->
 					<note type="editorial">Major river in present-day Democratic Republic of the Congo. Livingstone
 						believed that the Lualaba formed part of the Nile River system, but in fact the river joins
 						the Lomami/Lomani River to become the Congo River. Livingstone named the river after hunter
@@ -281,7 +281,7 @@
 				</place>
 
 				<place xml:id="geog0037" type="geogName_river">
-					<placeName type="main">Luapula River</placeName>
+					<placeName type="main">Luapula River</placeName><!-- New Zambesi -->
 					<note type="editorial">River that links Lakes Mweru and Bangweolo and that forms part of the
 						border between present-day Zambia and the Democratic Republic of the Congo. Portuguese
 						explorers and travelers, "armchair geographer" William D. Cooley (1795[?]-1883), and,
@@ -290,7 +290,7 @@
 				</place>
 
 				<place xml:id="geog0038" type="geogName_river">
-					<placeName type="main">Lufira River</placeName>
+					<placeName type="main">Lufira River</placeName><!-- Bartle Frere's Lualaba -->
 					<note type="editorial">Tributary of the Lualaba River in present-day Democratic Republic of the
 						Congo. Livingstone believed that the Lufira united with the Lualaba River to form the
 						fictitious Lake Kamolondo. Livingstone named the source of the river after British colonial
@@ -305,14 +305,14 @@
 				</place>
 
 				<place xml:id="geog0040" type="geogName_river">
-					<placeName type="main">Lukuga River</placeName>
+					<placeName type="main">Lukuga River</placeName><!-- Luamo -->
 					<note type="editorial">Principal outlet of Lake Tanganyika; runs west from the lake through the
 						eastern part of present-day Democratic Republic of Congo and eventually joins the Lualaba
 						River.</note>
 				</place>
 
 				<place xml:id="geog0041" type="geogName_forest">
-					<placeName type="main">Metamba</placeName>
+					<placeName type="main">Metamba</placeName><!-- Metambe -->
 					<note type="editorial">Rainforest in the northeastern part of present-day Democratic Republic
 						of the Congo that is home to the Lega people and that encompasses the valleys of the middle
 						and upper Elila and the upper Ulindi rivers.</note>
@@ -375,14 +375,14 @@
 				</place>
 
 				<place xml:id="geog0051" type="geogName_source">
-					<placeName type="main">Source of the Kafue River</placeName>
+					<placeName type="main">Source of the Kafue River</placeName><!-- Oswell Fountain -->
 					<note type="editorial">Livingstone named the source, which he located south of the Katanga
 						region (in the southern part of present-day Democratic Republic of the Congo) in what is now
 						Zambia, after his third son William Oswell Livingstone (1851-1892).</note>
 				</place>
 
 				<place xml:id="geog0052" type="geogName_source">
-					<placeName type="main">Source of the Zambesi River</placeName>
+					<placeName type="main">Source of the Zambesi River</placeName><!-- Palmerston Fountain -->
 					<note type="editorial">Livingstone named the source, which he located south of the Katanga
 						region (in the southern part of present-day Democratic Republic of the Congo) in what is now
 						Zambia, after Lord Palmerston (1784-1865), a former British Minister, whose anti-slavery
@@ -390,7 +390,7 @@
 				</place>
 
 				<place xml:id="geog0053" type="geogName_source">
-					<placeName type="main">Source(s) of the Nile River</placeName>
+					<placeName type="main">Source(s) of the Nile River</placeName><!-- Fountains of the Nile, Fountains of the River of Egypt, Caput Nili, Katanga Head Waters -->
 					<note type="editorial">The search for the source(s) of the Nile motivated the African
 						expeditions of a number of important Victorian explorers. Although John H. Speke (1827-1864)
 						visited and correctly claimed Lake Victoria as the principal source in 1858, many
@@ -400,7 +400,7 @@
 				</place>
 
 				<place xml:id="geog0054" type="geogName_source">
-					<placeName type="main">Sources of the Lomami/Lomani and Lufira Rivers</placeName>
+					<placeName type="main">Sources of the Lomami/Lomani and Lufira Rivers</placeName><!-- Young's and Bartle Frere's Fountaiins -->
 					<note type="editorial">Livingstone placed the sources of the Lomami/Lomani and Lufira Rivers,
 						both of which he incorrectly linked to the Nile, three or four days' travel time south of
 						Katanga (a region in the southern part of present-day Democratic Republic of the Congo). He
@@ -410,14 +410,14 @@
 				</place>
 
 				<place xml:id="geog0055" type="geogName_source">
-					<placeName type="main">Sources of the Zambesi and Kafue Rivers</placeName>
+					<placeName type="main">Sources of the Zambesi and Kafue Rivers</placeName><!-- Fountains of the Liambai and Upper Zambesi/Lunga -->
 					<note type="editorial">Livingstone placed the sources of the Zambesi ("Liambai or Upper
 						Zambesi") and Kafue ("Lunga") Rivers south of Katanga (a region in the southern part of
 						present-day Democratic Republic of the Congo) in what in now Zambia. </note>
 				</place>
 
 				<place xml:id="geog0056" type="geogName_source">
-					<placeName type="main">Sources of the Zambesi and Kafue Rivers</placeName>
+					<placeName type="main">Sources of the Zambesi and Kafue Rivers</placeName><!-- Palmerston's and Oswell's Fountains -->
 					<note type="editorial">Livingstone named the sources of the Zambesi and Kafue Rivers, which he
 						placed south of the Katanga region (in the southern part of present-day Democratic Republic of
 						the Congo) in what is now Zambia, respectively, after Lord Palmerston (1784-1865), erstwhile
@@ -453,6 +453,33 @@
 				</place>
 
 				<!-- Current higest number = geog0060 -->
+
+				<!-- 
+			
+				geogNames that follow need to be defined.
+				xml:id's are already in XML
+
+				<place xml:id="geog0061" type="geogName_cape">
+					<placeName type="main">Cape Delgago</placeName>
+					<note type="editorial"></note>
+				</place>
+
+				<place xml:id="geog0062" type="geogName_waterfall">
+					<placeName type="main">Victoria Falls</placeName>
+					<note type="editorial"></note>
+				</place>
+
+				<place xml:id="geog0063" type="geogName_river">
+					<placeName type="main">Gaboon</placeName>
+					<note type="editorial"></note>
+				</place>
+
+				<place xml:id="geog0064" type="geogName_river">
+					<placeName type="main">Rovuma</placeName>
+					<note type="editorial"></note>
+				</place>
+				
+				-->
 
 			</listPlace>
 

@@ -85,6 +85,13 @@
 					<def>An ailment.</def>
 				</entry>
 
+				<entry xml:id="ailm0028">
+					<form>
+						<orth><!--dysentery--></orth>
+					</form>
+					<def>An ailment.</def>
+				</entry>
+
 				<entry xml:id="ailm0009">
 					<form>
 						<orth><!--enlarged scrotum--></orth>
@@ -134,9 +141,30 @@
 					<def>An ailment.</def>
 				</entry>
 
+				<entry xml:id="ailm0029">
+					<form>
+						<orth><!--itch--></orth>
+					</form>
+					<def>An ailment.</def>
+				</entry>
+
 				<entry xml:id="ailm0016">
 					<form>
-						<orth><!--periodical discharges of bloody ichor--></orth>
+						<orth><!--periodical discharges of bloody ichor; discharges of blood; discharges--></orth>
+					</form>
+					<def>An ailment.</def>
+				</entry>
+
+				<entry xml:id="ailm0030">
+					<form>
+						<orth><!--piles--></orth>
+					</form>
+					<def>An ailment.</def>
+				</entry>
+
+				<entry xml:id="ailm0031">
+					<form>
+						<orth><!--pleurisy--></orth>
 					</form>
 					<def>An ailment.</def>
 				</entry>
@@ -158,6 +186,13 @@
 				<entry xml:id="ailm0019">
 					<form>
 						<orth><!--Safura--></orth>
+					</form>
+					<def>An ailment.</def>
+				</entry>
+
+				<entry xml:id="ailm0032">
+					<form>
+						<orth><!--skin disease--></orth>
 					</form>
 					<def>An ailment.</def>
 				</entry>
@@ -218,7 +253,7 @@
 					<def>An ailment.</def>
 				</entry>
 
-				<!-- Current higest number = ailment0027 -->
+				<!-- Current higest number = ailment0032 -->
 
 			</div>
 		</body>

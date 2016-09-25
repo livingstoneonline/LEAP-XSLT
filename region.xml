@@ -127,7 +127,24 @@
 						Malawi.</note>
 				</place>
 
-				<!-- Current higest number = region0016 -->
+				<!-- Current higest number = region0018 -->
+
+				<!-- 
+			
+				Regions that follow need to be defined.
+				xml:id's are already in XML
+
+				<place xml:id="region0017" type="region">
+					<placeName type="main">Cape of Good Hope</placeName>
+					<note type="editorial"></note>
+				</place>
+
+				<place xml:id="region0018" type="region">
+					<placeName type="main">Uvira</placeName>
+					<note type="editorial"></note>
+				</place>
+
+				-->
 
 			</listPlace>
 

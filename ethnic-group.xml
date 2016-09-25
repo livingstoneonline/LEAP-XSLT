@@ -169,7 +169,50 @@
 						of Lake Rukwa.</def>
 				</entry>
 
-				<!-- Current higest number = ethnic0017 -->
+				<!-- Current higest number = ethnic0024 -->
+
+				<!-- 
+			
+				Groups that follow need to be defined.
+				xml:id's are already in XML
+
+				<entry xml:id="ethnic0018">
+					<form>
+						<orth>Bagenya</orth>
+					</form>
+					<def></def>
+				</entry>
+
+				<entry xml:id="ethnic0020">
+					<form>
+						<orth>Bakuss/Bakuzz/KunsBakuss/KussBakuss</orth>
+					</form>
+					<def></def>
+				</entry>
+
+
+				<entry xml:id="ethnic0021">
+					<form>
+						<orth>BaziriWazire/Wazire</orth>
+					</form>
+					<def></def>
+				</entry>
+
+				<entry xml:id="ethnic0022">
+					<form>
+						<orth>Benya</orth>
+					</form>
+					<def></def>
+				</entry>
+
+				<entry xml:id="ethnic0023">
+					<form>
+						<orth>Malobo</orth>
+					</form>
+					<def></def>
+				</entry>
+
+				-->
 
 			</div>
 		</body>

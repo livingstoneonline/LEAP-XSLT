@@ -127,7 +127,19 @@
 						of Africa and the interior.</note>
 				</place>
 
-				<!-- Current higest number = sett0015 -->
+				<!-- Current higest number = sett0016 -->
+
+				<!-- 
+			
+				Settlements that follow need to be defined.
+				xml:id's are already in XML
+
+				<place xml:id="sett0016" type="settlement_town">
+					<placeName type="main">Kilwa</placeName>
+					<note type="editorial"></note>
+				</place>
+
+				-->
 
 			</listPlace>
 

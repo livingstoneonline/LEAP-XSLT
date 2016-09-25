@@ -191,7 +191,19 @@
 						Republics, the Orange Free State and the Transvaal. </note>
 				</org>
 
-				<!-- Current higest number = org0028 -->
+				<!-- Current higest number = org0029 -->
+
+				<!-- 
+			
+				Terms that follow need to be defined.
+				xml:id's are already in XML
+
+				<org xml:id="org0028">
+					<orgName type="main">Bushmen</orgName>
+					<note type="editorial"></note>
+				</org>
+
+				-->
 
 			</listOrg>
 

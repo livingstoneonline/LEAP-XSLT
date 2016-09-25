@@ -32,7 +32,7 @@
 				<entry xml:id="frgn0022" xml:lang="und">
 					<form>
 						<orth>Amerikano</orth>
-						<lang>undetermined language</lang>
+						<lang>Swahili</lang>
 					</form>
 					<def>Type of cloth made in the United States (America) but traded in East Africa</def>
 				</entry>
@@ -43,6 +43,14 @@
 						<lang>Latin</lang>
 					</form>
 					<def>Head</def>
+				</entry>
+
+				<entry xml:id="frgn0024" xml:lang="und">
+					<form>
+						<orth>Chitoka</orth>
+						<lang>Undetermined African Language</lang>
+					</form>
+					<def>Market, in the languages of the African tribes settled in and near Nyangwe, including the Wagenya. The anthropologist Yuji Ankei, who travelled along the Lualaba River in the vicinity of Nyangwe in the 1970s, records continued, wide-spread usage of the word (1985:92, 94-95)</def>
 				</entry>
 
 				<entry xml:id="frgn0002" xml:lang="und">
@@ -108,6 +116,22 @@
 					</form>
 					<def>Forest</def>
 				</entry>
+
+				<entry xml:id="frgn0026" xml:lang="und">
+					<form>
+						<orth>Mologhwe</orth>
+						<lang>Undetermined African Language</lang>
+					</form>
+					<def>Chief</def>
+				</entry>
+
+				<entry xml:id="frgn0029" xml:lang="swh">
+					<form>
+						<orth>Mzingifuri</orth>
+						<lang>Swahili</lang>
+					</form>
+					<def>Bixa orellana. Plant found in many places around the world, including near Nyangwe. Livingstone writes that the plant "is known in India and here is used by the Manyema to dye virambas and ornament their faces and heads" and elsewhere adds that the plant is "declared to be a good remedy for curing the itch which plagues very many both Arabs and natives."</def>
+				</entry>	
 
 				<entry xml:id="frgn0010" xml:lang="la">
 					<form>
@@ -205,7 +229,47 @@
 					<def>Vizier</def>
 				</entry>
 
-				<!-- Current higest number = frgn0022 -->
+				<!-- Current higest number = frgn0029 -->
+
+				<!-- 
+			
+				Terms that follow need to be defined.
+				xml:id's are already in XML
+				
+				<entry xml:id="frgn0023" xml:lang="arb">
+					<form>
+						<orth>Avil</orth>
+						<lang>Arabic</lang>
+					</form>
+					<def></def>
+				</entry>	
+	
+
+				<entry xml:id="frgn0025" xml:lang="swh">
+					<form>
+						<orth>Masika</orth>
+						<lang>Swahili</lang>
+					</form>
+					<def></def>
+				</entry>	
+
+				<entry xml:id="frgn0027" xml:lang="swh">
+					<form>
+						<orth>Safari</orth>
+						<lang></lang>
+					</form>
+					<def></def>
+				</entry>	
+
+				<entry xml:id="frgn0028" xml:lang="la">
+					<form>
+						<orth>tonans</orth>
+						<lang>Latin</lang>
+					</form>
+					<def></def>
+				</entry>	
+
+				-->
 
 			</div>
 		</body>
