@@ -36,13 +36,13 @@ div.transcription{
 .TEI{
 	display:block;
 	padding-left: 1em;
+	padding-top:.5em;
 }
 .text{
 }
 .body{
 	display:block;
 	padding-bottom:2.4em;
-	padding-top:.5em;
 }
 .front,
 .back{
@@ -379,7 +379,7 @@ p{
 	text-decoration: overline;
 }
 .overline.underline{
-		text-decoration:overline underline;
+	text-decoration:overline underline;
 }
 .overtext{
 	/*color:gray;*/
