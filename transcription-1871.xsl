@@ -462,7 +462,7 @@
 
 	<!-- A foreign word defined using an additional <term> tag -->
 	<xsl:variable name="foreign" select="doc('foreign-word.xml')"/>
-	<xsl:template match="foreign/term[@xml:lang]">
+	<xsl:template match="foreign//term[@xml:lang]">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
 			<xsl:choose>
