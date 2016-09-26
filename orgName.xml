@@ -65,6 +65,11 @@
 						interchangeably with Voortrekkers.</note>
 				</org>
 
+				<org xml:id="org0029">
+					<orgName type="main">Bushmen</orgName>
+					<note type="editorial">Also San, Khoi, Khoisan, or Basarwa. A collective term embracing various indigenous populations of southern Africa</note>
+				</org>
+
 				<org xml:id="org0008">
 					<orgName type="main">Cushite</orgName>
 					<note type="editorial">Person from Cush (in present-day Ethiopia).</note>
@@ -192,18 +197,6 @@
 				</org>
 
 				<!-- Current higest number = org0029 -->
-
-				<!-- 
-			
-				Terms that follow need to be defined.
-				xml:id's are already in XML
-
-				<org xml:id="org0028">
-					<orgName type="main">Bushmen</orgName>
-					<note type="editorial"></note>
-				</org>
-
-				-->
 
 			</listOrg>
 

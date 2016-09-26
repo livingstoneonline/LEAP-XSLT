@@ -36,6 +36,11 @@
 						British Consul, accompanied Livingstone on his last journey.</note>
 				</place>
 
+				<place xml:id="geog0061" type="geogName_cape">
+					<placeName type="main">Cape Delgago</placeName>
+					<note type="editorial">Promontory. Northernmost point of Mozambique.</note>
+				</place>
+
 				<place xml:id="geog0002" type="geogName_spring">
 					<placeName type="main">Castalian springs</placeName>
 					<note type="editorial">Natural springs near Delphi in ancient Greece.</note>
@@ -87,6 +92,11 @@
 						Lufira Rivers, which he incorrectly linked to the Nile, three or four days' travel time south
 						of the Katanga region (in the southern part of present-day Democratic Republic of the
 						Congo).</note>
+				</place>
+
+				<place xml:id="geog0063" type="geogName_river">
+					<placeName type="main">Gaboon</placeName>
+					<note type="editorial">River and estuary. Located in the west of present-day Gabon.</note>
 				</place>
 
 				<place xml:id="geog0009" type="geogName_river">
@@ -367,6 +377,11 @@
 						Chibungo (a.k.a. Lake Lincoln) and Kamolondo.</note>
 				</place>
 
+				<place xml:id="geog0064" type="geogName_river">
+					<placeName type="main">Ruvuma River</placeName><!--Rovuma River-->
+					<note type="editorial">Significant river in East Africa that forms part of the border between present-day Tanzania and Mozambique.</note>
+				</place>
+
 				<place xml:id="geog0050" type="geogName_river">
 					<placeName type="main">Shire River</placeName>
 					<note type="editorial">Major river in present-day Malawi that flows out of Lake Malawi and is a
@@ -425,6 +440,11 @@
 						(Livingstone's) third son William Oswell Livingstone (1851-1892).</note>
 				</place>
 
+				<place xml:id="geog0062" type="geogName_waterfall">
+					<placeName type="main">Victoria Falls</placeName>
+					<note type="editorial">Major waterfall on the Zambezi River, located on the border of present-day Zambia and Zimbabwe. In 1855, David Livingstone became the first European to visit to the waterfall, which he named after Queen Victoria.</note>
+				</place>
+
 				<place xml:id="geog0057" type="geogName_river">
 					<placeName type="main">White Nile</placeName>
 					<note type="editorial">The White Nile, which flows north from Lake Victoria, and the Blue Nile,
@@ -453,33 +473,6 @@
 				</place>
 
 				<!-- Current higest number = geog0060 -->
-
-				<!-- 
-			
-				geogNames that follow need to be defined.
-				xml:id's are already in XML
-
-				<place xml:id="geog0061" type="geogName_cape">
-					<placeName type="main">Cape Delgago</placeName>
-					<note type="editorial"></note>
-				</place>
-
-				<place xml:id="geog0062" type="geogName_waterfall">
-					<placeName type="main">Victoria Falls</placeName>
-					<note type="editorial"></note>
-				</place>
-
-				<place xml:id="geog0063" type="geogName_river">
-					<placeName type="main">Gaboon</placeName>
-					<note type="editorial"></note>
-				</place>
-
-				<place xml:id="geog0064" type="geogName_river">
-					<placeName type="main">Rovuma</placeName>
-					<note type="editorial"></note>
-				</place>
-				
-				-->
 
 			</listPlace>
 

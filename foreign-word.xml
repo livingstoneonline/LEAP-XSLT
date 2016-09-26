@@ -37,6 +37,14 @@
 					<def>Type of cloth made in the United States (America) but traded in East Africa</def>
 				</entry>
 
+				<entry xml:id="frgn0023" xml:lang="arb"><!-- Avil -->
+					<form>
+						<orth>Awwal</orth>
+						<lang>Arabic</lang>
+					</form>
+					<def>More fully, Shahr Al-awwal. Arabic phrase that means first month of the lunar year. However, Livingstone's use of the phrase suggests that "avil time" is his way of referring to the Islamic calendar as a whole</def>
+				</entry>
+
 				<entry xml:id="frgn0001" xml:lang="la">
 					<form>
 						<orth>Caput</orth>
@@ -50,7 +58,7 @@
 						<orth>Chitoka</orth>
 						<lang>Undetermined African Language</lang>
 					</form>
-					<def>Market, in the languages of the African tribes settled in and near Nyangwe, including the Wagenya. The anthropologist Yuji Ankei, who travelled along the Lualaba River in the vicinity of Nyangwe in the 1970s, records continued, wide-spread usage of the word (1985:92, 94-95)</def>
+					<def>"Market" in the languages of the African tribes settled in and near Nyangwe, including the Wagenya. The anthropologist Yuji Ankei, who travelled along the Lualaba River in the vicinity of Nyangwe in the 1970s, records continued, wide-spread usage of the word (1985:92, 94-95)</def>
 				</entry>
 
 				<entry xml:id="frgn0002" xml:lang="und">
@@ -109,6 +117,14 @@
 					<def>Governor</def>
 				</entry>
 
+				<entry xml:id="frgn0025" xml:lang="swh">
+					<form>
+						<orth>Masika</orth>
+						<lang>Swahili</lang>
+					</form>
+					<def>Greater rain; the rain season. A period of increased rainfall between the middle of April and the end of May</def>
+				</entry>
+
 				<entry xml:id="frgn0009" xml:lang="und">
 					<form>
 						<orth>Metamba</orth>
@@ -130,15 +146,15 @@
 						<orth>Mzingifuri</orth>
 						<lang>Swahili</lang>
 					</form>
-					<def>Bixa orellana. Plant found in many places around the world, including near Nyangwe. Livingstone writes that the plant "is known in India and here is used by the Manyema to dye virambas and ornament their faces and heads" and elsewhere adds that the plant is "declared to be a good remedy for curing the itch which plagues very many both Arabs and natives."</def>
+					<def>Bixa orellana. Plant found in many places around the world, including in the vicinity of Nyangwe. Livingstone writes that the plant "is known in India and here is used by the Manyema to dye virambas and ornament their faces and heads" and elsewhere adds that the plant is "declared to be a good remedy for curing the itch which plagues very many both Arabs and natives"</def>
 				</entry>	
 
-				<entry xml:id="frgn0010" xml:lang="la">
+				<entry xml:id="frgn0010" xml:lang="la"><!-- Nili -->
 					<form>
-						<orth>Nili</orth>
+						<orth>Nilus [fluvius]</orth>
 						<lang>Latin</lang>
 					</form>
-					<def>Of the Nile</def>
+					<def>The Nile river</def>
 				</entry>
 
 				<entry xml:id="frgn0011" xml:lang="nym">
@@ -155,6 +171,14 @@
 						<lang>undetermined language</lang>
 					</form>
 					<def>Geophagy; eating earth</def>
+				</entry>
+
+				<entry xml:id="frgn0027" xml:lang="swh">
+					<form>
+						<orth>Safari</orth>
+						<lang>Swahili</lang>
+					</form>
+					<def>Journey, trip, expedition</def>
 				</entry>
 
 				<entry xml:id="frgn0013" xml:lang="und">
@@ -197,6 +221,14 @@
 					<def>Type of east African house</def>
 				</entry>
 
+				<entry xml:id="frgn0028" xml:lang="la"><!-- Tonans -->
+					<form>
+						<orth>Tonare</orth>
+						<lang>Latin</lang>
+					</form>
+					<def>Resound like thunder</def>
+				</entry>
+
 				<entry xml:id="frgn0018" xml:lang="lea">
 					<form>
 						<orth>Uerere</orth>
@@ -230,46 +262,6 @@
 				</entry>
 
 				<!-- Current higest number = frgn0029 -->
-
-				<!-- 
-			
-				Terms that follow need to be defined.
-				xml:id's are already in XML
-				
-				<entry xml:id="frgn0023" xml:lang="arb">
-					<form>
-						<orth>Avil</orth>
-						<lang>Arabic</lang>
-					</form>
-					<def></def>
-				</entry>	
-	
-
-				<entry xml:id="frgn0025" xml:lang="swh">
-					<form>
-						<orth>Masika</orth>
-						<lang>Swahili</lang>
-					</form>
-					<def></def>
-				</entry>	
-
-				<entry xml:id="frgn0027" xml:lang="swh">
-					<form>
-						<orth>Safari</orth>
-						<lang></lang>
-					</form>
-					<def></def>
-				</entry>	
-
-				<entry xml:id="frgn0028" xml:lang="la">
-					<form>
-						<orth>tonans</orth>
-						<lang>Latin</lang>
-					</form>
-					<def></def>
-				</entry>	
-
-				-->
 
 			</div>
 		</body>

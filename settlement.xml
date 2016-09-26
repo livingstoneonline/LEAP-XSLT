@@ -62,6 +62,13 @@
 						outposts for Zanzibari traders</note>
 				</place>
 
+				<place xml:id="sett0016" type="settlement_town">
+					<placeName type="main">Kilwa</placeName>
+					<note type="editorial">Collective name for Kilwa Kisiwani, Kilwa Kivinje, and Kilwa
+						Masoko, all in present-day Tanzania. One of the most important centers for the slave trade
+						on the east coast of Africa in the nineteenth century.</note>
+				</place>
+
 				<place xml:id="sett0006" type="settlement_village">
 					<placeName type="main">Kolobeng</placeName>
 					<note type="editorial">Livingstone’s third mission station, near Gaborone in present-day
@@ -128,18 +135,6 @@
 				</place>
 
 				<!-- Current higest number = sett0016 -->
-
-				<!-- 
-			
-				Settlements that follow need to be defined.
-				xml:id's are already in XML
-
-				<place xml:id="sett0016" type="settlement_town">
-					<placeName type="main">Kilwa</placeName>
-					<note type="editorial"></note>
-				</place>
-
-				-->
 
 			</listPlace>
 

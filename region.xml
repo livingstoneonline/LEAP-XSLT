@@ -30,6 +30,11 @@
 
 			<listPlace>
 
+				<place xml:id="region0017" type="region"><!-- The Cape -->
+					<placeName type="main">Cape of Good Hope</placeName>
+					<note type="editorial">The southern tip of Africa. Traditionally, the dividing point between the Atlantic and Indian Oceans.</note>
+				</place>
+
 				<place xml:id="region0001" type="region">
 					<placeName type="main">Chunya district of Mbeya region[?]</placeName>
 					<note type="editorial">Area in the western part of present-day Tanzania that is home to the
@@ -106,7 +111,7 @@
 					<note type="editorial">Also Manyema or Mayuema. Region in the eastern part of present-day
 						Democratic Republic of the Congo roughly bordering the Lomami River to the west, Katanga to
 						the south, Lakes Tanganyika and Kivu to the east, and the territory of Stanley Falls to the
-						north</note>
+						north.</note>
 				</place>
 
 				<place xml:id="region0014" type="region">
@@ -127,24 +132,7 @@
 						Malawi.</note>
 				</place>
 
-				<!-- Current higest number = region0018 -->
-
-				<!-- 
-			
-				Regions that follow need to be defined.
-				xml:id's are already in XML
-
-				<place xml:id="region0017" type="region">
-					<placeName type="main">Cape of Good Hope</placeName>
-					<note type="editorial"></note>
-				</place>
-
-				<place xml:id="region0018" type="region">
-					<placeName type="main">Uvira</placeName>
-					<note type="editorial"></note>
-				</place>
-
-				-->
+				<!-- Current higest number = region0017 -->
 
 			</listPlace>
 

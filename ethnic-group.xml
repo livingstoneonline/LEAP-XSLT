@@ -29,6 +29,13 @@
 		<body>
 			<div>
 
+				<entry xml:id="ethnic0018">
+					<form>
+						<orth>Bagenya</orth>
+					</form>
+					<def>Also Wagenya. One of three tribes, all with the same name but ethnically distinct, residing in the Congo along the Lualaba River (Droogers 1980:31). Through their access to canoes, the Wagenya near Nyangwe both controlled the river traffic in the vicinity of the village and were the principal suppliers of fish to many of the local markets in the region.</def>
+				</entry>
+
 				<entry xml:id="ethnic0001">
 					<form>
 						<orth>Baguha</orth>
@@ -173,15 +180,9 @@
 
 				<!-- 
 			
-				Groups that follow need to be defined.
-				xml:id's are already in XML
-
-				<entry xml:id="ethnic0018">
-					<form>
-						<orth>Bagenya</orth>
-					</form>
-					<def></def>
-				</entry>
+				Groups that follow need to be defined 
+				& added to XML (1871 FD)
+	
 
 				<entry xml:id="ethnic0020">
 					<form>
