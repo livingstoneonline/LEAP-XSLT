@@ -148,6 +148,11 @@
 					<note type="editorial">Possibly present-day Lake Albert, Uganda.</note>
 				</place>
 
+				<place xml:id="geog0065" type="geogName_river">
+					<placeName type="main">Kunda River</placeName>
+					<note type="editorial">A tributary of the Lualaba River in eastern Congo.</note>
+				</place>
+
 				<place xml:id="geog0018" type="geogName_lake">
 					<placeName type="main">Lake Albert (Uganda)</placeName><!-- Albert Nyanza, Baker's Water/Lake, Uerere -->
 					<note type="editorial">In 1864, explorer and hunter Samuel W. Baker (1821-1893) became the
@@ -472,7 +477,7 @@
 						the site of a notorious slave market.</note>
 				</place>
 
-				<!-- Current higest number = geog0060 -->
+				<!-- Current higest number = geog0065 -->
 
 			</listPlace>
 

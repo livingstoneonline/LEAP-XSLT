@@ -83,6 +83,11 @@
 						(1874).</note>
 				</person>
 
+				<person xml:id="pers0218">
+					<persName type="main">Adie</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
 				<person xml:id="pers0012">
 					<persName type="main">Amur</persName>
 					<note type="editorial">Arab trader.</note>
@@ -165,6 +170,11 @@
 						Livingstone's in-laws.</note>
 				</person>
 
+				<person xml:id="pers0219">
+					<persName type="main">Brava</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
 				<person xml:id="pers0023">
 					<persName type="main">Burton, Richard F.</persName>
 					<birth when="1821">1821</birth>
@@ -205,6 +215,12 @@
 					<note type="editorial">African chief.</note>
 				</person>
 
+				<person xml:id="pers0199">
+					<persName type="main">Chipange</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+
 				<person xml:id="pers0029">
 					<persName type="main">Chuma, James</persName>
 					<birth when="1850">c.1850</birth>
@@ -244,6 +260,11 @@
 					<death when="1884">1884</death>
 					<note type="editorial">French explorer and geographer. With Louis Sabatier and Ferdinand Werne,
 						navigated the White Nile to 4° 42' in 1841.</note>
+				</person>
+
+				<person xml:id="pers0209">
+					<persName type="main">Dambo</persName>
+					<note type="editorial">African chief.</note>
 				</person>
 
 				<person xml:id="pers0034">
@@ -432,9 +453,38 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
+				<person xml:id="pers0216">
+					<persName type="main">Kabobo</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0200">
+					<persName type="main">Kahemba</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0224">
+					<persName type="main">Kalenga</persName>
+					<note type="editorial">Also Karenga. African chief of an unknown village near Nyangwe, possibly
+						of the Bagenya people. Livingstone failed to negotiate with Kalenga for the purchase of a
+						canoe in May and June 1871, and ultimately sent his followers to flog Kalenga although the
+						latter fled.</note>
+				</person>
+
+
+				<person xml:id="pers0201">
+					<persName type="main">Kama</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
 				<person xml:id="pers0062">
 					<persName type="main">Kandahara</persName>
 					<note type="editorial">African chief; brother of Moenekuss, chief of Bambarre.</note>
+				</person>
+
+				<person xml:id="pers0227">
+					<persName type="main">Kansari</persName>
+					<note type="editorial">Member of the Bagenya tribe under Kimburu.</note>
 				</person>
 
 				<person xml:id="pers0063">
@@ -447,6 +497,11 @@
 					<note type="editorial">Chief of a strategically important African village on the Lualaba River.
 						During the period in question, developed friendly relations with Arab traders and began to
 						employ Arab methods of violence against other local African populations.</note>
+				</person>
+
+				<person xml:id="pers0202">
+					<persName type="main">Katenga</persName>
+					<note type="editorial">African chief.</note>
 				</person>
 
 				<person xml:id="pers0065">
@@ -475,6 +530,12 @@
 				<person xml:id="pers0069">
 					<persName type="main">Kimamure</persName>
 					<note type="editorial">African person also known as Garahenga.</note>
+				</person>
+
+				<person xml:id="pers0223">
+					<persName type="main">Kimburu</persName>
+					<note type="editorial">Also Chimburu. African chief of the Bagenya people. His attempt to form
+						an alliance with Manilla, an African slave, helped incite the Nyangwe massacre.</note>
 				</person>
 
 				<person xml:id="pers0070">
@@ -573,6 +634,11 @@
 						did not reach his father.</note>
 				</person>
 
+				<person xml:id="pers0214">
+					<persName type="main">Lomadyo</persName>
+					<note type="editorial">African headman of the Malobo tribe.</note>
+				</person>
+
 				<person xml:id="pers0082">
 					<persName type="main">Lowell, James Russell</persName>
 					<birth when="1819">1819</birth>
@@ -617,15 +683,33 @@
 						Livingstone named Cape Maclear after him.</note>
 				</person>
 
+				<person xml:id="pers0217">
+					<persName type="main">Makoa</persName>
+					<note type="editorial">African person.</note>
+				</person>
+
 				<person xml:id="pers0089">
 					<persName type="main">Mamea</persName>
 					<note type="editorial">Reference uncertain. Possibly a Banian customs collector and/or slave
 						trader.</note>
 				</person>
 
+				<person xml:id="pers0203">
+					<persName type="main">Mangala</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
 				<person xml:id="pers0090">
 					<persName type="main">Mangara</persName>
 					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0225">
+					<persName type="main">Manilla</persName>
+					<note type="editorial">Slave of Syde bin Habib, a well known Arab trader whom Livingstone had
+						met at Linyati in 1853 and again in 1868-69 in Central Africa. The Arabs of Nyangwe claimed to
+						have started the Nyangwe massacre as retaliation for Manilla's efforts to form an alliance
+						with Chimburu, an African chief residing near Nyangwe.</note>
 				</person>
 
 				<person xml:id="pers0091">
@@ -647,6 +731,11 @@
 						resurrection by Jesus in the Gospel of John.</note>
 				</person>
 
+				<person xml:id="pers0204">
+					<persName type="main">Mashenebe</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
 				<person xml:id="pers0094">
 					<persName type="main">Masudi</persName>
 					<note type="editorial">One of Livingstone's porters.</note>
@@ -655,6 +744,11 @@
 				<person xml:id="pers0095">
 					<persName type="main">Matiamvo</persName>
 					<note type="editorial">The paramount chief of the Lunda kingdom.</note>
+				</person>
+
+				<person xml:id="pers0226">
+					<persName type="main">Matereka</persName>
+					<note type="editorial">Arab trader based in Kasongo.</note>
 				</person>
 
 				<person xml:id="pers0096">
@@ -699,6 +793,11 @@
 					<note type="editorial">Older sister of Moses and Aaron in the Bible.</note>
 				</person>
 
+				<person xml:id="pers0205">
+					<persName type="main">Mketo</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
 				<person xml:id="pers0103">
 					<persName type="main">Moamba</persName>
 					<note type="editorial">African chief.</note>
@@ -741,8 +840,18 @@
 						Bambarre.</note>
 				</person>
 
+				<person xml:id="pers0206">
+					<persName type="main">Moenemgunga</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
 				<person xml:id="pers0197">
 					<persName type="main">Moenendeba</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0207">
+					<persName type="main">Moenenyun</persName>
 					<note type="editorial">African chief.</note>
 				</person>
 
@@ -766,9 +875,19 @@
 					<note type="editorial">African person.</note>
 				</person>
 
+				<person xml:id="pers0208">
+					<persName type="main">Moenyempande</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
 				<person xml:id="pers0115">
 					<persName type="main">Mogandira</persName>
 					<note type="editorial">African person.</note>
+				</person>
+
+				<person xml:id="pers0222">
+					<persName type="main">Mokandira</persName>
+					<note type="editorial">Also Mokandirwa. African chief of Nyangwe.</note>
 				</person>
 
 				<person xml:id="pers0116">
@@ -817,6 +936,11 @@
 					<note type="editorial">African chief.</note>
 				</person>
 
+				<person xml:id="pers0213">
+					<persName type="main">Mpunzo</persName>
+					<note type="editorial">African chief of the Ñoñgo.</note>
+				</person>
+
 				<person xml:id="pers0126">
 					<persName type="main">Msenga</persName>
 					<note type="editorial">African chief.</note>
@@ -852,6 +976,11 @@
 					<note type="editorial">African chief.</note>
 				</person>
 
+				<person xml:id="pers0210">
+					<persName type="main">Muanambongo</persName>
+					<note type="editorial">African chief.</note>
+				</person>
+
 				<person xml:id="pers0131">
 					<persName type="main">Murchison, Charlotte</persName>
 					<birth>?</birth>
@@ -875,6 +1004,14 @@
 						1865 and signed by Lord John Russell that denied Livingstone a salary and pension for his
 						honorary consulship. Livingstone found the wording of the instructions offensive, carried a
 						grudge to the end of his life, and held Murray responsible.</note>
+				</person>
+
+				<person xml:id="pers0228">
+					<persName type="main">Murray, John III</persName>
+					<birth>1808</birth>
+					<death>1892</death>
+					<note type="editorial">Son of the founder of John Murray, Publisher. Was Livingstone's
+						publisher and adviser. </note>
 				</person>
 
 				<person xml:id="pers0134">
@@ -919,6 +1056,14 @@
 				<person xml:id="pers0140">
 					<persName type="main">Nsama</persName>
 					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0229">
+					<persName type="main">Oswell, William C.</persName>
+					<birth>1818</birth>
+					<death>1893</death>
+					<note type="editorial">Explorer and hunter. Met Livingstone in South Africa in 1845, and
+						travelled with him 1849-51. Remained close friends. </note>
 				</person>
 
 				<person xml:id="pers0141">
@@ -981,6 +1126,12 @@
 					<note type="editorial">Church of England clergyman and theologian.</note>
 				</person>
 
+				<person xml:id="pers0212">
+					<persName type="main">Pyanamomba</persName>
+					<note type="editorial">African chief of the Bagenya tribe. Related to Kimburu (a.k.a.
+						Chimburu), whose actions helped incite the Nyangwe massacre.</note>
+				</person>
+
 				<person xml:id="pers0149">
 					<persName type="main">Rae, George</persName>
 					<birth when="1831">1831</birth>
@@ -1022,6 +1173,12 @@
 					<persName type="main">Salem</persName>
 					<note type="editorial">One of Livingstone's porters.</note>
 				</person>
+
+				<person xml:id="pers0220">
+					<persName type="main">Salem</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
 
 				<person xml:id="pers0156">
 					<persName type="main">Salem Mokadam</persName>
@@ -1195,6 +1352,19 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
+				<person xml:id="pers0230">
+					<persName type="main">Sunna</persName>
+					<birth>1820</birth>
+					<death>1856</death>
+					<note type="editorial">Ruler of Buganda (r. 1832-1856).</note>
+				</person>
+
+				<person xml:id="pers0211">
+					<persName type="main">Surampela</persName>
+					<note type="editorial">Also Zurampela. African chief from an unknown village near Loeki
+						River.</note>
+				</person>
+
 				<person xml:id="pers0179">
 					<persName type="main">Susi</persName>
 					<note type="editorial">African of the Shupanga tribe. With Livingstone when the latter died and
@@ -1219,6 +1389,21 @@
 					<note type="editorial">Arab governor ("Lewale") or trade agent of Unyanyembe, who apparently
 						detained and/or destroyed a packet of letters Livingstone had tried to send to the coast and
 						also prevented other goods from reaching Livingstone in Manyema.</note>
+				</person>
+
+				<person xml:id="pers0221">
+					<persName type="main">Syde bin Sultan</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0231">
+					<persName type="main">Tagamoio</persName>
+					<birth>?</birth>
+					<death>1893</death>
+					<note type="editorial">Also Mtagamoyo or Mwini Mohara. Arab trader and the chief perpetrator of
+						the Nyangwe massacre. Tagamoio would eventually become one of the leading Arabs at Nyangwe and
+						would only be brought down and killed by Belgian forces in 1893 (Wissman 1890:176-95; Hinde
+						1895:433).</note>
 				</person>
 
 				<person xml:id="pers0183">
@@ -1312,14 +1497,18 @@
 						shale. Met Livingstone at Anderson's College. Was one of Livingstone's three trustees.</note>
 				</person>
 
+				<person xml:id="pers0215">
+					<persName type="main">Yuñga</persName>
+					<note type="editorial">African headman of the Malobo tribe.</note>
+				</person>
+
 				<person xml:id="pers0195">
 					<persName type="main">Zerah</persName>
 					<note type="editorial">Warrior from Cush (present-day Ethiopia) mentioned in the Book of
 						Chronicles.</note>
 				</person>
 
-
-				<!-- Current higest number = pers0198 -->
+				<!-- Current higest number = pers0231 -->
 
 			</listPerson>
 
