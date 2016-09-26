@@ -30,6 +30,8 @@
 
 			<listPerson>
 
+				<!-- Current higest number = pers0241 -->
+
 				<person xml:id="pers0003">
 					<persName type="main">Aaron</persName>
 					<note type="editorial">Biblical prophet. Older brother of Moses and son of Abraham.</note>
@@ -88,9 +90,33 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
+				<person xml:id="pers0046">
+					<persName type="main">Amoda, Hamoydah </persName>
+					<note type="editorial">African who assisted Livingstone on the Zambesi expedition, was taken to
+						India, then returned with Livingstone for the final expedition.</note>
+				</person>
+
 				<person xml:id="pers0012">
 					<persName type="main">Amur</persName>
 					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0233">
+					<persName type="main">Argyll, The Duke of</persName>
+					<birth when="1823">1823</birth>
+					<death when="1900">1900</death>
+					<note type="editorial">George Douglas Campbell. Succeeded to the title in 1847. A Liberal. Held several Government posts. The First Gladstone Ministry (1868-74) came into power in December 1868, with Argyll as the Secretary of State for India.</note>
+				</person>
+
+				<person xml:id="pers0236">
+					<persName type="main">Arrowsmith, John</persName>
+					<birth when="1790">1790</birth>
+					<death when="1873">1873</death>
+					<note type="editorial">Cartographer and map publisher. Founding fellow of the Royal
+						Geographical Society in 1830 and member of the Society's council from 1851 to 1868. His
+						interest in exploration and discovery coupled with his skill in converting rough sketch maps
+						of explorers into professionally published maps led to a significant body of cartographical
+						contributions to the Society's publications.</note>
 				</person>
 
 				<person xml:id="pers0013">
@@ -152,6 +178,13 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
+				<person xml:id="pers0024">
+					<persName type="main">Captain Black</persName>
+					<note type="editorial">Apparently an agent of the P &amp; O Company (Peninsular and Oriental
+						Steam Navigation Company), a British shipping company. This may be the "W. Black" to whom
+						Livingstone wrote a letter on 15 November 1871.</note>
+				</person>
+
 				<person xml:id="pers0021">
 					<persName type="main">Bleek, Wilhelm H.I.</persName>
 					<birth when="1827">1827</birth>
@@ -159,6 +192,14 @@
 					<note type="editorial">German philologist who specialized in South African languages. Settled
 						in Cape Town in 1856 and was appointed by Sir George Grey as interpreter in 1857 and librarian
 						of his collection in 1860.</note>
+				</person>
+
+				<person xml:id="pers0237">
+					<persName type="main">Bonaparte, Louis-Napoléon</persName>
+					<birth when="1808">1808</birth>
+					<death when="1873">1873</death>
+					<note type="editorial">Also Napoleon III. President (r.1848–52) of the French Second Republic
+						and Emperor (1852–70) of the Second French Empire.</note>
 				</person>
 
 				<person xml:id="pers0022">
@@ -175,6 +216,14 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
+				<person xml:id="pers0235">
+					<persName type="main">Bright, John</persName>
+					<birth when="1811">1811</birth>
+					<death when="1899">1899</death>
+					<note type="editorial">Politician. The First Gladstone Ministry (1868-74) came into power in
+						December 1868 with John Bright serving as the President of the Board of Trade.</note>
+				</person>
+
 				<person xml:id="pers0023">
 					<persName type="main">Burton, Richard F.</persName>
 					<birth when="1821">1821</birth>
@@ -184,13 +233,6 @@
 						Tanganyika by Europeans. However, John H. Speke's discovery of Lake Victoria, the source of
 						the Nile, on that same expedition led to a bitter public dispute that ultimately derailed the
 						overall trajectory of Burton's later career.</note>
-				</person>
-
-				<person xml:id="pers0024">
-					<persName type="main">Captain Black</persName>
-					<note type="editorial">Apparently an agent of the P &amp; O Company (Peninsular and Oriental
-						Steam Navigation Company), a British shipping company. This may be the "W. Black" to whom
-						Livingstone wrote a letter on 15 November 1871.</note>
 				</person>
 
 				<person xml:id="pers0025">
@@ -276,6 +318,14 @@
 						perpetrator of the massacre at Nyangwe in 1871.</note>
 				</person>
 
+				<person xml:id="pers0241">
+					<persName type="main">De Bono, Andrea</persName>
+					<birth when="1821">1821</birth>
+					<death when="1871">1871</death>
+					<note type="editorial">Maltese explorer. Known for his exploration of the sources of the White
+						Nile.</note>
+				</person>
+
 				<person xml:id="pers0035">
 					<persName type="main">Dugumbe</persName>
 					<note type="editorial">Also Molembalemba. Arab trader. His followers were the main instigators
@@ -354,12 +404,6 @@
 						1865, and contributed a paper to his periodical.</note>
 				</person>
 
-				<person xml:id="pers0046">
-					<persName type="main">Hamoydah Amoda</persName>
-					<note type="editorial">African who assisted Livingstone on the Zambesi expedition, was taken to
-						India, then returned with Livingstone for the final expedition.</note>
-				</person>
-
 				<person xml:id="pers0047">
 					<persName type="main">Hassani</persName>
 					<note type="editorial">Arab trader, and one of the first Arab settlers in Nyangwe. Known
@@ -385,6 +429,13 @@
 						chronicles the origins of the Greco-Persian wars.</note>
 				</person>
 
+				<person xml:id="pers0232">
+					<persName type="main">Hunter, John</persName>
+					<birth when="1728">1728</birth>
+					<death when="1793">1793</death>
+					<note type="editorial">Celebrated surgeon and anatomist, whose collection of medical specimens became the basis of the eponymous Hunterian Museum.</note>
+				</person>
+
 				<person xml:id="pers0050">
 					<persName type="main">Ibram</persName>
 					<note type="editorial">Arab trader.</note>
@@ -398,6 +449,13 @@
 				<person xml:id="pers0052">
 					<persName type="main">Isana</persName>
 					<note type="editorial">African chief.</note>
+				</person>
+
+				<person xml:id="pers0234"><!-- Ishmael -->
+					<persName type="main">Ismai'il</persName>
+					<birth when="1830">1830</birth>
+					<death when="1895">1995</death>
+					<note type="editorial">Khedive of Egypt and Sudan (r.1863-79). Oversaw building of Egyptian portion of Suez Canal.</note>
 				</person>
 
 				<person xml:id="pers0053">
@@ -625,14 +683,15 @@
 						1852. Lived in Egypt for the benefit of his health.</note>
 				</person>
 
-				<person xml:id="pers0081">
+				<!-- Removed, see pers0229 -->
+				<!--<person xml:id="pers0081">
 					<persName type="main">Livingstone, William O.</persName>
 					<birth when="1851">1851</birth>
 					<death when="1892">1892</death>
 					<note type="editorial">Third son of David Livingstone, generally called "Oswell" or "Zouga."
 						Went to England with his mother in 1852. Joined the Livingstone Search Expedition in 1872, but
 						did not reach his father.</note>
-				</person>
+				</person>-->
 
 				<person xml:id="pers0214">
 					<persName type="main">Lomadyo</persName>
@@ -803,10 +862,11 @@
 					<note type="editorial">African chief.</note>
 				</person>
 
-				<person xml:id="pers0104">
+				<!-- Removed, see pers0222 -->
+				<!-- <person xml:id="pers0104">
 					<persName type="main">Moene Lualaba</persName>
 					<note type="editorial">African chief.</note>
-				</person>
+				</person>-->
 
 				<person xml:id="pers0105">
 					<persName type="main">Moeneghere</persName>
@@ -1008,8 +1068,8 @@
 
 				<person xml:id="pers0228">
 					<persName type="main">Murray, John III</persName>
-					<birth>1808</birth>
-					<death>1892</death>
+					<birth when="1808">1808</birth>
+					<death when="1892">1892</death>
 					<note type="editorial">Son of the founder of John Murray, Publisher. Was Livingstone's
 						publisher and adviser. </note>
 				</person>
@@ -1060,8 +1120,8 @@
 
 				<person xml:id="pers0229">
 					<persName type="main">Oswell, William C.</persName>
-					<birth>1818</birth>
-					<death>1893</death>
+					<birth when="1818">1818</birth>
+					<death when="1893">1893</death>
 					<note type="editorial">Explorer and hunter. Met Livingstone in South Africa in 1845, and
 						travelled with him 1849-51. Remained close friends. </note>
 				</person>
@@ -1148,6 +1208,14 @@
 				<person xml:id="pers0151">
 					<persName type="main">Rashid</persName>
 					<note type="editorial">Arab trader.</note>
+				</person>
+
+				<person xml:id="pers0238">
+					<persName type="main">Reade, Winwoode</persName>
+					<birth when="1838">1838</birth>
+					<death when="1875">1875</death>
+					<note type="editorial">Traveller and novelist. Known in the 1860s for his travels in West
+						Africa.</note>
 				</person>
 
 				<person xml:id="pers0152">
@@ -1342,6 +1410,13 @@
 						his stay in Bombay.</note>
 				</person>
 
+				<person xml:id="pers0239">
+					<persName type="main">Stowe, Harriet Beecher</persName>
+					<birth when="1811">1811</birth>
+					<death when="1896">1896</death>
+					<note type="editorial">Abolitionist and author best known for Uncle Tom's Cabin (1852).</note>
+				</person>
+
 				<person xml:id="pers0177">
 					<persName type="main">Suleiman bin Ali</persName>
 					<note type="editorial">Arab trader.</note>
@@ -1354,8 +1429,8 @@
 
 				<person xml:id="pers0230">
 					<persName type="main">Sunna</persName>
-					<birth>1820</birth>
-					<death>1856</death>
+					<birth when="1820">1820</birth>
+					<death when="1856">1856</death>
 					<note type="editorial">Ruler of Buganda (r. 1832-1856).</note>
 				</person>
 
@@ -1396,10 +1471,18 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
+				<person xml:id="pers0240">
+					<persName type="main">Syme, James</persName>
+					<birth when="1799">1799</birth>
+					<death when="1870">1870</death>
+					<note type="editorial">Surgeon. Highly regarded as a practitioner and teacher of surgery.
+						President of the Royal College of Surgeons of Edinburgh 1849-51.</note>
+				</person>
+
 				<person xml:id="pers0231">
 					<persName type="main">Tagamoio</persName>
 					<birth>?</birth>
-					<death>1893</death>
+					<death when="1893">1893</death>
 					<note type="editorial">Also Mtagamoyo or Mwini Mohara. Arab trader and the chief perpetrator of
 						the Nyangwe massacre. Tagamoio would eventually become one of the leading Arabs at Nyangwe and
 						would only be brought down and killed by Belgian forces in 1893 (Wissman 1890:176-95; Hinde
@@ -1507,8 +1590,6 @@
 					<note type="editorial">Warrior from Cush (present-day Ethiopia) mentioned in the Book of
 						Chronicles.</note>
 				</person>
-
-				<!-- Current higest number = pers0231 -->
 
 			</listPerson>
 

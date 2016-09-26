@@ -30,6 +30,8 @@
 
 			<listOrg>
 
+				<!-- Current higest number = org0030 -->
+
 				<org xml:id="org0001">
 					<orgName type="main">2nd Egyptian expedition</orgName>
 					<note type="editorial">Expedition (1840-41) organized by Muhammad Ali, Viceroy of Egypt (r.
@@ -67,7 +69,7 @@
 
 				<org xml:id="org0029">
 					<orgName type="main">Bushmen</orgName>
-					<note type="editorial">Also San, Khoi, Khoisan, or Basarwa. A collective term embracing various indigenous populations of southern Africa</note>
+					<note type="editorial">Also San or Basarwa. Collective term for southern Africa's indigenous hunter-gatherer populations.</note>
 				</org>
 
 				<org xml:id="org0008">
@@ -80,6 +82,11 @@
 					<note type="editorial">Group of ten men (including their leader Musa) from Johanna (Anjouan),
 						Comoros, who accompanied Livingstone during his last journey. The Johanna men had been hired
 						with the assistance of the British Consul at Johanna.</note>
+				</org>
+
+				<org xml:id="org0030">
+					<orgName type="main">Governors D'Almrida</orgName>
+					<note type="editorial">The brothers João Tavares d'Almeida (Governor-General of Mozambique) and António Tavares d'Almeida (Governor of Tete) who held their respective positions during the time of Livingstone’s Zambesi Expedition (1858-64).</note>
 				</org>
 
 				<org xml:id="org0011">
@@ -195,8 +202,6 @@
 						interior in order to escape British control. The Voortrekkers eventually established the Boer
 						Republics, the Orange Free State and the Transvaal. </note>
 				</org>
-
-				<!-- Current higest number = org0029 -->
 
 			</listOrg>
 
