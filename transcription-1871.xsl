@@ -58,7 +58,7 @@
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
 			<div class="TEI">
-				<span class="idno">project id - <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/><br/>
+				<span class="idno"><xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/><br/>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
 					<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
