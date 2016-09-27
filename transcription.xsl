@@ -673,7 +673,7 @@
 	<!-- For "text" see above -->
 
 	<xsl:template match="trailer">
-		<span class="trailer {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"><xsl:apply-templates/></span>
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="unclear">
