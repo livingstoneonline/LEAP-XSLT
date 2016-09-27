@@ -672,6 +672,10 @@
 
 	<!-- For "text" see above -->
 
+	<xsl:template match="trailer">
+		<span class="trailer {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<xsl:template match="unclear">
 		<span class="unclear">
 			<xsl:if test="@cert">
