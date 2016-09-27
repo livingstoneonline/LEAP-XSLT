@@ -30,6 +30,8 @@
 
 			<listPlace>
 
+				<!-- Current higest number = geog0065 -->
+
 				<place xml:id="geog0001" type="geogName_island">
 					<placeName type="main">Anjouan, Comoros</placeName><!-- Johanna -->
 					<note type="editorial">Ten men from this island, hired with the assistance of the island's
@@ -475,8 +477,6 @@
 						center of East Africa's Arab-Indian-African trading network, a major international depot, and
 						the site of a notorious slave market.</note>
 				</place>
-
-				<!-- Current higest number = geog0065 -->
 
 			</listPlace>
 

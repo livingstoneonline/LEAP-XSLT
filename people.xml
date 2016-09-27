@@ -348,7 +348,7 @@
 
 				<person xml:id="pers0038">
 					<persName type="main">Garahenga</persName>
-					<note type="editorial">African person also known as Kimamure.</note>
+					<note type="editorial">Also known as Kimamure. African chief. Descendant of Charura. Son of Moenyegumbe.</note>
 				</person>
 
 				<person xml:id="pers0039">
@@ -583,11 +583,6 @@
 				<person xml:id="pers0068">
 					<persName type="main">Keturah</persName>
 					<note type="editorial">Abraham's concubine in the Bible.</note>
-				</person>
-
-				<person xml:id="pers0069">
-					<persName type="main">Kimamure</persName>
-					<note type="editorial">African person also known as Garahenga.</note>
 				</person>
 
 				<person xml:id="pers0223">
@@ -826,7 +821,7 @@
 
 				<person xml:id="pers0098">
 					<persName type="main">Merere</persName>
-					<note type="editorial">African chief who resisted Arab encroachment into central Africa.</note>
+					<note type="editorial">Also Mamerere. African chief who resisted Arab encroachment into central Africa. Descendant of Charura.</note>
 				</person>
 
 				<person xml:id="pers0099">
@@ -861,12 +856,6 @@
 					<persName type="main">Moamba</persName>
 					<note type="editorial">African chief.</note>
 				</person>
-
-				<!-- Removed, see pers0222 -->
-				<!-- <person xml:id="pers0104">
-					<persName type="main">Moene Lualaba</persName>
-					<note type="editorial">African chief.</note>
-				</person>-->
 
 				<person xml:id="pers0105">
 					<persName type="main">Moeneghere</persName>
@@ -932,7 +921,7 @@
 
 				<person xml:id="pers0114">
 					<persName type="main">Moenyegumbe</persName>
-					<note type="editorial">African person.</note>
+					<note type="editorial">African chief. Descendant of Charura.</note>
 				</person>
 
 				<person xml:id="pers0208">
@@ -942,17 +931,17 @@
 
 				<person xml:id="pers0115">
 					<persName type="main">Mogandira</persName>
-					<note type="editorial">African person.</note>
+					<note type="editorial">African chief. Descendant of Charura. Son of Moenyegumbe. Died after one year of rule.</note>
 				</person>
 
-				<person xml:id="pers0222">
+				<person xml:id="pers0222"><!-- Moene Lualaba -->
 					<persName type="main">Mokandira</persName>
 					<note type="editorial">Also Mokandirwa. African chief of Nyangwe.</note>
 				</person>
 
 				<person xml:id="pers0116">
 					<persName type="main">Mokasi</persName>
-					<note type="editorial">African person.</note>
+					<note type="editorial">African chief. Descendant of Charura.</note>
 				</person>
 
 				<person xml:id="pers0117">

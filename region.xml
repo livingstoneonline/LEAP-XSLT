@@ -74,7 +74,7 @@
 				</place>
 
 				<place xml:id="region0007" type="region">
-					<placeName type="main">Legaland</placeName>
+					<placeName type="main">Legaland</placeName><!-- Metamba -->
 					<note type="editorial">Region in the eastern part of present-day Democratic Republic of the
 						Congo that is home to the Lega people and that encompasses the valleys of the middle and upper
 						Elila and the upper Ulindi rivers.</note>
