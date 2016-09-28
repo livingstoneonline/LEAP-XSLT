@@ -60,11 +60,14 @@
 			<div class="TEI">
 				<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
 				<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author"/></span><br/><br/>
-				<span class="authority">Repository: <xsl:value-of select="//teiHeader//repository"/></span><br/>
+				<hr class="title-section"/><br/>
+				<span class="authority">Repository: <xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
 				<span class="authority">Shelfmark: <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
 				<span class="authority">Publisher and date: <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 				<span class="idno">Project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
 				<span class="authority">TEI Encoding: <xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+				<br/>
+				<hr class="title-section"/>
 				<br/>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
