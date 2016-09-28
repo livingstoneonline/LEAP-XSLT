@@ -53,7 +53,7 @@ div.transcription{
 .idno{
 	font-size:.9em;
 	color:gray;
-	margin-left:9%;
+	margin-left:60%;
 }
 
 /* 2. Letters */
@@ -168,8 +168,9 @@ p.right .linenumber{
 	display:block;
 	width:20em; /*1871 FD change, was 60%*/
 	background:#FFF;
-	color:black;
-	height:0px;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 	margin-left:9%;
 	margin-right:9%;
 	padding:0px;
@@ -181,6 +182,9 @@ p.right .linenumber{
 	width:20em !important; /*1871 FD change, was 26em*/
 	margin-left:9%;
 	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 /*.doubleline{
 	border-top: 4px double #8c8b8b;
@@ -213,6 +217,9 @@ p.right .linenumber{
 	width:11em !important;
 	margin-left:9%;
 	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 .second-line{
 	border-bottom:1px solid #d0d0d0;
@@ -221,6 +228,9 @@ p.right .linenumber{
 	margin-left:9%;
 	text-align:left;
 	margin-top:0em; /*1871 FD change, was -1em*/
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 .third-line{
 	border-bottom:1px solid #d0d0d0;
@@ -229,6 +239,9 @@ p.right .linenumber{
 	margin-left:9%;
 	text-align:left;
 	margin-top:1.5em;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 
 /* 5. p, ab, note, fw */

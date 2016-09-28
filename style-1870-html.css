@@ -205,8 +205,9 @@ p.right .linenumber{
 	display:block;
 	width:60%;
 	background:#FFF;
-	color:black;
-	height:0px;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 	margin-left:9%;
 	margin-right:9%;
 	padding:0px;
@@ -218,6 +219,9 @@ p.right .linenumber{
 	width:26em !important;
 	margin-left:9%;
 	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 /*.doubleline{
 	border-top: 4px double #8c8b8b;
@@ -243,6 +247,9 @@ p.right .linenumber{
 	width:18.5em !important;
 	margin-left:9%;
 	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
@@ -250,6 +257,9 @@ p.right .linenumber{
 	width:11em !important;
 	margin-left:9%;
 	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 .second-line{
 	border-bottom:1px solid #d0d0d0;
@@ -258,6 +268,10 @@ p.right .linenumber{
 	margin-left:9%;
 	text-align:left;
 	margin-top:-1em;
+	margin-bottom:0em;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 .third-line{
 	border-bottom:1px solid #d0d0d0;
@@ -265,7 +279,10 @@ p.right .linenumber{
 	width:20em !important;
 	margin-left:9%;
 	text-align:left;
-	margin-top:1.5em;
+	margin-top:1.5em;	
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 
 /* 5. p, ab, note, fw */
