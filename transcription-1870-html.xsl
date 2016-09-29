@@ -285,7 +285,7 @@
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), 'addmargin')}"> [<xsl:apply-templates/>] </span>
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'addmargin')}"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
