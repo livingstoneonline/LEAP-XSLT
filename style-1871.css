@@ -210,6 +210,9 @@ p.right .linenumber{
 	width:10em !important; /*1871 FD change, was 18.5em*/
 	margin-left:9%;
 	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
