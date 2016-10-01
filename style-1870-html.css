@@ -429,6 +429,12 @@ p{
 .large{
 	font-size:120%;
 }
+.overline{
+	text-decoration: overline;
+}
+.overline.underline{
+	text-decoration:overline underline;
+}
 .overtext{
 	/*color:gray;*/
 }
@@ -457,7 +463,6 @@ p{
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
-
 
 /* 9. Page placement */
 

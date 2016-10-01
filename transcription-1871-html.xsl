@@ -59,7 +59,7 @@
 			</h2>-->
 			<div class="TEI">
 				<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
-				<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author"/></span><br/><br/>
+				<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/><br/>
 				<hr class="title-section"/><br/>
 				<span class="authority">Repository: <xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
 				<span class="authority">Shelfmark: <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>

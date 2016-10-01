@@ -273,7 +273,8 @@
 		</p>
 	</xsl:template>
 
-	<xsl:template match="cb/ab" priority="10">
+	<!-- added p/cb for 1870 FD -->
+	<xsl:template match="cb/ab|p/cb" priority="10">
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -397,6 +398,9 @@
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
+
+	<!-- added for 1870 FD -->
+	<xsl:template match="desc"><span class="figure" title="{../desc}">{text description}</span></xsl:template>
 
 	<!-- For "div" see above -->
 
@@ -908,6 +912,11 @@
 		</hr>-->
 	</xsl:template>
 
+	<!-- added for 1870 FD -->
+	<xsl:template match="milestone[@unit='column']" priority="10">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<xsl:template match="note">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @anchored)}"
 			>[<xsl:apply-templates/>]</span>
@@ -1314,6 +1323,13 @@
 			<xsl:apply-templates select="node()"/>
 		</span>
 	</xsl:template>
+
+	<!-- This and the next are needed for 1871 FD when there are two or more <unclear>s within <choice>. This is the best way I could do this. There is probably a better way. -->
+	<xsl:template match="choice/unclear" priority="9">
+		<span class="unclear" title="{concat('Unclear. Alternate reading: ', ../unclear[2])}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="choice/unclear[2]" priority="10"/>
 
 	<xsl:template match="w">
 		<xsl:apply-templates/>
