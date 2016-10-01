@@ -67,11 +67,6 @@
 						interchangeably with Voortrekkers.</note>
 				</org>
 
-				<org xml:id="org0029">
-					<orgName type="main">Bushmen</orgName>
-					<note type="editorial">Also San or Basarwa. Collective term for southern Africa's indigenous hunter-gatherer populations.</note>
-				</org>
-
 				<org xml:id="org0008">
 					<orgName type="main">Cushite</orgName>
 					<note type="editorial">Person from Cush (in present-day Ethiopia).</note>
@@ -91,7 +86,7 @@
 
 				<org xml:id="org0011">
 					<orgName type="main">Kilwans</orgName>
-					<note type="editorial">Kilwa (a collective name for Kilwa Kisiwani, Kilwa Kivinje, and Kilwa
+					<note type="editorial">People from Kilwa. Kilwa (a collective name for Kilwa Kisiwani, Kilwa Kivinje, and Kilwa
 						Masoko, all in present-day Tanzania) was one of the most important centers for the slave trade
 						on the east coast of Africa in the nineteenth century.</note>
 				</org>

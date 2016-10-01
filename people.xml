@@ -79,7 +79,7 @@
 
 				<person xml:id="pers0011">
 					<persName type="main">Adams, Henry Gardiner</persName>
-					<note type="editorial">Author of Dr. Livingston[sic]: His Life and Adventures in the Interior
+					<note type="editorial">Author of Dr. Livingston [sic]: His Life and Adventures in the Interior
 						of South Africa (1857), a book based on Livingstone's letters regarding his transcontinental
 						African journey. Also wrote David Livingstone: The Weaver Boy who Became a Missionary
 						(1874).</note>
@@ -179,7 +179,7 @@
 				</person>
 
 				<person xml:id="pers0024">
-					<persName type="main">Captain Black</persName>
+					<persName type="main">Black, ?</persName>
 					<note type="editorial">Apparently an agent of the P &amp; O Company (Peninsular and Oriental
 						Steam Navigation Company), a British shipping company. This may be the "W. Black" to whom
 						Livingstone wrote a letter on 15 November 1871.</note>
@@ -200,6 +200,14 @@
 					<death when="1873">1873</death>
 					<note type="editorial">Also Napoleon III. President (r.1848–52) of the French Second Republic
 						and Emperor (1852–70) of the Second French Empire.</note>
+				</person>
+
+				<person xml:id="pers0166">
+					<persName type="main">Bosher, Shereef</persName>
+					<note type="editorial">Arab trader. Dispatched from the coast in 1869 by Ludha Damji, a very
+						rich Banian from Zanzibar, to supply Livingstone with goods and men, then spent fourteen
+						months on the journey to Ujiji, while systematically plundering Livingstone of his
+						goods.</note>
 				</person>
 
 				<person xml:id="pers0022">
@@ -348,7 +356,7 @@
 
 				<person xml:id="pers0038">
 					<persName type="main">Garahenga</persName>
-					<note type="editorial">Also known as Kimamure. African chief. Descendant of Charura. Son of Moenyegumbe.</note>
+					<note type="editorial">Also Kimamure. African chief. Descendant of Charura. Son of Moenyegumbe.</note>
 				</person>
 
 				<person xml:id="pers0039">
@@ -455,7 +463,7 @@
 					<persName type="main">Ismai'il</persName>
 					<birth when="1830">1830</birth>
 					<death when="1895">1995</death>
-					<note type="editorial">Khedive of Egypt and Sudan (r.1863-79). Oversaw building of Egyptian portion of Suez Canal.</note>
+					<note type="editorial">Also Ishmael. Khedive of Egypt and Sudan (r.1863-79). Oversaw building of Egyptian portion of Suez Canal.</note>
 				</person>
 
 				<person xml:id="pers0053">
@@ -506,11 +514,6 @@
 						assist Livingstone.</note>
 				</person>
 
-				<person xml:id="pers0061">
-					<persName type="main">Juma Merikano</persName>
-					<note type="editorial">Arab trader.</note>
-				</person>
-
 				<person xml:id="pers0216">
 					<persName type="main">Kabobo</persName>
 					<note type="editorial">African person.</note>
@@ -529,6 +532,13 @@
 						latter fled.</note>
 				</person>
 
+				<person xml:id="pers0136">
+					<persName type="main">Kamaal, Musa</persName>
+					<note type="editorial">One of the freed Banian slaves hired by John Kirk, the acting British
+						Consul and Political Resident at Zanzibar, to transport goods for Livingstone. Detained by
+						Syde bin Salem Burashid, the governor ("Lewale") or trade agent of Unyanyembe, so the goods
+						could be plundered by Musa bin Salem, the governor's slave.</note>
+				</person>
 
 				<person xml:id="pers0201">
 					<persName type="main">Kama</persName>
@@ -737,6 +747,15 @@
 						Livingstone named Cape Maclear after him.</note>
 				</person>
 
+				<person xml:id="pers0158">
+					<persName type="main">Majid bin Said Al-Busaid, Sayedd</persName>
+					<birth when="1834">1834/35</birth>
+					<death when="1870">1870</death>
+					<note type="editorial">Son of Said ibn Sultan, the first Omani ruler of Zanzibar, and himself
+						Sultan of Zanzibar 1856-70. Helped develop a far-ranging empire in East Africa, including a
+						well-developed slave trading network.</note>
+				</person>
+
 				<person xml:id="pers0217">
 					<persName type="main">Makoa</persName>
 					<note type="editorial">African person.</note>
@@ -822,6 +841,11 @@
 				<person xml:id="pers0098">
 					<persName type="main">Merere</persName>
 					<note type="editorial">Also Mamerere. African chief who resisted Arab encroachment into central Africa. Descendant of Charura.</note>
+				</person>
+
+				<person xml:id="pers0061">
+					<persName type="main">Merikano, Juma</persName>
+					<note type="editorial">Arab trader.</note>
 				</person>
 
 				<person xml:id="pers0099">
@@ -921,7 +945,7 @@
 
 				<person xml:id="pers0114">
 					<persName type="main">Moenyegumbe</persName>
-					<note type="editorial">African chief. Descendant of Charura.</note>
+					<note type="editorial">African chief. Descendant of Charura. Father of Garahenga Mogandira.</note>
 				</person>
 
 				<person xml:id="pers0208">
@@ -934,9 +958,14 @@
 					<note type="editorial">African chief. Descendant of Charura. Son of Moenyegumbe. Died after one year of rule.</note>
 				</person>
 
+				<person xml:id="pers0156">
+					<persName type="main">Mokadam, Salem</persName>
+					<note type="editorial">Arab trader.</note>
+				</person>
+
 				<person xml:id="pers0222"><!-- Moene Lualaba -->
 					<persName type="main">Mokandira</persName>
-					<note type="editorial">Also Mokandirwa. African chief of Nyangwe.</note>
+					<note type="editorial">Also Mokandirwa and Moene Lualaba. African chief of Nyangwe.</note>
 				</person>
 
 				<person xml:id="pers0116">
@@ -1074,14 +1103,6 @@
 					<note type="editorial">Baluchi slave of Syde bin Salem Burashid, the governor ("Lewale") or
 						trade agent of Unyanyembe. Apparently defrauded Livingstone of some portion of goods sent from
 						the coast.</note>
-				</person>
-
-				<person xml:id="pers0136">
-					<persName type="main">Musa Kamaal</persName>
-					<note type="editorial">One of the freed Banian slaves hired by John Kirk, the acting British
-						Consul and Political Resident at Zanzibar, to transport goods for Livingstone. Detained by
-						Syde bin Salem Burashid, the governor ("Lewale") or trade agent of Unyanyembe, so the goods
-						could be plundered by Musa bin Salem, the governor's slave.</note>
 				</person>
 
 				<person xml:id="pers0137">
@@ -1236,25 +1257,10 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
-
-				<person xml:id="pers0156">
-					<persName type="main">Salem Mokadam</persName>
-					<note type="editorial">Arab trader.</note>
-				</person>
-
 				<person xml:id="pers0157">
 					<persName type="main">Saul</persName>
 					<note type="editorial">First king of the united kingdom of Israel and Judah in the Hebrew
 						bible.</note>
-				</person>
-
-				<person xml:id="pers0158">
-					<persName type="main">Sayedd Majid bin Said Al-Busaid</persName>
-					<birth when="1834">1834/35</birth>
-					<death when="1870">1870</death>
-					<note type="editorial">Son of Said ibn Sultan, the first Omani ruler of Zanzibar, and himself
-						Sultan of Zanzibar 1856-70. Helped develop a far-ranging empire in East Africa, including a
-						well-developed slave trading network.</note>
 				</person>
 
 				<person xml:id="pers0159">
@@ -1317,14 +1323,6 @@
 				<person xml:id="pers0196">
 					<persName type="main">Sheikh Suleiman</persName>
 					<note type="editorial">Arab trader.</note>
-				</person>
-
-				<person xml:id="pers0166">
-					<persName type="main">Shereef Bosher</persName>
-					<note type="editorial">Arab trader. Dispatched from the coast in 1869 by Ludha Damji, a very
-						rich Banian from Zanzibar, to supply Livingstone with goods and men, then spent fourteen
-						months on the journey to Ujiji, while systematically plundering Livingstone of his
-						goods.</note>
 				</person>
 
 				<person xml:id="pers0167">

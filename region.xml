@@ -30,9 +30,11 @@
 
 			<listPlace>
 
+				<!-- Current higest number = region0017 -->
+
 				<place xml:id="region0017" type="region"><!-- The Cape -->
 					<placeName type="main">Cape of Good Hope</placeName>
-					<note type="editorial">The southern tip of Africa. Traditionally, the dividing point between the Atlantic and Indian Oceans.</note>
+					<note type="editorial">Also the Cape. The southern tip of Africa. Traditionally, the dividing point between the Atlantic and Indian Oceans.</note>
 				</place>
 
 				<place xml:id="region0001" type="region">
@@ -75,9 +77,7 @@
 
 				<place xml:id="region0007" type="region">
 					<placeName type="main">Legaland</placeName><!-- Metamba -->
-					<note type="editorial">Region in the eastern part of present-day Democratic Republic of the
-						Congo that is home to the Lega people and that encompasses the valleys of the middle and upper
-						Elila and the upper Ulindi rivers.</note>
+					<note type="editorial">Also Metamba by Livingstone. Region in the eastern part of present-day Democratic Republic of the Congo that is home to the Lega people and that encompasses the valleys of the middle and upper Elila and the upper Ulindi rivers.</note>
 				</place>
 
 				<place xml:id="region0009" type="region">
@@ -131,8 +131,6 @@
 					<note type="editorial">Plateau east of the Shire River in the southern part of present-day
 						Malawi.</note>
 				</place>
-
-				<!-- Current higest number = region0017 -->
 
 			</listPlace>
 

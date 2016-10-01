@@ -29,6 +29,8 @@
 		<body>
 			<div>
 
+				<!-- Current higest number = ethnic0025 -->
+
 				<entry xml:id="ethnic0018">
 					<form>
 						<orth>Bagenya</orth>
@@ -82,6 +84,13 @@
 					</form>
 					<def>African ethnic group based in present-day Tanzania and settled to the south east of Lake
 						Rukwa.</def>
+				</entry>
+
+				<entry xml:id="ethnic0025">
+					<form>
+						<orth>Basarwa</orth>
+					</form>
+					<def>Also San or (often pejoratively) Bushmen. Collective term for southern Africa's indigenous hunter-gatherer populations.</def>
 				</entry>
 
 				<entry xml:id="ethnic0006">
@@ -175,8 +184,6 @@
 					<def>African ethnic group based in present-day Tanzania and settled to the east and south east
 						of Lake Rukwa.</def>
 				</entry>
-
-				<!-- Current higest number = ethnic0024 -->
 
 				<!-- 
 			

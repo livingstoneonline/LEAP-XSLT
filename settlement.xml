@@ -30,6 +30,8 @@
 
 			<listPlace>
 
+				<!-- Current higest number = sett0016 -->
+
 				<place xml:id="sett0001" type="settlement_town">
 					<placeName type="main">Bagamoyo</placeName>
 					<note type="editorial">East African costal town in present-day Tanzania that served as one of
@@ -133,8 +135,6 @@
 						century, served as one of the major depots on the trade routes that ran between the east coast
 						of Africa and the interior.</note>
 				</place>
-
-				<!-- Current higest number = sett0016 -->
 
 			</listPlace>
 
