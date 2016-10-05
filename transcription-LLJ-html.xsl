@@ -34,7 +34,7 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-LLJ-html.css"/>
+				<link rel="stylesheet" type="text/css" href="style-LLJ-html.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
@@ -65,7 +65,7 @@
 				<span class="authority"><strong>Original publisher and date:</strong><xsl:text> </xsl:text><xsl:value-of select="//imprint//publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//imprint/date"/></span><br/>
 				<span class="authority"><strong>Digital publisher and date:</strong><xsl:text> </xsl:text><a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 				<span class="idno"><strong>Project id:</strong><xsl:text> </xsl:text><xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
-				<span class="authority"><strong>TEI Encoding:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+				<span class="authority"><strong>TEI encoding:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
 				<br/>
 				<hr class="title-section"/>
 				<br/>
@@ -445,8 +445,6 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-		
-	
 
 	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
 	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
@@ -531,9 +529,6 @@
 	<xsl:template match="gb">
 		<xsl:apply-templates/>
 	</xsl:template>
-
-	<!-- do not show graphic -->
-	<!--<xsl:template match="graphic"/>-->
 
 	<!-- geogName begins -->
 
@@ -936,18 +931,18 @@
 	</xsl:template>
 
 	<xsl:template match="note">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @anchored)}"
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
 			>[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
 	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
-		<span class="{concat(name(), ' ', @type, ' ', @rend)}">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
 	<xsl:template match="p/note" priority="8">
-		<span class="{concat(name(), ' ', @type, ' ', @rend)}">[<xsl:apply-templates/>]</span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="opener">

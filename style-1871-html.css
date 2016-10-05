@@ -25,10 +25,10 @@ Table of Contents
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:80%;
+	width:600px;/*Change to make responsive; this current keeps it fixed*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
-	white-space:nowrap;
+	/*white-space:nowrap;*/
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
 	background:#d3c2a8; /*#e7d5bd*/
 	/*border: solid 1em white;*/  /* remove */
@@ -36,7 +36,8 @@ div.transcription{
 }
 .TEI{
 	display:block;
-	padding-left: 1em;
+	margin-left:5em !important;
+	margin-right:5em !important;
 	padding-top:.5em;
 }
 .text{
@@ -92,12 +93,10 @@ hr.title-section{
 	margin-bottom:-.4em;
 }
 
-
 /* 2. Letters */
 
 .opener,
 .closer{
-	margin-left:9%;
 	margin-bottom:0px;
 }
 .opener{
@@ -125,6 +124,9 @@ hr.title-section{
 .closer-salute{
 	margin-left:0 !important;
 }
+.closer.center{
+	margin-left:6em;
+}
 .signed{
 	display:inline-block;
 }
@@ -146,9 +148,8 @@ hr.title-section{
 	color:#428bca;
 	text-decoration:underline;
 	font-size:90%;
-	margin-left:9%;
-	margin-top:1.5em;
-	margin-bottom:-1em;
+	margin-top:2em;
+	margin-bottom:-1.3em;
 }
 .pb-title:hover{
 	color:#AAA;
@@ -163,7 +164,6 @@ p span.pb-title{
 }
 .del-pb{
 }
-/*We need a solution. See 2672-3 for an example or 875 for multiple examples.*/
 .lb{
 	display:block;
 }
@@ -178,7 +178,7 @@ p span.pb-title{
 	float:left;
 	color:#AAA;
 	margin-left:-3em !important;
-	text-indent:9%;
+	/*text-indent:9%;*/
 	font-size:80%;
 	width:1em;
 }
@@ -208,7 +208,7 @@ p.right .linenumber{
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
-	margin-left:9%;
+	margin-left:0;
 	margin-right:9%;
 	padding:0px;
 	margin-bottom:-1em;
@@ -217,7 +217,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:20em !important; /*1871 FD change, was 26em*/
-	margin-left:9%;
+	margin-left:0;
 	text-align:left;
 	height:0;
 	border:0;
@@ -245,7 +245,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:10em !important; /*1871 FD change, was 18.5em*/
-	margin-left:9%;
+	margin-left:0;
 	text-align:left;
 	height:0;
 	border:0;
@@ -255,7 +255,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:11em !important;
-	margin-left:9%;
+	margin-left:0;
 	text-align:left;
 	height:0;
 	border:0;
@@ -265,7 +265,7 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:20em !important; /*1871 FD change, was 26em*/
-	margin-left:9%;
+	margin-left:0;
 	text-align:left;
 	margin-top:0em; /*1871 FD change, was -1em*/
 	height:0;
@@ -276,9 +276,9 @@ p.right .linenumber{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:20em !important;
-	margin-left:9%;
+	margin-left:0;
 	text-align:left;
-	margin-top:1.5em;	
+	margin-top:1.5em;
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
@@ -292,7 +292,6 @@ p{
 .p{
 	display:inline-block;
 	text-indent:0px; /*Changed to 0 for 1871 FD, was 25px*/
-	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;	
 }
@@ -302,16 +301,13 @@ p{
 .p.center{
 	text-indent:0 !important;
 	padding-left:6em;
-	margin-left:9%;
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:12.2em; /*Was 25%*/
-	margin-left:9%;
+	padding-left:3em; /*Was 25%*/
 }
 .ab{
 	text-indent:0;
-	margin-left:9%;
 	margin-top:0;
 	margin-bottom:0;
 }
@@ -340,12 +336,10 @@ p{
 	text-indent:0;
 }
 
-
 /* 6. Additions and Deletions */
 
 .opener-add{
 }
-/*Needs to be sorted out. See 1340-1. AW*/
 .addmargin{
 	text-indent:0px;
 }
@@ -376,8 +370,8 @@ p{
 }
 .verticalSpace{
 	display:inline-block;
-	margin-left:9%;
 	border-bottom:1px dotted black;
+	text-indent:0;
 }
 
 
@@ -439,7 +433,6 @@ p{
 }
 .right{
 	text-indent:0;
-	margin-left:25%;
 }
 .small{
 	font-size:85%;
@@ -514,7 +507,6 @@ p{
 .margintop.right{
 	margin-left:25% !important;
 }
-/*Needs to be revisited. See 2133-1. AW*/
 .true{
 	display:inline-block;
 	margin-left:9% !important; 
@@ -555,11 +547,9 @@ p{
 /* 11. Lists and Tables */
 .list{
 	display:block;
-	margin-left:9%;
 	margin-top:12px;
 }
 table{
-	margin-left:9%;
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
 	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
@@ -568,7 +558,6 @@ table{
 tr,
 td{
 	border-style:none;
-	margin-left:9%;
 }
 
 
