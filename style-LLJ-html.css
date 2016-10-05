@@ -30,7 +30,7 @@ div.transcription{
 	font-size:1em; /*Make .9em; also for table*/
 	text-align: justify;
 	/*white-space:nowrap;*/
-	color:#58484b; /*#574d44*/ /*#4E2F2F*/
+	/*color:#58484b;*/ /*#574d44*/ /*#4E2F2F*/
 	background:#f6dbb0; /*#d3c2a8;*/ /*#e7d5bd*/
 	border: solid 1em white;  /* remove */
 	padding-top: 1em;  /* remove */
