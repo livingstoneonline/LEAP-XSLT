@@ -403,6 +403,9 @@ p{
 .large{
 	font-size:120%;
 }
+.other{
+	margin-bottom:-2.6em !important;/*Needed for UJ when the marginal date adds a line between lines that shouldn't be there*/
+}
 .overline{
 	text-decoration: overline;
 }
@@ -412,8 +415,9 @@ p{
 .overtext{
 	/*color:gray;*/
 }
-.right{
+.figure.right{
 	text-indent:0em;
+	margin-left:15em;
 }
 .fw .right{
 	margin-left:15em;

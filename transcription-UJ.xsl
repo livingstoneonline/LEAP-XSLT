@@ -34,7 +34,7 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-UJ.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLTstyle-UJ.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
@@ -429,19 +429,19 @@
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
-				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="head and not($newFigDesc/text())">
-				<span class="figure" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="not(head) and $newFigDesc/text()">
-				<span class="figure" title="{$newFigDesc}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{$newFigDesc}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="..//graphic">
 				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" style="width:100%;"/></a></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="figure">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>

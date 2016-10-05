@@ -56,7 +56,7 @@
 
 				<person xml:id="pers0007">
 					<persName type="main">Abraham</persName>
-					<note type="editorial">One of three biblical patriarchs.</note>
+					<note type="editorial">One of three Biblical patriarchs.</note>
 				</person>
 
 				<person xml:id="pers0008">
@@ -291,7 +291,7 @@
 					<death when="1870">1870</death>
 					<note type="editorial">George William Frederick Villiers. Foreign Secretary 1853-58, 1865-66,
 						and 1868-70. Involved in both Livingstone's Zambesi and final expeditions. Livingstone gave
-						his name to Mount Clarendon, east of the Shire river.</note>
+						his name to Mount Clarendon, east of the Shire River.</note>
 				</person>
 
 				<person xml:id="pers0032">
@@ -305,7 +305,7 @@
 				</person>
 
 				<person xml:id="pers0033">
-					<persName type="main">d"Arnauld, Joseph-Pons</persName>
+					<persName type="main">d'Arnauld, Joseph-Pons</persName>
 					<birth when="1811">1811</birth>
 					<death when="1884">1884</death>
 					<note type="editorial">French explorer and geographer. With Louis Sabatier and Ferdinand Werne,
