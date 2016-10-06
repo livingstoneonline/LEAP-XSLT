@@ -76,7 +76,6 @@ div.transcription{
 }
 .dateline.center{
 	display:inline-block;
-	margin-left:15%;
 }
 .dateline.right{
 	display:block;
@@ -89,7 +88,6 @@ div.transcription{
 	margin-left:0 !important;
 }
 .closer.center{
-	margin-left:6em;
 }
 .signed{
 	display:inline-block;
@@ -98,7 +96,6 @@ div.transcription{
 	display:block;
 }
 .addrLine.center{
-	margin-left:15%;
 }
 .addrLine.right{
 	margin-left:25%;
@@ -132,7 +129,6 @@ p span.pb-title{
 	display:block;
 }
 .lb.center{
-	margin-left:15%;
 }
 .lb.right{
 	margin-right:25%;
@@ -265,7 +261,6 @@ p{
 }
 .p.center{
 	text-indent:0 !important;
-	padding-left:6em;
 }
 .p.right{
 	text-indent:0 !important;
@@ -277,7 +272,6 @@ p{
 	margin-bottom:0;
 }
 .ab.center{
-	margin-left:4em;
 }
 .head{
 	font-weight:300;
@@ -373,6 +367,7 @@ p{
 }
 .center{
 	text-indent:0;
+	margin-left:6em;
 }
 .doubleunderline{
 	border-bottom:3px double;

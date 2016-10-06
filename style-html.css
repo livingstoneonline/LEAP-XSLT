@@ -121,7 +121,6 @@ hr.title-section{
 }
 .dateline.center{
 	display:inline-block;
-	margin-left:15%;
 }
 .dateline.right{
 	display:block;
@@ -133,7 +132,6 @@ hr.title-section{
 	margin-left:0 !important;
 }
 .closer.center{
-	margin-left:6em;
 }
 .signed{
 	display:inline-block;
@@ -142,7 +140,6 @@ hr.title-section{
 	display:block;
 }
 .addrLine.center{
-	margin-left:15%;
 }
 .addrLine.right{
 	margin-left:25%;
@@ -176,7 +173,6 @@ p span.pb-title{
 	display:block;
 }
 .lb.center{
-	margin-left:6%;
 }
 .lb.right{
 	margin-right:16%;
@@ -224,7 +220,7 @@ p.right .linenumber{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:20em !important;
+	width:22em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -272,7 +268,7 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:20em !important;
+	width:22em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:-1em;
@@ -284,7 +280,7 @@ p.right .linenumber{
 .third-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:20em !important;
+	width:22em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:1.5em;
@@ -309,7 +305,6 @@ p{
 }
 .p.center{
 	text-indent:0 !important;
-	padding-left:6em;
 }
 .p.right{
 	text-indent:0 !important;
@@ -321,7 +316,6 @@ p{
 	margin-bottom:0;
 }
 .ab.center{
-	margin-left:16%;
 }
 .head{
 	font-weight:300;
@@ -415,6 +409,7 @@ p{
 }
 .center{
 	text-indent:0;
+	margin-left:6em;
 }
 .doubleunderline{
 	border-bottom:3px double;
