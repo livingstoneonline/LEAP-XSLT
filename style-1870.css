@@ -378,6 +378,9 @@ p{
 .doubleunderline{
 	border-bottom:3px double;
 }
+.indent{
+	text-indent:25px;	
+}
 .inline{
 	color:gray;
 }
