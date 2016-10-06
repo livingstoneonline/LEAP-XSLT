@@ -28,21 +28,31 @@ body{
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
+	text-align:center;
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
 	/*white-space:nowrap;*/
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
-	text-align:center;
 }
 .TEI{
 	display:inline-block;
+	white-space:nowrap;
 	padding-top:.5em;
-	padding-left:3em;
 	text-align:left;
 }
-.text{
+@media all and (max-width: 600px)  {
+.TEI{	
+	padding-left:3em;
 }
-.body{
+}
+.item-details{
+	max-width:31em;
+	min-width:31em;
+	white-space:normal;
+}
+div.text{
+}
+div.body{
 	display:block;
 	padding-bottom:2.4em;
 }
@@ -52,28 +62,25 @@ div.transcription{
 }
 .div{
 }
-.idno{
-	font-size:.9em;
-	margin-left:9%;
-	line-height:1.7;
-}
-
 
 /* 1.5. Title section */
 
 .title{
+	display:block;
+	text-align:center;
+	margin-bottom:-.5em;
 	font-size:1.4em;
-	margin-left:9%;
 	font-variant:small-caps;
 }
 .author{
+	display:block;
+	text-align:center;
+	margin-bottom:.5em;
 	font-size:1.2em;
-	margin-left:9%;
 	font-style:italic;
 }
 .authority{
 	font-size:.9em;
-	margin-left:9%;
 	line-height:1.7;
 }
 .pub-date{
@@ -82,10 +89,12 @@ div.transcription{
 a:link{
 	color:#428bca !important;
 }
+.idno{
+	font-size:.9em;
+	line-height:1.7;
+}
 hr.title-section{
-	margin-left:9%;
-	margin-right:auto;
-	width:80%;
+	width:100%;
 	height:0;
 	border:0;
 	border-top:1px solid #58484b;
@@ -119,7 +128,6 @@ hr.title-section{
 	margin-left:25%;
 }
 .opener-salute{
-	margin-left:9% !important;
 }
 .closer-salute{
 	margin-left:0 !important;
@@ -168,10 +176,10 @@ p span.pb-title{
 	display:block;
 }
 .lb.center{
-	margin-left:15%;
+	margin-left:6%;
 }
 .lb.right{
-	margin-right:25%;
+	margin-right:16%;
 }
 .linenumber{
 	text-align:right;
@@ -192,7 +200,7 @@ p.center .linenumber{
 	margin-left:-12.5em !important; /*Needs to be checked.*/
 }
 p.right .linenumber{
-		margin-left:-18.5em !important;
+	margin-left:-18.5em !important;
 }
 .list .linenumber{
 	text-indent:0;	
@@ -216,7 +224,7 @@ p.right .linenumber{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:24em !important;
+	width:20em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -244,7 +252,7 @@ p.right .linenumber{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:18.5em !important;
+	width:17.5em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -264,7 +272,7 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:24em !important;
+	width:20em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:-1em;
@@ -313,7 +321,7 @@ p{
 	margin-bottom:0;
 }
 .ab.center{
-	margin-left:15%;
+	margin-left:16%;
 }
 .head{
 	font-weight:300;
@@ -323,7 +331,6 @@ p{
 }
 .fw{
 	display:inline-block;
-	margin-left:9%;
 }
 .fw.pageno{
 	text-indent:0 !important;
@@ -367,7 +374,6 @@ p{
 .space-other{
 	border-bottom:1px dotted black;
 	display:block;
-	margin-left:9%;
 }
 .verticalSpace{
 	display:inline-block;
@@ -433,7 +439,7 @@ p{
 }
 .right{
 	text-indent:0;
-	margin-left:25%;
+	margin-left:16%;
 }
 .small{
 	font-size:85%;
@@ -503,14 +509,12 @@ p{
 	top:-1em;
 }
 .margintop.left{
-	margin-left:9% !important;
 }
 .margintop.right{
-	margin-left:25% !important;
+	margin-left:16% !important;
 }
 .true{
 	display:inline-block;
-	margin-left:9% !important; 
 }/*Goes with standalone <note>s*/
 
 
@@ -578,7 +582,6 @@ td{
 }
 .metamark{
 	color:gray;
-	margin-left:9%;
 	border-bottom:1px gray dotted;
 }
 p .metamark{

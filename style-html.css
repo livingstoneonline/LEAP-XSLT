@@ -252,7 +252,7 @@ p.right .linenumber{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:18.5em !important;
+	width:17.5em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -272,7 +272,7 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:24em !important;
+	width:20em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:-1em;
