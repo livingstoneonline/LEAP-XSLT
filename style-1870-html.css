@@ -24,6 +24,7 @@ Table of Contents
 
 body{
 	background:#d3c2a8; /*#e7d5bd*/
+	text-align:center;
 }
 div.transcription{
 	margin-left:auto;
@@ -32,13 +33,12 @@ div.transcription{
 	font-size:1em; /*Make .9em; also for table*/
 	white-space:nowrap;
 	color:#58484b; /*#574d44*/ /*#4E2F2F*/
-	text-align:center;
+	text-align:left;
 }
 .TEI{
 	display:inline-block;
 	padding-top:.5em;
 	padding-left:3em;
-	text-align:left;
 }
 .text{
 }
