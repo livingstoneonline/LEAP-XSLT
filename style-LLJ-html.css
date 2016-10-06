@@ -28,7 +28,7 @@ body{
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:605px;/*Change to make responsive; this current keeps it fixed*//*Put in em*/
+	width:26em;/*Change to make responsive; this current keeps it fixed*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
 	/*white-space:nowrap;*/
