@@ -22,24 +22,24 @@ Table of Contents
 
 /* 1. Textual divisions */
 
+body{
+	background:#f6dbb0; /*#e7d5bd*/
+}
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
-	width:605px;/*Change to make responsive; this current keeps it fixed*/
+	width:605px;/*Change to make responsive; this current keeps it fixed*//*Put in em*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
-	text-align: justify;
 	/*white-space:nowrap;*/
 	color:#46381e;/*#58484b;*/ /*#574d44*/ /*#4E2F2F*/
-	background:#f6dbb0; /*#d3c2a8;*/ /*#e7d5bd*/
-	border: solid 1em white;  /* remove */
-	padding-top: 1em;  /* remove */
+	text-align:center;
 }
 .TEI{
-	display:block;
-	margin-left:6em !important;
-	margin-right:6em !important;
+	display:inline-block;
 	padding-top:.5em;
+	/*padding-left:3em;*/
+	text-align: justify;
 }
 .text{
 }
