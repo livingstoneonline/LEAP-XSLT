@@ -156,7 +156,7 @@ p.center .linenumber{
 	margin-left:-12.5em !important; /*Needs to be checked.*/
 }
 p.right .linenumber{
-		margin-left:-18.5em !important;
+		margin-left:-17em !important;
 }
 .list .linenumber{
 	text-indent:0;	
@@ -373,6 +373,7 @@ p{
 }
 .center{
 	text-indent:0;
+	margin-left:4em;
 }
 .doubleunderline{
 	border-bottom:3px double;
