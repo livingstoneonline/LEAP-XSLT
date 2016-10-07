@@ -193,7 +193,7 @@ p.center .linenumber{
 	margin-left:-12.5em !important; /*Needs to be checked.*/
 }
 p.right .linenumber{
-	margin-left:-13.5em !important;
+	margin-left:-18em !important;
 }
 .list .linenumber{
 	text-indent:0;	
