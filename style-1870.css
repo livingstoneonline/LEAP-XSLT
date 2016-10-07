@@ -79,10 +79,8 @@ div.transcription{
 }
 .dateline.right{
 	display:block;
-	margin-left:25%;
 }
 .opener-salute{
-	margin-left:9% !important;
 }
 .closer-salute{
 	margin-left:0 !important;
@@ -98,7 +96,6 @@ div.transcription{
 .addrLine.center{
 }
 .addrLine.right{
-	margin-left:25%;
 }
 
 
@@ -131,7 +128,6 @@ p span.pb-title{
 .lb.center{
 }
 .lb.right{
-	margin-right:25%;
 }
 .linenumber{
 	text-align:right;
@@ -152,7 +148,7 @@ p.center .linenumber{
 	margin-left:-12.5em !important; /*Needs to be checked.*/
 }
 p.right .linenumber{
-		margin-left:-17em !important;
+	margin-left:-18em !important;
 }
 .list .linenumber{
 	text-indent:0;	
@@ -176,7 +172,7 @@ p.right .linenumber{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:24em !important;
+	width:22em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -204,7 +200,7 @@ p.right .linenumber{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:18.5em !important;
+	width:17.5em !important;
 	margin-left:0;
 	text-align:left;
 	height:0;
@@ -224,7 +220,7 @@ p.right .linenumber{
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:24em !important;
+	width:22em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:-1em;
@@ -236,7 +232,7 @@ p.right .linenumber{
 .third-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:20em !important;
+	width:22em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:1.5em;
@@ -264,7 +260,6 @@ p{
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:3em; /*Was 25%*/
 }
 .ab{
 	text-indent:0;
@@ -281,7 +276,6 @@ p{
 }
 .fw{
 	display:inline-block;
-	margin-left:9%;
 }
 .fw.pageno{
 	text-indent:0 !important;
@@ -291,7 +285,6 @@ p{
 	text-indent:0;
 }
 .fw.catch.right{
-	margin-left:80%;/*AW revisit*/
 	text-indent:0;
 }
 
@@ -325,7 +318,6 @@ p{
 .space-other{
 	border-bottom:1px dotted black;
 	display:block;
-	margin-left:9%;
 }
 .verticalSpace{
 	display:inline-block;
@@ -392,7 +384,7 @@ p{
 }
 .right{
 	text-indent:0;
-	margin-left:25%;
+	margin-left:12em;
 }
 .small{
 	font-size:85%;
@@ -462,14 +454,11 @@ p{
 	top:-1em;
 }
 .margintop.left{
-	margin-left:9% !important;
 }
 .margintop.right{
-	margin-left:25% !important;
 }
 .true{
 	display:inline-block;
-	margin-left:9% !important; 
 }/*Goes with standalone <note>s*/
 
 
@@ -537,7 +526,6 @@ td{
 }
 .metamark{
 	color:gray;
-	margin-left:9%;
 	border-bottom:1px gray dotted;
 }
 p .metamark{
