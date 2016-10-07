@@ -124,7 +124,6 @@ hr.title-section{
 }
 .dateline.right{
 	display:block;
-	margin-left:25%;
 }
 .opener-salute{
 }
@@ -142,7 +141,6 @@ hr.title-section{
 .addrLine.center{
 }
 .addrLine.right{
-	margin-left:25%;
 }
 
 
@@ -175,7 +173,6 @@ p span.pb-title{
 .lb.center{
 }
 .lb.right{
-	margin-right:16%;
 }
 .linenumber{
 	text-align:right;
@@ -308,7 +305,6 @@ p{
 }
 .p.right{
 	text-indent:0 !important;
-	padding-left:3em; /*Was 25%*/
 }
 .ab{
 	text-indent:0;
@@ -334,7 +330,6 @@ p{
 	text-indent:0;
 }
 .fw.catch.right{
-	margin-left:80%;/*AW revisit*/
 	text-indent:0;
 }
 
@@ -434,7 +429,7 @@ p{
 }
 .right{
 	text-indent:0;
-	margin-left:16%;
+	margin-left:12em;
 }
 .small{
 	font-size:85%;
@@ -506,7 +501,6 @@ p{
 .margintop.left{
 }
 .margintop.right{
-	margin-left:16% !important;
 }
 .true{
 	display:inline-block;
