@@ -64,7 +64,7 @@
 					<hr class="title-section"/><br/>
 					<span class="authority"><strong>Date of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
 					<span class="authority"><strong>Place of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>
-					<span class="authority"><strong>Clendennen &amp; Cunningham number:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
+					<span class="authority"><strong>Clendennen &amp; Cunningham number(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
 					<span class="authority"><strong>Digital edition and date:</strong><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 					<span class="authority"><strong>Publisher:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
 					<span class="idno"><strong>Project id:</strong><xsl:text> </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
