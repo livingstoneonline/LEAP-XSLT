@@ -44,8 +44,10 @@ div.transcription{
 	max-width:31em;
 	min-width:31em;
 	white-space:normal;
+	margin-left:1em;
 }
 div.text{
+	margin-left:5em;
 }
 div.body{
 	display:block;
