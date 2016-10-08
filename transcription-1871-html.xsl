@@ -978,7 +978,7 @@
 	<xsl:template match="jc:page">
 		<div class="page">
 			<span class="pb-title">
-				<xsl:value-of select="@n"/>
+				<xsl:value-of select="@facs"/>
 			</span>
 			<xsl:apply-templates/>
 		</div>
