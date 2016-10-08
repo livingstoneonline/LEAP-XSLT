@@ -153,10 +153,10 @@ hr.title-section{
 .pb-title{
 	display:block;
 	color:#428bca;
-	text-decoration:underline;
+	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:2em;
-	margin-bottom:-1.3em;
+	margin-bottom:-.9em;
 }
 .pb-title:hover{
 	color:#AAA;

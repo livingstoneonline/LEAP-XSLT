@@ -978,7 +978,7 @@
 	<xsl:template match="jc:page">
 		<div class="page">
 			<span class="pb-title">
-				<xsl:value-of select="@n"/>
+				<xsl:value-of select="@facs"/>
 			</span>
 			<xsl:apply-templates/>
 		</div>
@@ -986,13 +986,13 @@
 
 	<xsl:template match="pb">
 		<span class="pb-title">
-			<xsl:value-of select="@n"/>
+			[<xsl:value-of select="@facs"/>]
 		</span>
 	</xsl:template>
 
 	<xsl:template match="del/pb" priority="10">
 		<span class="pb-title del-pb">
-			<xsl:value-of select="@n"/>
+			[<xsl:value-of select="@facs"/>]
 		</span>
 	</xsl:template>
 
