@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * @file
+ * Simple Drupal module so we can reference the XSLT files in this repo.
+ */
