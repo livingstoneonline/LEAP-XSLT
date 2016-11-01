@@ -42,12 +42,12 @@ div.transcription{
 }
 @media all and (max-width: 600px)  {
 .TEI{	
-	padding-left:3em;
+	padding-left:1em;
 }
 }
 .item-details{
-	max-width:31em;
-	min-width:31em;
+	max-width:29em;
+	min-width:29em;
 	white-space:normal;
 }
 div.text{
