@@ -1,0 +1,30 @@
+Overview of XSL and CSS files
+
+*used for legacy TEI in manuscript viewer (no headings)
+transcription.xsl
+style.css
+
+*used for spectral TEI in manuscript viewer (no headings)
+transcription-1870.xsl transcription-1871.xslstyle-1870-viewer.cssstyle-1871-viewer.css
+
+*used for downloadable annotated reading copies (have headings)
+transcription-1870-html.xsl
+transcription-1871-html.xsl
+transcription-1870-intg-html.xsl (liv_015001 only)
+transcription-1871-intg-html.xsl (liv_015002 only)
+transcription-UJ-html.xsl (liv_015005 and liv_015006 only)
+transcription-LLJ-html.xsl (liv_015003 and liv_015004 only)
+style-1870-html.css
+style-1871-html.css
+style-UJ-html.css
+style-LLJ-html.css
+
+*used for TEI in multi-viewer (have headings)
+transcription-1870-intg-html.xsl (liv_015001 only)
+transcription-1871-intg-html.xsl (liv_015002 only)
+transcription-UJ-html.xsl (liv_015005 and liv_015006 only)
+transcription-LLJ-html.xsl (liv_015003 and liv_015004 only)
+style-1870-html.css
+style-1871-html.css
+style-UJ-html.css
+style-LLJ-html.css
