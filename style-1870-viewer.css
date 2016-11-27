@@ -93,7 +93,6 @@ a:link{
 .idno{
 	font-size:.9em;
 	line-height:1.7;
-	padding-left:40px;
 }
 hr.title-section{
 	width:100%;
@@ -106,6 +105,7 @@ hr.title-section{
 .project-id{
 	color:gray;
 	font-size:.9em;
+	padding-left:40px;
 }
 
 /* 2. Letters */
