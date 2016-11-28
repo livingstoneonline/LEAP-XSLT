@@ -37,10 +37,9 @@ table {
 }
 
 body {
-  nowhitespace: afterproperty;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  font: 20px/1.6 'Source Sans Pro', sans-serif;
+  display: block;
+  margin: 8px;
+  font: 20px 'Source Sans Pro', sans-serif;
   background-color: #ffffff;
 }
 
@@ -48,3 +47,9 @@ a:hover,a:focus {
   color: initial;
   text-decoration: initial;
 }
+
+/* Attempt to set some reasonable defaults based on firefox. */
+strong, b {
+  font-weight: bold;
+}
+
