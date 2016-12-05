@@ -24,7 +24,11 @@ Table of Contents
 
 body{
 	background:#e2e3e1;/*#d3c2a8;*/ /*#e7d5bd*/
+}
+@media all and (max-width: 600px)  {
+body{	
 	padding-left:40px;
+}
 }
 div.transcription{
 	margin-left:auto;
@@ -224,7 +228,9 @@ p.right .linenumber{
 .list .linenumber{
 	text-indent:0;	
 }
-
+.indent .linenumber{
+	margin-left:-5em !important;
+}
 
 /* 4. Milestone and lines */
 
@@ -314,6 +320,112 @@ p.right .linenumber{
 .first-double{
 	margin-top:1em;/*changed from 1.5em; may need to change back*/
 }
+.line.blue,
+.line.first-double.blue,
+.halfline.blue,
+.quarterline.blue,
+.second-line.blue,
+.third-line.blue,
+.div.blue .line,
+.div.blue .line.first-double,
+.div.blue .halfline,
+.div.blue .quarterline,
+.div.blue .second-line,
+.div.blue .third-line{
+	border-top:1px solid #55759e !important;	
+}
+.line.black,
+.line.first-double.black,
+.halfline.black,
+.quarterline.black,
+.second-line.black,
+.third-line.black,
+.div.black .line,
+.div.black .line.first-double,
+.div.black .halfline,
+.div.black .quarterline,
+.div.black .second-line,
+.div.black .third-line,
+.div.blue .line.black,
+.div.blue .halfline.black{
+	border-top:1px solid black !important;	
+}
+.line.black.brown,
+.line.first-double.black.brown,
+.halfline.black.brown,
+.quarterline.black.brown,
+.second-line.black.brown,
+.third-line.black.brown,
+.div.black.brown .line,
+.div.black.brown .line.first-double,
+.div.black.brown .halfline,
+.div.black.brown .quarterline,
+.div.black.brown .second-line,
+.div.black.brown .third-line{
+	border-top:1px solid #32251f !important;	
+}
+.line.brown,
+.line.first-double.brown,
+.halfline.brown,
+.quarterline.brown,
+.second-line.brown,
+.third-line.brown,
+.div.brown .line,
+.div.brown .line.first-double,
+.div.brown .halfline,
+.div.brown .quarterline,
+.div.brown .second-line,
+.div.brown .third-line{
+	border-top:1px solid #5b4338 !important;	
+}
+.line.gray,
+.line.first-double.gray,
+.halfline.gray,
+.quarterline.gray,
+.second-line.gray,
+.third-line.gray,
+.div.gray .line,
+.div.gray .line.first-double,
+.div.gray .halfline,
+.div.gray .quarterline,
+.div.gray .second-line,
+.div.gray .third-line{
+	border-top:1px solid #72716d;	
+}
+.div.brown .first-double.gray,
+.div.brown .second-line.gray{
+	border-top:1px solid #72716d !important;	
+}
+.line.orange,
+.line.first-double.orange,
+.halfline.orange,
+.quarterline.orange,
+.second-line.orange,
+.third-line.orange,
+.div.orange .line,
+.div.orange .line.first-double,
+.div.orange .halfline,
+.div.orange .quarterline,
+.div.orange .second-line,
+.div.orange .third-line{
+	border-top:1px solid #CD7300 !important;	
+}
+.line.red,
+.line.first-double.red,
+.halfline.red,
+.quarterline.red,
+.second-line.red,
+.third-line.red,
+.div.red .line,
+.div.red .line.first-double,
+.div.red .halfline,
+.div.red .quarterline,
+.div.red .second-line,
+.div.red .third-line{
+	border-top:1px solid red !important;	
+}
+
+
 
 /* 5. p, ab, note, fw */
 
@@ -452,8 +564,18 @@ p{
 .doubleunderline{
 	border-bottom:3px double;
 }
+.doubleunderline-orange{
+	border-bottom:1px double gray;
+}
+.tripleunderline{
+	border-bottom:4px double;
+	text-decoration:underline;
+}
+.indent{	
+	margin-left:25px;	
+	}
 .inline{
-	color:gray;
+	/*color:gray;*/
 }
 .italic{
 	font-style:italic;
@@ -558,14 +680,17 @@ p{
 .black.gray{
 	color:#404040;
 }
+.black.brown{
+	color:#32251f;
+}
 .blue{
 	color:#55759e;/*#507ca5;*/
 }
 .brown{
-	color:#966F33;
+	color:#5b4338;
 }
 .gray{
-	color:gray;
+	color:#72716d;
 }
 .green{
 	color:green;
@@ -590,17 +715,30 @@ p{
 	/*margin-top:12px;*/
 	text-indent:0em;
 }
+.p .right,
+.list .right{
+	float:right;
+	margin-top:-1.4em;
+	margin-left:2em;
+	padding-right:2em;
+}
+.p .right{
+	padding-right:0em !important;
+}
 .cell{
 	max-width:1%;
 	min-width:1%;
 	text-align:left;
 	display:inline-block;
 }
+.cell.center{
+	margin-left:5.5em;
+}
 .cell.right{
 	margin-left:7em;
 }
 .cell.right.cell-after-center{
-	margin-left:4em;
+	margin-left:2em;
 }
 
 
@@ -618,9 +756,13 @@ p{
 	margin-left:0px !important;
 	text-indent:0px;
 }
+.metamark,
+.metamark-color{
+	font-style:italic;
+	border-bottom:1px gray dotted;
+}
 .metamark{
 	color:gray;
-	border-bottom:1px gray dotted;
 }
 p .metamark{
 	margin-left:0px !important;
