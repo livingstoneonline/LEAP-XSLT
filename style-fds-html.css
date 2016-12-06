@@ -332,7 +332,7 @@ p.right .linenumber{
 .div.blue .quarterline,
 .div.blue .second-line,
 .div.blue .third-line{
-	border-top:1px solid #55759e !important;	
+	border-top:1px solid #4f6c92 !important;	
 }
 .line.black,
 .line.first-double.black,
@@ -390,11 +390,11 @@ p.right .linenumber{
 .div.gray .quarterline,
 .div.gray .second-line,
 .div.gray .third-line{
-	border-top:1px solid #72716d;	
+	border-top:1px solid #585754;	
 }
 .div.brown .first-double.gray,
 .div.brown .second-line.gray{
-	border-top:1px solid #72716d !important;	
+	border-top:1px solid #585754 !important;	
 }
 .line.orange,
 .line.first-double.orange,
@@ -684,13 +684,13 @@ p{
 	color:#32251f;
 }
 .blue{
-	color:#55759e;/*#507ca5;*/
+	color:#4f6c92;/*55759e*//*#507ca5;*/
 }
 .brown{
 	color:#5b4338;
 }
 .gray{
-	color:#72716d;
+	color:#585754/*72716d*/
 }
 .green{
 	color:green;

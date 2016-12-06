@@ -1415,7 +1415,7 @@
 		<span class="unclear">
 			<xsl:if test="@cert">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), ', certainty of reading: ', @cert)"/>
+					<xsl:value-of select="concat('word(s) ', name(), '; certainty of transcription: ', @cert)"/>
 				</xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>
