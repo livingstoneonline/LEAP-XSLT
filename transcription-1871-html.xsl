@@ -34,7 +34,6 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/reset.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-1871-html.css"/>
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
@@ -67,7 +66,7 @@
 					<span class="authority"><strong>Place of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>
 					<span class="authority"><strong>Repository:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
 					<span class="authority"><strong>Shelfmark:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
-					<span class="authority"><strong>Clendennen &amp; Cunningham number:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
+					<span class="authority"><strong>Clendennen &amp; Cunningham number(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
 					<span class="authority"><strong>Digital edition and date:</strong><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 					<span class="authority"><strong>Publisher:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
 					<span class="idno"><strong>Project id:</strong><xsl:text> </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
@@ -428,6 +427,9 @@
 
 	<xsl:template match="figure">
 		<!-- newFigDesc goes away and applies templates to content to get it into a single dedupped string -->
+		<xsl:variable name="newHead">
+			<xsl:apply-templates select="head" mode="normalizeHead"/>
+		</xsl:variable>
 		<xsl:variable name="newFigDesc">
 			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
 		</xsl:variable>
@@ -436,10 +438,10 @@
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ', $newFigDesc)}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="head and not($newFigDesc/text())">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
+				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ')}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="not(head) and $newFigDesc/text()">
 				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{$newFigDesc}">{figure}</span>
@@ -452,6 +454,15 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
+
+	<!-- Template passes through abbr, sic, and orig in head in normalizeHead mode -->
+	<xsl:template match="head//abbr|head//sic|head//orig" mode="normalizeHead">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<!-- Template kills through expan, corr, reg, and supplied in head in normalizeHead mode -->
+	<xsl:template match="head//expan|head//corr|head//reg|head//supplied"
+		mode="normalizeHead"/>
 
 	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
 	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
@@ -886,23 +897,22 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark"><span class="metamark italic" title="Editorial symbol, mark, or unusual character"
-		>#</span></xsl:template>
+	<xsl:template match="metamark"><span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span></xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark|add[@place='marginright']/metamark" priority="10">
-		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
+			<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
 	<xsl:template match="milestone">
 		<xsl:choose>
-			<xsl:when test="@rend='double-line'">
-				<hr class="{concat(name(), ' ', 'line')}"/><br/>
-				<hr class="{concat(name(), ' ', 'second-line')}"/>
+			<xsl:when test="contains(@rend,'double-line')">
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>
 			</xsl:when>
-			<xsl:when test="@rend='triple-line'">
-				<hr class="{concat(name(), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
+			<xsl:when test="contains(@rend,'triple-line')">
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
 				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
@@ -1231,12 +1241,12 @@
 	<xsl:template match="space[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
+				<span class="space">
 					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
-				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
+				<span class="space">
 					<xsl:for-each select="1 to @extent"
 						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
@@ -1247,7 +1257,7 @@
 					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
+				<span class="space-other">
 					[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:otherwise>
 		</xsl:choose>
@@ -1325,7 +1335,7 @@
 		<span class="unclear">
 			<xsl:if test="@cert">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), ', certainty of reading: ', @cert)"/>
+					<xsl:value-of select="concat('word(s) ', name(), '; certainty of transcription: ', @cert)"/>
 				</xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>
