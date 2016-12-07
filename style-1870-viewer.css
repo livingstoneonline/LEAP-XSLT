@@ -415,8 +415,12 @@ p{
 .doubleunderline{
 	border-bottom:3px double;
 }
+.tripleunderline{
+	border-bottom:4px double;
+	text-decoration:underline;
+}
 .inline{
-	color:gray;
+	/*color:gray;*/
 }
 .italic{
 	font-style:italic;
