@@ -34,7 +34,6 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/reset.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-1870-viewer.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
