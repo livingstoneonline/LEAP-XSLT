@@ -64,6 +64,8 @@
 					<hr class="title-section"/><br/>
 					<span class="authority"><strong>Date of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
 					<!--<span class="authority"><strong>Place of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>-->
+					<span class="authority"><strong>Repository:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
+					<span class="authority"><strong>Shelfmark:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
 					<span class="authority"><strong>Clendennen &amp; Cunningham number(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
 					<span class="authority"><strong>Digital edition and date:</strong><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 					<span class="authority"><strong>Publisher:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
@@ -400,6 +402,18 @@
 	</xsl:template>
 
 	<!-- For "corr" see above -->
+
+	<xsl:template match="date[@when]" priority="10">
+		<span class="date" data-date="{@when}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="date[@from]" priority="10">
+		<span class="date" data-date="{@from} {@to}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="date">
+		<span class="date" data-date="unknown"><xsl:apply-templates/></span>
+	</xsl:template>
 
 	<xsl:template match="dateline">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
