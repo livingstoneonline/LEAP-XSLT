@@ -35,7 +35,7 @@
 			<head>
 				<meta charset="UTF-8"/>
 				<!--<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/reset.css"/>-->
-				<link rel="stylesheet" type="text/css" href="style.css"/>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style.css"/>
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -52,26 +52,6 @@
 
 	<!-- TEI -->
 	<xsl:template match="TEI">
-		<xsl:variable name="encoding">
-			<xsl:choose>
-				<xsl:when test="//teiHeader//respStmt/name">
-					<xsl:value-of select="//teiHeader//respStmt/name[not(.=preceding::name)]" separator=", "/>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:value-of select="//teiHeader//revisionDesc/change/name[not(.=preceding::name)]" separator=", "/>
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:variable>
-		<xsl:variable name="sortedDates" as="xs:string*">
-			<xsl:choose>
-				<xsl:when test="//revisionDesc/change[@when]">
-					<xsl:perform-sort select="//revisionDesc/change/@when[not(.=preceding::change/@when)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:perform-sort select="//revisionDesc/change/date[not(.=preceding::change/date)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:variable>
 		<div class="transcription">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
@@ -79,16 +59,6 @@
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
 			<div class="TEI">
-				<div class="item-details">
-				<span class="project-id"><span class="bold">Project ID</span><xsl:text>: </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
-				<span class="project-encoding"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
-				<span class="project-encoding"><span class="bold">Encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
-				<!--<xsl:value-of select="//revisionDesc/change/date[not(.=preceding::date)]" separator=", "/>-->
-				<span class="project-encoding"><span class="bold">Encoding conversion</span><xsl:text>: James Cummings (2015-03-02)</xsl:text></span><br/>
-				<span class="project-encoding"><span class="bold">Encoding review</span><xsl:text>: Lauren Geiger (2016-2017)</xsl:text></span><br/>
-				<span class="encoding-standard"><span class="bold">Encoding standardization</span><xsl:text>: Adrian S. Wisnicki (2015-2017)</xsl:text></span><br/><br/>
-					<hr class="title-section"/><br/><br/>
-				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
 					<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
@@ -166,6 +136,7 @@
 	</xsl:template>
 
 	<xsl:template match="div">
+		<span class="idno"><xsl:value-of select="//idno[@type='LEAP-ID']"/> - project id</span><br/><br/>
 		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
@@ -229,7 +200,7 @@
 				<xsl:attribute name="title">The editors suggest a correction as follows: <xsl:value-of select="../corr"/></xsl:attribute>
 			</xsl:if>-->
 		<span class="sic diplomatic">
-			<xsl:attribute name="title">The editors suggest a correction as follows: <xsl:value-of select="$choice-orig-sic"/></xsl:attribute>
+			<xsl:attribute name="title">The editors suggest a correction as follows: <xsl:value-of select="$choice-orig-sic"/></xsl:attribute>	
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -303,7 +274,7 @@
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> [<xsl:apply-templates/>] </span>
+		<span class="addmargin"> [<xsl:apply-templates/>] </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
@@ -395,7 +366,7 @@
 
 	<xsl:template match="del">
 		<span class="del cancelled">
-			<!--<xsl:if test="@*">
+			<xsl:if test="@*">
 				<xsl:attribute name="title">
 					<xsl:value-of select="concat(name(), 'etion, ')"/>
 					<xsl:for-each select="@*">
@@ -405,12 +376,12 @@
 						</xsl:if>
 					</xsl:for-each>
 				</xsl:attribute>
-			</xsl:if>-->
+			</xsl:if>
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="del[following-sibling::add[1][@place='over-text']]" priority="10">
+	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
 
@@ -435,42 +406,24 @@
 
 	<xsl:template match="figure">
 		<!-- newFigDesc goes away and applies templates to content to get it into a single dedupped string -->
-		<xsl:variable name="newHead">
-			<xsl:apply-templates select="head" mode="normalizeHead"/>
-		</xsl:variable>
 		<xsl:variable name="newFigDesc">
 			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
 		</xsl:variable>
-		<xsl:variable name="graphicURL">
-			<xsl:apply-templates select="..//@url"/>
-		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="head and $newFigDesc/text()">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ', $newFigDesc)}">{figure}</span>
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ', $newFigDesc)}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="head and not($newFigDesc/text())">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ')}">{figure}</span>
+				<span class="figure" title="{concat('&quot;', head, '.&quot; ')}">{figure}</span>
 			</xsl:when>
 			<xsl:when test="not(head) and $newFigDesc/text()">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{$newFigDesc}">{figure}</span>
-			</xsl:when>
-			<xsl:when test="..//graphic">
-				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" style="width:100%;"/></a></span>
+				<span class="figure" title="{$newFigDesc}">{figure}</span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span>
+				<span class="figure">{figure}</span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-
-	<!-- Template passes through abbr, sic, and orig in head in normalizeHead mode -->
-	<xsl:template match="head//abbr|head//sic|head//orig" mode="normalizeHead">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<!-- Template kills through expan, corr, reg, and supplied in head in normalizeHead mode -->
-	<xsl:template match="head//expan|head//corr|head//reg|head//supplied"
-		mode="normalizeHead"/>
 
 	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
 	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
@@ -522,6 +475,13 @@
 	<!-- do not show graphic -->
 	<xsl:template match="graphic"/>
 
+	<xsl:template match="head">
+		<xsl:variable name="num" select="count(ancestor::*)"/>
+		<xsl:element name="{concat('h', $num)}">
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:element>
+	</xsl:template>
+
 	<xsl:template match="idno[@type='LEAP-ID']">
 		<span class="idno"><xsl:apply-templates/></span>
 	</xsl:template>
@@ -540,28 +500,17 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="metamark"><span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span></xsl:template>
+	<xsl:template match="metamark"><span class="metamark italic" title="Editorial symbol, mark, or unusual character"
+		>#</span></xsl:template>
 
 	<xsl:template match="add[@place='marginleft']/metamark|add[@place='marginright']/metamark" priority="10">
-			<span class="metamark {@rend} {@function} {@place}" title="Editorial symbol, mark, or unusual character">#</span>
+		<span class="metamark italic" title="Editorial symbol, mark, or unusual character">#</span>
 	</xsl:template>
 
+
 	<xsl:template match="milestone">
-		<xsl:choose>
-			<xsl:when test="contains(@rend,'double-line')">
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>
-			</xsl:when>
-			<xsl:when test="contains(@rend,'triple-line')">
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
-			</xsl:when>
-			<xsl:otherwise>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
-			</xsl:otherwise>
-		</xsl:choose>
-			<!--<xsl:if test="@*">
+		<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:if test="@*">
 				<xsl:attribute name="title">
 					<xsl:value-of select="concat(name(), ': ')"/>
 					<xsl:for-each select="@*">
@@ -570,21 +519,21 @@
 					</xsl:for-each>
 				</xsl:attribute>
 			</xsl:if>
-		</hr>-->
+		</hr>
 	</xsl:template>
 
 	<xsl:template match="note">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}">[<xsl:apply-templates/>]</span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @anchored)}">[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
 	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}">
+		<span class="{concat(name(), ' ', @type, ' ', @rend)}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
 	<xsl:template match="p/note" priority="8">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend)}">[<xsl:apply-templates/>]</span>
 	</xsl:template>
 
 	<xsl:template match="opener">
@@ -611,14 +560,12 @@
 		</span>
 	</xsl:template>
 
-	<!-- Prevents page numbers from being struckthrough when nestled in one or two dels -->
-	<xsl:template match="pb[ancestor::del]|pb[ancestor::del[ancestor::del]]" priority="10">
-		<br/><span class="pb-title pb-del">
+	<xsl:template match="del/pb" priority="10">
+		<span class="pb-title del-pb">
 			<xsl:value-of select="@n"/>
 		</span>
 	</xsl:template>
 
-	<!-- Revisit this so that tooltips are created -->
 	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
 	<xsl:template match="placeName/geogName|placeName/bloc|placeName/country|placeName/region|placeName/settlement">
 		<xsl:apply-templates/>
@@ -657,12 +604,12 @@
 	<xsl:template match="space[@extent][@unit]" priority="10">
 		<xsl:choose>
 			<xsl:when test="@unit='chars'">
-				<span class="space">
+				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
 					<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
 			</xsl:when>
 			<xsl:when test="@unit='words'">
-				<span class="space">
+				<span class="space" title="{concat(name(), ': ',@extent, ' ', @unit, ' ', @agent)}">
 					<xsl:for-each select="1 to @extent"
 						>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>
 				</span>
@@ -673,7 +620,7 @@
 					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="space-other">
+				<span class="space-other" title="{concat(name(), ': ', @extent, ' ', @unit, ' ', @agent)}">
 					[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;</xsl:for-each>]</span>
 			</xsl:otherwise>
 		</xsl:choose>
@@ -732,7 +679,7 @@
 		<span class="unclear">
 			<xsl:if test="@cert">
 				<xsl:attribute name="title">
-					<xsl:value-of select="concat('word(s) ', name(), '; certainty of transcription: ', @cert)"/>
+					<xsl:value-of select="concat(name(), ', certainty of reading: ', @cert)"/>
 				</xsl:attribute>
 			</xsl:if>
 			<xsl:apply-templates select="node()"/>
