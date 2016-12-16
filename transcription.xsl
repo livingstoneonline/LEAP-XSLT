@@ -35,7 +35,7 @@
 			<head>
 				<meta charset="UTF-8"/>
 				<!--<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/reset.css"/>-->
-				<link rel="stylesheet" type="text/css" href="style.css"/>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style.css"/>
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
