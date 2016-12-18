@@ -1,0 +1,8 @@
+/**
+ * Common styles to all the stylesheets.
+ */
+
+body {
+  font-family: "Source Sans Pro", calibri, arial, helvetica, sans-serif;
+  font-size: 16px;
+}
