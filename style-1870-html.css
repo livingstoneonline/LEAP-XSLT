@@ -51,6 +51,8 @@ div.transcription{
 	white-space:normal;
 }
 div.text{
+	/* Prevent line numbers from being hidden. */
+	margin-left: 3em;
 }
 div.body{
 	display:block;
