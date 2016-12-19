@@ -42,7 +42,7 @@ div.transcription{
 }
 @media all and (max-width: 600px)  {
 .TEI{	
-	padding-left:1em;
+	padding-left:2em; /*Needed to position line numbers in MS viewer*/
 }
 }
 .item-details{
@@ -55,7 +55,7 @@ div.text{
 div.body{
 	display:block;
 	padding-bottom:2.4em;
-	padding-left:40px;/*Find em equivalent*/
+	padding-left:3.5em;
 }
 .front,
 .back{
