@@ -50,6 +50,7 @@ div.transcription{
 	max-width:26em;/*LLJ*/
 	min-width:26em;/*LLJ*/
 	text-align:left;/*LLJ*/
+	padding-top:1em;
 }
 div.text{
 }

@@ -45,6 +45,7 @@ div.transcription{
 	min-width:29em;
 	white-space:normal;
 	margin-left:.5em;
+	padding-top:1em;
 }
 div.text{
 	margin-left:5em;
@@ -401,8 +402,12 @@ p{
 .doubleunderline{
 	border-bottom:3px double;
 }
+.tripleunderline{
+	border-bottom:4px double;
+	text-decoration:underline;
+}
 .inline{
-	color:gray;
+	/*color:gray;*/
 }
 .italic{
 	font-style:italic;

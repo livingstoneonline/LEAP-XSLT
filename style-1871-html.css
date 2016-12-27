@@ -49,9 +49,10 @@ div.transcription{
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
+	padding-top:1em;
 }
 div.text{
-	margin-left: 3em; /*Prevent line numbers from being hidden.*/
+	/*margin-left: 3em;*/ /*Prevent line numbers from being hidden.*/ /*Removed*/
 }
 div.body{
 	display:block;
