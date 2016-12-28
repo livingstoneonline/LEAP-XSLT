@@ -1333,13 +1333,21 @@
 	</xsl:template>
 
 	<!-- Text below removed for annotated edition; also see app, choice & supplied -->	
+
 	<xsl:template match="unclear">
 		<span class="unclear">
-			<xsl:if test="@cert">
-				<xsl:attribute name="title">
-					<xsl:value-of select="concat('word(s) ', name(), '; certainty of transcription: ', @cert)"/>
-				</xsl:attribute>
-			</xsl:if>
+				<xsl:choose>
+				<xsl:when test="@cert">
+					<xsl:attribute name="title">
+						<xsl:value-of select="concat('word(s) ', name(), '; certainty of transcription: ', @cert)"/>
+					</xsl:attribute>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:attribute name="title">
+						<xsl:value-of select="concat('word(s) ', name())"/>
+					</xsl:attribute>
+				</xsl:otherwise>
+				</xsl:choose>
 			<xsl:apply-templates select="node()"/>
 		</span>
 	</xsl:template>
