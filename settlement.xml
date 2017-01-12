@@ -30,7 +30,7 @@
 
 			<listPlace>
 
-				<!-- Current higest number = sett0016 -->
+				<!-- Current higest number = sett0017 -->
 
 				<place xml:id="sett0001" type="settlement_town">
 					<placeName type="main">Bagamoyo</placeName>
@@ -93,6 +93,11 @@
 				<place xml:id="sett0008" type="settlement_town">
 					<placeName type="main">Lebadea</placeName>
 					<note type="editorial">Town in ancient Greece (Livadeia in modern Greece).</note>
+				</place>
+
+				<place xml:id="sett0017" type="settlement_village">
+					<placeName type="main">Mamohela</placeName>
+					<note type="editorial">Village about 7 days northwest of Bambarre, according to Livingstone.</note>
 				</place>
 
 				<place xml:id="sett0009" type="settlement_city">

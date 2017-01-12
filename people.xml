@@ -30,7 +30,7 @@
 
 			<listPerson>
 
-				<!-- Current higest number = pers0241 -->
+				<!-- Current higest number = pers0242 -->
 
 				<person xml:id="pers0003">
 					<persName type="main">Aaron</persName>
@@ -91,14 +91,14 @@
 				</person>
 
 				<person xml:id="pers0046">
-					<persName type="main">Amoda, Hamoydah </persName>
+					<persName type="main">Amoda, Hamoydah</persName>
 					<note type="editorial">African who assisted Livingstone on the Zambesi expedition, was taken to
 						India, then returned with Livingstone for the final expedition.</note>
 				</person>
 
 				<person xml:id="pers0012">
 					<persName type="main">Amur</persName>
-					<note type="editorial">Arab trader.</note>
+					<note type="editorial">Arab trader originally from Muscat.</note>
 				</person>
 
 				<person xml:id="pers0233">
@@ -424,7 +424,7 @@
 					<birth when="1815">1815</birth>
 					<death when="1860">1860</death>
 					<note type="editorial">Missionary. Sent with his family by the London Missionary Society at the
-						behest of Livingstone, to settle among the Kololo at Linyanti (in present-day Namibia), where
+						behest of Livingstone to settle among the Kololo at Linyanti (in present-day Namibia), where
 						he and much of his family died in 1860. Livingstone grieved at the deaths and, indeed, in some
 						quarters was held responsible.</note>
 				</person>
@@ -446,7 +446,9 @@
 
 				<person xml:id="pers0050">
 					<persName type="main">Ibram</persName>
-					<note type="editorial">Arab trader.</note>
+					<note type="editorial">One of a group of men from a government-run school for freed slaves in
+						Nashik (spelled "Nassick" by Livingstone), India who accompanied Livingstone on his last
+						journey.</note>
 				</person>
 
 				<person xml:id="pers0051">
@@ -562,7 +564,7 @@
 
 				<person xml:id="pers0064">
 					<persName type="main">Kasongo</persName>
-					<note type="editorial">Chief of a strategically important African village on the Lualaba River.
+					<note type="editorial">Chief of a strategically important African village near the Lualaba River.
 						During the period in question, developed friendly relations with Arab traders and began to
 						employ Arab methods of violence against other local African populations.</note>
 				</person>
@@ -881,6 +883,7 @@
 					<note type="editorial">African chief.</note>
 				</person>
 
+
 				<person xml:id="pers0105">
 					<persName type="main">Moeneghere</persName>
 					<note type="editorial">Arab trader. Brother of Moenemokaia (a.k.a. Katomba).</note>
@@ -911,6 +914,11 @@
 					<persName type="main">Moenemgoi</persName>
 					<note type="editorial">Chief of Luamo; married to sister of Moenekuss, chief of
 						Bambarre.</note>
+				</person>
+
+				<person xml:id="pers0242">
+					<persName type="main">Moenemokia</persName>
+					<note type="editorial">African chief.</note>
 				</person>
 
 				<person xml:id="pers0206">
@@ -1411,7 +1419,7 @@
 
 				<person xml:id="pers0178">
 					<persName type="main">Suleiman bin Juma</persName>
-					<note type="editorial">Arab trader.</note>
+					<note type="editorial">Arab person.</note>
 				</person>
 
 				<person xml:id="pers0230">
@@ -1429,9 +1437,10 @@
 
 				<person xml:id="pers0179">
 					<persName type="main">Susi</persName>
-					<note type="editorial">African of the Shupanga tribe. With Livingstone when the latter died and
-						helped transport Livingstone's body to the African coast. Spoke good English and provided
-						Horace Waller with a narrative of Livingstone's last days.</note>
+					<note type="editorial">African of the Shupanga tribe. Travelled with Livingstone until 
+						the latter's death, then accompanied Livingstone's body back to Britain where he helped 
+						edit the Last Journals (1874). Spoke good English and provided Horace Waller with a 
+						narrative of Livingstone's last days.</note>
 				</person>
 
 				<person xml:id="pers0180">
