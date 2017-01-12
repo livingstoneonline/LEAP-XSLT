@@ -290,6 +290,14 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
+.div.red .line,
+.div.red .line.first-double,
+.div.red .halfline,
+.div.red .quarterline,
+.div.red .second-line,
+.div.red .third-line{
+	border-top:1px solid #B33B24;	
+}/*Adds red milestones in relevant sections in 1871 FD*/
 
 /* 5. p, ab, note, fw */
 
@@ -528,7 +536,7 @@ p{
 	color:brown;
 }
 .gray{
-	color:gray;
+	color:#666666;
 }
 .green{
 	color:green;
