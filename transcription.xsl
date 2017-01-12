@@ -350,8 +350,7 @@
 
 	<!-- End of addSpan/anchor -->
 
-
-	<!-- app: show first rdg -->
+	<!-- app: show first rdg, offer alternatives in title -->
 	<xsl:template match="app">
 		<!-- Hidden for annotated version. Also choice, supplied & unclear. -->
 		<!--<span class="app">
@@ -362,7 +361,13 @@
 			</xsl:attribute>
 			<xsl:apply-templates select="rdg[1]"/>
 		</span>-->
-		<xsl:apply-templates select="rdg[1]"/>
+		<xsl:variable name="rdg-rdg">
+			<xsl:value-of select="../app/rdg" separator=" [or] "/>
+		</xsl:variable>
+		<span class="app">
+			<xsl:attribute name="title">This passage can be read in alternate ways: <xsl:value-of select="$rdg-rdg"/></xsl:attribute>
+			<xsl:apply-templates select="rdg[1]"/>
+		</span>
 	</xsl:template>
 
 	<!-- For "back" see above -->
