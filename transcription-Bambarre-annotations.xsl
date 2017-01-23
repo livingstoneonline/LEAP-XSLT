@@ -340,6 +340,10 @@
 		<!--</span>--><!-- Removed last -->
 	</xsl:template>
 
+	<xsl:template match="anchor">
+		<a id="{@xml:id}" name="{@xml:id}"></a>
+	</xsl:template>
+
 	<!-- app: show first rdg, offer alternatives in title -->
 	<xsl:template match="app">
 		<!-- Hidden for annotated version. Also choice, supplied & unclear. -->
