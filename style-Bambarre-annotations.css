@@ -41,6 +41,7 @@ div.transcription{
 	text-align:left;
 	padding-left:3em;
 	line-height:1.5em !important;
+	max-width:34em;
 }
 @media all and (max-width: 768px)  {
 .TEI{	
