@@ -40,7 +40,7 @@ div.transcription{
 	padding-top:.5em;
 	text-align:left;
 }
-@media all and (max-width: 600px)  {
+@media all and (max-width: 768px)  {
 .TEI{	
 	padding-left:2em; /*Needed to position line numbers in MS viewer*/
 }
