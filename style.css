@@ -162,7 +162,7 @@ hr.title-section{
 .linenumber{
 	text-align:right;
 	float:left;
-	color:#666666;
+	color:#8c8b85;
 	margin-left:-3em !important;
 	/*text-indent:9%;*/
 	font-size:.8em;
@@ -322,8 +322,8 @@ p{
 	margin-bottom:.5em;
 }
 .unclear{
-	color:#666666;
-	border-bottom:1px dotted #666666;
+	color:#706f6a;
+	border-bottom:1px dotted #706f6a;
 }
 .gap{
 	border-bottom:1px dotted black;
@@ -470,7 +470,7 @@ p{
 	color:brown;
 }
 .gray{
-	color:#666666;
+	color:#706f6a;
 }
 .green{
 	color:green;

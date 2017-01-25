@@ -106,7 +106,7 @@ hr.title-section{
 	margin-bottom:-.4em;
 }
 .project-id{
-	color:gray;
+	color:#706f6a;
 	font-size:.9em;
 }
 
@@ -185,7 +185,7 @@ p span.pb-title{
 .linenumber{
 	text-align:right;
 	float:left;
-	color:#AAA;
+	color:#8c8b85;
 	margin-left:-3em !important;
 	/*text-indent:9%;*/
 	font-size:80%;
@@ -377,15 +377,15 @@ p{
 	text-decoration:line-through;
 }
 .del-by-over-text{
-	color:gray;
+	color:#706f6a;
 	text-decoration:line-through;
 }
 
 
 /* 7. Unclear, gap, space */
 .unclear{
-	color:gray;
-	border-bottom:1px dotted gray;
+	color:#706f6a;
+	border-bottom:1px dotted #706f6a;
 }
 .gap{
 	border-bottom:1px dotted black;
@@ -444,7 +444,7 @@ p{
 	text-decoration:underline;
 }
 .inline{
-	/*color:gray;*/
+	/*color:#706f6a;*/
 }
 .italic{
 	font-style:italic;
@@ -462,7 +462,7 @@ p{
 	text-decoration:overline underline;
 }
 .overtext{
-	/*color:gray;*/
+	/*color:#706f6a;*/
 }
 .right{
 	text-indent:0;
@@ -529,7 +529,7 @@ p{
 }
 .margintop{
 	margin-left:0;
-	color:gray;
+	color:#706f6a;
 	line-height:0;
 	position:relative;
 	vertical-align:baseline;
@@ -556,7 +556,7 @@ p{
 	color:brown;
 }
 .gray{
-	color:#666666;
+	color:#706f6a;
 }
 .green{
 	color:green;
@@ -596,9 +596,9 @@ td{
 
 .figure{
 	/*margin-left:9%;*/ /*1871 FD, removed*/
-	color:gray;
+	color:#706f6a;
 	font-size:.8em;
-	border-bottom:1px gray dotted;
+	border-bottom:1px #706f6a dotted;
 }
 .p .figure,
 .p.noindent .figure,
@@ -607,8 +607,8 @@ td{
 	text-indent:0px;
 }
 .metamark{
-	color:gray;
-	border-bottom:1px gray dotted;
+	color:#706f6a;
+	border-bottom:1px #706f6a dotted;
 }
 p .metamark{
 	margin-left:0px !important;
