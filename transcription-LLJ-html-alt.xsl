@@ -522,7 +522,7 @@
 	</xsl:template>
 
 	<xsl:template match="fw">
-		<span class="{concat(name(), ' ', @type, ' ', @rend)}" title="">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}" title=""><!-- @place added for full LJ -->
 			<br/><xsl:apply-templates/>
 		</span>
 	</xsl:template>

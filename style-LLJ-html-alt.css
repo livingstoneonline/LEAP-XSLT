@@ -154,23 +154,23 @@ hr.title-section{
 
 .pb-title{
 	display:block;
-	color:#428bca;
+	color:#428bca;/*Changed for full LJ. Was color:#f6dbb0; & text decoration hidden*/
 	/*text-decoration:underline;*/
 	font-size:90%;
-	margin-top:2em;
-	margin-bottom:0;
-	padding-bottom:10px;
+	margin-top:2em;/*Changed for full LJ.*/
+	margin-bottom:0;/*Changed for full LJ.*/
+	padding-bottom:10px;/*Added for full LJ.*/
 }
 .pb-title:hover{
-	color:#AAA;
+	color:#AAA;/*Changed for full LJ. Was color:#f6dbb0;*/
 	cursor:pointer
 }
 .pb-title:first-of-type {
  	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
 }
 p span.pb-title{
-	margin-left:0;
-	text-indent:0;
+	text-indent:0;/*LLJ*/
+	margin-left:0;/*Changed for full LJ. Was margin-top:3em;*/
 }
 .del-pb{
 }
@@ -342,12 +342,21 @@ p{
 .fw.catch/*LLJ*/{
 	margin-top:-1em;
 	display:block;
+	color:purple; /*Added for full LJ*/
+	padding-left: 2em; /*Added for full LJ*/
+	padding-right: 3em; /*Added for full LJ*/
 }
 .fw.catch.left/*LLJ*/{
 	text-indent:0;
 }
 .fw.catch.right/*LLJ*/{
 	text-indent:0;
+}
+.fw.inspace .right{
+	color:purple; /*Added for full LJ*/
+}
+.fw.inspace .right{
+	padding-right: 3em; /*Added for full LJ*/
 }
 .fw.pageno/*LLJ*/{
 	text-indent:0 !important;
@@ -433,7 +442,7 @@ p{
 }
 .center/*LLJ*/{
 	text-align:center;
-	color:green;
+	color:green;/*Added for full LJ.*/
 }
 .doubleunderline{
 	border-bottom:3px double;
@@ -590,7 +599,7 @@ td{
 
 /* 12. Misc */
 
-.date-red{
+.date-red{/*Add for full LJ.*/
 	color:red;
 	font-style:normal;
 }
