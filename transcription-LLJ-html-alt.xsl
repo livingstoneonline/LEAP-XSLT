@@ -36,7 +36,7 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-LLJ-html-alt.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="style-LLJ-html-alt.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
@@ -381,11 +381,11 @@
 	<!-- For "corr" see above -->
 
 	<xsl:template match="date[@when]" priority="10">
-		<span class="date" data-date="{@when}"><xsl:apply-templates/></span>
+		<span class="date" data-date="{@when}"><xsl:apply-templates/> <span class="date-red"><xsl:text> </xsl:text>[<xsl:value-of select="@when"/>]</span><!-- Changed for full LJ --></span>
 	</xsl:template>
 
 	<xsl:template match="date[@from]" priority="10">
-		<span class="date" data-date="{@from} {@to}"><xsl:apply-templates/></span>
+		<span class="date" data-date="{@from} {@to}"><xsl:apply-templates/> <span class="date-red"><xsl:text> </xsl:text>[<xsl:value-of select="@from"/>&#8212;<xsl:value-of select="@to"/>]</span><!-- Changed for full LJ --></span>
 	</xsl:template>
 
 	<xsl:template match="date">
@@ -1013,9 +1013,7 @@
 	</xsl:template>
 
 	<xsl:template match="pb">
-		<span class="pb-title">
-			<xsl:value-of select="@n"/>
-		</span>
+		<span class="pb-title"><br/><xsl:text>[pdf: </xsl:text><xsl:value-of select="@n"/>]</span><!-- Changed for full LJ -->
 	</xsl:template>
 
 	<xsl:template match="del/pb" priority="10">

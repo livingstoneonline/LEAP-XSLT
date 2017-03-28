@@ -159,6 +159,7 @@ hr.title-section{
 	font-size:90%;
 	margin-top:2em;
 	margin-bottom:0;
+	padding-bottom:10px;
 }
 .pb-title:hover{
 	color:#AAA;
@@ -336,7 +337,7 @@ p{
 }
 .fw/*LLJ*/{
 	font-size:.9em !important;
-	color:#706f6a;
+	/*color:#706f6a;*/ /*Removed for full LJ*/
 }
 .fw.catch/*LLJ*/{
 	margin-top:-1em;
@@ -432,6 +433,7 @@ p{
 }
 .center/*LLJ*/{
 	text-align:center;
+	color:green;
 }
 .doubleunderline{
 	border-bottom:3px double;
@@ -587,6 +589,11 @@ td{
 
 
 /* 12. Misc */
+
+.date-red{
+	color:red;
+	font-style:normal;
+}
 
 .figure{
 	margin-left:0;
