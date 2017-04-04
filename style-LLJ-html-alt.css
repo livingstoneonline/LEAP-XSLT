@@ -342,7 +342,7 @@ p{
 .fw.catch/*LLJ*/{
 	margin-top:-1em;
 	display:block;
-	color:purple; /*Added for full LJ*/
+	/*color:purple;*/ /*Added for full LJ, then removed*/
 	padding-left: 2em; /*Added for full LJ*/
 	padding-right: 3em; /*Added for full LJ*/
 }
@@ -353,7 +353,7 @@ p{
 	text-indent:0;
 }
 .fw.inspace .right{
-	color:purple; /*Added for full LJ*/
+	/*color:purple;*/ /*Added for full LJ, then removed*/
 }
 .fw.inspace .right{
 	padding-right: 3em; /*Added for full LJ*/
@@ -442,7 +442,7 @@ p{
 }
 .center/*LLJ*/{
 	text-align:center;
-	color:green;/*Added for full LJ.*/
+	/*color:green;*//*Added for full LJ, then removed.*/
 }
 .doubleunderline{
 	border-bottom:3px double;
@@ -599,10 +599,10 @@ td{
 
 /* 12. Misc */
 
-.date-red{/*Add for full LJ.*/
-	color:red;
+/*.date-red{*//*Add for full LJ, then removed.*/
+/*	color:red;
 	font-style:normal;
-}
+}*/
 
 .figure{
 	margin-left:0;
