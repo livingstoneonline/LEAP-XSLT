@@ -599,10 +599,12 @@ td{
 
 /* 12. Misc */
 
-/*.date-red{*//*Add for full LJ, then removed.*/
+.date-red{/*Add for full LJ, then removed.*/
+	display:none;
 /*	color:red;
-	font-style:normal;
-}*/
+	font-style:normal;*/
+
+}
 
 .figure{
 	margin-left:0;
