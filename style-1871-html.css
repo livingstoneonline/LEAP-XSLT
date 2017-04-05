@@ -32,7 +32,7 @@ div.transcription{
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
 	/*white-space:nowrap;*/
-	color:#58484b; /*#574d44*/ /*#4E2F2F*/
+	color:#52463d; /*#574d44*/ /*#4E2F2F*/
 }
 .TEI{
 	display:inline-block;
@@ -99,7 +99,7 @@ hr.title-section{
 	width:100%;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 	margin-top:-.4em;
 	margin-bottom:-.4em;
 }
@@ -214,7 +214,7 @@ p.right .linenumber{
 	background:#FFF;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 	margin-left:0;
 	margin-right:9%;
 	padding:0px;
@@ -228,7 +228,7 @@ p.right .linenumber{
 	text-align:left;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 /*.doubleline{
 	border-top: 4px double #8c8b8b;
@@ -256,7 +256,7 @@ p.right .linenumber{
 	text-align:left;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
@@ -266,7 +266,7 @@ p.right .linenumber{
 	text-align:left;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 .second-line{
 	border-bottom:1px solid #d0d0d0;
@@ -277,7 +277,7 @@ p.right .linenumber{
 	margin-top:0em; /*1871 FD change, was -1em*/
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 .third-line{
 	border-bottom:1px solid #d0d0d0;
@@ -288,7 +288,7 @@ p.right .linenumber{
 	margin-top:1.5em;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 .div.red .line,
 .div.red .line.first-double,
@@ -296,7 +296,7 @@ p.right .linenumber{
 .div.red .quarterline,
 .div.red .second-line,
 .div.red .third-line{
-	border-top:1px solid #B33B24;	
+	border-top:1px solid #9a6152;	
 }/*Adds red milestones in relevant sections in 1871 FD*/
 
 .div.red.brown .line,
@@ -305,7 +305,7 @@ p.right .linenumber{
 .div.red.brown .quarterline,
 .div.red.brown .second-line,
 .div.red.brown .third-line{
-	border-top:1px solid #8A4136;	
+	border-top:1px solid #826656;	
 }/*Adds red-brown milestones in relevant sections in 1871 FD*/
 
 /* 5. p, ab, note, fw */
@@ -398,7 +398,7 @@ p{
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:2px #9a6152 dotted
 }
 .orig,
 .reg{
@@ -557,10 +557,10 @@ p{
 	color:purple;
 }
 .red{
-	color:#B33B24;
+	color:#9a6152;
 }
 .red.brown{
-	 color:#8A4136;
+	 color:#826656;
 }
 .yellow{
 	color:yellow;
@@ -576,7 +576,7 @@ table{
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
 	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-	color:#58484b; /*Added color for 1870 Field Diary*/
+	color:#52463d; /*Added color for 1870 Field Diary*/
 }
 tr,
 td{
