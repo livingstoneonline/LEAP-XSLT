@@ -299,6 +299,15 @@ p.right .linenumber{
 	border-top:1px solid #B33B24;	
 }/*Adds red milestones in relevant sections in 1871 FD*/
 
+.div.red.brown .line,
+.div.red.brown .line.first-double,
+.div.red.brown .halfline,
+.div.red.brown .quarterline,
+.div.red.brown .second-line,
+.div.red.brown .third-line{
+	border-top:1px solid #8A4136;	
+}/*Adds red-brown milestones in relevant sections in 1871 FD*/
+
 /* 5. p, ab, note, fw */
 
 p{
@@ -549,6 +558,9 @@ p{
 }
 .red{
 	color:#B33B24;
+}
+.red.brown{
+	 color:#8A4136;
 }
 .yellow{
 	color:yellow;
