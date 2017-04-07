@@ -466,6 +466,9 @@ p{
 .blue{
 	color:blue;
 }
+.blue.black{
+	color:#454668;
+}
 .brown{
 	color:brown;
 }
