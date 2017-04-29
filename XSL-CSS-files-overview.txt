@@ -1,20 +1,25 @@
 Overview of XSL and CSS files
 
-*used for legacy TEI in manuscript viewer (no headings)
+*used for legacy TEI in manuscript viewer
 transcription.xsl
+transcription-alt.xsl (files not done by J. Cummings)
 style.css
 
-*used for 1865-1873 FDs & UJ
+*used for new TEI in manuscript viewer
+transcription-alt-new.xsl
+style.css
+
+*used for 1865-1873 FDs & UJ (still need heading modified)
 transcription-fds.xsl
 style-fds-html.css
 
-*used for spectral TEI in manuscript viewer (no headings)
+*used for spectral TEI in manuscript viewer (still need heading modified)
 transcription-1870.xsl 
 transcription-1871.xsl
 style-1870-viewer.css
 style-1871-viewer.css
 
-*used for downloadable annotated reading copies (have headings)
+*used for downloadable annotated reading copies (diff headings)
 transcription-1870-html.xsl
 transcription-1871-html.xsl
 transcription-1870-intg-html.xsl (liv_015001 only)
@@ -26,7 +31,7 @@ style-1871-html.css
 style-UJ-html.css
 style-LLJ-html.css
 
-*used for TEI in multi-viewer (have headings)
+*used for TEI in multi-viewer (diff headings)
 transcription-1870-intg-html.xsl (liv_015001 only)
 transcription-1871-intg-html.xsl (liv_015002 only)
 transcription-UJ-html.xsl (liv_015005 and liv_015006 only)
