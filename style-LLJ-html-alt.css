@@ -23,7 +23,7 @@ Table of Contents
 /* 1. Textual divisions */
 
 body{
-	background:#f6dbb0; /*LLJ*/
+	background:#ead7b3; /*LLJ*/
 }
 div.transcription{
 	margin-left:auto;
@@ -342,7 +342,7 @@ p{
 .fw.catch/*LLJ*/{
 	margin-top:-1em;
 	display:block;
-	/*color:purple;*/ /*Added for full LJ, then removed*/
+	color:purple; /*Added for full LJ*/
 	padding-left: 2em; /*Added for full LJ*/
 	padding-right: 3em; /*Added for full LJ*/
 }
@@ -353,7 +353,7 @@ p{
 	text-indent:0;
 }
 .fw.inspace .right{
-	/*color:purple;*/ /*Added for full LJ, then removed*/
+	/*color:purple;*/ /*Added for full LJ*/
 }
 .fw.inspace .right{
 	padding-right: 3em; /*Added for full LJ*/
@@ -442,7 +442,7 @@ p{
 }
 .center/*LLJ*/{
 	text-align:center;
-	/*color:green;*//*Added for full LJ, then removed.*/
+	/*color:green;*//*Added for full LJ.*/
 }
 .doubleunderline{
 	border-bottom:3px double;
@@ -599,11 +599,10 @@ td{
 
 /* 12. Misc */
 
-.date-red{/*Add for full LJ, then removed.*/
-	display:none;
-/*	color:red;
-	font-style:normal;*/
-
+.date-red{/*Add for full LJ.*/
+	display: none;
+	color:red;
+	font-style:normal;
 }
 
 .figure{
@@ -611,6 +610,16 @@ td{
 	color:#706f6a;
 	font-size:.8em;
 	border-bottom:1px #706f6a dotted;
+}
+.graphic.inline-right{	
+	width:12em;
+	float:right;
+	margin: .5em 1.5em -1em -1em;
+}
+.graphic.inline-left{	
+	width:12em;
+	float:left;
+	margin: .5em 2.5em -1em -1.5em;
 }
 .p .figure,
 .p.noindent .figure,
