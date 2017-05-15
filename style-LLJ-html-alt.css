@@ -621,6 +621,26 @@ td{
 	float:left;
 	margin: .5em 2.5em -1em -1.5em;
 }
+.graphic.inline-left-medium{	
+	width:10em;
+	float:left;
+	margin: .5em 2.5em -1em -1.5em;
+}
+.graphic.inline-left-small{	
+	width:10em;
+	float:left;
+	margin: .5em 2.5em -1em -1.5em;
+}
+.graphic.inline-right-medium{	
+	width:8em;
+	float:right;
+	margin: .5em 1.5em -1em -1em;
+}
+.graphic.inline-right-small{	
+	width:8em;
+	float:right;
+	margin: .5em 1.5em -1em -1em;
+}
 .p .figure,
 .p.noindent .figure,
 .ab .figure{
