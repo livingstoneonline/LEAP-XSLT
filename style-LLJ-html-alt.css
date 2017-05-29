@@ -342,7 +342,7 @@ p{
 .fw.catch/*LLJ*/{
 	margin-top:-1em;
 	display:block;
-	color:purple; /*Added for full LJ*/
+	/*color:purple;*/ /*Added for full LJ*/
 	padding-left: 2em; /*Added for full LJ*/
 	padding-right: 3em; /*Added for full LJ*/
 }
