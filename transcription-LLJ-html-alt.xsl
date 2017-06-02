@@ -498,6 +498,9 @@
 			<xsl:when test="..//graphic[@n='inline-right']">
 				<span class="graphic inline-right"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
 			</xsl:when>
+			<xsl:when test="..//graphic[@n='hyperlink']">
+				<span class="graphic"><a href="{$graphicURL}" target="_blank"><img src="{$graphicURL}" style="width:100%;"/></a></span>
+			</xsl:when>
 			<xsl:when test="..//graphic">
 				<span class="graphic"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
 			</xsl:when>
@@ -971,7 +974,7 @@
 				<hr class="{concat(name(), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'reduce')}"></hr><xsl:text disable-output-escaping="yes">&lt;/p&gt;</xsl:text><xsl:text disable-output-escaping="yes">&lt;p class="p noindent"&gt;</xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
 			<!--<xsl:if test="@*">

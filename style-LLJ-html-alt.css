@@ -225,8 +225,8 @@ p.right .linenumber{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:26em !important;/*LLJ*/
-	margin-left:0;
+	width:14em !important;/*LLJ*/
+	margin-left:6em;
 	text-align:left;
 	height:0;
 	border:0;
@@ -321,11 +321,11 @@ p{
 	text-indent:0 !important;
 }
 .ab{
-	text-indent:0;
+	padding-left: 0em;
+	text-indent: -1.5em;/*This and previous together create a hanging indent for LLJ*/
 	margin-left:2em;/*LLJ*/
 	margin-top:0;
 	margin-bottom:0;
-	margin-right:2em;/*LLJ*/
 	font-size:.9em;/*LLJ*/
 }
 .ab.center{
@@ -603,6 +603,9 @@ td{
 	display: none;
 	color:red;
 	font-style:normal;
+}
+.reduce{/*Fixes issues intro by milestone in LJs*/
+	margin-bottom:-2em;
 }
 
 .figure{
