@@ -1055,7 +1055,7 @@
 	</xsl:template>
 
 	<xsl:template match="pb">
-		<span class="pb-title"><br/><xsl:text>[pdf: </xsl:text><xsl:value-of select="@n"/>]</span><!-- Changed for full LJ -->
+		<span class="pb-title"><br/><xsl:text>[</xsl:text><xsl:value-of select="@n"/>]</span><!-- Changed for full LJ -->
 	</xsl:template>
 
 	<xsl:template match="del/pb" priority="10">

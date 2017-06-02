@@ -154,7 +154,7 @@ hr.title-section{
 
 .pb-title{
 	display:block;
-	color:#ead7b3;/*#428bca;*//*Changed for full LJ. Was color:#f6dbb0; & text decoration hidden*/
+	color:#428bca;/*Changed for full LJ. Was color:#f6dbb0; & text decoration hidden*/
 	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:2em;/*Changed for full LJ.*/
@@ -162,7 +162,7 @@ hr.title-section{
 	padding-bottom:10px;/*Added for full LJ.*/
 }
 .pb-title:hover{
-	color:#ead7b3;/*#AAA;*//*Changed for full LJ. Was color:#f6dbb0;*/
+	color:#AAA;/*Changed for full LJ. Was color:#f6dbb0;*/
 	cursor:pointer
 }
 .pb-title:first-of-type {
