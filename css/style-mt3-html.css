@@ -1,0 +1,54 @@
+/* line 1, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html {
+  /*p .linenumber{
+        text-indent:-1%;
+    }
+    .p.noindent.linenumber{
+        text-indent:1em;
+    }
+    p.center .linenumber{
+        margin-left:-12.5em !important;
+    }
+    p.right .linenumber{
+        margin-left:-18em !important;
+    }
+    .list .linenumber{
+        text-indent:0;
+    }*/
+}
+/* line 2, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html .linenumber {
+  text-align: right;
+  float: left;
+  color: #8c8b85;
+  margin-left: -2em !important;
+  /*Changed. AW*/
+  text-indent: 45em;
+  font-size: 80%;
+  width: 1em;
+}
+/* line 11, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html .p .linenumber {
+  text-indent: 45em;
+}
+/* line 14, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html .p.noindent .linenumber {
+  text-indent: 45em !important;
+}
+/* line 17, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html .p.noindent .marginleft.marginleft .linenumber {
+  text-indent: 45.2em !important;
+  font-size: 80% !important;
+}
+/* line 21, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html .note .linenumber {
+  text-indent: 45.2em !important;
+}
+/* line 24, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html .add.marginleft .note .linenumber {
+  text-indent: 64.2em !important;
+}
+/* line 27, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-mt3-html.less */
+.style-mt3-html .seg.left .linenumber {
+  text-indent: 50em;
+}

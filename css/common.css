@@ -1,0 +1,12 @@
+/**
+ * Common styles to all the stylesheets.
+ */
+/* line 5, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/common.less */
+body {
+  font-family: "Source Sans Pro", calibri, arial, helvetica, sans-serif;
+  font-size: 16px;
+}
+/* line 9, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/common.less */
+.TEI {
+  line-height: 140%;
+}
