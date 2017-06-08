@@ -19,44 +19,42 @@ Table of Contents
 * /
 
 
-
 /* 1. Textual divisions */
 
 body{
-	background:#f6dbb0; /*LLJ*/
+	background:#d3c2a8; /*#e7d5bd*/
 }
 div.transcription{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
-	max-width:26em;/*LLJ*/
-	min-width:26em;/*LLJ*/
 	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
 	font-size:1em; /*Make .9em; also for table*/
 	/*white-space:nowrap;*/
-	color:#46381e;/*LLJ*/
+	color:#52463d; /*#574d44*/ /*#4E2F2F*/
 }
 .TEI{
-	display:block;/*LLJ*/
+	display:inline-block;
+	white-space:nowrap;
 	padding-top:.5em;
-	text-align:justify;/*LLJ*/
+	text-align:left;
 }
 @media all and (max-width: 768px)  {
 .TEI{	
-	/*padding-left:1.5em;*//*Removed because didn't work with triple viewer*/
+	padding-left:2em; /*Needed to position line numbers in MS viewer*/
 }
 }
 .item-details{
-	max-width:26em;/*LLJ*/
-	min-width:26em;/*LLJ*/
-	text-align:left;/*LLJ*/
-	padding-top:1em;
+	max-width:29em;
+	min-width:29em;
+	white-space:normal;
 }
 div.text{
 }
 div.body{
 	display:block;
 	padding-bottom:2.4em;
+	padding-left:1.5em;
 }
 .front,
 .back{
@@ -68,16 +66,16 @@ div.body{
 /* 1.5. Title section */
 
 .title{
-	display:inline-block;/*LLJ*/
+	display:block;
 	text-align:center;
-	margin-bottom:1em;/*LLJ*/
+	margin-bottom:-.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
 .author{
 	display:block;
 	text-align:center;
-	margin-bottom:-.5em;/*LLJ*/
+	margin-bottom:.5em;
 	font-size:1.2em;
 	font-style:italic;
 }
@@ -99,13 +97,14 @@ hr.title-section{
 	width:100%;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 	margin-top:-.4em;
 	margin-bottom:-.4em;
 }
 .project-id{
-	color:gray;
+	color:#706f6a;
 	font-size:.9em;
+	padding-left:1.5em;
 }
 
 /* 2. Letters */
@@ -154,22 +153,22 @@ hr.title-section{
 
 .pb-title{
 	display:block;
-	color:#f6dbb0;/*LLJ*/
-	text-decoration:underline;
+	color:#428bca;
+	/*text-decoration:underline;*/
 	font-size:90%;
-	margin-top:1em;/*LLJ*/
-	margin-bottom:1em;/*LLJ*/
+	margin-top:2em;
+	margin-bottom:-.9em;
 }
 .pb-title:hover{
-	color:#f6dbb0;/*LLJ*/
+	color:#AAA;
 	cursor:pointer
 }
 .pb-title:first-of-type {
- 	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
-}
+  margin-top: 0;
+}/*This is to prevent scrolling up when the first image opens. AW*/
 p span.pb-title{
-	text-indent:0;/*LLJ*/
-	margin-top:3em;/*LLJ*/
+	margin-left:0;
+	text-indent:0;
 }
 .del-pb{
 }
@@ -188,7 +187,6 @@ p span.pb-title{
 	/*text-indent:9%;*/
 	font-size:80%;
 	width:1em;
-	display:none;
 }
 p .linenumber{
 	text-indent:-1%;
@@ -211,11 +209,11 @@ p.right .linenumber{
 
 .milestone{
 	display:block;
-	width:60%;
+	width:20em; /*1871 FD change, was 60%*/
 	background:#FFF;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 	margin-left:0;
 	margin-right:9%;
 	padding:0px;
@@ -224,12 +222,12 @@ p.right .linenumber{
 .line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:26em !important;/*LLJ*/
+	width:20em !important; /*1871 FD change, was 26em*/
 	margin-left:0;
 	text-align:left;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 /*.doubleline{
 	border-top: 4px double #8c8b8b;
@@ -252,12 +250,12 @@ p.right .linenumber{
 .halfline{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:17.5em !important;
+	width:10em !important; /*1871 FD change, was 18.5em*/
 	margin-left:0;
 	text-align:left;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 .quarterline{
 	border-bottom:1px solid #d0d0d0;
@@ -267,48 +265,58 @@ p.right .linenumber{
 	text-align:left;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 .second-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:22em !important;
+	width:20em !important; /*1871 FD change, was 26em*/
 	margin-left:0;
 	text-align:left;
-	margin-top:-1em;
-	margin-bottom:0em;
+	margin-top:0em; /*1871 FD change, was -1em*/
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
 .third-line{
 	border-bottom:1px solid #d0d0d0;
 	display:block;
-	width:22em !important;
+	width:20em !important;
 	margin-left:0;
 	text-align:left;
 	margin-top:1.5em;
 	height:0;
 	border:0;
-	border-top:1px solid #58484b;
+	border-top:1px solid #52463d;
 }
+.div.red .line,
+.div.red .line.first-double,
+.div.red .halfline,
+.div.red .quarterline,
+.div.red .second-line,
+.div.red .third-line{
+	border-top:1px solid #9a6152;	
+}/*Adds red milestones in relevant sections in 1871 FD*/
+
+.div.red.brown .line,
+.div.red.brown .line.first-double,
+.div.red.brown .halfline,
+.div.red.brown .quarterline,
+.div.red.brown .second-line,
+.div.red.brown .third-line{
+	border-top:1px solid #826656;	
+}/*Adds red-brown milestones in relevant sections in 1871 FD*/
 
 /* 5. p, ab, note, fw */
 
 p{
-	/*margin-right: 2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-}
-.p,
-.note/*LLJ*/{
+	margin-right: 2em;
+}/*Needed so that the text doesn't run up against the right edge in the viewer.*/
+.p{
 	display:inline-block;
-	text-indent:25px;
+	text-indent:0px; /*Changed to 0 for 1871 FD, was 25px*/
 	margin-top:0;
 	margin-bottom:0;	
-}
-.note/*LLJ*/{
-	margin-top:1.5em;
-	text-indent:0px !important;
-	font-size:.9em;
 }
 .p.noindent{
 	text-indent:0 !important;
@@ -321,45 +329,30 @@ p{
 }
 .ab{
 	text-indent:0;
-	margin-left:2em;/*LLJ*/
 	margin-top:0;
 	margin-bottom:0;
-	margin-right:2em;/*LLJ*/
-	font-size:.9em;/*LLJ*/
 }
 .ab.center{
 }
 .head{
 	font-weight:300;
-	text-align:center;/*LLJ*/
-	margin-bottom:0em;/*LLJ*/
 }
-.fw/*LLJ*/{
-	font-size:.9em !important;
-	color:#706f6a;
+.note{
+	display:inline;
 }
-.fw.catch/*LLJ*/{
-	margin-top:-1em;
-	display:block;
+.fw{
+	display:inline-block;
 }
-.fw.catch.left/*LLJ*/{
-	text-indent:0;
-}
-.fw.catch.right/*LLJ*/{
-	text-indent:0;
-}
-.fw.pageno/*LLJ*/{
+.fw.pageno{
 	text-indent:0 !important;
-	display:block;
-	text-align:center;
-	margin-bottom:1em;
 }
-.p .fw.pageno/*LLJ*/{
-	margin-bottom:1em;
-	display:block;
-	text-align:center;
+.fw.catch.left{
+	margin-left:0;/*AW revisit*/
+	text-indent:0;
 }
-
+.fw.catch.right{
+	text-indent:0;
+}
 
 /* 6. Additions and Deletions */
 
@@ -386,7 +379,7 @@ p{
 	border-bottom:1px dotted #706f6a;
 }
 .gap{
-	/*border-bottom:1px dotted black;*/
+	border-bottom:1px dotted black;
 }
 .space-other{
 	border-bottom:1px dotted black;
@@ -404,7 +397,7 @@ p{
 
 .sic,
 .corr{
-	border-bottom:2px #B33B24 dotted
+	border-bottom:2px #9a6152 dotted
 }
 .orig,
 .reg{
@@ -430,14 +423,19 @@ p{
 .caps{
 	font-variant:small-caps;
 }
-.center/*LLJ*/{
-	text-align:center;
+.center{
+	text-indent:0;
+	margin-left:6em;
 }
 .doubleunderline{
 	border-bottom:3px double;
 }
+.tripleunderline{
+	border-bottom:4px double;
+	text-decoration:underline;
+}
 .inline{
-	color:#706f6a;
+	/*color:gray;*/
 }
 .italic{
 	font-style:italic;
@@ -445,10 +443,6 @@ p{
 .large{
 	font-size:120%;
 }
-.left/*LLJ*/{
-	float:left;
-}
-
 .overline{
 	text-decoration: overline;
 }
@@ -456,11 +450,11 @@ p{
 	text-decoration:overline underline;
 }
 .overtext{
-	/*color:#706f6a;*/
+	/*color:gray;*/
 }
-.right/*LLJ*/{
+.right{
 	text-indent:0;
-	float:right;
+	margin-left:12em;
 }
 .small{
 	font-size:85%;
@@ -562,7 +556,10 @@ p{
 	color:purple;
 }
 .red{
-	color:#B33B24;
+	color:#9a6152;
+}
+.red.brown{
+	color:#826656;
 }
 .yellow{
 	color:yellow;
@@ -578,7 +575,7 @@ table{
 	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none;
 	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-	color:#58484b; /*Added color for 1870 Field Diary*/
+	color:#52463d; /*Added color for 1870 Field Diary*/
 }
 tr,
 td{
@@ -589,7 +586,7 @@ td{
 /* 12. Misc */
 
 .figure{
-	margin-left:0;
+	/*margin-left:9%;*/ /*1871 FD, removed*/
 	color:#706f6a;
 	font-size:.8em;
 	border-bottom:1px #706f6a dotted;
@@ -599,9 +596,6 @@ td{
 .ab .figure{
 	margin-left:0px !important;
 	text-indent:0px;
-}
-.p .figure.graphic{
-	text-indent:0px !important;/*LLLJ*/
 }
 .metamark{
 	color:#706f6a;

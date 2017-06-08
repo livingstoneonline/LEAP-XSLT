@@ -1,0 +1,664 @@
+/* 
+
+Table of Contents
+-----------------
+1. Textual divisions
+1.5 Title section
+2. Letters 
+3. pb, lb, linenumber 
+4. Milestone and lines 
+5. p, ab, note, fw 
+6. Additions and Deletions 
+7. Editorial 
+8. @rend classes (except lines, page placement, colors) 
+9. Page placement 
+10. Colors 
+11. Lists and Tables 
+12. Misc 
+
+* /
+
+
+/* 1. Textual divisions */
+/* line 23, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+body.style-1870-viewer {
+  background: #d3c2a8;
+  /*#e7d5bd*/
+}
+/* line 26, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
+  font-size: 1em;
+  /*Make .9em; also for table*/
+  /*white-space:nowrap;*/
+  color: #58484b;
+  /*#574d44*/
+  /*#4E2F2F*/
+  background: #d3c2a8;
+  /* 1.5. Title section */
+  /* 2. Letters */
+  /* 3. pb, lb, linenumber */
+  /*This is to prevent scrolling up when the first image opens. AW*/
+  /* 4. Milestone and lines */
+  /*.doubleline{
+        border-top: 4px double #8c8b8b;
+        display:block;
+        width:35% !important;
+        margin-left:9%;
+        text-align:left;
+        color:black;
+    }*/
+  /*.tripleline{
+        border-top: 4px double #8c8b8b;
+        line-height:1.9em;
+        display:block;
+        width:35% !important;
+        margin-left:9%;
+        text-align:left;
+        color:black;
+    }*/
+  /* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
+  /* 5. p, ab, note, fw */
+  /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+  /* 6. Additions and Deletions */
+  /* 7. Unclear, gap, space */
+  /* 7. Editorial */
+  /* 8. @rend classes (except colors, lines, and up-down placement) */
+  /* 9. Page placement */
+  /*Goes with standalone <note>s*/
+  /* 10. Colors */
+  /* 11. Lists and Tables */
+  /* 12. Misc */
+}
+/* line 35, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .TEI {
+  display: inline-block;
+  white-space: nowrap;
+  padding-top: .5em;
+  text-align: left;
+}
+@media all and (max-width: 768px) {
+  /* line 42, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+  div.transcription.style-1870-viewer .TEI {
+    padding-left: 2em;
+    /*Needed to position line numbers in MS viewer*/
+  }
+}
+/* line 46, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .item-details {
+  max-width: 29em;
+  min-width: 29em;
+  white-space: normal;
+}
+/* line 53, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer div.body {
+  display: block;
+  padding-bottom: 2.4em;
+  padding-left: 1.5em;
+}
+/* line 58, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .front,
+div.transcription.style-1870-viewer .back {
+  display: block;
+}
+/* line 67, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .title {
+  display: block;
+  text-align: center;
+  margin-bottom: -0.5em;
+  font-size: 1.4em;
+  font-variant: small-caps;
+}
+/* line 74, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .author {
+  display: block;
+  text-align: center;
+  margin-bottom: .5em;
+  font-size: 1.2em;
+  font-style: italic;
+}
+/* line 81, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .authority {
+  font-size: .9em;
+  line-height: 1.7;
+}
+/* line 85, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .pub-date {
+  font-size: .9em;
+}
+/* line 88, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer a:link {
+  color: #428bca !important;
+}
+/* line 91, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .idno {
+  font-size: .9em;
+  line-height: 1.7;
+}
+/* line 95, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer hr.title-section {
+  width: 100%;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+  margin-top: -0.4em;
+  margin-bottom: -0.4em;
+}
+/* line 103, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .project-id {
+  color: #706f6a;
+  font-size: .9em;
+  padding-left: 1.5em;
+}
+/* line 111, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .opener,
+div.transcription.style-1870-viewer .closer {
+  margin-bottom: 0px;
+}
+/* line 115, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .opener {
+  display: inline;
+  margin-top: 1em;
+}
+/* line 119, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .closer {
+  display: block;
+}
+/* line 122, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .dateline {
+  display: inline;
+  text-indent: 0;
+}
+/* line 126, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .dateline.center {
+  display: inline-block;
+}
+/* line 129, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .dateline.right {
+  display: block;
+}
+/* line 134, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .closer-salute {
+  margin-left: 0 !important;
+}
+/* line 139, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .signed {
+  display: inline-block;
+}
+/* line 142, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .address {
+  display: block;
+}
+/* line 152, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .pb-title {
+  display: block;
+  color: #428bca;
+  /*text-decoration:underline;*/
+  font-size: 90%;
+  margin-top: 2em;
+  margin-bottom: -0.9em;
+}
+/* line 160, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .pb-title:hover {
+  color: #AAA;
+  cursor: pointer;
+}
+/* line 164, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .pb-title:first-of-type {
+  margin-top: 0;
+}
+/* line 168, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer p span.pb-title {
+  margin-left: 0;
+  text-indent: 0;
+}
+/* line 174, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .lb {
+  display: block;
+}
+/* line 181, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .linenumber {
+  text-align: right;
+  float: left;
+  color: #8c8b85;
+  margin-left: -3em !important;
+  /*text-indent:9%;*/
+  font-size: 80%;
+  width: 1em;
+}
+/* line 190, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer p .linenumber {
+  text-indent: -1%;
+}
+/* line 193, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .p.noindent.linenumber {
+  text-indent: 1em;
+}
+/* line 196, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer p.center .linenumber {
+  margin-left: -12.5em !important;
+  /*Needs to be checked.*/
+}
+/* line 199, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer p.right .linenumber {
+  margin-left: -18em !important;
+}
+/* line 202, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .list .linenumber {
+  text-indent: 0;
+}
+/* line 208, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .milestone {
+  display: block;
+  width: 60%;
+  background: #FFF;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+  margin-left: 0;
+  margin-right: 9%;
+  padding: 0px;
+  margin-bottom: -1em;
+}
+/* line 220, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .line {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 22em !important;
+  margin-left: 0;
+  text-align: left;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+/* line 248, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .halfline {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 17.5em !important;
+  margin-left: 0;
+  text-align: left;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+/* line 258, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .quarterline {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 11em !important;
+  margin-left: 0;
+  text-align: left;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+/* line 268, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .second-line {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 22em !important;
+  margin-left: 0;
+  text-align: left;
+  margin-top: -1em;
+  margin-bottom: 0em;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+/* line 280, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .third-line {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 22em !important;
+  margin-left: 0;
+  text-align: left;
+  margin-top: 1.5em;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+/* line 294, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer p {
+  margin-right: 2em;
+}
+/* line 298, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .p {
+  display: inline-block;
+  text-indent: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 304, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .p.noindent {
+  text-indent: 0 !important;
+}
+/* line 307, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .p.center {
+  text-indent: 0 !important;
+}
+/* line 310, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .p.right {
+  text-indent: 0 !important;
+}
+/* line 313, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .ab {
+  text-indent: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 320, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .head {
+  font-weight: 300;
+}
+/* line 323, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .note {
+  display: inline;
+}
+/* line 326, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .fw {
+  display: inline-block;
+}
+/* line 329, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .fw.pageno {
+  text-indent: 0 !important;
+}
+/* line 332, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .fw.catch.left {
+  margin-left: 0;
+  /*AW revisit*/
+  text-indent: 0;
+}
+/* line 336, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .fw.catch.right {
+  text-indent: 0;
+}
+/* line 344, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .addmargin {
+  text-indent: 0px;
+}
+/* line 347, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .del,
+div.transcription.style-1870-viewer .cancelled,
+div.transcription.style-1870-viewer .strikethrough,
+div.transcription.style-1870-viewer .overwritten {
+  text-decoration: line-through;
+}
+/* line 353, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .del-by-over-text {
+  color: #706f6a;
+  text-decoration: line-through;
+}
+/* line 359, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .unclear {
+  color: #706f6a;
+  border-bottom: 1px dotted #706f6a;
+}
+/* line 363, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .gap {
+  border-bottom: 1px dotted black;
+}
+/* line 366, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .space-other {
+  border-bottom: 1px dotted black;
+  display: block;
+}
+/* line 370, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .verticalSpace {
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  text-indent: 0;
+}
+/* line 378, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .sic,
+div.transcription.style-1870-viewer .corr {
+  border-bottom: 2px #B33B24 dotted;
+}
+/* line 382, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .orig,
+div.transcription.style-1870-viewer .reg {
+  /*border-bottom:1px green dotted*/
+}
+/* line 386, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .abbr,
+div.transcription.style-1870-viewer .expan {
+  border-bottom: 1px green dotted;
+}
+/* line 390, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .expan {
+  display: none;
+}
+/* line 393, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .hidden {
+  display: none;
+}
+/* line 396, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .rdg {
+  display: block;
+}
+/* line 402, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .caps {
+  font-variant: small-caps;
+}
+/* line 405, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .center {
+  text-indent: 0;
+  margin-left: 6em;
+}
+/* line 409, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .doubleunderline {
+  border-bottom: 3px double;
+}
+/* line 412, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .tripleunderline {
+  border-bottom: 4px double;
+  text-decoration: underline;
+}
+/* line 416, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .inline {
+  /*color:gray;*/
+}
+/* line 419, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .italic {
+  font-style: italic;
+}
+/* line 422, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .large {
+  font-size: 120%;
+}
+/* line 425, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .overline {
+  text-decoration: overline;
+}
+/* line 428, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .overline.underline {
+  text-decoration: overline underline;
+}
+/* line 431, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .overtext {
+  /*color:gray;*/
+}
+/* line 434, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .right {
+  text-indent: 0;
+  margin-left: 12em;
+}
+/* line 438, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .small {
+  font-size: 85%;
+}
+/* line 441, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .smallcaps {
+  font-variant: small-caps;
+}
+/* line 444, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .underline {
+  text-decoration: underline;
+}
+/* line 447, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .upsidedown {
+  /*-ms-transform:rotate(180deg);*/
+  /* IE 9 */
+  /*-moz-transform:rotate(180deg);*/
+  /* Firefox */
+  /*-webkit-transform:rotate(180deg);*/
+  /* Safari and Chrome */
+  /*-o-transform:rotate(180deg);*/
+  /* Opera */
+}
+/* line 453, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .vertical {
+  /*-ms-transform:rotate(90deg);*/
+  /* IE 9 */
+  /*-moz-transform:rotate(90deg);*/
+  /* Firefox */
+  /*-webkit-transform:rotate(90deg);*/
+  /* Safari and Chrome */
+  /*-o-transform:rotate(90deg);*/
+  /* Opera */
+}
+/* line 462, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .above,
+div.transcription.style-1870-viewer .below,
+div.transcription.style-1870-viewer .bottom,
+div.transcription.style-1870-viewer .sub,
+div.transcription.style-1870-viewer .sup,
+div.transcription.style-1870-viewer .top {
+  /* Specified in % so that the sup/sup is the
+         right size relative to the surrounding text */
+  font-size: 75%;
+  /* Zero out the line-height so that it doesn't
+         interfere with the positioning that follows */
+  line-height: 0;
+  /* Where the magic happens: makes all browsers position
+         the sup/sup properly, relative to the surrounding text */
+  position: relative;
+  /* Note that if you're using Eric Meyer's reset.css, this
+         is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+/* line 484, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .above,
+div.transcription.style-1870-viewer .sup,
+div.transcription.style-1870-viewer .top {
+  /* Move the superscripted text up */
+  top: -0.5em;
+}
+/* line 490, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .below,
+div.transcription.style-1870-viewer .bottom,
+div.transcription.style-1870-viewer .sub {
+  /* Move the subscripted text down, but only
+         half as far down as the superscript moved up */
+  bottom: -0.25em;
+}
+/* line 497, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .margintop {
+  margin-left: 0;
+  color: #706f6a;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -1em;
+}
+/* line 509, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .true {
+  display: inline-block;
+}
+/* line 516, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .black {
+  color: black;
+}
+/* line 519, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .blue {
+  color: blue;
+}
+/* line 522, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .brown {
+  color: brown;
+}
+/* line 525, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .gray {
+  color: #706f6a;
+}
+/* line 528, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .green {
+  color: green;
+}
+/* line 531, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .orange {
+  color: orange;
+}
+/* line 534, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .purple {
+  color: purple;
+}
+/* line 537, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .red {
+  color: #B33B24;
+}
+/* line 540, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .yellow {
+  color: yellow;
+}
+/* line 545, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .list {
+  display: block;
+  margin-top: 12px;
+}
+/* line 549, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer table {
+  font-size: 1em;
+  /*85%;*/
+  /*Changed for 1870 Field Diary*/
+  border-style: none;
+  margin-right: 2em;
+  /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+  color: #58484b;
+  /*Added color for 1870 Field Diary*/
+}
+/* line 555, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer tr,
+div.transcription.style-1870-viewer td {
+  border-style: none;
+}
+/* line 562, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .figure {
+  margin-left: 0;
+  color: #706f6a;
+  font-size: .8em;
+  border-bottom: 1px #706f6a dotted;
+}
+/* line 568, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .p .figure,
+div.transcription.style-1870-viewer .p.noindent .figure,
+div.transcription.style-1870-viewer .ab .figure {
+  margin-left: 0px !important;
+  text-indent: 0px;
+}
+/* line 574, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .metamark {
+  color: #706f6a;
+  border-bottom: 1px #706f6a dotted;
+}
+/* line 578, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer p .metamark {
+  margin-left: 0px !important;
+  text-indent: 0px !important;
+}
+/* line 583, /Users/nbanks/Projects/livingstoneonline.org/code/LEAP-XSLT/less/style-1870-viewer.less */
+div.transcription.style-1870-viewer .foreign,
+div.transcription.style-1870-viewer .geogName,
+div.transcription.style-1870-viewer .persName,
+div.transcription.style-1870-viewer .orgName,
+div.transcription.style-1870-viewer .quote,
+div.transcription.style-1870-viewer .region,
+div.transcription.style-1870-viewer .settlement,
+div.transcription.style-1870-viewer .term-ailment,
+div.transcription.style-1870-viewer .term-tribe {
+  border-bottom: 2px #428bca dotted;
+  /* change to 1px */
+}
