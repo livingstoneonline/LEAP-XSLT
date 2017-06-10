@@ -23,11 +23,11 @@ Table of Contents
 /* 1. Textual divisions */
 
 body{
-	background:#c7beb0; /*#e7d5bd*/
+	background:#ccc3b4/*#c7beb0;*/ /*#e7d5bd*/
 }
 @media all and (max-width: 768px)  {
 body{	
-	padding-left:40px;
+	padding-left:6em;
 }
 }
 div.transcription{
@@ -54,11 +54,14 @@ div.transcription{
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
+	color:#563e2b;
 }
 .div{
 	margin-top:-1.2em;
 }
 div.text{
+	min-width:34em;
+	max-width:34em;
 }
 div.body{
 	display:block;
@@ -109,7 +112,7 @@ hr.title-section{
 	margin-bottom:-.4em;
 }
 .project-id{
-	color:gray;
+	color:#747571;
 	font-size:.9em;
 }
 
@@ -363,7 +366,7 @@ p.right .linenumber{
 .div.black.brown .quarterline,
 .div.black.brown .second-line,
 .div.black.brown .third-line{
-	border-top:1px solid #32251f !important;	
+	border-top:1px solid #563e2b !important;	
 }
 .line.brown,
 .line.first-double.brown,
@@ -391,11 +394,11 @@ p.right .linenumber{
 .div.gray .quarterline,
 .div.gray .second-line,
 .div.gray .third-line{
-	border-top:1px solid gray/*#585754*/;	
+	border-top:1px solid #66635d/*#585754*/;	
 }
 .div.brown .first-double.gray,
 .div.brown .second-line.gray{
-	border-top:1px solid gray/*#585754*/ !important;	
+	border-top:1px solid #66635d/*#585754*/ !important;	
 }
 .line.orange,
 .line.first-double.orange,
@@ -409,7 +412,7 @@ p.right .linenumber{
 .div.orange .quarterline,
 .div.orange .second-line,
 .div.orange .third-line{
-	border-top:1px solid #CD7300 !important;	
+	border-top:1px solid #9b826a !important;	
 }
 .line.red,
 .line.first-double.red,
@@ -445,13 +448,6 @@ p{
 .p.center{
 	text-indent:0 !important;
 }
-.p .right{
-	float:right;
-	margin-top:-1.4em;
-	margin-left:2em;
-	padding-right:0em !important;
-	text-indent:0 !important;
-}
 .ab{
 	text-indent:0;
 	margin-top:0;
@@ -480,14 +476,17 @@ p{
 .fw.catch.right{
 	text-indent:0;
 }
-.fw-double-right{
-	margin-left:.5em !important;
+.fw .gray{
+	color:#747571
 }
 .note.marginleft{
-	margin-left:-3.6em !important;
+	margin-left:-4.6em;
 	text-indent:0;	
 	float:left;
 	text-align:center;
+}
+.note.marginleft.extraLeft{
+	margin-left:-6.4em !important;
 }
 .note.marginright{
 	margin-right:-2.6em !important;
@@ -510,18 +509,18 @@ p{
 	text-decoration:line-through;
 }
 .del-by-over-text{
-	color:gray;
+	color:#747571;
 	text-decoration:line-through;
 }
 
 
 /* 7. Unclear, gap, space */
 .unclear{
-	color:gray;
-	border-bottom:1px dotted gray;
+	color:#747571;
+	border-bottom:1px dotted #747571;
 }
 .gap{
-	border-bottom:1px dotted gray;
+	border-bottom:1px dotted #747571;
 }
 .space-other{
 	border-bottom:1px dotted black;
@@ -558,22 +557,21 @@ p{
 .rdg{
 	display:block;
 }
-
+.supplied{	
+	color:gray;
+	border-bottom:2px gray dotted;
+}
 
 /* 8. @rend classes (except colors, lines, and up-down placement) */
 
 .caps{
 	font-variant:small-caps;
 }
-.center{
-	text-indent:0;
-	margin-left:6em;
-}
 .doubleunderline{
 	border-bottom:3px double;
 }
 .doubleunderline-orange{
-	border-bottom:1px double gray;
+	border-bottom:1px double #747571;
 }
 .tripleunderline{
 	border-bottom:4px double;
@@ -591,6 +589,9 @@ p{
 .large{
 	font-size:120%;
 }
+.normal{
+	font-style:normal;
+}
 .other{
 	margin-bottom:-2.6em !important;/*Needed for UJ when the marginal date adds a line between lines that shouldn't be there*/
 }
@@ -603,18 +604,99 @@ p{
 .overtext{
 	/*color:gray;*/
 }
+/*--------------------------------*/
+.center{
+	float:right;
+	text-align:left;
+	min-width:27em;
+	margin:-1.4em;
+}
+.center.right{
+	float:right !important;
+	text-align:left !important;
+	min-width:23.7em !important;
+	margin:-1.4em !important;
+}
 .right{
-	text-indent:0;
-	margin-left:15em;
+	float:right;
+	margin:-1.4em 14em;	
 }
-.figure.right{
-	text-indent:0em;
-	margin-left:15em;
+.left.right{
+	float:right;
+	margin:-1.4em 20em;	
+	text-align:left !important;
+	min-width:23.7em !important;
 }
+/*--------------------------------*/
 .fw .right{
-	margin-left:15em;
-	float:none;
+	margin-left:15em !important;
+	float:none !important;
+	padding:0 0 0 0 !important;
 }
+.fw-double-right{
+	margin-left:-13.7em !important;
+}
+.cell.right{
+	float:right;
+	margin:-1.4em 16em;
+}
+.altitudesRight .right{
+	float:right;
+	text-align:left;
+	margin:-1.4em 13em;
+	min-width:5em;
+	max-width:0em;
+}
+.rightFloatRain .right{
+	float:right;
+	text-align:right;
+	margin:-1.4em 8em;
+	min-width:9em;
+	max-width:4em;
+	padding:0 2em 0 7em;
+}
+.rightFloatRainMod .right{
+	float:right;
+	text-align:right;
+	margin:-1.4em 11em;
+	min-width:11em;
+	max-width:4em;
+	padding:0 2em 0 7em;
+}
+.rightFloatTOC .right{
+	float:right;
+	text-align:left;
+	margin:-1.4em 7.4em;
+	min-width:5em;
+	max-width:0em;
+}
+.rightFloatTOCmod1 .right{
+	float:right;
+	text-align:right;
+	margin:-1.4em 9.2em;
+}
+.rightFloatTOCmod2 .right{
+	float:right;
+	text-align:left;
+	margin:-1.4em 4.4em;
+	min-width:5em;
+	max-width:0em;
+}
+.rightFloatTOCmod3 .right{
+	float:right;
+	text-align:left;
+	margin:-1.4em 5.6em;
+	min-width:5em;
+	max-width:0em;
+}
+.rightFloatTOCmod4 .right{
+	float:right;
+	text-align:left;
+	margin:-1.4em 10em;
+	min-width:5em;
+	max-width:0em;
+}
+/*--------------------------------*/
 .small{
 	font-size:85%;
 }
@@ -676,7 +758,7 @@ p{
 }
 .margintop{
 	margin-left:0;
-	color:gray;
+	color:#747571;
 	line-height:0;
 	position:relative;
 	vertical-align:baseline;
@@ -694,28 +776,28 @@ p{
 /* 10. Colors */
 
 .black{
-	color:black;
+	color:#372f2c;
 }
 .black.gray{
 	color:#404040;
 }
 .black.brown{
-	color:#32251f;
+	color:#563e2b;
 }
 .blue{
 	color:#4f6c92;/*55759e*//*#507ca5;*/
 }
 .brown{
-	color:#5b4338;
+	color:#705b44;
 }
 .gray{
-	color:gray/*585754*//*72716d*/
+	color:#66635d/*7a756e*//*585754*//*72716d*/
 }
 .green{
 	color:green;
 }
 .orange{
-	color:#CD7300;
+	color:#9b826a;
 }
 .purple{
 	color:purple;
@@ -732,13 +814,7 @@ p{
 .list{
 	/*display:inline-block;*//*removed for now*/
 	/*margin-top:12px;*/
-	text-indent:0em;
-}
-.list .right{
-	float:right;
-	margin-top:-1.4em;
-	margin-left:2em;
-	padding-right:2em;
+	/*text-indent:0em;*/
 }
 .cell{
 	max-width:1%;
@@ -746,24 +822,16 @@ p{
 	text-align:left;
 	display:inline-block;
 }
-.cell.center{
-	margin-left:5.5em;
-}
-.cell.right{
-	margin-left:7em;
-}
-.cell.right.cell-after-center{
-	margin-left:2em;
-}
+
 
 
 /* 12. Misc */
 
 .figure{
 	margin-left:0;
-	color:gray;
+	color:#747571;
 	font-size:.8em;
-	border-bottom:1px gray dotted;
+	border-bottom:1px #747571 dotted;
 }
 .p .figure,
 .p.noindent .figure,
@@ -774,10 +842,10 @@ p{
 .metamark,
 .metamark-color{
 	font-style:italic;
-	border-bottom:1px gray dotted;
+	border-bottom:1px #747571 dotted;
 }
 .metamark{
-	color:gray;
+	color:#747571;
 }
 p .metamark{
 	margin-left:0px !important;
