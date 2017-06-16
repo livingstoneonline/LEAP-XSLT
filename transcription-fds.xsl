@@ -30,6 +30,9 @@
 
 	<!-- When not producing full HTML files, this template could be removed but javascript and CSS will need to be copied to correct location. -->
 	<xsl:template match="/">
+		<xsl:variable name="body-color">
+			<xsl:apply-templates select="//body/@n[1]"/>
+		</xsl:variable>
 		<html>
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
@@ -42,7 +45,7 @@
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
-			<body>
+			<body style="background:#{$body-color};">
 				<xsl:apply-templates select="TEI"/>
 			</body>
 		</html>
