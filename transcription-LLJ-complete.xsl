@@ -36,7 +36,7 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-LLJ-html-alt.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-LLJ-complete.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[1]"/>
 				</title>
@@ -87,7 +87,7 @@
 					<span class="authority"><strong>Original publisher and date:</strong><xsl:text> </xsl:text><xsl:value-of select="//imprint//publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//imprint/date"/></span><br/>
 					<span class="authority"><strong>Digital edition and date:</strong><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
 					<span class="authority"><strong>Publisher:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
-					<span class="idno"><strong>Project id:</strong><xsl:text> </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
+					<span class="idno"><strong>Project ID:</strong><xsl:text> </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
 					<span class="authority"><strong>Critical encoding</strong><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
 					<span class="authority"><strong>Encoding dates</strong><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
 					<br/>
