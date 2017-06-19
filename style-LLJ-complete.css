@@ -83,7 +83,7 @@ div.body{
 }
 .authority{
 	font-size:.9em;
-	line-height:1.7;
+	line-height:2em;
 }
 .pub-date{
 	font-size:.9em;
@@ -93,7 +93,7 @@ a:link{
 }
 .idno{
 	font-size:.9em;
-	line-height:1.7;
+	line-height:2em;
 }
 hr.title-section{
 	width:100%;
