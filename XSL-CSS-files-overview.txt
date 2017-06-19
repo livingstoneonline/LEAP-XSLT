@@ -1,23 +1,36 @@
 Overview of XSL and CSS files
 
-*used for legacy TEI in manuscript viewer
+*used for legacy and new TEI in manuscript viewer
 transcription.xsl
 transcription-alt.xsl (files not done by J. Cummings)
+transcription-alt-new.xsl (files not done by J. Cummings; not proofed by L. Geiger)
 style.css
 
-*used for new TEI in manuscript viewer
-transcription-alt-new.xsl
-style.css
-
-*used for 1865-1873 FDs & UJ (still need heading modified)
+*used for 1865-1873 FDs in final ms. edition
 transcription-fds.xsl
-style-fds-html.css
+style-fds.css
+
+*used for bonus texts in final ms. edition
+transcription-final-MS-bonus.xsl
+style-final-MS-bonus.css
+
+*used for complete UJ & LJ in final ms. edition
+transcription-UJ-complete.xsl
+style-UJ-complete.css
+transcription-LLJ-complete.xsl
+style-LLJ-complete.css
 
 *used for spectral TEI in manuscript viewer (still need heading modified)
 transcription-1870.xsl 
 transcription-1871.xsl
 style-1870-viewer.css
 style-1871-viewer.css
+transcription-Bambarre-letter.xsl
+style-Bambarre-letter.css
+
+*used for Bambarre annotations
+transcription-Bambarre-annotations.xsl
+style-Bambarre-annotations.css
 
 *used for downloadable annotated reading copies (diff headings)
 transcription-1870-html.xsl
@@ -40,3 +53,9 @@ style-1870-html.css
 style-1871-html.css
 style-UJ-html.css
 style-LLJ-html.css
+
+*used for Missionary Travels
+transcription-mt.xsl
+transcription-mt3.xsl
+style-mt-html.css
+style-mt3-html.css
