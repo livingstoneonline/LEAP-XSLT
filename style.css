@@ -505,6 +505,9 @@ tr,
 td{
 	border-style:none;
 }
+table .linenumber{
+	display:none;
+}
 
 
 /* 12. Misc */
