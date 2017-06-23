@@ -965,16 +965,16 @@
 	<xsl:template match="milestone">
 		<xsl:choose>
 			<xsl:when test="@rend='double-line'">
-				<hr class="{concat(name(), ' ', 'line')}"/><br/>
-				<hr class="{concat(name(), ' ', 'second-line')}"/>
+				<span class="{concat(name(), ' ', 'line')}">&#160;</span><br/>
+				<span class="{concat(name(), ' ', 'second-line')}">&#160;</span>
 			</xsl:when>
 			<xsl:when test="@rend='triple-line'">
-				<hr class="{concat(name(), ' ', 'line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
-				<hr class="{concat(name(), ' ', 'third-line')}"/>
+				<span class="{concat(name(), ' ', 'line')}">&#160;</span>
+				<span class="{concat(name(), ' ', 'third-line')}">&#160;</span>
+				<span class="{concat(name(), ' ', 'third-line')}">&#160;</span>
 			</xsl:when>
 			<xsl:otherwise>
-				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'reduce')}"></hr><xsl:text disable-output-escaping="yes">&lt;/p&gt;</xsl:text><xsl:text disable-output-escaping="yes">&lt;p class="p noindent"&gt;</xsl:text>
+				<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">&#160;</span>
 			</xsl:otherwise>
 		</xsl:choose>
 			<!--<xsl:if test="@*">
