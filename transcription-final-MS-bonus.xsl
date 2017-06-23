@@ -410,6 +410,18 @@
 
 	<!-- For "corr" see above -->
 
+	<xsl:template match="date[@when]" priority="10">
+		<span class="date" data-date="{@when}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="date[@from]" priority="10">
+		<span class="date" data-date="{@from} {@to}"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="date">
+		<span class="date" data-date="unknown"><xsl:apply-templates/></span>
+	</xsl:template>
+
 	<xsl:template match="dateline">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
