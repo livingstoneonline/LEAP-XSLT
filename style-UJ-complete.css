@@ -28,6 +28,7 @@ body{
 @media all and (max-width: 768px)  {
 body{	
 	padding-left:6em;
+	padding-top:1.5em;
 }
 }
 div.transcription{
