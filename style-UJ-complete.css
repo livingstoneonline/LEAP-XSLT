@@ -169,17 +169,19 @@ hr.title-section{
 	margin-top:2em;
 	margin-bottom:-.9em;
 }
-.pb-title-notop{
+.pb-title{
 	display:block;
 	color:#428bca;
 	/*text-decoration:underline;*/
 	font-size:90%;
-	margin-top:.5em;
-	margin-bottom:-.9em;    
+	margin-top:2em;
+	margin-bottom:-.9em;
+}
+.notop{ /*needed for some .pb-titles*/
+	margin-top:.5em;    
 	text-indent:0 !important;
 }
-.pb-title:hover,
-.pb-title-notop:hover{
+.pb-title:hover{
 	color:#AAA;
 	cursor:pointer
 }
