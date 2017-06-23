@@ -221,7 +221,9 @@ p.right .linenumber{
 	margin-left:0;
 	margin-right:9%;
 	padding:0px;
-	margin-top:1em;
+	margin-bottom: -.5em;
+	margin-top: 1em;
+
 }
 .line{
 	border-bottom:1px solid #d0d0d0;
