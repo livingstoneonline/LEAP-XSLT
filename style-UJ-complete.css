@@ -487,6 +487,7 @@ p{
 	text-indent:0;	
 	float:left;
 	text-align:center;
+	height:0;
 }
 .note.marginleft.extraLeft{
 	margin-left:-6.4em !important;
