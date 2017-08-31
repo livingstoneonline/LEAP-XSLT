@@ -1,11 +1,8 @@
 /**
  * Common styles to all the stylesheets.
  */
-
-body {
+div.transcription {
   font-family: "Source Sans Pro", calibri, arial, helvetica, sans-serif;
   font-size: 16px;
-}
-.TEI{
-	line-height:140%;
+  line-height: 140%;
 }

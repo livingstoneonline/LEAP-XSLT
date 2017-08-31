@@ -42,7 +42,7 @@
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
-			<body>
+			<body class="non-embedded-transcription">
 				<xsl:apply-templates select="TEI"/>
 			</body>
 		</html>
@@ -73,7 +73,7 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<div class="transcription">
+		<div class="transcription style">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
 			<!--<h2>

@@ -1,4 +1,87 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+div.transcription {
+  /* Attempt to set some reasonable defaults based on firefox. */
+}
+div.transcription html,
+div.transcription body,
+div.transcription div,
+div.transcription span,
+div.transcription applet,
+div.transcription object,
+div.transcription iframe,
+div.transcription h1,
+div.transcription h2,
+div.transcription h3,
+div.transcription h4,
+div.transcription h5,
+div.transcription h6,
+div.transcription p,
+div.transcription blockquote,
+div.transcription pre,
+div.transcription a,
+div.transcription abbr,
+div.transcription acronym,
+div.transcription address,
+div.transcription big,
+div.transcription cite,
+div.transcription code,
+div.transcription del,
+div.transcription dfn,
+div.transcription em,
+div.transcription img,
+div.transcription ins,
+div.transcription kbd,
+div.transcription q,
+div.transcription s,
+div.transcription samp,
+div.transcription small,
+div.transcription strike,
+div.transcription strong,
+div.transcription sub,
+div.transcription sup,
+div.transcription tt,
+div.transcription var,
+div.transcription b,
+div.transcription u,
+div.transcription i,
+div.transcription center,
+div.transcription dl,
+div.transcription dt,
+div.transcription dd,
+div.transcription ol,
+div.transcription ul,
+div.transcription li,
+div.transcription fieldset,
+div.transcription form,
+div.transcription label,
+div.transcription legend,
+div.transcription table,
+div.transcription caption,
+div.transcription tbody,
+div.transcription tfoot,
+div.transcription thead,
+div.transcription tr,
+div.transcription th,
+div.transcription td,
+div.transcription article,
+div.transcription aside,
+div.transcription canvas,
+div.transcription details,
+div.transcription embed,
+div.transcription figure,
+div.transcription figcaption,
+div.transcription footer,
+div.transcription header,
+div.transcription hgroup,
+div.transcription menu,
+div.transcription nav,
+div.transcription output,
+div.transcription ruby,
+div.transcription section,
+div.transcription summary,
+div.transcription time,
+div.transcription mark,
+div.transcription audio,
+div.transcription video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -6,50 +89,53 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline;
 }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+div.transcription article,
+div.transcription aside,
+div.transcription details,
+div.transcription figcaption,
+div.transcription figure,
+div.transcription footer,
+div.transcription header,
+div.transcription hgroup,
+div.transcription menu,
+div.transcription nav,
+div.transcription section {
   display: block;
 }
-
-body {
+div.transcription body {
   line-height: normal;
 }
-
-ol, ul {
+div.transcription ol,
+div.transcription ul {
   list-style: none;
 }
-
-blockquote, q {
+div.transcription blockquote,
+div.transcription q {
   quotes: none;
 }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+div.transcription blockquote:before,
+div.transcription blockquote:after,
+div.transcription q:before,
+div.transcription q:after {
   content: '';
   content: none;
 }
-
-table {
+div.transcription table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-body {
+div.transcription body {
   display: block;
   margin: 8px;
   font: 20px 'Source Sans Pro', sans-serif;
   background-color: #ffffff;
 }
-
-a:hover,a:focus {
+div.transcription a:hover,
+div.transcription a:focus {
   color: initial;
   text-decoration: initial;
 }
-
-/* Attempt to set some reasonable defaults based on firefox. */
-strong, b {
+div.transcription strong,
+div.transcription b {
   font-weight: bold;
 }
-

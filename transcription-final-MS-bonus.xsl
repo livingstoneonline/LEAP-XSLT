@@ -76,7 +76,7 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<div class="transcription">
+		<div class="transcription style-final-MS-bonus">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
 			<!--<h2>

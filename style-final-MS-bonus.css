@@ -16,533 +16,500 @@ Table of Contents
 11. Lists and Tables 
 12. Misc 
 
-* /
-
-
+*/
+/* Rules for containers either this is shown embedded in the viewer or not */
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-final-MS-bonus {
+  /*background:#ccc2b2;*/
+}
 /* 1. Textual divisions */
-
-body{
-	/*background:#ccc2b2;*/
-}
-@media all and (max-width: 768px)  {
-body{	
-	padding-left:2.5em;
-	padding-top:1.5em;
-}
-}
-div.transcription{
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
-	font-size:1em;
-	/*white-space: nowrap;*/
-}
-.TEI{
-	display:inline-block;
-	white-space:nowrap;
-	padding-top:.5em;
-	text-align:left;
-}
-@media all and (max-width: 768px)  {
-.TEI{	
-	padding-left:1em;
-}
-}
-.item-details{
-	max-width:27em;
-	min-width:27em;
-	white-space:normal;
-}
-div.text{
-}
-div.body{
-	display:block;
-	padding-bottom:2.4em;
-}
-.front,
-.back{
-	display:block;
-}
-
-
-/* 1.5. Title section */
-
-.title{
-	display:block;
-	text-align:center;
-	margin-bottom:-.5em;
-	font-size:1.4em;
-	font-variant:small-caps;
-}
-.author{
-	display:block;
-	text-align:center;
-	margin-bottom:.5em;
-	font-size:1.2em;
-	font-style:italic;
-}
-.authority{
-	font-size:.9em;
-	line-height:1.7;
-}
-.pub-date{
-	font-size:.9em;
-}
-a:link{
-	color:#428bca !important;
-}
-.idno{
-	font-size:.9em;
-	line-height:1.7;
-}
-hr.title-section{
-	width:100%;
-	height:0;
-	border:0;
-	border-top:1px solid #58484b;
-	margin-top:-.4em;
-	margin-bottom:-.4em;
-}
-.project-id,
-.project-encoding,
-.encoding-standard{
-	display:inline-block;
-	font-size:.9em;
-	line-height:2em;
-}
-
-/* 2. Letters */
-
-.opener,
-.closer,
-.trailer{
-	margin-bottom:0px;
-}
-.opener{
-	display:inline;
-	margin-top:1em;
-}
-.closer,
-.address{
-	display:block;
-}
-.dateline{
-	display:inline;
-	text-indent:0;
-}
-.signed{
-	display:inline-block;
-}
-
-
-/* 3. pb, lb, linenumber */
-
-.pb-title{
-	display:block;
-	color:#428bca;
-	font-size:90%;
-	margin-top:2em;
-	margin-bottom:-.9em;
-	margin-left:0;
-	text-indent:0;
-	font-style:normal;
-}
-.pb-title:hover{
-	color:#AAA;
-	cursor:pointer
-}
-.pb-title:first-of-type{
-  	margin-top: 0;
-	font-style:normal;
-}/*This is to prevent scrolling up when the first image opens. AW*/
-.lb{
-	display:block;
-}
-.linenumber{
-	text-align:right;
-	float:left;
-	color:#8c8b85;
-	margin-left:-3em !important;
-	/*text-indent:9%;*/
-	font-size:.8em;
-	width:1em;
-	font-style:normal;
-}
-p .linenumber{
-	text-indent:-1%;
-}
-.p.noindent.linenumber{
-	text-indent:1em;
-}
-p.center .linenumber{
-	margin-left:-6.4em !important;
-}
-p.right .linenumber{
-	margin-left:-10.5em !important;
-}
-.list .linenumber{
-	text-indent:0;	
-}
-
-
-/* 4. Milestone and lines */
-
-.milestone{/*check all of this against 1870 viewer*/
-	display:block;
-	width:60%;
-	background:#FFF;
-	height:0;
-	margin-left:0;
-	margin-right:9%;
-	margin-top:.7em;
-	margin-bottom:-.5em;
-	padding:0px;
-}
-.line{
-	border-bottom:1px solid #d0d0d0;
-	display:block;
-	width:20em !important;
-	margin-left:0;
-	text-align:left;
-	height:0;
-	border:0;
-	border-top:1px solid #58484b;
-}
-/*.doubleline{
-	border-top: 4px double #8c8b8b;
-	display:block;
-	width:27em !important;
-	margin-left:9%;
-	text-align:left;
-}
-.tripleline{
-	border-top: 4px double #8c8b8b;
-	line-height:1.9em;
-	display:block;
-	width:27em !important;
-	margin-left:9%;
-	text-align:left;
-}*/
-.halfline{
-	border-bottom:1px solid #d0d0d0;
-	display:block;
-	width:17.5em !important;
-	margin-left:0;
-	text-align:left;
-	height:0;
-	border:0;
-	border-top:1px solid #58484b;
-}
-.quarterline{
-	border-bottom:1px solid #d0d0d0;
-	display:block;
-	width:11em !important;
-	margin-left:0;
-	text-align:left;
-	height:0;
-	border:0;
-	border-top:1px solid #58484b;
-}
-.second-line{
-	border-bottom:1px solid #d0d0d0;
-	display:block;
-	width:20em !important;
-	margin-left:0;
-	text-align:left;
-	margin-top:-.5em;
-	margin-bottom:0em;
-	height:0;
-	border:0;
-	border-top:1px solid #58484b;
-}
-.third-line{
-	border-bottom:1px solid #d0d0d0;
-	display:block;
-	width:27em !important;
-	margin-left:0;
-	text-align:left;
-	margin-top:1.5em;
-	height:0;
-	border:0;
-	border-top:1px solid #58484b;
-}
-.div.gray .line,
-.div.gray .line.first-double,
-.div.gray .second-line{
-	border-top:1px solid #706f6a;	
-}
-
-
-/* 5. p, ab, note, fw */
-
-p{
-	margin-right: 2em;
-}/*Needed so that the text doesn't run up against the right edge in the viewer.*/
-.p{
-	display:inline-block;
-	text-indent:25px;
-	margin-top:0;
-	margin-bottom:0;	
-}
-.p.noindent,
-.p.center,
-.p.right{
-	text-indent:0 !important;
-}
-.p.right{
-	margin-left:6em !important;
-}
-.ab{
-	text-indent:0;
-	margin-top:0;
-	margin-bottom:0;
-}
-.head{
-	font-weight:normal;
-}
-.note{
-	display:inline;
-}
-.fw{
-	display:inline-block;
-}
-.fw.pageno{
-	text-indent:0 !important;
-}
-.fw.catch.right{
-	margin-left:14em;
-	text-indent:0;
-}
-
-
-/* 6. del, unclear, gap, space */
-
-.del,
-.del-by-over-text{
-	text-decoration:line-through;
-	/*color:#666666;*//*Previously used for .del-by-over-text*/
-}
-.pb-del{
-	display:inline-block;
-	margin-bottom:.5em;
-}
-.unclear{
-	color:#706f6a;
-	border-bottom:1px dotted #706f6a;
-}
-.gap{
-	border-bottom:1px dotted black;
-}
-.space-other{
-	border-bottom:1px dotted black;
-	display:block;
-}
-.verticalSpace{
-	display:inline-block;
-	border-bottom:1px dotted black;
-	text-indent:0;
-}
-
-
-/* 7. Editorial */
-
-.sic,
-.corr{
-	border-bottom:2px #B33B24 dotted
-}
-.abbr,
-.expan{
-	border-bottom:1px green dotted
-}
-.expan,
-.hidden{
-	display:none;
-}
-.rdg{
-	display:block;
-}
-
-
-/* 8. @rend classes (except colors, lines, and up-down placement) */
-
-.bold{
-	font-weight:600;
-}
-.caps{
-	font-variant:small-caps;
-}
-.center{
-	text-indent:0;
-	margin-left:2.7em;
-}
-.doubleunderline{
-	border-bottom:3px double;
-}
-.tripleunderline{
-	border-bottom:4px double;
-	text-decoration:underline;
-}
-.italic{
-	font-style:italic;
-}
-.large{
-	font-size:120%;
-}
-.overline{
-	text-decoration: overline;
-}
-.overline.underline{
-	text-decoration:overline underline;
-}
-.right{
-	text-indent:0;
-	margin-left:4em;
-}
-.small{
-	font-size:.85em;
-}
-.smallcaps{
-	font-variant:small-caps;
-}
-.underline{
-	text-decoration:underline;
-}
-.upsidedown{
-	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
-	/*-moz-transform:rotate(180deg);*/ /* Firefox */
-	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
-	/*-o-transform:rotate(180deg);*/ /* Opera */
-}
-.vertical{
-	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
-	/*-moz-transform:rotate(90deg);*/ /* Firefox */
-	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
-	/*-o-transform:rotate(90deg);*/ /* Opera */
-}
-
-
-/* 9. Page placement */
-
-.above,
-.below,
-.bottom,
-.sub,
-.sup,
-.top{
-	/* Specified in % so that the sup/sup is the
-     right size relative to the surrounding text */
-	font-size:.8em;
-
-	/* Zero out the line-height so that it doesn't
-     interfere with the positioning that follows */
-	line-height:0;
-
-	/* Where the magic happens: makes all browsers position
-     the sup/sup properly, relative to the surrounding text */
-	position:relative;
-
-	/* Note that if you're using Eric Meyer's reset.css, this
-     is already set and you can remove this rule */
-	vertical-align:baseline;
-}
-.above,
-.sup,
-.top{
-	/* Move the superscripted text up */
-	top:-0.35em;
-}
-.below,
-.bottom,
-.sub{
-	/* Move the subscripted text down, but only
-     half as far down as the superscript moved up */
-	bottom:-0.25em;
-}
-.true{
-	display:inline-block;
-}/*Goes with standalone <note>s*/
-
-
-/* 10. Colors */
-
-.black{
-	color:black;
-}
-.blue{
-	color:blue;
-}
-.blue.black{
-	color:#454668;
-}
-.brown{
-	color:#917c68;
-}
-.gray{
-	color:#706f6a;
-}
-.gray.black{
-	color:#4a4940;
-}
-.green{
-	color:green;
-}
-.orange{
-	color:orange;
-}
-.purple{
-	color:purple;
-}
-.red{
-	color:#B33B24;
-}
-.yellow{
-	color:yellow;
-}
-
-
-/* 11. Lists and Tables */
-.list{
-	display:block;
-}
-table{
-	font-size:.85em;
-	border-style:none;
-	margin-right: 2em; 
-}/*Last item needed so that the text doesn't run up against the right edge in the viewer.*/
-tr,
-td{
-	border-style:none;
-}
-
-
-/* 12. Misc */
-
-.figure{
-	margin-left:0;
-	color:#666666;
-	font-size:.8em;
-	border-bottom:1px #666666 dotted;
-}
-.p .figure,
-.p.noindent .figure,
-.ab .figure,
-p .metamark{
-	margin-left:0px !important;
-	text-indent:0px;
-}
-.metamark{
-	color:#666666;
-	border-bottom:1px #666666 dotted;
-}
-.foreign,
-.geogName,
-.persName,
-.orgName,
-.quote,
-.region,
-.settlement,
-.term-ailment,
-.term-tribe{
-	border-bottom:2px #428bca dotted; /* change to 1px */
+div.transcription.style-final-MS-bonus {
+  padding-left: 2.5em;
+  padding-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
+  font-size: 1em;
+  /*white-space: nowrap;*/
+  /* 1.5. Title section */
+  /* 2. Letters */
+  /* 3. pb, lb, linenumber */
+  /*This is to prevent scrolling up when the first image opens. AW*/
+  /* 4. Milestone and lines */
+  /*.doubleline{
+        border-top: 4px double #8c8b8b;
+        display:block;
+        width:27em !important;
+        margin-left:9%;
+        text-align:left;
+    }
+    .tripleline{
+        border-top: 4px double #8c8b8b;
+        line-height:1.9em;
+        display:block;
+        width:27em !important;
+        margin-left:9%;
+        text-align:left;
+    }*/
+  /* 5. p, ab, note, fw */
+  /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+  /* 6. del, unclear, gap, space */
+  /* 7. Editorial */
+  /* 8. @rend classes (except colors, lines, and up-down placement) */
+  /* 9. Page placement */
+  /*Goes with standalone <note>s*/
+  /* 10. Colors */
+  /* 11. Lists and Tables */
+  /*Last item needed so that the text doesn't run up against the right edge in the viewer.*/
+  /* 12. Misc */
+}
+div.transcription.style-final-MS-bonus .TEI {
+  display: inline-block;
+  white-space: nowrap;
+  padding-top: .5em;
+  padding-left: 1em;
+  text-align: left;
+}
+div.transcription.style-final-MS-bonus .item-details {
+  max-width: 27em;
+  min-width: 27em;
+  white-space: normal;
+}
+div.transcription.style-final-MS-bonus div.body {
+  display: block;
+  padding-bottom: 2.4em;
+}
+div.transcription.style-final-MS-bonus .front,
+div.transcription.style-final-MS-bonus .back {
+  display: block;
+}
+div.transcription.style-final-MS-bonus .title {
+  display: block;
+  text-align: center;
+  margin-bottom: -0.5em;
+  font-size: 1.4em;
+  font-variant: small-caps;
+}
+div.transcription.style-final-MS-bonus .author {
+  display: block;
+  text-align: center;
+  margin-bottom: .5em;
+  font-size: 1.2em;
+  font-style: italic;
+}
+div.transcription.style-final-MS-bonus .authority {
+  font-size: .9em;
+  line-height: 1.7;
+}
+div.transcription.style-final-MS-bonus .pub-date {
+  font-size: .9em;
+}
+div.transcription.style-final-MS-bonus a:link {
+  color: #428bca !important;
+}
+div.transcription.style-final-MS-bonus .idno {
+  font-size: .9em;
+  line-height: 1.7;
+}
+div.transcription.style-final-MS-bonus hr.title-section {
+  width: 100%;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+  margin-top: -0.4em;
+  margin-bottom: -0.4em;
+}
+div.transcription.style-final-MS-bonus .project-id,
+div.transcription.style-final-MS-bonus .project-encoding,
+div.transcription.style-final-MS-bonus .encoding-standard {
+  display: inline-block;
+  font-size: .9em;
+  line-height: 2em;
+}
+div.transcription.style-final-MS-bonus .opener,
+div.transcription.style-final-MS-bonus .closer,
+div.transcription.style-final-MS-bonus .trailer {
+  margin-bottom: 0px;
+}
+div.transcription.style-final-MS-bonus .opener {
+  display: inline;
+  margin-top: 1em;
+}
+div.transcription.style-final-MS-bonus .closer,
+div.transcription.style-final-MS-bonus .address {
+  display: block;
+}
+div.transcription.style-final-MS-bonus .dateline {
+  display: inline;
+  text-indent: 0;
+}
+div.transcription.style-final-MS-bonus .signed {
+  display: inline-block;
+}
+div.transcription.style-final-MS-bonus .pb-title {
+  display: block;
+  color: #428bca;
+  font-size: 90%;
+  margin-top: 2em;
+  margin-bottom: -0.9em;
+  margin-left: 0;
+  text-indent: 0;
+  font-style: normal;
+}
+div.transcription.style-final-MS-bonus .pb-title:hover {
+  color: #AAA;
+  cursor: pointer;
+}
+div.transcription.style-final-MS-bonus .pb-title:first-of-type {
+  margin-top: 0;
+  font-style: normal;
+}
+div.transcription.style-final-MS-bonus .lb {
+  display: block;
+}
+div.transcription.style-final-MS-bonus .linenumber {
+  text-align: right;
+  float: left;
+  color: #8c8b85;
+  margin-left: -3em !important;
+  /*text-indent:9%;*/
+  font-size: .8em;
+  width: 1em;
+  font-style: normal;
+}
+div.transcription.style-final-MS-bonus p .linenumber {
+  text-indent: -1%;
+}
+div.transcription.style-final-MS-bonus .p.noindent.linenumber {
+  text-indent: 1em;
+}
+div.transcription.style-final-MS-bonus p.center .linenumber {
+  margin-left: -6.4em !important;
+}
+div.transcription.style-final-MS-bonus p.right .linenumber {
+  margin-left: -10.5em !important;
+}
+div.transcription.style-final-MS-bonus .list .linenumber {
+  text-indent: 0;
+}
+div.transcription.style-final-MS-bonus .milestone {
+  /*check all of this against 1870 viewer*/
+  display: block;
+  width: 60%;
+  background: #FFF;
+  height: 0;
+  margin-left: 0;
+  margin-right: 9%;
+  margin-top: .7em;
+  margin-bottom: -0.5em;
+  padding: 0px;
+}
+div.transcription.style-final-MS-bonus .line {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 20em !important;
+  margin-left: 0;
+  text-align: left;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+div.transcription.style-final-MS-bonus .halfline {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 17.5em !important;
+  margin-left: 0;
+  text-align: left;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+div.transcription.style-final-MS-bonus .quarterline {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 11em !important;
+  margin-left: 0;
+  text-align: left;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+div.transcription.style-final-MS-bonus .second-line {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 20em !important;
+  margin-left: 0;
+  text-align: left;
+  margin-top: -0.5em;
+  margin-bottom: 0em;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+div.transcription.style-final-MS-bonus .third-line {
+  border-bottom: 1px solid #d0d0d0;
+  display: block;
+  width: 27em !important;
+  margin-left: 0;
+  text-align: left;
+  margin-top: 1.5em;
+  height: 0;
+  border: 0;
+  border-top: 1px solid #58484b;
+}
+div.transcription.style-final-MS-bonus .div.gray .line,
+div.transcription.style-final-MS-bonus .div.gray .line.first-double,
+div.transcription.style-final-MS-bonus .div.gray .second-line {
+  border-top: 1px solid #706f6a;
+}
+div.transcription.style-final-MS-bonus p {
+  margin-right: 2em;
+}
+div.transcription.style-final-MS-bonus .p {
+  display: inline-block;
+  text-indent: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.transcription.style-final-MS-bonus .p.noindent,
+div.transcription.style-final-MS-bonus .p.center,
+div.transcription.style-final-MS-bonus .p.right {
+  text-indent: 0 !important;
+}
+div.transcription.style-final-MS-bonus .p.right {
+  margin-left: 6em !important;
+}
+div.transcription.style-final-MS-bonus .ab {
+  text-indent: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div.transcription.style-final-MS-bonus .head {
+  font-weight: normal;
+}
+div.transcription.style-final-MS-bonus .note {
+  display: inline;
+}
+div.transcription.style-final-MS-bonus .fw {
+  display: inline-block;
+}
+div.transcription.style-final-MS-bonus .fw.pageno {
+  text-indent: 0 !important;
+}
+div.transcription.style-final-MS-bonus .fw.catch.right {
+  margin-left: 14em;
+  text-indent: 0;
+}
+div.transcription.style-final-MS-bonus .del,
+div.transcription.style-final-MS-bonus .del-by-over-text {
+  text-decoration: line-through;
+  /*color:#666666;*/
+  /*Previously used for .del-by-over-text*/
+}
+div.transcription.style-final-MS-bonus .pb-del {
+  display: inline-block;
+  margin-bottom: .5em;
+}
+div.transcription.style-final-MS-bonus .unclear {
+  color: #706f6a;
+  border-bottom: 1px dotted #706f6a;
+}
+div.transcription.style-final-MS-bonus .gap {
+  border-bottom: 1px dotted black;
+}
+div.transcription.style-final-MS-bonus .space-other {
+  border-bottom: 1px dotted black;
+  display: block;
+}
+div.transcription.style-final-MS-bonus .verticalSpace {
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  text-indent: 0;
+}
+div.transcription.style-final-MS-bonus .sic,
+div.transcription.style-final-MS-bonus .corr {
+  border-bottom: 2px #B33B24 dotted;
+}
+div.transcription.style-final-MS-bonus .abbr,
+div.transcription.style-final-MS-bonus .expan {
+  border-bottom: 1px green dotted;
+}
+div.transcription.style-final-MS-bonus .expan,
+div.transcription.style-final-MS-bonus .hidden {
+  display: none;
+}
+div.transcription.style-final-MS-bonus .rdg {
+  display: block;
+}
+div.transcription.style-final-MS-bonus .bold {
+  font-weight: 600;
+}
+div.transcription.style-final-MS-bonus .caps {
+  font-variant: small-caps;
+}
+div.transcription.style-final-MS-bonus .center {
+  text-indent: 0;
+  margin-left: 2.7em;
+}
+div.transcription.style-final-MS-bonus .doubleunderline {
+  border-bottom: 3px double;
+}
+div.transcription.style-final-MS-bonus .tripleunderline {
+  border-bottom: 4px double;
+  text-decoration: underline;
+}
+div.transcription.style-final-MS-bonus .italic {
+  font-style: italic;
+}
+div.transcription.style-final-MS-bonus .large {
+  font-size: 120%;
+}
+div.transcription.style-final-MS-bonus .overline {
+  text-decoration: overline;
+}
+div.transcription.style-final-MS-bonus .overline.underline {
+  text-decoration: overline underline;
+}
+div.transcription.style-final-MS-bonus .right {
+  text-indent: 0;
+  margin-left: 4em;
+}
+div.transcription.style-final-MS-bonus .small {
+  font-size: .85em;
+}
+div.transcription.style-final-MS-bonus .smallcaps {
+  font-variant: small-caps;
+}
+div.transcription.style-final-MS-bonus .underline {
+  text-decoration: underline;
+}
+div.transcription.style-final-MS-bonus .upsidedown {
+  /*-ms-transform:rotate(180deg);*/
+  /* IE 9 */
+  /*-moz-transform:rotate(180deg);*/
+  /* Firefox */
+  /*-webkit-transform:rotate(180deg);*/
+  /* Safari and Chrome */
+  /*-o-transform:rotate(180deg);*/
+  /* Opera */
+}
+div.transcription.style-final-MS-bonus .vertical {
+  /*-ms-transform:rotate(90deg);*/
+  /* IE 9 */
+  /*-moz-transform:rotate(90deg);*/
+  /* Firefox */
+  /*-webkit-transform:rotate(90deg);*/
+  /* Safari and Chrome */
+  /*-o-transform:rotate(90deg);*/
+  /* Opera */
+}
+div.transcription.style-final-MS-bonus .above,
+div.transcription.style-final-MS-bonus .below,
+div.transcription.style-final-MS-bonus .bottom,
+div.transcription.style-final-MS-bonus .sub,
+div.transcription.style-final-MS-bonus .sup,
+div.transcription.style-final-MS-bonus .top {
+  /* Specified in % so that the sup/sup is the
+         right size relative to the surrounding text */
+  font-size: .8em;
+  /* Zero out the line-height so that it doesn't
+         interfere with the positioning that follows */
+  line-height: 0;
+  /* Where the magic happens: makes all browsers position
+         the sup/sup properly, relative to the surrounding text */
+  position: relative;
+  /* Note that if you're using Eric Meyer's reset.css, this
+         is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+div.transcription.style-final-MS-bonus .above,
+div.transcription.style-final-MS-bonus .sup,
+div.transcription.style-final-MS-bonus .top {
+  /* Move the superscripted text up */
+  top: -0.35em;
+}
+div.transcription.style-final-MS-bonus .below,
+div.transcription.style-final-MS-bonus .bottom,
+div.transcription.style-final-MS-bonus .sub {
+  /* Move the subscripted text down, but only
+         half as far down as the superscript moved up */
+  bottom: -0.25em;
+}
+div.transcription.style-final-MS-bonus .true {
+  display: inline-block;
+}
+div.transcription.style-final-MS-bonus .black {
+  color: black;
+}
+div.transcription.style-final-MS-bonus .blue {
+  color: blue;
+}
+div.transcription.style-final-MS-bonus .blue.black {
+  color: #454668;
+}
+div.transcription.style-final-MS-bonus .brown {
+  color: #917c68;
+}
+div.transcription.style-final-MS-bonus .gray {
+  color: #706f6a;
+}
+div.transcription.style-final-MS-bonus .gray.black {
+  color: #4a4940;
+}
+div.transcription.style-final-MS-bonus .green {
+  color: green;
+}
+div.transcription.style-final-MS-bonus .orange {
+  color: orange;
+}
+div.transcription.style-final-MS-bonus .purple {
+  color: purple;
+}
+div.transcription.style-final-MS-bonus .red {
+  color: #B33B24;
+}
+div.transcription.style-final-MS-bonus .yellow {
+  color: yellow;
+}
+div.transcription.style-final-MS-bonus .list {
+  display: block;
+}
+div.transcription.style-final-MS-bonus table {
+  font-size: .85em;
+  border-style: none;
+  margin-right: 2em;
+}
+div.transcription.style-final-MS-bonus tr,
+div.transcription.style-final-MS-bonus td {
+  border-style: none;
+}
+div.transcription.style-final-MS-bonus .figure {
+  margin-left: 0;
+  color: #666666;
+  font-size: .8em;
+  border-bottom: 1px #666666 dotted;
+}
+div.transcription.style-final-MS-bonus .p .figure,
+div.transcription.style-final-MS-bonus .p.noindent .figure,
+div.transcription.style-final-MS-bonus .ab .figure,
+div.transcription.style-final-MS-bonus p .metamark {
+  margin-left: 0px !important;
+  text-indent: 0px;
+}
+div.transcription.style-final-MS-bonus .metamark {
+  color: #666666;
+  border-bottom: 1px #666666 dotted;
+}
+div.transcription.style-final-MS-bonus .foreign,
+div.transcription.style-final-MS-bonus .geogName,
+div.transcription.style-final-MS-bonus .persName,
+div.transcription.style-final-MS-bonus .orgName,
+div.transcription.style-final-MS-bonus .quote,
+div.transcription.style-final-MS-bonus .region,
+div.transcription.style-final-MS-bonus .settlement,
+div.transcription.style-final-MS-bonus .term-ailment,
+div.transcription.style-final-MS-bonus .term-tribe {
+  border-bottom: 2px #428bca dotted;
+  /* change to 1px */
 }
