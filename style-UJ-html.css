@@ -75,6 +75,8 @@ div.transcription.style-UJ-html .TEI {
   white-space: nowrap;
   padding-top: .5em;
   text-align: left;
+  background: #c7beb0;
+  /*#e7d5bd*/
 }
 div.transcription.style-UJ-html .item-details {
   max-width: 29em;

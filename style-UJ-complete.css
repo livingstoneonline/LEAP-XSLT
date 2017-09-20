@@ -85,6 +85,9 @@ div.transcription.style-UJ-complete .TEI {
   padding-top: .5em;
   padding-left: 1em;
   text-align: left;
+  background: #ccc3b4;
+  /*#c7beb0;*/
+  /*#e7d5bd*/
 }
 div.transcription.style-UJ-complete .item-details {
   max-width: 29em;

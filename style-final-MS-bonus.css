@@ -70,6 +70,7 @@ div.transcription.style-final-MS-bonus .TEI {
   padding-top: .5em;
   padding-left: 1em;
   text-align: left;
+  /*background:#ccc2b2;*/
 }
 div.transcription.style-final-MS-bonus .item-details {
   max-width: 27em;

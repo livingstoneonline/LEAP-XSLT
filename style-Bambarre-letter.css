@@ -77,6 +77,8 @@ div.transcription.style-Bambarre-letter .TEI {
   padding-top: .5em;
   padding-left: 3em;
   text-align: left;
+  background: #d3c2a8;
+  /*#e7d5bd*/
 }
 div.transcription.style-Bambarre-letter .item-details {
   max-width: 27em;

@@ -53,6 +53,7 @@ div.transcription.style .TEI {
   padding-top: .5em;
   padding-left: 1em;
   text-align: left;
+  background: #ccc2b2;
 }
 div.transcription.style .item-details {
   max-width: 30em;

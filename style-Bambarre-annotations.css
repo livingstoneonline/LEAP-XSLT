@@ -82,6 +82,8 @@ div.transcription.style-Bambarre-annotations .TEI {
   text-align: left;
   padding-left: 1em;
   line-height: 1.5em !important;
+  background: #d3c2a8;
+  /*#e7d5bd*/
 }
 div.transcription.style-Bambarre-annotations .item-details {
   max-width: 29em !important;

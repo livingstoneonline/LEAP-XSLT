@@ -120,6 +120,9 @@ div.transcription.style-mt-html .TEI {
   padding-top: .5em;
   padding-left: 1em;
   text-align: left;
+  background: #e2e3e1;
+  /*#d3c2a8;*/
+  /*#e7d5bd*/
 }
 div.transcription.style-mt-html .item-details {
   max-width: 29em;

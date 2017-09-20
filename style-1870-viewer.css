@@ -77,6 +77,8 @@ div.transcription.style-1870-viewer .TEI {
   padding-left: 2em;
   /*Needed to position line numbers in MS viewer*/
   text-align: left;
+  background: #d3c2a8;
+  /*#e7d5bd*/
 }
 div.transcription.style-1870-viewer .item-details {
   max-width: 29em;

@@ -77,6 +77,8 @@ div.transcription.style-LLJ-complete .TEI {
   padding-top: .5em;
   text-align: justify;
   /*LLJ*/
+  background: #ead7b3;
+  /*LLJ*/
 }
 div.transcription.style-LLJ-complete .item-details {
   max-width: 26em;

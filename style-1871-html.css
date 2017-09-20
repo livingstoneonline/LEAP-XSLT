@@ -78,6 +78,8 @@ div.transcription.style-1871-html .TEI {
   padding-top: .5em;
   padding-left: 1em;
   text-align: left;
+  background: #d3c2a8;
+  /*#e7d5bd*/
 }
 div.transcription.style-1871-html .item-details {
   max-width: 29em;
