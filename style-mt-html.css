@@ -119,6 +119,7 @@ div.transcription.style-mt-html .TEI {
   white-space: nowrap;
   padding-top: .5em;
   padding-left: 1em;
+  padding-right: 1em;
   text-align: left;
   background: #e2e3e1;
   /*#d3c2a8;*/
@@ -130,6 +131,7 @@ div.transcription.style-mt-html .item-details {
   white-space: normal;
   padding-top: 1em;
   padding-left: 12em;
+  padding-right: 12em;
 }
 div.transcription.style-mt-html div.text {
   /*margin-left: 3em;*/

@@ -78,6 +78,8 @@ div.transcription.style-1871-viewer .TEI {
   padding-top: .5em;
   padding-left: 2em;
   /*Needed to position line numbers in MS viewer*/
+  padding-right: 2em;
+  /*Needed to position line numbers in MS viewer*/
   text-align: left;
   background: #d3c2a8;
   /*#e7d5bd*/
