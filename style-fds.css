@@ -32,7 +32,7 @@ div.transcription.style-fds {
   margin-right: auto;
   text-align: center;
   font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   /*Make .9em; also for table*/
   /*white-space:nowrap;*/
   color: black;

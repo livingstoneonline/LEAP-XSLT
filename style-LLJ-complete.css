@@ -33,7 +33,7 @@ div.transcription.style-LLJ-complete {
   min-width: 26em;
   /*LLJ*/
   font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   /*Make .9em; also for table*/
   /*white-space:nowrap;*/
   color: #46381e;
