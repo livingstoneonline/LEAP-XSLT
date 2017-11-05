@@ -8,6 +8,7 @@
 				<title>Livingstone Online: Annotated Organization List</title>
 				<author>Adrian S. Wisnicki</author>
 				<author>Megan Ward</author>
+				<author>Justin D. Livingstone</author>
 			</titleStmt>
 			<publicationStmt>
 				<authority>Livingstone Online</authority>
@@ -30,7 +31,7 @@
 
 			<listOrg>
 
-				<!-- Current higest number = org0030 -->
+				<!-- Current higest number = org0089 -->
 
 				<org xml:id="org0001">
 					<orgName type="main">2nd Egyptian expedition</orgName>
@@ -81,14 +82,16 @@
 
 				<org xml:id="org0030">
 					<orgName type="main">Governors D'Almrida</orgName>
-					<note type="editorial">The brothers João Tavares d'Almeida (Governor-General of Mozambique) and António Tavares d'Almeida (Governor of Tete) who held their respective positions during the time of Livingstone’s Zambesi Expedition (1858-64).</note>
+					<note type="editorial">The brothers João Tavares d'Almeida (Governor-General of Mozambique) and
+						António Tavares d'Almeida (Governor of Tete) who held their respective positions during the
+						time of Livingstone's Zambesi Expedition (1858-64).</note>
 				</org>
 
 				<org xml:id="org0011">
 					<orgName type="main">Kilwans</orgName>
-					<note type="editorial">People from Kilwa. Kilwa (a collective name for Kilwa Kisiwani, Kilwa Kivinje, and Kilwa
-						Masoko, all in present-day Tanzania) was one of the most important centers for the slave trade
-						on the east coast of Africa in the nineteenth century.</note>
+					<note type="editorial">People from Kilwa. Kilwa (a collective name for Kilwa Kisiwani, Kilwa
+						Kivinje, and Kilwa Masoko, all in present-day Tanzania) was one of the most important centers
+						for the slave trade on the east coast of Africa in the nineteenth century.</note>
 				</org>
 
 				<org xml:id="org0013">
@@ -148,7 +151,8 @@
 
 				<org xml:id="org0022">
 					<orgName type="main">Royal Academy</orgName>
-					<note type="editorial">Institution designed to promote the arts, founded in London in 1768.</note>
+					<note type="editorial">Institution designed to promote the arts, founded in London in
+						1768.</note>
 				</org>
 
 				<org xml:id="org0020">
@@ -200,7 +204,566 @@
 					<note type="editorial">Dutch and other European settlers who voluntarily left the Cape Colony
 						in the 1830s during the Greak Trek, a series of migrations north into the southern African
 						interior in order to escape British control. The Voortrekkers eventually established the Boer
-						Republics, the Orange Free State and the Transvaal. </note>
+						Republics, the Orange Free State and the Transvaal.</note>
+				</org>
+
+
+
+				<!-- Missionary Travels Glossary List -->
+
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0031">
+					<orgName type="main">aboriginal</orgName>
+					<note type="editorial">Livingstone uses the term to refer to indigenous inhabitants.</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0032">
+					<orgName type="main">Admiralty</orgName>
+					<note type="editorial">Government department responsible for managing the British navy, from
+						the early 19th century until 1964 when it was amalgamated into the newly created Ministry of
+						Defence (Editors 2011).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0033">
+					<orgName type="main">Afro-Portuguese</orgName>
+					<note type="editorial">Livingstone uses a variety of terms to refer to traders of
+						Afro-Portuguese descent who had established routes and networks in central Africa, including
+						"African Portuguese," "Native Portuguese" and "half-caste."</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0034">
+					<orgName type="main">Algerine Arabs</orgName>
+					<note type="editorial">Reference to the people of Algeria, or more broadly to North African
+						Muslim communities.</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0035">
+					<orgName type="main">Ambaquistas</orgName>
+					<note type="editorial">Inhabitants of Ambaca, an early Portuguese trading centre in west
+						Africa. The term originated in the 1840s to describe Kimbundu-speaking Afro-Portuguese traders
+						from Ambaca, who had acquired a significant presence in west African commerce, particularly in
+						slaves and ivory. Later, it was also used less precisely by some contemporary commentators to
+						denote any Kimbundu-speaking traders in Portuguese Africa who behaved in ways regarded as
+						"European" (Fish and Fish 2002:76; Dias 1986:292-93).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0036">
+					<orgName type="main">Anatolian Sipahis</orgName>
+					<note type="editorial">Cavalrymen of the Ottoman Empire, in Asia Minor. They were a privileged
+						class, holding local fiefdoms in exchange for military service. Livingstone draws a parallel
+						between the sipahis, fighting on behalf of their people, and the “Kaffir Police”, a Xhosa
+						force established by the Cape Colony in the 1830s which largely revolted against the colonial
+						administration during the Eighth Xhosa War (Editors 2015; Ross 2015:183).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0037">
+					<orgName type="main">Baptist</orgName>
+					<note type="editorial">Protestant movement, with origins in 17th century English Puritanism. It
+						encompasses a range of groups and denominations, which lay particular emphasis on the doctrine
+						of believer's baptism by immersion. Most Baptists follow a congregational model of church
+						governance. The Baptist Missionary Society was formed in 1792 and made African missions a
+						priority from the 1840s (Hudson 2017; Stanley 1992).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0038">
+					<orgName type="main">Boers</orgName>
+					<note type="editorial">European farmers of Dutch, German and Huguenot origin, who settled at
+						the Cape in the 18th century. Large numbers of their descendants left the Cape Colony,
+						migrating north beyond British rule, in the "Great Trek" of 1836-46. These settlers, or
+						Voortrekkers, established independent states in the southern African interior, including the
+						South African Republic (or the Transvaal), the Natalia Republic and the Orange Free State
+						(Raugh 2004:53-54; Editors 2014).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0039">
+					<orgName type="main">Anglo-Portuguese Mixed Commission for the Suppression of Slavery in Cape
+						Town</orgName>
+					<note type="editorial">Mixed or Joint Commissions were judicial bodies created as a means of
+						enforcing anti-slavery treaties in international contexts. Held between nation states, in this
+						case between Britain and Portugal, they delivered verdicts on vessels seized for suspected
+						slave trafficking (Niekerk 2004, 2:196-97).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0040">
+					<orgName type="main">British Museum</orgName>
+					<note type="editorial">Britain's premier national museum, established in 1753. Its current
+						building in Bloomsbury, London, was built between 1823 and 1852 (Editors 2013).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0041">
+					<orgName type="main">Bushmen</orgName>
+					<note type="editorial">Another term for the San people of southern Africa (primarily resident
+						in Botswana, Namibia, and south east Angola), who historically adopted a hunter-gatherer
+						lifestyle. The term "Bushmen" is still in use, but it is contested and sometimes considered
+						pejorative (Heath 2010a:222; Moran 2009:3-4).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0042">
+					<orgName type="main">Kaffir</orgName>
+					<note type="editorial">Term referring to the Xhosa people of southern Africa. During the early
+						period of European colonisation, it was applied to all Bantu-speaking Africans but in the
+						nineteenth century it came to have its more specific application to the Xhosa. The term,
+						however, continued to be used to generalise about Bantu peoples and is now considered
+						derogatory. It has its origin in the Arabic word "kafir," which means "unbeliever" (Mills
+						1996:615).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0043">
+					<orgName type="main">Royal Observatory, Cape of Good Hope</orgName>
+					<note type="editorial">Observatory founded in 1820. It is South Africa's oldest scientific
+						establishment and was the southern hemisphere's first major observatory (Warner
+						1995:1-4).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0044">
+					<orgName type="main">Chartist movement</orgName>
+					<note type="editorial">Working class movement of the 1830s and 40s that advocated British
+						political reform through parliamentary means. Their major goals were articulated in the "The
+						People's Charter," which demanded universal male voting rights, voting by secret ballot,
+						salaries for MPs, an end to property qualifications for election, the construction of equal
+						electoral districts, and annual parliamentary elections. The movement was also active in
+						campaigning for land reform (Bowie 2016:75; Epstein 1994:136; Editors 2017).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0045">
+					<orgName type="main">Church Missionary Society</orgName>
+					<note type="editorial">Church of England missionary agency. A product of the evangelical
+						revival, it was established in 1799 as the Society for Missions in Africa and the East, before
+						becoming the Church Missionary Society in 1812. It was the major means of the global spread of
+						Anglicanism in the 19th century. The majority of its supporters were low church and
+						evangelical Anglicans (Melton 2005:147).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0046">
+					<orgName type="main">Circassians</orgName>
+					<note type="editorial">People group of the Circassia region in the Northwestern Caucasus. From
+						the 1760s the Circassians engaged in an extended war of resistance against Russian territorial
+						expansion in the Caucasus, before finally being defeated in 1864 (Editors 2017).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0047">
+					<orgName type="main">Coldstream Guards</orgName>
+					<note type="editorial">Oldest infantry regiment in the British army in continuous service,
+						dating from 1650 (Chant 2013:75-76).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0048">
+					<orgName type="main">Covenanters</orgName>
+					<note type="editorial">17th century Scottish Presbyterians who resisted the imposition of
+						episcopal modes of worship, forming "Covenants" to maintain their religious principles in 1638
+						(the National Covenant) and 1643 (the Solemn League and Covenant). Having supported the
+						Parliamentarians in the English Civil War, they temporarily achieved religious liberty.
+						Following the Restoration in 1660, and the reintroduction of Episcopalianism in Scotland, they
+						experienced severe persecution for over twenty-five years (Kapic and Vander Lugt 2013:38;
+						Spear 1992:88; Editors 2017).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0049">
+					<orgName type="main">Dollond </orgName>
+					<note type="editorial">Optical instrument makers. John Dollond (1707–1761) and his son, Peter
+						(1731–1820 ), established themselves as opticians in the 1750s and developed a reputation for
+						producing high-quality instruments. They made improvements to refracting telescopes and later
+						developed the achromatic lens (Clifton 2013).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0050">
+					<orgName type="main">Dutch Reformed</orgName>
+					<note type="editorial">Protestant tradition, that emerged in the Netherlands during the 16th
+						century Reformation. Its key theological documents are the Belgic Confession, the Heidelberg
+						Catechism and the Canons of Dort. The Dutch Reformed Church in South Africa originated in this
+						tradition, having arrived with Dutch emigrants in the 17th century. It became the largest
+						denomination among South Africa's Afrikaner population and continues to be their major church
+						(Editors 2017; Editors 2010).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0051">
+					<orgName type="main">Empacasseiros</orgName>
+					<note type="editorial">A name given to ancillary African troops employed by the Portuguese army
+						in west Africa. They served as part of Portuguese colonial defences in Angola, but could also
+						be employed on a private basis as sentinels and messengers. The term broadly translates as
+						"buffalo hunters," originating in the 17th century as a compound of the Kimbundu word for red
+						buffalo, "mpakasa," and the "Portuguese suffix -eiro for the person associated with an object"
+						(Birmingham 2001:92; Miller 1976:160).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0052">
+					<orgName type="main">27th (Inniskilling) Regiment of Foot</orgName>
+					<note type="editorial">Irish infantry regiment in the British army, dating from 1689, acclaimed
+						for its role at the Battle of Waterloo. In 1881, it merged with the 108th (Madras Infantry)
+						Regiment to form the Royal Inniskilling Fusiliers (Chant 2013:183-84).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0053">
+					<orgName type="main">Episcopalian</orgName>
+					<note type="editorial">Christian denominations that follow the episcopal form of ecclesiastical
+						structure, in which the church is governed by a hierarchy of bishops. Many Epsicopalian
+						churches belong to the worldwide Anglican communion.</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0054">
+					<orgName type="main">Faculty of Physicians and Surgeons of Glasgow</orgName>
+					<note type="editorial">Institution for the licensing of physicians and surgeons, founded in
+						1599 (known today as the Royal College of Physicians and Surgeons of Glasgow). It was unique
+						in serving as a regulatory body for both sections of the medical profession, physicians and
+						surgeons. Livingstone had hoped to join London's Royal College of Surgeons, but the London
+						Missionary Society found the fees prohibitive. Instead, they paid for him to take the more
+						affordable examinations of the Glasgow institution, and he became a licentiate on 15th
+						November 1840 (Geyer-Kordesch and Macdonald 1999:ix; Ross 2002:22).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0055">
+					<orgName type="main">British German Legion</orgName>
+					<note type="editorial">German military unit, raised in 1854 to fight for the British in the
+						Crimean War. The war ended before the legion saw combat, and in 1856 the majority were instead
+						settled in British Kaffraria. Sir George Grey, the Cape governor, hoped they would provide
+						increased protection against the Xhosa on the eastern Cape and act as a civilising influence.
+						The scheme was unsuccessful. Half the legion left South Africa in 1858 to fight against the
+						Indian Mutiny, and in 1861 the remainder were decommissioned (Laband 2009a:85-86,
+						101-03).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0056">
+					<orgName type="main">Government House, Cape Town</orgName>
+					<note type="editorial">Colonial governor's residence, built in the 1790s. It is now called "De
+						Tuynhuis" and houses the offices of the State President (Viney 1987:70, 79).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0057">
+					<orgName type="main">Griqua</orgName>
+					<note type="editorial">Southern African group of Khoekhoe and European descent, though their
+						ancestry also includes the San and Bantu peoples. They developed group identity in the 18th
+						century, and established several influential states on the borders of the Cape Colony in the
+						19th century. European colonialism deprived them of most of their territory by the 1880s
+						(Schweitzer 2015:15, 18-19).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0058">
+					<orgName type="main">Hottentot</orgName>
+					<note type="editorial">Term referring to the Khoekhoe people of southern Africa (primarily
+						resident in Nambia and South Africa), who were historically pastoralist in lifestyle. The term
+						dates from the 17th century and is now considered pejorative. It reportedly originates in a
+						Dutch word for "stutter" or "stammer," "Huttentut," applied to the group on account of the
+						clicking sounds in the Khoi language. In the 19th century, Khoekhoe physicality and behaviours
+						were the subject of much evolutionary speculation and racial science (Heath 2010b:573; Nave
+						2010:650).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0059">
+					<orgName type="main">Independent</orgName>
+					<note type="editorial">Another term for Congregationalism, a Protestant movement that advocates
+						the independence of individual congregations and their right to self-government, while
+						rejecting higher ecclesiastical structures. Livingstone left the Church of Scotland and joined
+						the local Congregationalist church in the early 1830s. The London Missionary Society was
+						predominantly a Congregationalist organisation (Jenkins 2016; Ross 2002:6-7).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0060">
+					<orgName type="main">Jesuits</orgName>
+					<note type="editorial">Members of the Society of Jesus, a Roman Catholic order founded by
+						Ignatius of Loyola in 1540. The Society is notable for its defence of Catholicism during the
+						Counter-Reformation, and for its commitment to education and missionary activity. It first
+						sent missionaries to Africa in the 1550s and eventually commissioned more foreign mission
+						agents than any other order (Newitt 2005:139; Editors 2015).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0061">
+					<orgName type="main">Knights of Malta</orgName>
+					<note type="editorial">Christian military order (also known as the Knights of St. John or the
+						Knights Hospitaller) that originated in the 12th century to defend the Holy Land and provide
+						health care to Christian pilgrims. Following the Muslim reconquest of Jerusalem in 1187, they
+						settled on the island of Rhodes where they battled with the Ottoman Empire. Defeated in 1523,
+						they relocated to Malta where they held a sovereign territory until conquered by Napoleon
+						Bonaparte in 1798 (Greene 2009:313; Editors 2017).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0062">
+					<orgName type="main">Light Brigade</orgName>
+					<note type="editorial">British cavalry brigade, led by James Thomas Brudenell (7th Earl of
+						Cardigan), which charged a well-defended Russian stronghold in the Battle of Balaklava (25th
+						October 1854) during the Crimean War. The failed assault, in which the cavalry was decimated,
+						was famously memorialised in Alfred Lord Tennyson's poem, "The Charge of the Light Brigade"
+						(Bunting 2017).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0063">
+					<orgName type="main">Locrians</orgName>
+					<note type="editorial">Inhabitants of Locris, a central region of Ancient Greece that was
+						divided in two by the states of Phocis and Doris. The Locrians established a colony called
+						Locri in Italy in 700BC, where they developed the first written legal system in the Greek
+						world, known as the "Locrian Code" (Buckler 2012:854; Sacks 1996:132).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0064">
+					<orgName type="main">London Missionary Society (LMS)</orgName>
+					<note type="editorial">Evangelical missionary society formed in England in 1795, primarily
+						serving missions in Africa and the South Pacific. Although established on a non-denominational
+						basis, it was increasingly regarded as a Congregationalist organisation. Livingstone was
+						commissioned by the Society in 1840 and served as one of its missionaries until 1857 (Porter
+						2004:49-50).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0065">
+					<orgName type="main">Lords of the Isles</orgName>
+					<note type="editorial">Scottish title, dating to the Middle Ages, used by the rulers of the
+						islands off Scotland's west coast and parts of the western mainland. These lords had
+						considerable power and autonomy until the late 15th century, when the title was appropriated
+						to the Scottish monarchy by King James IV. By describing Toka-Leya chiefs near Victoria Falls,
+						deposed by Sebitwane, as "Lords of the Isles," Livingstone characterises them as despotic
+						rulers who had been domesticated by a higher authority (Panton 2011:303).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0066">
+					<orgName type="main">Madras Army</orgName>
+					<note type="editorial">Army of the Madras Presidency, formed by the East India Company in the
+						mid-18th century. It was transferred to the British Crown in 1858 following the Indian
+						Rebellion, along with the Bengal and Bombay Armies and the Company's other possessions
+						(Schmidt 2015:60; Raugh 2004:216).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0067">
+					<orgName type="main">Mansion House, London.</orgName>
+					<note type="editorial">Official residence of the Lord Mayor of London, built in the mid-18th
+						century at Bank Junction (Weinreb et al. 2008:525-26).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0068">
+					<orgName type="main">Mantatees</orgName>
+					<note type="editorial">General term applied to Sotho-speaking migrants and labourers in the
+						nineteenth century. It was originally used to denote the Tlokwa, deriving from a distortion of
+						the name of their leader, Mmanthatisi (Sekonyela's mother). It came, however, to be applied
+						less precisely to wandering groups in the regions around the Vaal and Orange Rivers and to
+						migrant workers seeking employment by Europeans (Etherington 2001:148; Sheldon 2012:233;
+						Beinart 2003:59).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0069">
+					<orgName type="main">Mechanics' Institute, Cape Town</orgName>
+					<note type="editorial">Mechanics' Institute, Cape Town. The Mechanics' Institutes movement
+						originated in the early 19th century as a means of educating the adult labouring classes in
+						mathematics, sciences and the arts. The Cape Town institute was founded in 1828, but closed a
+						year later. It was re-established in 1853 and remained active until the 1870s (Walker
+						2017:3-5; Dubow 2006:49n124).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0070">
+					<orgName type="main">Henry Monteith &amp; Co.</orgName>
+					<note type="editorial">Textiles manufacturer, who owned the Blantyre cotton works where
+						Livingstone began employment in 1823 (Mullen 2012:18-19). </note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0071">
+					<orgName type="main">Mephato (pl.) or mophato (sing.)</orgName>
+					<note type="editorial">Male "age-sets" or "regiments" among the Tswana that operated as
+						military and political units. Young men who passed through initiation together became
+						life-long members of the same mophato (Morton 2012:385-86).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0072">
+					<orgName type="main">Moravians</orgName>
+					<note type="editorial">Protestant denomination, founded in the 18th century. In the 1720s, a
+						remnant of the almost-extinct "Bohemian Brethren" movement left their home in Moravia (in
+						modern-day Czech Republic) and established a community in Germany on the estate of Nikolaus
+						Ludwig, Count von Zinzendorf. The settlement, Herrnhut, became the centre of a pietistic
+						movement that had considerable influence on mainline Protestantism, particularly Lutheranism.
+						The Moravians are highly service oriented, and began commissioning missionaries around the
+						globe in the 1730s (Livingstone 2013:380; Bergmann 2003:288; Editors 2011).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0073">
+					<orgName type="main">Niger Expedition</orgName>
+					<note type="editorial">British expedition to west Africa (1841-43), that sought to open trade
+						and establish treaties along the Niger. It was supported by the Society for the Extinction of
+						the Slave Trade and the Civilization of Africa, founded in 1839 by Sir Thomas Fowell Buxton.
+						Buxton's aim was to combat the slave trade by introducing Christianity, civilisation and
+						"legitimate commerce," ideas that Livingstone would develop in Missionary Travels. The
+						expedition ended in failure, with a large number of the party dying of fever (Marotti
+						1996:229; Blouet 2010).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0074">
+					<orgName type="main">Society for the Promotion of Permanent and Universal Peace</orgName>
+					<note type="editorial">Peace association, founded in 1816 by Quakers and other Christian
+						pacifists in the wake of the Napoleonic Wars. The Society adopted an anti-war stance, opposing
+						even defensive conflicts, and established local branches across Britain. It was generally
+						known by the truncated title, the Peace Society (Laity 2001:13-14).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0075">
+					<orgName type="main">Presbyterian</orgName>
+					<note type="editorial">Protestant denominations that follow the Presbyterian form of
+						ecclesiastical structure, in which the church is represented and governed by bodies of elected
+						lay elders and ministers. Presbyterianism is historically rooted in the 16th-century
+						Reformation and Calvinist theology (O'Neill 1983:463-64).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0076">
+					<orgName type="main">Quakers</orgName>
+					<note type="editorial">Christian group (also known as the Society of Friends) founded in the
+						mid-17th century, that emphasises the leading of the Holy Spirit and rejects the need for
+						ordained clergy. In calling the Bayeiye (or Wayeyi) the "Quakers of Africa," Livingstone
+						alludes to the Friends' advocacy of non-violence and pacifism (Vann 2017; Abbott
+						2013:287).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0077">
+					<orgName type="main">Resurrectionist</orgName>
+					<note type="editorial">Another term for the "body snatchers" of the 18th and 19th centuries,
+						who robbed graves and mortuaries in order to supply corpses to the medical profession for
+						dissection (Levinson 2016).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0078">
+					<orgName type="main">Rhenish</orgName>
+					<note type="editorial">Person from the historical Rhine Province of Prussia (the present-day
+						Rhineland region of western Germany).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0079">
+					<orgName type="main">Royal Geographical Society (RGS)</orgName>
+					<note type="editorial">Learned society of geographers, founded in 1830 in London with the aim
+						of advancing geographical knowledge and promoting exploration. The society awarded Livingstone
+						the annual Founder's medal in 1855 and became one of his sponsoring organisations (Roberts
+						2008).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0080">
+					<orgName type="main">South Sea Islanders</orgName>
+					<note type="editorial">Collective term used in the 18th and 19th centuries to refer to the
+						peoples of the Polynesian islands in the east-central Pacific.</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0081">
+					<orgName type="main">St Mary Woolnoth</orgName>
+					<note type="editorial">Anglican church on the corner of King William Street and Lombard Street,
+						London, built by Nicholas Hawksmoor between 1716 and 1727 (Bradley and Pevsner
+						2002:113).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0082">
+					<orgName type="main">Thames steamers</orgName>
+					<note type="editorial">Paddle steamboats used as a means of public transport in
+						nineteenth-century London, particularly in the 1830s before the ascendancy of the railway. At
+						its peak, there were fifteen companies operating steamers on the Thames (Dumpleton 2002:40;
+						Ackroyd 2008:203-04).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0083">
+					<orgName type="main">Thracians</orgName>
+					<note type="editorial">Inhabitants of the area between the Danube River and Aegean Sea, known
+						to the Ancient Greeks as Thrace. The region came under Persian authority in the 6th century
+						BCE, and became a province of Rome in 46 CE. Today, the territory in the southeast Balkans
+						that historically constituted Thrace is divided between Turkey, Greece and Bulgaria (Editors
+						2014).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0084">
+					<orgName type="main">Troughton and Simms</orgName>
+					<note type="editorial">Scientific instrument makers, established as a partnership between
+						Edward Troughton (1753–1835) and William Simms (1793–1860). The business provided equipment
+						for navigation and surveying, as well as large-scale astronomical apparatus. They were the
+						official suppliers of the East India Company, and constructed and repaired instruments for the
+						Royal Greenwich Observatory (McConnell 2004; McConnell 2007).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0085">
+					<orgName type="main">United Presbyterian Church</orgName>
+					<note type="editorial">Presbyterian denomination in Scotland, created in 1847 by the
+						unification of the United Secession Church and the Relief Church. In 1900, the United
+						Presbyterian Church merged with the Free Church of Scotland to form the United Free Church of
+						Scotland, which in turn rejoined the Church of Scotland in 1929 (Lyall 2016:123; Editors
+						1998).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0086">
+					<orgName type="main">University of Coimbra</orgName>
+					<note type="editorial">One of Europe's ancient universities and the oldest in Portugal. It was
+						established in Lisbon in 1290, but moved permanently to Coimbra in the mid-16th century (Tegge
+						1998:468)</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0087">
+					<orgName type="main">Wesleyans</orgName>
+					<note type="editorial">Movements and denominations with origins in the theology of John Wesley,
+						the 18th-century cleric and evangelist. Wesleyanism began as a reform and revival movement
+						within the Church of England, but became independent by 1795. It is often associated with
+						Arminianism and an emphasis on the sanctification of the believer through the Holy Spirit. The
+						Wesleyan Methodist Missionary Society was formed in 1818 to support initiatives already under
+						way across the globe. Wesleyan missionary work had begun in west Africa in 1811 and in South
+						Africa in 1814 (Davies 2016; Tuttle Jr. 2001:1268; Pritchard 2013:25-27).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0088">
+					<orgName type="main">Westminster</orgName>
+					<note type="editorial">Area in London in which the United Kingdom's Houses of Parliament and
+						other institutions of government are located. Westminster Hall in the Palace of Westminster
+						was home to Britain's High Courts (Court of the Exchequer, Court of King's Bench, and Court of
+						Common Pleas) until the Royal Courts of Justice were opened in the Strand in 1882 (Wheatley
+						1891:483; Rivlin 2015:26-27).</note>
+				</org>
+
+				<!-- MT glossary entry -->
+				<org xml:id="org0089">
+					<orgName type="main">Zambesians</orgName>
+					<note type="editorial">Livingstone's collective term for groups resident in the Zambezi
+						valley.</note>
 				</org>
 
 			</listOrg>

@@ -8,6 +8,7 @@
 				<title>Livingstone Online: Personography</title>
 				<author>Adrian S. Wisnicki</author>
 				<author>Megan Ward</author>
+				<author>Justin D. Livingstone</author>
 			</titleStmt>
 			<publicationStmt>
 				<authority>Livingstone Online</authority>
@@ -30,7 +31,7 @@
 
 			<listPerson>
 
-				<!-- Current higest number = pers0242 -->
+				<!-- Current highest number = pers0577 -->
 
 				<person xml:id="pers0003">
 					<persName type="main">Aaron</persName>
@@ -56,6 +57,7 @@
 
 				<person xml:id="pers0007">
 					<persName type="main">Abraham</persName>
+					<!-- Also see pers243 -->
 					<note type="editorial">One of three Biblical patriarchs.</note>
 				</person>
 
@@ -105,7 +107,9 @@
 					<persName type="main">Argyll, The Duke of</persName>
 					<birth when="1823">1823</birth>
 					<death when="1900">1900</death>
-					<note type="editorial">George Douglas Campbell. Succeeded to the title in 1847. A Liberal. Held several Government posts. The First Gladstone Ministry (1868-74) came into power in December 1868, with Argyll as the Secretary of State for India.</note>
+					<note type="editorial">George Douglas Campbell. Succeeded to the title in 1847. A Liberal. Held
+						several Government posts. The First Gladstone Ministry (1868-74) came into power in December
+						1868, with Argyll as the Secretary of State for India.</note>
 				</person>
 
 				<person xml:id="pers0236">
@@ -286,7 +290,8 @@
 				</person>
 
 				<person xml:id="pers0031">
-					<persName type="main">Clarendon, The Earl of</persName>
+					<!-- Also see pers0558 -->
+					<persName type="main">Clarendon, Earl of</persName>
 					<birth when="1800">1800</birth>
 					<death when="1870">1870</death>
 					<note type="editorial">George William Frederick Villiers. Foreign Secretary 1853-58, 1865-66,
@@ -356,7 +361,8 @@
 
 				<person xml:id="pers0038">
 					<persName type="main">Garahenga</persName>
-					<note type="editorial">Also Kimamure. African chief. Descendant of Charura. Son of Moenyegumbe.</note>
+					<note type="editorial">Also Kimamure. African chief. Descendant of Charura. Son of
+						Moenyegumbe.</note>
 				</person>
 
 				<person xml:id="pers0039">
@@ -430,6 +436,7 @@
 				</person>
 
 				<person xml:id="pers0049">
+					<!-- Also see pers0318 -->
 					<persName type="main">Herodotus</persName>
 					<birth when="-0484">c.484</birth>
 					<death when="-0425">c.425 BC</death>
@@ -441,7 +448,8 @@
 					<persName type="main">Hunter, John</persName>
 					<birth when="1728">1728</birth>
 					<death when="1793">1793</death>
-					<note type="editorial">Celebrated surgeon and anatomist, whose collection of medical specimens became the basis of the eponymous Hunterian Museum.</note>
+					<note type="editorial">Celebrated surgeon and anatomist, whose collection of medical specimens
+						became the basis of the eponymous Hunterian Museum.</note>
 				</person>
 
 				<person xml:id="pers0050">
@@ -452,6 +460,7 @@
 				</person>
 
 				<person xml:id="pers0051">
+					<!-- Also see pers0330 -->
 					<persName type="main">Isaiah</persName>
 					<note type="editorial">Biblical prophet, documented in the Book of Isaiah.</note>
 				</person>
@@ -461,11 +470,13 @@
 					<note type="editorial">African chief.</note>
 				</person>
 
-				<person xml:id="pers0234"><!-- Ishmael -->
+				<person xml:id="pers0234">
+					<!-- Ishmael -->
 					<persName type="main">Ismai'il</persName>
 					<birth when="1830">1830</birth>
 					<death when="1895">1995</death>
-					<note type="editorial">Also Ishmael. Khedive of Egypt and Sudan (r.1863-79). Oversaw building of Egyptian portion of Suez Canal.</note>
+					<note type="editorial">Also Ishmael. Khedive of Egypt and Sudan (r.1863-79). Oversaw building
+						of Egyptian portion of Suez Canal.</note>
 				</person>
 
 				<person xml:id="pers0053">
@@ -479,6 +490,7 @@
 				</person>
 
 				<person xml:id="pers0055">
+					<!-- Also see pers0333 -->
 					<persName type="main">Jesus</persName>
 					<note type="editorial">Jesus Christ or Jesus of Nazareth. The central figure of
 						Christianity.</note>
@@ -564,9 +576,9 @@
 
 				<person xml:id="pers0064">
 					<persName type="main">Kasongo</persName>
-					<note type="editorial">Chief of a strategically important African village near the Lualaba River.
-						During the period in question, developed friendly relations with Arab traders and began to
-						employ Arab methods of violence against other local African populations.</note>
+					<note type="editorial">Chief of a strategically important African village near the Lualaba
+						River. During the period in question, developed friendly relations with Arab traders and began
+						to employ Arab methods of violence against other local African populations.</note>
 				</person>
 
 				<person xml:id="pers0202">
@@ -576,7 +588,8 @@
 
 				<person xml:id="pers0065">
 					<persName type="main">Katomba</persName>
-					<note type="editorial">Also known as Moenemokaia. Arab trader based at Mamohela. Brother of Moeneghere.</note>
+					<note type="editorial">Also known as Moenemokaia. Arab trader based at Mamohela. Brother of
+						Moeneghere.</note>
 				</person>
 
 				<person xml:id="pers0066">
@@ -622,8 +635,8 @@
 				</person>
 
 				<person xml:id="pers0072">
-					<persName type="main">Kurbelosi or Kurbelori</persName>
-					<note type="editorial">African chief.</note>
+					<persName type="main">Kurbelosi</persName>
+					<note type="editorial">Alternatively, Kurbelori. African chief.</note>
 				</person>
 
 				<person xml:id="pers0073">
@@ -645,7 +658,7 @@
 					<birth when="1809">1809</birth>
 					<death when="1865">1865</death>
 					<note type="editorial">Sixteenth president of the United States. Known for abolishing slavery
-						in the U.S. by signing the Emancipation Proclamation. </note>
+						in the U.S. by signing the Emancipation Proclamation.</note>
 				</person>
 
 				<person xml:id="pers0076">
@@ -667,6 +680,7 @@
 				</person>
 
 				<person xml:id="pers0078">
+					<!-- Also see pers0372 -->
 					<persName type="main">Livingstone, David</persName>
 					<birth when="1813">1813</birth>
 					<death when="1873">1873</death>
@@ -788,10 +802,10 @@
 				</person>
 
 				<person xml:id="pers0091">
-					<persName type="main">Marbruki (also possibly Nathaniel Cumba)</persName>
-					<note type="editorial">One of a group of men from a government-run school for freed slaves in
-						Nashik (spelled "Nassick" by Livingstone), India who accompanied Livingstone on his last
-						journey.</note>
+					<persName type="main">Marbruki</persName>
+					<note type="editorial">Also possibly Nathaniel Cumba. One of a group of men from a
+						government-run school for freed slaves in Nashik (spelled "Nassick" by Livingstone), India who
+						accompanied Livingstone on his last journey.</note>
 				</person>
 
 				<person xml:id="pers0092">
@@ -817,6 +831,7 @@
 				</person>
 
 				<person xml:id="pers0095">
+					<!-- Also see pers0395 -->
 					<persName type="main">Matiamvo</persName>
 					<note type="editorial">The paramount chief of the Lunda kingdom.</note>
 				</person>
@@ -841,8 +856,10 @@
 				</person>
 
 				<person xml:id="pers0098">
+					<!-- Also see pers0402[?] -->
 					<persName type="main">Merere</persName>
-					<note type="editorial">Also Mamerere. African chief who resisted Arab encroachment into central Africa. Descendant of Charura.</note>
+					<note type="editorial">Also Mamerere. African chief who resisted Arab encroachment into central
+						Africa. Descendant of Charura.</note>
 				</person>
 
 				<person xml:id="pers0061">
@@ -896,7 +913,8 @@
 
 				<person xml:id="pers0107">
 					<persName type="main">Moenekuss</persName>
-					<note type="editorial">Chief of Bambarre and, according to Livingstone, the most influential chief in the Manyema region.</note>
+					<note type="editorial">Chief of Bambarre and, according to Livingstone, the most influential
+						chief in the Manyema region.</note>
 				</person>
 
 				<person xml:id="pers0108">
@@ -953,7 +971,8 @@
 
 				<person xml:id="pers0114">
 					<persName type="main">Moenyegumbe</persName>
-					<note type="editorial">African chief. Descendant of Charura. Father of Garahenga Mogandira.</note>
+					<note type="editorial">African chief. Descendant of Charura. Father of Garahenga
+						Mogandira.</note>
 				</person>
 
 				<person xml:id="pers0208">
@@ -963,7 +982,8 @@
 
 				<person xml:id="pers0115">
 					<persName type="main">Mogandira</persName>
-					<note type="editorial">African chief. Descendant of Charura. Son of Moenyegumbe. Died after one year of rule.</note>
+					<note type="editorial">African chief. Descendant of Charura. Son of Moenyegumbe. Died after one
+						year of rule.</note>
 				</person>
 
 				<person xml:id="pers0156">
@@ -971,7 +991,8 @@
 					<note type="editorial">Arab trader.</note>
 				</person>
 
-				<person xml:id="pers0222"><!-- Moene Lualaba -->
+				<person xml:id="pers0222">
+					<!-- Moene Lualaba -->
 					<persName type="main">Mokandira</persName>
 					<note type="editorial">Also Mokandirwa and Moene Lualaba. African chief of Nyangwe.</note>
 				</person>
@@ -1097,7 +1118,7 @@
 					<birth when="1808">1808</birth>
 					<death when="1892">1892</death>
 					<note type="editorial">Son of the founder of John Murray, Publisher. Was Livingstone's
-						publisher and adviser. </note>
+						publisher and adviser.</note>
 				</person>
 
 				<person xml:id="pers0134">
@@ -1116,7 +1137,7 @@
 				<person xml:id="pers0137">
 					<persName type="main">Mutesa</persName>
 					<note type="editorial">Ruler of Buganda (r.1857-84). During his second expedition to Africa
-						(1860-63), John H. Speke stayed at Mutesa’s court from early to mid 1862.</note>
+						(1860-63), John H. Speke stayed at Mutesa's court from early to mid 1862.</note>
 				</person>
 
 				<person xml:id="pers0138">
@@ -1141,7 +1162,7 @@
 					<birth when="1818">1818</birth>
 					<death when="1893">1893</death>
 					<note type="editorial">Explorer and hunter. Met Livingstone in South Africa in 1845, and
-						travelled with him 1849-51. Remained close friends. </note>
+						travelled with him 1849-51. Remained close friends.</note>
 				</person>
 
 				<person xml:id="pers0141">
@@ -1190,6 +1211,7 @@
 				</person>
 
 				<person xml:id="pers0147">
+					<!-- Also see pers0485 -->
 					<persName type="main">Ptolemy</persName>
 					<birth when="0100">c.100</birth>
 					<death when="0170">c.170</death>
@@ -1282,6 +1304,7 @@
 				</person>
 
 				<person xml:id="pers0160">
+					<!-- Also see pers0516 -->
 					<persName type="main">Sechele</persName>
 					<birth when="1810">c.1810</birth>
 					<death when="1892">1892</death>
@@ -1300,10 +1323,11 @@
 				</person>
 
 				<person xml:id="pers0162">
+					<!-- Also see pers0519 -->
 					<persName type="main">Sekeletu</persName>
 					<birth when="1835">c.1835</birth>
 					<death when="1863">1863</death>
-					<note type="editorial">Chief of the Kololo, son of Sebituane. Supported Livingstone’s
+					<note type="editorial">Chief of the Kololo, son of Sebituane. Supported Livingstone's
 						transcontinental expedition (1852-56) in the hope of extending his trade routes and authority.
 						A London Missionary Society mission to the Kololo in the 1860s resulted in the majority of the
 						members dying from fever, with Sekeletu wrongly suspected of having poisoned the party.</note>
@@ -1437,10 +1461,10 @@
 
 				<person xml:id="pers0179">
 					<persName type="main">Susi</persName>
-					<note type="editorial">African of the Shupanga tribe. Travelled with Livingstone until 
-						the latter's death, then accompanied Livingstone's body back to Britain where he helped 
-						edit the Last Journals (1874). Spoke good English and provided Horace Waller with a 
-						narrative of Livingstone's last days.</note>
+					<note type="editorial">African of the Shupanga tribe. Travelled with Livingstone until the
+						latter's death, then accompanied Livingstone's body back to Britain where he helped edit the
+						Last Journals (1874). Spoke good English and provided Horace Waller with a narrative of
+						Livingstone's last days.</note>
 				</person>
 
 				<person xml:id="pers0180">
@@ -1449,6 +1473,7 @@
 				</person>
 
 				<person xml:id="pers0181">
+					<!-- Also see persName0501 -->
 					<persName type="main">Syde bin Habib</persName>
 					<note type="editorial">Arab trader, who traveled widely in central Africa. Livingstone first
 						encountered him in 1855 during the former's famous transcontinental African journey and again
@@ -1586,6 +1611,3320 @@
 					<note type="editorial">Warrior from Cush (present-day Ethiopia) mentioned in the Book of
 						Chronicles.</note>
 				</person>
+
+				<!-- Missionary Travels Glossary List -->
+				<!-- MT glossary entry -->
+				<person xml:id="pers0243">
+					<!-- Also see pers0007 -->
+					<persName type="main">Abraham</persName>
+					<birth when="-2000">fl. c.2000 BC</birth>
+					<note type="editorial">Hebrew Patriarch, who figures in the three major monothestic religions.
+						In the biblical book of Genesis, he is the ancestor of the Israelites and the "father of many
+						nations."</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0244">
+					<persName type="main">Abreu, Cypriano de</persName>
+					<note type="editorial">Afro-Portuguese soldier. He provides an autograph in Livingstone's
+						journal, signing himself as "Cypriano de Abreu e Santos = Sargento da 4.a Compa movel do
+						Districto de Ambaca" or Sergeant of the 4th mobile company of the Ambaca District. The purpose
+						of the unit was to keep the local Mbangala population in check. Livingstone met him in April
+						1854 near Cassange on the banks of the Kwango (or Cuango) river and again in February the
+						following year (Schapera 1963,1:127).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0245">
+					<persName type="main">Adam</persName>
+					<note type="editorial">The first man, created in the image of God on the sixth day, according
+						to the biblical account.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0246">
+					<persName type="main">Adanson, Michel</persName>
+					<birth when="1727">1727</birth>
+					<death when="1806">1806</death>
+					<note type="editorial">French botanist, who developed a system of classification for plants in
+						his Familles des plantes (1763). He was the first botanist to examine the baoaba tree in its
+						natural environment. In 1749, on the Îsles de la Madeleine off the coast of Senegal, he
+						calculated two baobabas to be over 5000 years old and to have existed prior to the biblical
+						flood (Wickens 2008:18, 154).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0247">
+					<persName type="main">Aesop</persName>
+					<birth when="-0600">c. 6th century BC</birth>
+					<note type="editorial">Ancient Greek fabulist. Numerous beast fables have been attributed to
+						him, but it is probable that he is a legendary figure.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0248">
+					<persName type="main">Amaral, José Rodrigues Coelho do</persName>
+					<note type="editorial">Governor-General of Angola from 1854-60 and 1869-70. His first term was
+						characterised by ambitious efforts to expand into northern Angola and the lower Congo. His
+						administration occupied significant towns in order to gain control of trade routes, and
+						engaged in military operations that proved expensive and ultimately ineffective in extending
+						Portuguese authority (Wheeler and Pélissier 1971:54-56).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0249">
+					<persName type="main">Andersson, Carl John (Charles John)</persName>
+					<birth when="1827">1827</birth>
+					<death when="1867">1867</death>
+					<note type="editorial">Swedish explorer of southern Africa. Between 1850 and 1852, he travelled
+						with Francis Galton, attempting to establish routes from the south and west to Lake Ngami. He
+						spent the remainder of his life travelling and trading in southern Africa and published
+						several expeditionary narratives (Koivunen 2009:213, 217).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0250">
+					<persName type="main">Arkwright, Lieutenant Robert</persName>
+					<birth when="1822">1822</birth>
+					<death when="1888">1888</death>
+					<note type="editorial">Army officer in the 7th Dragoon Guards (Essex Record Office). He was a
+						descendant of Sir Richard Arkwright (1732-1792), the Lancashire cotton manufacturer and
+						inventor of the spinning machine. Arkwright met Livingstone at Chonuane in 1846 while on a
+						hunting expedition (Letter to Benjamin T. Pyne, 28th May 1846; Letter to Robert Moffat, 8th
+						September 1846; Anon 1995).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0251">
+					<persName type="main">Artistotle</persName>
+					<birth when="-0384">384</birth>
+					<death when="-0322">322 BC</death>
+					<note type="editorial">Greek philosopher, who studied at Plato's academy and subsequently
+						established his own philosophical school, the Lyceum. His system of thought has had enduring
+						influence on western arts, sciences and ethics.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0252">
+					<persName type="main">Atlas</persName>
+					<note type="editorial">Titan of Greek mythology. Following the Titans' defeat by the Olypmian
+						Gods in the Titanomachy, Atlas was condemned to support the dome of the heavens on his back
+						(Roman and Roman 2010:92).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0253">
+					<persName type="main">Azevedo, Francisco Maria de</persName>
+					<birth>?</birth>
+					<death when="1860">1860</death>
+					<note type="editorial">Merchant, estate-holder and judge in Quelimane (Boucher 1985:93).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0254">
+					<persName type="main">Azevedo, Guilherme Telle Cacio de</persName>
+					<note type="editorial">Portuguese trader situated near the Kwango (or Cuango) river in north
+						central Angola, and formerly resident in Cassange. In Missionary Travels, his name is
+						anglicised to "William Tell." Livingstone met him on 1st March 1855 (Schapera
+						1963,1:222).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0255">
+					<persName type="main">Babinet, Jacques</persName>
+					<birth when="1794">1794</birth>
+					<death when="1872">1872</death>
+					<note type="editorial">Atronomer. From 1838, he was professor at the Collège de France and from
+						1840, a member of the Académie des Sciences. He is best known for his work on the diffraction
+						of light and on meteorological optics, and for his success as a populariser of scientific
+						ideas (Nitschelm 2007:77).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0256">
+					<persName type="main">Baleriling</persName>
+					<note type="editorial">One of the wives of Sechele, the leader of the Kwena, who were returned
+						to their families when he converted to Christianity and rencounced polygamy in 1848 (Jeal
+						2013:80).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0257">
+					<persName type="main">Bango</persName>
+					<note type="editorial">Reference uncertain. Probably a Mbundu chief, as Schapera suggests,
+						resident near Golungo Alto in north-west Angola (Schapera 1963,1:183n1, 2:485).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0258">
+					<persName type="main">Bango</persName>
+					<note type="editorial">Reference uncertain. Probably a Lunda chief, as Schapera suggests,
+						resident in north-eastern Angola (Schapera 1963,2:246n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0259">
+					<persName type="main">Baptista, Pedro João</persName>
+					<note type="editorial">Afro-Portuguese trader. Along with Amaro José, he succeeded in crossing
+						Africa from Angola to Mozambique in the early 19th century. They were "pombeiros" or agents of
+						Lieutenant-Colonel Francisco Honorato da Costa, the Director of the Fair of Mucary in
+						north-west Angola. They reached the kingdom of Kazembe in present-day northern Zambia in 1806
+						and stayed there for four years before continuing to the east coast (Beadle
+						1873:167-69).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0260">
+					<persName type="main">Barth, Heinrich</persName>
+					<birth when="1821">1821</birth>
+					<death when="1865">1865</death>
+					<note type="editorial">German explorer of Africa. His travels between 1849 and 1855, first as
+						part of the British government's Mixed Scientific and Commercial Expedition to Central Africa
+						and subsequently alone, significantly enhanced the available information about west Africa and
+						the Sahara. His published journals did not attract the wider public, but were received as
+						important contributions to geographical scholarship (Ofkansky 2003:78-79).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0261">
+					<persName type="main">Bedingeld, Captain Norman Bernard</persName>
+					<note type="editorial">Naval officer. He was promoted Captain in April 1862. When Livingstone
+						met him in Luanda in June 1854, he was Lieutenant-Commander of the Pluto off the coast of west
+						Africa, where he had been signatory to treaties "with the Chiefs and Headmen of Congo River."
+						He joined Livingstone's Zambezi expedition in 1858 as commander of the steamship, but he
+						resigned in June following irreconcilable differences (Anon 1871:9; Hertslet 1859:17-18; Ross
+						2002:137-38).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0262">
+					<persName type="main">Berry</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0263">
+					<persName type="main">Boston, Thomas</persName>
+					<birth when="1676">1676</birth>
+					<death when="1732">1732</death>
+					<note type="editorial">Scottish theologian and minister of the Church of Scotland, involved in
+						various ecclesiastical controversies in the early 18th century. He was a popular proponent of
+						evangelical Calvinism, writing a range of homiletic works, many of which were published
+						posthumously (Ryken 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0264">
+					<persName type="main">Botha, Andries</persName>
+					<note type="editorial">Veldcornet of Kat River, sentenced to death for high treason in 1852 for
+						allegedly playing a leading role in the Kat River Rebellion (1850-52). His sentence was
+						subsequently commuted to hard labour (McDonald 2010:530; Lester 2001:159).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0265">
+					<persName type="main">Bowdich, Thomas Edward</persName>
+					<birth when="1791">c. 1791</birth>
+					<death when="1824">1824</death>
+					<note type="editorial">Traveller in Africa, and author of geographic and ethnographic
+						literature. In 1816, he joined an expedition to the Asante (in present-day Ghana) organised by
+						the Royal African Company, publishing A Mission from Cape Coast Castle to Ashantee (1819) on
+						his return. Following time in Paris studying natural history, he set out in 1822 on another
+						expedition but died soon afterwards while surveying the Gambia River. Livingstone refers to
+						his history of Portuguese geography in Africa, An Account of the Discoveries of the Portuguese
+						(1824) (Westby-Gibson 2011).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0266">
+					<persName type="main">Bristow</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0267">
+					<persName type="main">Brongniart, Alexandre</persName>
+					<birth when="1770">1770</birth>
+					<death when="1847">1847</death>
+					<note type="editorial">French geologist and mineralogist. He is known for his work on the
+						Tertiary Period and his contributions to geological dating using the fossil record. He became
+						professor of natural history at École Centrale des Quatre-Nations in 1797 and was professor of
+						mineralogy at the National Museum of Natural History in Paris from 1822 (Editors 2009).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0268">
+					<persName type="main">Brougham, Henry Peter, first Baron Brougham and Vaux</persName>
+					<birth when="1778">1778</birth>
+					<death when="1868">1868</death>
+					<note type="editorial">Lawyer and Whig politician. He was an advocate of parliamentary, legal,
+						and educational reform, and a supporter of the abolition of slavery. He was a key figure in
+						founding the Edinburgh Review, the Society for the Diffusion of Useful Knowledge, and the
+						University of London. He was Lord Chancellor from 1830-34. An enthusiast of natural theology,
+						he published a work on the subject in 1835 and, with Sir Charles Bell, an annotated edition of
+						William Paley's Natural Theology in 1836 (Lobban 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0269">
+					<persName type="main">Bruce, James</persName>
+					<birth when="1730">1730</birth>
+					<death when="1794">1794</death>
+					<note type="editorial">Scottish explorer of Africa. From 1763–65, he was Consul-general of
+						Algiers, following which he travelled to Abyssinia with the aim of locating the source of the
+						Nile. In 1770 he visited the "Nile Source" at Gish, which would ultimately prove to feed just
+						one of several Blue Nile tributaries. On his return to Britain, Bruce was lionised but doubts
+						about the reliability of his reports soon circulated. He published his 3000 page Travels to
+						Discover the Source of the Nile (5 volumes) sixteen years later (Leask 2006).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0270">
+					<persName type="main">Buckland, Dean William</persName>
+					<birth when="1784">1784</birth>
+					<death when="1856">1856</death>
+					<note type="editorial">Geologist and Dean of Westminster Abbey. As a result of his research on
+						fauna fossils in Germany and Britain, he acquired a major reputation. For much of his career
+						he was a supporter of diluvian theory, arguing for compatibility between the Genesis account
+						and the geological record. He moved away from the position of a universal flood in his later
+						Geology and Mineralogy (1836). He was appointed to readerships in Oxford in mineralogy (1813)
+						and geology (1818), became Canon of Christ Church in 1825 and Dean of Westminster in 1845
+						(Haile 2014).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0271">
+					<persName type="main">Burchell, William John</persName>
+					<birth when="1781">1781</birth>
+					<death when="1863">1863</death>
+					<note type="editorial">Naturalist and explorer. He began his career at Kew, but became a
+						naturalist for the East India Company at St Helena in 1806. In 1810 he accepted a position in
+						South Africa as the Cape Colony's botanist. Over the next four years, he made expeditions from
+						Griquatown (present-day Griekwastad) that took him across the Cape and as far north as
+						present-day Botswana. He collected over 60,000 specimens and published his two-volume Travels
+						in the Interior of Southern Africa in 1822 and 1824 (Dickenson 2006).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0272">
+					<persName type="main">Burns, Robert</persName>
+					<birth when="1759">1759</birth>
+					<death when="1796">1796</death>
+					<note type="editorial">Scottish poet, regarded as Scotland's "national bard." He is known for
+						his use of Scots language, developing the vernacular style, writing satirical verse, and for
+						composing and collecting popular songs (Leask 2010).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0273">
+					<persName type="main">Canto e Castro, Lieutenant Antonio do</persName>
+					<note type="editorial">Portuguese officer and colonial official. He was a Lieutenant in the
+						Portuguese army, commandant of Golungo Alto in the mid-1850s, and Governor General of
+						Mozambique from 1864-67. Livingstone stayed with him at Golungo Alto from mid October to early
+						December 1854, describing him as a "dear friend." He provides an autograph in Livingstone's
+						journal, signing himself as "Antonio do Canto e Castro, Tenente de Exercito de Portugal, e
+						chefe do Districto do Golungo=alto. (Angola)" (Schapera 1963,1:141n2, 202).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0274">
+					<persName type="main">Carp</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0275">
+					<persName type="main">Carvalho, Commandant Joaquim Maria de</persName>
+					<note type="editorial">Portuguese officer and colonial official. He was appointed as commandant
+						of Tala Mugongo in north central Angola in 1854 (Schapera 1963,1:201n2).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0576">
+					<persName type="main">Carvalho e Mello, Sebastião José de</persName>
+					<birth when="1699">1699</birth>
+					<death when="1782">1782</death>
+					<note type="editorial">Marquis de Pombal. Dominant figure in Portuguese politics between 1750
+						and 1777, during the reign of King Joseph (1714–1777). During his career, he implemented major
+						administrative and commercial reforms. In the late 1750s, he persecuted the Society of Jesus
+						in in a bid to secure his power, imprisoning some of its members while deporting most of them
+						to Rome. Following the death of King Joseph and the coronation of Maria I, he was tried for
+						abuses of power and subsequently exiled from Lisbon (Domingues 2016).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0276">
+					<persName type="main">Catende</persName>
+					<note type="editorial">Not a reference to a specific person. Rather, Livingstone cites the name
+						as a generic example of one regularly recurring in Angola. Not to be confused with the
+						Lunda-Luvale chief, Katende, who name is spelled "Catende" in Livingstone's journals.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0277">
+					<persName type="main">Cathcart, Sir George</persName>
+					<birth when="1794">1794</birth>
+					<death when="1854">1854</death>
+					<note type="editorial">British general. He was appointed Governor and Commander in Chief at the
+						Cape to succeed Sir Harry Smith in 1852, with a directive to establish a colonial parliament
+						and curb the Sotho and Xhosa. He defeated the Xhosa under Sandile and Macomo, adopting an
+						aggressive military course that Livingstone criticised in the manuscript of Missionary Travels
+						(Section IX, excised prior to publication). Cathcart was sent to the Crimean War as Commander
+						of the 4th Division in 1853 where he died during the attack upon Mount Inkerman (Stephens
+						2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0278">
+					<persName type="main">Chester</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0279">
+					<persName type="main">Codrington, Captain William</persName>
+					<note type="editorial">Army officer and sportsman. He was born in Wroughton, Winchester and
+						attended Eton College. He met Livingstone at Kolobeng in 1851, while on a shooting trip in
+						southern Africa with his future brother-in-law, William F. Webb (Schapera 1961:237; Fraser
+						1913:8).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0280">
+					<persName type="main">Cook, Captain James</persName>
+					<birth when="1728">1728</birth>
+					<death when="1779">1779</death>
+					<note type="editorial">Naval officer and explorer. He is best known for his pioneering
+						navigations of the south and north Pacific in the late 1760s and 70s, in which he charted New
+						Zealand and Australia, and circumnavigated Antarctica. He died on Kealakekua Bay in Hawaii in
+						an encounter with local inhabitants during his third scientific expedition to the Pacific, in
+						which he hoped to discover a northwest passage (Villiers 2017).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0281">
+					<persName type="main">Coultait</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0282">
+					<persName type="main">Coulter</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0283">
+					<persName type="main">Cowan, Andrew</persName>
+					<birth when="1778">1778</birth>
+					<death when="1809">c.1809</death>
+					<note type="editorial">Medical Officer and explorer. He served in the 83rd of Foot, an Irish
+						regiment, and in 1808 led a southern African expedition which aimed to cross the subcontinent
+						from the south west of the Cape to Delagoa Bay (present-day Maputo Bay). Following a stop at
+						the Klaarwater mission station, the expedition was not heard of again and in August 1809 its
+						members were presumed dead (Crampton 2012:747-49).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0284">
+					<persName type="main">Cross</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0285">
+					<persName type="main">Culpeper, Nicholas</persName>
+					<birth when="1616">1616</birth>
+					<death when="1654">1654</death>
+					<note type="editorial">Astrologer and physician. He practised as an apothecary in
+						Spittalfields, devoting much of his time to translating Latin medical texts, such as the
+						Pharmacopoeia, into English. He wrote a wide range of popular works on astrological medicine,
+						which sought to make traditional rememedies readily available to the wider public. He was a
+						religious radical and a fervent republican (Curry 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0286">
+					<persName type="main">Cumming, Roualeyn George Gordon</persName>
+					<birth when="1820">1820</birth>
+					<death when="1866">1866</death>
+					<note type="editorial">Hunter and traveller in Africa. His early career was in the military,
+						joining the 4th Madras cavalry in 1838. Between 1843 and 48 he devoted himself to African
+						travel and big game hunting. Following the publication of his bestselling Five Years of a
+						Hunter's Life in the Far Interior of South Africa (1850), he achieved celebrity as the most
+						renowned "lion hunter" of his day (Stephens 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0287">
+					<persName type="main">D'Urban, Sir Benjamin</persName>
+					<birth when="1777">1777</birth>
+					<death when="1849">1849</death>
+					<note type="editorial">British general and colonial governor. He became governor of Antigua in
+						1820 and then British Guiana in 1831. He was appointed commander-in-chief and governor of the
+						Cape in 1833, presiding during the Cape-Frontier War of 1834–35. His actions against the Xhosa
+						roused humanitarian opposition, leading to his dismissal in 1837. In Section IX of the
+						Missionary Travels manuscript, removed prior to publication, Livingstone criticises what he
+						calls the "D'Urban policy" on the Frontier. D'Urban came out of retirement in 1847 to command
+						the military in Canada (Stephens 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0288">
+					<persName type="main">Daintree</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0289">
+					<persName type="main">de Carpo, Arsénio Pompílio Pompeu</persName>
+					<note type="editorial">Portuguese merchant. In 1823, he was sentenced to five years' exile in
+						west Africa for political antagonism, where he became a leading slave trader. He was dismissed
+						from Angola for his activities in the mid-1840s, but returned in 1849. After a period of exile
+						in São Tomé, in 1854 he was elected to the Luanda municipal council and was briefly commandant
+						of Ambaca. Livingstone initially thought de Carpo had "enlightened views" but was subsequently
+						disillusioned. He is discussed in detail in Livingstone's journals (Schapera 1963,1:134-35n5,
+						202-03; Corrado 2007:3-8).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0290">
+					<persName type="main">Denett</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0291">
+					<persName type="main">Dent, Edward John</persName>
+					<birth when="1790">1790</birth>
+					<death when="1853">1853</death>
+					<note type="editorial">Watchmaker. He was one of Britain's most celebrated chronometer makers,
+						and was issued a royal warrant in 1841. He made important experiments with balance springs,
+						built regulator clocks for various observatories, and made improvements to the marine compass
+						(Boase 2007).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0292">
+					<persName type="main">Dew. W</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0293">
+					<persName type="main">Dingane</persName>
+					<birth when="1795">c.1795</birth>
+					<death when="1840">1840</death>
+					<note type="editorial">Second Zulu King (r.1828–40). His brother, Shaka, presided over the Zulu
+						kingdom from 1815, turning it into a major power. Dingane was one of Shaka's earliest
+						supporters, but overthrew him in 1828 and inherited his unstable regime. Dingane's major
+						problem was the increased European presence in Natal as a result of the Great Trek and he
+						became embroiled in conflict with the Boers under Andries Pretorius. Dingane's half brother,
+						Mpande, turned against him in 1840 and defeated him with Afrikaner support (Lipschutz and
+						Rasmussen 1986:56-57).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0294">
+					<persName type="main">Dombo Changamire</persName>
+					<birth>?</birth>
+					<death when="1696">1696</death>
+					<note type="editorial">Founder of the Rozvi empire, a Shona state that flourished from the 17th
+						to 19th centuries in present-day Zimbabwe. He established the kingdom between 1684 and 1696,
+						effectively restricting Portuguese authority and extending dominance across the Zimbabwe
+						plateau. The name Changamire subsequently became a hereditary title of the Rozvi dynasty. The
+						state gave way in the 1830s with the ascendancy of Nguni groups (Msindo 2012:58-59; Lipschutz
+						and Rasmussen 1986:46; Shillington 1989:204-06).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0295">
+					<persName type="main">MacDonald, Donal</persName>
+					<note type="editorial">Not a reference to a specific person. Rather, it is cited by the editor
+						as a generic example of a common name in the Scottish highlands.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0296">
+					<persName type="main">Donovan, Lieutenant E. D.</persName>
+					<note type="editorial">Army officer and explorer. He served in the 83rd of Foot, an Irish
+						regiment. In 1808, he was second-in-command of Andrew Cowan's southern African expedition,
+						which aimed to cross the subcontinent from south west of the Cape to Delagoa Bay (present-day
+						Maputo Bay). Following a stop at Klaarwater mission station, the expedition was not heard of
+						again and in August 1809 its members were presumed dead (Crampton 2012:747-49).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0297">
+					<persName type="main">Duprat, Chevalier Alfredo</persName>
+					<birth when="1810">1810</birth>
+					<death when="1881">1881</death>
+					<note type="editorial">Portuguese Commissioner of the Anglo-Portuguese Mixed Commission for the
+						Suppression of Slavery in Cape Town. He was initially appointed as Arbitrator of the Mixed
+						Commission in 1843 and rose to the rank of Commissioner. Later, Duprat served for many years
+						as Consul-General for Portugal in London. He was elected a fellow of the Royal Geographical
+						Society in 1856 (Niekerk 2004, 3:407; Anon 1881a:669-70; Anon 1881b:165).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0298">
+					<persName type="main">Eliot, John</persName>
+					<birth when="1604">1604</birth>
+					<death when="1690">1690</death>
+					<note type="editorial">Missionary and translator. He emigrated to America in the 1630s as part
+						of the Puritan migration, and spent over forty years as missionary to the Native Americans of
+						eastern Massachusetts. Known by contemporaries as the "Apostle to the Indians", he became
+						proficient in the local Algonquian tongue and developed a corpus of religious works in the
+						language as author and translator. His major achievement was the "Massachusett" Bible (not
+						"Choctaw," as Livingstone writes), published in 1663 (Fausz 2011).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0299">
+					<persName type="main">Eve</persName>
+					<note type="editorial">The first woman, created in the image of God on the sixth day according
+						to the biblical account.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0300">
+					<persName type="main">Faria</persName>
+					<note type="editorial">Reference uncertain. Probably Feliciano da Costa Faria, who was
+						appointed ensign of Golungo Alto on 26th March 1850. He was given leave to go on a trading
+						expedition in September 1853, which would account for his meeting with Livingstone in Cabango
+						in north-eastern Angola in May 1855 (Anon 1850:140; Schapera 1963,2:241n1).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0301">
+					<persName type="main">Ferrão, Anselmo Henriques </persName>
+					<birth when="1812">c.1812</birth>
+					<death when="1867">1867</death>
+					<note type="editorial">Merchant and estate-holder in Mozambique. He was made colonel of the
+						Sena militia in 1842 and later Brigadier of the Second Line. He was part of a major
+						Afro-Portuguese family of Indian background, who had considerable commercial and political
+						powerful in the lower Zambezi valley for much of the 19th century. In his journals,
+						Livingstone mentions "the very great kindness shewn to [him] ... by Mr Ferrão" in May 1856
+						(Anon 1843a:107; Anon 1867:242; Newitt 1995:308, 337; Schapera 1963,2:465)</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0302">
+					<persName type="main">Fleming, George</persName>
+					<birth when="1800">c.1800</birth>
+					<death when="1880">c.1880</death>
+					<note type="editorial">Trader and traveller in southern Africa. He was a member of Oswell's
+						retinue during the journey to Lake Ngami in 1849. He accompanied Livingstone independently as
+						a trader in 1852, travelling from Cape Town to Linyanti to investigate the scope for commerce
+						with the Kololo. He is generally thought to have been an escaped slave of West Indian origin,
+						although some commentators have suggested he was African American (Ross 2002:79; Morton,
+						Ramsay and Mgadla 2008:116).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0303">
+					<persName type="main">Franklin, Benjamin</persName>
+					<birth when="1706">1706</birth>
+					<death when="1790">1790</death>
+					<note type="editorial">American author, statesman, and scientist, known for his research into
+						electricity. He was one of the authors and signatories of the Declaration of Independence, and
+						a representative of the United States to France during the American Revolution. His experiment
+						on the drowned flies, which Livingstone references, is recounted in his letter to the
+						physician M. Dubourg, "Observations on the Generally Prevailing Doctrines of Life and Death"
+						(Wood and Hornberger 2007; Franklin 1793:221-223).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0304">
+					<persName type="main">Gabriel, Edmund</persName>
+					<note type="editorial">Commissioner in the British Portuguese Mixed Commission for the
+						Suppression of the Slave Trade at Luanda. He began his career in the British Navy, serving for
+						seven years in the West African Squadron. He was appointed as arbitrator to the Mixed
+						Commission in 1845 and was subsequently promoted to commissioner. Livingstone stayed with him
+						in Luanda from 31st May to 20th September 1854 (Muchison 1862-63:135; Schapera 1963,1:145,
+						158)</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0305">
+					<persName type="main">Galton, Sir Francis</persName>
+					<birth when="1822">1822</birth>
+					<death when="1911">1911</death>
+					<note type="editorial">Geneticist and eugenicist. From the 1860s he studied human heredity,
+						arguing that the improvement of the human species depended on selective breeding. This idea
+						underpinned the social philosophy he named "eugenics." Galton was also interested in
+						exploration, travelling in southern Africa with Carl Andersson (1850–52) in search of a route
+						to Lake Ngami from the south and west. His travelogue, Tropical South Africa (1852), received
+						an RGS gold medal while The Art of Travel (1855) became an expeditionary handbook (Cowan
+						2005).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0306">
+					<persName type="main">Gando</persName>
+					<note type="editorial">Reference uncertain. A chief of either the Mbangala or the Shinji,
+						resident on the bank of the Kwango (or Cuango) near Cassange.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0307">
+					<persName type="main">Geoffroy Saint-Hilaire, Étienne</persName>
+					<birth when="1772">1772</birth>
+					<death when="1844">1844</death>
+					<note type="editorial">French naturalist. He was appointed superintendent of the cabinet of
+						Zoology at the Jardin des Plantes in 1793, before becoming Chair of Zoology at France's
+						National Museum of Natural History and later professor at the University of Paris. He was an
+						important figure in 19th-century anatomy, developing the principle of the "unity of
+						composition" of vertebrate organisms. Saint-Hilaire also collected specimens in Egypt as part
+						of a large-scale scientific expedition, when Napoleon invaded in 1798 (Charton
+						2003:71-72).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0308">
+					<persName type="main">Goodby</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0309">
+					<persName type="main">Graça, Joaquim Rodrigues</persName>
+					<note type="editorial">Portuguese trader and explorer, who travelled widely in central Africa.
+						He made an expedition to the central Lunda kingdom of the Mwant Yav (or Mwata Yamvo) between
+						1846 and 1848 (Burton 1873:36n; Rego 1972:165; Abshire 1969:62).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0310">
+					<persName type="main">Grant, Charles, Baron Glenelg</persName>
+					<birth when="1778">1778</birth>
+					<death when="1866">1866</death>
+					<note type="editorial">Politician and Colonial Secretary. He was Irish Secretary from 1818-23,
+						privy councillor from 1819-21, President of the Board of Trade from 1827-28, and President of
+						the Board of Control from 1830-34. While Colonial Secretary (1835-39), he collided with the
+						Cape governor, Benjamin D'Urban, over policy in South Africa. As part of British humanitarian
+						circles he disapproved of D'Urban's conduct in the Xhosa wars, refusing to approve the
+						annexation of Xhosa territories in the Ciskei and removing the governor from his post (Martin
+						2008; Etheringon 2001:245).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0311">
+					<persName type="main">Grey, Sir George</persName>
+					<birth when="1812">1812</birth>
+					<death when="1898">1898</death>
+					<note type="editorial">Colonial politician. He held governorships in South Australia (1841-45),
+						Cape Colony (1854-61), and New Zealand (1845-53, 1861-68), and was later elected as New
+						Zealand's premier (1877-79). He was an ardent imperial expansionist, advocating colonial
+						settlement and the acculturation of indigenous peoples through contact with European culture.
+						In South Africa, he took office following the Eighth Xhosa War, where his goal was to
+						consolidate British authority over "Kaffraria," the recently annexed Xhosa territory in the
+						Eastern Cape (Belich 2008; Laband 2009a:100).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0312">
+					<persName type="main">Guericke, Otto von</persName>
+					<birth when="1602">1602</birth>
+					<death when="1686">1686</death>
+					<note type="editorial">German physicist and engineer. He invented the air pump in 1650, which
+						proved foundational to the study of vacuums. In 1663 he invented an electric generator, which
+						used friction to produce static electricity and electroluminescence (Krafft 2000:277-79;
+						Editors 2010).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0313">
+					<persName type="main">Hanno the Navigator</persName>
+					<birth when="-0500">c.500</birth>
+					<death when="-0450">450 BC</death>
+					<note type="editorial">Carthaginian explorer. He was reportedly sent by the Carthaginians to
+						explore and establish settlements on Africa's Atlantic coast. The record of his travel fuelled
+						the appetite for African exploration, from the Renaissance to the nineteenth century (Kaplan
+						2012:24-26).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0314">
+					<persName type="main">Harvey, William</persName>
+					<birth when="1578">1578</birth>
+					<death when="1657">1657</death>
+					<note type="editorial">Physician and anatomist. He made one of the major medical avancements of
+						the modern era, discovering the circulation of the blood and that the heart functioned as a
+						pump driving it around the body. As a radical departure from the theories of Galen, his ideas
+						were initially met with a mixed reception and only gradually accepted (French 2004; Jones
+						2016:372).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0315">
+					<persName type="main">Hay, George</persName>
+					<birth when="1787">1787</birth>
+					<death when="1876">1876</death>
+					<note type="editorial">Eighth Marquess of Tweeddale. Army officer and colonial governor. He
+						joined the army in 1803, and fought in the Peninsular War (1807-14) and the Anglo-American War
+						of 1812 (1812-15). From 1842 to 1848, he was the Governor of Madras and the commander-in-chief
+						of the Madras army. He reached the rank of Field Marshal in 1875 (Keene 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0316">
+					<persName type="main">Hecker, Justus Friedrich Karl</persName>
+					<birth when="1795">1795</birth>
+					<death when="1850">1850</death>
+					<note type="editorial">German physician. He has been credited as the founder of historical
+						pathology. In works such as History of Medicine (Geschichte der Heilkund) (1822), he
+						approached the development of epidemic diseases with a new comparative and historical
+						perspective. He was appointed professor extrordinarius at the University of Berlin in 1822
+						(Huisman and Warner 2004:7).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0317">
+					<persName type="main">Hercules</persName>
+					<note type="editorial">Also Heracles. Hero of classical mythology, appearing in Greek and Roman
+						traditions. He is most famously associated with the twelve "Labours" assigned to him by King
+						Eurystheus. The "Pillars of Hercules" refer to promontories on either side of the Strait of
+						Gibraltar, reputedly established by Hercules in commemoration of his success in appropriating
+						the cattle of the giant, Geryon. The Rock of Gibraltar is regarded as one pillar, while the
+						other is variously identified as Jebel Moussa or Mount Hacho (Roman and Roman 2010:208, 210;
+						Editors 2012).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0318">
+					<!-- Also see pers0049 -->
+					<persName type="main">Herodotus</persName>
+					<birth when="-0484">c.484</birth>
+					<death when="-0430">c.430 BC</death>
+					<note type="editorial">Greek author, whose history of the Greco-Persian Wars is considered to
+						be the first attempt at an expansive historical narrative in the ancient world.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0319">
+					<persName type="main">Herschel, Sir John Frederick William</persName>
+					<birth when="1792">1792</birth>
+					<death when="1822">1822</death>
+					<note type="editorial">Astronomer. He was one of nineteenth-century astronomy's most
+						distinguished figures, publishing his important Treatise on Astronomy in 1833 and helping to
+						found the Royal Astronomical Society. From 1834–38 he directed his research to the southern
+						hemisphere, making extensive observations and catalogues from Cape Colony, which led to his
+						major Results of Astronomical Observations ... at the Cape of Good Hope (1847). His work
+						contributed to the development of stellar astronomy, extending contemporary knowledge of
+						nebular phenomena and double stars (Crowe 2009).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0320">
+					<persName type="main">Hogge, William S.</persName>
+					<birth>?</birth>
+					<death when="1852">1852</death>
+					<note type="editorial">One of two British commissioners who negotiated the Sand River
+						Convention (1852) with Andries Pretorius, which recognised the independence of the Transvaal
+						(Etherington 2001:319).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0321">
+					<persName type="main">Hooker, Sir Joseph Dalton</persName>
+					<birth when="1817">1817</birth>
+					<death when="1911">1911</death>
+					<note type="editorial">Botanist. He is known for his extensive work on botanical taxonomy and
+						the geographical distribution of flora, and for developing the profile of botany as a
+						discipline. He was one of the first public supporters of Darwin's theory of evolution by
+						natural selection. He was assistant director of Kew gardens from 1855 and director from 1865.
+						Livingstone regularly consulted him on botanical questions while writing Missionary Travels.
+						Hooker also provided instructions on botanical observation and collection to members of the
+						Zambezi expedition (Letters to Hooker, 11th July and 28th July 1857; Endersby 2008; Dritsas
+						2010:71-72).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0322">
+					<persName type="main">Horace</persName>
+					<birth when="-0065">65</birth>
+					<death when="-0008">8 BC</death>
+					<note type="editorial">Roman lyric poet and satirist, active during the rule of emperor
+						Augustus. In the nineteenth century, classical literature occupied a central role in British
+						education, particularly among elites.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0323">
+					<persName type="main">Horoye</persName>
+					<note type="editorial">A member of the Khoisan people, who Livingstone met in 1851 on his first
+						journey to visit Sebitwane and again in 1853 (Schapera 1960:9-10).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0324">
+					<persName type="main">Horsburgh, James</persName>
+					<birth when="1762">1762</birth>
+					<death when="1836">1836</death>
+					<note type="editorial">Hydrographer and sailor. Most of his sailing career was spent working
+						shipping routes between India and China, during which time he developed expertise in surveying
+						and collating charts for navigation. In 1810, he was appointed as the East India Company's
+						hydrographer. His major work was the two-volume Directions for sailing to and from the East
+						Indies ... and the Interjacent Ports (1809-11), later known as the India Directory. Revised
+						editions were published by the admiralty into the 1860s (Cook 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0325">
+					<persName type="main">Hoskins, Sir Anthony Hiley</persName>
+					<birth when="1828">1828</birth>
+					<death when="1901">1901</death>
+					<note type="editorial">Naval officer. He spent his early career off the east coast of Africa,
+						and during the Eighth Xhosa War ("War of Mlanjeni," 1850–53) was naval aide-de-camp to Sir
+						Harry Smith. He later served in China, North America, Australia and the Mediterranean,
+						reaching the rank of Admiral and senior Naval Lord. Livingstone wrote to Hoskins on 5th Jan
+						1857, asking him to provide an outline of his opinion on the "safety or otherwise of the ports
+						at the mouths of the Zambesi" (Laughton 2004; Letter to Hoskins, 5th Jan 1857).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0326">
+					<persName type="main">Humboldt, Alexander von</persName>
+					<birth when="1769">1769</birth>
+					<death when="1859">1859</death>
+					<note type="editorial">Prussian explorer and naturalist. In 1797 he travelled to South America
+						with the French botanist Aimé Bonpland to trace the Orinoco, before publishing his findings in
+						twenty-three volumes over the next thirty years. A second expedition to central Asia in 1829
+						was followed by the five volumes of the Kosmos, again over thirty years. Humbolt's work ranged
+						across geology, climatology, botany and zoology and was instrumental to the development of the
+						geographical discipline (Kirk 2005:203).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0327">
+					<persName type="main">Imasiku</persName>
+					<note type="editorial">Lozi chief. When the Kololo conquered the Lozi kingdom in the 1840s, he
+						became an exile and settled north of the Kabompo river. He continued to be involved in
+						skirmishes with the Kololo, the southern Luvale and southern Lunda. Livingstone identifies him
+						as the son of the Lozi king "Santuru" (Mulambwa Santulu), but he was actually the son of
+						Mubukwanu and therefore the grandson of Mulambwa Santulu (Oppen 1993:60; Caplan 1970:10;
+						Schapera 1963,1:9n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0328">
+					<persName type="main">Ionga Panza</persName>
+					<note type="editorial">Chokwe headman, resident near the Luachimo river in north east
+						Angola.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0329">
+					<persName type="main">Isaac</persName>
+					<birth when="-2000">fl. c.2000 BC</birth>
+					<note type="editorial">Hebrew Patriarch. In the biblical book of Genesis, he is the son of
+						Abraham and Sarah, promised to them by God, and the father of Jacob and Esau. In Genesis 22,
+						God commands Abraham to sacrifice Isaac as a test of faith, before instead instructing him to
+						substitute a ram for his son.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0330">
+					<!-- Also see pers0051 -->
+					<persName type="main">Isaiah</persName>
+					<birth when="-0800">fl. 800</birth>
+					<death when="-0700">700 BC</death>
+					<note type="editorial">Prophetic book of the Old Testament, which receives its name from the
+						prophet Isaiah. Isaiah was a messenger to the people of Israel and Judah in a perod of
+						Assyrian expansion, warning of a coming judgement, prophesying the survival of a remnant, and
+						looking forward to the coming of a Messiah (Blank 2007).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0331">
+					<persName type="main">Ishmael</persName>
+					<note type="editorial">Son of Abraham by Hagar, Sarah's servant. In Genesis 21, Ishmael and his
+						mother are driven into the desert as a result of Sarah's resentment. In some traditions,
+						Ishmael is regarded as the ancestor of Muhammad, the prophet of Islam. Livingstone refers to
+						the efforts of some nineteenth-century commentators (such as John Applyard) to trace the Xhosa
+						to a Semitic origin and incorporate them into a biblical genealogy (Gilmour 2006:
+						100-02).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0332">
+					<persName type="main">Jenner, Edward</persName>
+					<birth when="1749">1749</birth>
+					<death when="1823">1823</death>
+					<note type="editorial">Surgeon and physician. He developed the use of vaccination to inoculate
+						against smallpox, one of the most virulent infectious diseases in the eighteenth century. He
+						published his initial findings as Inquiry into the Causes and Effects of the Variolae
+						Vaccinae...Known by the Name of Cow-Pox (1798). Although his investigations were initially
+						subject to some reservations, vaccination soon gained the support of the medical community and
+						was widely implemented (Baxby 2009).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0333">
+					<!-- Also see pers0055 -->
+					<persName type="main">Jesus</persName>
+					<birth from="-0008" to="-0004">c.8-4 BC</birth>
+					<death when="0030">30 CE</death>
+					<note type="editorial">Jesus of Nazareth or Jesus Christ, the central figure of
+						Christianity.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0334">
+					<persName type="main">JM</persName>
+					<note type="editorial">These are the initials of a copy editor, or possibly of Livingstone's
+						publisher, John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0335">
+					<persName type="main">José, Amaro</persName>
+					<note type="editorial">Afro-Portuguese trader. Along with Pedro João Baptista, he succeeded in
+						crossing Africa from Angola to Mozambique in the early 19th century. They were "pombeiros" or
+						agents of Lieutenant-Colonel Francisco Honorato da Costa, the Director of the Fair of Mucary
+						in north-west Angola. They reached the kingdom of Kazembe in present-day northern Zambia in
+						1806 and stayed there for four years before continuing to the east coast (Beadle
+						1873:167-69).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0336">
+					<persName type="main">Iscariot, Judas</persName>
+					<birth>?</birth>
+					<death when="0030">c.30 CE</death>
+					<note type="editorial">One of Jesus' twelve disciples in the New Testament, who betrayed him to
+						the Jewish authorities in return for 30 pieces of silver (Matthew 26:14)</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0337">
+					<persName type="main">Caesar, Julius</persName>
+					<birth when="-0100">c.100</birth>
+					<death when="-0044">44 BC</death>
+					<note type="editorial">Roman statesman and general. Between 58 and 50 BC, he conquered Gaul
+						and considerably extended Roman territory. He was the victor of the civil war (49–45 BC), and
+						was appointed as dictator and tribune of Rome. In 44 BC, he was assassinated at the height of
+						his power by a party led by Brutus and Cassius (Toynbee 2015).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0338">
+					<persName type="main">Kabinje</persName>
+					<note type="editorial">Lunda headman.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0339">
+					<persName type="main">Kaisa</persName>
+					<note type="editorial">Kalanga chief.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0340">
+					<persName type="main">Kakenge</persName>
+					<note type="editorial">Official title of an important Luvale chieftainship. By the 1850s,
+						Kakenge had established considerable connections with Ovimbundu (also known as Mambari)
+						traders and was a major supplier of slaves to Angola (Oppen 1993:73).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0341">
+					<persName type="main">Kamboela</persName>
+					<note type="editorial">Mbangala headman, resident between the Kwilu and Kwango (or Cuango)
+						rivers in north central Angola. He is dismissed in Livingstone's journals as "a stupid sort of
+						man" (Schapera 1963,1:121).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0342">
+					<persName type="main">Kangenke</persName>
+					<note type="editorial">Lunda headman (not to be confused with the major Luvale chieftainship,
+						Kakenge).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0343">
+					<persName type="main">Kangombe</persName>
+					<note type="editorial">Official title of an Ovimbundu chieftainship, based in the Bié region of
+						central Angola (Schapera 1960:162n1).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0344">
+					<persName type="main">Kanyata</persName>
+					<note type="editorial">Member of the Kololo, who was one of the leaders of Livingstone's
+						retinue during his expedition from Linyanti to Mozambique (1855–1856). When Livingstone
+						returned to the Lozi capital in 1860, Kanyata acted as principal leader of the party since
+						Sekwebu had drowned on the crossing between east Africa and Mauritius (Livingstone and
+						Livingstone 1865:156).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0345">
+					<persName type="main">Kaonka</persName>
+					<note type="editorial">Tonga chief, resident near the Kalomo river in present-day Zambia's
+						Southern Province.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0346">
+					<persName type="main">Kapende</persName>
+					<note type="editorial">Also Capende. Lunda headman, under Shinde's authority.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0347">
+					<persName type="main">Kasimakate</persName>
+					<note type="editorial">A Lunda figure who, according to Livingstone, appeared in local
+						traditions about the origin of Lake Dilolo.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0348">
+					<persName type="main">Katema</persName>
+					<note type="editorial">Official title of a Lunda chieftainship, near Lake Dilolo in eastern
+						Angola. Livingstone was warmly received by Katema on his journey to the west coast in February
+						1854 and again on his return to Linyanti in June 1855 (Schapera 1963,1:82-83, 2:259-60; Oppen
+						1993:364).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0349">
+					<persName type="main">Katende</persName>
+					<note type="editorial">Chief, of Lunda and Luvale affiliation, based on the Kasai river in
+						Dilolo territory in what is now the Democratic Republic of the Congo. In Livingstone's
+						journals, his name is also spelled "Catende" (Oppen 1993:197; Schapera 1963,1:98).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0350">
+					<persName type="main">Kawawa</persName>
+					<note type="editorial">Lunda chief, resident near the Kasai river in eastern Angola.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0351">
+					<persName type="main">Kazembe</persName>
+					<note type="editorial">Hereditary title of the chief of the eastern Lunda. During his
+						cross-continental expedition (1853-56), Livingstone gathered reports about this kingdom. He
+						later visited Muonga Sunkutu, Kazembe VII (r. 1862-72), at his capital Kanyembo (in
+						present-day northern Zambia) in 1867 and again in 1868. On the latter visit, the chief
+						provided Livingstone with key geographical information about the Congo river system (Macola
+						2002:4).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0352">
+					<persName type="main">Kebopetswe</persName>
+					<note type="editorial">A member of the Kwena, who was part of Livingstone's retinue in 1853 on
+						his journey from Kolobeng to Linyanti.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0353">
+					<persName type="main">Keir</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0354">
+					<persName type="main">Keith, Rev. Dr. P. H.</persName>
+					<note type="editorial">Church of Scotland minister in Hamilton, Scotland, and president of the
+						Hamilton "Orphan and Charity School Association'. Livingstone made him a gift of manuscript
+						pages of Missionary Travels as well as a signed copy of the published book (Macpherson
+						1862:85, 87; Holograph Fragment 1857:6; Signed Copy, 26th Oct. 1857 ).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0355">
+					<persName type="main">Kerr</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0356">
+					<persName type="main">Ketch, John (Jack)</persName>
+					<birth>?</birth>
+					<death when="1686">1686</death>
+					<note type="editorial">Public executioner. He was well-known in his own day as London's
+						hangman, and was the subject of extensive satire. His name often serves to connote a generic
+						image of an executioner (Wales 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0357">
+					<persName type="main">Kgakge</persName>
+					<note type="editorial">Kwena chief. He was the successor to Sechele's uncle, Bubi, who led a
+						rival portion of the Kwena. Sechele attacked and defeated Kgakge in 1846 (letter to Tidman,
+						10th April 1846).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0358">
+					<persName type="main">Kgari</persName>
+					<note type="editorial">Eldest son of the Kwena chief, Sechele, and his wife Mokgokgong.
+						Although the eldest son, Kgari's half-brother Sebele became heir to Sechele. After Sechele
+						died in 1892 and Sebele took the throne, Kgari spilt from his brother taking a portion of
+						Kwena with him (Morton 2012a:315).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0359">
+					<persName type="main">King Pedro V</persName>
+					<birth when="1837">1837</birth>
+					<death when="1861">1861</death>
+					<note type="editorial">King of Portugal. He assumed the throne in 1853, following the death of
+						his mother, Queen Maria II. His father ruled in his stead as regent for two years, until he
+						was eighteen. He was a politically engaged monarch, with interests in the development of
+						Portugal's African colonies. Livingstone wrote to him on 24th February 1856 to make
+						suggestions for their improvement, and to propose the construction of a road into the African
+						interior (Wheeler and Opello Jr. 2010:208; Wallis 1956:xv-xvi).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0360">
+					<persName type="main">King Solomon</persName>
+					<birth when="-0975">fl. c.975</birth>
+					<death when="-0926">c.926 BC</death>
+					<note type="editorial">Third King of Israel, appearing in I Kings and II Chronicles. He is
+						celebrated in the biblical account for his wisdom and for extending the kingdom of Israel, and
+						is traditionally regarded as the author of the Song of Solomon and various sayings in the Book
+						of Proverbs (Gordon 2015).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0361">
+					<persName type="main">Kobus Hae</persName>
+					<note type="editorial">Possibly a relation of the Griqua trader Hans Hae, who Livingstone
+						refers to several times in his journals and letters (letters to Robert Moffat, 18th Jan and
+						31st Jan, 1849).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0362">
+					<persName type="main">Kolimbota</persName>
+					<note type="editorial">A member of Livingtone's retinue on the journey from Linyanti to the
+						west coast, but who remained at Shinde's in January 1854 purportedly to establish a
+						relationship between the Kololo and southern Lunda.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0363">
+					<persName type="main">Krapf, Johann Ludwig</persName>
+					<birth when="1810">1810</birth>
+					<death when="1881">1881</death>
+					<note type="editorial">German Lutheran missionary in east Africa. He trained at the Basel
+						Mission seminary in Switzerland, before joining the Church Missionary Society and beginning
+						work among the Oromo people in Ethiopia in 1837. Facing resistance from the Ethiopian Orthodox
+						church, he moved to Mobasa in 1844 and then established a mission at Rabai. Krapf made several
+						exploratory expeditions in east Africa. He was the first European to sight Mount Kilimanjaro,
+						with his colleague Johannes Rebmann, and to sight Mount Kenya (Pirouet 1999:375; Lipschutz and
+						Rasmussen 1986:115).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0364">
+					<persName type="main">Kruger, Gerrit Johannes</persName>
+					<note type="editorial">Commandant of the Boers at Magaliesberg. Livingstone came into conflict
+						with Kruger and Andries Potgieter while he was stationed at Kolobeng, as hostilities
+						intensified between the Transvaal Boers and the Kwena. When Livingstone met them in 1848 to
+						propose a new mission school, they threatened him and wrote to the London Missionary Society
+						to request his recall. He was the uncle of Paul Kruger, the future President of the South
+						African Republic (letter to Tidman, 26th May 1849; Schapera 1959,2:9-10n10; Morton
+						2010:31-32).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0365">
+					<persName type="main">Labouchere, Henry, Baron Taunton</persName>
+					<birth when="1798">1798</birth>
+					<death when="1869">1869</death>
+					<note type="editorial">Whig politician and Colonial Secretary. He was elected MP for St
+						Michael's in 1826, and was then MP for Taunton from 1830 until retiring from parliament. His
+						major cabinet appointments were as President of the Board of Trade (1839-41, 1847-52), Chief
+						Secretary for Ireland (1846-47), and Secretary of State for the Colonies (1855-58). He was
+						made Baron Taunton in 1859 and took a seat in the House of Lords (Barker 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0366">
+					<persName type="main">Lacerda e Almeida, Francisco José Maria de</persName>
+					<birth when="1753">1753</birth>
+					<death when="1798">1798</death>
+					<note type="editorial">Brazilian explorer of Africa. He was appointed Governor of the Rios de
+						Sena in Mozambique by the Portuguese government. In 1798 he organised a transcontinental
+						surveying expedition, hoping to establish communication between the Portuguese settlements on
+						the east and west African coasts. Encountering an envoy at Tete from the Lunda King Kazembe,
+						he journeyed towards his capital in the Luapula valley in an effort to commence trade. He died
+						as he approached Kazemebe's town (Macola 2002:2; Lipschutz and Rasmussen 1986:117).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0367">
+					<persName type="main">Lebeole</persName>
+					<note type="editorial">An important member of the Kololo. He assisted Livingstone in preparing
+						for the eastward leg of his transcontinental journey, from Linyanti to Mozambique, in October
+						1855. He later quarelled with Sekeletu and fled to Lake Ngami, where he was killed by
+						Letsholathebe. In Livingstone's journals he is also known as "Motoñka" (Schapera 1860:36n5,
+						130).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0368">
+					<persName type="main">Ledy</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0369">
+					<persName type="main">Lerimo</persName>
+					<note type="editorial">Kololo headman, under the authority of Sebitwane's brother,
+						Mpololo.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0370">
+					<persName type="main">Letsholathebe I</persName>
+					<birth when="1830">c.1830</birth>
+					<death when="1874">1874</death>
+					<note type="editorial">Chief of the Tawana. The Tawana had been conquered by Sebitwane and the
+						Kololo when he was a child. When Letsholatebe became chief, he consolidated the Tawana around
+						Lake Ngami and established trade with the west coast. As Livingstone records, the Kololo
+						attacked the Tawana in 1854. Letsholatebe remained under pressure from Sekeletu, until the
+						Kololo were overthrown by the Lozi in 1864 (Lipschutz and Rasmussen 1986:121; Schapera
+						1963,2:277, 290).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0371">
+					<persName type="main">Liula</persName>
+					<note type="editorial">Member of the Lunda, resident at Cabango in north-east Angola.
+						Livingstone suggests that he was a son of the previous Mwant Yav of the central Lunda, Nawej,
+						who had died in 1852.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0372">
+					<!-- Also see pers0078 -->
+					<persName type="main">Livingstone, David</persName>
+					<birth when="1813">1813</birth>
+					<death when="1873">1873</death>
+					<note type="editorial">Famous Victorian explorer, missionary, and abolitionist. Renowned for
+						his travels across Africa and extensive manuscript corpus.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0373">
+					<persName type="main">Livingstone, Mary</persName>
+					<birth when="1821">1821</birth>
+					<death when="1862">1862</death>
+					<note type="editorial">Missionary in southern Africa. In Setswana, she was known as
+						"Ma-Robert," which means "mother of Robert." The daughter of missionaries, Robert and Mary
+						Moffat, she was born in Bechuanaland and grew up in Kuruman. With David Livingstone, her
+						husband, she established missions at Mabotsa, Chonuane, and Kolobeng and made an expedition to
+						Lake Ngami (1850). During Livingstone's cross-contintental expedition, Mary spent several
+						unhappy years in Britain. She travelled to central Africa to join the Zambezi expedition in
+						1862, but died shortly afterwards (Davidson 2012:XIII-XV).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0374">
+					<persName type="main">Livingstone, Robert</persName>
+					<birth when="1846">1846</birth>
+					<death when="1864">1864</death>
+					<note type="editorial">Eldest child of David Livingstone. He spent his early years in southern
+						Africa, and did not adjust well to life in Britain when sent there with his mother and
+						siblings in 1852. During Livingstone's Zambezi expedition, Robert failed to sustain a good
+						relationship with his guardians and refused to pursue higher education. Later, he sailed to
+						Boston and fought in the Union Army during the American Civil War. He was taken prisoner in
+						Virginia and died at a prisoner of war hospital in North Carolina (Ross 2002:53, 114,
+						188-91).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0375">
+					<persName type="main">Loyanke</persName>
+					<note type="editorial">A member of Livingstone's retinue, during his expedition between
+						Linyanti and Angola (1853–1855).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0376">
+					<persName type="main">Macaulay, Thomas Babington</persName>
+					<birth when="1800">1800</birth>
+					<death when="1859">1859</death>
+					<note type="editorial">Also Baron Macaulay. Historian and politician. He is best known for his
+						five-volume History of England, which proved important in shaping the "Whig" narrative of
+						national history. He was also a poet, publishing the Lays of Ancient Rome (1842), and a major
+						essayist. His contentious Minute on Indian Education (1835) argued that all "native" education
+						in India should occur in English. Macaulay entered parliament in 1830 and the peerage in 1857.
+						He served in the Supreme Council of India from 1834-38, as Secretary at War from 1839-41, and
+						as Paymaster-General from 1846-48 (Thomas 2015).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0377">
+					<persName type="main">Maclear, Sir Thomas</persName>
+					<birth when="1794">1794</birth>
+					<death when="1879">1879</death>
+					<note type="editorial">Astronomer. He was appointed to the Royal Observatory in the Cape of
+						Good Hope in 1834, which he established as a major observatory over the next thirty-six years.
+						He was interested in African exploration, training Livingstone in 1852 to take latitudinal and
+						longitudinal readings and correcting the observations from his cross-continental expedition.
+						Livingstone considered dedicating Missionary Travels to Maclear (alongside Roderick Murchison)
+						in gratitude for his assistance (Elliott 2007:722-23; Evans 2009; Letter to Murray, 4th August
+						1857).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0378">
+					<persName type="main">Mahale</persName>
+					<note type="editorial">Kololo headman.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0379">
+					<persName type="main">Maher</persName>
+					<note type="editorial">Traveller in southern Africa. He accompanied Joseph McCabe on his
+						expedition across the Kalahari to Lake Ngami in 1852. He remained at the lake while McCabe
+						travelled further north (McCabe 1963:413-24).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0380">
+					<persName type="main">Mahura</persName>
+					<note type="editorial">Tlhaping chief, resident at Taung. Livingstone records meeting him at
+						Kuruman in September 1852 (letter to William Thompson, 30th Sept 1852).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0381">
+					<persName type="main">Mai Munene</persName>
+					<note type="editorial">Official title of a Lunda chieftainship in the region of the Mai Munene
+						waterfall on the Kasai River, in what is now the Kasai Province of the Democratic Republic of
+						the Congo (Oliver and Atmore 2001:186).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0382">
+					<persName type="main">Majane</persName>
+					<note type="editorial">Nambya headman, resident in the Mababe depression.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0383">
+					<persName type="main">Makaba II</persName>
+					<birth when="1760">c.1760s</birth>
+					<death when="1824">1824</death>
+					<note type="editorial">Chief of the Ngwaketse. He was a dominant military leader in the
+						southern Kalahari, and successfully extended the strength and influence of the Ngwaketse
+						state. He was defeated and killed by the Kololo led by Sebitwane, who had recently migrated
+						north (Morton, Ramsay and Mgadla 2008:206-07; Lipschutz and Rasmussen 1986:132).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0384">
+					<persName type="main">Makoma</persName>
+					<note type="editorial">Although Livingstone refers to "Makoma" as a personal name in Missionary
+						Travels, his journals suggest that he may mean the Makoma people, a group resident on the
+						Luanginga river (in what is now Zambia's Western Province) and absorbed by the Lozi (Schapera
+						1963,1:19, 23).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0385">
+					<persName type="main">Maleke</persName>
+					<note type="editorial">Acting Kwena chief (r. 1803-1805), prior to the chieftainship of his
+						nephew, Motswasele II (Sechele's father) (Schapera 1960:99n7).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0386">
+					<persName type="main">Mamidi Bogatsu</persName>
+					<note type="editorial">Kololo aristocrat and the maternal uncle of Sekeletu. After Sekeletu's
+						death in 1863, he was a contender for the throne, supported by elders among the Kololo.
+						Defeated by those backing Mpololo's claim, he and his party fled to Lake Ngami were he was
+						killed by the Tawana chief, Letsholathebe (Kalusa 2009:69, 73, 76).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0387">
+					<persName type="main">Manchunyane</persName>
+					<birth when="1843">c.1843</birth>
+					<death>?</death>
+					<note type="editorial">Identified in Missionary Travels as Sebitwane's daughter, though the
+						same name is given to an individual described as Sebitwane's sister in Narrative of an
+						Expedition to the Zambesi (Livingstone and Livingstone 1865:276).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0388">
+					<persName type="main">Manenko</persName>
+					<note type="editorial">Lunda chief and niece of Shinde, the paramount chief of the southern
+						Lunda. She met Livingstone in January 1854 and provided him with an escort to Shinde.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0389">
+					<persName type="main">Mankopane</persName>
+					<note type="editorial">Langa chief, resident in the northwest Transvaal. From the 1840s, the
+						Langa and the Kekana came into conflict with Trekboers who had arrived in the region.
+						Following a collision in 1854 in which they killed almost 30 Boers, they were pursued by
+						commandos from Zoutpansberg and Pretoria and were besieged in a cave. After holding out for
+						several weeks, hundreds were killed as they attempted to escape. Mankopane continued to be
+						assailed by the Boers over the next decade (Stapleton 2017,1:197-08).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0390">
+					<persName type="main">Marimba</persName>
+					<note type="editorial">Probably a Toka-Leya headman. He was resident to the north east of
+						Victoria Falls, near the Ngwezi stream in present-day Zambia's Southern Province.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0391">
+					<persName type="main">Marques, José Lourenço</persName>
+					<note type="editorial">Portuguese officer. He was commandant of Icollo e Bengo, near Luanda,
+						before being appointed commandant of Ambaca in northwest Angola in 1854. He had a long
+						military career, attaining the rank of colonel, and was the chief of police in Luanda for over
+						a decade (Figueiredo 1864:6; Schapera 1963:160n4).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0392">
+					<persName type="main">Mary, Queen of Scots</persName>
+					<birth when="1542">1542</birth>
+					<death when="1587">1587</death>
+					<note type="editorial">Also Mary Stuart. Queen of Scotland from 1542–67. Many Roman Catholics
+						in Britain, who did not recognise Henry VIII's marriage to Anne Boleyn and consequently held
+						Queen Elizabeth to be illegitimate, viewed Mary as the rightful claimant of the English
+						throne. Regarded by Elizabeth as a threat to her sovereignty, she was held prisoner for
+						eighteen years before being tried and executed in 1587 (Fraser 2017).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0393">
+					<persName type="main">Mashawana</persName>
+					<note type="editorial">A member of the Lozi people, who was part of Livingstone"s retinue
+						during his expedition between Linyanti and Angola (1853–1855).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0394">
+					<persName type="main">Mathew, Father Theobald</persName>
+					<birth when="1790">1790</birth>
+					<death when="1856">1856</death>
+					<note type="editorial">Capuchin priest and temperance campaigner. He was ordained in the
+						Capuchin order in 1814, and became a public supporter of total abstinence in 1838 when he
+						became leader of the Cork Teetotal Society. He was a major figure in the temperance movement,
+						conducting many "crusades" around Ireland in response to social problems exacerbated by
+						drinking. He also conducted crusades in Scotland (1842), England (1843), and America
+						(1849–51), where he mainly succeeded with Irish immigrants (Kerrigan 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0395">
+					<!-- Also see pers0095 -->
+					<persName type="main">Matiamvo</persName>
+					<note type="editorial">Not to be confused with the paramount chief of the central Lunda whose
+						royal title was Mwant Yav. This individual was a Chokwe chief, using what Livingstone called
+						"a favourite title" which was "appropriated by many aspirants" (Schapera 1963,1:111).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0396">
+					<persName type="main">Matlatle</persName>
+					<note type="editorial">Presumably a member of the Kgatla community resident near Livingstone's
+						Mabotsa mission station.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0397">
+					<persName type="main">McCabe, Joseph</persName>
+					<birth when="1816">1816</birth>
+					<death when="1870">1870</death>
+					<note type="editorial">Trader and explorer of southern Africa. In the 1840s he established
+						himself as a hunter and trader near Potchefstroom. In 1852, he made an expedition across the
+						Kalahari to Lake Ngami and continued north for 250 miles, meeting Livingstone on his return
+						journey. He collected botanical specimens from Ngami and the Chobe which were subsequently
+						sent to W. J. Hooker at Kew Gardens (Gunn and Codd 1981:236).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0398">
+					<persName type="main">McClune, Commander James P.</persName>
+					<birth>?</birth>
+					<death when="1856">1856</death>
+					<note type="editorial">Naval officer. He was the second master of H. M. Brigantine Dart, a ship
+						commissioned for the coast of Africa in 1847. Tasked with enquiring after Livingstone at
+						Quelimane, he took command of the cutter on Tuesday 29th April to sail over the bar of the
+						Cuácua and upriver to Quelimane. Overturned by heavy waves, five members of the crew made it
+						to shore but McClune, Lieutenant Woodruff and the others drowned (Anon 1848:101 ; Nolloth
+						1857:5; Anon 1856a:813).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0399">
+					<persName type="main">McWilliam, Dr James Ormiston</persName>
+					<birth when="1808">1808</birth>
+					<death when="1862">1862</death>
+					<note type="editorial">Epidemiologist and naval doctor. From 1832-36 he served on the west
+						coast of Africa as surgeon to H.M.S. Scout. He joined the Niger expedition (1841-42) as senior
+						surgeon to the Albert, the steamer that progressed furthest upriver. On his return, he
+						published a detailed examination of the tropical fever that decimated the party, Medical
+						History of the Niger Expedition (1843), and soon afterwards was commissioned to report on an
+						epidemic of yellow fever in Boa Vista (1845-46). He became medical officer of Custom House in
+						1847 and fellow of the Royal Society in 1848 (Greenhill 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0400">
+					<persName type="main">Mead</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0401">
+					<persName type="main">Mebalwe</persName>
+					<note type="editorial">Tswana evangelist. He had been converted at Kuruman and subsequently
+						joined Livingstone as a teacher, first at the Mabotsa mission and then at Chonuane and
+						Kolobeng. Mebalwe's work was supported by funds secured by Livingstone from an Independent
+						congregation in Cambuslang, Scotland (Blaikie 1880:56; Schapera 1959,1:90n4).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0402">
+					<!-- Also see pers0098[?] -->
+					<persName type="main">Merere</persName>
+					<birth>?</birth>
+					<death when="1860">1860</death>
+					<note type="editorial">Official title of the Sangu (also known historically as the Rori).
+						Livingstone refers to Merere I Mwahavanga, who borrowed Ngoni patterns of warfare and
+						established the Sangu as a major presence in the southern highlands of present-day Tanzania
+						(Iliffe 1979:56).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0403">
+					<persName type="main">Miranda</persName>
+					<birth>?</birth>
+					<death when="1869">1869</death>
+					<note type="editorial">Reference uncertain. Probably Joaquim Romão de Miranda, ensign in the
+						Portuguese army at Mozambique, promoted lieutenant in March 1855. He was appointed by Major
+						Tito Augusto d'Araujo Sicard to escort Livingstone from Tete to Quelimane between 22nd April
+						and 20th May 1856. He later became a trader and was killed in action fighting Bonga (António
+						Vicente da Cruz), a powerful Afro-Portuguese estate-holder in the Zambezi valley (Anon
+						1867:132; Schapera 1963,2:455n4).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0404">
+					<persName type="main">MmaBogosing</persName>
+					<note type="editorial">Wife of Mahura, chief of the Tlhaping. "Mma-Bogosing" means "mother of
+						Bogosing," who was Mahura's eldest son (Schapera 1959,2:203n16).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0405">
+					<persName type="main">MmaMotsisane</persName>
+					<note type="editorial">Governor of the central province of Kololo territory, and daughter of
+						the Kololo chief Sebitwane. She succeeded her father when he died in 1851, but abdicated the
+						chieftainship in favour of her half-brother Sekeletu (Sheldon 2016:171).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0406">
+					<persName type="main">Mmanku</persName>
+					<note type="editorial">Wife of Sebitwane. Livingstone records that she was from the Ndebele
+						people (Schapera 1960:132).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0407">
+					<persName type="main">MmaSebele</persName>
+					<note type="editorial">Also Selemeng. Wife of the Kwena chief, Sechele. Her name was Selemeng,
+						but she was also referred to as MmaSebele (which means "mother of Sebele"). When Sechele
+						converted to Christianity and renounced polygamy in 1848, MmaSebele was the wife he retained
+						(Parsons 1998:39; Urban-Mead 2002:66n32).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0408">
+					<persName type="main">MmaSekeletu</persName>
+					<note type="editorial">Also Setloutlou. Wife of the Kololo chief, Sebitwane, and mother of
+						Sekeletu. Her name was Setloutlou, but she was also referred to as Mma-Sekeletu (which means
+						"mother of Sekeletu") (Schapera 1960:29n2).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0409">
+					<persName type="main">MmaSina</persName>
+					<note type="editorial">Presumably a member of the southern Tswana community at Kuruman mission
+						station.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0410">
+					<persName type="main">Moffat, Mary</persName>
+					<birth when="1795">1795</birth>
+					<death when="1871">1871</death>
+					<note type="editorial">Missionary in southern Africa and mother-in-law of David Livingstone.
+						Alongside her husband, Robert Moffat, she worked to establish Kuruman station as a major hub
+						of missionary activity. She participated in public evangelism, and worked with women and
+						children in education and bible study. Her relationship with Livingstone was sometimes
+						strained, as a result of his treatment of her daughter Mary. She was a prolific correspondent,
+						whose letters provide insight into nineteenth-century missionary life (Elbourne 2007).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0411">
+					<persName type="main">Moffat, Robert</persName>
+					<birth when="1795">1795</birth>
+					<death when="1883">1883</death>
+					<note type="editorial">Missionary and father-in-law of David Livingstone. In 1816, he was sent
+						to southern Africa by the London Missionary Society to work among the Tswana. He was appointed
+						to lead the Dithakong mission (known by contemporaries as "Lattakoo") to the Tlhaping, which
+						he moved in 1824 to New Dithakong (or "New Lattakoo"). Renamed Kuruman, this station became
+						the centre of southern African missionary activities. Moffat made the first efforts to
+						transcribe seTswana, producing a spelling book (1826), and translations of the New Testament
+						(1838) and complete Bible (1857) (Elbourne 2007).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0412">
+					<persName type="main">Mogogo</persName>
+					<note type="editorial">Livingstone's use suggests this is a title held among the Gogo people,
+						of what is now central Tanzania. However, the title actually used by Gogo clans is "mtemi'
+						(Maddox 2015:140).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0413">
+					<persName type="main">Mohorisi</persName>
+					<note type="editorial">Member of the Kololo, who acted as one of the two leaders of
+						Livingstone's retinue during his expedition between Linyanti and Angola (1853–1855).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0414">
+					<persName type="main">Mokantsa</persName>
+					<note type="editorial">Member of the Khoisan people, who Livingstone met in 1853.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0415">
+					<persName type="main">Mokgari</persName>
+					<note type="editorial">Reference uncertain. Schapera speculates that he may have been an early
+						leader among the Kololo (Schapera 1963,2:364n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0416">
+					<persName type="main">Mokgokong</persName>
+					<note type="editorial">Wife of the Kwena chief, Sechele, and daughter of the Ngwato chief,
+						Kgari. She was one of the wives rejected when Sechele renounced polygamy in 1848, although she
+						fell pregnant by him the following year. Mokgokong later returned to the Ngwato at Shosong and
+						remarried. Livingstone refers to her as "Mabalerileng" or the "mother of Balerileng."
+						Schapera, however, notes that there is no record of a child by this name and suggests that it
+						may be another name for her daughter, Bantshang (Schapera 1960:88n7; Parsons 1998:39;
+						Urban-Mead 2002:69n64).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0417">
+					<persName type="main">Monahin</persName>
+					<note type="editorial">Member of the Kololo, who was part of Livingstone's retinue during his
+						expedition from Linyanti to Mozambique (1855–1856). He joined the party at Victoria Falls with
+						the responsibility of leading the Toka-Leya members of the group, but disappeared without
+						trace during the night of 21st February 1856. In Livingstone's journals he is known as
+						'Monageñ" (Schapera 1963,2:411).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0418">
+					<persName type="main">Monenga</persName>
+					<note type="editorial">A Lunda figure who, according to Livingstone, appeared in local
+						traditions about the origin of Lake Dilolo.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0419">
+					<persName type="main">Monze</persName>
+					<note type="editorial">Important title amongst the Tonga in south central Zambia, whose holders
+						were known as prophets and rainmakers. Livingstone probably met Monze Mayaba, a widely
+						celebrated rainmaker in mid-19th century southern Zambia. The extent of the authority that the
+						Monze title had amongst the Tonga is subject to debate (Vickery 1986:17-18; Colson 2006:67,
+						121).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0420">
+					<persName type="main">Morantsiane</persName>
+					<note type="editorial">Also Mulanziane. Official Kololo title for the headman or viceroy of
+						Sesheke. When Sekeletu contracted a degenerative skin around 1860, he put Morantsiane to death
+						on the charge of "bewitching the Chief with leprosy" (Kalusa 2009:75; Livingstone and
+						Livingstone 1865:270).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0421">
+					<persName type="main">Moremi</persName>
+					<note type="editorial">Kololo headman, whose village on the Chobe was northeast of the Kololo
+						capital, Linyanti. Not to be confused with Moremi I, the chief of the Tawana.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0422">
+					<persName type="main">Moremi I</persName>
+					<birth>?</birth>
+					<death when="1830">1830</death>
+					<note type="editorial">Chief of the Tawana. He was the son of the group's founder, Tawana I,
+						who had split with the Ngwato following a succession dispute in the 1790s. Moremi came to
+						power about 1820, having conflicted with his father and usurped him. He was defeated around
+						1830 by the Kololo under Sebitwane, who then established dominance over the Tawana over the
+						next decade. Not to be confused with the Kololo headman, also named Moremi (Tlou and Campbell
+						1984: 98-99; Morton, Ramsay and Mgadla 2008:325).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0423">
+					<persName type="main">Morison, James</persName>
+					<birth when="1770">1770</birth>
+					<death when="1840">1840</death>
+					<note type="editorial">Creator of the "Universal Vegetable Pill." The tablet was a strong
+						purgative, which he advertised as a general remedy for ill health. He developed what he called
+						the "Hygeian system," which attributed all sickness to pollutants in the blood that could only
+						be eradicated by purging. Although opposed by the medical community, and widely satirised,
+						Morison marketed his pills relentlessly and they sold widely (Corley 2010).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0424">
+					<persName type="main">Moroa Majane</persName>
+					<note type="editorial">Acting headman of a Nambya settlement in the Mababe depression.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0425">
+					<persName type="main">Mosantu</persName>
+					<note type="editorial">Member of the Tonga people, who was part of Livingstone's retinue during
+						his expedition between Linyanti and Angola (1853–1855).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0426">
+					<persName type="main">Moshoeshoe I</persName>
+					<birth when="1786">c.1786</birth>
+					<death when="1870">1870</death>
+					<note type="editorial">Founder and king of the Basuto nation. Originally a minor chief in the
+						Caledon valley, he attracted Sesotho-speaking refugees dispersed during the Mfecane. He became
+						one of the most effective leaders in nineteenth-century southern Africa, establishing a major
+						state in the area of present-day Lesotho. From the 1840s he clashed with Afrikaners, which
+						escalated following the creation of the Orange Free State. Border disputes with the Boer
+						republic compelled him to appeal to Britain for protectorate status, which was introduced in
+						1868 (Lipschutz and Rasmussen 1986:153-54; Saunders 2012:268).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0427">
+					<persName type="main">Mosisinyane</persName>
+					<note type="editorial">Member of the Kololo, who was part of Livingstone's retinue during his
+						expedition from Linyanti to Mozambique (1855–1856). He was responsible for leading the Nambya
+						members of the party.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0428">
+					<persName type="main">Mosogo</persName>
+					<note type="editorial">A Lunda figure who, according to Livingstone, appeared in local
+						traditions about the origin of Lake Dilolo.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0429">
+					<persName type="main">Motswasele II</persName>
+					<birth when="1785">c.1785</birth>
+					<death when="1821">1821</death>
+					<note type="editorial">Chief of the Kwena between c.1807 and 1821. He was a tyrannical leader,
+						who was eventually assassinated by his brothers. His overthrow precipitated the fragmentation
+						of the Kwena, who were later reunited by the efforts of Motswasele's son, Sechele (Morton
+						2012b:318-19; Morton, Ramsay and Mgadla 2008:237).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0430">
+					<persName type="main">Mozinkwa</persName>
+					<note type="editorial">Lunda headman. Livingstone records meeting him in Feburary 1854 and June
+						1855. In his journals, Livingstone refers to him as "Zamozingwa" (Livingstone 1963, 1:
+						76).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0431">
+					<persName type="main">Mpepe</persName>
+					<note type="editorial">Kololo chief and governor of Naliele. He was Sebitwane's nephew, and
+						part of the generation who had journeyed with him to the Zambezi valley. From Naliele, he
+						established military and economic dominance, becoming the most powerful member of the Kololo
+						after Sebitwane. He resisted Sekeletu's claim to the throne, depriving him of inherited wealth
+						(in the form of cattle), and defying him by extending unauthorised trade and raiding
+						expeditions. In 1853, he attempted to overthrow Sekeletu but was outmanoeuvred and executed
+						(Kalusa 2009:74-75).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0432">
+					<persName type="main">Mpololo</persName>
+					<note type="editorial">Kololo chief and younger brother of Sebitwane. He was an important ally
+						of Sekeletu, and rose to the governorship of Naliele after the execution of Mpepe in 1853.
+						Following Sekeletu's death in 1863 he took the Kololo throne, but was overthrown in 1864 by
+						the Lozi who had been subject to the Kololo for over twenty years (Kalusa 2009:76-77).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0433">
+					<persName type="main">Mr Feltao</persName>
+					<note type="editorial">Reference uncertain. Livingstone probably means Joaquim Pinheiro Falcão,
+						who was appointed commandant of the Samba area of Ambaca in 1854 (Schapera
+						1963,1:203n3)</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0434">
+					<persName type="main">Mr Mellot</persName>
+					<note type="editorial">Reference uncertain. Livingstone is possibly referring to Jacintho da
+						Costa Mello, an individual known to be resident in north-west Angola in the mid 1850s
+						(Schapera 1963,1:137n5).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0435">
+					<persName type="main">Mr Miland</persName>
+					<note type="editorial">Reference uncertain. Livingstone calls this person both "Miland" and
+						"Miranda" in his journals. He may be referring to Antonio Gomes de Miranda, an individual
+						known to be resident in north-central Angola in the mid-1850s (Schapera 1963,1:133n2,
+						212).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0436">
+					<persName type="main">Mrs Caudle</persName>
+					<note type="editorial">Title character of "Mrs Caudle's Curtain Lectures," a comedy serial by
+						Douglas William Jerrold published in Punch in 1845. In her "lectures," Mrs Caudle berates her
+						husband for his shortcomings as they prepare for bed (Henkle 1980).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0437">
+					<persName type="main">Muanzanza</persName>
+					<note type="editorial">Lunda chief resident in Cabango in north-east Angola. According to
+						Livingstone, he was closely affiliated with the Mwant Yav of the central Lunda.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0438">
+					<persName type="main">Muhammad</persName>
+					<note type="editorial">Prophet or founder of Islam.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0439">
+					<persName type="main">Mujala</persName>
+					<note type="editorial">Headman of a Toka-Leya village near Victoria Falls (Mubitana
+						1975:64).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0440">
+					<persName type="main">Mukuni</persName>
+					<note type="editorial">Official title of a Leya chiefdom near Victoria Falls. The Mukuni
+						dynasty claims Lenje origins, tracing its antecedents to the Kabwe area in central Zambia. The
+						first Mukuni probably migrated south and settled around Victoria Falls at the start of the
+						18th century, but some Leya traditions claim a date as early as the 15th century (Mubitana
+						1975:60-62).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0441">
+					<persName type="main">Mulambwa Santulu</persName>
+					<birth when="1780">c. 1780</birth>
+					<death when="1835">1835</death>
+					<note type="editorial">Lozi king. He came to power in 1790, having usurped his brother
+						Musananyanda. He centralised the Lozi nation, consolidating control over neighbouring groups
+						and extending the state's territory. Following his death, the Lozi entered a period of
+						internal disunity which continued until the Kololo invasion in the 1840s (Lipschutz and
+						Rasmussen 1986:161).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0442">
+					<persName type="main">Murray, Mungo</persName>
+					<note type="editorial">Hunter and explorer. He spent the year 1845 hunting in southern Africa
+						with William Cotton Oswell, during which time he also met Livingstone. He returned to Africa
+						again in 1849 to participate in the expedition to Lake Ngami (Oswell 1900:viii, ix; Letter to
+						Robert Moffat, 22nd Sept. 1845).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0443">
+					<persName type="main">Mutibe</persName>
+					<note type="editorial">Important member of the Kololo and advisor to his son-in-law, Sekeletu.
+						Livingstone reports that he was involved in the execution of Raunkwe, whose son Mpepe had
+						conspired against Sekeletu when he inherited the Kololo throne. In his journals, Livingstone
+						refers to him as "Mothibe" (Kalusa 2009:69; Schapera 1960:200-01).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0444">
+					<persName type="main">Mwant Yav.</persName>
+					<note type="editorial">Also Mwata Yamvo. Official title of the paramount chief of the central
+						Lunda (also known as the Ruund). Other Lunda polities traced their origin to the Ruund state
+						and derived status from its royal title. During Livingstone's cross-continental expedition,
+						the long reign of Mwant Yav Nawej (r. c.1820–52), which had extended central Lunda power, had
+						recently come to an end. His brother Mulaj (r. 1852–57) had begun a short rule characterised
+						by internal struggle. Livingstone gathered reports about the Mwant Yav but did not visit him
+						(Macola 2016:34; Vellut 1989:316-18).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0445">
+					<persName type="main">Mwena Kikanje</persName>
+					<note type="editorial">Chokwe chief, resident on the Kwilu river in north-eastern Angola. In
+						Livingstone's journals, he is referred to as "Moana-a-Cange" (Schapera 1963,1:234).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0446">
+					<persName type="main">Mzilikazi</persName>
+					<birth when="1795">c.1795</birth>
+					<death when="1868">1868</death>
+					<note type="editorial">Founder and king of the Ndebele nation. His father was chief of a
+						Khumalo clan, but he spent his youth with the Ndwandwe led by his grandfather, Zwide. When
+						Zwide was defeated by Shaka in 1818, Mzilikazi joined the Zulu empire. Splitting with Shaka
+						around 1820, he migrated north, conquering and assimilating a range of groups. Following
+						collisions with Afrikaners in the Transvaal, he founded his kingdom, Matabeleland, in
+						present-day Zimbabwe around 1840. Mzilikazi consolidated his state using military and
+						political methods learned from the Ndwandwe and Zulu (Musemwa 2012:277-78; Lipschutz and
+						Rasmussen 167-68).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0447">
+					<persName type="main">Napier, Sir Charles</persName>
+					<note type="editorial">Livingstone refers to two cousins of this name. Sir Charles James Napier
+						(1782–1853) fought in the Peninsular (1808–14) and Anglo-American (1812–15) wars, was military
+						resident on Cephalonia (1821–30), and commanded the troops in Sindh (1842–47) where he also
+						became governor. Sir Charles Napier (1786–1860) fought in the Napoleonic (1799–1814) and
+						Anglo-American (1812–15) wars, commanded fleets in the Miguelite (1828-34), Egyptian-Ottoman
+						(1839-41) and Crimean (1853–56) wars, and served as Liberal MP (1841–46 and 1855–60) (Embree
+						2008; Lambert 2011).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0448">
+					<persName type="main">Napier, Sir George Thomas</persName>
+					<birth when="1784">1784</birth>
+					<death when="1855">1855</death>
+					<note type="editorial">Military officer and colonial governor. He was commander-in-chief and
+						governor of Cape Colony from 1837 to 1843, where he was faced with the gathering pace of the
+						"Great Trek" and the task of enforcing the recent abolition of slavery. In 1838, he oversaw
+						the creation of a new education department in the colony, on the advice of Sir John Herschel
+						and the Cape government's chief secretary, Sir John Bell. He was promoted major general in
+						1837, lieutenant general in 1846, and full general in 1854 (Olson and Shadle 1996, 2:778;
+						MacKenzie and Dalziel 2007:185; Chicester 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0449">
+					<persName type="main">Need, Captain Henry</persName>
+					<note type="editorial">Naval officer. He was captain of H.M.S. Linnet, a vessel employed in
+						west Africa in suppressing the slave trade. In 1855, he was signatory to a treaty with the
+						"chiefs of Ambrizette" in Angola, whose articles guaranteed free trade for Britain and
+						outlawed slave traffic. From 1852-56, Need produced a collection of 143 watercolours now held
+						by the National Maritime Museum, Greenwich. He provided Livingstone with sketches of African
+						scenes for Missionary Travels and Narrative of an Expedition (Hertslet 1859:27-28; Koivunen
+						2009:152).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0450">
+					<persName type="main">Neves, Captain Antonio Rodrigues</persName>
+					<note type="editorial">Portuguese merchant, resident in Cassange in north-central Angola.
+						Livingstone met him in April 1854 and again in January 1855 and was hospitably entertained on
+						both occasions. He wrote a book about a Portuguese excursion against the Mbangala in 1850,
+						entitled Memoria da Expedição a Cassange em 1850 (1854), and is described in Livingstone's
+						journals as "Capitão Movel" or a Captain of the militia (Schapera 1963,1:128-29,
+						213-14).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0451">
+					<persName type="main">Newman, John</persName>
+					<birth when="1783">c.1783</birth>
+					<death when="1860">1860</death>
+					<note type="editorial">Scientific instrument maker. He had a reputation for quality workmanship
+						and received commissions from many scientists and travellers. He was also the official
+						supplier of instruments to the Royal Institution (Dawes 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0452">
+					<persName type="main">Newton, Rev John</persName>
+					<birth when="1725">1725</birth>
+					<death when="1807">1807</death>
+					<note type="editorial">Anglican clergyman and hymnodist. He was press-ganged into the navy in
+						1743, transferring shortly afterwards to a merchant vessel involved in the Atlantic slave
+						trade. He suffered virtual enslavement under one of his early masters while resident in Sierra
+						Leone. Newton captained several slave-trading vessels between 1750–54, but under the influence
+						of the evangelical revival became an abolitionist. He entered the Church of England in 1764,
+						and was regarded as one of Britain's leading evangelicals (Hindmarsh 2010).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0453">
+					<persName type="main">Ngola Mbandi</persName>
+					<birth>?</birth>
+					<death when="1624">1624</death>
+					<note type="editorial">King (or ngola) of Ndongo, a Mbundu kingdom in present-day Angola.
+						Assuming the throne in 1617 during a period of escalating warfare with the Portuguese, he was
+						soon forced to retreat to the Kindonga islands on the Cuanza river. He sent his sister,
+						Nzinga, on a successful diplomatic mission to Luanda in 1622 to sue for peace, but when the
+						treaty failed shortly afterwards he committed suicide (Thornton 2010:247-48).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0454">
+					<persName type="main">Nimrod</persName>
+					<note type="editorial">Biblical figure, described as a "mighty man" and "mighty hunter" in
+						Genesis 10:8-9.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0455">
+					<persName type="main">Njambi</persName>
+					<note type="editorial">Chokwe chief. In his journals, Livingstone also refers to him as "Jambi"
+						(Schapera 1963,1:105).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0456">
+					<persName type="main">Nkwatlale</persName>
+					<note type="editorial">Identified by Livingstone as an important member of the Kololo, though
+						he is seldom mentioned in his journals.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0457">
+					<persName type="main">Nokwane</persName>
+					<note type="editorial">Kololo headman and ally of Sekeletu.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0458">
+					<persName type="main">Nolloth, Captain Matthew Stainton</persName>
+					<birth when="1810">c. 1810</birth>
+					<death when="1882">1882</death>
+					<note type="editorial">Naval officer. He was captain of H.M.S. Frolic, under the command of
+						Commodore H. D. Trotter at the Cape of Good Hope. He was commissioned in 1855 to enquire about
+						Livingstone at Quelimane and to leave him a packet of information from the astronomer, Thomas
+						Maclear. In July 1856, the Frolic called again at Quelimane and transported Livingstone to
+						Mauritius. Nolloth attained the rank of vice-admiral. Port Nolloth in South Africa's Northern
+						Cape Province is named after him (Maclear 1856:78-80; Anon 1882:751).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0459">
+					<persName type="main">Ntemese</persName>
+					<note type="editorial">A guide from the southern Lunda people, appointed by Shinte (or Shinde)
+						to guide Livingstone to Katema.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0460">
+					<persName type="main">Ntlarie</persName>
+					<note type="editorial">Also Ntlaria. Identified by Livingstone as an important member of the
+						Kololo, though he is seldom mentioned in his journals.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0461">
+					<persName type="main">Nunes, Colonel Galdino Jose</persName>
+					<note type="editorial">Portuguese officer, resident in Quelimane. He served as commandant and
+						governor of Tete on a number of occasions. Livingstone stayed with him at the end of his
+						transcontinental journey when he reached Quelimane in May 1856 (Schapera 1963,2:472n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0462">
+					<persName type="main">Nyakalong</persName>
+					<note type="editorial">Member of the Lunda, whose village was near Cabango, in north-east
+						Angola. Livingstone suggests she was the sister of the previous Mwant Yav of the central
+						Lunda, Nawej, who had died in 1852.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0463">
+					<persName type="main">Nyamoana</persName>
+					<note type="editorial">Lunda chief, mother of Manenko, and sister of Shinde. Her name means
+						"mother of Moana" (Schapera 1963,1:37n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0464">
+					<persName type="main">Nzinga a Mbandi</persName>
+					<birth when="1583">1583</birth>
+					<death when="1663">1663</death>
+					<note type="editorial">Also known as Dona Ana de Sousa. Queen of Ndongo, a Mbundu kingdom in
+						present-day Angola. In the early 17th century, Ndongo became embroiled in conflict with the
+						Portuguese who were extending their territory. In 1622, Nzinga was sent to Luanda by her
+						brother, Ngola Mbandi, to broker an armistice. She was baptised there as Ana de Sousa.
+						Assuming the throne in 1624 following her brother's death, she began a reign marked by
+						political exile and collisions with the Portuguese (Pantoja 2012:527-28).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0465">
+					<persName type="main">Oatutu</persName>
+					<note type="editorial">Livingstone's use suggests this is a title held among a group of Ngoni,
+						known to contemporaries as the "Watuta." An absence of references to this title by other
+						travellers and by later scholars suggests it may be of Livingstone's own devising. He is
+						presumably referring to the mid-19th century Watuta leader, Mpangalala. In the published
+						Missionary Travels, the title appears as "Moatutu" (Rockel 2012:224).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0466">
+					<persName type="main">Oswell, William Cotton</persName>
+					<birth when="1818">1818</birth>
+					<death when="1893">1893</death>
+					<note type="editorial">Hunter and explorer. He studied at the East India College and in 1837
+						joined the East India Company in Madras. In the late 1840s, he spent two years hunting in
+						southern Africa, having established a reputation as a big game hunter in India. In 1849, he
+						and Mungo Murray joined Livingstone in the cross-Kalahari journey to reach Lake Ngami. Oswell
+						funded and helped manage the expedition. In 1851, he joined Livingstone on his journey to the
+						Kololo chief, Sebitwane, and to the Zambezi river (Seccombe 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0467">
+					<persName type="main">Owen, Charles Mostyn</persName>
+					<note type="editorial">One of two British commissioners who negotiated the Sand River
+						Convention (1852) with Andries Pretorius, which recognised the independence of the Transvaal
+						(Etherington 2001:319).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0468">
+					<persName type="main">Paley, William</persName>
+					<birth when="1743">1743</birth>
+					<death when="1805">1805</death>
+					<note type="editorial">Theologian and Anglican clergyman. He was one of the 18th century's
+						principal theologians, publishing wide-ranging works including Principles of Moral and
+						Political Philosophy (1785), a utilitarian ethical treatise; A View of the Evidences of
+						Christianity (1794), a defence of the authenticity of divine revelation in the New Testament;
+						and his famous Natural Theology (1802), which developed the "argument from design," inferring
+						the existence of God from observation of the natural world (Crimmins 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0469">
+					<persName type="main">Park, Mungo</persName>
+					<birth when="1771">1771</birth>
+					<death when="1806">1806</death>
+					<note type="editorial">Explorer of Africa. He made two major expeditions, with the aim of
+						tracing the Niger to its source. Commissioned by the African Association, his first journey
+						(1795-97) began in the Gambia and progressed as far as Silla in present-day Mali. On his
+						return, he published Travels in the Interior Districts of Africa (1799) to wide acclaim. In
+						1804, he led a larger expedition on behalf of the British Government, reaching Bussa in
+						present-day Nigeria where he was killed in conflict with local inhabitants (Fyfe 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0470">
+					<persName type="main">Parker, Captain Hyde</persName>
+					<birth when="1824">1824</birth>
+					<death when="1854">1854</death>
+					<note type="editorial">Naval officer. He came from a family with a long naval tradition, his
+						father, grandfather and great grandfather all having reached the rank of Admiral or
+						Vice-Admiral. In the early 1850s, he made a hydrographic survey of the lower Zambezi from the
+						east African coast. He was killed in action in July 1854 at the Sulina Channel, during the
+						Crimean War (Lambert 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0471">
+					<persName type="main">Parsons, William</persName>
+					<birth when="1800">1800</birth>
+					<death when="1867">1867</death>
+					<note type="editorial">Third Earl of Rosse. Astronomer. His major interest was in developing
+						large reflecting telescopes, and between 1841 and 1844 he constructed a major Newtonian
+						reflector for his own observatory. He was president of the Royal Society from 1848 to 1854,
+						during which time the Society formed a committee to establish a large reflector in the
+						Southern hemisphere. The Cape Observatory was considered as a destination, but plans waylaid
+						by the Crimean War. When the idea was revisited in 1862, the telescope was instead built in
+						Melbourne (Bennett 2004; Steinicke 2010:417).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0472">
+					<persName type="main">Patrick, William</persName>
+					<note type="editorial">Botanist and Church of Scotland minister. He was the author of A Popular
+						Description of the Indigenous Plants of Lanarkshire (1831) and a series on essays on the
+						"Plants of the Bible" published in The Scottish Christian Herald (1840).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0473">
+					<persName type="main">Pepys, Samuel</persName>
+					<birth when="1633">1633</birth>
+					<death when="1703">1703</death>
+					<note type="editorial">Public official and diarist. He was a Member of Parliament in the 1670s
+						and 80s, and served as Secretary of the Admiralty Commission from 1673-79 and 1684-89. He is
+						best known for his diary from the 1660s, which was deciphered and published in the 1820s. It
+						contains personal reflections on his domestic arrangements, as well as a detailed and
+						colourful record of the major events and public life of the mid-17th century (Jones 2016:653;
+						Knighton 2015).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0474">
+					<persName type="main">Pereira, Isidoro Correa</persName>
+					<note type="editorial">Portuguese officer. He was a colonel of the Portuguese militia in
+						Mozambique, commandant of Sena, and a knight of the Order of Christ. His father, José Correa
+						Pereiria, had been lieutenant-colonel in the militia and his grandfather, Manuel José Correa,
+						had ranked as colonel (Sanches de Baena 1872:258-59).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0577">
+					<persName type="main">Pereira, Pedro Caetano (or Chissaca)</persName>
+					<birth>?</birth>
+					<death when="1858">1858</death>
+					<note type="editorial">Head of the Caetano Pereiras, a powerful Afro-Portuguese commercial
+						family in east Africa, who built a trading empire centred on ivory and slaves that extended
+						from the Shire River to the Luangwa. In the published Missionary Travels, Livingstone provides
+						"Choutama" as an alternative name for Chissaca. However, Chissaca was actually Choutama's son
+						and became head of the family on his death in 1849. Both father and son were also named Pedro
+						Caetano Pereira. See also Pereira, Manuel Caetano (Newitt 1995:283, 310; Schapera
+						1963,2:428n1; Livingstone 1857:632).</note>
+				</person>
+
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0475">
+					<persName type="main">Pereira, Manuel Caetano</persName>
+					<note type="editorial">Afro-Portuguese trader of Indian background, who made an expedition to
+						the Kingdom of Kazembe (in present-day northern Zambia) in 1796 where he stayed for six
+						months. In the early nineteenth century, the Caetano Pereiras became a powerful commercial
+						family in east Africa, building a trading empire centred on ivory and slaves that extended
+						from the Shire River to the Luangwa (Burton 1873:40; Newitt 1995:305-06).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0476">
+					<persName type="main">Pingola</persName>
+					<note type="editorial">Unidentified raider, who apparently invaded the Zambian plateau from the
+						north east shortly before the Kololo invasion of the 1840s. Livingstone learned of his recent
+						conquest from either the Kololo or from the Tonga of south central Zambia. Pingola's descent
+						might have been triggered by disturbances in the north caused by the caravan trade, but no
+						reports of his activities exist besides Livingstone's (Vickery 1986:27; Colson
+						1962:209).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0477">
+					<persName type="main">Pinto, Joaquim</persName>
+					<note type="editorial">Coffee plantation owner and slaveholder in Cazengo, north-west Angola
+						(Birmingham 1999:98).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0478">
+					<persName type="main">Pires, Colonel Manuel Antonio</persName>
+					<note type="editorial">Portuguese merchant, resident in Pungo Adongo in north-west Angola.
+						According to Livingstone he had "been in Angola 30 years" and was the "greatest trader in the
+						Interior," owning "700 slaves and a great number of concubines." Livingstone stayed at several
+						of his properties in the vicinity of Pungo Adongo in December 1854 and January 1855. His name
+						is also spelled "Piriz" and "Piris" in Livingstone's journals (Schapera 1963,1:182, 205,
+						212).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0479">
+					<persName type="main">Pitsane</persName>
+					<note type="editorial">Member of the Kololo, who acted as one of the two leaders of
+						Livingstone's retinue during his expedition between Linyanti and Angola (1853–1855).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0480">
+					<persName type="main">Ponwane</persName>
+					<birth>?</birth>
+					<death when="1860">1860</death>
+					<note type="editorial">Member of the Lozi, who had been integrated into the Kololo and had
+						become an important headman under Sebitwane and Sekeletu (Schapera 1960:16n2).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0481">
+					<persName type="main">Potgieter, Andries Hendrik</persName>
+					<birth when="1792">1792</birth>
+					<death when="1852">1852</death>
+					<note type="editorial">Chief Commandant of Transvaal Boers. During the Great Trek, he led a
+						group of Voortrekkers from Cape Colony to settle in the Transvaal. He was suspicious of the
+						missionaries who were working among the Tswana and who were critical of his activities.
+						Potgieter clashed with Livingstone as hostilities intensified between the Transvaal Boers and
+						Sechele's Kwena. When Livingstone met him in 1848 to propose a new mission school, Potgieter
+						threatened him and wrote to the London Missionary Society to request his recall (Laband
+						2009b:219-20; Lipschutz and Rasmussen 1986:193; Morton 2010:31).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0482">
+					<persName type="main">Powell</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0483">
+					<persName type="main">Pretorius, Andries Wilhemus Jacobus</persName>
+					<birth when="1799">1799</birth>
+					<death when="1853">1853</death>
+					<note type="editorial">Leader of South African Boers. He rose to prominence during the "Great
+						Trek," settling in Natal in 1838 where he became commandant general. When the British annexed
+						Natal, he relocated to the Transvaal. There, he played an important role in establishing
+						Transvaal independence (as the South African Republic), which was recognised in the Sand River
+						Convention of 1852 (Jones 2016:680).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0484">
+					<persName type="main">Proclus</persName>
+					<birth when="0410">c.410</birth>
+					<death when="0485">c.485</death>
+					<note type="editorial">Greek philosopher of late antiquity. As head of Plato's Academy in
+						Athens, he developed and disseminated Neoplatonic philosophy. He was a notable critic of
+						Christianity, and an advocate of Greek paganism and other religious traditions. Livingstone
+						refers to Proclus's claim, as reported by Marinus, that "the philosopher should not just
+						practise the cults of one single city ... but he should be in common the hierophant of the
+						whole world" (qtd. in Steel 2012:22; Helmig and Steel 2015).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0485">
+					<!-- Also see pers0147 -->
+					<persName type="main">Ptolemy</persName>
+					<birth when="0100">c.100</birth>
+					<death when="0170">c.170</death>
+					<note type="editorial">Astronomer and geographer of antiquity. As an astronomer, he is best
+						known for the "Ptolemaic system," a geocentric cosmology in which a stationary earth is
+						circled by the regular movements of celestial objects. As a geographer, he is best known for
+						his Guide to Geography, which developed cartographic principles and collected geographical
+						information about the known world. Ptolemy's map of Africa included the sources of the Nile,
+						which become the subject of a major search in the 19th century (Jones 2016; Jones
+						2003).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0486">
+					<persName type="main">Queen Victoria</persName>
+					<birth when="1819">1819</birth>
+					<death when="1901">1901</death>
+					<note type="editorial">Queen of the United Kingdom (r. 1837–1901), and the last monarch in the
+						house of Hanover.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0487">
+					<persName type="main">Quendende</persName>
+					<note type="editorial">Lunda headman. He is described as Katema's father-in-law in Missionary
+						Travels and as his uncle in Livingstone's journals (Schapera 1963,1:79).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0488">
+					<persName type="main">Rachosi</persName>
+					<note type="editorial">Reference uncertain. "Rachosi" may be the same individual referred to in
+						a letter from Livingstone to Robert Moffat as "Rachose" and identified by Schapera as
+						'Ratshosa Motsomi," a member of the Taung who had journeyed from the south with Sebitwane but
+						had remained in Kwena territory (letter to Robert Moffat, 29th Sept 1847; Schapera
+						1959,1:220n31).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0489">
+					<persName type="main">Ramothobe</persName>
+					<note type="editorial">Member of the Ngwato, who guided Livingstone across the Kalahari in
+						1849. His name means "a person who frequently goes away" (Wilmsen 1989:82).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0490">
+					<persName type="main">Rebeiro</persName>
+					<note type="editorial">Reference uncertain. Possibly Ensign Joaquim Gomes Ribeiro. In his
+						journals, Livingstone identifies the "rebel" who Rebeiro attacked as "Marian," or Paul Mariano
+						II (also known as Matekenya), a major estate-holder and trader who dominated the Shire
+						Highlands in the mid-19th century and regularly collided with Portuguese authorities (Schapera
+						1963,2:470n2; Kalinga 2012:286).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0491">
+					<persName type="main">Renton, Rev Henry</persName>
+					<note type="editorial">Minister of the United Presbyterian Church. In 1850-51 he visited and
+						inspected the Glasgow Missionary Society stations in South Africa, during which time the
+						Eighth Xhosa War broke out ("Kaffir War" p.4). He met the Ngqika Xhosa paramount, Sandile, and
+						on his return disseminated a speech in which Sandile aired his grievances against the Cape
+						Colony (Anon 1851:4; Ross 2002:70).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0492">
+					<persName type="main">Richards</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0493">
+					<persName type="main">Rider, Alfred</persName>
+					<birth>?</birth>
+					<death when="1853">1853</death>
+					<note type="editorial">Traveller and artist. He died shortly after visiting Lake Ngami in 1850.
+						The engraving of "Lake Ngami" in Missionary Travels, based on one of his sketches, records his
+						name as "Ryder" but Livingstone consistently spells it elsewhere as "Rider" . He is probably
+						also the "A. Rider" who published a volume of drawings in collaboration with John Phillips,
+						entitled Mexico Illustrated (1848) (Letter to Robert Moffat, 8th July 1850; Letter to Parents
+						and Sisters, Oct. 1851).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0494">
+					<persName type="main">Rieg</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0495">
+					<persName type="main">Rip Van Winkle</persName>
+					<note type="editorial">Title character of a short story by Washington Irving. In "Rip Van
+						Winkle" the protagonist drinks a spirit that sends him to sleep for twenty years before
+						awakening to find a much-changed world. Livingstone likens public defenders of the Trek Boers
+						to Rip Van Winkle, suggesting that they too are an anachronism, holding onto the past and
+						resisting change.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0496">
+					<persName type="main">Robert I</persName>
+					<birth when="1274">1274</birth>
+					<death when="1329">1329</death>
+					<note type="editorial">Also Robert the Bruce. King of Scotland from 1306 to 1329. His victory
+						over the English at Bannockburn in 1314 was important in establishing Scotland's independence.
+						He is generally regarded as one of Scotland's key national heroes (Barrow 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0497">
+					<persName type="main">Robinson</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0498">
+					<persName type="main">Crusoe, Robinson</persName>
+					<note type="editorial">Title character of Daniel Defoe's Robinson Crusoe (1719), which follows
+						the protagonist's twenty-eight years as a castaway on a Caribbean island.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0499">
+					<persName type="main">Rramosinyi</persName>
+					<note type="editorial">Reference uncertain. He may have been an early leader among the Kololo
+						(Schapera 1963,2:364n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0500">
+					<persName type="main">Russell, Sir William Howard</persName>
+					<birth when="1820">1820</birth>
+					<death when="1907">1907</death>
+					<note type="editorial">Reporter for the London Times. He was one of the first modern war
+						correspondents, achieving prominence by reporting from the front during the Crimean War
+						(1853-56). Russell covered a range of conflicts over the next thirty years, including the
+						Indian Rebellion, the American Civil War, the Austro-Prussian War, the Franco Prussian War,
+						and briefly the Anglo-Zulu War (Stearn 2006).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0501">
+					<!-- Also see persName0181 -->
+					<persName type="main">Said bin Habib</persName>
+					<note type="editorial">Arab merchant and leader of a Zanzibari trading caravan. Livingstone
+						first met him in December 1853 at Naliele, and learned that he had previously crossed Africa
+						from Mozambique to Angola. In September 1855, he made an agreement with Sekeletu to lead
+						members of the Kololo to Luanda. He also transported some of Livingstone's letters. In
+						Livingstone's journals, he is also known as "Rya Syde" and "Tsaeré" (Schapera 1963,1:13,
+						2:296, 301)</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0502">
+					<persName type="main">Saint Anthony of Egypt</persName>
+					<birth when="0251">c.251</birth>
+					<death when="0356">356</death>
+					<note type="editorial">Christian saint and early figure of monasticism. He spent long periods
+						in retreat, living in isolation in a fort on Mount Pispir for around twenty years and later
+						occupying a moutainside cell on Mount Kolzim. Having acquired followers who sought instruction
+						in his way of life, he established several of the earliest monastic communities (Guiley
+						2001:26-27).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0503">
+					<persName type="main">Saint Hilarion</persName>
+					<birth when="0291">c.291</birth>
+					<death when="0371">371</death>
+					<note type="editorial">Christian saint, regarded as the founder of Palestinian monasticism.
+						Having come under the influence of Saint Anthony of Egypt in his early years, he adopted a
+						life of ascetic isolation and established a monastery in 329. Hilarion was the patron saint of
+						an abandoned convent Livingstone encountered near Golungo Alto, which had been established by
+						the Discalced Carmelite Order in 1659 (Editors 2006; Schapera 1963,1:184n2).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0504">
+					<persName type="main">Saint Paul</persName>
+					<birth when="-0004">c.4 BC</birth>
+					<death when="0064">c.62-64</death>
+					<note type="editorial">Apostle of Christianity and early church leader. His letters, canonised
+						in the New Testament, are central documents of the Christian faith</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0505">
+					<persName type="main">Sakandala</persName>
+					<note type="editorial">Mbangala headman, resident on the Kwilu river in north east
+						Angola.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0506">
+					<persName type="main">Sambaza</persName>
+					<note type="editorial">Husband of the Lunda chief, Manenko. The name is a title given to the
+						husband of the chief's sister, or to the husband of a woman from a royal family (Schapera
+						1963,1:39n2).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0507">
+					<persName type="main">Samoana</persName>
+					<note type="editorial">Father of Manenko and husband of the Lunda chief, Nyamoana. His name
+						means "father of Moana" (Schapera 1963,1:37n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0508">
+					<persName type="main">Sandford, Sir Daniel Keyte</persName>
+					<birth when="1798">1798</birth>
+					<death when="1838">1838</death>
+					<note type="editorial">Professor of Greek at the University of Glasgow. While Livingstone was
+						studying medicine at Anderson's College in the 1830s, he also attended Sandford's Greek class
+						(Mullen 2012:24).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0509">
+					<persName type="main">Sandile</persName>
+					<birth when="1820">c.1820</birth>
+					<death when="1878">1878</death>
+					<note type="editorial">Paramount chief of the Ngqika Xhosa. A dominant figure in Xhosa
+						politics, he played a central role in the Seventh Xhosa War ("War of the Axe," 1846­–47) with
+						the Cape Colony, following which he was imprisoned and forced to acknowledge British
+						sovereignty. He was also a leader in the Eighth Xhosa War ("War of Mlanjeni," 1850–53), which
+						again ended in defeat. He was killed during the Ninth War (1877–79), a conflict he had only
+						supported reluctantly (Lipschutz and Rasmussen 1986:204).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0510">
+					<persName type="main">Sansawe</persName>
+					<note type="editorial">Shinji chief, resident between the Kwilu and Kwango (or Cuango) rivers
+						in north central Angola. In Livingstone's journals his name is also spelled "Zanzaue'
+						(Schapera 1963,1:227)</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0511">
+					<persName type="main">Sarah</persName>
+					<birth when="-2000">fl. c.2000 BC</birth>
+					<note type="editorial">Wife of Abraham and mother of Isaac. In the biblical book of Genesis,
+						she receives a promise from God when she is ninety years old that she will have a son and
+						become a "mother of nations" (Genesis 17:16).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0512">
+					<persName type="main">Scholtz, Piet</persName>
+					<note type="editorial">Boer commandant. Following the Sand River Convention in 1852, he was
+						ordered by Andries Pretorius to lead a commando against the Tswana groups in Bechuanaland.
+						During the six-month conflict, known as the Batswana-Boer War (1852-53), Scholtz's party took
+						many captives before being repelled by Sechele and returning to the Transvaal. The invasion
+						had the result of uniting the southern Tswana, extending Sechele's alliances, and inciting
+						retaliatory attacks (Morton, Ramsay and Mgadla 2008:43-45).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0513">
+					<persName type="main">Schut, Albert</persName>
+					<note type="editorial">Dutch merchant resident in Luanda. He acted as occasional interpreter
+						for hearings of the British and Portuguese Mixed Commission for the Suppression of the Slave
+						Trade at Luanda (Anon 1862a:32).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0514">
+					<persName type="main">Scott, Sir Walter</persName>
+					<birth when="1771">1771</birth>
+					<death when="1832">1832</death>
+					<note type="editorial">Poet and historical novelist. He was perhaps the best selling and most
+						celebrated author of the late-eighteenth and early-nineteenth centuries. He made his
+						reputation as a collector of ballads and author of extended narrative poems. He turned to
+						fiction as a means of investigating the past, pioneering a new form in the historical novel.
+						Scott's innovation was highly influential on European fiction, and his vast corpus proved
+						significant in shaping ideas of Scottish national identity (Hewitt 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0515">
+					<persName type="main">Sebitwane</persName>
+					<birth from="1790" to="1800">c.1790/1800</birth>
+					<death when="1851">1851</death>
+					<note type="editorial">Founder and chief of the Kololo nation. He originally led a branch of
+						the Sotho in southern Africa before being displaced during the Mfecane in the 1820s. Sebitwane
+						and the Kololo settled in the Zambezi Valley in the 1840s where they conquered the local Lozi.
+						He died shortly after Livingstone met him in 1851, when the Kololo state was at the height of
+						its power (Kalusa 2009:60-61).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0516">
+					<!-- Also see pers0160 -->
+					<persName type="main">Sechele</persName>
+					<birth when="1810">c.1810</birth>
+					<death when="1892">1892</death>
+					<note type="editorial">Chief of the Kwena. He rose to leadership around 1833 and built power
+						and prestige by trading with visiting Europeans and extending commercial routes. He converted
+						to Christianity soon after Livingstone arrived among the Kwena in 1846 and later became an
+						important figure in the Christianisation of southern Africa. Sechele was also instrumental in
+						the formation of the Bechuanaland Protectorate and in contesting the efforts of Transvaal
+						Boers to appropriate his lands (Parsons 1998:37-42).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0517">
+					<persName type="main">Sedgwick</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0518">
+					<persName type="main">Sekelenke</persName>
+					<note type="editorial">Mbundu chief, resident around the conflux of the Zambezi and Kabompo
+						rivers in present-day western Zambia, but originally from Angola.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0519">
+					<!-- Also see pers0162 -->
+					<persName type="main">Sekeletu</persName>
+					<birth when="1835">c.1835</birth>
+					<death when="1863">1863</death>
+					<note type="editorial">Chief of the Kololo and son of Sebitwane. His reign was troubled by
+						inter-Kololo rivalry and developing resistance from the Lozi community under his dominion. He
+						supported Livingstone's transcontinental expedition (1852-56) in the hope of extending trade
+						routes. A London Missionary Society mission to the Kololo in the 1860s resulted in the
+						majority of the members dying from fever, with Sekeletu wrongly suspected of having poisoned
+						the party. The Lozi overthrew the Kololo and restored their independence shortly after his
+						death (Lipschutz and Rasmussen 1986:208-09).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0520">
+					<persName type="main">Sekgoma Kgari I</persName>
+					<birth when="1815">c.1815</birth>
+					<death when="1883">1883</death>
+					<note type="editorial">Chief of the Ngwato. He rose to power in 1834, after a succession
+						dispute with his brother Macheng. Following the Kololo invasion, he reunited the divided
+						Ngwato. In 1857, he was deposed by Macheng but was restored the following year. He was removed
+						in favour of his brother again in 1866, briefly resuming rule in 1872 before his son Khama III
+						secured the leadership three years later. Khama was an enthusiastic Christian convert, and his
+						beliefs proved a source of major conflict with his father (Parsons 1998:45-46; Lipschutz and
+						Rasmussen 1986:209).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0521">
+					<persName type="main">Sekhosi</persName>
+					<note type="editorial">Subiya headman, resident near Sesheke on the Zambezi river.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0522">
+					<persName type="main">Sekobinyane</persName>
+					<note type="editorial">Reference uncertain. Livingstone describes this as the "nickname" of a
+						Kololo headman but does not provide the individual's given name.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0523">
+					<persName type="main">Sekonyela</persName>
+					<birth when="1854">c.1854</birth>
+					<death when="1856">1856</death>
+					<note type="editorial">Chief of the Tlokwa, in the area of present-day Lesotho. He rose to
+						leadership in 1824, following a period of seven years in which his mother, Mmanthatisi, ruled
+						as regent. He consolidated the strength of the Tlokwa, but from the 1830s increasingly came
+						into opposition with Moshoeshoe, the founder of the Basuto nation, who eventually defeated his
+						state in 1853 (Lipschutz and Rasmussen 1986:210).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0524">
+					<persName type="main">Sekute</persName>
+					<note type="editorial">Official title of a Toka-Leya chiefdom near Victoria Falls on the
+						Zambezi river. The Sekute royal family traces its origin to the Nzanza, a group related to the
+						Subiya, who probably settled in the Victoria Falls region in the 18th century. Sekute
+						Siansingu had been defeated and his people scattered by Sebitwane around 1836, but they
+						returned to the area under Sekute Mungala after the Kololo were overthrown in 1864 (Mubitana
+						1975:62-63).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0525">
+					<persName type="main">Sekwebu</persName>
+					<note type="editorial">Member of the Kololo, who led Livingstone's retinue from Linyanti to
+						Mozambique (1855–1856). He performed an important role as intermediary with local groups,
+						having travelled the routes extensively. He was probably Ndebele, being described in
+						Livingstone's journals as "Letibele Mokololo." He sailed to Mauritius with Livingstone, but
+						drowned himself towards the end of the crossing. Livingstone was deeply affected by his death,
+						experiencing "the sorrow of the loss of a very good friend" (Schapera 1963,2:331; letter to
+						Robert Moffat, 17th Aug 1856).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0526">
+					<persName type="main">Selkirk, Alexander</persName>
+					<birth when="1676">1676</birth>
+					<death when="1721">1721</death>
+					<note type="editorial">Scottish sailor, who was marooned alone in the Juan Fernández Islands in
+						1704 before being rescued in 1709. His story is generally taken to have influenced Daniel
+						Defoe's Robinson Crusoe (Bell 2011:14-15).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0527">
+					<persName type="main">Semalembue</persName>
+					<note type="editorial">Either a Tonga or Ila chief, resident on the banks of the Kafue river
+						just south of present-day Lusaka in Zambia.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0528">
+					<persName type="main">Pascoal, Senhor</persName>
+					<note type="editorial">Afro-Portuguese trader. He was employed by Captain Antonio Rodrigues, a
+						merchant at Cassange in north-central Angola. Livingstone travelled with him from Sansawe's
+						village to Cabango between March and May 1855 (Schapera 1963,1:231-35, Schapera
+						1963,2:237-42).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0529">
+					<persName type="main">Shakatwala</persName>
+					<note type="editorial">A Lunda emissary and guide, appointed by Katema to lead Livingstone to
+						his residence and then onwards to Lake Dilolo.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0530">
+					<persName type="main">Sheakondo</persName>
+					<note type="editorial">Lunda headman, referred to in Livingstone's journals as "Sheashoñko'
+						(Schapera 1963,1:37)</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0531">
+					<persName type="main">Shelley, Captain Edward</persName>
+					<birth when="1827">1827</birth>
+					<death when="1890">1890</death>
+					<note type="editorial">Army officer and sportsman. He entered the army in 1844, reaching the
+						rank of Captain before resigning his commission in 1849 to travel in southern Africa. While
+						journeying across the Kalahari desert with Richard Orpen in 1852 he lost his way, but
+						eventually reached Kuruman. He also visited Natal and went hunting in Zululand. On leaving
+						Africa he travelled widely and visited South America. He later served in the Crimean war
+						(Tabler 1977:95; Woods 2005:1-3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0532">
+					<persName type="main">Shinde</persName>
+					<note type="editorial">Official title of the chief of the southern Lunda. According to
+						Livingstone he was also known as Kabompo. Livingstone was given a major reception by Shinde
+						and resided with him for over a week in January 1854, in part to recover from fever.
+						Livingstone took the opportunity to show biblical slides using his "magic lantern" and
+						recorded the local reaction (Macola 2016:63; Schapera 1963,1:38n1, 52-64).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0533">
+					<persName type="main">Shobo</persName>
+					<note type="editorial">Member of the San, who acted as a guide in the Makgadikgadi pans on
+						Livingstone's journey to Sebitwane in 1851.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0534">
+					<persName type="main">Silva Rego, João da</persName>
+					<note type="editorial">Captain of the militia in Ambaca from 1849. He was commandant of Tala
+						Mungongo from January 1854 to the end of the year, when he was replaced by Joaquim Maria de
+						Carvalho. In April 1854, he provided Livingstone with "a letter of recommendation" and an
+						Angolan soldier as escort from Cassange to Ambaca (Anon 1850:139; Schapera 1963,1:129, 131,
+						213n3).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0535">
+					<persName type="main">Sina</persName>
+					<note type="editorial">Presumably a member of the southern Tswana community at Kuruman mission
+						station.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0536">
+					<persName type="main">Sinamane</persName>
+					<note type="editorial">Tonga chief, resident on the Zambezi downriver from Victoria Falls.
+						Livingstone heard reports about him in December 1855 while undertaking his transcontinental
+						journey, but did not visit him until October 1860 during the Zambezi expedition (Livingstone
+						and Livingstone 1865:315).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0537">
+					<persName type="main">Smith, Sir Andrew</persName>
+					<birth when="1797">1797</birth>
+					<death when="1872">1872</death>
+					<note type="editorial">Naturalist and army medical officer. His specialism was the zoology and
+						ethnography of southern Africa, which he developed while in the Army Medical Service at Cape
+						Colony. His publications include his four-volume Illustrations of the Zoology of South Africa
+						(1838–49) and detailed ethnographic records on people groups including the San and the
+						Khoikhoi. Later in his career, he was the director-general of the army's medical department
+						(Kennedy 2006).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0538">
+					<persName type="main">Smith, Sir Henry George Wakelyn</persName>
+					<birth when="1787">1787</birth>
+					<death when="1860">1860</death>
+					<note type="editorial">Military officer and colonial governor. He was posted to the Cape in
+						1828 where he served as Sir Benjamin D'Urban's second in command during the Sixth Xhosa War.
+						They annexed Xhosa territory to form Queen Adelaide Province, which was swiftly revoked by the
+						colonial secretary Lord Glenelg. He became Cape governor in 1847, immediately annexing
+						"British Kaffraria," proclaiming himself "supreme chief" of the Xhosa, and extending British
+						territory to form the Orange River Sovereignty. He was replaced by Sir George Cathcart during
+						the Eighth Xhosa War (Vetch 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0539">
+					<persName type="main">Solomon, Rev Edward</persName>
+					<birth when="1820">1820</birth>
+					<death when="1886">1886</death>
+					<note type="editorial">Missionary in southern Africa with the London Missionary Society. He was
+						ordained in Cape Town in October 1841. His Two Lectures on the Native Tribes of the Interior,
+						Delivered Before the Mechanics' Institute, Cape Town, which Livingstone references, were
+						published in 1855 (Anon 1841:210; Schapera 1961:102n2).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0540">
+					<persName type="main">Somerset, Lieutenant General Henry</persName>
+					<birth when="1794">1794</birth>
+					<death when="1862">1862</death>
+					<note type="editorial">Army officer. He was the eldest son of the former Governor of the Cape
+						of Good Hope, Lord Charles Somerset. He entered the army in 1811 and joined the Cape Mounted
+						Rifles in South Africa in 1818. He was regularly involved in the Xhosa wars over the next
+						thirty-five years. As commanding officer, Somerset's military excursions made him
+						controversial with evangelical humanitarians. Following the 8th Xhosa War (1850–53), he left
+						the Cape and was stationed in Bombay (Anon 1862b:499; Lester 2001:41-42).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0541">
+					<persName type="main">Sorell</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0542">
+					<persName type="main">Sowels</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0543">
+					<persName type="main">St John, James Augustus</persName>
+					<birth when="1795">1795</birth>
+					<death when="1875">1875</death>
+					<note type="editorial">Author, journalist, and traveller. In 1832 he embarked on a two-year
+						trip to Egypt, publishing a travelogue on his return entitled Egypt and Mohammed Ali (1834).
+						In this book, he describes the "siksak" bird, which Livingstone cites. He was a prolific
+						author who contributed widely to contemporary periodicals. He wrote a column for the Sunday
+						Times from the 1840s, and played a leading role in the political department of the Daily
+						Telegraph in the late 1850s (St John 1834, 1:177-79; Spilsbury 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0544">
+					<persName type="main">Steele, Sir Thomas Montague</persName>
+					<birth when="1820">1820</birth>
+					<death when="1890">1890</death>
+					<note type="editorial">Army officer and sportsman. Following Sandhurst, he was commissioned in
+						1838. He met Livingstone at Mabotsa on a hunting trip in 1843, while on leave from his post as
+						aide-de-camp (1842-48) to the governor of Madras (present-day Chennai). He remained
+						Livingstone's friend and was a pall bearer at his funeral in Westminster Abbey. Steele had a
+						decorated career, reaching the rank of full general in 1877 (Lloyd 2004; Ross 2002:57).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0545">
+					<persName type="main">Stockenstrom, Sir Andries</persName>
+					<birth when="1792">1792</birth>
+					<death when="1864">1864</death>
+					<note type="editorial">Colonial politician. He was a vocal critic of policy towards the Xhosa
+						on the Cape's eastern frontier. He was appointed lieutenant-governor of the Eastern Cape
+						(1836–39) by the colonial secretary Lord Glenelg, who was persuaded by his criticism of
+						settler violence and his advocacy of treaties to recognise Xhosa sovereignty. When Glenelg
+						left office, Stockenstrom was dismissed. He led troops during the Seventh Xhosa War (1846–47),
+						but opposed the annexation of Xhosa territory and the punitive measures of the Cape governor,
+						Sir Harry Smith (Trapido 2008).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0546">
+					<persName type="main">Stuart, Charles Edward</persName>
+					<birth when="1720">1720</birth>
+					<death when="1788">1788</death>
+					<note type="editorial">Stuart claimant to the British throne, known as the Young Pretender or
+						the Bonnie Prince Charlie. He led the Jacobite rebellion of 1745–46 and was defeated in the
+						battle of Culloden. He was memorialised in literature and legend, not least in Walter Scott's
+						Waverley (1814), and became a national hero in Scotland.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0547">
+					<persName type="main">Swana Mulopwe</persName>
+					<note type="editorial">Lunda title for a direct heir, which means "appointed successsor" (Oppen
+						1993:364).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0548">
+					<persName type="main">Tantalus</persName>
+					<note type="editorial">Figure from Greek mythology. He was the King of Sipylus, and the son of
+						Zeus and the nymph Pluto. Having committed a crime against the gods he was condemned to
+						eternal punishment in Taratus, where his sentence was to stand in a pool of water near a tree
+						of fruit, while continually unable to reach either to satisfy his thirst and hunger (Roman and
+						Roman 2012:458).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0549">
+					<persName type="main">Thomas, Dr Dick</persName>
+					<birth when="1774">1774</birth>
+					<death when="1857">1857</death>
+					<note type="editorial">Philosopher and theologian. He is best known for his engagements with
+						natural history, which he argued possessed the capacity to enrich understanding of God and his
+						works. In his 1823 Christian Philosopher, Dick represented science as the pursuit of God's
+						revelation as found in nature, arguing that, correctly understood, natural history was a means
+						of worship. His later works extended both his theology of nature and his theology of
+						scientific enquiry (Astore 2006).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0550">
+					<persName type="main">Thomson, Captain David</persName>
+					<birth when="1789">1789</birth>
+					<death when="1834">1834</death>
+					<note type="editorial">Mariner in the Royal Navy. He developed a "longitude scale" or "lunar
+						corrector" in 1816, an instrument designed to determine longitude from lunar observations. His
+						Lunar &amp; Horary Tables (1824) provided a series of methods to simplify making longitudinal
+						calculations on the basis of lunar readings (Taylor 1966:407-08; Anon 1824:630).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0551">
+					<persName type="main">Thorns</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0552">
+					<persName type="main">Thoth</persName>
+					<note type="editorial">Egyptian deity, whose worship dates from the Early Dynastic period. He
+						had wide-ranging functions, and was variously connected with the natural order, cosmology,
+						writing, and life after death. He was represented as either a baboon or ibis, and most
+						commonly as a human body with an ibis's head (Doxey 2001, 3:398-400).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0553">
+					<persName type="main">Tlapane</persName>
+					<note type="editorial">Kololo prophet, who influenced Sebitwane.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0554">
+					<persName type="main">Trindade, Father Pedro de</persName>
+					<birth>?</birth>
+					<death when="1751">1751</death>
+					<note type="editorial">Dominican Friar and missionary. He arrived in Portuguese east Africa in
+						the early 1700s and became the first vicar of Zumbo and the Portuguese Crown's representative
+						in 1726. He involved himself in the region's politics and became an authority on mining,
+						reportedly making a fortune in gold. He was known locally for developing an effective antidote
+						for poisoned arrows, which Livingstone references in Missionary Travels. He was not a Jesuit
+						as Livingstone writes, but a Dominican (Denis 1998:51-54).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0555">
+					<persName type="main">Trotter, Admiral Henry Dundas</persName>
+					<birth when="1802">1802</birth>
+					<death when="1859">1859</death>
+					<note type="editorial">Naval officer. In his early career, he served in both the East Indies
+						and West Indies, and later on the west coast of Africa. In 1840, he commanded the three river
+						steamers of Thomas Fowell Buxton's short-lived Niger expedition, which sought to open trade
+						and establish treaties along the river Niger. He was commodore at the Cape of Good Hope from
+						1853-56 he and retired as rear admiral in 1857 (Laughton 2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0556">
+					<persName type="main">Tuba Mokoro</persName>
+					<note type="editorial">Member of the Kololo, who was part of Livingstone's retinue during his
+						expedition from Linyanti to Mozambique (1855–1856). He was responsible for leading the Subiya
+						and Lozi members of the party. He travelled with Livingstone again on the return journey to
+						the Lozi capital in 1860 (Livingstone and Livingstone 1865:175).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0557">
+					<persName type="main">Vardon, Captain Frank</persName>
+					<note type="editorial">Army officer in the 25th Madras Light Infantry. He visited Mabotsa on a
+						hunting trip in 1846 and befriended the Livingstones. While writing Missionary Travels,
+						Livingstone sent Vardon portions of his manuscript for comments and consulted him on various
+						illustrations (letter to Vardon, 8th April 1857; letter to Murray, 28th April 1857; Ross
+						2002:57).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0558">
+					<!-- Also see pers0031 -->
+					<persName type="main">Villiers, George William Frederick</persName>
+					<birth when="1800">1800</birth>
+					<death when="1870">1870</death>
+					<note type="editorial">Fourth Earl of Clarendon. Politician and diplomat. He was minister to
+						Spain from 1833-39, joined the cabinet as Lord Privy Seal in 1840, and became president of the
+						Board of Trade in 1846. He was Viceroy of Ireland from 1847-52, and foreign secretary from
+						1852-58, 1865-66 and 1868-70. Following Livingstone's transcontinental expedition, Clarendon
+						appointed him as "roving consul" in east Africa and secured governmental support for the
+						Zambesi expedition. Livingstone gave his name to Mount Clarendon, east of the Shire river, and
+						they remained correspondents during Livingstone's final journeys (Steele 2009).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0559">
+					<persName type="main">Virgil</persName>
+					<birth when="-0070">70</birth>
+					<death when="-0019">19 BC</death>
+					<note type="editorial">Roman poet and author of the Aeneid, an epic on the legendary founding
+						of Rome. In the nineteenth century, classical literature occupied a central role in British
+						education, particularly among the elites.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0560">
+					<persName type="main">Wahlberg, Johann August</persName>
+					<birth when="1810">1810</birth>
+					<death when="1856">1856</death>
+					<note type="editorial">Swedish explorer and naturalist. He went to South Africa in 1839 under
+						the auspices of the Swedish Academy of Sciences, where he spent the next six years gathering
+						specimens. He made several extended expeditions, first to the Transvaal (1841-42), then to
+						Zululand (1842-43), and then again to the Transvaal (1843-44). Following Livingstone's Ngami
+						expedition, he returned to southern Africa in 1854 to attempt a cross-continental journey, but
+						was killed by an elephant north of the Thamalakane River (Gun and Codd 1981:367-68).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0561">
+					<persName type="main">Wallace, Sir William</persName>
+					<birth when="1270">c.1270</birth>
+					<death when="1305">1305</death>
+					<note type="editorial">Scottish military commander. When Edward I of England proclaimed himself
+						King of Scotland in 1296, Wallace became leader of the rebelling Scottish forces. After
+						victories in 1297 he was established as "guardian" of Scotland. He was defeated by Edward in
+						1298, and was hanged drawn and quartered on capture. He is remembered as a national hero and
+						has been widely mythologised (Editors 2015).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0562">
+					<persName type="main">Walsh, J. C.</persName>
+					<note type="editorial">Naval surgeon. He was appointed as surgeon to H.M.S. Frolic in 1848,
+						having previously served as an assistant-surgeon on the Illustrious (Anon 1853:625; Anon
+						1843b:141).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0563">
+					<persName type="main">Wardlaw, Ralph</persName>
+					<birth when="1779">1779</birth>
+					<death when="1853">1853</death>
+					<note type="editorial">Congregational minister and abolitionist. He was professor of systematic
+						theology at Glasgow Theological Academy from 1811, while also minister of the Congregational
+						chapel on North Albion Street. He was a founding member of the Glasgow Anti-Slavery Society in
+						1823 and an ardent abolitionist, rejecting the gradualist notion that slavery should be
+						eradicated over time in favour of immediate abolition. He was heavily involved with the
+						voluntary movement in the 1830s and with issues of protestant church union in the 1840s (Brown
+						2004).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0564">
+					<persName type="main">Washington, Captain John</persName>
+					<birth when="1800">1800</birth>
+					<death when="1863">1863</death>
+					<note type="editorial">Naval officer and hydrographer. He was a founding member of the Royal
+						Geographical Society, serving as its secretary from 1836–41. Following work surveying
+						Britain's rivers and coastlines, he was elected to the Royal Society in 1845. He became
+						Assistant to the Admiralty's Hydrographer in 1854, assumed the post of Hydrographer the
+						following year, and reached the rank of Rear-Admiral in 1862.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0565">
+					<persName type="main">Waterboer, Andries</persName>
+					<birth when="1790">c.1790</birth>
+					<death when="1853">1853</death>
+					<note type="editorial">Leader of Griqua Town (r.1820–53). His rule was widely supported by the
+						London Missionary Society, who saw him as a civilising presence north of Cape Colony not least
+						for his Christian faith and opposition to cattle raiding. In 1823, he intervened to protect
+						the mission settlement Kuruman from being overwhelmed by a group of Sotho-Tswana migrants. He
+						was the major figure in Griqua politics of the 1820s and 30s (Lipschutz and Rasmussen
+						1986:246).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0566">
+					<persName type="main">Webb, William Frederick</persName>
+					<birth when="1829">1829</birth>
+					<death when="1899">1899</death>
+					<note type="editorial">Army officer and landowner. Following Eton, he entered the 17th Lancers
+						but resigned his commission soon afterwards. In 1851, he embarked on a two-year expedition in
+						southern Africa. Falling ill in the Kalahari, he received medical treatment from Livingstone
+						and thereafter became his lifelong supporter. In 1864–65, Livingstone spent seven months at
+						Webb's stately home, Newstead Abbey, writing Narrative of an Expedition to the Zambesi (1865).
+						He was a pallbearer at Livingstone's funeral in Westminster Abbey (1873) (Fraser 1913:1-7,
+						16-17; Ross 2002:193-94, 237).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0567">
+					<persName type="main">Welwitsch, Friedrich Martin Josef</persName>
+					<birth when="1806">1806</birth>
+					<death when="1872">1872</death>
+					<note type="editorial">Austrian botanist. Following studies in Vienna, he travelled to Portugal
+						in 1839 for the Unio Itineraria of Württemberg to examine the flora of Azores and Cape Verde.
+						From 1853–61, he undertook a botanical exploration of Portuguese west Africa. He became well
+						acquainted with Livingstone at Golungo Alto in 1854. Officials in Luanda proposed that they
+						undertake a joint expedition to the Kololo, but Livingstone rejected the plan. Welwitsch's
+						botanical collection was among the most extensive to have been gathered in tropical Africa
+						(Boulger 2004; Schapera 1963,1:151, 163, 191).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0568">
+					<persName type="main">Wheeler</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0569">
+					<persName type="main">Wienand, John H. B.</persName>
+					<note type="editorial">Resident Magistrate of the Kat River settlement, and witness at the
+						treason trial of Veldcornet Andries Botha. Wienand's testimony did not rule out the
+						possibility of Botha's involvement in the Kat River Rebellion, but he attested the accused's
+						loyalty in the early stages of the conflict, describing him as "a very effective officer" who
+						'after the breaking out of the war ... continued to do his duty usefully and faithfully" (Anon
+						1852:72).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0570">
+					<persName type="main">Wilberforce, William</persName>
+					<birth when="1759">1759</birth>
+					<death when="1833">1833</death>
+					<note type="editorial">Politician, abolitionist, and member of the Clapham Sect. He was elected
+						MP in 1780, a position he held until retirement in 1825. From 1787 he led parliamentary
+						opposition to the slave trade, which culminated in the successful bill of 1807. As a committed
+						evangelical, he was deeply concerned with national morality and spiritual life. In 1797 he
+						published "Practical Christianity," a critique of contemporary religious practice and an
+						appeal for revival that proved highly popular in evangelical circles (Wolffe 2009).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0571">
+					<persName type="main">Wilkes</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0572">
+					<persName type="main">Wilkes</persName>
+					<note type="editorial">A copy editor employed by John Murray.</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0573">
+					<persName type="main">Wilson, J. H.</persName>
+					<note type="editorial">Trader based at Kolobeng, who participated in Livingstone and Oswell's
+						expedition to Lake Ngami in 1849 (letter to Tidman, 24th Aug. 1850; Ross 2002:57).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0574">
+					<persName type="main">Woodruff, Lieutenant Henry</persName>
+					<birth>?</birth>
+					<death when="1856">1856</death>
+					<note type="editorial">Naval officer. He was 2nd Lieutenant of H.M.S. Castor, the flagship of
+						the Cape of Good Hope station. He was taking passage on the Dart to Simon's Bay when he
+						volunteered to join the crew sailing the cutter over the bar of the Cuácua and upriver to
+						Quelimane to enquire after Livingstone. Along with Commander McClune, he drowned when the
+						cutter was overturned on 29th April 1856 (Anon 1856b:142; Anon 1885:320).</note>
+				</person>
+
+				<!-- MT glossary entry -->
+				<person xml:id="pers0575">
+					<persName type="main">Xavier, St Francis</persName>
+					<birth when="1506">1506</birth>
+					<death when="1552">1552</death>
+					<note type="editorial">Jesuit missionary. He was one of the earliest members of the Society of
+						Jesus, founded by Ignatius of Loyola. In 1541 he became a missionary in Goa, India, where he
+						helped make the College of Holy Faith Asia's primary Jesuit training institution. He
+						established missions in the Malay Archipelago (1545) and Japan (1549), and died attempting to
+						enter China in 1552. Xavier emphasised the importance of indigenous priests and urged
+						missionaries to adjust their methods in response to local context (Bireley 2009).</note>
+				</person>
+
 
 			</listPerson>
 
