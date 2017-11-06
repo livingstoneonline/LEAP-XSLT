@@ -175,7 +175,6 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	
 	<xsl:template match="choice/sic">
 			<xsl:variable name="choice-orig-sic">
 			<xsl:choose>

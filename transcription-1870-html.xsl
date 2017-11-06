@@ -887,7 +887,7 @@
 		</xsl:element>
 	</xsl:template>
 
-<xsl:template match="idno[@type='LEAP-ID']">
+	<xsl:template match="idno[@type='LEAP-ID']">
 		<span class="idno"><xsl:apply-templates/></span>
 	</xsl:template>
 
@@ -1339,7 +1339,6 @@
 	</xsl:template>
 
 	<!-- Text below removed for annotated edition; also see app, choice & supplied -->	
-
 	<xsl:template match="unclear">
 		<span class="unclear">
 				<xsl:choose>
