@@ -9,543 +9,570 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Editorial 
-8. @rend classes (except lines, page placement, colors) 
-9. Page placement 
-10. Colors 
-11. Lists and Tables 
-12. Misc 
+7. Unclear, gap, space
+8. Editorial 
+9. @rend classes (except lines, page placement, colors) 
+10. Page placement 
+11. Colors 
+12. Lists and Tables 
+13. Misc 
 
 * /
 
 /* Rules for containers either this is shown embedded in the viewer or not */
 body.non-embedded-transcription,
 div.transcription-viewer-content.style-UJ-html {
-  background:#c7beb0;
-  /*#e7d5bd*/
+	background:#c7beb0;
+	/*#e7d5bd*/
 }
+
+
 /* 1. Textual divisions */
+
 div.transcription.style-UJ-html {
-  margin-left:auto;
-  margin-right:auto;
-  text-align:center;
-  font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
-  font-size:16px;
-  /*Make .9em; also for table*/
-  /*white-space:nowrap;*/
-  color:#695241;
-  /*#574d44*/
-  /*#4E2F2F*/
-  /* 1.5. Title section */
-  /* 2. Letters */
-  /* 3. pb, lb, linenumber */
-  /* 4. Milestone and lines */
-  /*.doubleline{
-        border-top:4px double #8c8b8b;
-        display:block;
-        width:35% !important;
-        margin-left:9%;
-        text-align:left;
-        color:black;
-    }*/
-  /*.tripleline{
-        border-top:4px double #8c8b8b;
-        line-height:1.9em;
-        display:block;
-        width:35% !important;
-        margin-left:9%;
-        text-align:left;
-        color:black;
-    }*/
-  /* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
-  /* 5. p, ab, note, fw */
-  /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-  /* 6. Additions and Deletions */
-  /* 7. Unclear, gap, space */
-  /* 7. Editorial */
-  /* 8. @rend classes (except colors, lines, and up-down placement) */
-  /* 9. Page placement */
-  /*Goes with standalone <note>s*/
-  /* 10. Colors */
-  /* 11. Lists and Tables */
-  /* 12. Misc */
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+	font-size:16px; /*Make .9em; also for table*/
+	/*white-space:nowrap;*/
+	color:#695241; /*#574d44*/ /*#4E2F2F*/
 }
 div.transcription.style-UJ-html .TEI {
-  display:inline-block;
-  white-space:nowrap;
-  padding-top:.5em;
-  text-align:left;
-  background:#c7beb0;
-  /*#e7d5bd*/
+	display:inline-block;
+	white-space:nowrap;
+	padding-top:.5em;
+	text-align:left;
+	background:#c7beb0;
+	/*#e7d5bd*/
 }
 div.transcription.style-UJ-html .item-details {
-  max-width:29em;
-  min-width:29em;
-  white-space:normal;
-  margin-left:.5em;
-  margin-right:.5em;
-  padding-top:1em;
+	max-width:29em;
+	min-width:29em;
+	white-space:normal;
+	margin-left:.5em;
+	margin-right:.5em;
+	padding-top:1em;
 }
 div.transcription.style-UJ-html div.text {
-  margin-left:5em;
+	margin-left:5em;
 }
 div.transcription.style-UJ-html div.body {
-  display:block;
-  padding-bottom:2.4em;
+	display:block;
+	padding-bottom:2.4em;
 }
 div.transcription.style-UJ-html .front,
 div.transcription.style-UJ-html .back {
-  display:block;
+	display:block;
 }
+
+
+/* 1.5. Title section */
+
 div.transcription.style-UJ-html .title {
-  display:block;
-  text-align:center;
-  margin-bottom:-0.5em;
-  font-size:1.4em;
-  font-variant:small-caps;
+	display:block;
+	text-align:center;
+	margin-bottom:-0.5em;
+	font-size:1.4em;
+	font-variant:small-caps;
 }
 div.transcription.style-UJ-html .author {
-  display:block;
-  text-align:center;
-  margin-bottom:.5em;
-  font-size:1.2em;
-  font-style:italic;
+	display:block;
+	text-align:center;
+	margin-bottom:.5em;
+	font-size:1.2em;
+	font-style:italic;
 }
 div.transcription.style-UJ-html .authority {
-  font-size:.9em;
-  line-height:1.7;
+	font-size:.9em;
+	line-height:1.7;
 }
 div.transcription.style-UJ-html .pub-date {
-  font-size:.9em;
+	font-size:.9em;
 }
 div.transcription.style-UJ-html a:link {
-  color:#428bca !important;
+	color:#428bca !important;
 }
 div.transcription.style-UJ-html .idno {
-  font-size:.9em;
-  line-height:1.7;
+	font-size:.9em;
+	line-height:1.7;
 }
 div.transcription.style-UJ-html hr.title-section {
-  width:100%;
-  height:0;
-  border:0;
-  border-top:1px solid #58484b;
-  margin-top:-0.4em;
-  margin-bottom:-0.4em;
+	width:100%;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 div.transcription.style-UJ-html .project-id {
-  color:#706f6a;
-  font-size:.9em;
+	color:#706f6a;
+	font-size:.9em;
 }
+
+
+/* 2. Letters */
+
 div.transcription.style-UJ-html .opener,
 div.transcription.style-UJ-html .closer {
-  margin-bottom:0px;
+	margin-bottom:0px;
 }
 div.transcription.style-UJ-html .opener {
-  display:inline;
-  margin-top:1em;
+	display:inline;
+	margin-top:1em;
 }
 div.transcription.style-UJ-html .closer {
-  display:block;
+	display:block;
 }
 div.transcription.style-UJ-html .dateline {
-  display:inline;
-  text-indent:0;
+	display:inline;
+	text-indent:0;
 }
 div.transcription.style-UJ-html .dateline.center {
-  display:inline-block;
+	display:inline-block;
 }
 div.transcription.style-UJ-html .dateline.right {
-  display:block;
+	display:block;
 }
 div.transcription.style-UJ-html .closer-salute {
-  margin-left:0 !important;
+	margin-left:0 !important;
 }
 div.transcription.style-UJ-html .signed {
-  display:inline-block;
+	display:inline-block;
 }
 div.transcription.style-UJ-html .address {
-  display:block;
+	display:block;
 }
+
+
+/* 3. pb, lb, linenumber */
+
 div.transcription.style-UJ-html .pb-title {
-  display:block;
-  color:#428bca;
-  text-decoration:underline;
-  font-size:90%;
-  margin-top:2em;
-  margin-bottom:-1.3em;
+	display:block;
+	color:#428bca;
+	text-decoration:underline;
+	font-size:90%;
+	margin-top:2em;
+	margin-bottom:-1.3em;
 }
 div.transcription.style-UJ-html .pb-title:hover {
-  color:#AAA;
-  cursor:pointer;
+	color:#AAA;
+	cursor:pointer;
 }
 div.transcription.style-UJ-html .pb-title:first-of-type {
-  /*margin-top:0;*/
-  /*This is to prevent scrolling up when the first image opens. AW*/
+	/*margin-top:0;*/
+	/*This is to prevent scrolling up when the first image opens. AW*/
 }
 div.transcription.style-UJ-html p span.pb-title {
-  margin-left:0;
-  text-indent:0;
+	margin-left:0;
+	text-indent:0;
 }
 div.transcription.style-UJ-html .lb {
-  display:block;
+	display:block;
 }
 div.transcription.style-UJ-html .linenumber {
-  text-align:right;
-  float:left;
-  color:#8c8b85;
-  margin-left:-3em !important;
-  /*text-indent:9%;*/
-  font-size:80%;
-  width:1em;
-  display:none;
+	text-align:right;
+	float:left;
+	color:#8c8b85;
+	margin-left:-3em !important;
+	/*text-indent:9%;*/
+	font-size:80%;
+	width:1em;
+	display:none;
 }
 div.transcription.style-UJ-html p .linenumber {
-  text-indent:-1%;
+	text-indent:-1%;
 }
 div.transcription.style-UJ-html .p.noindent.linenumber {
-  text-indent:1em;
+	text-indent:1em;
 }
 div.transcription.style-UJ-html p.center .linenumber {
-  margin-left:-12.5em !important;
-  /*Needs to be checked.*/
+	margin-left:-12.5em !important; /*Needs to be checked.*/
 }
 div.transcription.style-UJ-html p.right .linenumber {
-  margin-left:-18em !important;
+	margin-left:-18em !important;
 }
 div.transcription.style-UJ-html .list .linenumber {
-  text-indent:0;
+	text-indent:0;	
 }
+
+
+/* 4. Milestone and lines */
+
 div.transcription.style-UJ-html .milestone {
-  display:block;
-  width:60%;
-  background:#FFF;
-  height:0;
-  border:0;
-  border-top:1px solid #58484b;
-  margin-left:0;
-  margin-right:9%;
-  padding:0px;
-  margin-bottom:-1em;
+	display:block;
+	width:60%;
+	background:#FFF;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-left:0;
+	margin-right:9%;
+	padding:0px;
+	margin-bottom:-1em;
 }
 div.transcription.style-UJ-html .line {
-  border-bottom:1px solid #d0d0d0;
-  display:block;
-  width:22em !important;
-  margin-left:0;
-  text-align:left;
-  height:0;
-  border:0;
-  border-top:1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:22em !important;
+	margin-left:0;
+	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
+/*.doubleline {
+	border-top:4px double #8c8b8b;
+	display:block;
+	width:35% !important;
+	margin-left:9%;
+	text-align:left;
+	color:black;
+}*/
+/*.tripleline {
+	border-top:4px double #8c8b8b;
+	line-height:1.9em;
+	display:block;
+	width:35% !important;
+	margin-left:9%;
+	text-align:left;
+	color:black;
+}*/
+/* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
 div.transcription.style-UJ-html .halfline {
-  border-bottom:1px solid #d0d0d0;
-  display:block;
-  width:17.5em !important;
-  margin-left:0;
-  text-align:left;
-  height:0;
-  border:0;
-  border-top:1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:17.5em !important;
+	margin-left:0;
+	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 div.transcription.style-UJ-html .quarterline {
-  border-bottom:1px solid #d0d0d0;
-  display:block;
-  width:11em !important;
-  margin-left:0;
-  text-align:left;
-  height:0;
-  border:0;
-  border-top:1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:11em !important;
+	margin-left:0;
+	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 div.transcription.style-UJ-html .second-line {
-  border-bottom:1px solid #d0d0d0;
-  display:block;
-  width:22em !important;
-  margin-left:0;
-  text-align:left;
-  margin-top:-1em;
-  margin-bottom:0em;
-  height:0;
-  border:0;
-  border-top:1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:22em !important;
+	margin-left:0;
+	text-align:left;
+	margin-top:-1em;
+	margin-bottom:0em;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 div.transcription.style-UJ-html .third-line {
-  border-bottom:1px solid #d0d0d0;
-  display:block;
-  width:22em !important;
-  margin-left:0;
-  text-align:left;
-  margin-top:1.5em;
-  height:0;
-  border:0;
-  border-top:1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:22em !important;
+	margin-left:0;
+	text-align:left;
+	margin-top:1.5em;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
+
+
+/* 5. p, ab, note, fw */
+
 div.transcription.style-UJ-html p {
-  margin-right:2em;
-}
+	margin-right:2em;
+}/*Needed so that the text doesn't run up against the right edge in the viewer.*/
 div.transcription.style-UJ-html .p {
-  display:inline-block;
-  text-indent:25px;
-  margin-top:0;
-  margin-bottom:0;
+	display:inline-block;
+	text-indent:25px;
+	margin-top:0;
+	margin-bottom:0;	
 }
 div.transcription.style-UJ-html .p.noindent {
-  text-indent:0 !important;
+	text-indent:0 !important;
 }
 div.transcription.style-UJ-html .p.center {
-  text-indent:0 !important;
+	text-indent:0 !important;
 }
 div.transcription.style-UJ-html .p.right {
-  text-indent:0 !important;
+	text-indent:0 !important;
 }
 div.transcription.style-UJ-html .ab {
-  text-indent:0;
-  margin-top:0;
-  margin-bottom:0;
+	text-indent:0;
+	margin-top:0;
+	margin-bottom:0;
 }
 div.transcription.style-UJ-html .head {
-  font-weight:300;
+	font-weight:300;
 }
 div.transcription.style-UJ-html .note.marginleft {
-  margin-left:-3.6em !important;
-  text-indent:0;
-  float:left;
-  text-align:center;
+	margin-left:-3.6em !important;
+	text-indent:0;	
+	float:left;
+	text-align:center;
 }
+
+
+/* 6. Additions and Deletions */
+
 div.transcription.style-UJ-html .addmargin {
-  text-indent:0px;
+	text-indent:0px;
 }
 div.transcription.style-UJ-html .del,
 div.transcription.style-UJ-html .cancelled,
 div.transcription.style-UJ-html .strikethrough,
 div.transcription.style-UJ-html .overwritten {
-  text-decoration:line-through;
+	text-decoration:line-through;
 }
 div.transcription.style-UJ-html .del-by-over-text {
-  color:#706f6a;
-  text-decoration:line-through;
+	color:#706f6a;
+	text-decoration:line-through;
 }
+
+
+/* 7. Unclear, gap, space */
+
 div.transcription.style-UJ-html .unclear {
-  color:#706f6a;
-  border-bottom:1px dotted #706f6a;
+	color:#706f6a;
+	border-bottom:1px dotted #706f6a;
 }
 div.transcription.style-UJ-html .gap {
-  /*border-bottom:1px dotted black;*/
+	/*border-bottom:1px dotted black;*/
 }
 div.transcription.style-UJ-html .space-other {
-  border-bottom:1px dotted black;
-  display:block;
+	border-bottom:1px dotted black;
+	display:block;
 }
 div.transcription.style-UJ-html .verticalSpace {
-  display:inline-block;
-  border-bottom:1px dotted black;
-  text-indent:0;
+	display:inline-block;
+	border-bottom:1px dotted black;
+	text-indent:0;
 }
+
+
+/* 8. Editorial */
+
 div.transcription.style-UJ-html .sic,
 div.transcription.style-UJ-html .corr {
-  border-bottom:2px #B33B24 dotted;
+	border-bottom:2px #B33B24 dotted;
 }
 div.transcription.style-UJ-html .orig,
 div.transcription.style-UJ-html .reg {
-  /*border-bottom:1px green dotted*/
+	/*border-bottom:1px green dotted*/
 }
 div.transcription.style-UJ-html .abbr,
 div.transcription.style-UJ-html .expan {
-  border-bottom:1px green dotted;
+	border-bottom:1px green dotted;
 }
 div.transcription.style-UJ-html .expan {
-  display:none;
+	display:none;
 }
 div.transcription.style-UJ-html .hidden {
-  display:none;
+	display:none;
 }
 div.transcription.style-UJ-html .rdg {
-  display:block;
+	display:block;
 }
+
+
+/* 9. @rend classes (except colors, lines, and up-down placement) */
+
 div.transcription.style-UJ-html .caps {
-  font-variant:small-caps;
+	font-variant:small-caps;
 }
 div.transcription.style-UJ-html .center {
-  text-indent:0;
-  margin-left:6em;
+	text-indent:0;
+	margin-left:6em;
 }
 div.transcription.style-UJ-html .doubleunderline {
-  border-bottom:3px double;
+	border-bottom:3px double;
 }
 div.transcription.style-UJ-html .tripleunderline {
-  border-bottom:4px double;
-  text-decoration:underline;
+	border-bottom:4px double;
+	text-decoration:underline;
 }
 div.transcription.style-UJ-html .inline {
-  /*color:#706f6a;*/
+	/*color:#706f6a;*/
 }
 div.transcription.style-UJ-html .italic {
-  font-style:italic;
+	font-style:italic;
 }
 div.transcription.style-UJ-html .large {
-  font-size:120%;
+	font-size:120%;
 }
 div.transcription.style-UJ-html .other {
-  margin-bottom:-2.6em !important;
-  /*Needed for UJ when the marginal date adds a line between lines that shouldn't be there*/
+	margin-bottom:-2.6em !important;/*Needed for UJ when the marginal date adds a line between lines that shouldn't be there*/
 }
 div.transcription.style-UJ-html .overline {
-  text-decoration:overline;
+	text-decoration:overline;
 }
 div.transcription.style-UJ-html .overline.underline {
-  text-decoration:overline underline;
+	text-decoration:overline underline;
 }
 div.transcription.style-UJ-html .overtext {
-  /*color:#706f6a;*/
+	/*color:#706f6a;*/
 }
 div.transcription.style-UJ-html .right {
-  text-indent:0;
-  margin-left:15em;
+	text-indent:0;
+	margin-left:15em;
 }
 div.transcription.style-UJ-html .figure.right {
-  text-indent:0em;
-  margin-left:15em;
+	text-indent:0em;
+	margin-left:15em;
 }
 div.transcription.style-UJ-html .fw .right {
-  margin-left:15em;
+	margin-left:15em;
 }
 div.transcription.style-UJ-html .small {
-  font-size:85%;
+	font-size:85%;
 }
 div.transcription.style-UJ-html .smallcaps {
-  font-variant:small-caps;
+	font-variant:small-caps;
 }
 div.transcription.style-UJ-html .underline {
-  text-decoration:underline;
+	text-decoration:underline;
 }
 div.transcription.style-UJ-html .upsidedown {
-  /*-ms-transform:rotate(180deg);*/
-  /* IE 9 */
-  /*-moz-transform:rotate(180deg);*/
-  /* Firefox */
-  /*-webkit-transform:rotate(180deg);*/
-  /* Safari and Chrome */
-  /*-o-transform:rotate(180deg);*/
-  /* Opera */
+	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
+	/*-moz-transform:rotate(180deg);*/ /* Firefox */
+	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
+	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
 div.transcription.style-UJ-html .vertical {
-  /*-ms-transform:rotate(90deg);*/
-  /* IE 9 */
-  /*-moz-transform:rotate(90deg);*/
-  /* Firefox */
-  /*-webkit-transform:rotate(90deg);*/
-  /* Safari and Chrome */
-  /*-o-transform:rotate(90deg);*/
-  /* Opera */
+	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
+	/*-moz-transform:rotate(90deg);*/ /* Firefox */
+	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
+	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
+
+
+/* 10. Page placement */
+
 div.transcription.style-UJ-html .above,
 div.transcription.style-UJ-html .below,
 div.transcription.style-UJ-html .bottom,
 div.transcription.style-UJ-html .sub,
 div.transcription.style-UJ-html .sup,
 div.transcription.style-UJ-html .top {
-  /* Specified in % so that the sup/sup is the
-         right size relative to the surrounding text */
-  font-size:75%;
-  /* Zero out the line-height so that it doesn't
-         interfere with the positioning that follows */
-  line-height:0;
-  /* Where the magic happens:makes all browsers position
-         the sup/sup properly, relative to the surrounding text */
-  position:relative;
-  /* Note that if you're using Eric Meyer's reset.css, this
-         is already set and you can remove this rule */
-  vertical-align:baseline;
+	/* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+	font-size:75%;
+
+	/* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+	line-height:0;
+
+	/* Where the magic happens:makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+	position:relative;
+
+	/* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+	vertical-align:baseline;
 }
 div.transcription.style-UJ-html .above,
 div.transcription.style-UJ-html .sup,
 div.transcription.style-UJ-html .top {
-  /* Move the superscripted text up */
-  top:-0.5em;
+	/* Move the superscripted text up */
+	top:-0.5em;
 }
 div.transcription.style-UJ-html .below,
 div.transcription.style-UJ-html .bottom,
 div.transcription.style-UJ-html .sub {
-  /* Move the subscripted text down, but only
-         half as far down as the superscript moved up */
-  bottom:-0.25em;
+	/* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+	bottom:-0.25em;
 }
 div.transcription.style-UJ-html .margintop {
-  margin-left:0;
-  color:#706f6a;
-  line-height:0;
-  position:relative;
-  vertical-align:baseline;
-  top:-1em;
+	margin-left:0;
+	color:#706f6a;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+	top:-1em;
 }
 div.transcription.style-UJ-html .true {
-  display:inline-block;
-}
+	display:inline-block;
+}/*Goes with standalone <note>s*/
+
+
+/* 11. Colors */
+
 div.transcription.style-UJ-html .black {
-  color:black;
+	color:black;
 }
 div.transcription.style-UJ-html .blue {
-  color:blue;
+	color:blue;
 }
 div.transcription.style-UJ-html .brown {
-  color:brown;
+	color:brown;
 }
 div.transcription.style-UJ-html .gray {
-  color:#706f6a;
+	color:#706f6a;
 }
 div.transcription.style-UJ-html .green {
-  color:green;
+	color:green;
 }
 div.transcription.style-UJ-html .orange {
-  color:orange;
+	color:orange;
 }
 div.transcription.style-UJ-html .purple {
-  color:purple;
+	color:purple;
 }
 div.transcription.style-UJ-html .red {
-  color:#B33B24;
+	color:#B33B24;
 }
 div.transcription.style-UJ-html .yellow {
-  color:yellow;
+	color:yellow;
 }
+
+
+/* 12. Lists and Tables */
+
 div.transcription.style-UJ-html .list {
-  display:block;
-  margin-top:12px;
+	display:block;
+	margin-top:12px;
 }
 div.transcription.style-UJ-html table {
-  font-size:1em;
-  /*85%;*/
-  /*Changed for 1870 Field Diary*/
-  border-style:none;
-  margin-right:2em;
-  /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-  color:#58484b;
-  /*Added color for 1870 Field Diary*/
+	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
+	border-style:none;
+	margin-right:2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 div.transcription.style-UJ-html tr,
 div.transcription.style-UJ-html td {
-  border-style:none;
+	border-style:none;
 }
+
+
+/* 13. Misc */
+
 div.transcription.style-UJ-html .figure {
-  margin-left:0;
-  color:#706f6a;
-  font-size:.8em;
-  border-bottom:1px #706f6a dotted;
+	margin-left:0;
+	color:#706f6a;
+	font-size:.8em;
+	border-bottom:1px #706f6a dotted;
 }
 div.transcription.style-UJ-html .p .figure,
 div.transcription.style-UJ-html .p.noindent .figure,
 div.transcription.style-UJ-html .ab .figure {
-  margin-left:0px !important;
-  text-indent:0px;
+	margin-left:0px !important;
+	text-indent:0px;
 }
 div.transcription.style-UJ-html .metamark {
-  color:#706f6a;
-  border-bottom:1px #706f6a dotted;
+	color:#706f6a;
+	border-bottom:1px #706f6a dotted;
 }
 div.transcription.style-UJ-html p .metamark {
-  margin-left:0px !important;
-  text-indent:0px !important;
+	margin-left:0px !important;
+	text-indent:0px !important;
 }
 div.transcription.style-UJ-html .foreign,
 div.transcription.style-UJ-html .geogName,
