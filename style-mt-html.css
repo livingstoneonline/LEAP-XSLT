@@ -9,819 +9,889 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Editorial 
-8. @rend classes (except lines, page placement, colors) 
-9. Page placement 
-10. Colors 
-11. Lists and Tables 
-12. Misc 
-13. Multiple hands
-14. Metamarks
+7. Unclear, gap, space
+8. Editorial 
+9. @rend classes (except lines, page placement, colors) 
+10. Page placement 
+11. Colors 
+12. Lists and Tables 
+13. Misc 
+14. Multiple hands
+15. Metamarks
+
 */
+
 /* Rules for containers either this is shown embedded in the viewer or not */
 body.non-embedded-transcription,
 div.transcription-viewer-content.style-mt-html {
-  background: #e2e3e1;
-  /*#d3c2a8;*/
-  /*#e7d5bd*/
+	background:#e2e3e1;
+	/*#d3c2a8;*/
+	/*#e7d5bd*/
 }
+
+
 /* 1. Textual divisions */
+
 div.transcription.style-mt-html {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
-  font-size: 1em;
-  /*Make .9em; also for table*/
-  /*white-space:nowrap;*/
-  color: black;
-  /*#58484b;*/
-  /*#574d44*/
-  /*#4E2F2F*/
-  /* 1.5. Title section */
-  /* 2. Letters */
-  /* 3. pb, lb, linenumber */
-  /*This is to prevent scrolling up when the first image opens. AW*/
-  /*p .linenumber{
-        text-indent:-1%;
-    }
-    .p.noindent.linenumber{
-        text-indent:1em;
-    }
-    p.center .linenumber{
-        margin-left:-12.5em !important;
-    }
-    p.right .linenumber{
-        margin-left:-18em !important;
-    }
-    .list .linenumber{
-        text-indent:0;
-    }*/
-  /* 4. Milestone and lines */
-  /*.doubleline{
-        border-top: 4px double #8c8b8b;
-        display:block;
-        width:35% !important;
-        margin-left:9%;
-        text-align:left;
-        color:black;
-    }*/
-  /*.tripleline{
-        border-top: 4px double #8c8b8b;
-        line-height:1.9em;
-        display:block;
-        width:35% !important;
-        margin-left:9%;
-        text-align:left;
-        color:black;
-    }*/
-  /* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
-  /* 5. p, ab, note, fw */
-  /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-  /* Did you add the following four items for MT? If not, then remove them all */
-  /*See previous note. End of items to remove possible */
-  /* 6. Additions and Deletions */
-  /*added for MT: retrace*/
-  /* 7. Unclear, gap, space */
-  /* 7. Editorial */
-  /* 8. @rend classes (except colors, lines, and up-down placement) */
-  /*Did you add the next two items? If not, remove them both */
-  /*See previous note. End of items to remove possible */
-  /* 9. Page placement */
-  /*.margintop{
-        margin-left:0;
-        color:#706f6a;
-        line-height:0;
-        position:relative;
-        vertical-align:baseline;
-        top:-1em;
-    }*/
-  /*Goes with standalone <note>s*/
-  /*Not relevant to MT?*/
-  /*Commented this out again because it was messing up hi/del when outside of note*/
-  /* 10. Colors */
-  /*Did you add the following two? If not, remove. If so, add a note that this are for MT*/
-  /*See previous*/
-  /* 11. Lists and Tables */
-  /* 12. Misc */
-  /*My CSS has the following two items. I presume you don't need them? If so, just remove and leave a note that you removed my .metamark and p .metamark*/
-  /* Removed .metamark code, for Missionary Travels. See section 14 instead.*/
-  /*See previous*/
-  /*Did you add the following two? If not, remove. If so, add a note that these are for MT*/
-  /*See previous*/
-  /* 13. Multiple hands */
-  /*added for MT*/
-  /*14. Metamarks*/
-  /*added for MT*/
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+	font-size:16px; /*Make .9em; also for table*/
+	/*white-space:nowrap;*/
+	color:black; /*#58484b;*/ /*#574d44*/ /*#4E2F2F*/
 }
+
 div.transcription.style-mt-html .TEI {
-  display: inline-block;
-  white-space: nowrap;
-  padding-top: .5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  text-align: left;
-  background: #e2e3e1;
-  /*#d3c2a8;*/
-  /*#e7d5bd*/
+	display:inline-block;
+	white-space:nowrap;
+	padding-top:.5em;
+	padding-left:1em;
+	padding-right:1em;
+	text-align:left;
+	background:#e2e3e1;
+	/*#d3c2a8;*/
+	/*#e7d5bd*/
 }
+/*
+@media all and (max-width:1224px)  {
+.TEI {	
+	padding-left:1em;
+}
+*/
 div.transcription.style-mt-html .item-details {
-  max-width: 29em;
-  min-width: 29em;
-  white-space: normal;
-  padding-top: 1em;
-  padding-left: 12em;
-  padding-right: 12em;
+	max-width:29em;
+	min-width:29em;
+	white-space:normal;
+	padding-top:1em;
+	padding-left:12em;
+	padding-right:12em;
 }
 div.transcription.style-mt-html div.text {
-  /*margin-left: 3em;*/
-  /*Prevent line numbers from being hidden.*/
-  /*Removed*/
+	/*margin-left:3em;*/ /*Prevent line numbers from being hidden.*/ /*Removed*/
 }
 div.transcription.style-mt-html div.body {
-  display: block;
-  padding-bottom: 2.4em;
+	display:block;
+	padding-bottom:2.4em;
 }
 div.transcription.style-mt-html .vertical-line {
-  border-left: thin solid white;
-  padding-left: .8em;
+	border-left:thin solid white;
+	padding-left:.8em;
 }
 div.transcription.style-mt-html .front,
 div.transcription.style-mt-html .back {
-  display: block;
+	display:block;
 }
+div.transcription.style-mt-html .div {
+	white-space:normal;
+	width:29.8em;
+	padding-right:3.2em;
+}
+
+
+/* 1.5. Title section */
+
 div.transcription.style-mt-html .title {
-  display: block;
-  text-align: center;
-  margin-bottom: -0.5em;
-  font-size: 1.4em;
-  font-variant: small-caps;
+	display:block;
+	text-align:center;
+	margin-bottom:-0.5em;
+	font-size:1.4em;
+	font-variant:small-caps;
 }
 div.transcription.style-mt-html .author {
-  display: block;
-  text-align: center;
-  margin-bottom: .5em;
-  font-size: 1.2em;
-  font-style: italic;
+	display:block;
+	text-align:center;
+	margin-bottom:.5em;
+	font-size:1.2em;
+	font-style:italic;
 }
 div.transcription.style-mt-html .authority {
-  font-size: .9em;
-  line-height: 1.7;
+	font-size:.9em;
+	line-height:1.7;
 }
 div.transcription.style-mt-html .pub-date {
-  font-size: .9em;
+	font-size:.9em;
 }
 div.transcription.style-mt-html a:link {
-  color: #428bca !important;
+	color:#428bca !important;
 }
 div.transcription.style-mt-html .idno {
-  font-size: .9em;
-  line-height: 1.7;
+	font-size:.9em;
+	line-height:1.7;
 }
 div.transcription.style-mt-html hr.title-section {
-  width: 100%;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
-  margin-top: -0.4em;
-  margin-bottom: -0.4em;
+	width:100%;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-top:-0.4em;
+	margin-bottom:-0.4em;
 }
 div.transcription.style-mt-html .project-id {
-  color: #706f6a;
-  font-size: .9em;
+	color:#706f6a;
+	font-size:.9em;
 }
+
+
+/* 2. Letters */
+
 div.transcription.style-mt-html .opener,
 div.transcription.style-mt-html .closer {
-  margin-bottom: 0px;
+	margin-bottom:0px;
 }
 div.transcription.style-mt-html .opener {
-  display: inline;
-  margin-top: 1em;
+	display:inline;
+	margin-top:1em;
 }
 div.transcription.style-mt-html .closer {
-  display: block;
+	display:block;
 }
 div.transcription.style-mt-html .dateline {
-  display: inline;
-  text-indent: 0;
+	display:inline;
+	text-indent:0;
 }
 div.transcription.style-mt-html .dateline.center {
-  display: inline-block;
+	display:inline-block;
 }
 div.transcription.style-mt-html .dateline.right {
-  display: block;
+	display:block;
 }
 div.transcription.style-mt-html .closer-salute {
-  margin-left: 0 !important;
+	margin-left:0 !important;
 }
 div.transcription.style-mt-html .signed {
-  display: inline-block;
+	display:inline-block;
 }
 div.transcription.style-mt-html .address {
-  display: block;
+	display:block;
 }
+
+
+/* 3. pb, lb, linenumber */
+
 div.transcription.style-mt-html .pb-title {
-  display: block;
-  color: #428bca !important;
-  /*text-decoration:underline;*/
-  font-family: "source sans pro", calibri, arial, helvetica, sans-serif !important;
-  font-size: 90% !important;
-  font-style: normal !important;
-  margin-top: 2em;
-  margin-bottom: -0.9em;
+	display:block;
+	color:#428bca !important;
+	/*text-decoration:underline;*/
+	font-family:"source sans pro", calibri, arial, helvetica, sans-serif !important;
+	font-size:90% !important;
+	font-style:normal !important;
+	margin-top:2em;
+	margin-bottom:-0.9em;
 }
 div.transcription.style-mt-html .pb-title:hover {
-  color: #AAA !important;
-  cursor: pointer !important;
+	color:#AAA !important;
+	cursor:pointer !important;
 }
 div.transcription.style-mt-html .pb-title:first-of-type {
-  margin-top: 0;
+	margin-top:0;
 }
 div.transcription.style-mt-html p span.pb-title {
-  margin-left: 0;
-  text-indent: 0;
+	margin-left:0;
+	text-indent:0;
 }
 div.transcription.style-mt-html .lb {
-  display: block;
+	display:block;
 }
 div.transcription.style-mt-html .linenumber {
-  text-align: right;
-  float: left;
-  color: #8c8b85;
-  margin-left: -2em !important;
-  /*Changed. AW*/
-  text-indent: 37em;
-  font-size: 80%;
-  width: 1em;
+	text-align:right;
+	float:left;
+	color:#8c8b85;
+	margin-left:-2em !important;/*Changed. AW*/
+	text-indent:37em;
+	font-size:80%;
+	width:1em;
 }
 div.transcription.style-mt-html .p .linenumber {
-  text-indent: 37em;
+	text-indent:37em;
 }
 div.transcription.style-mt-html .p.noindent .linenumber {
-  text-indent: 37em !important;
+	text-indent:37em !important;
 }
 div.transcription.style-mt-html .p.noindent .marginleft.marginleft .linenumber {
-  text-indent: 37.2em !important;
-  font-size: 80% !important;
+	text-indent:37em !important;
+	font-size:80% !important;	
 }
 div.transcription.style-mt-html .note .linenumber {
-  text-indent: 37.2em !important;
+	text-indent:37em !important;	
 }
 div.transcription.style-mt-html .add.marginleft .note .linenumber {
-  text-indent: 56.2em !important;
+	text-indent:56.2em !important;
+	display:none;
 }
-div.transcription.style-mt-html .seg.left .linenumber {
-  text-indent: 42em;
+div.transcription.style-mt-html .U1 .linenumber,
+div.transcription.style-mt-html .U2 .linenumber,
+div.transcription.style-mt-html .U3 .linenumber,
+div.transcription.style-mt-html .U4 .linenumber,
+div.transcription.style-mt-html .U5 .linenumber,
+div.transcription.style-mt-html .CL .linenumber {
+	font-style:normal;
 }
+/*div.transcription.style-mt-html p .linenumber {
+	text-indent:-1%;
+}
+div.transcription.style-mt-html .p.noindent.linenumber {
+	text-indent:1em;
+}
+div.transcription.style-mt-html p.center .linenumber {
+	margin-left:-12.5em !important; 
+}
+div.transcription.style-mt-html p.right .linenumber {
+	margin-left:-18em !important;
+}
+div.transcription.style-mt-html .list .linenumber {
+	text-indent:0;	
+}*/
+
+
+/* 4. Milestone and lines */
+
 div.transcription.style-mt-html .milestone {
-  display: block;
-  width: 60%;
-  background: #FFF;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
-  margin-left: 0;
-  margin-right: 9%;
-  padding: 0px;
-  margin-bottom: -1em;
+	display:block;
+	width:60%;
+	background:#FFF;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
+	margin-left:0;
+	margin-right:9%;
+	padding:0px;
+	margin-bottom:-1em;
+}
+div.transcription.style-mt-html .milestone.red.line {
+	display:block;
+	width:60%;
+	background:#FFF;
+	height:0;
+	border:0;
+	border-top:1px solid #B33B24;
+	margin-left:0;
+	margin-right:9%;
+	padding:0px;
+	margin-bottom:-.7em;
 }
 div.transcription.style-mt-html .line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 22em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:23em !important;
+	margin-left:0;
+	margin-top:.6em;
+	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 div.transcription.style-mt-html .doubleline {
-  margin-top: 20px;
+	margin-top:20px;
 }
+/*.doubleline {
+	border-top:4px double #8c8b8b;
+	display:block;
+	width:35% !important;
+	margin-left:9%;
+	text-align:left;
+	color:black;
+}*/
+/*.tripleline {
+	border-top:4px double #8c8b8b;
+	line-height:1.9em;
+	display:block;
+	width:35% !important;
+	margin-left:9%;
+	text-align:left;
+	color:black;
+}*/
+/* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
 div.transcription.style-mt-html .halfline {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 10.5em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:10.5em !important;
+	margin-left:0;
+	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 div.transcription.style-mt-html .quarterline {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 11em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:5em !important;
+	margin-left:0;
+	text-align:left;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 div.transcription.style-mt-html .second-line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 22em !important;
-  margin-left: 0;
-  text-align: left;
-  margin-top: -1em;
-  margin-bottom: 0em;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:23em !important;
+	margin-left:0;
+	text-align:left;
+	margin-top:-1em;
+	margin-bottom:-.5em;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
 div.transcription.style-mt-html .third-line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 22em !important;
-  margin-left: 0;
-  text-align: left;
-  margin-top: 1.5em;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+	border-bottom:1px solid #d0d0d0;
+	display:block;
+	width:23em !important;
+	margin-left:0;
+	text-align:left;
+	margin-top:1.5em;
+	height:0;
+	border:0;
+	border-top:1px solid #58484b;
 }
+
+
+/* 5. p, ab, note, fw */
+
 div.transcription.style-mt-html p {
-  margin-right: 2em;
-}
+	margin-right:2em;
+}/*Needed so that the text doesn't run up against the right edge in the viewer.*/
 div.transcription.style-mt-html .p {
-  display: inline-block;
-  text-indent: 25px;
-  margin-top: 0;
-  margin-bottom: 0;
+	display:inline-block;
+	text-indent:25px;
+	margin-top:0;
+	margin-bottom:0;	
 }
 div.transcription.style-mt-html .p.noindent {
-  text-indent: 0 !important;
+	text-indent:0 !important;
 }
 div.transcription.style-mt-html .p.center {
-  text-indent: 0 !important;
+	text-indent:0 !important;
 }
 div.transcription.style-mt-html .p.right {
-  text-indent: 0 !important;
+	text-indent:0 !important;
 }
 div.transcription.style-mt-html .ab {
-  text-indent: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+	text-indent:0;
+	margin-top:0;
+	margin-bottom:0;
 }
 div.transcription.style-mt-html .head {
-  font-weight: 300;
+	font-weight:normal;
+	line-height:0em;
 }
 div.transcription.style-mt-html .note {
-  display: inline;
+	display:inline;
 }
 div.transcription.style-mt-html .fw {
-  display: inline-block;
+	display:inline-block;
 }
 div.transcription.style-mt-html .fw.pageno {
-  text-indent: 0 !important;
+	text-indent:0 !important;
 }
 div.transcription.style-mt-html .fw.catch.left {
-  margin-left: 0;
-  /*AW revisit*/
-  text-indent: 0;
+	margin-left:0;/*AW revisit*/
+	text-indent:0;
 }
 div.transcription.style-mt-html .fw.catch.right {
-  text-indent: 0;
+	text-indent:0;
 }
+
+/* Did you add the following four items for MT? If not, then remove them all */
 div.transcription.style-mt-html .add.marginleft {
-  text-indent: 0;
-  margin-left: 0;
-  font-size: 1em;
+	text-indent:0;	
+	margin-left:0;
+	font-size:1em;
 }
 div.transcription.style-mt-html .addmargin {
-  margin-left: 0 !important;
-  float: none !important;
+	margin-left:0 !important;
+	float:none !important;
 }
 div.transcription.style-mt-html .marginleft.marginleft,
 div.transcription.style-mt-html .note.marginleft {
-  margin-left: -8.9em;
-  /*Changed. AW*/
-  text-indent: 0;
-  float: left;
-  text-align: left;
-  /*font-size:.9em;*/
+	margin-left:-8.9em;/*Changed. AW*/
+	text-indent:0;	
+	float:left;
+	text-align:left;
+	height:0;
+	/*font-size:.9em;*/
 }
 div.transcription.style-mt-html .add.marginleft .note {
-  font-size: .9em !important;
+	font-size:.9em !important;
 }
 div.transcription.style-mt-html .note.marginright {
-  margin-right: -2.6em !important;
-  text-indent: 0;
-  float: right;
-  margin-top: -1.4em;
+	margin-right:-2.6em !important;
+	text-indent:0;	
+	float:right;
+	margin-top:-1.4em;
 }
+/*See previous note. End of items to remove possible */
+
+
+/* 6. Additions and Deletions */
+
 div.transcription.style-mt-html .addmargin {
-  text-indent: 0px;
+	text-indent:0px;
 }
 div.transcription.style-mt-html .del,
 div.transcription.style-mt-html .strikethrough,
 div.transcription.style-mt-html .overwritten {
-  text-decoration: line-through;
+	text-decoration:line-through;
 }
 div.transcription.style-mt-html .del-by-over-text {
-  color: #706f6a;
-  text-decoration: line-through;
+	color:#706f6a;
+	text-decoration:line-through;
 }
+/*added for MT:retrace*/
 div.transcription.style-mt-html .retrace.red {
-  color: #B33B24 !important;
-  border-bottom: 1px gray dotted;
+    color:#B33B24 !important;
+    border-bottom:1px gray dotted;	
 }
 div.transcription.style-mt-html .retrace.DL {
-  color: black;
-  border-bottom: 1px gray dotted;
+    color:black;
+    border-bottom:1px gray dotted;
 }
 div.transcription.style-mt-html .retrace.CL {
-  color: #746553;
-  border-bottom: 1px gray dotted;
+    color:#746553;
+    border-bottom:1px gray dotted;
 }
 div.transcription.style-mt-html .retrace.CL .add {
-  color: #746553;
-  border-bottom: 1px gray dotted;
+    color:#746553;
+    border-bottom:1px gray dotted;
 }
 div.transcription.style-mt-html .retrace.U5 {
-  color: #936541 !important;
-  border-bottom: 1px gray dotted;
+    color:#936541 !important;
+    border-bottom:1px gray dotted;
 }
 div.transcription.style-mt-html .retrace.U5 .add {
-  color: #936541 !important;
-  border-bottom: 1px gray dotted;
+    color:#936541 !important;
+    border-bottom:1px gray dotted;
 }
 div.transcription.style-mt-html .retrace.red .add {
-  color: #B33B24 !important;
+    color:#B33B24 !important;
 }
 div.transcription.style-mt-html .retrace.gray .add {
-  color: gray !important;
+    color:gray !important;
 }
 div.transcription.style-mt-html .retrace.red .metamark {
-  color: #B33B24 !important;
+    color:#B33B24 !important;
 }
 div.transcription.style-mt-html .retrace.gray .metamark {
-  color: gray !important;
+    color:gray !important;
 }
 div.transcription.style-mt-html .retrace.DL .add {
-  color: black !important;
+    color:black !important;
 }
 div.transcription.style-mt-html .retrace.DL .metamark {
-  color: black !important;
+    color:black !important;
 }
+
+
+/* 7. Unclear, gap, space */
+
 div.transcription.style-mt-html .unclear {
-  color: #706f6a;
-  border-bottom: 1px dotted #706f6a;
+	color:#706f6a;
+	border-bottom:1px dotted #706f6a;
 }
 div.transcription.style-mt-html .gap {
-  border-bottom: 1px dotted black;
+	border-bottom:1px dotted black;
 }
 div.transcription.style-mt-html .space-other {
-  border-bottom: 1px dotted black;
-  display: block;
+	border-bottom:1px dotted black;
+	display:block;
 }
 div.transcription.style-mt-html .verticalSpace {
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  text-indent: 0;
+	display:inline-block;
+	border-bottom:1px dotted black;
+	text-indent:0;
+	font-style:normal;
 }
+
+
+/* 8. Editorial */
+
 div.transcription.style-mt-html .sic,
 div.transcription.style-mt-html .corr {
-  border-bottom: 2px #B33B24 dotted;
+	border-bottom:2px #B33B24 dotted;
 }
 div.transcription.style-mt-html .orig,
 div.transcription.style-mt-html .reg {
-  /*border-bottom:1px green dotted*/
+	/*border-bottom:1px green dotted*/
 }
 div.transcription.style-mt-html .abbr,
 div.transcription.style-mt-html .expan {
-  border-bottom: 1px green dotted;
+	border-bottom:1px green dotted;
 }
 div.transcription.style-mt-html .expan {
-  display: none;
+	display:none;
 }
 div.transcription.style-mt-html .hidden {
-  display: none;
+	display:none;
 }
 div.transcription.style-mt-html .rdg {
-  display: block;
+	display:block;
 }
+
+
+/* 9. @rend classes (except colors, lines, and up-down placement) */
+
 div.transcription.style-mt-html .caps {
-  font-variant: small-caps;
+	font-variant:small-caps;
 }
 div.transcription.style-mt-html .center {
-  text-indent: 0;
-  margin-left: 6em;
+	text-indent:0;
+	margin-left:6em;
 }
 div.transcription.style-mt-html .doubleunderline {
-  border-bottom: 3px double;
+	border-bottom:3px double;
 }
 div.transcription.style-mt-html .tripleunderline {
-  border-bottom: 4px double;
-  text-decoration: underline;
+	border-bottom:4px double;
+	text-decoration:underline;
 }
 div.transcription.style-mt-html .inline {
-  /*color:#706f6a;*/
+	/*color:#706f6a;*/
 }
 div.transcription.style-mt-html .italic {
-  font-style: italic;
+	font-style:italic;
 }
 div.transcription.style-mt-html .large {
-  font-size: 120%;
+	font-size:120%;
 }
 div.transcription.style-mt-html .seg.left {
-  display: inline-block;
-  margin-left: -4em !important;
-  text-indent: 0 !important;
+	position:relative;
+	right:4em;
 }
 div.transcription.style-mt-html .body.left {
-  text-indent: 0;
-  margin-left: 12em;
+	text-indent:0;
+	margin-left:12em;
 }
 div.transcription.style-mt-html .overline.underline {
-  text-decoration: overline underline;
+	text-decoration:overline underline;
 }
 div.transcription.style-mt-html .overtext {
-  /*color:#706f6a;*/
+	/*color:#706f6a;*/
 }
 div.transcription.style-mt-html .right {
-  text-indent: 0;
-  margin-left: 12em;
+	text-indent:0;
+	margin-left:12em;
 }
+
+/*Did you add the next two items? If not, remove them both */
 div.transcription.style-mt-html .add-right {
-  margin-left: 8em;
+	margin-left:8em;
 }
 div.transcription.style-mt-html .right-right {
-  margin-left: 0em;
+	margin-left:0em;
 }
+/*See previous note. End of items to remove possible */
+
 div.transcription.style-mt-html .small {
-  font-size: 85%;
+	font-size:85%;
 }
 div.transcription.style-mt-html .smallcaps {
-  font-variant: small-caps;
+	font-variant:small-caps;
 }
 div.transcription.style-mt-html .underline {
-  text-decoration: underline;
+	text-decoration:underline;
 }
 div.transcription.style-mt-html .upsidedown {
-  /*-ms-transform:rotate(180deg);*/
-  /* IE 9 */
-  /*-moz-transform:rotate(180deg);*/
-  /* Firefox */
-  /*-webkit-transform:rotate(180deg);*/
-  /* Safari and Chrome */
-  /*-o-transform:rotate(180deg);*/
-  /* Opera */
+	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
+	/*-moz-transform:rotate(180deg);*/ /* Firefox */
+	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
+	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
 div.transcription.style-mt-html .vertical {
-  /*-ms-transform:rotate(90deg);*/
-  /* IE 9 */
-  /*-moz-transform:rotate(90deg);*/
-  /* Firefox */
-  /*-webkit-transform:rotate(90deg);*/
-  /* Safari and Chrome */
-  /*-o-transform:rotate(90deg);*/
-  /* Opera */
+	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
+	/*-moz-transform:rotate(90deg);*/ /* Firefox */
+	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
+	/*-o-transform:rotate(90deg);*/ /* Opera */
 }
+
+
+/* 10. Page placement */
+
 div.transcription.style-mt-html .above,
 div.transcription.style-mt-html .below,
 div.transcription.style-mt-html .bottom,
 div.transcription.style-mt-html .sub,
 div.transcription.style-mt-html .sup,
 div.transcription.style-mt-html .top {
-  /* Specified in % so that the sup/sup is the
-         right size relative to the surrounding text */
-  font-size: 75%;
-  /* Zero out the line-height so that it doesn't
-         interfere with the positioning that follows */
-  line-height: 0;
-  /* Where the magic happens: makes all browsers position
-         the sup/sup properly, relative to the surrounding text */
-  position: relative;
-  /* Note that if you're using Eric Meyer's reset.css, this
-         is already set and you can remove this rule */
-  vertical-align: baseline;
+	/* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+	font-size:75%;
+
+	/* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+	/*line-height:0;*/
+
+	/* Where the magic happens:makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+	position:relative;
+
+	/* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+	vertical-align:baseline;
 }
 div.transcription.style-mt-html .above,
 div.transcription.style-mt-html .sup,
 div.transcription.style-mt-html .top {
-  /* Move the superscripted text up */
-  top: -0.5em;
+	/* Move the superscripted text up */
+	top:-0.5em;
 }
 div.transcription.style-mt-html .below,
 div.transcription.style-mt-html .bottom,
 div.transcription.style-mt-html .sub {
-  /* Move the subscripted text down, but only
-         half as far down as the superscript moved up */
-  bottom: -0.25em;
+	/* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+	bottom:-0.25em;
 }
+/*div.transcription.style-mt-html .margintop {
+	margin-left:0;
+	color:#706f6a;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+	top:-1em;
+}*/
 div.transcription.style-mt-html .true {
-  /*display:inline-block;*/
-}
+	/*display:inline-block;*/
+}/*Goes with standalone <note>s*//*Not relevant to MT?*/
+/*Commented this out again because it was messing up hi/del when outside of note*/
+
+
+/* 11. Colors */
+
 div.transcription.style-mt-html .black {
-  color: black;
+	color:black;
 }
 div.transcription.style-mt-html .black.gray {
-  color: #404040;
+	color:#404040;
 }
 div.transcription.style-mt-html .blue {
-  color: blue;
+	color:blue;
 }
 div.transcription.style-mt-html .brown {
-  color: brown;
+	color:#8e6352;
 }
 div.transcription.style-mt-html .gray {
-  color: #706f6a;
+	color:#706f6a !important;
 }
 div.transcription.style-mt-html .green {
-  color: green;
+	color:green;
 }
 div.transcription.style-mt-html .orange {
-  color: orange;
+	color:orange;
 }
 div.transcription.style-mt-html .purple {
-  color: purple;
+	color:purple;
 }
 div.transcription.style-mt-html .red {
-  color: #B33B24;
+	color:#B33B24;
 }
 div.transcription.style-mt-html .yellow {
-  color: yellow;
+	color:yellow;
 }
+
+
+/* 12. Lists and Tables */
 div.transcription.style-mt-html .list {
-  display: block;
-  margin-top: 12px;
+	display:block;
+	margin-top:12px;
 }
 div.transcription.style-mt-html table {
-  font-size: 1em;
-  /*85%;*/
-  /*Changed for 1870 Field Diary*/
-  border-style: none;
-  margin-right: 2em;
-  /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-  color: #58484b;
-  /*Added color for 1870 Field Diary*/
+	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
+	border-style:none;
+	margin-right:2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	color:#58484b; /*Added color for 1870 Field Diary*/
 }
 div.transcription.style-mt-html tr,
 div.transcription.style-mt-html td {
-  border-style: none;
+	border-style:none;
 }
+
+
+/* 13. Misc */
+
 div.transcription.style-mt-html .figure {
-  margin-left: 0;
-  color: #706f6a;
-  font-size: .8em;
-  border-bottom: 1px #706f6a dotted;
+	margin-left:0;
+	color:#706f6a;
+	font-size:.8em;
+	border-bottom:1px #706f6a dotted;
 }
 div.transcription.style-mt-html .p .figure,
 div.transcription.style-mt-html .p.noindent .figure,
 div.transcription.style-mt-html .ab .figure {
-  margin-left: 0px !important;
-  text-indent: 0px;
+	margin-left:0px !important;
+	text-indent:0px;
 }
+
+/*My CSS has the following two items. I presume you don't need them? If so, just remove and leave a note that you removed my .metamark and p .metamark*/
+
+/* Removed .metamark code, for Missionary Travels. See section 14 instead.*/
+
 div.transcription.style-mt-html p .metamark {
-  margin-left: 0px !important;
-  text-indent: 0px !important;
+	margin-left:0px !important;
+	text-indent:0px !important;
 }
+/*See previous*/
+
+/*Did you add the following two? If not, remove. If so, add a note that these are for MT*/
 div.transcription.style-mt-html .makeRed {
-  color: #B33B24;
+color:#B33B24;
 }
 div.transcription.style-mt-html .makeGray {
-  color: gray;
+color:gray;
 }
+/*See previous*/
+
 div.transcription.style-mt-html .foreign,
 div.transcription.style-mt-html .geogName,
 div.transcription.style-mt-html .persName,
 div.transcription.style-mt-html .orgName,
-div.transcription.style-mt-html .quote,
 div.transcription.style-mt-html .region,
 div.transcription.style-mt-html .settlement,
 div.transcription.style-mt-html .term-ailment,
 div.transcription.style-mt-html .term-tribe {
-  border-bottom: 2px #428bca dotted;
-  /* change to 1px */
+	border-bottom:2px #428bca dotted; /* change to 1px */
 }
+
+
+/* 14. Multiple hands */ /*added for MT*/
+
 div.transcription.style-mt-html .CL {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  color: #746553;
+    font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+	color:#746553;
+	font-style:italic;
 }
 div.transcription.style-mt-html .DL {
-  font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
-  color: black;
+    font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+	color:black;
+	font-style:normal;
 }
 div.transcription.style-mt-html .U1 {
-  font-style: normal;
+    font-style:normal;
 }
 div.transcription.style-mt-html .U2 {
-  font-style: normal;
+    font-style:normal;
 }
 div.transcription.style-mt-html .U5 {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 1em;
-  color: #936541;
+    font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+	font-size:1em; 
+	color:#936541;
+	font-style:italic;
 }
+
+
+/*15. Metamarks*/ /*added for MT*/
+
 div.transcription.style-mt-html .dashed {
-  border-bottom: 2px dashed;
+    border-bottom:2px dashed;
 }
 div.transcription.style-mt-html .dashed-red {
-  border-bottom: 2px #B33B24 dashed;
+    border-bottom:2px #B33B24 dashed;
 }
 div.transcription.style-mt-html .dashed-gray {
-  border-bottom: 2px gray dashed;
+    border-bottom:2px gray dashed;
 }
 div.transcription.style-mt-html .dashed-red .metamark {
-  font-size: 1em !important;
+font-size:1em !important;
 }
 div.transcription.style-mt-html .dashed-gray .metamark {
-  font-size: 1em !important;
+font-size:1em !important;
 }
 div.transcription.style-mt-html .dashed .metamark {
-  font-size: 1em !important;
+font-size:1em !important;
 }
 div.transcription.style-mt-html .metamark {
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  /*font-size: 1em;*/
+	font-style:italic;
+	border-bottom:1px gray dotted;
+	/*font-size:1em;*/
 }
 div.transcription.style-mt-html .metamark.red {
-  color: #B33B24;
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  /*font-size: .9em;*/
-}
+    color:#B33B24;
+    font-style:italic;
+	border-bottom:1px gray dotted;
+	/*font-size:.9em;*/
+    }
 div.transcription.style-mt-html .metamark.gray {
-  color: gray;
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  /*font-size: .9em;*/
+    color:gray;
+    font-style:italic;
+	border-bottom:1px gray dotted;
+	/*font-size:.9em;*/
 }
 div.transcription.style-mt-html .metamark.ed-mark {
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  /*font-size: 1.1em;*/
+	font-style:italic;
+	border-bottom:1px gray dotted;
+	/*font-size:1.1em;*/
 }
 div.transcription.style-mt-html .metamark.flag {
-  font-size: 1.5em;
-  font-style: normal !important;
+    font-size:1.5em;
+    font-style:normal !important;
 }
 div.transcription.style-mt-html .metamark.no-newParagraph {
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  font-size: 2em;
+	font-style:italic;
+	border-bottom:1px gray dotted;
+	font-size:2em;
 }
 div.transcription.style-mt-html .metamark.placeMark {
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  font-size: 2em !important;
+	font-style:italic;
+	border-bottom:1px gray dotted;
+	font-size:2em !important;
+	line-height:70%;
 }
-div.transcription.style-mt-html .metamark.placeMark.marginleft {
-  margin-left: -3em !important;
-  margin-right: 2.5em;
-  font-size: 2em !important;
-  float: none;
-  line-height: 100%;
+/*div.transcription.style-mt-html .metamark.placeMark.marginleft {
+	    margin-left:-5em !important;
+		margin-right:2.5em;
+	    font-size:2em !important;
+		float:none;
+		line-height:100%;
+}*/
+div.transcription.style-mt-html .marginleft.marginleft.metamark.marginleft.placeMark {
+	float:none;
+	margin-left:-2em !important;
+	margin-right:1.4em;
+	line-height:45%;
 }
 div.transcription.style-mt-html .metamark.deletion {
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  /*font-size: 1.1em;*/
+	font-style:italic;
+	border-bottom:1px gray dotted;
+	/*font-size:1.1em;*/
 }
 div.transcription.style-mt-html .marginleft.marginleft.metamark.deletion,
 div.transcription.style-mt-html .marginleft.marginleft.metamark.ed-mark {
-  float: none;
-  margin-left: -5em !important;
-  margin-right: 4em;
+	float:none;
+	margin-left:-5em !important;
+	margin-right:4em;
 }
 div.transcription.style-mt-html .marginleft.marginleft.metamark.marginleft {
-  float: none;
-  margin-left: -5em !important;
-  margin-right: 4.3em;
+	float:none;
+	margin-left:-5em !important;
+	margin-right:4.2em;
 }
 div.transcription.style-mt-html .marginleft.marginleft.metamark.marginleft.query {
-  float: none;
-  margin-left: -12em !important;
-  margin-right: 10.7em;
+	float:none;
+	margin-left:-4.5em !important;
+	margin-right:3.8em;
 }
 div.transcription.style-mt-html .marginleft.marginleft .metamark.placeMark.marginleft {
-  float: left;
+	float:left;
 }
 div.transcription.style-mt-html .metamark.transposition {
-  font-style: italic;
-  border-bottom: 1px gray dotted;
-  /*font-size: .9em;*/
+	font-style:italic;
+	border-bottom:1px gray dotted;
+	/*font-size:0.9em;*/
 }
 div.transcription.style-mt-html .metamark.marginleft {
-  margin-left: -12em !important;
-  /*Changed from 5.2em. AW*/
-  text-indent: 0;
-  float: none;
-  text-align: center;
-  font-size: .9em;
+    margin-left:-12em !important;/*Changed from 5.2em. AW*/
+	text-indent:0;	
+	float:none;
+	text-align:center;
+	font-size:.9em;
 }
 div.transcription.style-mt-html .metamark.marginleft.second-margin-metamark {
-  margin-left: -2.8em !important;
-  /*Changed. AW*/
+    margin-left:-2.8em !important;/*Changed. AW*/	
 }
 div.transcription.style-mt-html .metamark.marginleft.alternate-margin-metamark {
-  margin-left: -3em !important;
-  /*Changed. AW*/
+	margin-left:-3em !important;/*Changed. AW*/
 }
 div.transcription.style-mt-html p .metamark {
-  margin-left: 0px !important;
-  text-indent: 0px !important;
+	margin-left:0px !important;
+	text-indent:0px !important;
 }
