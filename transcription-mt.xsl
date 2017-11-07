@@ -206,19 +206,14 @@
 		</xsl:variable>
 		<!--<br><xsl:if test="$class/text()"><xsl:attribute name="class"><xsl:value-of select="$class"/></xsl:attribute></xsl:if></br>-->
 		<br/>
-		<xsl:choose>
-			<xsl:when test="lb[(ancestor::add[@place='marginleft'])]"/>
-			<xsl:otherwise>
-				<xsl:variable name="num">
-					<xsl:number level="any" from="pb" count="lb[not(ancestor::add[@place='marginleft'])]|lb[not(ancestor::add[@place='marginleft']/note)]"/><!-- count="lb[not(ancestor::add[@place='marginleft'])]|lb[not(ancestor::add[@place='marginleft']/note)]" -->
-				</xsl:variable>
-				<xsl:if test="number($num) mod 1 =0">
-					<span class="linenumber">
-						<xsl:value-of select="$num"/>
-					</span>
-				</xsl:if>
-			</xsl:otherwise>
-		</xsl:choose>
+		<xsl:variable name="num">
+			<xsl:number level="any" from="pb"/>
+		</xsl:variable>
+		<xsl:if test="number($num) mod 5 =0">
+			<span class="linenumber">
+				<xsl:value-of select="$num"/>
+			</span>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template match="choice">
@@ -321,107 +316,35 @@
 	<!-- For "abbr" see above -->
 
 	<xsl:template match="add">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', translate(@n, '-', ''))}">
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'ition, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span><!-- Added @hand and @n for MT -->
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span><!-- Added @hand and @n for MT -->
 	</xsl:template>
 
 	<xsl:template match="add[@place='marginleft']|add[@place='marginright']|add[@place='marginbottom']|add[@place='margintop']" priority="9"><!-- Should 9 be 10? -->
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''), ' ', 'addmargin')}">
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'ition, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					 [<xsl:apply-templates/>] </span><!-- Added @n for MT -->
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''), ' ', 'addmargin')}"> [<xsl:apply-templates/>] </span><!-- Added @n for MT -->
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''))}" title="Addition written over existing text">
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'ition, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					{<xsl:apply-templates/>}</span><!-- Added @n for MT -->
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''))}" title="Addition written over existing text">{<xsl:apply-templates/>}</span><!-- Added @n for MT -->
 	</xsl:template>
 
 	<xsl:template match="opener/add">
 		<span
 			class="opener-add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''))}">
-			
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'ition, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/>
+			<xsl:apply-templates/>
 		</span><!-- Added @n for MT -->
 	</xsl:template>
 
 	<!-- The following template added for MT -->
 	<xsl:template match="add[@rend='gray right'][preceding-sibling::add[@rend='gray center']]" priority="9">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''), ' ', 'add-right')}">
-			
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'ition, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/>
+			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
 	<!-- The following template added for MT -->
 	<xsl:template match="add[@rend='gray right'][preceding-sibling::add[@rend='gray right']]" priority="10">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''), ' ', 'right-right')}">
-			
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'ition, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/>
+			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
@@ -526,329 +449,74 @@
 	<xsl:template match="del">
 		<xsl:choose>
 			<xsl:when test="@n='DL' and ancestor::div[@n='U5']"><!-- This is controlling the strikethrough in another color -->
-				<span style='color:black;text-decoration:line-through'><span style='color:#936541'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:black;text-decoration:line-through'><span style='color:#936541'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@rend='gray' and ancestor::div[@n='U5']"><!-- This is controlling the strikethrough in another color -->
-				<span style='color:gray;text-decoration:line-through'><span style='color:#936541'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:gray;text-decoration:line-through'><span style='color:#936541'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@n='CL' and ancestor::div[@n='DL']"><!-- This is controlling the strikethrough in another color -->
-				<span style='color:#746553;text-decoration:line-through'><span style='color:black'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:#746553;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
 			</xsl:when>	
 			<xsl:when test="@n='DL' and ancestor::div[@n='CL']"><!-- This is controlling the strikethrough in another color -->
-				<span style='color:black;text-decoration:line-through'><span style='color:#746553'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:black;text-decoration:line-through'><span style='color:#746553'><xsl:apply-templates/></span></span>
 			</xsl:when>	
 			<xsl:when test="@rend='gray' and ancestor::div[@n='CL']"><!-- This is controlling the strikethrough in another color -->
-				<span style='color:gray;text-decoration:line-through'><span style='color:#746553'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:gray;text-decoration:line-through'><span style='color:#746553'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@rend='red' and ancestor::div[@n='CL']"><!-- This is controlling the strikethrough in another color -->
-				<span style='color:#B33B24;text-decoration:line-through'><span style='color:#746553'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:#B33B24;text-decoration:line-through'><span style='color:#746553'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@hand='#DL' and parent::add[@rend='red']/..">
-				<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@hand='#DL' and parent::add[@rend='gray']/..">
-				<span style='color:black;text-decoration:line-through'><span style='color:gray'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:black;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
 			</xsl:when>	
 			<xsl:when test="@rend='red' and parent::add[@rend='red']/..">
-				<span style='color:#B33B24;text-decoration:line-through'><span style='color:#B33B24'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:#B33B24;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@rend='gray' and parent::add[@rend='gray']/..">
-				<span style='color:gray;text-decoration:line-through'><span style='color:gray'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:gray;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@rend='red' and parent::add[@rend='gray']/..">
-				<span style='color:#B33B24;text-decoration:line-through'><span style='color:gray'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:#B33B24;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@rend='gray' and parent::add[@rend='red']/..">
-				<span style='color:gray;text-decoration:line-through'><span style='color:#B33B24'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:gray;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@hand='#DL' and parent::note[ancestor::add[@rend='red']]/..">
-				<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
 			</xsl:when>		
 			<xsl:when test="@hand='#DL' and parent::note[ancestor::add[@rend='gray']]/..">
-				<span style='color:black;text-decoration:line-through'><span style='color:gray'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:black;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
 			</xsl:when>	
 			<xsl:when test="@rend='red' and parent::note[ancestor::add[@rend='red']]/..">
-				<span style='color:#B33B24;text-decoration:line-through'><span style='color:#B33B24'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:#B33B24;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
 			</xsl:when>	
 			<xsl:when test="@rend='gray' and parent::note[ancestor::add[@rend='gray']]/..">
-				<span style='color:gray;text-decoration:line-through'><span style='color:gray'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:gray;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
 			</xsl:when>	
 			<xsl:when test="@rend='gray' and parent::note[ancestor::add[@rend='red']]/..">
-				<span style='color:gray;text-decoration:line-through'><span style='color:#B33B24'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:gray;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
 			</xsl:when>	
 			<xsl:when test="@rend='red' and parent::note[ancestor::add[@rend='gray']]/..">
-				<span style='color:#B33B24;text-decoration:line-through'><span style='color:gray'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:#B33B24;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
 			</xsl:when>	
-			<xsl:when test="@rend='brown'">
-				<span style='color:#8e6352;text-decoration:line-through'><span style='color:black'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
-			</xsl:when>
 			<xsl:when test="@rend='red'">
-				<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:when test="@rend='gray'">
-				<span style='color:gray;text-decoration:line-through'><span style='color:black'>
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/></span></span>
+				<span style='color:gray;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="del cancelled">
 					<xsl:if test="@*">
 						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
+							<xsl:value-of select="concat(name(), 'etion, ')"/>
+							<xsl:for-each select="@*">
 								<xsl:sort/>
 								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(', ', name(),': ', ., '; ')"/>
+									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
 								</xsl:if>
 							</xsl:for-each>
 						</xsl:attribute>
@@ -860,27 +528,7 @@
 	</xsl:template>	
 	
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
-		<span class="del-by-over-text" title="Text deleted by over-writing">					
-				<xsl:choose>
-					<xsl:when test="@hand and @type|@hand or @type">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(', ', name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'etion')"/>
-						</xsl:attribute>
-					</xsl:otherwise>
-				</xsl:choose>
-			<xsl:apply-templates/>
-		</span>
+		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- added for 1870 FD -->
@@ -1016,16 +664,10 @@
 	</xsl:template>
 
 	<xsl:template match="gap[@extent][@unit]" priority="10">
-		<xsl:variable name="agent">
-			<xsl:if test="@agent">
-				<xsl:text>; cause: </xsl:text><xsl:value-of select="@agent">
-			</xsl:value-of>
-			</xsl:if>
-		</xsl:variable>	
 		<xsl:choose>
-			<xsl:when test="@unit='chars'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, $agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span></xsl:when>
-			<xsl:when test="@unit='words'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, $agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:when>
-			<xsl:otherwise><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, $agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:otherwise>
+			<xsl:when test="@unit='chars'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span></xsl:when>
+			<xsl:when test="@unit='words'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:when>
+			<xsl:otherwise><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit, ', cause: ', @agent)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
@@ -1437,9 +1079,6 @@
 			<xsl:when test="@rend='gray underline'">
 				<span style='color:gray;text-decoration:underline'><span style='color:black'><xsl:apply-templates/></span></span>
 			</xsl:when>
-			<xsl:when test="@rend='brown underline'">
-				<span style='color:#8e6352;text-decoration:underline'><span style='color:black'><xsl:apply-templates/></span></span>
-			</xsl:when>
 			<xsl:otherwise>
 				<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@hand, '-', ''), ' ', translate(@n, '-', ''))}">
 					<xsl:apply-templates/>
@@ -1478,12 +1117,6 @@
 	<xsl:template match="metamark[@function='deletion']" priority="10">
 		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to mark a deletion"
 			>&#x20B0;<xsl:text> </xsl:text>
-		</span>
-	</xsl:template>
-	
-	<xsl:template match="metamark[@function='dele-abbr']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial notation instructing that a portion of text should be deleted">
-			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 	
@@ -1563,19 +1196,19 @@
 	<xsl:template match="metamark
 		[contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23a8;</span>
 	</xsl:template>	
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'gray') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23a8;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'red') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23a8;</span>
 	</xsl:template>
 	
 	<!-- @function let-stand -->
@@ -1619,19 +1252,19 @@
 	<xsl:template match="metamark
 		[contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="9">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23a8;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'gray') and contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23a8;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'red') and contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23a8;</span>
 	</xsl:template>
 	
 	<!-- The following anchor templates adde for MT: to work with metamarks using @spanTo, @function 'flag' and 'reorder' -->
@@ -1652,7 +1285,7 @@
 				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'reorder')]"><xsl:text>Editorial symbol used to transpose a portion of text from one place to another</xsl:text></xsl:when>
 			</xsl:choose>
 		</xsl:variable>
-		<span class="metamark {$metamark/@rend} {$metamark/@n} {$metamark}" title="{$metamarkText}">&#x23b1;</span>
+		<span class="metamark {$metamark/@rend} {$metamark/@n} {$metamark}" title="{$metamarkText}">&#x23ac;</span>
 	</xsl:template>
 
 	<!-- anchor: to work with metamark using @spanTo, @function 'let-stand'. -->
@@ -1675,16 +1308,16 @@
 	<xsl:template match="milestone">
 		<xsl:choose>
 			<xsl:when test="contains(@rend,'double-line')">
-				<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}">&#160;</span><br/>
-				<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}">&#160;</span>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>
 			</xsl:when>
 			<xsl:when test="contains(@rend,'triple-line')">
-				<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}">&#160;</span>
-				<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}">&#160;</span>
-				<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}">&#160;</span>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'third-line')}"/>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">&#160;</span>
+				<hr class="{concat(name(), ' ', translate(@rend, '-', ''))}"/>
 			</xsl:otherwise>
 		</xsl:choose>
 			<!--<xsl:if test="@*">
@@ -1727,19 +1360,7 @@
 
 	<xsl:template match="add[@place='marginleft'][descendant::note]" priority="10">
 		<span class="{concat(name(), ' ', translate(@type, '-', ''), ' ', translate(@anchored, '-', ''), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', translate(@n, '-', ''))}">
-			
-					<xsl:if test="@*">
-						<xsl:attribute name="title">
-							<xsl:value-of select="concat(name(), 'ition, ')"/>
-							<xsl:for-each select="@*[not(name()='n')]">
-								<xsl:sort/>
-								<xsl:if test="not(name()='status')">
-									<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-								</xsl:if>
-							</xsl:for-each>
-						</xsl:attribute>
-					</xsl:if>
-					<xsl:apply-templates/>
+			<xsl:apply-templates/>
 		</span><!-- @hand and @n added for MT-->
 	</xsl:template>
 
@@ -2088,12 +1709,8 @@
 			</xsl:when>
 			<xsl:when test="@dim='vertical'">
 				<span class="verticalSpace" title="{concat('vertical space: ',@extent, ' ', @unit)}">
-					<xsl:for-each select="1 to @extent">
-						<br class="verticalSpace"/>
-					</xsl:for-each>
-				</span>
-				<!--[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
-					<br class="verticalSpace"/>-->
+					[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]
+					<br class="verticalSpace"/></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="space-other">
