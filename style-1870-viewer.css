@@ -28,6 +28,8 @@ div.transcription-viewer-content.style-1870-viewer {
 /* 1. Textual divisions */
 
 div.transcription.style-1870-viewer {
+	padding-left:2.5em;
+	padding-top:1.5em;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -40,9 +42,9 @@ div.transcription.style-1870-viewer .TEI {
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
-	padding-left:2em;
+	padding-left:1em;
 	/*Needed to position line numbers in MS viewer*/
-	padding-right:2em;
+	padding-right:1em;
 	/*Needed to position line numbers in MS viewer*/
 	text-align:left;
 	background:#d3c2a8;
@@ -51,7 +53,7 @@ div.transcription.style-1870-viewer .TEI {
 /*
 @media all and (max-width:768px)  {
 .TEI {	
-	padding-left:2em; /*Needed to position line numbers in MS viewer
+	padding-left:1em; /*Needed to position line numbers in MS viewer
 */
 div.transcription.style-1870-viewer .item-details {
 	max-width:29em;
@@ -61,7 +63,6 @@ div.transcription.style-1870-viewer .item-details {
 div.transcription.style-1870-viewer div.body {
 	display:block;
 	padding-bottom:2.4em;
-	padding-left:1.5em;
 }
 div.transcription.style-1870-viewer .front,
 div.transcription.style-1870-viewer .back {

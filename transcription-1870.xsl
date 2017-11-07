@@ -59,8 +59,35 @@
 			<!--<h2>
         <xsl:value-of select="//teiHeader//title[2]"/>
 			</h2>-->
+			<xsl:variable name="sortedDates" as="xs:string*">
+				<xsl:choose>
+					<xsl:when test="//revisionDesc/change[@when]">
+						<xsl:perform-sort select="//revisionDesc/change/@when[not(.=preceding::change/@when)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:perform-sort select="//revisionDesc/change/date[not(.=preceding::change/date)]"><xsl:sort select="." order="ascending"/></xsl:perform-sort>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
 			<div class="TEI">
-				<span class="project-id">[project id: <xsl:value-of select="//idno[@type='LEAP-ID']"/>]</span><br/><br/><br/>
+				<div class="item-details">
+					<span class="title"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
+					<span class="author"><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
+					<hr class="title-section"/><br/>
+					<span class="authority"><strong>Date of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
+					<span class="authority"><strong>Place of composition:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>
+					<span class="authority"><strong>Repository:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//repository"/>, <xsl:value-of select="//teiHeader//settlement"/>, <xsl:value-of select="//teiHeader//country"/></span><br/>
+					<span class="authority"><strong>Shelfmark:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//idno[@type='shelfmark']"/></span><br/>
+					<span class="authority"><strong>Clendennen &amp; Cunningham number(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//idno[@type='ccnumber']"/></span><br/>
+					<span class="authority"><strong>Digital edition and date:</strong><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span><br/>
+					<span class="authority"><strong>Publisher:</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/publisher"/>,</span><xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/pubPlace"/></span><br/>
+					<span class="authority"><strong>Project ID:</strong><xsl:text> </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
+					<span class="authority"><strong>Critical encoding:</strong><xsl:text> </xsl:text> <xsl:value-of select="//teiHeader//respStmt/name" separator=", "/></span><br/>
+					<span class="authority"><strong>Encoding dates</strong><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></span><br/>
+					<br/>
+					<hr class="title-section"/>
+					<br/>
+				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
 					<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
