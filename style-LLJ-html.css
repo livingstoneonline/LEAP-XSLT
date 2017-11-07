@@ -50,8 +50,7 @@ div.transcription.style-LLJ-html .TEI {
 /*
 @media all and (max-width:768px)  {
 .TEI {	
-	/*padding-left:1.5em;*//*Removed because didn't work with triple viewer*/
-}
+	/*padding-left:1.5em;*//*Removed because didn't work with triple viewer
 */
 div.transcription.style-LLJ-html .item-details {
 	max-width:26em;/*LLJ*/
@@ -608,5 +607,4 @@ div.transcription.style-LLJ-html .settlement,
 div.transcription.style-LLJ-html .term-ailment,
 div.transcription.style-LLJ-html .term-tribe {
   border-bottom:2px #428bca dotted;
-  /* change to 1px */
 }

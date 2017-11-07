@@ -52,8 +52,7 @@ div.transcription.style-1871-viewer .TEI {
 /*
 @media all and (max-width:768px)  {
 .TEI {	
-	padding-left:2em; /*Needed to position line numbers in MS viewer*/
-}
+	padding-left:2em; /*Needed to position line numbers in MS viewer
 */
 div.transcription.style-1871-viewer .item-details {
 	max-width:29em;
