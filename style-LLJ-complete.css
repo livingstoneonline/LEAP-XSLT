@@ -20,30 +20,30 @@ Table of Contents
 /* Rules for containers either this is shown embedded in the viewer or not */
 body.non-embedded-transcription,
 div.transcription-viewer-content.style-LLJ-complete {
-  background: #ead7b3;
+  background:#ead7b3;
   /*LLJ*/
 }
 /* 1. Textual divisions */
 div.transcription.style-LLJ-complete {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  max-width: 26em;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  max-width:26em;
   /*LLJ*/
-  min-width: 26em;
+  min-width:26em;
   /*LLJ*/
-  font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
-  font-size: 16px;
+  font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+  font-size:16px;
   /*Make .9em; also for table*/
   /*white-space:nowrap;*/
-  color: #46381e;
+  color:#46381e;
   /*LLJ*/
   /* 1.5. Title section */
   /* 2. Letters */
   /* 3. pb, lb, linenumber */
   /* 4. Milestone and lines */
   /*.doubleline{
-        border-top: 4px double #8c8b8b;
+        border-top:4px double #8c8b8b;
         display:block;
         width:35% !important;
         margin-left:9%;
@@ -51,7 +51,7 @@ div.transcription.style-LLJ-complete {
         color:black;
     }*/
   /*.tripleline{
-        border-top: 4px double #8c8b8b;
+        border-top:4px double #8c8b8b;
         line-height:1.9em;
         display:block;
         width:35% !important;
@@ -72,344 +72,344 @@ div.transcription.style-LLJ-complete {
   /* 12. Misc */
 }
 div.transcription.style-LLJ-complete .TEI {
-  display: block;
+  display:block;
   /*LLJ*/
-  padding-top: .5em;
-  text-align: justify;
+  padding-top:.5em;
+  text-align:justify;
   /*LLJ*/
-  background: #ead7b3;
+  background:#ead7b3;
   /*LLJ*/
 }
 div.transcription.style-LLJ-complete .item-details {
-  max-width: 26em;
+  max-width:26em;
   /*LLJ*/
-  min-width: 26em;
+  min-width:26em;
   /*LLJ*/
-  text-align: left;
+  text-align:left;
   /*LLJ*/
-  padding-top: 1em;
+  padding-top:1em;
 }
 div.transcription.style-LLJ-complete div.body {
-  display: block;
-  padding-bottom: 2.4em;
-  padding-top: 1.5em;
+  display:block;
+  padding-bottom:2.4em;
+  padding-top:1.5em;
 }
 div.transcription.style-LLJ-complete .front,
 div.transcription.style-LLJ-complete .back {
-  display: block;
+  display:block;
 }
 div.transcription.style-LLJ-complete .title {
-  display: inline-block;
+  display:inline-block;
   /*LLJ*/
-  text-align: center;
-  margin-bottom: 1em;
+  text-align:center;
+  margin-bottom:1em;
   /*LLJ*/
-  font-size: 1.4em;
-  font-variant: small-caps;
+  font-size:1.4em;
+  font-variant:small-caps;
 }
 div.transcription.style-LLJ-complete .author {
-  display: block;
-  text-align: center;
-  margin-bottom: -0.5em;
+  display:block;
+  text-align:center;
+  margin-bottom:-0.5em;
   /*LLJ*/
-  font-size: 1.2em;
-  font-style: italic;
+  font-size:1.2em;
+  font-style:italic;
 }
 div.transcription.style-LLJ-complete .authority {
-  font-size: .9em;
-  line-height: 2em;
+  font-size:.9em;
+  line-height:2em;
 }
 div.transcription.style-LLJ-complete .pub-date {
-  font-size: .9em;
+  font-size:.9em;
 }
 div.transcription.style-LLJ-complete a:link {
-  color: #428bca !important;
+  color:#428bca !important;
 }
 div.transcription.style-LLJ-complete .idno {
-  font-size: .9em;
-  line-height: 2em;
+  font-size:.9em;
+  line-height:2em;
 }
 div.transcription.style-LLJ-complete hr.title-section {
-  width: 100%;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
-  margin-top: -0.4em;
-  margin-bottom: -0.4em;
+  width:100%;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
+  margin-top:-0.4em;
+  margin-bottom:-0.4em;
 }
 div.transcription.style-LLJ-complete .project-id {
-  color: gray;
-  font-size: .9em;
+  color:gray;
+  font-size:.9em;
 }
 div.transcription.style-LLJ-complete .opener,
 div.transcription.style-LLJ-complete .closer {
-  margin-bottom: 0px;
+  margin-bottom:0px;
 }
 div.transcription.style-LLJ-complete .opener {
-  display: inline;
-  margin-top: 1em;
+  display:inline;
+  margin-top:1em;
 }
 div.transcription.style-LLJ-complete .closer {
-  display: block;
+  display:block;
 }
 div.transcription.style-LLJ-complete .dateline {
-  display: inline;
-  text-indent: 0;
+  display:inline;
+  text-indent:0;
 }
 div.transcription.style-LLJ-complete .dateline.center {
-  display: inline-block;
+  display:inline-block;
 }
 div.transcription.style-LLJ-complete .dateline.right {
-  display: block;
+  display:block;
 }
 div.transcription.style-LLJ-complete .closer-salute {
-  margin-left: 0 !important;
+  margin-left:0 !important;
 }
 div.transcription.style-LLJ-complete .signed {
-  display: inline-block;
+  display:inline-block;
 }
 div.transcription.style-LLJ-complete .address {
-  display: block;
+  display:block;
 }
 div.transcription.style-LLJ-complete .pb-title {
-  display: block;
-  color: #428bca;
+  display:block;
+  color:#428bca;
   /*Changed for full LJ. Was color:#f6dbb0; & text decoration hidden*/
   /*text-decoration:underline;*/
-  font-size: 90%;
-  margin-top: 2em;
+  font-size:90%;
+  margin-top:2em;
   /*Changed for full LJ.*/
-  margin-bottom: 0;
+  margin-bottom:0;
   /*Changed for full LJ.*/
-  padding-bottom: 10px;
+  padding-bottom:10px;
   /*Added for full LJ.*/
 }
 div.transcription.style-LLJ-complete .pb-title:hover {
-  color: #AAA;
+  color:#AAA;
   /*Changed for full LJ. Was color:#f6dbb0;*/
-  cursor: pointer;
+  cursor:pointer;
 }
 div.transcription.style-LLJ-complete .pb-title:first-of-type {
-  /*margin-top: 0;*/
+  /*margin-top:0;*/
   /*This is to prevent scrolling up when the first image opens. AW*/
 }
 div.transcription.style-LLJ-complete p span.pb-title {
-  text-indent: 0;
+  text-indent:0;
   /*LLJ*/
-  margin-left: 0;
+  margin-left:0;
   /*Changed for full LJ. Was margin-top:3em;*/
 }
 div.transcription.style-LLJ-complete .lb {
-  display: block;
+  display:block;
 }
 div.transcription.style-LLJ-complete .linenumber {
-  text-align: right;
-  float: left;
-  color: #8c8b85;
-  margin-left: -3em !important;
+  text-align:right;
+  float:left;
+  color:#8c8b85;
+  margin-left:-3em !important;
   /*text-indent:9%;*/
-  font-size: 80%;
-  width: 1em;
-  display: none;
+  font-size:80%;
+  width:1em;
+  display:none;
 }
 div.transcription.style-LLJ-complete p .linenumber {
-  text-indent: -1%;
+  text-indent:-1%;
 }
 div.transcription.style-LLJ-complete .p.noindent.linenumber {
-  text-indent: 1em;
+  text-indent:1em;
 }
 div.transcription.style-LLJ-complete p.center .linenumber {
-  margin-left: -12.5em !important;
+  margin-left:-12.5em !important;
   /*Needs to be checked.*/
 }
 div.transcription.style-LLJ-complete p.right .linenumber {
-  margin-left: -18em !important;
+  margin-left:-18em !important;
 }
 div.transcription.style-LLJ-complete .list .linenumber {
-  text-indent: 0;
+  text-indent:0;
 }
 div.transcription.style-LLJ-complete .milestone {
-  display: block;
-  width: 60%;
-  background: #FFF;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
-  margin-left: 0;
-  margin-right: 9%;
-  padding: 0px;
-  margin-bottom: -0.5em;
-  margin-top: 1em;
+  display:block;
+  width:60%;
+  background:#FFF;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
+  margin-left:0;
+  margin-right:9%;
+  padding:0px;
+  margin-bottom:-0.5em;
+  margin-top:1em;
 }
 div.transcription.style-LLJ-complete .line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 14em !important;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:14em !important;
   /*LLJ*/
-  margin-left: 6em;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  margin-left:6em;
+  text-align:left;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style-LLJ-complete .halfline {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 17.5em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:17.5em !important;
+  margin-left:0;
+  text-align:left;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style-LLJ-complete .quarterline {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 11em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:11em !important;
+  margin-left:0;
+  text-align:left;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style-LLJ-complete .second-line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 22em !important;
-  margin-left: 0;
-  text-align: left;
-  margin-top: -1em;
-  margin-bottom: 0em;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:22em !important;
+  margin-left:0;
+  text-align:left;
+  margin-top:-1em;
+  margin-bottom:0em;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style-LLJ-complete .third-line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 22em !important;
-  margin-left: 0;
-  text-align: left;
-  margin-top: 1.5em;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:22em !important;
+  margin-left:0;
+  text-align:left;
+  margin-top:1.5em;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style-LLJ-complete p {
-  /*margin-right: 2em;*/
+  /*margin-right:2em;*/
   /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 }
 div.transcription.style-LLJ-complete .p,
 div.transcription.style-LLJ-complete .note {
-  display: inline-block;
-  text-indent: 25px;
-  margin-top: 0;
-  margin-bottom: 0;
+  display:inline-block;
+  text-indent:25px;
+  margin-top:0;
+  margin-bottom:0;
 }
 div.transcription.style-LLJ-complete .note {
-  margin-top: 1.5em;
-  text-indent: 0px !important;
-  font-size: .9em;
+  margin-top:1.5em;
+  text-indent:0px !important;
+  font-size:.9em;
 }
 div.transcription.style-LLJ-complete .p.noindent {
-  text-indent: 0 !important;
+  text-indent:0 !important;
 }
 div.transcription.style-LLJ-complete .p.center {
-  text-indent: 0 !important;
+  text-indent:0 !important;
 }
 div.transcription.style-LLJ-complete .p.right {
-  text-indent: 0 !important;
+  text-indent:0 !important;
 }
 div.transcription.style-LLJ-complete .ab {
-  padding-left: 0em;
-  text-indent: -1.5em;
+  padding-left:0em;
+  text-indent:-1.5em;
   /*This and previous together create a hanging indent for LLJ*/
-  margin-left: 2em;
+  margin-left:2em;
   /*LLJ*/
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: .9em;
+  margin-top:0;
+  margin-bottom:0;
+  font-size:.9em;
   /*LLJ*/
 }
 div.transcription.style-LLJ-complete .head {
-  font-weight: 300;
-  text-align: center;
+  font-weight:300;
+  text-align:center;
   /*LLJ*/
-  margin-bottom: 0em;
+  margin-bottom:0em;
   /*LLJ*/
 }
 div.transcription.style-LLJ-complete .fw {
-  font-size: .9em !important;
+  font-size:.9em !important;
   /*color:#706f6a;*/
   /*Removed for full LJ*/
 }
 div.transcription.style-LLJ-complete .fw.catch {
-  margin-top: -1em;
-  display: block;
+  margin-top:-1em;
+  display:block;
   /*color:purple;*/
   /*Added for full LJ*/
-  padding-left: 2em;
+  padding-left:2em;
   /*Added for full LJ*/
-  padding-right: 3em;
+  padding-right:3em;
   /*Added for full LJ*/
 }
 div.transcription.style-LLJ-complete .fw.catch.left {
-  text-indent: 0;
+  text-indent:0;
 }
 div.transcription.style-LLJ-complete .fw.catch.right {
-  text-indent: 0;
+  text-indent:0;
 }
 div.transcription.style-LLJ-complete .fw.inspace .right {
   /*color:purple;*/
   /*Added for full LJ*/
 }
 div.transcription.style-LLJ-complete .fw.inspace .right {
-  padding-right: 3em;
+  padding-right:3em;
   /*Added for full LJ*/
 }
 div.transcription.style-LLJ-complete .fw.pageno {
-  text-indent: 0 !important;
-  display: block;
-  text-align: center;
-  margin-bottom: 1em;
+  text-indent:0 !important;
+  display:block;
+  text-align:center;
+  margin-bottom:1em;
 }
 div.transcription.style-LLJ-complete .p .fw.pageno {
-  margin-bottom: 1em;
-  display: block;
-  text-align: center;
+  margin-bottom:1em;
+  display:block;
+  text-align:center;
 }
 div.transcription.style-LLJ-complete .addmargin {
-  text-indent: 0px;
+  text-indent:0px;
 }
 div.transcription.style-LLJ-complete .del,
 div.transcription.style-LLJ-complete .cancelled,
 div.transcription.style-LLJ-complete .strikethrough,
 div.transcription.style-LLJ-complete .overwritten {
-  text-decoration: line-through;
+  text-decoration:line-through;
 }
 div.transcription.style-LLJ-complete .del-by-over-text {
-  color: #706f6a;
-  text-decoration: line-through;
+  color:#706f6a;
+  text-decoration:line-through;
 }
 div.transcription.style-LLJ-complete .unclear {
-  color: #706f6a;
-  border-bottom: 1px dotted #706f6a;
+  color:#706f6a;
+  border-bottom:1px dotted #706f6a;
 }
 div.transcription.style-LLJ-complete .gap {
   /*border-bottom:1px dotted black;*/
 }
 div.transcription.style-LLJ-complete .space-other {
-  border-bottom: 1px dotted black;
-  display: block;
+  border-bottom:1px dotted black;
+  display:block;
 }
 div.transcription.style-LLJ-complete .verticalSpace {
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  text-indent: 0;
+  display:inline-block;
+  border-bottom:1px dotted black;
+  text-indent:0;
 }
 div.transcription.style-LLJ-complete .sic,
 div.transcription.style-LLJ-complete .corr {
-  border-bottom: 2px #B33B24 dotted;
+  border-bottom:2px #B33B24 dotted;
 }
 div.transcription.style-LLJ-complete .orig,
 div.transcription.style-LLJ-complete .reg {
@@ -417,61 +417,61 @@ div.transcription.style-LLJ-complete .reg {
 }
 div.transcription.style-LLJ-complete .abbr,
 div.transcription.style-LLJ-complete .expan {
-  border-bottom: 1px green dotted;
+  border-bottom:1px green dotted;
 }
 div.transcription.style-LLJ-complete .expan {
-  display: none;
+  display:none;
 }
 div.transcription.style-LLJ-complete .hidden {
-  display: none;
+  display:none;
 }
 div.transcription.style-LLJ-complete .rdg {
-  display: block;
+  display:block;
 }
 div.transcription.style-LLJ-complete .caps {
-  font-variant: small-caps;
+  font-variant:small-caps;
 }
 div.transcription.style-LLJ-complete .center {
-  text-align: center;
+  text-align:center;
   /*color:green;*/
   /*Added for full LJ.*/
 }
 div.transcription.style-LLJ-complete .doubleunderline {
-  border-bottom: 3px double;
+  border-bottom:3px double;
 }
 div.transcription.style-LLJ-complete .inline {
-  color: #706f6a;
+  color:#706f6a;
 }
 div.transcription.style-LLJ-complete .italic {
-  font-style: italic;
+  font-style:italic;
 }
 div.transcription.style-LLJ-complete .large {
-  font-size: 120%;
+  font-size:120%;
 }
 div.transcription.style-LLJ-complete .left {
-  float: left;
+  float:left;
 }
 div.transcription.style-LLJ-complete .overline {
-  text-decoration: overline;
+  text-decoration:overline;
 }
 div.transcription.style-LLJ-complete .overline.underline {
-  text-decoration: overline underline;
+  text-decoration:overline underline;
 }
 div.transcription.style-LLJ-complete .overtext {
   /*color:#706f6a;*/
 }
 div.transcription.style-LLJ-complete .right {
-  text-indent: 0;
-  float: right;
+  text-indent:0;
+  float:right;
 }
 div.transcription.style-LLJ-complete .small {
-  font-size: 85%;
+  font-size:85%;
 }
 div.transcription.style-LLJ-complete .smallcaps {
-  font-variant: small-caps;
+  font-variant:small-caps;
 }
 div.transcription.style-LLJ-complete .underline {
-  text-decoration: underline;
+  text-decoration:underline;
 }
 div.transcription.style-LLJ-complete .upsidedown {
   /*-ms-transform:rotate(180deg);*/
@@ -501,155 +501,155 @@ div.transcription.style-LLJ-complete .sup,
 div.transcription.style-LLJ-complete .top {
   /* Specified in % so that the sup/sup is the
          right size relative to the surrounding text */
-  font-size: 75%;
+  font-size:75%;
   /* Zero out the line-height so that it doesn't
          interfere with the positioning that follows */
-  line-height: 0;
-  /* Where the magic happens: makes all browsers position
+  line-height:0;
+  /* Where the magic happens:makes all browsers position
          the sup/sup properly, relative to the surrounding text */
-  position: relative;
+  position:relative;
   /* Note that if you're using Eric Meyer's reset.css, this
          is already set and you can remove this rule */
-  vertical-align: baseline;
+  vertical-align:baseline;
 }
 div.transcription.style-LLJ-complete .above,
 div.transcription.style-LLJ-complete .sup,
 div.transcription.style-LLJ-complete .top {
   /* Move the superscripted text up */
-  top: -0.5em;
+  top:-0.5em;
 }
 div.transcription.style-LLJ-complete .below,
 div.transcription.style-LLJ-complete .bottom,
 div.transcription.style-LLJ-complete .sub {
   /* Move the subscripted text down, but only
          half as far down as the superscript moved up */
-  bottom: -0.25em;
+  bottom:-0.25em;
 }
 div.transcription.style-LLJ-complete .margintop {
-  margin-left: 0;
-  color: #706f6a;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-  top: -1em;
+  margin-left:0;
+  color:#706f6a;
+  line-height:0;
+  position:relative;
+  vertical-align:baseline;
+  top:-1em;
 }
 div.transcription.style-LLJ-complete .true {
-  display: inline-block;
+  display:inline-block;
 }
 div.transcription.style-LLJ-complete .black {
-  color: black;
+  color:black;
 }
 div.transcription.style-LLJ-complete .blue {
-  color: blue;
+  color:blue;
 }
 div.transcription.style-LLJ-complete .brown {
-  color: brown;
+  color:brown;
 }
 div.transcription.style-LLJ-complete .gray {
-  color: #706f6a;
+  color:#706f6a;
 }
 div.transcription.style-LLJ-complete .green {
-  color: green;
+  color:green;
 }
 div.transcription.style-LLJ-complete .orange {
-  color: orange;
+  color:orange;
 }
 div.transcription.style-LLJ-complete .purple {
-  color: purple;
+  color:purple;
 }
 div.transcription.style-LLJ-complete .red {
-  color: #B33B24;
+  color:#B33B24;
 }
 div.transcription.style-LLJ-complete .yellow {
-  color: yellow;
+  color:yellow;
 }
 div.transcription.style-LLJ-complete .list {
-  display: block;
-  margin-top: 12px;
+  display:block;
+  margin-top:12px;
 }
 div.transcription.style-LLJ-complete table {
-  font-size: 1em;
+  font-size:1em;
   /*85%;*/
   /*Changed for 1870 Field Diary*/
-  border-style: none;
-  margin-right: 2em;
+  border-style:none;
+  margin-right:2em;
   /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-  color: #58484b;
+  color:#58484b;
   /*Added color for 1870 Field Diary*/
 }
 div.transcription.style-LLJ-complete tr,
 div.transcription.style-LLJ-complete td {
-  border-style: none;
+  border-style:none;
 }
 div.transcription.style-LLJ-complete .date-red {
   /*Add for full LJ.*/
-  display: none;
-  color: red;
-  font-style: normal;
+  display:none;
+  color:red;
+  font-style:normal;
 }
 div.transcription.style-LLJ-complete .reduce {
   /*Fixes issues intro by milestone in LJs*/
-  margin-bottom: -2em;
+  margin-bottom:-2em;
 }
 div.transcription.style-LLJ-complete .figure {
-  margin-left: 0;
-  color: #706f6a;
-  font-size: .8em;
-  border-bottom: 1px #706f6a dotted;
+  margin-left:0;
+  color:#706f6a;
+  font-size:.8em;
+  border-bottom:1px #706f6a dotted;
 }
 div.transcription.style-LLJ-complete .graphic.inline-left {
-  width: 12em;
-  float: left;
-  margin: 0.5em 2.5em -1em -1.5em;
+  width:12em;
+  float:left;
+  margin:0.5em 2.5em -1em -1.5em;
 }
 div.transcription.style-LLJ-complete .graphic.inline-left-medium {
-  width: 10em;
-  float: left;
-  margin: 0.5em 2.5em -0.5em -1.5em;
+  width:10em;
+  float:left;
+  margin:0.5em 2.5em -0.5em -1.5em;
   /*-.5 deviation needed for LJ 1:72*/
 }
 div.transcription.style-LLJ-complete .graphic.inline-left-small {
-  width: 8em;
-  float: left;
-  margin: 0.5em 2.5em -1em -1.5em;
+  width:8em;
+  float:left;
+  margin:0.5em 2.5em -1em -1.5em;
 }
 div.transcription.style-LLJ-complete .graphic.inline-right {
-  width: 12em;
-  float: right;
-  margin: 0.5em -0.2em -1em 0.5em;
+  width:12em;
+  float:right;
+  margin:0.5em -0.2em -1em 0.5em;
 }
 div.transcription.style-LLJ-complete .graphic.inline-right-medium {
-  width: 10em;
-  float: right;
-  margin: 0.5em -0.2em -1em 0.5em;
+  width:10em;
+  float:right;
+  margin:0.5em -0.2em -1em 0.5em;
 }
 div.transcription.style-LLJ-complete .graphic.inline-right-small {
-  width: 8em;
-  float: right;
-  margin: 0.5em -0.2em -1em 0.5em;
+  width:8em;
+  float:right;
+  margin:0.5em -0.2em -1em 0.5em;
 }
 div.transcription.style-LLJ-complete .p .graphic.inline-right,
 div.transcription.style-LLJ-complete .p .graphic.inline-right-medium,
 div.transcription.style-LLJ-complete .p .graphic.inline-right-small {
-  text-indent: 0;
+  text-indent:0;
 }
 div.transcription.style-LLJ-complete .p .figure,
 div.transcription.style-LLJ-complete .p.noindent .figure,
 div.transcription.style-LLJ-complete .ab .figure {
-  margin-left: 0px !important;
-  text-indent: 0px;
+  margin-left:0px !important;
+  text-indent:0px;
 }
 div.transcription.style-LLJ-complete .p .figure.graphic {
-  text-indent: 0px !important;
+  text-indent:0px !important;
   /*LLLJ*/
 }
 div.transcription.style-LLJ-complete .metamark {
-  color: #706f6a;
-  border-bottom: 1px #706f6a dotted;
+  color:#706f6a;
+  border-bottom:1px #706f6a dotted;
 }
 div.transcription.style-LLJ-complete p .metamark {
-  margin-left: 0px !important;
-  text-indent: 0px !important;
+  margin-left:0px !important;
+  text-indent:0px !important;
 }
 div.transcription.style-LLJ-complete .foreign,
 div.transcription.style-LLJ-complete .geogName,
@@ -660,6 +660,6 @@ div.transcription.style-LLJ-complete .region,
 div.transcription.style-LLJ-complete .settlement,
 div.transcription.style-LLJ-complete .term-ailment,
 div.transcription.style-LLJ-complete .term-tribe {
-  border-bottom: 2px #428bca dotted;
+  border-bottom:2px #428bca dotted;
   /* change to 1px */
 }

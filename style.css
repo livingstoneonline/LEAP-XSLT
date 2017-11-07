@@ -20,16 +20,16 @@ Table of Contents
 /* Rules for containers either this is shown embedded in the viewer or not */
 body.non-embedded-transcription,
 div.transcription-viewer-content.style {
-  background: #ccc2b2;
+  background:#ccc2b2;
 }
 /* 1. Textual divisions */
 div.transcription.style {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: "source sans pro", calibri, arial, helvetica, sans-serif;
-  font-size: 16px;
-  /*white-space: nowrap;*/
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-family:"source sans pro", calibri, arial, helvetica, sans-serif;
+  font-size:16px;
+  /*white-space:nowrap;*/
   /* 1.5. Title section */
   /* 2. Letters */
   /* 3. pb, lb, linenumber */
@@ -48,342 +48,342 @@ div.transcription.style {
   /* 12. Misc */
 }
 div.transcription.style .TEI {
-  display: inline-block;
-  white-space: nowrap;
-  padding-top: .5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  text-align: left;
-  background: #ccc2b2;
+  display:inline-block;
+  white-space:nowrap;
+  padding-top:.5em;
+  padding-left:1em;
+  padding-right:1em;
+  text-align:left;
+  background:#ccc2b2;
 }
 div.transcription.style .item-details {
-  max-width: 30em;
-  min-width: 30em;
-  white-space: normal;
+  max-width:30em;
+  min-width:30em;
+  white-space:normal;
 }
 div.transcription.style div.body {
-  display: block;
-  padding-bottom: 2.4em;
-  padding-left: 3.5em;
+  display:block;
+  padding-bottom:2.4em;
+  padding-left:3.5em;
 }
 div.transcription.style .front,
 div.transcription.style .back {
-  display: block;
+  display:block;
 }
 div.transcription.style .title {
-  display: block;
-  text-align: center;
-  margin-bottom: -0.5em;
-  font-size: 1.4em;
-  font-variant: small-caps;
+  display:block;
+  text-align:center;
+  margin-bottom:-0.5em;
+  font-size:1.4em;
+  font-variant:small-caps;
 }
 div.transcription.style .author {
-  display: block;
-  text-align: center;
-  margin-bottom: .5em;
-  font-size: 1.2em;
-  font-style: italic;
+  display:block;
+  text-align:center;
+  margin-bottom:.5em;
+  font-size:1.2em;
+  font-style:italic;
 }
 div.transcription.style .authority {
-  font-size: .9em;
-  line-height: 1.7;
+  font-size:.9em;
+  line-height:1.7;
 }
 div.transcription.style .pub-date {
-  font-size: .9em;
+  font-size:.9em;
 }
 div.transcription.style a:link {
-  color: #428bca !important;
+  color:#428bca !important;
 }
 div.transcription.style .idno {
-  font-size: .9em;
-  line-height: 1.7;
+  font-size:.9em;
+  line-height:1.7;
 }
 div.transcription.style hr.title-section {
-  width: 27em;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #666666;
-  margin-top: -0.4em;
-  margin-bottom: -0.4em;
-  margin-left: 3.5em;
+  width:27em;
+  height:0;
+  border:0;
+  border-top:1px solid #666666;
+  margin-top:-0.4em;
+  margin-bottom:-0.4em;
+  margin-left:3.5em;
 }
 div.transcription.style .project-id,
 div.transcription.style .project-encoding,
 div.transcription.style .encoding-standard {
-  display: inline-block;
-  padding-left: 4em;
-  padding-bottom: .4em;
-  font-size: .9em;
-  line-height: 170%;
+  display:inline-block;
+  padding-left:4em;
+  padding-bottom:.4em;
+  font-size:.9em;
+  line-height:170%;
 }
 div.transcription.style .project-encoding {
-  line-height: 140% !important;
-  margin-left: 30px;
-  text-indent: -30px;
+  line-height:140% !important;
+  margin-left:30px;
+  text-indent:-30px;
 }
 div.transcription.style .opener,
 div.transcription.style .closer,
 div.transcription.style .trailer {
-  margin-bottom: 0px;
+  margin-bottom:0px;
 }
 div.transcription.style .opener {
-  display: inline;
-  margin-top: 1em;
+  display:inline;
+  margin-top:1em;
 }
 div.transcription.style .closer,
 div.transcription.style .address {
-  display: block;
+  display:block;
 }
 div.transcription.style .dateline {
-  display: inline;
-  text-indent: 0;
+  display:inline;
+  text-indent:0;
 }
 div.transcription.style .signed {
-  display: inline-block;
+  display:inline-block;
 }
 div.transcription.style .pb-title {
-  display: block;
-  color: #428bca;
-  font-size: 90%;
-  margin-top: 2em;
-  margin-bottom: -0.9em;
-  margin-left: 0;
-  text-indent: 0;
+  display:block;
+  color:#428bca;
+  font-size:90%;
+  margin-top:2em;
+  margin-bottom:-0.9em;
+  margin-left:0;
+  text-indent:0;
 }
 div.transcription.style .pb-title:hover {
-  color: #AAA;
-  cursor: pointer;
+  color:#AAA;
+  cursor:pointer;
 }
 div.transcription.style .pb-title:first-of-type {
-  margin-top: 0;
+  margin-top:0;
 }
 div.transcription.style .lb {
-  display: block;
+  display:block;
 }
 div.transcription.style .linenumber {
-  text-align: right;
-  float: left;
-  color: #8c8b85;
-  margin-left: -3em !important;
+  text-align:right;
+  float:left;
+  color:#8c8b85;
+  margin-left:-3em !important;
   /*text-indent:9%;*/
-  font-size: .8em;
-  width: 1em;
+  font-size:.8em;
+  width:1em;
 }
 div.transcription.style p .linenumber {
-  text-indent: -1%;
+  text-indent:-1%;
 }
 div.transcription.style .p.noindent.linenumber {
-  text-indent: 1em;
+  text-indent:1em;
 }
 div.transcription.style p.center .linenumber {
-  margin-left: -6.4em !important;
+  margin-left:-6.4em !important;
 }
 div.transcription.style p.right .linenumber {
-  margin-left: -10.5em !important;
+  margin-left:-10.5em !important;
 }
 div.transcription.style .list .linenumber {
-  text-indent: 0;
+  text-indent:0;
 }
 div.transcription.style .milestone {
   /*check all of this against 1870 viewer*/
-  display: block;
-  width: 60%;
-  background: #FFF;
-  height: 0;
-  margin-left: 0;
-  margin-right: 9%;
-  margin-top: -0.5em;
-  margin-bottom: -0.5em;
-  padding: 0px;
+  display:block;
+  width:60%;
+  background:#FFF;
+  height:0;
+  margin-left:0;
+  margin-right:9%;
+  margin-top:-0.5em;
+  margin-bottom:-0.5em;
+  padding:0px;
 }
 div.transcription.style .line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 27em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:27em !important;
+  margin-left:0;
+  text-align:left;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style .doubleline {
-  border-top: 4px double #8c8b8b;
-  display: block;
-  width: 27em !important;
-  margin-left: 9%;
-  text-align: left;
+  border-top:4px double #8c8b8b;
+  display:block;
+  width:27em !important;
+  margin-left:9%;
+  text-align:left;
 }
 div.transcription.style .tripleline {
-  border-top: 4px double #8c8b8b;
-  line-height: 1.9em;
-  display: block;
-  width: 27em !important;
-  margin-left: 9%;
-  text-align: left;
+  border-top:4px double #8c8b8b;
+  line-height:1.9em;
+  display:block;
+  width:27em !important;
+  margin-left:9%;
+  text-align:left;
 }
 div.transcription.style .halfline {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 17.5em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:17.5em !important;
+  margin-left:0;
+  text-align:left;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style .quarterline {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 11em !important;
-  margin-left: 0;
-  text-align: left;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:11em !important;
+  margin-left:0;
+  text-align:left;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style .second-line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 27em !important;
-  margin-left: 0;
-  text-align: left;
-  margin-top: -1em;
-  margin-bottom: 0em;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:27em !important;
+  margin-left:0;
+  text-align:left;
+  margin-top:-1em;
+  margin-bottom:0em;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style .third-line {
-  border-bottom: 1px solid #d0d0d0;
-  display: block;
-  width: 27em !important;
-  margin-left: 0;
-  text-align: left;
-  margin-top: 1.5em;
-  height: 0;
-  border: 0;
-  border-top: 1px solid #58484b;
+  border-bottom:1px solid #d0d0d0;
+  display:block;
+  width:27em !important;
+  margin-left:0;
+  text-align:left;
+  margin-top:1.5em;
+  height:0;
+  border:0;
+  border-top:1px solid #58484b;
 }
 div.transcription.style p {
-  margin-right: 2em;
+  margin-right:2em;
 }
 div.transcription.style .p {
-  display: inline-block;
-  text-indent: 25px;
-  margin-top: 0;
-  margin-bottom: 0;
+  display:inline-block;
+  text-indent:25px;
+  margin-top:0;
+  margin-bottom:0;
 }
 div.transcription.style .p.noindent,
 div.transcription.style .p.center,
 div.transcription.style .p.right {
-  text-indent: 0 !important;
+  text-indent:0 !important;
 }
 div.transcription.style .p.right {
-  margin-left: 6em !important;
+  margin-left:6em !important;
 }
 div.transcription.style .ab {
-  text-indent: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  text-indent:0;
+  margin-top:0;
+  margin-bottom:0;
 }
 div.transcription.style .head {
-  font-weight: normal;
+  font-weight:normal;
 }
 div.transcription.style .note {
-  display: inline;
+  display:inline;
 }
 div.transcription.style .fw {
-  display: inline-block;
+  display:inline-block;
 }
 div.transcription.style .fw.pageno {
-  text-indent: 0 !important;
+  text-indent:0 !important;
 }
 div.transcription.style .fw.catch.right {
-  margin-left: 14em;
-  text-indent: 0;
+  margin-left:14em;
+  text-indent:0;
 }
 div.transcription.style .del,
 div.transcription.style .del-by-over-text {
-  text-decoration: line-through;
+  text-decoration:line-through;
   /*color:#666666;*/
   /*Previously used for .del-by-over-text*/
 }
 div.transcription.style .pb-del {
-  display: inline-block;
-  margin-bottom: .5em;
+  display:inline-block;
+  margin-bottom:.5em;
 }
 div.transcription.style .unclear {
-  color: #706f6a;
-  border-bottom: 1px dotted #706f6a;
+  color:#706f6a;
+  border-bottom:1px dotted #706f6a;
 }
 div.transcription.style .gap {
-  border-bottom: 1px dotted black;
+  border-bottom:1px dotted black;
 }
 div.transcription.style .space-other {
-  border-bottom: 1px dotted black;
-  display: block;
+  border-bottom:1px dotted black;
+  display:block;
 }
 div.transcription.style .verticalSpace {
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  text-indent: 0;
+  display:inline-block;
+  border-bottom:1px dotted black;
+  text-indent:0;
 }
 div.transcription.style .sic,
 div.transcription.style .corr {
-  border-bottom: 2px #B33B24 dotted;
+  border-bottom:2px #B33B24 dotted;
 }
 div.transcription.style .abbr,
 div.transcription.style .expan {
-  border-bottom: 1px green dotted;
+  border-bottom:1px green dotted;
 }
 div.transcription.style .expan,
 div.transcription.style .hidden {
-  display: none;
+  display:none;
 }
 div.transcription.style .rdg {
-  display: block;
+  display:block;
 }
 div.transcription.style .bold {
-  font-weight: 600;
+  font-weight:600;
 }
 div.transcription.style .caps {
-  font-variant: small-caps;
+  font-variant:small-caps;
 }
 div.transcription.style .center {
-  text-indent: 0;
-  margin-left: 2.7em;
+  text-indent:0;
+  margin-left:2.7em;
 }
 div.transcription.style .doubleunderline {
-  border-bottom: 3px double;
+  border-bottom:3px double;
 }
 div.transcription.style .tripleunderline {
-  border-bottom: 4px double;
-  text-decoration: underline;
+  border-bottom:4px double;
+  text-decoration:underline;
 }
 div.transcription.style .italic {
-  font-style: italic;
+  font-style:italic;
 }
 div.transcription.style .large {
-  font-size: 120%;
+  font-size:120%;
 }
 div.transcription.style .overline {
-  text-decoration: overline;
+  text-decoration:overline;
 }
 div.transcription.style .overline.underline {
-  text-decoration: overline underline;
+  text-decoration:overline underline;
 }
 div.transcription.style .right {
-  text-indent: 0;
-  margin-left: 4em;
+  text-indent:0;
+  margin-left:4em;
 }
 div.transcription.style .small {
-  font-size: .85em;
+  font-size:.85em;
 }
 div.transcription.style .smallcaps {
-  font-variant: small-caps;
+  font-variant:small-caps;
 }
 div.transcription.style .underline {
-  text-decoration: underline;
+  text-decoration:underline;
 }
 div.transcription.style .upsidedown {
   /*-ms-transform:rotate(180deg);*/
@@ -413,94 +413,94 @@ div.transcription.style .sup,
 div.transcription.style .top {
   /* Specified in % so that the sup/sup is the
          right size relative to the surrounding text */
-  font-size: .8em;
+  font-size:.8em;
   /* Zero out the line-height so that it doesn't
          interfere with the positioning that follows */
-  line-height: 0;
-  /* Where the magic happens: makes all browsers position
+  line-height:0;
+  /* Where the magic happens:makes all browsers position
          the sup/sup properly, relative to the surrounding text */
-  position: relative;
+  position:relative;
   /* Note that if you're using Eric Meyer's reset.css, this
          is already set and you can remove this rule */
-  vertical-align: baseline;
+  vertical-align:baseline;
 }
 div.transcription.style .above,
 div.transcription.style .sup,
 div.transcription.style .top {
   /* Move the superscripted text up */
-  top: -0.35em;
+  top:-0.35em;
 }
 div.transcription.style .below,
 div.transcription.style .bottom,
 div.transcription.style .sub {
   /* Move the subscripted text down, but only
          half as far down as the superscript moved up */
-  bottom: -0.25em;
+  bottom:-0.25em;
 }
 div.transcription.style .true {
-  display: inline-block;
+  display:inline-block;
 }
 div.transcription.style .black {
-  color: black;
+  color:black;
 }
 div.transcription.style .blue {
-  color: blue;
+  color:blue;
 }
 div.transcription.style .blue.black {
-  color: #454668;
+  color:#454668;
 }
 div.transcription.style .brown {
-  color: brown;
+  color:brown;
 }
 div.transcription.style .gray {
-  color: #706f6a;
+  color:#706f6a;
 }
 div.transcription.style .green {
-  color: green;
+  color:green;
 }
 div.transcription.style .orange {
-  color: orange;
+  color:orange;
 }
 div.transcription.style .purple {
-  color: purple;
+  color:purple;
 }
 div.transcription.style .red {
-  color: #B33B24;
+  color:#B33B24;
 }
 div.transcription.style .yellow {
-  color: yellow;
+  color:yellow;
 }
 div.transcription.style .list {
-  display: block;
+  display:block;
 }
 div.transcription.style table {
-  font-size: .85em;
-  border-style: none;
-  margin-right: 2em;
+  font-size:.85em;
+  border-style:none;
+  margin-right:2em;
 }
 div.transcription.style tr,
 div.transcription.style td {
-  border-style: none;
+  border-style:none;
 }
 div.transcription.style table .linenumber {
-  display: none;
+  display:none;
 }
 div.transcription.style .figure {
-  margin-left: 0;
-  color: #666666;
-  font-size: .8em;
-  border-bottom: 1px #666666 dotted;
+  margin-left:0;
+  color:#666666;
+  font-size:.8em;
+  border-bottom:1px #666666 dotted;
 }
 div.transcription.style .p .figure,
 div.transcription.style .p.noindent .figure,
 div.transcription.style .ab .figure,
 div.transcription.style p .metamark {
-  margin-left: 0px !important;
-  text-indent: 0px;
+  margin-left:0px !important;
+  text-indent:0px;
 }
 div.transcription.style .metamark {
-  color: #666666;
-  border-bottom: 1px #666666 dotted;
+  color:#666666;
+  border-bottom:1px #666666 dotted;
 }
 div.transcription.style .foreign,
 div.transcription.style .geogName,
@@ -511,6 +511,6 @@ div.transcription.style .region,
 div.transcription.style .settlement,
 div.transcription.style .term-ailment,
 div.transcription.style .term-tribe {
-  border-bottom: 2px #428bca dotted;
+  border-bottom:2px #428bca dotted;
   /* change to 1px */
 }
