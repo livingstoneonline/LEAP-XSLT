@@ -25,10 +25,10 @@ transcription-1870.xsl
 transcription-1871.xsl
 style-1870-viewer.css
 style-1871-viewer.css
+
+*used for Bambarre annotations page
 transcription-Bambarre-letter.xsl
 style-Bambarre-letter.css
-
-*used for Bambarre annotations
 transcription-Bambarre-annotations.xsl
 style-Bambarre-annotations.css
 
