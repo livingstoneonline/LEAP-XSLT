@@ -1672,7 +1672,7 @@
 	</xsl:template>
 
 	<!-- anchor: to work with metamark using @spanTo, @function 'let-stand'. -->
-	<xsl:template match="anchor
+	<!--<xsl:template match="anchor
 		[@xml:id]
 		[preceding::metamark[@function='let-stand']/@spanTo = concat('#', @xml:id)]" priority="10">
 		<xsl:variable name="id" select="@xml:id"/>
@@ -1683,7 +1683,7 @@
 			</xsl:choose>
 		</xsl:variable>
 		<span class="metamark {$metamark/@rend} {$metamark/@n}" title="{$metamarkText}"></span><xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text><xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
-	</xsl:template>
+	</xsl:template>-->
 	
 	<!-- End of MT metamarks using @spanTo -->
 
