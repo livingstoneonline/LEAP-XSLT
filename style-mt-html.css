@@ -60,12 +60,12 @@ div.transcription.style-mt-html .TEI {
 }
 */
 div.transcription.style-mt-html .item-details {
-	max-width:29em;
-	min-width:29em;
+	/*max-width:29em;*/
+	/*min-width:29em;*/
 	white-space:normal;
 	padding-top:1em;
-	padding-left:12em;
-	padding-right:12em;
+	padding-left:10em;
+	/*padding-right:12em;*/
 }
 div.transcription.style-mt-html div.text {
 	/*margin-left:3em;*/ /*Prevent line numbers from being hidden.*/ /*Removed*/
@@ -570,7 +570,7 @@ div.transcription.style-mt-html .overtext {
 }
 div.transcription.style-mt-html .right {
 	text-indent:0;
-	margin-left:12em;
+	margin-left:10em;
 }
 
 /*Did you add the next two items? If not, remove them both */
