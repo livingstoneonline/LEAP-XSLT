@@ -1,19 +1,20 @@
-div.transcription.style-final-MS-bonus button {
-	font-size:.80em !important;	
-	padding-top:4px;
+div.transcription .button button {
+	font-size:.85em !important;	
+	padding-top:6px;
 	padding-bottom:2px;
 	margin:0px auto;
 	display:block;
+	line-height:1;
 	/*background-color:#edecea;
 	border-radius: 5px;*/
 
 }
-div.transcription.style-final-MS-bonus .black-white-text,
-div.transcription.style-final-MS-bonus .change-display .livingstone-color {
+.black-white-text,
+.change-display .livingstone-color {
 	display:inline;
 }
-div.transcription.style-final-MS-bonus .change-display .black-white-text,
-div.transcription.style-final-MS-bonus .livingstone-color {
+.change-display .black-white-text,
+.livingstone-color {
 	display:none;
 }
 /*
