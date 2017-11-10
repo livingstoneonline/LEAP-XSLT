@@ -16,6 +16,7 @@ Table of Contents
 11. Colors 
 12. Lists and Tables 
 13. Misc 
+14. Change Display
 
 */
 /* Rules for containers either this is shown embedded in the viewer or not */
@@ -835,4 +836,269 @@ div.transcription.style-fds .term-ailment,
 div.transcription.style-fds .term-tribe {
   border-bottom:2px #428bca dotted;
   /* change to 1px */
+}
+
+
+/* 14. Change Display */
+
+div.transcription .button button {
+	font-size:.85em !important;	
+	padding-top:6px;
+	padding-bottom:2px;
+	margin:0px auto;
+	display:block;
+	line-height:1;
+	/*background-color:#edecea;
+	border-radius: 5px;*/
+
+}
+.black-white-text,
+.change-display .livingstone-color {
+	display:inline;
+}
+.change-display .black-white-text,
+.livingstone-color {
+	display:none;
+}
+/*
+.change-display div.transcription
+.change-display body.non-embedded-transcription,
+.change-display div.transcription-viewer-content.style,
+.change-display div.transcription-viewer-content.style-1870-html,
+.change-display div.transcription-viewer-content.style-1870-viewer,
+.change-display div.transcription-viewer-content.style-1871-html,
+.change-display div.transcription-viewer-content.style-1871-viewer,
+.change-display div.transcription-viewer-content.style-Bambarre-annotations,
+.change-display div.transcription-viewer-content.style-Bambarre-letter,
+.change-display div.transcription-viewer-content.style-fds,
+.change-display div.transcription-viewer-content.style-final-MS-bonus,
+.change-display div.transcription-viewer-content.style-LLJ-complete,
+.change-display div.transcription-viewer-content.style-LLJ-html,
+.change-display div.transcription-viewer-content.style-mt-html,
+.change-display div.transcription-viewer-content.style-mt3-html,
+.change-display div.transcription-viewer-content.style-UJ-complete,
+.change-display div.transcription-viewer-content.style-UJ-html,
+.change-display .TEI,
+.change-display .milestone,
+.change-display .milestone.red.line,
+.change-display .div {
+	background:white !important;
+}*/
+.change-display div.transcription,
+.change-display div.transcription.style-1870-html,
+.change-display div.transcription.style-1870-viewer,
+.change-display div.transcription.style-1871-html,
+.change-display div.transcription.style-1870-viewer,
+.change-display div.transcription.style-Bambarre-annotations,
+.change-display div.transcription.style-Bambarre-letter,
+.change-display div.transcription.style-fds,
+.change-display div.transcription.style-final-MS-bonus,
+.change-display div.transcription.style-LLJ-complete,
+.change-display div.transcription.style-LLJ-html,
+.change-display div.transcription.style-mt-html,
+.change-display div.transcription.style-mt3-html,
+.change-display div.transcription.style-UJ-complete,
+.change-display div.transcription.style-UJ-html,
+.change-display a:link,
+.change-display .item-details
+.change-display .project-id,
+.change-display .pb-title,
+.change-display .pb-title:hover,
+.change-display .linenumber,
+.change-display .p.other
+.change-display .fw
+.change-display .fw.catch
+.change-display .fw.inspace .right
+.change-display .fw .gray 
+.change-display .del-by-over-text,
+.change-display .center,
+.change-display .inline,
+.change-display .other,
+.change-display .overtext
+.change-display .margintop
+.change-display .unclear,
+.change-display .supplied,
+.change-display .black,
+.change-display .black.gray,
+.change-display .black.brown,
+.change-display .blue,
+.change-display .blue.black,
+.change-display .brown,
+.change-display .gray,
+.change-display .gray.black,
+.change-display .green,
+.change-display .orange,
+.change-display .purple,
+.change-display .red,
+.change-display .red.brown,
+.change-display .yellow,
+.change-display .figure,
+.change-display .metamark,
+.change-display .unclear,
+.change-display .table
+.change-display .date-red
+.change-display .figure,
+.change-display .retrace.red,
+.change-display .retrace.DL,
+.change-display .retrace.CL,
+.change-display .retrace.CL .add,
+.change-display .retrace.U5,
+.change-display .retrace.U5 .add,
+.change-display .retrace.red .add,
+.change-display .retrace.gray .add,
+.change-display .retrace.red .metamark,
+.change-display .retrace.gray .metamark,
+.change-display .retrace.DL .add,
+.change-display .retrace.DL .metamark,
+.change-display .makeRed,
+.change-display .makeGray,
+.change-display .CL,
+.change-display .DL,
+.change-display .U1,
+.change-display .U2,
+.change-display .U5,
+.change-display .metamark.red,
+.change-display .metamark.gray {
+	color:black !important;
+}
+.change-display .abbr,
+.change-display .corr,
+.change-display .dashed-gray,
+.change-display .dashed-red,
+.change-display .first-double.gray,
+.change-display .second-line.gray
+.change-display .doubleline,
+.change-display .doubleunderline
+.change-display .doubleunderline-orange
+.change-display .expan,
+.change-display .figure,
+.change-display .foreign,
+.change-display .gap,
+.change-display .geogName,
+.change-display .halfline,
+.change-display .halfline.black,
+.change-display .halfline.black.brown,
+.change-display .halfline.blue,
+.change-display .halfline.brown,
+.change-display .halfline.gray,
+.change-display .halfline.orange,
+.change-display .halfline.red,
+.change-display .line,
+.change-display .line.black,
+.change-display .line.black.brown,
+.change-display .line.blue,
+.change-display .line.brown,
+.change-display .line.first-double,
+.change-display .line.first-double.black,
+.change-display .line.first-double.black.brown,
+.change-display .line.first-double.blue,
+.change-display .line.first-double.brown,
+.change-display .line.first-double.gray,
+.change-display .line.first-double.orange,
+.change-display .line.first-double.red,
+.change-display .line.gray,
+.change-display .line.orange,
+.change-display .line.red,
+.change-display .metamark-color,
+.change-display .metamark,
+.change-display .metamark.deletion,
+.change-display .metamark.ed-mark,
+.change-display .metamark.gray,
+.change-display .metamark.no-newParagraph,
+.change-display .metamark.placeMark,
+.change-display .metamark.red,
+.change-display .metamark.transposition,
+.change-display .milestone.red.line,
+.change-display .orgName,
+.change-display .persName,
+.change-display .quarterline,
+.change-display .quarterline.black,
+.change-display .quarterline.black.brown,
+.change-display .quarterline.blue,
+.change-display .quarterline.brown,
+.change-display .quarterline.gray,
+.change-display .quarterline.orange,
+.change-display .quarterline.red,
+.change-display .quote,
+.change-display .region,
+.change-display .retrace.CL .add,
+.change-display .retrace.CL,
+.change-display .retrace.DL,
+.change-display .retrace.red,
+.change-display .retrace.U5 .add,
+.change-display .retrace.U5,
+.change-display .second-line,
+.change-display .second-line.black,
+.change-display .second-line.black.brown,
+.change-display .second-line.blue,
+.change-display .second-line.brown,
+.change-display .second-line.gray,
+.change-display .second-line.orange,
+.change-display .second-line.red,
+.change-display .settlement,
+.change-display .sic,
+.change-display .space-other,
+.change-display .supplied,
+.change-display .term-ailment,
+.change-display .term-tribe,
+.change-display .third-line,
+.change-display .third-line.black,
+.change-display .third-line.black.brown,
+.change-display .third-line.blue,
+.change-display .third-line.brown,
+.change-display .third-line.gray,
+.change-display .third-line.orange,
+.change-display .third-line.red,
+.change-display .tripleline,
+.change-display .tripleunderline
+.change-display .unclear,
+.change-display .verticalSpace,
+.change-display hr.title-section,
+.change-display .div.blue .line,
+.change-display .div.blue .line.first-double,
+.change-display .div.blue .halfline,
+.change-display .div.blue .quarterline,
+.change-display .div.blue .second-line,
+.change-display .div.blue .third-line,
+.change-display .div.black .line,
+.change-display .div.black .line.first-double,
+.change-display .div.black .halfline,
+.change-display .div.black .quarterline,
+.change-display .div.black .second-line,
+.change-display .div.black .third-line,
+.change-display .div.blue .line.black,
+.change-display .div.blue .halfline.black,
+.change-display .div.black.brown .line,
+.change-display .div.black.brown .line.first-double,
+.change-display .div.black.brown .halfline,
+.change-display .div.black.brown .quarterline,
+.change-display .div.black.brown .second-line,
+.change-display .div.black.brown .third-line,
+.change-display .div.brown .line,
+.change-display .div.brown .line.first-double,
+.change-display .div.brown .halfline,
+.change-display .div.brown .quarterline,
+.change-display .div.brown .second-line,
+.change-display .div.brown .third-line,
+.change-display .div.gray .line,
+.change-display .div.gray .line.first-double,
+.change-display .div.gray .halfline,
+.change-display .div.gray .quarterline,
+.change-display .div.gray .second-line,
+.change-display .div.gray .third-line,
+.change-display .div.brown .first-double.gray,
+.change-display .div.brown .second-line.gray,
+.change-display .div.orange .line,
+.change-display .div.orange .line.first-double,
+.change-display .div.orange .halfline,
+.change-display .div.orange .quarterline,
+.change-display .div.orange .second-line,
+.change-display .div.orange .third-line,
+.change-display .div.red .line,
+.change-display .div.red .line.first-double,
+.change-display .div.red .halfline,
+.change-display .div.red .quarterline,
+.change-display .div.red .second-line,
+.change-display .div.red .third-line {
+	border-color:black !important;
 }
