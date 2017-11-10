@@ -39,24 +39,7 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-fds.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/change-display.css"/>
-				<!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
-				<script>
-					// Wait till document is loaded before executing.
-					document.addEventListener("DOMContentLoaded", function(event) {
-					  // Select the button element using it's ID.
-					  document.querySelector('button#toggle-display')
-					    // Call this function when the button is clicked.
-					    .onclick = function () {
-					      // Find the element with class TEI,
-					      // and toggle the class 'change-display'.
-					      document.querySelector('div.TEI')
-					        .classList
-					        .toggle('change-display');
-					    };
-					});
-				</script>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-fds.css"/><!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -110,9 +93,6 @@
 					<br/>
 					<hr class="title-section"/>
 					<br/>
-				</div>
-				<div class="button">	
-					<button id="toggle-display"><span class="black-white-text">Show text in black</span><span class="livingstone-color">Show text in manuscript and editor-added colors</span></button><span class="pb-title"><xsl:text> </xsl:text></span>
 				</div>
 				<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 				<xsl:choose>
@@ -482,6 +462,34 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+
+<!-- Begin proof-of-concept for J. Livingstone -->
+
+	<xsl:template match="del[@rend='black']"><!-- text = gray -->
+		<span style='color:black;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="del[@rend='gray']">
+		<span style='color:gray;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="del[@rend='red']">
+		<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="add[@rend='red']/del[@hand='#DL']">
+		<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="hi[@rend='underline orange']" priority="10">
+		<span style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+	<xsl:template match="hi[@rend='double-underline orange gray']" priority="10">
+		<span class='doubleunderline-orange' style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
+	</xsl:template>
+
+<!-- End proof-of-concept for J. Livingstone -->
 
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
