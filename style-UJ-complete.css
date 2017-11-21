@@ -105,7 +105,7 @@ div.transcription.style-UJ-complete .pub-date {
 	font-size:.9em;
 }
 div.transcription.style-UJ-complete a:link {
-	color:#428bca !important;
+	color:#428bca;
 }
 div.transcription.style-UJ-complete .idno {
 	font-size:.9em;
@@ -176,6 +176,7 @@ div.transcription.style-UJ-complete .pb-title {
 	font-size:90%;
 	margin-top:2em;
 	margin-bottom:-0.9em;
+	font-style:normal;
 }
 div.transcription.style-UJ-complete .notop {
   /*needed for some .pb-titles*/
@@ -328,21 +329,25 @@ div.transcription.style-UJ-complete .line.first-double.blue,
 div.transcription.style-UJ-complete .halfline.blue,
 div.transcription.style-UJ-complete .quarterline.blue,
 div.transcription.style-UJ-complete .second-line.blue,
-div.transcription.style-UJ-complete .third-line.blue,
+div.transcription.style-UJ-complete .third-line.blue {
+	border-top:1px solid #4f6c92 !important;	
+}
 div.transcription.style-UJ-complete .div.blue .line,
 div.transcription.style-UJ-complete .div.blue .line.first-double,
 div.transcription.style-UJ-complete .div.blue .halfline,
 div.transcription.style-UJ-complete .div.blue .quarterline,
 div.transcription.style-UJ-complete .div.blue .second-line,
 div.transcription.style-UJ-complete .div.blue .third-line {
-	border-top:1px solid #4f6c92 !important;	
+	border-top:1px solid #4f6c92;	
 }
 div.transcription.style-UJ-complete .line.black,
 div.transcription.style-UJ-complete .line.first-double.black,
 div.transcription.style-UJ-complete .halfline.black,
 div.transcription.style-UJ-complete .quarterline.black,
 div.transcription.style-UJ-complete .second-line.black,
-div.transcription.style-UJ-complete .third-line.black,
+div.transcription.style-UJ-complete .third-line.black {
+	border-top:1px solid black !important;	
+}
 div.transcription.style-UJ-complete .div.black .line,
 div.transcription.style-UJ-complete .div.black .line.first-double,
 div.transcription.style-UJ-complete .div.black .halfline,
@@ -351,42 +356,48 @@ div.transcription.style-UJ-complete .div.black .second-line,
 div.transcription.style-UJ-complete .div.black .third-line,
 div.transcription.style-UJ-complete .div.blue .line.black,
 div.transcription.style-UJ-complete .div.blue .halfline.black {
-	border-top:1px solid black !important;	
+	border-top:1px solid black;	
 }
 div.transcription.style-UJ-complete .line.black.brown,
 div.transcription.style-UJ-complete .line.first-double.black.brown,
 div.transcription.style-UJ-complete .halfline.black.brown,
 div.transcription.style-UJ-complete .quarterline.black.brown,
 div.transcription.style-UJ-complete .second-line.black.brown,
-div.transcription.style-UJ-complete .third-line.black.brown,
+div.transcription.style-UJ-complete .third-line.black.brown {
+	border-top:1px solid #563e2b !important;	
+}
 div.transcription.style-UJ-complete .div.black.brown .line,
 div.transcription.style-UJ-complete .div.black.brown .line.first-double,
 div.transcription.style-UJ-complete .div.black.brown .halfline,
 div.transcription.style-UJ-complete .div.black.brown .quarterline,
 div.transcription.style-UJ-complete .div.black.brown .second-line,
 div.transcription.style-UJ-complete .div.black.brown .third-line {
-	border-top:1px solid #563e2b !important;	
+	border-top:1px solid #563e2b;	
 }
 div.transcription.style-UJ-complete .line.brown,
 div.transcription.style-UJ-complete .line.first-double.brown,
 div.transcription.style-UJ-complete .halfline.brown,
 div.transcription.style-UJ-complete .quarterline.brown,
 div.transcription.style-UJ-complete .second-line.brown,
-div.transcription.style-UJ-complete .third-line.brown,
+div.transcription.style-UJ-complete .third-line.brown {
+	border-top:1px solid #5b4338 !important;	
+}
 div.transcription.style-UJ-complete .div.brown .line,
 div.transcription.style-UJ-complete .div.brown .line.first-double,
 div.transcription.style-UJ-complete .div.brown .halfline,
 div.transcription.style-UJ-complete .div.brown .quarterline,
 div.transcription.style-UJ-complete .div.brown .second-line,
 div.transcription.style-UJ-complete .div.brown .third-line {
-	border-top:1px solid #5b4338 !important;	
+	border-top:1px solid #5b4338;	
 }
 div.transcription.style-UJ-complete .line.gray,
 div.transcription.style-UJ-complete .line.first-double.gray,
 div.transcription.style-UJ-complete .halfline.gray,
 div.transcription.style-UJ-complete .quarterline.gray,
 div.transcription.style-UJ-complete .second-line.gray,
-div.transcription.style-UJ-complete .third-line.gray,
+div.transcription.style-UJ-complete .third-line.gray {
+  border-top:1px solid #66635d !important; /*#585754*/
+}
 div.transcription.style-UJ-complete .div.gray .line,
 div.transcription.style-UJ-complete .div.gray .line.first-double,
 div.transcription.style-UJ-complete .div.gray .halfline,
@@ -397,35 +408,39 @@ div.transcription.style-UJ-complete .div.gray .third-line {
 }
 div.transcription.style-UJ-complete .div.brown .first-double.gray,
 div.transcription.style-UJ-complete .div.brown .second-line.gray {
-  border-top:1px solid #66635d !important; /*#585754*/
+  border-top:1px solid #66635d; /*#585754*/
 }
 div.transcription.style-UJ-complete .line.orange,
 div.transcription.style-UJ-complete .line.first-double.orange,
 div.transcription.style-UJ-complete .halfline.orange,
 div.transcription.style-UJ-complete .quarterline.orange,
 div.transcription.style-UJ-complete .second-line.orange,
-div.transcription.style-UJ-complete .third-line.orange,
+div.transcription.style-UJ-complete .third-line.orange {
+	border-top:1px solid #9b826a !important;	
+}
 div.transcription.style-UJ-complete .div.orange .line,
 div.transcription.style-UJ-complete .div.orange .line.first-double,
 div.transcription.style-UJ-complete .div.orange .halfline,
 div.transcription.style-UJ-complete .div.orange .quarterline,
 div.transcription.style-UJ-complete .div.orange .second-line,
 div.transcription.style-UJ-complete .div.orange .third-line {
-	border-top:1px solid #9b826a !important;	
+	border-top:1px solid #9b826a;	
 }
 div.transcription.style-UJ-complete .line.red,
 div.transcription.style-UJ-complete .line.first-double.red,
 div.transcription.style-UJ-complete .halfline.red,
 div.transcription.style-UJ-complete .quarterline.red,
 div.transcription.style-UJ-complete .second-line.red,
-div.transcription.style-UJ-complete .third-line.red,
+div.transcription.style-UJ-complete .third-line.red {
+	border-top:1px solid red !important;	
+}
 div.transcription.style-UJ-complete .div.red .line,
 div.transcription.style-UJ-complete .div.red .line.first-double,
 div.transcription.style-UJ-complete .div.red .halfline,
 div.transcription.style-UJ-complete .div.red .quarterline,
 div.transcription.style-UJ-complete .div.red .second-line,
 div.transcription.style-UJ-complete .div.red .third-line {
-	border-top:1px solid red !important;	
+	border-top:1px solid red;	
 }
 
 
@@ -461,6 +476,7 @@ div.transcription.style-UJ-complete .fw,
 div.transcription.style-UJ-complete .p .fw,
 div.transcription.style-UJ-complete .p.noindent .fw {
 	float:none !important;
+	font-style:normal;
 }
 div.transcription.style-UJ-complete .fw.pageno {
 	text-indent:0 !important;
@@ -505,8 +521,8 @@ div.transcription.style-UJ-complete .overwritten {
 	text-decoration:line-through;
 }
 div.transcription.style-UJ-complete .del-by-over-text {
-	color:#747571;
 	text-decoration:line-through;
+	color:#747571;
 }
 
 

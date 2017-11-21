@@ -97,7 +97,7 @@ div.transcription.style-fds .pub-date {
 	font-size:.9em;
 }
 div.transcription.style-fds a:link {
-	color:#428bca !important;
+	color:#428bca;
 }
 div.transcription.style-fds .idno {
 	font-size:.9em;
@@ -311,21 +311,25 @@ div.transcription.style-fds .line.first-double.blue,
 div.transcription.style-fds .halfline.blue,
 div.transcription.style-fds .quarterline.blue,
 div.transcription.style-fds .second-line.blue,
-div.transcription.style-fds .third-line.blue,
+div.transcription.style-fds .third-line.blue {
+	border-top:1px solid #4f6c92 !important;	
+}
 div.transcription.style-fds .div.blue .line,
 div.transcription.style-fds .div.blue .line.first-double,
 div.transcription.style-fds .div.blue .halfline,
 div.transcription.style-fds .div.blue .quarterline,
 div.transcription.style-fds .div.blue .second-line,
 div.transcription.style-fds .div.blue .third-line {
-	border-top:1px solid #4f6c92 !important;	
+	border-top:1px solid #4f6c92;	
 }
 div.transcription.style-fds .line.black,
 div.transcription.style-fds .line.first-double.black,
 div.transcription.style-fds .halfline.black,
 div.transcription.style-fds .quarterline.black,
 div.transcription.style-fds .second-line.black,
-div.transcription.style-fds .third-line.black,
+div.transcription.style-fds .third-line.black {
+	border-top:1px solid black !important;	
+}
 div.transcription.style-fds .div.black .line,
 div.transcription.style-fds .div.black .line.first-double,
 div.transcription.style-fds .div.black .halfline,
@@ -334,42 +338,48 @@ div.transcription.style-fds .div.black .second-line,
 div.transcription.style-fds .div.black .third-line,
 div.transcription.style-fds .div.blue .line.black,
 div.transcription.style-fds .div.blue .halfline.black {
-	border-top:1px solid black !important;	
+	border-top:1px solid black;	
 }
 div.transcription.style-fds .line.black.brown,
 div.transcription.style-fds .line.first-double.black.brown,
 div.transcription.style-fds .halfline.black.brown,
 div.transcription.style-fds .quarterline.black.brown,
 div.transcription.style-fds .second-line.black.brown,
-div.transcription.style-fds .third-line.black.brown,
+div.transcription.style-fds .third-line.black.brown {
+	border-top:1px solid #32251f !important;	
+}
 div.transcription.style-fds .div.black.brown .line,
 div.transcription.style-fds .div.black.brown .line.first-double,
 div.transcription.style-fds .div.black.brown .halfline,
 div.transcription.style-fds .div.black.brown .quarterline,
 div.transcription.style-fds .div.black.brown .second-line,
 div.transcription.style-fds .div.black.brown .third-line {
-	border-top:1px solid #32251f !important;	
+	border-top:1px solid #32251f;	
 }
 div.transcription.style-fds .line.brown,
 div.transcription.style-fds .line.first-double.brown,
 div.transcription.style-fds .halfline.brown,
 div.transcription.style-fds .quarterline.brown,
 div.transcription.style-fds .second-line.brown,
-div.transcription.style-fds .third-line.brown,
+div.transcription.style-fds .third-line.brown {
+	border-top:1px solid #5b4338 !important;	
+}
 div.transcription.style-fds .div.brown .line,
 div.transcription.style-fds .div.brown .line.first-double,
 div.transcription.style-fds .div.brown .halfline,
 div.transcription.style-fds .div.brown .quarterline,
 div.transcription.style-fds .div.brown .second-line,
 div.transcription.style-fds .div.brown .third-line {
-	border-top:1px solid #5b4338 !important;	
+	border-top:1px solid #5b4338;	
 }
 div.transcription.style-fds .line.gray,
 div.transcription.style-fds .line.first-double.gray,
 div.transcription.style-fds .halfline.gray,
 div.transcription.style-fds .quarterline.gray,
 div.transcription.style-fds .second-line.gray,
-div.transcription.style-fds .third-line.gray,
+div.transcription.style-fds .third-line.gray {
+	border-top:1px solid #585754 !important;	
+}
 div.transcription.style-fds .div.gray .line,
 div.transcription.style-fds .div.gray .line.first-double,
 div.transcription.style-fds .div.gray .halfline,
@@ -380,35 +390,39 @@ div.transcription.style-fds .div.gray .third-line {
 }
 div.transcription.style-fds .div.brown .first-double.gray,
 div.transcription.style-fds .div.brown .second-line.gray {
-	border-top:1px solid #585754 !important;	
+	border-top:1px solid #585754;	
 }
 div.transcription.style-fds .line.orange,
 div.transcription.style-fds .line.first-double.orange,
 div.transcription.style-fds .halfline.orange,
 div.transcription.style-fds .quarterline.orange,
 div.transcription.style-fds .second-line.orange,
-div.transcription.style-fds .third-line.orange,
+div.transcription.style-fds .third-line.orange {
+	border-top:1px solid #CD7300 !important;	
+}
 div.transcription.style-fds .div.orange .line,
 div.transcription.style-fds .div.orange .line.first-double,
 div.transcription.style-fds .div.orange .halfline,
 div.transcription.style-fds .div.orange .quarterline,
 div.transcription.style-fds .div.orange .second-line,
 div.transcription.style-fds .div.orange .third-line {
-	border-top:1px solid #CD7300 !important;	
+	border-top:1px solid #CD7300;	
 }
 div.transcription.style-fds .line.red,
 div.transcription.style-fds .line.first-double.red,
 div.transcription.style-fds .halfline.red,
 div.transcription.style-fds .quarterline.red,
 div.transcription.style-fds .second-line.red,
-div.transcription.style-fds .third-line.red,
+div.transcription.style-fds .third-line.red {
+	border-top:1px solid red !important;	
+}
 div.transcription.style-fds .div.red .line,
 div.transcription.style-fds .div.red .line.first-double,
 div.transcription.style-fds .div.red .halfline,
 div.transcription.style-fds .div.red .quarterline,
 div.transcription.style-fds .div.red .second-line,
 div.transcription.style-fds .div.red .third-line {
-	border-top:1px solid red !important;	
+	border-top:1px solid red;	
 }
 
 
@@ -482,8 +496,8 @@ div.transcription.style-fds .overwritten {
 	text-decoration:line-through;
 }
 div.transcription.style-fds .del-by-over-text {
-	color:gray;
 	text-decoration:line-through;
+	color:gray;
 }
 
 
