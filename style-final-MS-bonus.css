@@ -97,7 +97,7 @@ div.transcription.style-final-MS-bonus .pub-date {
 	font-size:.9em;
 }
 div.transcription.style-final-MS-bonus a:link {
-	color:#428bca !important;
+	color:#428bca;
 }
 div.transcription.style-final-MS-bonus .idno {
 	font-size:.9em;
@@ -329,7 +329,7 @@ div.transcription.style-final-MS-bonus .fw.catch.right {
 div.transcription.style-final-MS-bonus .del,
 div.transcription.style-final-MS-bonus .del-by-over-text {
 	text-decoration:line-through;
-	/*color:#666666;*//*Previously used for .del-by-over-text*/
+	color:#666666;
 }
 div.transcription.style-final-MS-bonus .pb-del {
 	display:inline-block;
