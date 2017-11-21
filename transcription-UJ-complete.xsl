@@ -457,34 +457,6 @@
 		</span>
 	</xsl:template>
 
-<!-- Begin proof-of-concept for J. Livingstone -->
-
-	<xsl:template match="del[@rend='black']"><!-- text = gray -->
-		<span style='color:black;text-decoration:line-through'><span style='color:gray'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="del[@rend='gray']">
-		<span style='color:gray;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="del[@rend='red']">
-		<span style='color:#B33B24;text-decoration:line-through'><span style='color:black'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="add[@rend='red']/del[@hand='#DL']">
-		<span style='color:black;text-decoration:line-through'><span style='color:#B33B24'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="hi[@rend='underline orange']" priority="10">
-		<span style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-	<xsl:template match="hi[@rend='double-underline orange gray']" priority="10">
-		<span class='doubleunderline-orange' style='color:#CD7300;text-decoration:underline'><span style='color:#72716d'><xsl:apply-templates/></span></span>
-	</xsl:template>
-
-<!-- End proof-of-concept for J. Livingstone -->
-
 	<xsl:template match="del[following-sibling::add[@place='over-text']]" priority="10">
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
