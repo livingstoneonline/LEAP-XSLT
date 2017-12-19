@@ -146,7 +146,7 @@
 					<placeName type="main">Barotseland</placeName>
 					<note type="editorial">Region in present-day western Zambia to the west of the Kafue River, and
 						homeland of the Lozi people. Historically, it covered a larger area including Zambia's current
-						Western, North-western and Southern provinces (Minahan 2002:1115).</note>
+						Western, North-western, and Southern Provinces (Minahan 2002:1115).</note>
 				</place>
 
 				<!-- MT glossary entry -->
@@ -162,7 +162,7 @@
 				<place xml:id="region0020" type="region">
 					<placeName type="main">Bechuanaland</placeName>
 					<note type="editorial">Region in south-western Africa, and homeland of the Tswana groups. It
-						was annexed by Britain in 1885, with the area south of the Molopo River becoming a crown
+						was annexed by Britain in 1885, with the area south of the Molopo river becoming a crown
 						colony and the northern area becoming the Bechuanaland Protectorate. It became independent
 						Botswana in 1966 (Curran 2003:52).</note>
 				</place>
@@ -187,14 +187,14 @@
 				<place xml:id="region0023" type="region">
 					<placeName type="main">Canaan</placeName>
 					<note type="editorial">Name used in the Old Testament and other sources for ancient Palestine.
-						The Israelites' occupation of Cannan, which was for them the "promised land," in the second
+						The Israelites' occupation of Canaan, which was for them the "promised land," in the second
 						millennium BC is described in the book of Joshua (Lemche 2004:87-89).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0024" type="region">
 					<placeName type="main">Cape Colony</placeName>
-					<note type="editorial">British colony in the south and west of what is today South Africa. It
+					<note type="editorial">British colony in the south and west of what is now South Africa. It
 						began as a Dutch port and settlement in 1652, but was occupied by the British in 1795. It was
 						briefly returned to the Dutch in 1803 before becoming a British possession in 1814. With the
 						Union of South Africa in 1910, it became the Cape Province (or the Province of the Cape of
@@ -210,7 +210,7 @@
 				<!-- MT glossary entry -->
 				<place xml:id="region0026" type="region">
 					<placeName type="main">Central African basin</placeName>
-					<note type="editorial">Roderick Murchison, the president of the Royal Geographical Society, had
+					<note type="editorial">Roderick Murchison, the President of the Royal Geographical Society, had
 						proposed in 1852 that the physical structure of southern Africa was an elevated "central
 						trough or basin" encircled by a highland ridge. Although based on limited information and
 						mistaken geological premises, his theoretical speculation proved largely correct. Livingstone
@@ -225,8 +225,8 @@
 					<placeName type="main">Crimea</placeName>
 					<note type="editorial">Peninsula located between the Black Sea and the Sea of Azov. It was the
 						site of the Crimean War (1853-56), in which Russia was defeated by the combined forces of
-						Britain, France and the Ottomans. The conflict was the result of power struggles in the Middle
-						East, and was precipitated by a dispute between the Ottomans and the Russians over the
+						Britain, France, and the Ottomans. The conflict was the result of power struggles in the
+						Middle East, and was precipitated by a dispute between the Ottomans and the Russians over the
 						protection of Orthodox Christians in the Ottoman Empire. It was a badly organised campaign,
 						with infection and unsanitary conditions responsible for a large proportion of lives lost
 						(Kohn 2013:133).</note>
@@ -286,8 +286,8 @@
 				<!-- MT glossary entry -->
 				<place xml:id="region0034" type="region">
 					<placeName type="main">Katonga</placeName>
-					<note type="editorial">Area on the Zambezi in the present-day Western Province of Zambia,
-						bordering Namibia's Caprivi Strip. According to Livingstone, it was 25 miles west of where
+					<note type="editorial">Area on the Zambezi in present-day Zambia's Western Province, bordering
+						Namibia's Caprivi Strip. According to Livingstone, it was twenty-five miles west of where
 						Sesheke was then located (Livingstone 1857:684).</note>
 				</place>
 
@@ -295,14 +295,14 @@
 				<place xml:id="region0035" type="region">
 					<placeName type="main">Lanarkshire</placeName>
 					<note type="editorial">Historical county in south-central Scotland, covering the area of
-						modern-day North Lanarkshire, South Lanarkshire, the City of Glasgow and East
+						present-day North Lanarkshire, South Lanarkshire, the City of Glasgow, and East
 						Dumbartonshire.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0036" type="region">
 					<placeName type="main">Luanda</placeName>
-					<note type="editorial">Region in western Angola, which is today one of the country's 18
+					<note type="editorial">Region in western Angola, which is today one of the country's eighteen
 						provinces.</note>
 				</place>
 
@@ -310,17 +310,17 @@
 				<place xml:id="region0037" type="region">
 					<placeName type="main">Luba</placeName>
 					<note type="editorial">Major central African state, which existed in the region between the
-						Lomani and Lualaba rivers in what is now the southern Democratic Republic of the Congo. Luba
-						had become a "dynastic kingdom" by 1700, and expanded its sway throughout the 18th and 19th
-						centuries as far east as Lake Tanganyika, as far south as Lake Mweru, and as far north as
-						Kasuland and Songyeland (Macola 2016b:1320-21).</note>
+						Lomami and Lualaba rivers in what is now the southern Democratic Republic of the Congo. Luba
+						had become a "dynastic kingdom" by 1700, and expanded its sway throughout the eighteenth and
+						nineteenth centuries as far east as Lake Tanganyika, as far south as Lake Mweru, and as far
+						north as Kasuland and Songyeland (Macola 2016b:1320-21).</note>
 				</place>
 				<!-- MT glossary entry -->
 				<place xml:id="region0038" type="region">
 					<placeName type="main">Lunda</placeName>
 					<note type="editorial">Also referred to by Livingstone as "Lui," "Loi" and "Londa." Significant
 						central African commonwealth of autonomous but interlinking states, encompassing what is now
-						the southern Democratic Republic of the Congo, north-eastern Angola and north-western Zambia.
+						the southern Democratic Republic of the Congo, north-eastern Angola, and north-western Zambia.
 						At the heart of the commonwealth was the central Lunda state (known as the Ruund), situated
 						between the Kasai and Lubilash rivers. Other Lunda polities traced their origin to the Ruund
 						and derived their status from its royal title. The commonwealth stretched west to Kasanje's
@@ -348,7 +348,7 @@
 				<!-- MT glossary entry -->
 				<place xml:id="region0041" type="region">
 					<placeName type="main">Mango</placeName>
-					<note type="editorial">Area around the confluence of the Lungwebungu River (called "Loeti" by
+					<note type="editorial">Area around the confluence of the Lungwebungu river (called "Loeti" by
 						Livingstone) and the Zambezi, in the northern part of present-day Zambia's Western Province.
 						In the published Missionary Travels, Livingstone adopts the spelling "Manga" (Livingstone
 						1857:261).</note>
@@ -359,7 +359,7 @@
 					<placeName type="main">Manica</placeName>
 					<note type="editorial">Region historically occupied by the Shona-speaking Manyika people, in
 						the east of present-day Zimbabwe (Manicaland Province) and the bordering area of Mozambique
-						(Manica District). Its gold fields and gold trade date to at least the 17th century.
+						(Manica District). Its gold fields and gold trade date to at least the seventeenth century.
 						Livingstone also provides the name "Manoa" for the same region (Editors 1998; Schapera
 						1963,2:426n3).</note>
 				</place>
@@ -392,7 +392,7 @@
 					<placeName type="main">Ophir</placeName>
 					<note type="editorial">Wealthy region described in the Old Testament, which traded with King
 						Solomon in gold and opulent goods (see 1 Kings 9:28, 10:11, and 2 Chronicles 8:18). It has
-						been identified variously with sites in the Arabian Peninsula, India and east Africa (Editors
+						been identified variously with sites in the Arabian Peninsula, India, and east Africa (Editors
 						2011).</note>
 				</place>
 
@@ -416,7 +416,7 @@
 				<!-- MT glossary entry -->
 				<place xml:id="region0049" type="region">
 					<placeName type="main">Pungo Andongo</placeName>
-					<note type="editorial">Portuguese settlement in north-west Angola, about 50 miles west of
+					<note type="editorial">Portuguese settlement in north-west Angola, about fifty miles west of
 						Malanje in present-day Malanje Province. Before it was conquered by the Portuguese in 1671 and
 						established as a military enclave, it was a stronghold of the Ndongo Kingdom (Pungo-a-Ndongo).
 						Pungo Andongo is also the site of a celebrated formation of giant monoliths (Thompson 2017:51;
