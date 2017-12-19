@@ -2602,10 +2602,10 @@
 					<persName type="main">Caesar, Julius</persName>
 					<birth when="-0100">c.100</birth>
 					<death when="-0044">44 BC</death>
-					<note type="editorial">Roman statesman and general. Between 58 and 50 BC, he conquered Gaul
-						and considerably extended Roman territory. He was the victor of the civil war (49–45 BC), and
-						was appointed as dictator and tribune of Rome. In 44 BC, he was assassinated at the height of
-						his power by a party led by Brutus and Cassius (Toynbee 2015).</note>
+					<note type="editorial">Roman statesman and general. Between 58 and 50 BC, he conquered Gaul and
+						considerably extended Roman territory. He was the victor of the civil war (49–45 BC), and was
+						appointed as dictator and tribune of Rome. In 44 BC, he was assassinated at the height of his
+						power by a party led by Brutus and Cassius (Toynbee 2015).</note>
 				</person>
 
 				<!-- MT glossary entry -->
