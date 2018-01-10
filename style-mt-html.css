@@ -393,7 +393,7 @@ div.transcription.style-mt-html .fw.catch.right {
 	text-indent:0;
 }
 
-/* Did you add the following four items for MT? If not, then remove them all */
+/* added for MT:floating marginal notes */
 div.transcription.style-mt-html .add.marginleft {
 	text-indent:0;	
 	margin-left:0;
@@ -405,7 +405,7 @@ div.transcription.style-mt-html .addmargin {
 }
 div.transcription.style-mt-html .marginleft.marginleft,
 div.transcription.style-mt-html .note.marginleft {
-	margin-left:-8.9em;/*Changed. AW*/
+	margin-left:-8.1em;/*Changed. AW*/
 	text-indent:0;	
 	float:left;
 	text-align:left;
@@ -421,7 +421,7 @@ div.transcription.style-mt-html .note.marginright {
 	float:right;
 	margin-top:-1.4em;
 }
-/*See previous note. End of items to remove possible */
+/*end of items added for MT */
 
 
 /* 6. Additions and Deletions */
@@ -481,6 +481,7 @@ div.transcription.style-mt-html .retrace.DL .add {
 div.transcription.style-mt-html .retrace.DL .metamark {
     color:black !important;
 }
+/*end of items added for MT */
 
 
 /* 7. Unclear, gap, space */
@@ -570,17 +571,17 @@ div.transcription.style-mt-html .overtext {
 }
 div.transcription.style-mt-html .right {
 	text-indent:0;
-	margin-left:10em;
+	margin-left:7em;
 }
 
-/*Did you add the next two items? If not, remove them both */
+/*added for MT:page numbers in the manuscript header */
 div.transcription.style-mt-html .add-right {
 	margin-left:8em;
 }
 div.transcription.style-mt-html .right-right {
 	margin-left:0em;
 }
-/*See previous note. End of items to remove possible */
+/*end of items added for MT */
 
 div.transcription.style-mt-html .small {
 	font-size:85%;
@@ -652,8 +653,7 @@ div.transcription.style-mt-html .sub {
 }*/
 div.transcription.style-mt-html .true {
 	/*display:inline-block;*/
-}/*Goes with standalone <note>s*//*Not relevant to MT?*/
-/*Commented this out again because it was messing up hi/del when outside of note*/
+}/*Goes with standalone <note>s*//*Removed for MT because they interefere with hi and del outside of note*/
 
 
 /* 11. Colors */
@@ -732,13 +732,6 @@ div.transcription.style-mt-html p .metamark {
 }
 /*See previous*/
 
-/*Did you add the following two? If not, remove. If so, add a note that these are for MT*/
-div.transcription.style-mt-html .makeRed {
-color:#B33B24;
-}
-div.transcription.style-mt-html .makeGray {
-color:gray;
-}
 /*See previous*/
 
 div.transcription.style-mt-html .foreign,
@@ -777,6 +770,7 @@ div.transcription.style-mt-html .U5 {
 	color:#936541;
 	font-style:italic;
 }
+/*end of items added for MT*/
 
 
 /*15. Metamarks*/ /*added for MT*/
@@ -895,3 +889,4 @@ div.transcription.style-mt-html p .metamark {
 	margin-left:0px !important;
 	text-indent:0px !important;
 }
+/*end of items added for MT*/
