@@ -438,6 +438,10 @@ div.transcription.style-mt-html .del-by-over-text {
 	color:#706f6a;
 	text-decoration:line-through;
 }
+div.transcription.style-mt-html .pb-del {
+	display:inline-block;
+	margin-bottom:.5em;
+}
 /*added for MT:retrace*/
 div.transcription.style-mt-html .retrace.red {
     color:#B33B24 !important;

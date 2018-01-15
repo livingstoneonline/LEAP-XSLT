@@ -1801,7 +1801,7 @@
 	<xsl:template match="jc:page">
 		<div class="page">
 			<span class="pb-title">
-				<xsl:value-of select="@facs"/>
+				<xsl:value-of select="@n"/>
 			</span>
 			<xsl:apply-templates/>
 		</div>
@@ -1813,9 +1813,10 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="del/pb" priority="10">
-		<span class="pb-title del-pb">
-			[<xsl:value-of select="@n"/>]
+	<!-- Prevents page numbers from being struckthrough when nestled in one or two dels -->
+	<xsl:template match="pb[ancestor::del]|pb[ancestor::del[ancestor::del]]" priority="10">
+		<span class="pb-title pb-del">
+			<xsl:value-of select="@n"/>
 		</span>
 	</xsl:template>
 
