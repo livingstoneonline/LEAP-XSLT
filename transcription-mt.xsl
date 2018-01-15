@@ -1809,7 +1809,7 @@
 
 	<xsl:template match="pb">
 		<span class="pb-title">
-			[<xsl:value-of select="@n"/>]
+			<xsl:value-of select="@n"/>
 		</span>
 	</xsl:template>
 

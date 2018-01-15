@@ -60,11 +60,11 @@ div.transcription.style-mt-html .TEI {
 }
 */
 div.transcription.style-mt-html .item-details {
-	/*max-width:29em;*/
-	/*min-width:29em;*/
+	max-width:29em;
+	min-width:29em;
 	white-space:normal;
 	padding-top:1em;
-	padding-left:10em;
+	padding-left:7em;
 	/*padding-right:12em;*/
 }
 div.transcription.style-mt-html div.text {
