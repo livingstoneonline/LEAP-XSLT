@@ -45,7 +45,7 @@
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
-			<body class="non-embedded-transcription">
+			<body style="background:#{$body-color};">
 				<xsl:apply-templates select="TEI"/>
 			</body>
 		</html>
@@ -80,11 +80,7 @@
 			</xsl:choose>
 		</xsl:variable>
 		<div class="transcription style" style="background:#{$body-color};">
-			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
-			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
-			<!--<h2>
-        <xsl:value-of select="//teiHeader//title[2]"/>
-			</h2>-->
+
 			<div class="TEI" style="background:#{$body-color};">
 				<div class="item-details">
 				<span class="project-id"><span class="bold">Title:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
