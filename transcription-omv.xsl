@@ -39,7 +39,8 @@
 				<meta charset="UTF-8"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-omv.css"/>
+				<!--<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-omv.css"/>-->
+				<link rel="stylesheet" type="text/css" href="style-omv.css"/>
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -79,16 +80,18 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<div class="transcription style" style="background:#{$body-color};">
+		<div class="transcription style-omv" style="background:#{$body-color};">
 
 			<div class="TEI" style="background:#{$body-color};">
 				<div class="item-details">
-				<span class="project-id"><span class="bold">Title:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
+				<span class="title"><!--<span class="bold">Title:</span><xsl:text> </xsl:text>--><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></span><br/>
+				<span class="author"><!--<span class="bold">Creator(s):</span><xsl:text> </xsl:text>--><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
 				<span class="project-id"><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date"/></span><br/>
-				<span class="project-id"><span class="bold">Creator(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author" separator=", "/></span><br/>
 				<span class="project-id"><span class="bold">Place of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></span><br/>
 				<!--<span class="project-id"><span class="bold">Date(s) of composition:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/date[@type='composition']"/></span><br/>
 				<span class="project-id"><span class="bold">Place(s) of composition:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']"/></span><br/>-->
+				<span class="project-id"><span class="bold">Repository:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/repository" /> (<xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/settlement" />, <xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/country" />)</span><br/>
+				<span class="project-id"><span class="bold">Shelfmark / Identifier:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/idno[@type='shelfmark']" /></span><br/>
 				<span class="project-id"><span class="bold">Digital edition and date:</span><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>, 2018</span><!--<xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span>--><br/>
 				<span class="project-id"><span class="bold">Project ID</span><xsl:text>: </xsl:text> <xsl:value-of select="//idno[@type='LEAP-ID']"/></span><br/>
 				<span class="project-id"><span class="bold">Critical encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></span><br/>
