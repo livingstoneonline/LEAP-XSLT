@@ -26,7 +26,7 @@ div.transcription-viewer-content.style {
 
 /* 1. Textual divisions */
 
-div.transcription.style {
+div.transcription.style-omv {
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -34,7 +34,7 @@ div.transcription.style {
 	font-size:16px;
 	/*white-space:nowrap;*/
 }
-div.transcription.style .TEI {
+div.transcription.style-omv .TEI {
 	display:inline-block;
 	white-space:nowrap;
 	padding-top:.5em;
@@ -49,53 +49,53 @@ div.transcription.style .TEI {
 	padding-left:1em;
 }
 */
-div.transcription.style .item-details {
+div.transcription.style-omv .item-details {
 	max-width:30em;
 	min-width:30em;
 	white-space:normal;
 }
-div.transcription.style div.body {
+div.transcription.style-omv div.body {
 	display:block;
 	padding-bottom:2.4em;
 	padding-left:3.5em;
 }
-div.transcription.style .front,
-div.transcription.style .back {
+div.transcription.style-omv .front,
+div.transcription.style-omv .back {
 	display:block;
 }
 
 
 /* 1.5. Title section */
 
-div.transcription.style .title {
+div.transcription.style-omv .title {
 	display:block;
 	text-align:center;
 	margin-bottom:-0.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
-div.transcription.style .author {
+div.transcription.style-omv .author {
 	display:block;
 	text-align:center;
 	margin-bottom:.5em;
 	font-size:1.2em;
 	font-style:italic;
 }
-div.transcription.style .authority {
+div.transcription.style-omv .authority {
 	font-size:.9em;
 	line-height:1.7;
 }
-div.transcription.style .pub-date {
+div.transcription.style-omv .pub-date {
 	font-size:.9em;
 }
-div.transcription.style a:link {
+div.transcription.style-omv a:link {
 	color:#428bca !important;
 }
-div.transcription.style .idno {
+div.transcription.style-omv .idno {
 	font-size:.9em;
 	line-height:1.7;
 }
-div.transcription.style hr.title-section {
+div.transcription.style-omv hr.title-section {
 	width:27em;
 	height:0;
 	border:0;
@@ -104,16 +104,16 @@ div.transcription.style hr.title-section {
 	margin-bottom:-0.4em;
 	margin-left:3.5em;
 }
-div.transcription.style .project-id,
-div.transcription.style .project-encoding,
-div.transcription.style .encoding-standard {
+div.transcription.style-omv .project-id,
+div.transcription.style-omv .project-encoding,
+div.transcription.style-omv .encoding-standard {
 	display:inline-block;
 	padding-left:4em;
 	padding-bottom:.4em;
 	font-size:.9em;
 	line-height:170%;
 }
-div.transcription.style .project-encoding {
+div.transcription.style-omv .project-encoding {
 	line-height:140% !important;
   	margin-left:30px;
   	text-indent:-30px;	
@@ -122,31 +122,31 @@ div.transcription.style .project-encoding {
 
 /* 2. Letters */
 
-div.transcription.style .opener,
-div.transcription.style .closer,
-div.transcription.style .trailer {
+div.transcription.style-omv .opener,
+div.transcription.style-omv .closer,
+div.transcription.style-omv .trailer {
 	margin-bottom:0px;
 }
-div.transcription.style .opener {
+div.transcription.style-omv .opener {
 	display:inline;
 	margin-top:1em;
 }
-div.transcription.style .closer,
-div.transcription.style .address {
+div.transcription.style-omv .closer,
+div.transcription.style-omv .address {
 	display:block;
 }
-div.transcription.style .dateline {
+div.transcription.style-omv .dateline {
 	display:inline;
 	text-indent:0;
 }
-div.transcription.style .signed {
+div.transcription.style-omv .signed {
 	display:inline-block;
 }
 
 
 /* 3. pb, lb, linenumber */
 
-div.transcription.style .pb-title {
+div.transcription.style-omv .pb-title {
 	display:block;
 	color:#428bca;
 	font-size:90%;
@@ -155,17 +155,17 @@ div.transcription.style .pb-title {
 	margin-left:0;
 	text-indent:0;
 }
-div.transcription.style .pb-title:hover {
+div.transcription.style-omv .pb-title:hover {
 	color:#AAA;
 	cursor:pointer;
 }
-div.transcription.style .pb-title:first-of-type {
+div.transcription.style-omv .pb-title:first-of-type {
 	margin-top:0;
 }
-div.transcription.style .lb {
+div.transcription.style-omv .lb {
 	display:block;
 }
-div.transcription.style .linenumber {
+div.transcription.style-omv .linenumber {
 	text-align:right;
 	float:left;
 	color:#8c8b85;
@@ -174,26 +174,26 @@ div.transcription.style .linenumber {
 	font-size:.8em;
 	width:1em;
 }
-div.transcription.style p .linenumber {
+div.transcription.style-omv p .linenumber {
 	text-indent:-1%;
 }
-div.transcription.style .p.noindent.linenumber {
+div.transcription.style-omv .p.noindent.linenumber {
 	text-indent:1em;
 }
-div.transcription.style p.center .linenumber {
+div.transcription.style-omv p.center .linenumber {
 	margin-left:-6.4em !important;
 }
-div.transcription.style p.right .linenumber {
+div.transcription.style-omv p.right .linenumber {
 	margin-left:-10.5em !important;
 }
-div.transcription.style .list .linenumber {
+div.transcription.style-omv .list .linenumber {
 	text-indent:0;	
 }
 
 
 /* 4. Milestone and lines */
 
-div.transcription.style .milestone {/*check all of this against 1870 viewer*/
+div.transcription.style-omv .milestone {/*check all of this against 1870 viewer*/
 	display:block;
 	width:60%;
 	background:#FFF;
@@ -204,7 +204,7 @@ div.transcription.style .milestone {/*check all of this against 1870 viewer*/
 	margin-bottom:-0.5em;
 	padding:0px;
 }
-div.transcription.style .line {
+div.transcription.style-omv .line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:27em !important;
@@ -214,14 +214,14 @@ div.transcription.style .line {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style .doubleline {
+div.transcription.style-omv .doubleline {
 	border-top:4px double #8c8b8b;
 	display:block;
 	width:27em !important;
 	margin-left:9%;
 	text-align:left;
 }
-div.transcription.style .tripleline {
+div.transcription.style-omv .tripleline {
 	border-top:4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
@@ -229,7 +229,7 @@ div.transcription.style .tripleline {
 	margin-left:9%;
 	text-align:left;
 }
-div.transcription.style .halfline {
+div.transcription.style-omv .halfline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:17.5em !important;
@@ -239,7 +239,7 @@ div.transcription.style .halfline {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style .quarterline {
+div.transcription.style-omv .quarterline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:11em !important;
@@ -249,7 +249,7 @@ div.transcription.style .quarterline {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style .second-line {
+div.transcription.style-omv .second-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:27em !important;
@@ -261,7 +261,7 @@ div.transcription.style .second-line {
 	border:0;
 	border-top:1px solid #58484b;
 }
-div.transcription.style .third-line {
+div.transcription.style-omv .third-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:27em !important;
@@ -276,41 +276,41 @@ div.transcription.style .third-line {
 
 /* 5. p, ab, note, fw */
 
-div.transcription.style p {
+div.transcription.style-omv p {
 	margin-right:2em;
 }/*Needed so that the text doesn't run up against the right edge in the viewer.*/
-div.transcription.style .p {
+div.transcription.style-omv .p {
 	display:inline-block;
 	text-indent:25px;
 	margin-top:0;
 	margin-bottom:0;	
 }
-div.transcription.style .p.noindent,
-div.transcription.style .p.center,
-div.transcription.style .p.right {
+div.transcription.style-omv .p.noindent,
+div.transcription.style-omv .p.center,
+div.transcription.style-omv .p.right {
 	text-indent:0 !important;
 }
-div.transcription.style .p.right {
+div.transcription.style-omv .p.right {
 	margin-left:6em !important;
 }
-div.transcription.style .ab {
+div.transcription.style-omv .ab {
 	text-indent:0;
 	margin-top:0;
 	margin-bottom:0;
 }
-div.transcription.style .head {
+div.transcription.style-omv .head {
 	font-weight:normal;
 }
-div.transcription.style .note {
+div.transcription.style-omv .note {
 	display:inline;
 }
-div.transcription.style .fw {
+div.transcription.style-omv .fw {
 	display:inline-block;
 }
-div.transcription.style .fw.pageno {
+div.transcription.style-omv .fw.pageno {
 	text-indent:0 !important;
 }
-div.transcription.style .fw.catch.right {
+div.transcription.style-omv .fw.catch.right {
 	margin-left:14em;
 	text-indent:0;
 }
@@ -318,27 +318,27 @@ div.transcription.style .fw.catch.right {
 
 /* 6. del, unclear, gap, space */
 
-div.transcription.style .del,
-div.transcription.style .del-by-over-text {
+div.transcription.style-omv .del,
+div.transcription.style-omv .del-by-over-text {
 	text-decoration:line-through;
 	/*color:#666666;*//*Previously used for .del-by-over-text*/
 }
-div.transcription.style .pb-del {
+div.transcription.style-omv .pb-del {
 	display:inline-block;
 	margin-bottom:.5em;
 }
-div.transcription.style .unclear {
+div.transcription.style-omv .unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
 }
-div.transcription.style .gap {
+div.transcription.style-omv .gap {
 	border-bottom:1px dotted black;
 }
-div.transcription.style .space-other {
+div.transcription.style-omv .space-other {
 	border-bottom:1px dotted black;
 	display:block;
 }
-div.transcription.style .verticalSpace {
+div.transcription.style-omv .verticalSpace {
 	display:inline-block;
 	border-bottom:1px dotted black;
 	text-indent:0;
@@ -347,74 +347,78 @@ div.transcription.style .verticalSpace {
 
 /* 7. Editorial */
 
-div.transcription.style .sic,
-div.transcription.style .corr {
+div.transcription.style-omv .sic,
+div.transcription.style-omv .corr {
 	border-bottom:2px #B33B24 dotted;
 }
-div.transcription.style .abbr,
-div.transcription.style .expan {
+div.transcription.style-omv .abbr,
+div.transcription.style-omv .expan {
 	border-bottom:1px green dotted;
 }
-div.transcription.style .expan,
-div.transcription.style .hidden {
+div.transcription.style-omv .expan,
+div.transcription.style-omv .hidden {
 	display:none;
 }
-div.transcription.style .rdg {
+div.transcription.style-omv .rdg {
 	display:block;
 }
 
 
 /* 8. @rend classes (except colors, lines, and up-down placement) */
 
-div.transcription.style .bold {
+div.transcription.style-omv .bold {
 	font-weight:600;
 }
-div.transcription.style .caps {
+div.transcription.style-omv .caps {
 	font-variant:small-caps;
 }
-div.transcription.style .center {
+div.transcription.style-omv .center {
 	text-indent:0;
 	margin-left:2.7em;
 }
-div.transcription.style .doubleunderline {
+
+div.transcription.style-omv .dottedunderline {
+	border-bottom:1px dashed;
+}
+div.transcription.style-omv .doubleunderline {
 	border-bottom:3px double;
 }
-div.transcription.style .tripleunderline {
+div.transcription.style-omv .tripleunderline {
 	border-bottom:4px double;
 	text-decoration:underline;
 }
-div.transcription.style .italic {
+div.transcription.style-omv .italic {
 	font-style:italic;
 }
-div.transcription.style .large {
-	font-size:120%;
+div.transcription.style-omv .large {
+	font-size:1.1em;
 }
-div.transcription.style .overline {
+div.transcription.style-omv .overline {
 	text-decoration:overline;
 }
-div.transcription.style .overline.underline {
+div.transcription.style-omv .overline.underline {
 	text-decoration:overline underline;
 }
-div.transcription.style .right {
+div.transcription.style-omv .right {
 	text-indent:0;
 	margin-left:4em;
 }
-div.transcription.style .small {
+div.transcription.style-omv .small {
 	font-size:.85em;
 }
-div.transcription.style .smallcaps {
+div.transcription.style-omv .smallcaps {
 	font-variant:small-caps;
 }
-div.transcription.style .underline {
+div.transcription.style-omv .underline {
 	text-decoration:underline;
 }
-div.transcription.style .upsidedown {
+div.transcription.style-omv .upsidedown {
 	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(180deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
-div.transcription.style .vertical {
+div.transcription.style-omv .vertical {
 	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(90deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
@@ -424,12 +428,12 @@ div.transcription.style .vertical {
 
 /* 9. Page placement */
 
-div.transcription.style .above,
-div.transcription.style .below,
-div.transcription.style .bottom,
-div.transcription.style .sub,
-div.transcription.style .sup,
-div.transcription.style .top {
+div.transcription.style-omv .above,
+div.transcription.style-omv .below,
+div.transcription.style-omv .bottom,
+div.transcription.style-omv .sub,
+div.transcription.style-omv .sup,
+div.transcription.style-omv .top {
 	/* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
 	font-size:.8em;
@@ -446,103 +450,103 @@ div.transcription.style .top {
      is already set and you can remove this rule */
 	vertical-align:baseline;
 }
-div.transcription.style .above,
-div.transcription.style .sup,
-div.transcription.style .top {
+div.transcription.style-omv .above,
+div.transcription.style-omv .sup,
+div.transcription.style-omv .top {
 	/* Move the superscripted text up */
 	top:-0.35em;
 }
-div.transcription.style .below,
-div.transcription.style .bottom,
-div.transcription.style .sub {
+div.transcription.style-omv .below,
+div.transcription.style-omv .bottom,
+div.transcription.style-omv .sub {
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */
 	bottom:-0.25em;
 }
-div.transcription.style .true {
+div.transcription.style-omv .true {
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
 /* 10. Colors */
 
-div.transcription.style .black {
+div.transcription.style-omv .black {
 	color:black;
 }
-div.transcription.style .blue {
+div.transcription.style-omv .blue {
 	color:blue;
 }
-div.transcription.style .blue.black {
-	color:#454668;
+div.transcription.style-omv .blue.black {
+	color:#245a82;
 }
-div.transcription.style .brown {
-	color:brown;
+div.transcription.style-omv .brown {
+	color:#664d36;
 }
-div.transcription.style .gray {
+div.transcription.style-omv .gray {
 	color:#706f6a;
 }
-div.transcription.style .green {
+div.transcription.style-omv .green {
 	color:green;
 }
-div.transcription.style .orange {
+div.transcription.style-omv .orange {
 	color:orange;
 }
-div.transcription.style .purple {
+div.transcription.style-omv .purple {
 	color:purple;
 }
-div.transcription.style .red {
+div.transcription.style-omv .red {
 	color:#B33B24;
 }
-div.transcription.style .yellow {
+div.transcription.style-omv .yellow {
 	color:yellow;
 }
 
 
 /* 11. Lists and Tables */
-div.transcription.style .list {
+div.transcription.style-omv .list {
 	display:block;
 }
-div.transcription.style table {
+div.transcription.style-omv table {
 	font-size:.85em;
 	border-style:none;
 	margin-right:2em; 
 }/*Last item needed so that the text doesn't run up against the right edge in the viewer.*/
-div.transcription.style tr,
-div.transcription.style td {
+div.transcription.style-omv tr,
+div.transcription.style-omv td {
 	border-style:none;
 }
-div.transcription.style table .linenumber {
+div.transcription.style-omv table .linenumber {
 	display:none;
 }
 
 
 /* 12. Misc */
 
-div.transcription.style .figure {
+div.transcription.style-omv .figure {
 	margin-left:0;
 	color:#666666;
 	font-size:.8em;
 	border-bottom:1px #666666 dotted;
 }
-div.transcription.style .p .figure,
-div.transcription.style .p.noindent .figure,
-div.transcription.style .ab .figure,
-div.transcription.style p .metamark {
+div.transcription.style-omv .p .figure,
+div.transcription.style-omv .p.noindent .figure,
+div.transcription.style-omv .ab .figure,
+div.transcription.style-omv p .metamark {
 	margin-left:0px !important;
 	text-indent:0px;
 }
-div.transcription.style .metamark {
+div.transcription.style-omv .metamark {
 	color:#666666;
 	border-bottom:1px #666666 dotted;
 }
-div.transcription.style .foreign,
-div.transcription.style .geogName,
-div.transcription.style .persName,
-div.transcription.style .orgName,
-div.transcription.style .quote,
-div.transcription.style .region,
-div.transcription.style .settlement,
-div.transcription.style .term-ailment,
-div.transcription.style .term-tribe {
+div.transcription.style-omv .foreign,
+div.transcription.style-omv .geogName,
+div.transcription.style-omv .persName,
+div.transcription.style-omv .orgName,
+div.transcription.style-omv .quote,
+div.transcription.style-omv .region,
+div.transcription.style-omv .settlement,
+div.transcription.style-omv .term-ailment,
+div.transcription.style-omv .term-tribe {
 	border-bottom:2px #428bca dotted; /* change to 1px */
 }
