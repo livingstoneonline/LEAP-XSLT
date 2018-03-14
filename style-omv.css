@@ -71,6 +71,7 @@ div.transcription.style-omv .title {
 	display:block;
 	text-align:center;
 	margin-bottom:-0.5em;
+	padding-left:2.5em;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
@@ -78,6 +79,7 @@ div.transcription.style-omv .author {
 	display:block;
 	text-align:center;
 	margin-bottom:.5em;
+	padding-left:2.5em;
 	font-size:1.2em;
 	font-style:italic;
 }
