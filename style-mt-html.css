@@ -94,7 +94,7 @@ div.transcription.style-mt-html .div {
 div.transcription.style-mt-html .title {
 	display:block;
 	text-align:center;
-	margin-bottom:-0.5em;
+	margin-bottom:0;
 	font-size:1.4em;
 	font-variant:small-caps;
 }
