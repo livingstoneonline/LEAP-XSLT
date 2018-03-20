@@ -31,6 +31,8 @@ div.transcription-viewer-content.style-LLJ-complete {
 div.transcription.style-LLJ-complete {
 	margin-left:auto;
 	margin-right:auto;
+	padding-left:2.5em;
+	padding-right:2.5em;
 	text-align:center;
 	max-width:26em;/*LLJ*/
 	min-width:26em;/*LLJ*/
