@@ -604,6 +604,7 @@ div.transcription.style-mt-published .list {
 	margin-top:12px;
 }
 div.transcription.style-mt-published table {
+	padding-left:20px;
 	font-size:.9em; /*85%;*//*Changed for 1870 Field Diary*/
 	border-style:none; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 	color:#46381e; /*Added color for 1870 Field Diary*/
@@ -611,6 +612,9 @@ div.transcription.style-mt-published table {
 div.transcription.style-mt-published tr,
 div.transcription.style-mt-published td {
 	border-style:none;
+}
+div.transcription.style-mt-published td {
+	width:auto;
 }
 
 

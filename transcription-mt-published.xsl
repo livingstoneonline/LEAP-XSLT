@@ -1353,7 +1353,7 @@
 	</xsl:template>
 
 	<xsl:template match="table[parent::note]">
-		<table class="note"><xsl:apply-templates/></table>
+		<table class="note no-indent"><xsl:apply-templates/></table>
 	</xsl:template>
 
 	<xsl:template match="row">
