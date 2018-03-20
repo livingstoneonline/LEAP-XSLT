@@ -42,7 +42,7 @@
 				</title>
 				<!--<link type="text/css" rel="stylesheet" href="http://jamescummings.github.io/LEAP/style.css"/>-->
 			</head>
-			<body>
+			<body class="non-embedded-transcription">
 				<xsl:apply-templates select="TEI"/>
 			</body>
 		</html>
@@ -73,7 +73,7 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<div class="transcription">
+		<div class="transcription style-mt-published">
 			<!--<button id="toggle" title="toggle" type="button" class="hidden">Show unedited text</button>-->
 			<!-- The above is the diplomatic/edited toggle button, which we've turned off because we're using tooltips instead. AW -->
 			<!--<h2>
@@ -998,16 +998,18 @@
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"
 			><xsl:apply-templates/></span>
 	</xsl:template>
+	
+	<xsl:template match="note[child::table]|note[child::p]">
+		<xsl:apply-templates/>
+	</xsl:template>
 
-	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
+	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="9">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<xsl:template match="p/note" priority="8">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
-	</xsl:template>
+
 
 	<xsl:template match="opener">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
@@ -1042,6 +1044,10 @@
 		<span class="orgName" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
+	</xsl:template>
+
+	<xsl:template match="p/note" priority="8">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- Not sure what this does. AW -->
@@ -1344,6 +1350,10 @@
 			<xsl:apply-templates/>
 			<!-- select="@*|node()" -->
 		</table>
+	</xsl:template>
+
+	<xsl:template match="table[parent::note]">
+		<table class="note"><xsl:apply-templates/></table>
 	</xsl:template>
 
 	<xsl:template match="row">

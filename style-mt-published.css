@@ -22,10 +22,11 @@ Table of Contents
 
 /* 1. Textual divisions */
 
-body{
+body.non-embedded-transcription,
+div.transcription-viewer-content.style-mt-published {
 	background:#ead7b3; /*LLJ*/
 }
-div.transcription{
+div.transcription.style-mt-published {
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
@@ -36,67 +37,67 @@ div.transcription{
 	/*white-space:nowrap;*/
 	color:#46381e;/*LLJ*/
 }
-.TEI{
+div.transcription.style-mt-published .TEI {
 	display:block;/*LLJ*/
 	padding-top:.5em;
 	text-align:justify;/*LLJ*/
 }
-@media all and (max-width: 768px)  {
-.TEI{	
+@media all and (max-width: 768px)   {
+div.transcription.style-mt-published .TEI {	
 	/*padding-left:1.5em;*//*Removed because didn't work with triple viewer*/
 }
 }
-.item-details{
+div.transcription.style-mt-published .item-details {
 	max-width:27em;/*LLJ*/
 	min-width:27em;/*LLJ*/
 	text-align:left;/*LLJ*/
 	padding-top:1em;
 }
-div.text{
+div.transcription.style-mt-published div.text {
 }
-div.body{
+div.transcription.style-mt-published div.body {
 	display:block;
 	padding-bottom:2.4em;
 	padding-top:1.5em;
 }
-.front,
-.back{
+div.transcription.style-mt-published .front,
+div.transcription.style-mt-published .back {
 	display:block;
 }
-.div{
+div.transcription.style-mt-published .div {
 }
 
 /* 1.5. Title section */
 
-.title{
+div.transcription.style-mt-published .title {
 	display:inline-block;/*LLJ*/
 	text-align:center;
 	margin-bottom:1em;/*LLJ*/
 	font-size:1.4em;
 	font-variant:small-caps;
 }
-.author{
+div.transcription.style-mt-published .author {
 	display:block;
 	text-align:center;
 	margin-bottom:-.5em;/*LLJ*/
 	font-size:1.2em;
 	font-style:italic;
 }
-.authority{
+div.transcription.style-mt-published .authority {
 	font-size:.9em;
 	line-height:2em;
 }
-.pub-date{
+div.transcription.style-mt-published .pub-date {
 	font-size:.9em;
 }
-a:link{
+div.transcription.style-mt-published a:link {
 	color:#428bca !important;
 }
-.idno{
+div.transcription.style-mt-published .idno {
 	font-size:.9em;
 	line-height:2em;
 }
-hr.title-section{
+div.transcription.style-mt-published hr.title-section {
 	width:100%;
 	height:0;
 	border:0;
@@ -104,56 +105,56 @@ hr.title-section{
 	margin-top:-.4em;
 	margin-bottom:-.4em;
 }
-.project-id{
+div.transcription.style-mt-published .project-id {
 	color:gray;
 	font-size:.9em;
 }
 
 /* 2. Letters */
 
-.opener,
-.closer{
+div.transcription.style-mt-published .opener,
+div.transcription.style-mt-published .closer {
 	margin-bottom:0px;
 }
-.opener{
+div.transcription.style-mt-published .opener {
 	display:inline;
 	margin-top:1em;
 }
-.closer{
+div.transcription.style-mt-published .closer {
 	display:block;
 }
-.dateline{
+div.transcription.style-mt-published .dateline {
 	display:inline;
 	text-indent:0;
 }
-.dateline.center{
+div.transcription.style-mt-published .dateline.center {
 	display:inline-block;
 }
-.dateline.right{
+div.transcription.style-mt-published .dateline.right {
 	display:block;
 }
-.opener-salute{
+div.transcription.style-mt-published .opener-salute {
 }
-.closer-salute{
+div.transcription.style-mt-published .closer-salute {
 	margin-left:0 !important;
 }
-.closer.center{
+div.transcription.style-mt-published .closer.center {
 }
-.signed{
+div.transcription.style-mt-published .signed {
 	display:inline-block;
 }
-.address{
+div.transcription.style-mt-published .address {
 	display:block;
 }
-.addrLine.center{
+div.transcription.style-mt-published .addrLine.center {
 }
-.addrLine.right{
+div.transcription.style-mt-published .addrLine.right {
 }
 
 
 /* 3. pb, lb, linenumber */
 
-.pb-title{
+div.transcription.style-mt-published .pb-title {
 	display:block;
 	color:#428bca;/*Changed for full LJ. Was color:#f6dbb0; & text decoration hidden*/
 	/*text-decoration:underline;*/
@@ -162,27 +163,27 @@ hr.title-section{
 	margin-bottom:0;/*Changed for full LJ.*/
 	padding-bottom:10px;/*Added for full LJ.*/
 }
-.pb-title:hover{
+div.transcription.style-mt-published .pb-title:hover {
 	color:#AAA;/*Changed for full LJ. Was color:#f6dbb0;*/
 	cursor:pointer
 }
-.pb-title:first-of-type {
+div.transcription.style-mt-published .pb-title:first-of-type  {
  	/*margin-top: 0;*/ /*This is to prevent scrolling up when the first image opens. AW*/
 }
-p span.pb-title{
+div.transcription.style-mt-published p span.pb-title {
 	text-indent:0;/*LLJ*/
 	margin-left:0;/*Changed for full LJ. Was margin-top:3em;*/
 }
-.del-pb{
+div.transcription.style-mt-published .del-pb {
 }
-.lb{
+div.transcription.style-mt-published .lb {
 	display:block;
 }
-.lb.center{
+div.transcription.style-mt-published .lb.center {
 }
-.lb.right{
+div.transcription.style-mt-published .lb.right {
 }
-.linenumber{
+div.transcription.style-mt-published .linenumber {
 	text-align:right;
 	float:left;
 	color:#8c8b85;
@@ -192,26 +193,26 @@ p span.pb-title{
 	width:1em;
 	display:none;
 }
-p .linenumber{
+div.transcription.style-mt-published p .linenumber {
 	text-indent:-1%;
 }
-.p.noindent.linenumber{
+div.transcription.style-mt-published .p.noindent.linenumber {
 	text-indent:1em;
 }
-p.center .linenumber{
+div.transcription.style-mt-published p.center .linenumber {
 	margin-left:-12.5em !important; /*Needs to be checked.*/
 }
-p.right .linenumber{
+div.transcription.style-mt-published p.right .linenumber {
 	margin-left:-18em !important;
 }
-.list .linenumber{
+div.transcription.style-mt-published .list .linenumber {
 	text-indent:0;	
 }
 
 
 /* 4. Milestone and lines */
 
-.milestone{
+div.transcription.style-mt-published .milestone {
 	display:block;
 	width:60%;
 	background:#FFF;
@@ -225,7 +226,7 @@ p.right .linenumber{
 	margin-top: 1em;
 
 }
-.line{
+div.transcription.style-mt-published .line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:14em !important;/*LLJ*/
@@ -235,7 +236,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-/*.doubleline{
+/*div.transcription.style-mt-published .doubleline {
 	border-top: 4px double #8c8b8b;
 	display:block;
 	width:35% !important;
@@ -243,7 +244,7 @@ p.right .linenumber{
 	text-align:left;
 	color:black;
 }*/
-/*.tripleline{
+/*div.transcription.style-mt-published .tripleline {
 	border-top: 4px double #8c8b8b;
 	line-height:1.9em;
 	display:block;
@@ -253,7 +254,7 @@ p.right .linenumber{
 	color:black;
 }*/
 /* Both of the above are not used in the 1870 FD transformation. See .second-line below.*/
-.halfline{
+div.transcription.style-mt-published .halfline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:17.5em !important;
@@ -263,7 +264,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.quarterline{
+div.transcription.style-mt-published .quarterline {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:11em !important;
@@ -273,7 +274,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.second-line{
+div.transcription.style-mt-published .second-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:22em !important;
@@ -285,7 +286,7 @@ p.right .linenumber{
 	border:0;
 	border-top:1px solid #58484b;
 }
-.third-line{
+div.transcription.style-mt-published .third-line {
 	border-bottom:1px solid #d0d0d0;
 	display:block;
 	width:22em !important;
@@ -299,75 +300,80 @@ p.right .linenumber{
 
 /* 5. p, ab, note, fw */
 
-p{
+div.transcription.style-mt-published p {
 	/*margin-right: 2em;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
 }
-.p,
-.note/*LLJ*/{
+div.transcription.style-mt-published .p {
 	display:inline-block;
 	text-indent:25px;
 	margin-top:0;
-	margin-bottom:0;	
+	margin-bottom:0;
 }
-.note/*LLJ*/{
-	margin-top:1.5em;
-	text-indent:0px !important;
+div.transcription.style-mt-published .note/*LLJ*/ {
+	display:inline-block;
+	text-indent:25px;
+	margin-top:0;
+	margin-bottom:0;
 	font-size:.9em;
+	line-height:1.4em;
 }
-.p.noindent{
+div.transcription.style-mt-published .note.no-indent/*LLJ*/ {
+	text-indent:0px !important;
+}
+div.transcription.style-mt-published .p.noindent {
 	text-indent:0 !important;
 }
-.p.center{
+div.transcription.style-mt-published .p.center {
 	text-indent:0 !important;
 }
-.p.right{
+div.transcription.style-mt-published .p.right {
 	text-indent:0 !important;
 }
-.ab{
+div.transcription.style-mt-published .ab {
 	padding-left: 0em;
 	text-indent: -1.5em;/*This and previous together create a hanging indent for LLJ*/
 	margin-left:2em;/*LLJ*/
 	margin-top:0;
-	margin-bottom:0;
+	margin-bottom:1em;
 	font-size:.9em;/*LLJ*/
 }
-.ab.center{
+div.transcription.style-mt-published .ab.center {
 }
-.head{
+div.transcription.style-mt-published .head {
 	font-weight:300;
 	text-align:center;/*LLJ*/
 	margin-bottom:0em;/*LLJ*/
 }
-.fw/*LLJ*/{
+div.transcription.style-mt-published .fw/*LLJ*/ {
 	font-size:.9em !important;
 	/*color:#706f6a;*/ /*Removed for full LJ*/
 }
-.fw.catch/*LLJ*/{
+div.transcription.style-mt-published .fw.catch/*LLJ*/ {
 	margin-top:-1em;
 	display:block;
 	/*color:purple;*/ /*Added for full LJ*/
 	padding-left: 2em; /*Added for full LJ*/
 	padding-right: 3em; /*Added for full LJ*/
 }
-.fw.catch.left/*LLJ*/{
+div.transcription.style-mt-published .fw.catch.left/*LLJ*/ {
 	text-indent:0;
 }
-.fw.catch.right/*LLJ*/{
+div.transcription.style-mt-published .fw.catch.right/*LLJ*/ {
 	text-indent:0;
 }
-.fw.inspace .right{
+div.transcription.style-mt-published .fw.inspace .right {
 	/*color:purple;*/ /*Added for full LJ*/
 }
-.fw.inspace .right{
+div.transcription.style-mt-published .fw.inspace .right {
 	padding-right: 3em; /*Added for full LJ*/
 }
-.fw.pageno/*LLJ*/{
+div.transcription.style-mt-published .fw.pageno/*LLJ*/ {
 	text-indent:0 !important;
 	display:block;
 	text-align:center;
 	margin-bottom:1em;
 }
-.p .fw.pageno/*LLJ*/{
+div.transcription.style-mt-published .p .fw.pageno/*LLJ*/ {
 	margin-bottom:1em;
 	display:block;
 	text-align:center;
@@ -376,36 +382,36 @@ p{
 
 /* 6. Additions and Deletions */
 
-.opener-add{
+div.transcription.style-mt-published .opener-add {
 }
-.addmargin{
+div.transcription.style-mt-published .addmargin {
 	text-indent:0px;
 }
-.del,
-.cancelled,
-.strikethrough,
-.overwritten{
+div.transcription.style-mt-published .del,
+div.transcription.style-mt-published .cancelled,
+div.transcription.style-mt-published .strikethrough,
+div.transcription.style-mt-published .overwritten {
 	text-decoration:line-through;
 }
-.del-by-over-text{
+div.transcription.style-mt-published .del-by-over-text {
 	color:#706f6a;
 	text-decoration:line-through;
 }
 
 
 /* 7. Unclear, gap, space */
-.unclear{
+div.transcription.style-mt-published .unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
 }
-.gap{
+div.transcription.style-mt-published .gap {
 	/*border-bottom:1px dotted black;*/
 }
-.space-other{
+div.transcription.style-mt-published .space-other {
 	border-bottom:1px dotted black;
 	display:block;
 }
-.verticalSpace{
+div.transcription.style-mt-published .verticalSpace {
 	display:inline-block;
 	border-bottom:1px dotted black;
 	text-indent:0;
@@ -415,90 +421,90 @@ p{
 
 /* 7. Editorial */
 
-.sic,
-.corr{
+div.transcription.style-mt-published .sic,
+div.transcription.style-mt-published .corr {
 	border-bottom:2px #B33B24 dotted
 }
-.orig,
-.reg{
+div.transcription.style-mt-published .orig,
+div.transcription.style-mt-published .reg {
 	/*border-bottom:1px green dotted*/
 }
-.abbr,
-.expan{
+div.transcription.style-mt-published .abbr,
+div.transcription.style-mt-published .expan {
 	border-bottom:1px green dotted
 }
-.expan{
+div.transcription.style-mt-published .expan {
 	display:none;
 }
-.hidden{
+div.transcription.style-mt-published .hidden {
 	display:none;
 }
-.rdg{
+div.transcription.style-mt-published .rdg {
 	display:block;
 }
 
 
 /* 8. @rend classes (except colors, lines, and up-down placement) */
 
-.caps{
+div.transcription.style-mt-published .caps {
 	font-variant:small-caps;
 }
-.center/*LLJ*/{
+div.transcription.style-mt-published .center/*LLJ*/ {
 	text-align:center;
 	display:block;
 	height:0;
 }
-.doubleunderline{
+div.transcription.style-mt-published .doubleunderline {
 	border-bottom:3px double;
 }
-.inline{
+div.transcription.style-mt-published .inline {
 	color:#706f6a;
 }
-.italic{
+div.transcription.style-mt-published .italic {
 	font-style:italic;
 }
-.large{
+div.transcription.style-mt-published .large {
 	font-size:120%;
 }
-.ab.center,
-.small.center,
-.large.center,
-.p.center{
+div.transcription.style-mt-published .ab.center,
+div.transcription.style-mt-published .small.center,
+div.transcription.style-mt-published .large.center,
+div.transcription.style-mt-published .p.center {
 	height:auto;
 }
-.left/*LLJ*/{
+div.transcription.style-mt-published .left/*LLJ*/ {
 	float:left;
 }
-.overline{
+div.transcription.style-mt-published .overline {
 	text-decoration: overline;
 }
-.overline.underline{
+div.transcription.style-mt-published .overline.underline {
 	text-decoration:overline underline;
 }
-.overtext{
+div.transcription.style-mt-published .overtext {
 	/*color:#706f6a;*/
 }
-.right/*LLJ*/{
+div.transcription.style-mt-published .right/*LLJ*/ {
 	text-indent:0;
 	float:right;
 }
-.small{
-	font-size:85%;
+div.transcription.style-mt-published .small {
+	font-size:.9em;
 }
-.smallcaps{
+div.transcription.style-mt-published .smallcaps {
     font-variant:small-caps;
 	text-transform:lowercase;
 }
-.underline{
+div.transcription.style-mt-published .underline {
 	text-decoration:underline;
 }
-.upsidedown{
+div.transcription.style-mt-published .upsidedown {
 	/*-ms-transform:rotate(180deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(180deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(180deg);*/ /* Safari and Chrome */
 	/*-o-transform:rotate(180deg);*/ /* Opera */
 }
-.vertical{
+div.transcription.style-mt-published .vertical {
 	/*-ms-transform:rotate(90deg);*/ /* IE 9 */
 	/*-moz-transform:rotate(90deg);*/ /* Firefox */
 	/*-webkit-transform:rotate(90deg);*/ /* Safari and Chrome */
@@ -507,12 +513,12 @@ p{
 
 /* 9. Page placement */
 
-.above,
-.below,
-.bottom,
-.sub,
-.sup,
-.top{
+div.transcription.style-mt-published .above,
+div.transcription.style-mt-published .below,
+div.transcription.style-mt-published .bottom,
+div.transcription.style-mt-published .sub,
+div.transcription.style-mt-published .sup,
+div.transcription.style-mt-published .top {
 	/* Specified in % so that the sup/sup is the
      right size relative to the surrounding text */
 	font-size:75%;
@@ -529,20 +535,20 @@ p{
      is already set and you can remove this rule */
 	vertical-align:baseline;
 }
-.above,
-.sup,
-.top{
+div.transcription.style-mt-published .above,
+div.transcription.style-mt-published .sup,
+div.transcription.style-mt-published .top {
 	/* Move the superscripted text up */
 	top:-0.5em;
 }
-.below,
-.bottom,
-.sub{
+div.transcription.style-mt-published .below,
+div.transcription.style-mt-published .bottom,
+div.transcription.style-mt-published .sub {
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */
 	bottom:-0.25em;
 }
-.margintop{
+div.transcription.style-mt-published .margintop {
 	margin-left:0;
 	color:#706f6a;
 	line-height:0;
@@ -550,141 +556,140 @@ p{
 	vertical-align:baseline;
 	top:-1em;
 }
-.margintop.left{
+div.transcription.style-mt-published .margintop.left {
 }
-.margintop.right{
+div.transcription.style-mt-published .margintop.right {
 }
-.true{
+div.transcription.style-mt-published .true {
 	display:inline-block;
 }/*Goes with standalone <note>s*/
 
 
 /* 10. Colors */
 
-.black{
+div.transcription.style-mt-published .black {
 	color:black;
 }
-.blue{
+div.transcription.style-mt-published .blue {
 	color:blue;
 }
-.brown{
+div.transcription.style-mt-published .brown {
 	color:brown;
 }
-.gray{
+div.transcription.style-mt-published .gray {
 	color:#706f6a;
 }
-.green{
+div.transcription.style-mt-published .green {
 	color:green;
 }
-.orange{
+div.transcription.style-mt-published .orange {
 	color:orange;
 }
-.purple{
+div.transcription.style-mt-published .purple {
 	color:purple;
 }
-.red{
+div.transcription.style-mt-published .red {
 	color:#B33B24;
 }
-.yellow{
+div.transcription.style-mt-published .yellow {
 	color:yellow;
 }
 
 
 /* 11. Lists and Tables */
-.list{
+div.transcription.style-mt-published .list {
 	display:block;
 	margin-top:12px;
 }
-table{
-	font-size:1em; /*85%;*//*Changed for 1870 Field Diary*/
-	border-style:none;
-	margin-right: 2em; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-	color:#58484b; /*Added color for 1870 Field Diary*/
+div.transcription.style-mt-published table {
+	font-size:.9em; /*85%;*//*Changed for 1870 Field Diary*/
+	border-style:none; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+	color:#46381e; /*Added color for 1870 Field Diary*/
 }
-tr,
-td{
+div.transcription.style-mt-published tr,
+div.transcription.style-mt-published td {
 	border-style:none;
 }
 
 
 /* 12. Misc */
 
-.date-red{/*Add for full LJ.*/
+div.transcription.style-mt-published .date-red {/*Add for full LJ.*/
 	display: none;
 	color:red;
 	font-style:normal;
 }
-.reduce{/*Fixes issues intro by milestone in LJs*/
+div.transcription.style-mt-published .reduce {/*Fixes issues intro by milestone in LJs*/
 	margin-bottom:-2em;
 }
 
-.figure{
+div.transcription.style-mt-published .figure {
 	margin-left:0;
 	color:#706f6a;
 	font-size:.8em;
 	border-bottom:1px #706f6a dotted;
 }
-.graphic.inline-left{	
+div.transcription.style-mt-published .graphic.inline-left {	
 	width:12em;
 	float:left;
 	margin: .5em 2.5em -1em -1.5em;
 }
-.graphic.inline-left-medium{	
+div.transcription.style-mt-published .graphic.inline-left-medium {	
 	width:10em;
 	float:left;
 	margin: .5em 2.5em -.5em -1.5em; /*-.5 deviation needed for LJ 1:72*/
 }
-.graphic.inline-left-small{	
+div.transcription.style-mt-published .graphic.inline-left-small {	
 	width:8em;
 	float:left;
 	margin: .5em 2.5em -1em -1.5em;
 }
-.graphic.inline-right{	
+div.transcription.style-mt-published .graphic.inline-right {	
 	width:12em;
 	float:right;
 	margin: .5em -.2em -1em .5em;
 }
-.graphic.inline-right-medium{	
+div.transcription.style-mt-published .graphic.inline-right-medium {	
 	width:10em;
 	float:right;
 	margin: .5em -.2em -1em .5em;
 }
-.graphic.inline-right-small{	
+div.transcription.style-mt-published .graphic.inline-right-small {	
 	width:8em;
 	float:right;
 	margin: .5em -.2em -1em .5em;
 }
-.p .graphic.inline-right,
-.p .graphic.inline-right-medium,
-.p .graphic.inline-right-small{
+div.transcription.style-mt-published .p .graphic.inline-right,
+div.transcription.style-mt-published .p .graphic.inline-right-medium,
+div.transcription.style-mt-published .p .graphic.inline-right-small {
 	text-indent:0;
 }
-.p .figure,
-.p.noindent .figure,
-.ab .figure{
+div.transcription.style-mt-published .p .figure,
+div.transcription.style-mt-published .p.noindent .figure,
+div.transcription.style-mt-published .ab .figure {
 	margin-left:0px !important;
 	text-indent:0px;
 }
-.p .figure.graphic{
+div.transcription.style-mt-published .p .figure.graphic {
 	text-indent:0px !important;/*LLLJ*/
 }
-.metamark{
+div.transcription.style-mt-published .metamark {
 	color:#706f6a;
 	border-bottom:1px #706f6a dotted;
 }
-p .metamark{
+div.transcription.style-mt-published p .metamark {
 	margin-left:0px !important;
 	text-indent:0px !important;
 }
 
-.foreign,
-.geogName,
-.persName,
-.orgName,
-.quote,
-.region,
-.settlement,
-.term-ailment,
-.term-tribe{
+div.transcription.style-mt-published .foreign,
+div.transcription.style-mt-published .geogName,
+div.transcription.style-mt-published .persName,
+div.transcription.style-mt-published .orgName,
+div.transcription.style-mt-published .quote,
+div.transcription.style-mt-published .region,
+div.transcription.style-mt-published .settlement,
+div.transcription.style-mt-published .term-ailment,
+div.transcription.style-mt-published .term-tribe {
 	border-bottom:2px #428bca dotted; /* change to 1px */
 }
