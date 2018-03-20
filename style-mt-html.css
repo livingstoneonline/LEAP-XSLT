@@ -107,7 +107,7 @@ div.transcription.style-mt-html .author {
 }
 div.transcription.style-mt-html .authority {
 	font-size:.9em;
-	line-height:1.7;
+	line-height:2em;
 }
 div.transcription.style-mt-html .pub-date {
 	font-size:.9em;
@@ -117,7 +117,7 @@ div.transcription.style-mt-html a:link {
 }
 div.transcription.style-mt-html .idno {
 	font-size:.9em;
-	line-height:1.7;
+	line-height:2em;
 }
 div.transcription.style-mt-html hr.title-section {
 	width:100%;
