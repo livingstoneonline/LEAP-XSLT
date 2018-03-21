@@ -490,6 +490,9 @@ div.transcription.style-omv .brown.black {
 div.transcription.style-omv .gray {
 	color:#706f6a;
 }
+div.transcription.style-omv .gray.black {
+	color:#3d4245;
+}
 div.transcription.style-omv .green {
 	color:green;
 }
