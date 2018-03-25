@@ -312,6 +312,7 @@ div.transcription.style-mt-published .p {
 	margin-bottom:0;
 }
 div.transcription.style-mt-published .p.noindent.center.small.other {
+	font-size:.85em;
 	padding-bottom:1em;
 }
 div.transcription.style-mt-published .note/*LLJ*/ {
