@@ -311,6 +311,9 @@ div.transcription.style-mt-published .p {
 	margin-top:0;
 	margin-bottom:0;
 }
+.p.noindent.center.small.other {
+	padding-bottom:1em;
+}
 div.transcription.style-mt-published .note/*LLJ*/ {
 	display:inline-block;
 	text-indent:25px;
