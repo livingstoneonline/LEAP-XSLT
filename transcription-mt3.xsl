@@ -1612,6 +1612,7 @@
 		<xsl:element name="span">
 			<xsl:attribute name="class" select="'dashed'"/>
 			<xsl:attribute name="title" select="$let-stand"/>
+			<xsl:comment>Comment needed to make this work.</xsl:comment>
 		</xsl:element>
 		<xsl:text>&#xA;</xsl:text>
 	</xsl:template>
@@ -1621,6 +1622,7 @@
 		<xsl:element name="span">
 			<xsl:attribute name="class" select="'dashed-gray'"/>
 			<xsl:attribute name="title" select="$let-stand"/>
+			<xsl:comment>Comment needed to make this work.</xsl:comment>
 		</xsl:element>
 		<xsl:text>&#xA;</xsl:text>
 	</xsl:template>
@@ -1630,6 +1632,7 @@
 		<xsl:element name="span">
 			<xsl:attribute name="class" select="'dashed-red'"/>
 			<xsl:attribute name="title" select="$let-stand"/>
+			<xsl:comment>Comment needed to make this work.</xsl:comment>
 		</xsl:element>
 		<xsl:text>&#xA;</xsl:text>
 	</xsl:template>
@@ -1684,7 +1687,7 @@
 	</xsl:template>
 
 	<!-- anchor: to work with metamark using @spanTo, @function 'let-stand'. -->
-	<!--<xsl:template match="anchor
+	<xsl:template match="anchor
 		[@xml:id]
 		[preceding::metamark[@function='let-stand']/@spanTo = concat('#', @xml:id)]" priority="10">
 		<xsl:variable name="id" select="@xml:id"/>
@@ -1694,8 +1697,8 @@
 				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'let-stand')]"><xsl:text>Editorial symbol used to indicate that a deleted word or phrase should be retained</xsl:text></xsl:when>
 			</xsl:choose>
 		</xsl:variable>
-		<span class="metamark {$metamark/@rend} {$metamark/@n}" title="{$metamarkText}"></span><xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text><xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>
-	</xsl:template>-->
+		<span class="metamark {$metamark/@rend} {$metamark/@n}" title="{$metamarkText}"><xsl:comment>Comment needed to make this work.</xsl:comment></span><!--<xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text><xsl:text disable-output-escaping="yes">&lt;/span&gt;</xsl:text>-->
+	</xsl:template>
 	
 	<!-- End of MT metamarks using @spanTo -->
 
