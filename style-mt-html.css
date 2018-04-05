@@ -782,20 +782,9 @@ div.transcription.style-mt-html .U5 {
 div.transcription.style-mt-html .dashed {
     border-bottom:2px dashed;
 }
-div.transcription.style-mt-html .dashed-red {
-    border-bottom:2px #B33B24 dashed;
-}
-div.transcription.style-mt-html .dashed-gray {
-    border-bottom:2px gray dashed;
-}
-div.transcription.style-mt-html .dashed-red .metamark {
-font-size:1em !important;
-}
-div.transcription.style-mt-html .dashed-gray .metamark {
-font-size:1em !important;
-}
-div.transcription.style-mt-html .dashed .metamark {
-font-size:1em !important;
+div.transcription.style-mt-html .dashed.red {
+    color:black;
+	border-bottom:2px #B33B24 dashed;
 }
 div.transcription.style-mt-html .metamark {
 	font-style:italic;
