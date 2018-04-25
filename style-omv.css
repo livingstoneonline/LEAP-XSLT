@@ -463,7 +463,7 @@ div.transcription.style-omv .bottom,
 div.transcription.style-omv .sub {
 	/* Move the subscripted text down, but only
      half as far down as the superscript moved up */
-	bottom:-0.25em;
+	bottom:-0.50em;
 }
 div.transcription.style-omv .true {
 	display:inline-block;
