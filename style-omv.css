@@ -456,7 +456,7 @@ div.transcription.style-omv .above,
 div.transcription.style-omv .sup,
 div.transcription.style-omv .top {
 	/* Move the superscripted text up */
-	top:-0.35em;
+	top:-0.75em;
 }
 div.transcription.style-omv .below,
 div.transcription.style-omv .bottom,
