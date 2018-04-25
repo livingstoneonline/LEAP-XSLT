@@ -544,8 +544,8 @@ div.transcription.style-omv p .metamark {
 	text-indent:0px;
 }
 div.transcription.style-omv .metamark {
-	color:#666666;
-	border-bottom:1px #666666 dotted;
+	/*color:#666666;
+	border-bottom:1px #666666 dotted;*/
 }
 div.transcription.style-omv .foreign,
 div.transcription.style-omv .geogName,
