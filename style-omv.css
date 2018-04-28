@@ -302,6 +302,9 @@ div.transcription.style-omv .ab {
 }
 div.transcription.style-omv .head {
 	font-weight:normal;
+	text-indent:0 !important;
+	text-align:center !important;
+	display:block;
 }
 div.transcription.style-omv .note {
 	display:inline;
