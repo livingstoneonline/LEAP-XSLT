@@ -1576,19 +1576,19 @@
 	<xsl:template match="metamark
 		[contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#9136;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle, or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>	
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'gray') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#9136;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle, or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'red') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#9136;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle, or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>
 	
 	<!-- @function let-stand -->
@@ -1664,7 +1664,7 @@
 		</xsl:variable>--> <!--  add {$meta-edits} to span class-->
 		<xsl:variable name="metamarkText">
 			<xsl:choose>
-				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'flag')]"><xsl:text>Editorial line, circle or bracket used to flag a portion of text</xsl:text></xsl:when>
+				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'flag')]"><xsl:text>Editorial line, circle, or bracket used to flag a portion of text</xsl:text></xsl:when>
 				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'reorder')]"><xsl:text>Editorial symbol used to transpose a portion of text from one place to another</xsl:text></xsl:when>
 			</xsl:choose>
 		</xsl:variable>
@@ -1937,17 +1937,17 @@
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#DL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text added in another colour, retraced in black by Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text added in another colour; retraced in black by Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#CL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text added in another colour, retraced by Charles Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text added in another colour; retraced by Charles Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#U5']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text added in another colour, retraced in brown by Livingstone's amanuensis.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text added in another colour; retraced in brown by Livingstone's amanuensis.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
