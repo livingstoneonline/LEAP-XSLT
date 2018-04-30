@@ -95,7 +95,7 @@
 				<xsl:value-of select="//teiHeader//sourceDesc/biblStruct [@type='journal']//imprint/biblScope[@unit='vol']"/>
 				<xsl:text> (</xsl:text>
 				<xsl:value-of select="//teiHeader//sourceDesc/biblStruct [@type='journal']//imprint/date"/>
-				<xsl:text>):</xsl:text>
+				<xsl:text>): </xsl:text>
 				<xsl:value-of select="//teiHeader//sourceDesc/biblStruct [@type='journal']//imprint/biblScope[@unit='pages']"/>
 				</span><br/>
 				<span class="project-id"><span class="bold">Digital edition and date:</span><xsl:text> </xsl:text> <a href="http://livingstoneonline.org/" target="_blank"><xsl:value-of select="//teiHeader//authority"/></a>, 2018</span><!--<xsl:text> </xsl:text><span class="pub-date"><xsl:value-of select="//teiHeader//publicationStmt/date"/></span>--><br/>
