@@ -394,7 +394,7 @@
 	<!-- For "body" see above -->
 
 	<xsl:template match="cb">
-		<span class="column-break">[column break]</span>
+		<xsl:text> </xsl:text><span class="column-break">[column break]<xsl:text> </xsl:text></span>
 		<xsl:apply-templates/>
 	</xsl:template>
 
