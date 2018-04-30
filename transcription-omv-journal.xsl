@@ -394,7 +394,6 @@
 	<!-- For "body" see above -->
 
 	<xsl:template match="cb">
-		<br/>
 		<xsl:apply-templates/>
 	</xsl:template>
 
