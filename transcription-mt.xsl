@@ -1484,13 +1484,13 @@
 	<!-- Metamarks alphabetized by @function -->
 
 	<xsl:template match="metamark[@function='close-space']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to indicate that the space between words should be reduced">︹<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to indicate that the space between words should be reduced">&#65081;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='deletion']" priority="10">
 		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to mark a deletion"
-			>&#x20B0;<xsl:text> </xsl:text>
+			>&#8368;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 	
@@ -1506,7 +1506,7 @@
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='insertion']" priority="10">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to mark an insertion from another place on the page">&#x21aa;<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to mark an insertion from another place on the page">&#8618;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 	
@@ -1517,7 +1517,7 @@
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='no-newParagraph']" priority="10">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to close the space between paragraphs">&#x285;<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to close the space between paragraphs">&#645;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 	
@@ -1576,19 +1576,19 @@
 	<xsl:template match="metamark
 		[contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>	
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'gray') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'red') and contains(@function, 'flag')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial line, circle or bracket used to flag a portion of text">&#9136;</span>
 	</xsl:template>
 	
 	<!-- @function let-stand -->
@@ -1635,19 +1635,19 @@
 	<xsl:template match="metamark
 		[contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="9">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#9136;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'gray') and contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#9136;</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark
 		[contains(@rend, 'red') and contains(@function, 'reorder')]
 		[substring-after(@spanTo, '#')= following::anchor/@xml:id]" priority="10">
-		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#x23b0;</span>
+		<span class="metamark {@rend} {@n}" title="Editorial symbol used to transpose a portion of text from one place to another">&#9136;</span>
 	</xsl:template>
 	
 	<!-- The following anchor templates adde for MT: to work with metamarks using @spanTo, @function 'flag' and 'reorder' -->
@@ -1668,7 +1668,7 @@
 				<xsl:when test="preceding::metamark[concat('#', $id)=@spanTo][1][contains(@function, 'reorder')]"><xsl:text>Editorial symbol used to transpose a portion of text from one place to another</xsl:text></xsl:when>
 			</xsl:choose>
 		</xsl:variable>
-		<span class="metamark {$metamark/@rend} {$metamark/@n} {$metamark}" title="{$metamarkText}">&#x23b1;</span>
+		<span class="metamark {$metamark/@rend} {$metamark/@n} {$metamark}" title="{$metamarkText}">&#9137;</span>
 	</xsl:template>
 
 	<!-- anchor: to work with metamark using @spanTo, @function 'let-stand'. -->
