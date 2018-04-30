@@ -274,7 +274,7 @@ div.transcription.style-omv .third-line {
 }
 
 
-/* 5. p, ab, head, note, fw */
+/* 5. p, ab, head, note, fw, column break */
 
 div.transcription.style-omv .p {
 	display:inline-block;
@@ -320,7 +320,10 @@ div.transcription.style-omv .fw.catch.right {
 	margin-left:14em;
 	text-indent:0;
 }
-
+div.transcription.style-omv .column-break {
+	color: gray;
+	font-size: .8em;
+}
 
 /* 6. del, unclear, gap, space */
 
