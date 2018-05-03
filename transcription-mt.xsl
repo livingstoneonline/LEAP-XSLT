@@ -1495,7 +1495,7 @@
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='dele-abbr']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial notation instructing that a portion of text should be deleted">
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial annotation instructing that a portion of text should be deleted">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1511,7 +1511,7 @@
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='newParagraph']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol used to indicate a new paragraph">
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial instruction to begin a new paragraph">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1526,12 +1526,12 @@
 		</span>
 	</xsl:template>
 	
-	<xsl:template match="metamark[@function='query']" priority="8"><span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial notation querying a portion of text"><xsl:apply-templates/>
+	<xsl:template match="metamark[@function='query']" priority="8"><span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial annotation querying a portion of text"><xsl:apply-templates/>
 	</span>
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='stet']" priority="8">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial notation instructing that a deleted portion of text should be retained"><xsl:apply-templates/>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial annotation instructing that a deleted portion of text should be retained"><xsl:apply-templates/>
 		</span>
 	</xsl:template>
 	
@@ -1937,17 +1937,17 @@
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#DL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text added in another colour; retraced in black by Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text retraced in black by David Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#CL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text added in another colour; retraced by Charles Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text retraced in dark gray by Charles Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#U5']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text added in another colour; retraced in brown by Livingstone's amanuensis.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text retraced in brown by Livingstone's amanuensis.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
