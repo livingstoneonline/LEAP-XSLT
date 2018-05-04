@@ -1561,7 +1561,7 @@
 	</xsl:template>
 	
 	<xsl:template match="metamark[@function='unknown']" priority="10">
-		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol with an unknown function">#<xsl:text> </xsl:text>
+		<span class="{concat(name(), ' ', @place, ' ', @rend, ' ', @resp, ' ', @function, ' ', @n)}" title="Editorial symbol with an unknown function">&#10023;<xsl:text> </xsl:text>
 		</span>
 	</xsl:template>
 
@@ -1952,17 +1952,17 @@
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#DL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text retraced in black by David Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'DL')}" title="Text retraced by David Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#CL']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text retraced in dark gray by Charles Livingstone.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', 'CL')}" title="Text retraced by Charles Livingstone.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 	
 	<xsl:template match="retrace[@hand='#U5']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text retraced in brown by Livingstone's amanuensis.">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@hand, '-', ''), ' ', 'U5')}" title="Text retraced by David Livingstone's amanuensis.">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
