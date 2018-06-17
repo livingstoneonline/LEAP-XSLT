@@ -310,7 +310,7 @@ div.transcription.style-omv .note {
 	display:inline;
 }
 div.transcription.style-omv .fw {
-	display:inline-block;
+	display:inline;
 }
 div.transcription.style-omv .fw.pageno {
 	text-indent:0 !important;
