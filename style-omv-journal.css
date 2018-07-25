@@ -170,6 +170,7 @@ div.transcription.style-omv .linenumber {
 	/*text-indent:9%;*/
 	font-size:.8em;
 	width:1em;
+	display:none;
 }
 div.transcription.style-omv p .linenumber {
 	text-indent:-1%;
