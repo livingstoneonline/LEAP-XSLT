@@ -40,7 +40,7 @@
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-omv-journal.css"/>
-				<!--<link rel="stylesheet" type="text/css" href="style-omv.css"/>-->
+				<!-- http://livingstoneonline.github.io/LEAP-XSLT/ -->
 				<title>
 					<xsl:value-of select="//teiHeader//title[2]"/>
 				</title>
@@ -80,7 +80,7 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<div class="transcription style-omv" style="background:#{$body-color};">
+		<div class="transcription style-omv-journal" style="background:#{$body-color};">
 
 			<div class="TEI" style="background:#{$body-color};">
 				<div class="item-details">
@@ -394,7 +394,6 @@
 	<!-- For "body" see above -->
 
 	<xsl:template match="cb">
-		<xsl:text> </xsl:text><span class="column-break">[column break]<xsl:text> </xsl:text></span>
 		<xsl:apply-templates/>
 	</xsl:template>
 
@@ -566,7 +565,7 @@
 	<!-- For "lb" see above -->
 
 	<xsl:template match="list">
-		<span class="list" title="list">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}" title="list">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -605,7 +604,7 @@
 	</xsl:template>
 
 	<xsl:template match="note">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}">[<xsl:apply-templates/>]</span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
