@@ -8,7 +8,7 @@ Table of Contents
 3. pb, lb, linenumber 
 4. Milestone and lines 
 5. p, ab, note, fw 
-6. del, unclear, gap, space 
+6. del, unclear, app, gap, space 
 7. Editorial 
 8. @rend classes (except lines, page placement, colors) 
 9. Page placement 
@@ -324,7 +324,7 @@ div.transcription.style-final-MS-bonus .fw.catch.right {
 }
 
 
-/* 6. del, unclear, gap, space */
+/* 6. del, unclear, app, gap, space */
 
 div.transcription.style-final-MS-bonus .del,
 div.transcription.style-final-MS-bonus .del-by-over-text {
@@ -338,6 +338,9 @@ div.transcription.style-final-MS-bonus .pb-del {
 div.transcription.style-final-MS-bonus .unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
+}
+div.transcription.style-final-MS-bonus .app {
+border-bottom: 1px dotted #706f6a;
 }
 div.transcription.style-final-MS-bonus .gap {
 	border-bottom:1px dotted black;

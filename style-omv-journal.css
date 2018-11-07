@@ -8,7 +8,7 @@ Table of Contents
 3. pb, lb, linenumber 
 4. Milestone and lines 
 5. p, ab, note, fw, column break, footnotes 
-6. del, unclear, gap, space 
+6. del, unclear, app, gap, space 
 7. Editorial 
 8. @rend classes (except lines, page placement, colors) 
 9. Page placement 
@@ -326,7 +326,7 @@ div.transcription.style-omv-journal .column-break {
 	font-size: .8em;
 }
 
-/* 6. del, unclear, gap, space */
+/* 6. del, unclear, app, gap, space */
 
 div.transcription.style-omv-journal .del,
 div.transcription.style-omv-journal .del-by-over-text {
@@ -340,6 +340,9 @@ div.transcription.style-omv-journal .pb-del {
 div.transcription.style-omv-journal .unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
+}
+div.transcription.style-omv-journal .app {
+border-bottom: 1px dotted #706f6a;
 }
 div.transcription.style-omv-journal .gap {
 	border-bottom:1px dotted black;

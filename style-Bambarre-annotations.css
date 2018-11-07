@@ -9,7 +9,7 @@ Table of Contents
 4. Milestone and lines 
 5. p, ab, note, fw 
 6. Additions and Deletions 
-7. Unclear, gap, space
+7. Unclear, app, gap, space
 8. Editorial 
 9. @rend classes (except lines, page placement, colors) 
 10. Page placement 
@@ -369,11 +369,14 @@ div.transcription.style-Bambarre-annotations .del-by-over-text {
 }
 
 
-/* 7. Unclear, gap, space */
+/* 7. Unclear, app, gap, space */
 
 div.transcription.style-Bambarre-annotations .unclear {
 	color:#706f6a;
 	border-bottom:1px dotted #706f6a;
+}
+div.transcription.style-Bambarre-annotations .app {
+border-bottom: 1px dotted #706f6a;
 }
 div.transcription.style-Bambarre-annotations .gap {
 	border-bottom:1px dotted black;
