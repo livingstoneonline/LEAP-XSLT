@@ -14,11 +14,12 @@
 				<authority>Livingstone Online</authority>
 				<publisher>University of Maryland Libraries</publisher>
 				<pubPlace>College Park, MD, USA</pubPlace>
-				<date>2017</date>
+				<date>2019</date>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
-						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
-						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c)
+						Livingstone Online. <ref
+							target="https://creativecommons.org/licenses/by-nc/3.0/">Creative
+							Commons Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -36,14 +37,15 @@
 				<place xml:id="geog0001" type="geogName_island">
 					<placeName type="main">Anjouan, Comoros</placeName>
 					<!-- Johanna -->
-					<note type="editorial">Also Johanna Island. Ten men from this island, hired with the assistance
-						of the island's British Consul, accompanied Livingstone on his last journey.</note>
+					<note type="editorial">Also Johanna Island. Ten men from this island, hired with
+						the assistance of the island's British Consul, accompanied Livingstone on
+						his last journey.</note>
 				</place>
 
 				<place xml:id="geog0058" type="geogName_valley">
 					<placeName type="main">Barotse Valley</placeName>
-					<note type="editorial">Livingstone’s name for the Zambezi Floodplain, in the Western Province
-						of present-day Zambia.</note>
+					<note type="editorial">Livingstone’s name for the Zambezi Floodplain, in the
+						Western Province of present-day Zambia.</note>
 				</place>
 
 				<place xml:id="geog0061" type="geogName_cape">
@@ -57,84 +59,93 @@
 				</place>
 
 				<place xml:id="geog0003" type="geogName_drainage">
-					<placeName type="main">Central line of drainage of the great Nile valley</placeName>
-					<note type="editorial">Livingstone incorrectly believed that the Nile originated in Lake
-						Bangweulu in present-day Zambia and was fed by a series of sources in present-day Democratic
-						Republic of the Congo.</note>
+					<placeName type="main">Central line of drainage of the great Nile
+						valley</placeName>
+					<note type="editorial">Livingstone incorrectly believed that the Nile originated
+						in Lake Bangweulu in present-day Zambia and was fed by a series of sources
+						in present-day Democratic Republic of the Congo.</note>
 				</place>
 
 				<place xml:id="geog0004" type="geogName_river">
 					<placeName type="main">Congo River</placeName>
-					<note type="editorial">Major river in Africa. On his last expedition, Livingstone investigated
-						diverse sections of the river in the mistaken hopes that they had some connection to the Nile
-						River system.</note>
+					<note type="editorial">Major river in Africa. On his last expedition,
+						Livingstone investigated diverse sections of the river in the mistaken hopes
+						that they had some connection to the Nile River system.</note>
 				</place>
 
 				<place xml:id="geog0005" type="geogName_hill">
 					<placeName type="main">Crophi</placeName>
-					<note type="editorial">With Mophi, one of two hills with conical tops that Herodotus, the
-						ancient Greek historian, placed in central Africa and cited as lying between the sources of
-						the Nile to the north and of the Zambezi to the south.</note>
+					<note type="editorial">With Mophi, one of two hills with conical tops that
+						Herodotus, the ancient Greek historian, placed in central Africa and cited
+						as lying between the sources of the Nile to the north and of the Zambezi to
+						the south.</note>
 				</place>
 
 				<place xml:id="geog0006" type="geogName_river">
 					<placeName type="main">Euphrates River</placeName>
-					<note type="editorial">River in Mesopotamia. One of four rivers said to flow from the Garden of
-						Eden.</note>
+					<note type="editorial">River in Mesopotamia. One of four rivers said to flow
+						from the Garden of Eden.</note>
 				</place>
 
 				<place xml:id="geog0007" type="geogName_source">
 					<placeName type="main">Fountain of the Lufira River</placeName>
 					<!-- Bartle Frere's fountain -->
-					<note type="editorial">Also called Bartle Frere's Fountain by Livingstone. The Lufira River is
-						tributary of the Lualaba River in present-day Democratic Republic of the Congo. Livingstone
-						believed that the Lufira united with the Lualaba River to form the fictitious Lake Kamolondo.
-						Livingstone placed the source of the Lufira River, which he incorrectly linked to the Nile,
-						three or four days' travel time south of the Katanga region (in the southern part of
-						present-day Democratic Republic of the Congo). Livingstone named the source after British
-						colonial administrator H. Bartle E. Frere (1815-1884).</note>
+					<note type="editorial">Also called Bartle Frere's Fountain by Livingstone. The
+						Lufira River is tributary of the Lualaba River in present-day Democratic
+						Republic of the Congo. Livingstone believed that the Lufira united with the
+						Lualaba River to form the fictitious Lake Kamolondo. Livingstone placed the
+						source of the Lufira River, which he incorrectly linked to the Nile, three
+						or four days' travel time south of the Katanga region (in the southern part
+						of present-day Democratic Republic of the Congo). Livingstone named the
+						source after British colonial administrator H. Bartle E. Frere
+						(1815-1884).</note>
 				</place>
 
 				<place xml:id="geog0008" type="geogName_source">
 					<placeName type="main">Fountain of the Lufira River</placeName>
-					<note type="editorial">The Lufira River is tributary of the Lualaba River in present-day
-						Democratic Republic of the Congo. Livingstone believed that the Lufira River united with the
-						Lualaba River to form the fictitious Lake Kamolondo. Livingstone placed the source of the
-						Lufira Rivers, which he incorrectly linked to the Nile, three or four days' travel time south
-						of the Katanga region (in the southern part of present-day Democratic Republic of the
-						Congo).</note>
+					<note type="editorial">The Lufira River is tributary of the Lualaba River in
+						present-day Democratic Republic of the Congo. Livingstone believed that the
+						Lufira River united with the Lualaba River to form the fictitious Lake
+						Kamolondo. Livingstone placed the source of the Lufira Rivers, which he
+						incorrectly linked to the Nile, three or four days' travel time south of the
+						Katanga region (in the southern part of present-day Democratic Republic of
+						the Congo).</note>
 				</place>
 
 				<place xml:id="geog0063" type="geogName_river">
 					<placeName type="main">Gaboon</placeName>
-					<note type="editorial">River and estuary. Located in the west of present-day Gabon.</note>
+					<note type="editorial">River and estuary. Located in the west of present-day
+						Gabon.</note>
 				</place>
 
 				<place xml:id="geog0009" type="geogName_river">
 					<placeName type="main">Ganges River</placeName>
-					<note type="editorial">One of four rivers said to flow from the Garden of Eden.</note>
+					<note type="editorial">One of four rivers said to flow from the Garden of
+						Eden.</note>
 				</place>
 
 				<place xml:id="geog0010" type="geogName_garden">
 					<placeName type="main">Garden of Eden</placeName>
-					<note type="editorial">Biblical garden of God described in the Book of Genesis.</note>
+					<note type="editorial">Biblical garden of God described in the Book of
+						Genesis.</note>
 				</place>
 
 				<place xml:id="geog0011" type="geogName_river">
 					<placeName type="main">Gihon River</placeName>
-					<note type="editorial">River said to flow out of the Garden of Eden in the Bible.</note>
+					<note type="editorial">River said to flow out of the Garden of Eden in the
+						Bible.</note>
 				</place>
 
 				<place xml:id="geog0012" type="geogName_mountain">
 					<placeName type="main">Hercynia</placeName>
-					<note type="editorial">Classical name for the stream issuing from the springs at Lebadea in
-						ancient Greece.</note>
+					<note type="editorial">Classical name for the stream issuing from the springs at
+						Lebadea in ancient Greece.</note>
 				</place>
 
 				<place xml:id="geog0013" type="geogName_river">
 					<placeName type="main">Hiddekel River</placeName>
-					<note type="editorial">Hebrew name for the Tigris River of Mesopotamia. One of four rivers said
-						to flow from the Garden of Eden.</note>
+					<note type="editorial">Hebrew name for the Tigris River of Mesopotamia. One of
+						four rivers said to flow from the Garden of Eden.</note>
 				</place>
 
 				<place xml:id="geog0014" type="geogName_river">
@@ -145,14 +156,14 @@
 				<place xml:id="geog0015" type="geogName_river">
 					<placeName type="main">Kafue River</placeName>
 					<!-- Luenge, Lunga -->
-					<note type="editorial">Also called Luenge and Lunga by Livingstone. Significant river in Zambia
-						and one of the main tributaries of the Zambezi River.</note>
+					<note type="editorial">Also called Luenge and Lunga by Livingstone. Significant
+						river in Zambia and one of the main tributaries of the Zambezi River.</note>
 				</place>
 
 				<place xml:id="geog0016" type="geogName_desert">
 					<placeName type="main">Kalahari Desert</placeName>
-					<note type="editorial">Large sandy savanna that encompasses parts of present-day Botswana,
-						Namibia, and South Africa.</note>
+					<note type="editorial">Large sandy savanna that encompasses parts of present-day
+						Botswana, Namibia, and South Africa.</note>
 				</place>
 
 				<place xml:id="geog0017" type="geogName_lake">
@@ -168,366 +179,399 @@
 				<place xml:id="geog0018" type="geogName_lake">
 					<placeName type="main">Lake Albert (Uganda)</placeName>
 					<!-- Albert Nyanza, Baker's Water/Lake, Uerere -->
-					<note type="editorial">Also called Albert Nyanza, Baker's Water or Lake, and Uerere by
-						Livingstone. In 1864, explorer and hunter Samuel W. Baker (1821-1893) became the first
-						European to visit the lake, which he named after Prince Albert, husband of Queen
-						Victoria.</note>
+					<note type="editorial">Also called Albert Nyanza, Baker's Water or Lake, and
+						Uerere by Livingstone. In 1864, explorer and hunter Samuel W. Baker
+						(1821-1893) became the first European to visit the lake, which he named
+						after Prince Albert, husband of Queen Victoria.</note>
 				</place>
 
 				<place xml:id="geog0019" type="geogName_lake">
 					<placeName type="main">Lake Albert (Uganda)</placeName>
 					<!-- Lower Tanganyika -->
-					<note type="editorial">Also called Lower Tanganyika by Livingstone. In 1864, explorer and
-						hunter Samuel W. Baker (1821-1893) became the first European to visit the lake, which he named
-						after Prince Albert, husband of Queen Victoria. At the time, Livingstone incorrectly believed
-						that this lake was part of Lake Tanganyika and that both were part of the Nile River system
+					<note type="editorial">Also called Lower Tanganyika by Livingstone. In 1864,
+						explorer and hunter Samuel W. Baker (1821-1893) became the first European to
+						visit the lake, which he named after Prince Albert, husband of Queen
+						Victoria. At the time, Livingstone incorrectly believed that this lake was
+						part of Lake Tanganyika and that both were part of the Nile River system
 						(only Lake Albert is).</note>
 				</place>
 
 				<place xml:id="geog0020" type="geogName_lake">
 					<placeName type="main">Lake Bangweulu (Zambia)</placeName>
 					<!-- Bangweolo -->
-					<note type="editorial">Also Bangweolo. Livingstone incorrectly believed that this lake was part
-						of the Nile River system. The lake is actually part of the Congo River system.</note>
+					<note type="editorial">Also Bangweolo. Livingstone incorrectly believed that
+						this lake was part of the Nile River system. The lake is actually part of
+						the Congo River system.</note>
 				</place>
 
 				<place xml:id="geog0021" type="geogName_lake">
 					<placeName type="main">Lake Chibungo</placeName>
 					<!-- Lake Lincoln -->
-					<note type="editorial">Also called Lake Lincoln by Livingstone. Fictitious lake created via the
-						union of the Lufira and Lomami/Lomani Rivers in what would have been present-day Democratic
-						Republic of the Congo. Livingstone named the lake after the American president Abraham Lincoln
-						(1809-1865).</note>
+					<note type="editorial">Also called Lake Lincoln by Livingstone. Fictitious lake
+						created via the union of the Lufira and Lomami/Lomani Rivers in what would
+						have been present-day Democratic Republic of the Congo. Livingstone named
+						the lake after the American president Abraham Lincoln (1809-1865).</note>
 				</place>
 
 				<place xml:id="geog0022" type="geogName_lake">
 					<placeName type="main">Lake Kamolondo</placeName>
 					<!-- Riverein Lake -->
-					<note type="editorial">Also called Riverein Lake by Livingstone. Livingstone believed that the
-						Lufira and Lualaba Rivers united to form this fictitious lake in what would have been
-						present-day Democratic Republic of the Congo.</note>
+					<note type="editorial">Also called Riverein Lake by Livingstone. Livingstone
+						believed that the Lufira and Lualaba Rivers united to form this fictitious
+						lake in what would have been present-day Democratic Republic of the
+						Congo.</note>
 				</place>
 
 				<place xml:id="geog0023" type="geogName_lake">
-					<placeName type="main">Lake Malawi (Malawi, Mozambique, and Tanzania)</placeName>
+					<placeName type="main">Lake Malawi (Malawi, Mozambique, and
+						Tanzania)</placeName>
 					<!-- Nyassa -->
-					<note type="editorial">Also Nyassa. Also known as Lake Nyasa (in Tanzania) and Lago Niassa (in
-						Mozambique). Although not the first European to do so, Livingstone visited this lake in 1859
-						and gave it the name Lake Nyassa.</note>
+					<note type="editorial">Also Nyassa. Also known as Lake Nyasa (in Tanzania) and
+						Lago Niassa (in Mozambique). Although not the first European to do so,
+						Livingstone visited this lake in 1859 and gave it the name Lake
+						Nyassa.</note>
 				</place>
 
 				<place xml:id="geog0024" type="geogName_lake">
-					<placeName type="main">Lake Mweru (Zambia and Democratic Republic of the Congo)</placeName>
+					<placeName type="main">Lake Mweru (Zambia and Democratic Republic of the
+						Congo)</placeName>
 					<!-- Lake Moero -->
-					<note type="editorial">Also Lake Moero. Livingstone incorrectly believed that this lake was
-						part of the Nile River system. The lake is actually part of the Congo River system.</note>
+					<note type="editorial">Also Lake Moero. Livingstone incorrectly believed that
+						this lake was part of the Nile River system. The lake is actually part of
+						the Congo River system.</note>
 				</place>
 
 				<place xml:id="geog0025" type="geogName_lake">
-					<placeName type="main">Lake Tanganyika (Tanzania, Democratic Republic of the Congo, Burundi,
-						and Zambia)</placeName>
-					<note type="editorial">When he wrote the 1870 Field Diary, Livingstone incorrectly believed
-						that this lake was part of the Nile River system. The lake is actually part of the Congo River
-						system.</note>
+					<placeName type="main">Lake Tanganyika (Tanzania, Democratic Republic of the
+						Congo, Burundi, and Zambia)</placeName>
+					<note type="editorial">When he wrote the 1870 Field Diary, Livingstone
+						incorrectly believed that this lake was part of the Nile River system. The
+						lake is actually part of the Congo River system.</note>
 				</place>
 
 				<place xml:id="geog0026" type="geogName_lake">
 					<!-- Lower and Upper Tanganyika -->
-					<placeName type="main">Lake Victoria (Tanzania, Uganda, and Kenya) and Lake Albert (Uganda),
-						respectively.</placeName>
-					<note type="editorial">Also called Lower and Upper Tanganyika, respectively, by Livingstone.
-						Livingstone incorrectly believed that these two distinct and unrelated lakes were in fact part
-						of one larger lake.</note>
+					<placeName type="main">Lake Victoria (Tanzania, Uganda, and Kenya) and Lake
+						Albert (Uganda), respectively.</placeName>
+					<note type="editorial">Also called Lower and Upper Tanganyika, respectively, by
+						Livingstone. Livingstone incorrectly believed that these two distinct and
+						unrelated lakes were in fact part of one larger lake.</note>
 				</place>
 
 				<place xml:id="geog0027" type="geogName_lake">
 					<!-- Upper Tanganyika, Victoria Nyanza, Nyanza -->
 					<placeName type="main">Lake Victoria (Tanzania, Uganda, and Kenya)</placeName>
-					<note type="editorial">Also called Upper Tanganyika, Victoria Nyanza, and Nyanza by
-						Livingstone. In 1858, explorer John H. Speke (1827-1864) became the first European to visit
-						the lake, which he named after Queen Victoria, and asserted correctly but without definitive
-						evidence to be the source of the Nile. Livingstone refused to recognize Speke's
-						assertion.</note>
+					<note type="editorial">Also called Upper Tanganyika, Victoria Nyanza, and Nyanza
+						by Livingstone. In 1858, explorer John H. Speke (1827-1864) became the first
+						European to visit the lake, which he named after Queen Victoria, and
+						asserted correctly but without definitive evidence to be the source of the
+						Nile. Livingstone refused to recognize Speke's assertion.</note>
 				</place>
 
 				<place xml:id="geog0028" type="geogName_river">
 					<placeName type="main">Lindi River</placeName>
-					<note type="editorial">Tributary of the Lualaba River in present-day Democratic Republic of the
-						Congo.</note>
+					<note type="editorial">Tributary of the Lualaba River in present-day Democratic
+						Republic of the Congo.</note>
 				</place>
 
 				<place xml:id="geog0029" type="geogName_river">
 					<placeName type="main">Lomami/Lomani River</placeName>
 					<!-- Lomame, Loeki, Lofubu, Lualaba West -->
-					<note type="editorial">Also called Lomame, Loeki, Lofubu, and Lualaba West by Livingstone.
-						Major river in present-day Democratic Republic of the Congo. Livingstone believed that the
-						Lomami/Lomani formed part of the Nile River system, but in fact the river joins the Lualaba
-						River to become the Congo River.</note>
+					<note type="editorial">Also called Lomame, Loeki, Lofubu, and Lualaba West by
+						Livingstone. Major river in present-day Democratic Republic of the Congo.
+						Livingstone believed that the Lomami/Lomani formed part of the Nile River
+						system, but in fact the river joins the Lualaba River to become the Congo
+						River.</note>
 				</place>
 
 				<place xml:id="geog0030" type="geogName_river">
 					<placeName type="main">Lomami/Lomani River</placeName>
 					<!-- Young's Lualaba, Young's River -->
-					<note type="editorial">Also called Young's Lualaba and Young's River by Livingstone. Major
-						river in present-day Democratic Republic of the Congo. Livingstone believed that the
-						Lomami/Lomani formed part of the Nile River system, but in fact the river joins the Lualaba
-						River to become the Congo River. Livingstone named the river after James Young (1811-1883), a
-						Scottish industrialist who later become one of Livingstone's trustees.</note>
+					<note type="editorial">Also called Young's Lualaba and Young's River by
+						Livingstone. Major river in present-day Democratic Republic of the Congo.
+						Livingstone believed that the Lomami/Lomani formed part of the Nile River
+						system, but in fact the river joins the Lualaba River to become the Congo
+						River. Livingstone named the river after James Young (1811-1883), a Scottish
+						industrialist who later become one of Livingstone's trustees.</note>
 				</place>
 
 				<place xml:id="geog0031" type="geogName_river">
 					<placeName type="main">Lomami/Lomani River</placeName>
 					<!-- Young's Lake River -->
-					<note type="editorial">Also called Young's Lake River by Livingstone. Major river in
-						present-day Democratic Republic of the Congo. Livingstone believed that the Lomami/Lomani
-						formed part of the Nile River system, but in fact the river joins the Lualaba River to become
-						the Congo River. Livingstone named the river after James Young (1811-1883), a Scottish
-						industrialist who later become one of Livingstone's trustees. Livingstone called it the "lake
-						river" because he believed that it flowed through the fictitious Lake Chibungo (renamed Lake
-						Lincoln by Livingstone).</note>
+					<note type="editorial">Also called Young's Lake River by Livingstone. Major
+						river in present-day Democratic Republic of the Congo. Livingstone believed
+						that the Lomami/Lomani formed part of the Nile River system, but in fact the
+						river joins the Lualaba River to become the Congo River. Livingstone named
+						the river after James Young (1811-1883), a Scottish industrialist who later
+						become one of Livingstone's trustees. Livingstone called it the "lake river"
+						because he believed that it flowed through the fictitious Lake Chibungo
+						(renamed Lake Lincoln by Livingstone).</note>
 				</place>
 
 				<place xml:id="geog0032" type="geogName_river">
 					<placeName type="main">Lualaba and Lomami/Lomani Rivers</placeName>
-					<note type="editorial">Major rivers in present-day Democratic Republic of the Congo.
-						Livingstone believed that these rivers formed part of the Nile River system, but in fact they
-						join to become the Congo River.</note>
+					<note type="editorial">Major rivers in present-day Democratic Republic of the
+						Congo. Livingstone believed that these rivers formed part of the Nile River
+						system, but in fact they join to become the Congo River.</note>
 				</place>
 
 				<place xml:id="geog0033" type="geogName_river">
 					<placeName type="main">Lualaba River</placeName>
 					<!-- Central Lualaba, Lualaba East, Lacustrine River  -->
-					<note type="editorial">Also called Central Lualaba, Lualaba East, and Lacustrine River by
-						Livingstone. Major river in present-day Democratic Republic of the Congo. Livingstone believed
-						that the Lualaba formed part of the Nile River system, but in fact the river joins the
-						Lomami/Lomani River to become the Congo River.</note>
+					<note type="editorial">Also called Central Lualaba, Lualaba East, and Lacustrine
+						River by Livingstone. Major river in present-day Democratic Republic of the
+						Congo. Livingstone believed that the Lualaba formed part of the Nile River
+						system, but in fact the river joins the Lomami/Lomani River to become the
+						Congo River.</note>
 				</place>
 
 				<place xml:id="geog0034" type="geogName_river">
 					<placeName type="main">Lualaba River</placeName>
 					<!-- Webb's Lualaba -->
-					<note type="editorial">Also called Webb's Lualaba by Livingstone. Major river in present-day
-						Democratic Republic of the Congo. Livingstone believed that the Lualaba formed part of the
-						Nile River system, but in fact the river joins the Lomami/Lomani River to become the Congo
-						River. Livingstone named the river after hunter William F. Webb (1829-1899).</note>
+					<note type="editorial">Also called Webb's Lualaba by Livingstone. Major river in
+						present-day Democratic Republic of the Congo. Livingstone believed that the
+						Lualaba formed part of the Nile River system, but in fact the river joins
+						the Lomami/Lomani River to become the Congo River. Livingstone named the
+						river after hunter William F. Webb (1829-1899).</note>
 				</place>
 
 				<place xml:id="geog0035" type="geogName_river">
 					<placeName type="main">Lualaba River</placeName>
 					<!-- Lake River Webb -->
-					<note type="editorial">Also called Lake River Webb by Livingstone. Major river in present-day
-						Democratic Republic of the Congo. Livingstone believed that the Lualaba formed part of the
-						Nile River system, but in fact the river joins the Lomami/Lomani River to become the Congo
-						River. Livingstone named the river after hunter William F. Webb (1829-1899). Livingstone
-						called it a "lake river" because he believed that it united with the Lufira River to form the
-						fictitious Lake Kamolondo.</note>
+					<note type="editorial">Also called Lake River Webb by Livingstone. Major river
+						in present-day Democratic Republic of the Congo. Livingstone believed that
+						the Lualaba formed part of the Nile River system, but in fact the river
+						joins the Lomami/Lomani River to become the Congo River. Livingstone named
+						the river after hunter William F. Webb (1829-1899). Livingstone called it a
+						"lake river" because he believed that it united with the Lufira River to
+						form the fictitious Lake Kamolondo.</note>
 				</place>
 
 				<place xml:id="geog0036" type="geogName_river">
 					<placeName type="main">Lualaba, Lomami/Lomani, and Lufira Rivers</placeName>
-					<note type="editorial">Rivers in present-day Democratic Republic of the Congo. Livingstone
-						believed that these rivers formed part of the Nile River system, but in fact the Lufira is a
-						tributary of the Lualaba and, in the turn, the Lualaba and the Lomami/Lomani unite to become
-						the Congo River.</note>
+					<note type="editorial">Rivers in present-day Democratic Republic of the Congo.
+						Livingstone believed that these rivers formed part of the Nile River system,
+						but in fact the Lufira is a tributary of the Lualaba and, in the turn, the
+						Lualaba and the Lomami/Lomani unite to become the Congo River.</note>
 				</place>
 
 				<place xml:id="geog0037" type="geogName_river">
 					<placeName type="main">Luapula River</placeName>
 					<!-- New Zambesi -->
-					<note type="editorial">Also called New Zambesi by Livingstone. River that links Lakes Mweru and
-						Bangweolo and that forms part of the border between present-day Zambia and the Democratic
-						Republic of the Congo. Portuguese explorers and travelers, "armchair geographer" William D.
-						Cooley (1795[?]-1883), and, initially, Livingstone all incorrectly believed that this river
-						was a tributary of the Zambezi River.</note>
+					<note type="editorial">Also called New Zambesi by Livingstone. River that links
+						Lakes Mweru and Bangweolo and that forms part of the border between
+						present-day Zambia and the Democratic Republic of the Congo. Portuguese
+						explorers and travelers, "armchair geographer" William D. Cooley
+						(1795[?]-1883), and, initially, Livingstone all incorrectly believed that
+						this river was a tributary of the Zambezi River.</note>
 				</place>
 
 				<place xml:id="geog0038" type="geogName_river">
 					<placeName type="main">Lufira River</placeName>
 					<!-- Bartle Frere's Lualaba -->
-					<note type="editorial">Also called Bartle Frere's Lualaba by Livingstone. Tributary of the
-						Lualaba River in present-day Democratic Republic of the Congo. Livingstone believed that the
-						Lufira united with the Lualaba River to form the fictitious Lake Kamolondo. Livingstone named
-						the source of the river after British colonial administrator H. Bartle E. Frere
+					<note type="editorial">Also called Bartle Frere's Lualaba by Livingstone.
+						Tributary of the Lualaba River in present-day Democratic Republic of the
+						Congo. Livingstone believed that the Lufira united with the Lualaba River to
+						form the fictitious Lake Kamolondo. Livingstone named the source of the
+						river after British colonial administrator H. Bartle E. Frere
 						(1815-1884).</note>
 				</place>
 
 				<place xml:id="geog0039" type="geogName_river">
 					<placeName type="main">Lufira River</placeName>
-					<note type="editorial">Tributary of the Lualaba River in present-day Democratic Republic of the
-						Congo. Livingstone believed that the Lufira united with the Lualaba River to form the
-						fictitious Lake Kamolondo.</note>
+					<note type="editorial">Tributary of the Lualaba River in present-day Democratic
+						Republic of the Congo. Livingstone believed that the Lufira united with the
+						Lualaba River to form the fictitious Lake Kamolondo.</note>
 				</place>
 
 				<place xml:id="geog0040" type="geogName_river">
 					<placeName type="main">Lukuga River</placeName>
 					<!-- Luamo -->
-					<note type="editorial">Also called Luamo by Livingstone. Principal outlet of Lake Tanganyika;
-						runs west from the lake through the eastern part of present-day Democratic Republic of Congo
-						and eventually joins the Lualaba River.</note>
+					<note type="editorial">Also called Luamo by Livingstone. Principal outlet of
+						Lake Tanganyika; runs west from the lake through the eastern part of
+						present-day Democratic Republic of Congo and eventually joins the Lualaba
+						River.</note>
 				</place>
 
 				<place xml:id="geog0041" type="geogName_forest">
 					<placeName type="main">Metamba</placeName>
 					<!-- Metambe -->
-					<note type="editorial">Also Metambe. Rainforest in the north-eastern part of present-day
-						Democratic Republic of the Congo that is home to the Lega people and that encompasses the
-						valleys of the middle and upper Elila and the upper Ulindi Rivers.</note>
+					<note type="editorial">Also Metambe. Rainforest in the north-eastern part of
+						present-day Democratic Republic of the Congo that is home to the Lega people
+						and that encompasses the valleys of the middle and upper Elila and the upper
+						Ulindi Rivers.</note>
 				</place>
 
 				<place xml:id="geog0042" type="geogName_hill">
 					<placeName type="main">Mophi</placeName>
-					<note type="editorial">With Crophi, one of two hills with conical tops that Herodotus, the
-						ancient Greek historian, placed in central Africa and cited as lying between the sources of
-						the Nile to the north and of the Zambezi to the south.</note>
+					<note type="editorial">With Crophi, one of two hills with conical tops that
+						Herodotus, the ancient Greek historian, placed in central Africa and cited
+						as lying between the sources of the Nile to the north and of the Zambezi to
+						the south.</note>
 				</place>
 
 				<place xml:id="geog0043" type="geogName_mountain">
 					<placeName type="main">Mount Kenya</placeName>
-					<note type="editorial">Second highest mountain in Africa (after Kilimanjaro), located in
-						present-day Kenya.</note>
+					<note type="editorial">Second highest mountain in Africa (after Kilimanjaro),
+						located in present-day Kenya.</note>
 				</place>
 
 				<place xml:id="geog0044" type="geogName_mountain">
 					<placeName type="main">Mount Kilimanjaro</placeName>
-					<note type="editorial">Highest mountain in Africa, located in present-day Tanzania.</note>
+					<note type="editorial">Highest mountain in Africa, located in present-day
+						Tanzania.</note>
 				</place>
 
 				<place xml:id="geog0045" type="geogName_river">
 					<placeName type="main">Nile River</placeName>
-					<note type="editorial">Major river in Africa and longest river in the world. The search for the
-						source(s) of the Nile motivated the African expeditions of a number of important Victorian
-						explorers, among them Richard Burton (1821-1890), John H. Speke (1827-1864), Samuel W. Baker
-						(1821-1893), Henry M. Stanley (1841-1904), and, of course, Livingstone himself.</note>
+					<note type="editorial">Major river in Africa and longest river in the world. The
+						search for the source(s) of the Nile motivated the African expeditions of a
+						number of important Victorian explorers, among them Richard Burton
+						(1821-1890), John H. Speke (1827-1864), Samuel W. Baker (1821-1893), Henry
+						M. Stanley (1841-1904), and, of course, Livingstone himself.</note>
 				</place>
 
 				<place xml:id="geog0046" type="geogName_valley">
 					<placeName type="main">Nile valley</placeName>
-					<note type="editorial">Region surrounding the northern part of the Nile River.</note>
+					<note type="editorial">Region surrounding the northern part of the Nile
+						River.</note>
 				</place>
 
 				<place xml:id="geog0047" type="geogName_river">
 					<placeName type="main">Pison</placeName>
-					<note type="editorial">One of four rivers said to flow from the Garden of Eden.</note>
+					<note type="editorial">One of four rivers said to flow from the Garden of
+						Eden.</note>
 				</place>
 
 				<place xml:id="geog0048" type="geogName_mountain">
 					<placeName type="main">Ptolemy's Mountains of the Moon</placeName>
-					<note type="editorial">Legendary African mountain range cited by Ptolemy (c.100-c.170), the
-						ancient geographer, as being located at the source of the Nile River.</note>
+					<note type="editorial">Legendary African mountain range cited by Ptolemy
+						(c.100-c.170), the ancient geographer, as being located at the source of the
+						Nile River.</note>
 				</place>
 
 				<place xml:id="geog0049" type="geogName_lake">
 					<placeName type="main">Riverine Lakes</placeName>
-					<note type="editorial">Set of central African lakes that, on Livingstone's understanding,
-						included the real Lakes Bangweulu, Tanganyika, Victoria, and Albert plus the fictitious Lakes
-						Chibungo (a.k.a. Lake Lincoln) and Kamolondo.</note>
+					<note type="editorial">Set of central African lakes that, on Livingstone's
+						understanding, included the real Lakes Bangweulu, Tanganyika, Victoria, and
+						Albert plus the fictitious Lakes Chibungo (a.k.a. Lake Lincoln) and
+						Kamolondo.</note>
 				</place>
 
 				<place xml:id="geog0064" type="geogName_river">
 					<placeName type="main">Ruvuma River</placeName>
 					<!--Rovuma River-->
-					<note type="editorial">Also Rovuma River. Significant river in east Africa that forms part of
-						the border between present-day Tanzania and Mozambique.</note>
+					<note type="editorial">Also Rovuma River. Significant river in east Africa that
+						forms part of the border between present-day Tanzania and Mozambique.</note>
 				</place>
 
 				<place xml:id="geog0050" type="geogName_river">
 					<placeName type="main">Shire River</placeName>
-					<note type="editorial">Major river in present-day Malawi that flows out of Lake Malawi and is a
-						tributary of the Zambezi River. Livingstone visited the river in 1859 during his second
-						expedition to Africa (1858-64).</note>
+					<note type="editorial">Major river in present-day Malawi that flows out of Lake
+						Malawi and is a tributary of the Zambezi River. Livingstone visited the
+						river in 1859 during his second expedition to Africa (1858-64).</note>
 				</place>
 
 				<place xml:id="geog0051" type="geogName_source">
 					<placeName type="main">Source of the Kafue River</placeName>
 					<!-- Oswell Fountain -->
-					<note type="editorial">Also called Oswell Fountain by Livingstone. Livingstone named the
-						source, which he located south of the Katanga region (in the southern part of present-day
-						Democratic Republic of the Congo) in what is now Zambia, after William C. Oswell (1818-1893),
-						an explorer and hunter, whom Livingstone met and travelled with in South Africa and who
-						remained Livingstone's close friend.</note>
+					<note type="editorial">Also called Oswell Fountain by Livingstone. Livingstone
+						named the source, which he located south of the Katanga region (in the
+						southern part of present-day Democratic Republic of the Congo) in what is
+						now Zambia, after William C. Oswell (1818-1893), an explorer and hunter,
+						whom Livingstone met and travelled with in South Africa and who remained
+						Livingstone's close friend.</note>
 				</place>
 
 				<place xml:id="geog0052" type="geogName_source">
 					<placeName type="main">Source of the Zambezi River</placeName>
 					<!-- Palmerston Fountain -->
-					<note type="editorial">Also called Palmerston Fountain by Livingstone. Livingstone named the
-						source, which he located south of the Katanga region (in the southern part of present-day
-						Democratic Republic of the Congo) in what is now Zambia, after Lord Palmerston (1784-1865), a
-						former British Minister, whose anti-slavery policies Livingstone admired.</note>
+					<note type="editorial">Also called Palmerston Fountain by Livingstone.
+						Livingstone named the source, which he located south of the Katanga region
+						(in the southern part of present-day Democratic Republic of the Congo) in
+						what is now Zambia, after Lord Palmerston (1784-1865), a former British
+						Minister, whose anti-slavery policies Livingstone admired.</note>
 				</place>
 
 				<place xml:id="geog0053" type="geogName_source">
 					<placeName type="main">Source(s) of the Nile River</placeName>
 					<!-- Fountains of the Nile, Fountains of the River of Egypt, Caput Nili, Katanga Head Waters -->
-					<note type="editorial">Also called Fountains of the Nile, Fountains of the River of Egypt,
-						Caput Nili, and Katanga Head Waters by Livingstone. The search for the source(s) of the Nile
-						motivated the African expeditions of a number of important Victorian explorers. Although John
-						H. Speke (1827-1864) visited and correctly claimed Lake Victoria as the principal source in
-						1858, many contemporaries doubted his claim, so the search continued. Livingstone, for
-						instance, believed that the sources lay much farther to the south in either present-day
-						Democratic Republic of the Congo or Zambia.</note>
+					<note type="editorial">Also called Fountains of the Nile, Fountains of the River
+						of Egypt, Caput Nili, and Katanga Head Waters by Livingstone. The search for
+						the source(s) of the Nile motivated the African expeditions of a number of
+						important Victorian explorers. Although John H. Speke (1827-1864) visited
+						and correctly claimed Lake Victoria as the principal source in 1858, many
+						contemporaries doubted his claim, so the search continued. Livingstone, for
+						instance, believed that the sources lay much farther to the south in either
+						present-day Democratic Republic of the Congo or Zambia.</note>
 				</place>
 
 				<place xml:id="geog0054" type="geogName_source">
-					<placeName type="main">Sources of the Lomami/Lomani and Lufira Rivers</placeName>
+					<placeName type="main">Sources of the Lomami/Lomani and Lufira
+						Rivers</placeName>
 					<!-- Young's and Bartle Frere's Fountains -->
-					<note type="editorial">Also called Young's and Bartle Frere's Fountains by Livingstone.
-						Livingstone placed the sources of the Lomami/Lomani and Lufira Rivers, both of which he
-						incorrectly linked to the Nile, three or four days' travel time south of Katanga (a region in
-						the southern part of present-day Democratic Republic of the Congo). He named the sources
-						after, respectively, James Young (1811-1883), a Scottish industrialist who later became one of
-						Livingstone's trustees, and British colonial administrator H. Bartle E. Frere
-						(1815-1884).</note>
+					<note type="editorial">Also called Young's and Bartle Frere's Fountains by
+						Livingstone. Livingstone placed the sources of the Lomami/Lomani and Lufira
+						Rivers, both of which he incorrectly linked to the Nile, three or four days'
+						travel time south of Katanga (a region in the southern part of present-day
+						Democratic Republic of the Congo). He named the sources after, respectively,
+						James Young (1811-1883), a Scottish industrialist who later became one of
+						Livingstone's trustees, and British colonial administrator H. Bartle E.
+						Frere (1815-1884).</note>
 				</place>
 
 				<place xml:id="geog0055" type="geogName_source">
 					<placeName type="main">Sources of the Zambezi and Kafue Rivers</placeName>
 					<!-- Fountains of the Liambai and Upper Zambesi/Lunga -->
-					<note type="editorial">Also called Fountains of the Liambai and Upper Zambesi or Lunga by
-						Livingstone. Livingstone placed the sources of the Zambezi (Liambai or Upper Zambesi) and
-						Kafue (Lunga) Rivers south of Katanga (a region in the southern part of present-day Democratic
-						Republic of the Congo) in what in now Zambia. </note>
+					<note type="editorial">Also called Fountains of the Liambai and Upper Zambesi or
+						Lunga by Livingstone. Livingstone placed the sources of the Zambezi (Liambai
+						or Upper Zambesi) and Kafue (Lunga) Rivers south of Katanga (a region in the
+						southern part of present-day Democratic Republic of the Congo) in what in
+						now Zambia. </note>
 				</place>
 
 				<place xml:id="geog0056" type="geogName_source">
 					<placeName type="main">Sources of the Zambezi and Kafue Rivers</placeName>
 					<!-- Palmerston's and Oswell's Fountains -->
-					<note type="editorial">Also called Palmerston's and Oswell's Fountains by Livingstone.
-						Livingstone named the sources of the Zambezi and Kafue Rivers, which he placed south of the
-						Katanga region (in the southern part of present-day Democratic Republic of the Congo) in what
-						is now Zambia, respectively, after Lord Palmerston (1784-1865), erstwhile British Minister,
-						whose anti-slavery policies Livingstone admired, and after William C. Oswell (1818-1893), an
-						explorer and hunter, whom Livingstone met and travelled with in South Africa and who remained
-						Livingstone's close friend.</note>
+					<note type="editorial">Also called Palmerston's and Oswell's Fountains by
+						Livingstone. Livingstone named the sources of the Zambezi and Kafue Rivers,
+						which he placed south of the Katanga region (in the southern part of
+						present-day Democratic Republic of the Congo) in what is now Zambia,
+						respectively, after Lord Palmerston (1784-1865), erstwhile British Minister,
+						whose anti-slavery policies Livingstone admired, and after William C. Oswell
+						(1818-1893), an explorer and hunter, whom Livingstone met and travelled with
+						in South Africa and who remained Livingstone's close friend.</note>
 				</place>
 
 				<place xml:id="geog0062" type="geogName_waterfall">
 					<placeName type="main">Victoria Falls</placeName>
-					<note type="editorial">Major waterfall on the Zambezi River, located on the border of
-						present-day Zambia and Zimbabwe. In 1855, David Livingstone became the first European to visit
-						to the waterfall, which he named after Queen Victoria.</note>
+					<note type="editorial">Major waterfall on the Zambezi River, located on the
+						border of present-day Zambia and Zimbabwe. In 1855, David Livingstone became
+						the first European to visit to the waterfall, which he named after Queen
+						Victoria.</note>
 				</place>
 
 				<place xml:id="geog0057" type="geogName_river">
 					<placeName type="main">White Nile</placeName>
-					<note type="editorial">The White Nile, which flows north from Lake Victoria, and the Blue Nile,
-						which flows west from Ethiopia, are the two main tributaries of the Nile River and join
-						together to form the main Nile River at present-day Khartoum, Sudan.</note>
+					<note type="editorial">The White Nile, which flows north from Lake Victoria, and
+						the Blue Nile, which flows west from Ethiopia, are the two main tributaries
+						of the Nile River and join together to form the main Nile River at
+						present-day Khartoum, Sudan.</note>
 				</place>
 
 				<place xml:id="geog0059" type="geogName_river">
 					<placeName type="main">Zambezi River</placeName>
 					<!-- Liambai, Upper Zambesi -->
-					<note type="editorial">Also called Liambai or Upper Zambesi by Livingstone. Major river in
-						south central Africa that rises in present-day Zambia, then flows east across the continent to
-						the Indian Ocean.</note>
+					<note type="editorial">Also called Liambai or Upper Zambesi by Livingstone.
+						Major river in south central Africa that rises in present-day Zambia, then
+						flows east across the continent to the Indian Ocean.</note>
 				</place>
 
 				<place xml:id="geog0060" type="geogName_island">
 					<placeName type="main">Zanzibar, Tanzania</placeName>
-					<note type="editorial">Island off the east coast of Africa. In the nineteenth century, the
-						center of east Africa's Arab-Indian-African trading network, a major international depot, and
-						the site of a notorious slave market.</note>
+					<note type="editorial">Island off the east coast of Africa. In the nineteenth
+						century, the center of east Africa's Arab-Indian-African trading network, a
+						major international depot, and the site of a notorious slave market.</note>
 				</place>
 
 
@@ -536,1147 +580,1225 @@
 				<!-- MT glossary entry -->
 				<place xml:id="geog0066" type="geogName_bay">
 					<placeName type="main">Algoa Bay</placeName>
-					<note type="editorial">A bay of the Indian Ocean in South Africa's Eastern Cape.</note>
+					<note type="editorial">A bay of the Indian Ocean in South Africa's Eastern
+						Cape.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0067" type="geogName_island">
 					<placeName type="main">Azores</placeName>
-					<note type="editorial">Archipelago of nine islands in the Atlantic Ocean, around 900 miles off
-						the west coast of Portugal.</note>
+					<note type="editorial">Archipelago of nine islands in the Atlantic Ocean, around
+						900 miles off the west coast of Portugal.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0068" type="geogName_hill">
 					<placeName type="main">Baramuana</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a hill in the vicinity of
-						Mount Morrumbala in central Mozambique.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a hill in
+						the vicinity of Mount Morrumbala in central Mozambique.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0069" type="geogName_valley">
 					<placeName type="main">Barotse Floodplain</placeName>
-					<note type="editorial">Also known as the Zambezi Floodplain and the Bulozi Plain. Called
-						Barotse Valley by Livingstone. Extensive wetlands region around the Zambezi River in the
-						Western Province of present-day Zambia.</note>
+					<note type="editorial">Also known as the Zambezi Floodplain and the Bulozi
+						Plain. Called Barotse Valley by Livingstone. Extensive wetlands region
+						around the Zambezi River in the Western Province of present-day
+						Zambia.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0070" type="geogName_river">
 					<placeName type="main">Bengo River</placeName>
-					<note type="editorial">Also called Senza by Livingstone. River in northern Angola that enters
-						the sea about ten miles above Luanda.</note>
+					<note type="editorial">Also called Senza by Livingstone. River in northern
+						Angola that enters the sea about ten miles above Luanda.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0071" type="geogName_plateau">
 					<placeName type="main">Bié Plateau</placeName>
-					<note type="editorial">Called Bihe by Livingstone. Large plateau in central Angola that covers
-						about one tenth of the country.</note>
+					<note type="editorial">Called Bihe by Livingstone. Large plateau in central
+						Angola that covers about one tenth of the country.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0072" type="geogName_spring">
 					<placeName type="main">Boatlaname</placeName>
-					<note type="editorial">Spring in present-day south-eastern Botswana, about seventy miles north
-						of Gaborone (Schapera 1961:169n2).</note>
+					<note type="editorial">Spring in present-day south-eastern Botswana, about
+						seventy miles north of Gaborone (Schapera 1961:169n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0073" type="geogName_cataracts">
 					<placeName type="main">Bombue Rapids</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, rapids on the Zambezi
-						River between Ngonye Falls in present-day Zambia's Western Province and Katima Mulilo in
-						present-day Namibia's Caprivi Strip.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, rapids on
+						the Zambezi River between Ngonye Falls in present-day Zambia's Western
+						Province and Katima Mulilo in present-day Namibia's Caprivi Strip.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0074" type="geogName_river">
 					<placeName type="main">Boteti River</placeName>
-					<note type="editorial">Called Zouga by Livingstone. River in present-day northern Botswana that
-						issues from the Thamalakane River just south of Maun and that forms part of the drainage
-						system of the Okavango Delta. In periods of high floods, the Boteti River flows south-east to
-						Lake Xau before continuing to the Makgadikgadi Pans (Hughes and Hughes 1992:607, 620).</note>
+					<note type="editorial">Called Zouga by Livingstone. River in present-day
+						northern Botswana that issues from the Thamalakane River just south of Maun
+						and that forms part of the drainage system of the Okavango Delta. In periods
+						of high floods, the Boteti River flows south-east to Lake Xau before
+						continuing to the Makgadikgadi Pans (Hughes and Hughes 1992:607,
+						620).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0075" type="geogName_rapids">
 					<placeName type="main">Cahora Bassa</placeName>
-					<note type="editorial">Called Kebrabasa by Livingstone. Rapids on the Zambezi River in
-						present-day western Mozambique. Livingstone bypassed these rapids during his transcontinental
-						expedition (1852-56), but during his later Zambezi Expedition (1858-64) he realised that they
-						were impassible and prevented the navigation of the river. The rapids were dammed in the 1970s
-						to form Lake Cahora Bassa which is used to generate hydroelectricity (Ross 2002:105).</note>
+					<note type="editorial">Called Kebrabasa by Livingstone. Rapids on the Zambezi
+						River in present-day western Mozambique. Livingstone bypassed these rapids
+						during his transcontinental expedition (1852-56), but during his later
+						Zambezi Expedition (1858-64) he realised that they were impassible and
+						prevented the navigation of the river. The rapids were dammed in the 1970s
+						to form Lake Cahora Bassa which is used to generate hydroelectricity (Ross
+						2002:105).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0076" type="geogName_stream">
 					<placeName type="main">Caloi</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a tributary of the Bengo
-						River.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a
+						tributary of the Bengo River.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0077" type="geogName_river">
 					<placeName type="main">Camaue River</placeName>
-					<note type="editorial">Also called Kamaue by Livingstone. Reference uncertain. According to
-						Livingstone, a stream in north-eastern Angola that flows into the Tshikapa River, which is in
-						turn a tributary of the Kasai River.</note>
+					<note type="editorial">Also called Kamaue by Livingstone. Reference uncertain.
+						According to Livingstone, a stream in north-eastern Angola that flows into
+						the Tshikapa River, which is in turn a tributary of the Kasai River.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0078" type="geogName_cape">
 					<placeName type="main">Cape of Good Hope</placeName>
-					<note type="editorial">Promontory on the southern tip of the Cape Peninsula in present-day
-						South Africa's Western Cape.</note>
+					<note type="editorial">Promontory on the southern tip of the Cape Peninsula in
+						present-day South Africa's Western Cape.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0079" type="geogName_island">
 					<placeName type="main">Ceylon</placeName>
-					<note type="editorial">British Colony in South Asia from 1796 until its independence in 1948.
-						It became known as Sri Lanka in 1972.</note>
+					<note type="editorial">British Colony in South Asia from 1796 until its
+						independence in 1948. It became known as Sri Lanka in 1972.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0080" type="geogName_river">
 					<placeName type="main">Chifumage River</placeName>
-					<note type="editorial">Called Chifumadze by Livingstone. River in eastern Angola that joins the
-						Zambezi River about thirty miles north of present-day Lumbala (Schapera 1963,1:78n4).</note>
+					<note type="editorial">Called Chifumadze by Livingstone. River in eastern Angola
+						that joins the Zambezi River about thirty miles north of present-day Lumbala
+						(Schapera 1963,1:78n4).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0081" type="geogName_hill">
 					<placeName type="main">Chisekesi</placeName>
-					<note type="editorial">Called Kisekise by Livingstone. Hill near the present-day settlement of
-						Chisekesi in Zambia's Southern Province (Schapera 1963,2:350n2).</note>
+					<note type="editorial">Called Kisekise by Livingstone. Hill near the present-day
+						settlement of Chisekesi in Zambia's Southern Province (Schapera
+						1963,2:350n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0082" type="geogName_river">
 					<placeName type="main">Chiumbe River</placeName>
-					<note type="editorial">Called Chihombo by Livingstone. River in eastern Angola that joins the
-						Luemba River about twenty miles north of the Angolan border in the south-western part of
-						present-day Democratic Republic of the Congo (Schapera 1963,1:108n2).</note>
+					<note type="editorial">Called Chihombo by Livingstone. River in eastern Angola
+						that joins the Luemba River about twenty miles north of the Angolan border
+						in the south-western part of present-day Democratic Republic of the Congo
+						(Schapera 1963,1:108n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0083" type="geogName_rivulet">
 					<placeName type="main">Chiume River</placeName>
-					<note type="editorial">Called Chihune by Livingstone. River in eastern Angola which flows into
-						the Chiumbe River near present-day Dala (Schapera 1963,1:106n1).</note>
+					<note type="editorial">Called Chihune by Livingstone. River in eastern Angola
+						which flows into the Chiumbe River near present-day Dala (Schapera
+						1963,1:106n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0084" type="geogName_river">
 					<placeName type="main">Chobe River</placeName>
-					<note type="editorial">River that marks the border between present-day Botswana and Namibia's
-						Caprivi Strip, and that flows into the Zambezi River at Kazungala (at the quadripoint boundary
-						between Botswana, Namibia, Zambia and Zimbabwe). The river rises in central Angola as the
-						Cuando River before becoming the Linyanti River and then, from Lake Liambezi (in Namibia), the
+					<note type="editorial">River that marks the border between present-day Botswana
+						and Namibia's Caprivi Strip, and that flows into the Zambezi River at
+						Kazungala (at the quadripoint boundary between Botswana, Namibia, Zambia,
+						and Zimbabwe). The river rises in central Angola as the Cuando River before
+						becoming the Linyanti River and then, from Lake Liambezi (in Namibia), the
 						Chobe River (Augustyn et al. 1998a).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0085" type="geogName_pan">
 					<placeName type="main">Chuantsa</placeName>
-					<note type="editorial">Reference uncertain. Possibly Nkokwane Pan, just south of Ntwetwe Pan
-						and about ten miles north-east of present-day Orapa in north-eastern Botswana.</note>
+					<note type="editorial">Reference uncertain. Possibly Nkokwane Pan, just south of
+						Ntwetwe Pan and about ten miles north-east of present-day Orapa in
+						north-eastern Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0086" type="geogName_pan">
 					<placeName type="main">Chukutsa Pan</placeName>
-					<note type="editorial">Called Nchokotsa by Livingstone. Pan or depression to the south of
-						Ntwetwe Pan and in the immediate vicinity of Ryasana Pan, in present-day north-eastern
-						Botswana (Schapera 1960a:6n2, Ransford 1978:49).</note>
+					<note type="editorial">Called Nchokotsa by Livingstone. Pan or depression to the
+						south of Ntwetwe Pan and in the immediate vicinity of Ryasana Pan, in
+						present-day north-eastern Botswana (Schapera 1960a:6n2, Ransford
+						1978:49).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0087" type="geogName_island">
 					<placeName type="main">Chundu</placeName>
-					<note type="editorial">Called Chondo by Livingstone. Island in the middle of the Zambezi River,
-						on the boundary between present-day south-western Zambia and north-western Zimbabwe. It is
-						about fifteen miles upstream from Victoria Falls (Schapera 1963,2:325n5).</note>
+					<note type="editorial">Called Chondo by Livingstone. Island in the middle of the
+						Zambezi River, on the boundary between present-day south-western Zambia and
+						north-western Zimbabwe. It is about fifteen miles upstream from Victoria
+						Falls (Schapera 1963,2:325n5).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0088" type="geogName_river">
 					<placeName type="main">Congo River</placeName>
-					<note type="editorial">Formerly known as the Zaire River. Also called Zerézeré by Livingstone.
-						Major river in Africa and the second longest on the continent after the Nile River. It rises
-						in present-day north-eastern Zambia and flows in an arc to the west coast, entering the
-						Atlantic Ocean at Banana in Democratic Republic of the Congo. During his final journey
-						(1866-73), Livingstone explored parts of the Congo River system while under the misconception
-						that it connected to the Nile.</note>
+					<note type="editorial">Formerly known as the Zaire River. Also called Zerézeré
+						by Livingstone. Major river in Africa and the second longest on the
+						continent after the Nile River. It rises in present-day north-eastern Zambia
+						and flows in an arc to the west coast, entering the Atlantic Ocean at Banana
+						in Democratic Republic of the Congo. During his final journey (1866-73),
+						Livingstone explored parts of the Congo River system while under the
+						misconception that it connected to the Nile.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0089" type="geogName_river">
 					<placeName type="main">Cuacua River</placeName>
-					<note type="editorial">Also known as Rio dos Bons Sinais. Called Kilimane by Livingstone. River
-						in Mozambique that enters the sea near the port city, Quelimane.</note>
+					<note type="editorial">Also known as Rio dos Bons Sinais. Called Kilimane by
+						Livingstone. River in Mozambique that enters the sea near the port city,
+						Quelimane.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0090" type="geogName_river">
 					<placeName type="main">Cuanza River</placeName>
-					<note type="editorial">Called Coanza by Livingstone. Major river in Angola that rises on the
-						Bié Plateau and flows to the west, entering the Atlantic about thirty miles south of
-						Luanda.</note>
+					<note type="editorial">Called Coanza by Livingstone. Major river in Angola that
+						rises on the Bié Plateau and flows to the west, entering the Atlantic about
+						thirty miles south of Luanda.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0091" type="geogName_river">
 					<placeName type="main">Cuije River</placeName>
-					<note type="editorial">Called Quize by Livingstone. River of north-western Angola and tributary
-						of the Cuanza River, which it joins near present-day Cangandala in Malanje Province (Schapera
-						1963,1:133n1).</note>
+					<note type="editorial">Called Quize by Livingstone. River of north-western
+						Angola and tributary of the Cuanza River, which it joins near present-day
+						Cangandala in Malanje Province (Schapera 1963,1:133n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0092" type="geogName_river">
 					<placeName type="main">Dande River</placeName>
-					<note type="editorial">River in northern Angola, that enters the Atlantic about twenty-five
-						miles above Luanda at Barro do Dande.</note>
+					<note type="editorial">River in northern Angola, that enters the Atlantic about
+						twenty-five miles above Luanda at Barro do Dande.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0093" type="geogName_river">
 					<placeName type="main">Danube River</placeName>
-					<note type="editorial">Second longest river in Europe (after the Volga), rising in western
-						Germany and flowing to the Black Sea.</note>
+					<note type="editorial">Second longest river in Europe (after the Volga), rising
+						in western Germany and flowing to the Black Sea.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0094" type="geogName_cave">
 					<placeName type="main">Fingal's Cave</placeName>
-					<note type="editorial">Sea cave on the south-west coast of Staffa, one of the islands of the
-						Inner Hebrides. The cave is notable for the hexagonal basalt columns that surround it.</note>
+					<note type="editorial">Sea cave on the south-west coast of Staffa, one of the
+						islands of the Inner Hebrides. The cave is notable for the hexagonal basalt
+						columns that surround it.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0095" type="geogName_hill">
 					<placeName type="main">Goha Hills</placeName>
-					<note type="editorial">Called Ngwa by Livingstone. Hills in the Savuti region of present-day
-						northern Botswana.</note>
+					<note type="editorial">Called Ngwa by Livingstone. Hills in the Savuti region of
+						present-day northern Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0096" type="geogName_bay">
 					<placeName type="main">Guanabara Bay</placeName>
-					<note type="editorial">Called Bay of Rio de Janeiro by Livingstone. A bay of the South Atlantic
-						Ocean in south-eastern Brazil. The city of Rio de Janeiro is located on the bay's western
-						shore.</note>
+					<note type="editorial">Called Bay of Rio de Janeiro by Livingstone. A bay of the
+						South Atlantic Ocean in south-eastern Brazil. The city of Rio de Janeiro is
+						located on the bay's western shore.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0097" type="geogName_island">
 					<placeName type="main">Impalila Island</placeName>
-					<note type="editorial">Called Mparia by Livingstone. Island at the confluence of the Chobe and
-						Zambezi Rivers in present-day Namibia's Caprivi Strip (Schapera 1963,2:325n3).</note>
+					<note type="editorial">Called Mparia by Livingstone. Island at the confluence of
+						the Chobe and Zambezi rivers in present-day Namibia's Caprivi Strip
+						(Schapera 1963,2:325n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0098" type="geogName_island">
 					<placeName type="main">Isle of Dogs</placeName>
-					<note type="editorial">Area of east London consisting of Millwall, Cubitt Town, and Canary
-						Wharf that is surrounded on three sides by the River Thames.</note>
+					<note type="editorial">Area of east London consisting of Millwall, Cubitt Town,
+						and Canary Wharf that is surrounded on three sides by the River
+						Thames.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0099" type="geogName_river">
 					<placeName type="main">Kabompo River</placeName>
-					<note type="editorial">River in south-central Africa and a major tributary of the Zambezi
-						River. It rises in present-day Zambia's North Western Province and flows south and west to
-						enter the Zambezi River about fifteen miles north of Lukulu in Western Province. Livingstone
-						sometimes mistakenly refers to the Kabompo River as the Leeambye (another name for the Zambezi
-						River), since he incorrectly believed the Kabompo to be the main stream of the Zambezi rather
-						than a tributary (Schapera 1963,1:27n3).</note>
+					<note type="editorial">River in south-central Africa and a major tributary of
+						the Zambezi River. It rises in present-day Zambia's North Western Province
+						and flows south and west to enter the Zambezi River about fifteen miles
+						north of Lukulu in Western Province. Livingstone sometimes mistakenly refers
+						to the Kabompo River as the Leeambye (another name for the Zambezi River),
+						since he incorrectly believed the Kabompo to be the main stream of the
+						Zambezi rather than a tributary (Schapera 1963,1:27n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0100" type="geogName_river">
 					<placeName type="main">Kafue River</placeName>
-					<note type="editorial">River in present-day Zambia and a major tributary of the Zambezi River.
-						It rises in North Western Province near the border with present-day Democratic Republic of the
-						Congo and winds southwards to join the Zambezi River several miles above Chirundu on the
-						Zimbabwean border.</note>
+					<note type="editorial">River in present-day Zambia and a major tributary of the
+						Zambezi River. It rises in North Western Province near the border with
+						present-day Democratic Republic of the Congo and winds southwards to join
+						the Zambezi River several miles above Chirundu on the Zimbabwean
+						border.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0101" type="geogName_desert">
 					<placeName type="main">Kalahari Desert</placeName>
-					<note type="editorial">Large sandy plain in southern Africa, covering much of present-day
-						Botswana, the eastern part of Namibia, and the northern part of South Africa's Northern Cape.
-						Livingstone first crossed the Kalahari to reach Lake Ngami in 1849.</note>
+					<note type="editorial">Large sandy plain in southern Africa, covering much of
+						present-day Botswana, the eastern part of Namibia, and the northern part of
+						South Africa's Northern Cape. Livingstone first crossed the Kalahari to
+						reach Lake Ngami in 1849.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0102" type="geogName_island">
 					<placeName type="main">Kalai Island</placeName>
-					<note type="editorial">Island on the Zambezi River, about six miles upstream from Victoria
-						Falls.</note>
+					<note type="editorial">Island on the Zambezi River, about six miles upstream
+						from Victoria Falls.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0103" type="geogName_cataracts">
 					<placeName type="main">Kale Rapids</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, rapids on the Zambezi
-						River between Ngonye Falls in present-day Zambia's Western Province and Katima Mulilo in
-						present-day Namibia's Caprivi Strip.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, rapids on
+						the Zambezi River between Ngonye Falls in present-day Zambia's Western
+						Province and Katima Mulilo in present-day Namibia's Caprivi Strip.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0104" type="geogName_river">
 					<placeName type="main">Kalomo River</placeName>
-					<note type="editorial">Tributary of the Zambezi River, which it joins in present-day Zambia's
-						Southern Province about thirty-five miles downstream from Victoria Falls.</note>
+					<note type="editorial">Tributary of the Zambezi River, which it joins in
+						present-day Zambia's Southern Province about thirty-five miles downstream
+						from Victoria Falls.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0105" type="geogName_rivulet">
 					<placeName type="main">Kaluze River</placeName>
-					<note type="editorial">Reference uncertain. Schapera suggests this is the Calozi River, which
-						he identifies as a tributary that joins the Kasai River about forty miles south-east of Dala
-						in present-day Lunda Sul Province in eastern Angola (Schapera 1963,1:101n2).</note>
+					<note type="editorial">Reference uncertain. Schapera suggests this is the Calozi
+						River, which he identifies as a tributary that joins the Kasai River about
+						forty miles south-east of Dala in present-day Lunda Sul Province in eastern
+						Angola (Schapera 1963,1:101n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0106" type="geogName_valley">
 					<placeName type="main">Kandehy</placeName>
-					<note type="editorial">Reference uncertain. A valley probably in the vinicity of present-day
-						Kasinka in northern Botswana's Chobe District (Schapera 1960a:111n1).</note>
+					<note type="editorial">Reference uncertain. A valley probably in the vinicity of
+						present-day Kasinka in northern Botswana's Chobe District (Schapera
+						1960a:111n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0107" type="geogName_river">
 					<placeName type="main">Kanesi River</placeName>
-					<note type="editorial">Reference uncertain. Possibly the Tchinege River, which flows into the
-						Chiumbe River in eastern Angola's present-day Lunda Sul Province (Schapera
-						1963,2:241n2).</note>
+					<note type="editorial">Reference uncertain. Possibly the Tchinege River, which
+						flows into the Chiumbe River in eastern Angola's present-day Lunda Sul
+						Province (Schapera 1963,2:241n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0108" type="geogName_river">
 					<placeName type="main">Kaongeshi River</placeName>
-					<note type="editorial">Also known as the Lueta River. Called Caunguesi by Livingstone.
-						Tributary of the Kasai River in the southern part of present-day Democratic Republic of the
-						Congo (Schapera 1963,2:245n3).</note>
+					<note type="editorial">Also known as the Lueta River. Called Caunguesi by
+						Livingstone. Tributary of the Kasai River in the southern part of
+						present-day Democratic Republic of the Congo (Schapera 1963,2:245n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0109" type="geogName_river">
 					<placeName type="main">Kasai River</placeName>
-					<note type="editorial">Also called Casai and Loke by Livingstone. River in central Africa and a
-						major tributary of the Congo River, that forms part of the border between present-day Angola
-						and Democratic Republic of the Congo. The Kasai River rises in Angola on the Bié Plateau and
-						flows into the Congo River at Kwamouth in the western part of Democratic Republic of the
+					<note type="editorial">Also called Casai and Loke by Livingstone. River in
+						central Africa and a major tributary of the Congo River, that forms part of
+						the border between present-day Angola and Democratic Republic of the Congo.
+						The Kasai River rises in Angola on the Bié Plateau and flows into the Congo
+						River at Kwamouth in the western part of Democratic Republic of the
 						Congo.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0110" type="geogName_mountain">
 					<placeName type="main">Kasala</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a mountain in the
-						vicinity of Cassange in north-central Angola's present-day Lunda Norte Province.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a mountain
+						in the vicinity of Cassange in north-central Angola's present-day Lunda
+						Norte Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0111" type="geogName_pan">
 					<placeName type="main">Khama-Khama Pan</placeName>
-					<note type="editorial">Called Kama Kama by Livingstone. Pan or depression in present-day
-						north-eastern Botswana. On one of Livingstone's visits there in March 1853, it was the home of
-						members of the Khoisan led by Horoye and Mokantsa (Schapera 1960a:102).</note>
+					<note type="editorial">Called Kama Kama by Livingstone. Pan or depression in
+						present-day north-eastern Botswana. On one of Livingstone's visits there in
+						March 1853, it was the home of members of the Khoesan led by Horoye and
+						Mokantsa (Schapera 1960a:102).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0112" type="geogName_river">
 					<placeName type="main">Kolobeng River</placeName>
-					<note type="editorial">River in present-day south-eastern Botswana. Livingstone built his third
-						mission station near this river in 1847, just west of present-day Gaborone.</note>
+					<note type="editorial">River in present-day south-eastern Botswana. Livingstone
+						built his third mission station near this river in 1847, just west of
+						present-day Gaborone.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0113" type="geogName_spring">
 					<placeName type="main">Koobe</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a spring on the
-						south-western edge of Ntwetwe Pan in present-day north-eastern Botswana.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a spring
+						on the south-western edge of Ntwetwe Pan in present-day north-eastern
+						Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0114" type="geogName_stream">
 					<placeName type="main">Kopong</placeName>
-					<note type="editorial">Called Khopong by Livingstone. River crossing the northward road from
-						Kolobeng, about seventeen miles north of present-day Molepole in Botswana. Today, there is a
-						village of this name about ten miles north of Gaborone (Schapera 1960a:3n3).</note>
+					<note type="editorial">Called Khopong by Livingstone. River crossing the
+						northward road from Kolobeng, about seventeen miles north of present-day
+						Molepole in Botswana. Today, there is a village of this name about ten miles
+						north of Gaborone (Schapera 1960a:3n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0115" type="geogName_mountain">
 					<placeName type="main">Koue Bokkeveld Mountains</placeName>
-					<note type="editorial">Called Bokkefelt by Livingstone. Mountain range in present-day South
-						Africa's Western Cape.</note>
+					<note type="editorial">Called Bokkefelt by Livingstone. Mountain range in
+						present-day South Africa's Western Cape.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0116" type="geogName_river">
 					<placeName type="main">Kuruman River</placeName>
-					<note type="editorial">River in present-day South Africa's Northern Cape that is now mostly
-						dry. Robert and Mary Moffat, Livingstone's parents-in-law, established the Kuruman mission
-						station near this river in the 1820s.</note>
+					<note type="editorial">River in present-day South Africa's Northern Cape that is
+						now mostly dry. Robert and Mary Moffat, Livingstone's parents-in-law,
+						established the Kuruman mission station near this river in the 1820s.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0117" type="geogName_river">
 					<placeName type="main">Kwango River</placeName>
-					<note type="editorial">Called Quango by Livingstone. Major river of central Africa that rises
-						in central Angola and flows into the Kasai River near the present-day city of Bandundu in the
-						western part of Democratic Republic of the Congo (Kisangani 2016:365).</note>
+					<note type="editorial">Also known as Cuango River. Called Quango by Livingstone.
+						Major river of central Africa that rises in central Angola and flows into
+						the Kasai River near the present-day city of Bandundu in the western part of
+						Democratic Republic of the Congo (Kisangani 2016:365).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0118" type="geogName_river">
 					<placeName type="main">Kwilu River</placeName>
-					<note type="editorial">Called Quilo and Kweelo by Livingstone. Major river that rises in Angola
-						and flows north into the western part of present-day Democratic Republic of the Congo. It
-						joins the Kwango River near the city of Bandundu, shortly before the Kwango flows into the
-						Kasai River (Kisangani 2016:366).</note>
+					<note type="editorial">Called Quilo and Kweelo by Livingstone. Major river that
+						rises in Angola and flows north into the western part of present-day
+						Democratic Republic of the Congo. It joins the Kwango (or Cuango) River near
+						the city of Bandundu, shortly before the Kwango flows into the Kasai River
+						(Kisangani 2016:366).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0119" type="geogName_lake">
 					<placeName type="main">Lake Dilolo</placeName>
-					<note type="editorial">Lake in present-day Moxico Province in eastern Angola.</note>
+					<note type="editorial">Lake in present-day Moxico Province in eastern
+						Angola.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0120" type="geogName_lake">
 					<placeName type="main">Lake Malawi</placeName>
-					<note type="editorial">Also known as Lake Nyasa (in Tanzania) and Lago Niassa (in Mozambique).
-						Called Lake Nyassa by Livingstone. Third largest lake in east Africa, lying between Malawi,
-						Mozambique, and Tanzania. Livingstone reached this lake in 1859 during his second major
-						African expedition (1858-64).</note>
+					<note type="editorial">Also known as Lake Nyasa (in Tanzania) and Lago Niassa
+						(in Mozambique). Called Lake Nyassa by Livingstone. Third largest lake in
+						east Africa, lying between Malawi, Mozambique, and Tanzania. Livingstone
+						reached this lake in 1859 during his second major African expedition
+						(1858-64).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0121" type="geogName_lake">
 					<placeName type="main">Lake Ngami</placeName>
-					<note type="editorial">Shallow lake in present-day north-western Botswana. It is north of the
-						Kalahari Desert and at the south-western end of the Okavango Delta. Livingstone first reached
-						this lake in 1849 with William Cotton Oswell.</note>
+					<note type="editorial">Shallow lake in present-day north-western Botswana. It is
+						north of the Kalahari Desert and at the south-western end of the Okavango
+						Delta. Livingstone first reached this lake in 1849 with William Cotton
+						Oswell.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0122" type="geogName_lake">
 					<placeName type="main">Lake Tanganyika</placeName>
-					<note type="editorial">Called Lake Tanganyenka by Livingstone. Second largest lake in east
-						Africa. It lies mainly between present-day Tanzania and Democratic Republic of the Congo,
-						while also entering Burundi and Zambia.</note>
+					<note type="editorial">Called Lake Tanganyenka by Livingstone. Second largest
+						lake in east Africa. It lies mainly between present-day Tanzania and
+						Democratic Republic of the Congo, while also entering Burundi and
+						Zambia.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0123" type="geogName_lake">
 					<placeName type="main">Lake Xau</placeName>
-					<note type="editorial">Also known as Lake Dow. Called Kumadau by Livingstone. Intermittent lake
-						in present-day north-central Botswana, about forty-five miles west of Orapa. The lake is
-						usually dry but is sometimes fed by the Boteti River (Hughes and Hughes 1992:625).</note>
+					<note type="editorial">Also known as Lake Dow. Called Kumadau by Livingstone.
+						Intermittent lake in present-day north-central Botswana, about forty-five
+						miles west of Orapa. The lake is usually dry but is sometimes fed by the
+						Boteti River (Hughes and Hughes 1992:625).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0124" type="geogName_headland">
 					<placeName type="main">Land's End</placeName>
-					<note type="editorial">Peninsula in Cornwall and the most westerly point of mainland
-						England.</note>
+					<note type="editorial">Peninsula in Cornwall and the most westerly point of
+						mainland England.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0125" type="geogName_river">
 					<placeName type="main">Lekone River</placeName>
-					<note type="editorial">Reference uncertain. Schapera suggests this is the Lukuni River, which
-						he identifies as a feeder of the Sinde, a river that in turn flows into the Zambezi River just
-						west of present-day Livingstone in Zambia's Southern Province (Schapera 1963,2:333n2).</note>
+					<note type="editorial">Reference uncertain. Schapera suggests this is the Lukuni
+						River, which he identifies as a feeder of the Sinde, a river that in turn
+						flows into the Zambezi River just west of present-day Livingstone in
+						Zambia's Southern Province (Schapera 1963,2:333n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0126" type="geogName_spring">
 					<placeName type="main">Lephephe</placeName>
-					<note type="editorial">Called Lopepe by Livingstone. Spring about fifteen miles north of
-						Boatlanama and about forty-five miles south-west of the Ngwato capital, Shoshong, in
-						present-day east-central Botswana (Schapera 1959, 2:64n22).</note>
+					<note type="editorial">Called Lopepe by Livingstone. Spring about fifteen miles
+						north of Boatlanama and about forty-five miles south-west of the BaNgwato
+						capital, Shoshong, in present-day east-central Botswana (Schapera 1959,
+						2:64n22).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0127" type="geogName_river">
 					<placeName type="main">Liambezi Lake</placeName>
-					<note type="editorial">Called Zabesa or Zabenza by Livingstone. Shallow lake in present-day
-						Namibia's Caprivi Strip near the border with Botswana formed by the broadening of the Chobe
-						River (Schapera 1963,1:1n3; Hughes and Hughes 1992:696).</note>
+					<note type="editorial">Called Zabesa or Zabenza by Livingstone. Shallow lake in
+						present-day Namibia's Caprivi Strip near the border with Botswana formed by
+						the broadening of the Chobe River (Schapera 1963,1:1n3; Hughes and Hughes
+						1992:696).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0128" type="geogName_mountain">
 					<placeName type="main">Libolo</placeName>
-					<note type="editorial">Called Libollo by Livingstone. Highland region in north-western Angola's
-						present-day Cuanza Sul Province.</note>
+					<note type="editorial">Called Libollo by Livingstone. Highland region in
+						north-western Angola's present-day Cuanza Sul Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0129" type="geogName_river">
 					<placeName type="main">Likuáre River</placeName>
-					<note type="editorial">Reference uncertain. According to Livingtone, a feeder of the Cuacua
-						River (or Rio dos Bons Sinais) in Mozambique.</note>
+					<note type="editorial">Reference uncertain. According to Livingtone, a feeder of
+						the Cuacua River (or Rio dos Bons Sinais) in Mozambique.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0130" type="geogName_river">
 					<placeName type="main">Limpopo River</placeName>
-					<note type="editorial">River of south-eastern Africa that rises in the Witswaterand in
-						present-day South Africa and flows to the Indian Ocean.</note>
+					<note type="editorial">River of south-eastern Africa that rises in the
+						Witswaterand in present-day South Africa and flows to the Indian
+						Ocean.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0131" type="geogName_river">
 					<placeName type="main">Livoa River</placeName>
-					<note type="editorial">Reference uncertain. Schapera suggests this is a tributary of the
-						Luambo, a river that runs into the Chifumage River, which in turn joins the Zambezi River in
-						present-day eastern Angola (Schapera 1963,1:78n2).</note>
+					<note type="editorial">Reference uncertain. Schapera suggests this is a
+						tributary of the Luambo, a river that runs into the Chifumage River, which
+						in turn joins the Zambezi River in present-day eastern Angola (Schapera
+						1963,1:78n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0132" type="geogName_spring">
 					<placeName type="main">Lobotani</placeName>
-					<note type="editorial">Spring about fifty miles west of the Ngwato capital, Shoshong, in
-						present-day east-central Botswana (Schapera 1960a:4n4)</note>
+					<note type="editorial">Spring about fifty miles west of the BaNgwato capital,
+						Shoshong, in present-day east-central Botswana (Schapera 1960a:4n4)</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0133" type="geogName_river">
 					<placeName type="main">Lokalueje River</placeName>
-					<note type="editorial">Also called Kalueje by Livingstone. Reference uncertain. Schapera
-						suggests this is the Luambo, a river that runs into the Chifumage River, which is a tributary
-						of the Zambezi River in present-day eastern Angola (Schapera 1963,1:74n1;
-						1963,2:262n3).</note>
+					<note type="editorial">Also called Kalueje by Livingstone. Reference uncertain.
+						Schapera suggests this is the Luambo, a river that runs into the Chifumage
+						River, which is a tributary of the Zambezi River in present-day eastern
+						Angola (Schapera 1963,1:74n1; 1963,2:262n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0134" type="geogName_river">
 					<placeName type="main">Lombe River</placeName>
-					<note type="editorial">River in north-western Angola and a tributary of the Cuanza River, which
-						it joins about twenty miles west of present-day Cangandala (Schapera 1963,1:134n2).</note>
+					<note type="editorial">River in north-western Angola and a tributary of the
+						Cuanza River, which it joins about twenty miles west of present-day
+						Cangandala (Schapera 1963,1:134n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0135" type="geogName_island">
 					<placeName type="main">Loyela</placeName>
-					<note type="editorial">Island on the Zambezi River in present-day Zambia's Western Province,
-						about eight miles south-west of Namushakende.</note>
+					<note type="editorial">Island on the Zambezi River in present-day Zambia's
+						Western Province, about eight miles south-west of Namushakende.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0136" type="geogName_rivulet">
 					<placeName type="main">Lozeze River</placeName>
-					<note type="editorial">Reference uncertain. Schapera suggests this is the Luicheze River, which
-						he identifies as a tributary joining the Kasai River in north-eastern Angola's present-day
-						Lunda Sul Province (Schapera 1963,1:101n1).</note>
+					<note type="editorial">Reference uncertain. Schapera suggests this is the
+						Luicheze River, which he identifies as a tributary joining the Kasai River
+						in north-eastern Angola's present-day Lunda Sul Province (Schapera
+						1963,1:101n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0137" type="geogName_river">
 					<placeName type="main">Luachimo River</placeName>
-					<note type="editorial">Called Loajima by Livingstone. River rising in Angola and a major
-						tribuary of the Kasai River, which it joins near the present-day city of Tshikapa in
-						Democratic Republic of the Congo (Schapera 1963,1:112n1).</note>
+					<note type="editorial">Called Loajima by Livingstone. River rising in Angola and
+						a major tribuary of the Kasai River, which it joins near the present-day
+						city of Tshikapa in Democratic Republic of the Congo (Schapera
+						1963,1:112n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0138" type="geogName_river">
 					<placeName type="main">Lualua River</placeName>
-					<note type="editorial">Called Luare by Livingstone. Tributary of the Cuacua River, which it
-						joins in east-central Mozambique (Schapera 1963,2:471n3).</note>
+					<note type="editorial">Called Luare by Livingstone. Tributary of the Cuacua
+						River, which it joins in east-central Mozambique (Schapera
+						1963,2:471n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0139" type="geogName_river">
 					<placeName type="main">Luangue River</placeName>
-					<note type="editorial">Also known as the Loange River. River rising in Angola and a tributary
-						of the Kasai River, which it joins about fifteen miles upstream of present-day Dibaya-Lubwe in
-						south-western Democratic Republic of Congo (Schapera 1963,1:227n1).</note>
+					<note type="editorial">Also known as the Loange River. River rising in Angola
+						and a tributary of the Kasai River, which it joins about fifteen miles
+						upstream of present-day Dibaya-Lubwe in south-western Democratic Republic of
+						Congo (Schapera 1963,1:227n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0140" type="geogName_river">
 					<placeName type="main">Luangwa River</placeName>
-					<note type="editorial">Called Loangwa by Livingstone. River in present-day Zambia and a major
-						tributary of the Zambezi River. It rises near Isoka and flows southwards to enter the Zambezi
-						River between Luangwa (Zambia) and Zombo (Mozambique).</note>
+					<note type="editorial">Called Loangwa by Livingstone. River in present-day
+						Zambia and a major tributary of the Zambezi River. It rises near Isoka and
+						flows southwards to enter the Zambezi River between Luangwa (Zambia) and
+						Zombo (Mozambique).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0141" type="geogName_river">
 					<placeName type="main">Luare River</placeName>
-					<note type="editorial">Reference uncertain. Schapera suggests this is a feeder of the Lui River
-						in northern Angola (Schapera 1963,1:131n3).</note>
+					<note type="editorial">Reference uncertain. Schapera suggests this is a feeder
+						of the Lui River in northern Angola (Schapera 1963,1:131n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0142" type="geogName_river">
 					<placeName type="main">Lubilash River</placeName>
-					<note type="editorial">Also known as the Sankuru River in its lower course. River in the
-						southern part of present-day Democratic Republic of the Congo and the primary tributary of the
-						Kasai River, which it joins near Bena-Bendi.</note>
+					<note type="editorial">Also known as the Sankuru River in its lower course.
+						River in the southern part of present-day Democratic Republic of the Congo
+						and the primary tributary of the Kasai River, which it joins near
+						Bena-Bendi.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0143" type="geogName_river">
 					<placeName type="main">Lucala River</placeName>
-					<note type="editorial">Called Lucalla by Livingstone. River in north-western Angola and a major
-						tributary of the Cuanza River, which it joins near present-day Massangano in Cuanze Norte
-						Province (Newitt 2010:142n4).</note>
+					<note type="editorial">Called Lucalla by Livingstone. River in north-western
+						Angola and a major tributary of the Cuanza River, which it joins near
+						present-day Massangano in Cuanze Norte Province (Newitt 2010:142n4).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0144" type="geogName_river">
 					<placeName type="main">Luembe</placeName>
-					<note type="editorial">Called Loembwe by Livingstone. River rising in Angola and a tributary of
-						the Kasai River, which it joins about twenty-five miles upstream of present-day Tshikapa in
-						south-western Democratic Republic of the Congo (Schapera 1963,1:108n2).</note>
+					<note type="editorial">Called Loembwe by Livingstone. River rising in Angola and
+						a tributary of the Kasai River, which it joins about twenty-five miles
+						upstream of present-day Tshikapa in south-western Democratic Republic of the
+						Congo (Schapera 1963,1:108n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0145" type="geogName_river">
 					<placeName type="main">Lufige River</placeName>
-					<note type="editorial">Called Lefuje by Livingstone. River in eastern Angola that joins the
-						Zambezi River in present-day Moxico Province, about ten miles north of the Zambian border
-						(Schapera 1963,1:47n1).</note>
+					<note type="editorial">Called Lefuje by Livingstone. River in eastern Angola
+						that joins the Zambezi River in present-day Moxico Province, about ten miles
+						north of the Zambian border (Schapera 1963,1:47n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0146" type="geogName_river">
 					<placeName type="main">Lui River</placeName>
-					<note type="editorial">River in northern Angola and a tributary of the Kwango River, which it
-						joins near present-day Milando in Lunda Norte Province (Schapera 1963,1:131n3).</note>
+					<note type="editorial">River in northern Angola and a tributary of the Kwango
+						(or Cuango) River, which it joins near present-day Milando in Lunda Norte
+						Province (Schapera 1963,1:131n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0147" type="geogName_river">
 					<placeName type="main">Luinha River</placeName>
-					<note type="editorial">River in present-day Cuanza Norte Province in north-western
-						Angola.</note>
-				</place>
-
-				<!-- MT glossary entry -->
-				<place xml:id="geog0148" type="geogName_river">
-					<placeName type="main">Lulua River</placeName>
-					<note type="editorial">Called Lolua by Livingstone. River in the southern part of present-day
-						Democratic Republic of the Congo and a tributary of the Kasai River, which it joins near Bena
-						Makima.</note>
+					<note type="editorial">River in present-day Cuanza Norte Province in
+						north-western Angola.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0149" type="geogName_river">
 					<placeName type="main">Lulua River</placeName>
-					<note type="editorial">Also called Lolo by Livingstone. River in present-day Democratic
-						Republic of the Congo. While Livingstone says this river flows southwards, it actually flows
-						northwards to enter the Kasai River near Bena Makima (Schapera 1963,1:87n2).</note>
+					<note type="editorial">Also called Lolo and Lolua by Livingstone. River in
+						present-day Democratic Republic of the Congo. While Livingstone says this
+						river flows southwards, it actually flows northwards to enter the Kasai
+						River near Bena Makima (Schapera 1963,1:87n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0150" type="geogName_river">
 					<placeName type="main">Lunache River</placeName>
-					<note type="editorial">Called Lonatje by Livingstone. River in eastern Angola and tributary of
-						the Zambezi River, which it joins about twenty miles south-west of present-day Cazombo in
-						Moxico Province (Schapera 1963,1:66n4).</note>
+					<note type="editorial">Called Lonatje by Livingstone. River in eastern Angola
+						and tributary of the Zambezi River, which it joins about twenty miles
+						south-west of present-day Cazombo in Moxico Province (Schapera
+						1963,1:66n4).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0151" type="geogName_river">
 					<placeName type="main">Lungwebungu River</placeName>
-					<note type="editorial">Called Loeti and Langebongo by Livingstone. River in south-west-central
-						Africa and the largest tributary of the Zambezi River. It rises in central Angola, flowing
-						east and south-east to join the Zambezi River about six miles north of present-day Lukulu in
-						Zambia's Western Province (Schapera 1963,1:1n4).</note>
+					<note type="editorial">Called Loeti and Langebongo by Livingstone. River in
+						south-west-central Africa and the largest tributary of the Zambezi River. It
+						rises in central Angola, flowing east and south-east to join the Zambezi
+						River about six miles north of present-day Lukulu in Zambia's Western
+						Province (Schapera 1963,1:1n4).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0152" type="geogName_river">
 					<placeName type="main">Lunkuni</placeName>
-					<note type="editorial">Called Longkonye by Livingstone. River in present-day north-western
-						Zambia that joins the Zambezi River near the Angolan border, about seven miles north-west of
-						Chinyingi in North-Western Province (Schapera 1963,1:37n2).</note>
+					<note type="editorial">Called Longkonye by Livingstone. River in present-day
+						north-western Zambia that joins the Zambezi River near the Angolan border,
+						about seven miles north-west of Chinyingi in North-Western Province
+						(Schapera 1963,1:37n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0153" type="geogName_pan">
 					<placeName type="main">Lurilopepe</placeName>
-					<note type="editorial">Reference uncertain. Indentifed by Livingstone as a pan or depression in
-						the immediate vicinity of Khama Khama Pan in present-day north-eastern Botswana. In his
-						journals, Livingstone uses the names Liuli Lipepe and Lurilophepe for the same place (Schapera
-						1960a:11, 102).</note>
+					<note type="editorial">Reference uncertain. Indentifed by Livingstone as a pan
+						or depression in the immediate vicinity of Khama Khama Pan in present-day
+						north-eastern Botswana. In his journals, Livingstone uses the names Liuli
+						Lipepe and Lurilophepe for the same place (Schapera 1960a:11, 102).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0154" type="geogName_river">
 					<placeName type="main">Lutembo River</placeName>
-					<note type="editorial">Called Lotembwa by Livingstone. River in eastern Angola and tributary of
-						the Chifumage River, which it joins about forty-five miles west of present-day Cazombo in
-						Moxico Province (Schapera 1963,1:81n3).</note>
+					<note type="editorial">Called Lotembwa by Livingstone. River in eastern Angola
+						and tributary of the Chifumage River, which it joins about forty-five miles
+						west of present-day Cazombo in Moxico Province (Schapera
+						1963,1:81n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0155" type="geogName_rivulet">
 					<placeName type="main">Lutete River</placeName>
-					<note type="editorial">Called Lotete by Livingstone. Tributary of the Lucala River, which it
-						joins in north-western Angola (Schapera 1963,1:204n3).</note>
+					<note type="editorial">Called Lotete by Livingstone. Tributary of the Lucala
+						River, which it joins in north-western Angola (Schapera
+						1963,1:204n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0156" type="geogName_river">
 					<placeName type="main">Mababe River</placeName>
-					<note type="editorial">Reference uncertain. Identified by Schapera as a watercourse connecting
-						the Ngoga River to the Mababe Depression in present-day northern Botswana (Schapera
-						1960a:13n2).</note>
+					<note type="editorial">Reference uncertain. Identified by Schapera as a
+						watercourse connecting the Ngoga River to the Mababe Depression in
+						present-day northern Botswana (Schapera 1960a:13n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0157" type="geogName_island">
 					<placeName type="main">Madeira Islands</placeName>
-					<note type="editorial">Archipelago of two inhabited islands (Madeira and Porto Santo) and two
-						groups of uninhabited islands (the Desertas and the Selvagens) in the Atlantic Ocean, about
-						600 miles south-west of Portugal.</note>
+					<note type="editorial">Archipelago of two inhabited islands (Madeira and Porto
+						Santo) and two groups of uninhabited islands (the Desertas and the
+						Selvagens) in the Atlantic Ocean, about 600 miles south-west of
+						Portugal.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0158" type="geogName_mountain">
 					<placeName type="main">Magaliesberg Mountains</placeName>
-					<note type="editorial">Also called Cashan Mountains by Livingstone. Mountain range in
-						present-day northern South Africa, extending from Pretoria to Rustenburg (Appiah and Gates Jr.
-						2005:251).</note>
+					<note type="editorial">Also called Cashan Mountains by Livingstone. Mountain
+						range in present-day northern South Africa, extending from Pretoria to
+						Rustenburg (Appiah and Gates Jr. 2005:251).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0159" type="geogName_rivulet">
 					<placeName type="main">Magoye River</placeName>
-					<note type="editorial">Called Makoe by Livingstone. River in southern Zambia and tributary of
-						the Kafue River, which it joins near present-day Mazabuka in Southern Province (Schapera
-						1963,2:351n3).</note>
+					<note type="editorial">Called Makoe by Livingstone. River in southern Zambia and
+						tributary of the Kafue River, which it joins near present-day Mazabuka in
+						Southern Province (Schapera 1963,2:351n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0160" type="geogName_river">
 					<placeName type="main">Makondo River</placeName>
-					<note type="editorial">River of present-day Angola and Zambia and tributary of the Zambezi
-						River, which it joins near present-day Chinyingi in Zambia's Northwestern Province.</note>
+					<note type="editorial">River of present-day Angola and Zambia and tributary of
+						the Zambezi River, which it joins near present-day Chinyingi in Zambia's
+						North-Western Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0161" type="geogName_mountain">
 					<placeName type="main">Maloti Mountains</placeName>
-					<note type="editorial">Also known as the Maluti Mountains. Mountain range in present-day
-						Lesotho.</note>
+					<note type="editorial">Also known as the Maluti Mountains. Mountain range in
+						present-day Lesotho.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0162" type="geogName_pass">
 					<placeName type="main">Manakalongwe Pass</placeName>
-					<note type="editorial">Also called Unicorn's Pass and Porapora by Livingstone. Reference
-						uncertain. According to Livingstone, a pass in the Shoshong Hills in present-day east-central
-						Botswana.</note>
+					<note type="editorial">Also called Unicorn's Pass and Porapora by Livingstone.
+						Reference uncertain. According to Livingstone, a pass in the Shoshong Hills
+						in present-day east-central Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0163" type="geogName_river">
 					<placeName type="main">Marico River</placeName>
-					<note type="editorial">Also known as the Madikwe River. Called Marikwe by Livingstone. River in
-						the north-eastern part of present-day South Africa, that forms one of the main headstreams of
-						the Limpopo River (Schapera 1960a:18n18).</note>
+					<note type="editorial">Also known as the Madikwe River. Called Marikwe by
+						Livingstone. River in the north-eastern part of present-day South Africa,
+						that forms one of the main headstreams of the Limpopo River (Schapera
+						1960a:18n18).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0164" type="geogName_river">
 					<placeName type="main">Marile River</placeName>
-					<note type="editorial">Reference uncertain. According to Schapera, a river that branches off
-						the Zambezi River and rejoins the main channel near Mongu in present-day Zambia's Western
-						Province (Schapera 1960a:21n8, 224n1).</note>
+					<note type="editorial">Reference uncertain. According to Schapera, a river that
+						branches off the Zambezi River and rejoins the main channel near Mongu in
+						present-day Zambia's Western Province (Schapera 1960a:21n8, 224n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0165" type="geogName_spring">
 					<placeName type="main">Mashuwe</placeName>
-					<note type="editorial">Called Mashue by Livingstone. Spring about twenty-five miles west of the
-						Ngwato capital, Shoshong, in present day east-central Botswana (Ransford 1978:75, Schapera
-						1960a:4n2).</note>
+					<note type="editorial">Called Mashue by Livingstone. Spring about twenty-five
+						miles west of the BaNgwato capital, Shoshong, in present day east-central
+						Botswana (Ransford 1978:75, Schapera 1960a:4n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0166" type="geogName_spring">
 					<placeName type="main">Mathuluani</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a spring fifty miles
-						north of Serotle on the road to Chukutsa Pan in present-day east-central Botswana (Schapera
-						1960a:304-5).</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a spring
+						fifty miles north of Serotle on the road to Chukutsa Pan in present-day
+						east-central Botswana (Schapera 1960a:304-5).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0167" type="geogName_spring">
 					<placeName type="main">Matlomaganyana</placeName>
-					<note type="editorial">Also called Links by Livingstone. Series of springs in the vinicity of
-						present-day Matlamanyane in north-eastern Botswana (Schapera 1960a:10n5, Spinage
-						2012:202).</note>
+					<note type="editorial">Also called Links by Livingstone. Series of springs in
+						the vinicity of present-day Matlamanyane in north-eastern Botswana (Schapera
+						1960a:10n5, Spinage 2012:202).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0168" type="geogName_island">
 					<placeName type="main">Mauritius</placeName>
-					<note type="editorial">Island in the Indian Ocean, about 550 miles east of Madagascar.
-						Livingstone sailed via Mauritius on his return to Britain in 1856, following his
-						transcontinental expedition.</note>
+					<note type="editorial">Island in the Indian Ocean, about 550 miles east of
+						Madagascar. Livingstone sailed via Mauritius on his return to Britain in
+						1856, following his transcontinental expedition.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0169" type="geogName_spring">
 					<placeName type="main">Mohotluani</placeName>
-					<note type="editorial">Reference uncertain. Possibly another spelling for Mathuluani, a spring
-						that Livingstone locates fifty miles north of Serotle on the road to Chukutsa Pan in
-						present-day east-central Botswana (Schapera 1960a:304-5).</note>
+					<note type="editorial">Reference uncertain. Possibly another spelling for
+						Mathuluani, a spring that Livingstone locates fifty miles north of Serotle
+						on the road to Chukutsa Pan in present-day east-central Botswana (Schapera
+						1960a:304-5).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0170" type="geogName_river">
 					<placeName type="main">Mokoko River</placeName>
-					<note type="editorial">Dry river bed in present-day east-central Botswana that remains a major
-						landmark around Letlhakane (Steyn and Atamelang 2014:49).</note>
+					<note type="editorial">Dry river bed in present-day east-central Botswana that
+						remains a major landmark around Letlhakane (Steyn and Atamelang
+						2014:49).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0171" type="geogName_spring">
 					<placeName type="main">Mokokonyani</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a spring in the vicinity
-						of present-day Letlhakane in east-central Botswana.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a spring
+						in the vicinity of present-day Letlhakane in east-central Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0172" type="geogName_river">
 					<placeName type="main">Mombo River</placeName>
-					<note type="editorial">Called Moamba by Livingstone. River in eastern Angola that joins the
-						Luachimo River about twenty miles north-east of present-day Saurimo in Lunda Sul Province
-						(Schapera 1963,2:239n1).</note>
+					<note type="editorial">Called Moamba by Livingstone. River in eastern Angola
+						that joins the Luachimo River about twenty miles north-east of present-day
+						Saurimo in Lunda Sul Province (Schapera 1963,2:239n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0173" type="geogName_river">
 					<placeName type="main">Monzuma River</placeName>
-					<note type="editorial">Called Mozuma and Dila by Livingstone. River in present-day southern
-						Zambia that joins the Zongwe River near Lake Kariba (Schapera 1963,2:346n2).</note>
+					<note type="editorial">Called Mozuma and Dila by Livingstone. River in
+						present-day southern Zambia that joins the Zongwe River near Lake Kariba
+						(Schapera 1963,2:346n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0174" type="geogName_mountain">
 					<placeName type="main">Mosamba</placeName>
-					<note type="editorial">Reference uncertain. Since Livingstone describes Mosamba as the source
-						of the Kwango River, he is possibly referring to the Alto Chicapa highlands of north-central
-						Angola where that river rises.</note>
+					<note type="editorial">Reference uncertain. Since Livingstone describes Mosamba
+						as the source of the Kwango (or Cuango) River, he is possibly referring to
+						the Alto Chicapa highlands of north-central Angola where that river
+						rises.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0175" type="geogName_spring">
 					<placeName type="main">Motlatsa</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a spring in the vicinity
-						of present-day Letlhakane on the road to Chukutsa Pan in east-central Botswana.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a spring
+						in the vicinity of present-day Letlhakane on the road to Chukutsa Pan in
+						east-central Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0176" type="geogName_mountain">
 					<placeName type="main">Mount Morrumbala</placeName>
-					<note type="editorial">Called Morumbala by Livingstone. Mountain in central Mozambique.</note>
+					<note type="editorial">Called Morumbala by Livingstone. Mountain of central
+						Mozambique in present-day Zambezia Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0177" type="geogName_mountain">
-					<placeName type="main">Mount Goronogosa </placeName>
-					<note type="editorial">Mountain of central Mozambique in present-day Sofala Province.</note>
+					<placeName type="main">Mount Gorongosa </placeName>
+					<note type="editorial">Mountain of central Mozambique in present-day Sofala
+						Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0178" type="geogName_island">
 					<placeName type="main">Mull</placeName>
-					<note type="editorial">Island of the Inner Hebrides, off the west coast of Scotland.</note>
+					<note type="editorial">Island of the Inner Hebrides, off the west coast of
+						Scotland.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0179" type="geogName_river">
 					<placeName type="main">Mutirikwe River</placeName>
-					<note type="editorial">Called Motirikwe by Livingstone. River in present-day south-eastern
-						Zimbabwe and a tributary of the Runde, a river that latterly joins the Save River at the
-						Mozambique border.</note>
+					<note type="editorial">Called Motirikwe by Livingstone. River in present-day
+						south-eastern Zimbabwe and a tributary of the Runde, a river that latterly
+						joins the Save River at the Mozambique border.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0180" type="geogName_river">
 					<placeName type="main">Muto River</placeName>
-					<note type="editorial">Called Mutue and Mutu by Livingstone. Channel connecting the Zambezi and
-						Cuacua Rivers in east-central Mozambique, in the vicinity of present-day Mopeia District
-						(Schapera 1963,2:471n3).</note>
+					<note type="editorial">Called Mutue and Mutu by Livingstone. Channel connecting
+						the Zambezi and Cuacua rivers in east-central Mozambique, in the vicinity of
+						present-day Mopeia District (Schapera 1963,2:471n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0181" type="geogName_spring">
 					<placeName type="main">Namilanga</placeName>
-					<note type="editorial">Spring in the vinicity of present-day Senkobo in Zambia's Southern
-						Province (Schapera 1963,2:335n4).</note>
+					<note type="editorial">Spring in the vinicity of present-day Senkobo in Zambia's
+						Southern Province (Schapera 1963,2:335n4).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0182" type="geogName_island">
 					<placeName type="main">Nampene Island</placeName>
-					<note type="editorial">Island on the Zambezi River near present-day Katombora in Zambia's
-						Southern Province.</note>
+					<note type="editorial">Island on the Zambezi River near present-day Katombora in
+						Zambia's Southern Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0183" type="geogName_cataracts">
 					<placeName type="main">Ngambwe Rapids</placeName>
-					<note type="editorial">Called Nambue and Nambwe by Livingstone. Rapids on the Zambezi River
-						about fifteen miles above present-day Sesheke in Zambia's Western Province (Schapera 1960a:
-						194n3).</note>
+					<note type="editorial">Called Nambue and Nambwe by Livingstone. Rapids on the
+						Zambezi River about fifteen miles above present-day Sesheke in Zambia's
+						Western Province (Schapera 1960a: 194n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0184" type="geogName_river">
 					<placeName type="main">Ngoga River</placeName>
-					<note type="editorial">Called Chō and Tsō by Livingstone. Branch of the Okavango River in
-						present-day north-western Botswana (Schapera 1960a:26n1, Van der Valk 2012:152).</note>
+					<note type="editorial">Called Chō and Tsō by Livingstone. Branch of the Okavango
+						River in present-day north-western Botswana (Schapera 1960a:26n1, Van der
+						Valk 2012:152).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0185" type="geogName_waterfall">
 					<placeName type="main">Ngonye Falls</placeName>
-					<note type="editorial">Also known as Sioma Falls. Called Gonye by Livingstone. Waterfall on the
-						Zambezi River a few miles downstream from Sioma in present-day Zambia's Western
-						Province.</note>
+					<note type="editorial">Also known as Sioma Falls. Called Gonye by Livingstone.
+						Waterfall on the Zambezi River a few miles downstream from Sioma in
+						present-day Zambia's Western Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0186" type="geogName_river">
 					<placeName type="main">Ngwezi River</placeName>
-					<note type="editorial">Called Unguesi by Livingstone. River in present-day Zambia that joins
-						the Zambezi River about ten miles upriver of Impalila island in Southern Province (Schapera
-						1963,2:336n3).</note>
+					<note type="editorial">Called Unguesi by Livingstone. River in present-day
+						Zambia that joins the Zambezi River about ten miles upriver of Impalila
+						island in Southern Province (Schapera 1963,2:336n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0187" type="geogName_waterfall">
 					<placeName type="main">Niagara Falls</placeName>
-					<note type="editorial">Major waterfall in North America on the Niagara River, at the boundary
-						between Ontario and New York state.</note>
+					<note type="editorial">Major waterfall in North America on the Niagara River, at
+						the boundary between Ontario and New York state.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<!-- Derived from glossary entry geog0045 -->
 				<place xml:id="geog0188" type="geogName_river">
 					<placeName type="main">Nile River</placeName>
-					<note type="editorial">Major river in Africa and the longest river in the world. It rises in
-						the Great Lakes region of central Africa and flows north to enter the Mediterranean at the
-						Egyptian coast. The search for the source(s) of the Nile motivated the African expeditions of
-						a number of important Victorian explorers, among them Richard Burton (1821-1890), John H.
-						Speke (1827-1864), Samuel W. Baker (1821-1893), Henry M. Stanley (1841-1904), and, of course,
-						Livingstone himself.</note>
+					<note type="editorial">Major river in Africa and the longest river in the world.
+						It rises in the Great Lakes region of central Africa and flows north to
+						enter the Mediterranean at the Egyptian coast. The search for the source(s)
+						of the Nile motivated the African expeditions of a number of important
+						Victorian explorers, among them Richard Burton (1821-1890), John H. Speke
+						(1827-1864), Samuel W. Baker (1821-1893), Henry M. Stanley (1841-1904), and,
+						of course, Livingstone himself.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0189" type="geogName_spring">
 					<placeName type="main">Nkowane</placeName>
-					<note type="editorial">Called Nkauane by Livingstone. Spring in the vicinity of Nkowane Pan in
-						present-day east-central Botswana, about forty miles south-east of Letlhakane (Schapera
-						1960a:5n8).</note>
+					<note type="editorial">Called Nkauane by Livingstone. Spring in the vicinity of
+						Nkowane Pan in present-day east-central Botswana, about forty miles
+						south-east of Letlhakane (Schapera 1960a:5n8).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0190" type="geogName_lake">
 					<placeName type="main">North Loch</placeName>
-					<note type="editorial">Former loch in Edinburgh, Scotland, in the area that is now Princes
-						Street Gardens. The loch was created by King James III in the fifteenth century in order to
-						bolster the defences of Edinburgh Castle and was drained in the eighteenth century.
-						Livingstone incorrectly identifies North Loch with the Edinburgh Meadows, but the Meadows are
-						in fact on the site of the former Burgh Loch (also known as South Loch) (Crawford 2013:100,
+					<note type="editorial">Former loch in Edinburgh, Scotland, in the area that is
+						now Princes Street Gardens. The loch was created by King James III in the
+						fifteenth century in order to bolster the defences of Edinburgh Castle and
+						was drained in the eighteenth century. Livingstone incorrectly identifies
+						North Loch with the Edinburgh Meadows, but the Meadows are in fact on the
+						site of the former Burgh Loch (also known as South Loch) (Crawford 2013:100,
 						Coghill 2005:75).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0191" type="geogName_pan">
 					<placeName type="main">Ntwetwe Pan</placeName>
-					<note type="editorial">Large pan or depression in present-day north-eastern Botswana.</note>
+					<note type="editorial">Large pan or depression in present-day north-eastern
+						Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0192" type="geogName_mountain">
 					<placeName type="main">Nyamonga </placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a mountain of central
-						Mozambique in the vicinity of Mount Gorongosa.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a mountain
+						of central Mozambique in the vicinity of Mount Gorongosa.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0193" type="geogName_river">
 					<placeName type="main">Okavango River</placeName>
-					<note type="editorial">Called Embarrah and Varra by Livingstone. Major river in southern
-						Africa. It rises as the Kubango River on the Bié Plateau of central Angola, and crosses
-						present-day Namibia's Caprivi Strip into Botswana where it widens into the Okavango
-						Delta.</note>
+					<note type="editorial">Called Embarrah and Varra by Livingstone. Major river in
+						southern Africa. It rises as the Kubango River on the Bié Plateau of central
+						Angola, and crosses present-day Namibia's Caprivi Strip into Botswana where
+						it widens into the Okavango Delta.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0194" type="geogName_river">
 					<placeName type="main">Orange River</placeName>
-					<note type="editorial">Major river of southern Africa that rises in present-day Lesotho and
-						flows west to enter the Atlantic at Alexander Bay on South Africa's west coast.</note>
+					<note type="editorial">Major river of southern Africa that rises in present-day
+						Lesotho and flows west to enter the Atlantic at Alexander Bay on South
+						Africa's west coast.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0195" type="geogName_spring">
 					<placeName type="main">Orapa</placeName>
-					<note type="editorial">Spring in present-day north-eastern Botswana about fifteen miles
-						north-west of Letlhakane. Today, Orapa is the site of a major diamond mine.</note>
+					<note type="editorial">Spring in present-day north-eastern Botswana about
+						fifteen miles north-west of Letlhakane. Today, Orapa is the site of a major
+						diamond mine.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0196" type="geogName_fountain">
 					<placeName type="main">Otse</placeName>
-					<note type="editorial">Spring in the vicinity of Otse Hill in present-day south-east Botswana,
-						about twenty-five miles south-west of Gaborone. Otse is also the name of the local
-						village.</note>
+					<note type="editorial">Spring in the vicinity of Otse Hill in present-day
+						south-eastern Botswana, about twenty-five miles south-west of Gaborone. Otse
+						is also the name of the local village.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0197" type="geogName_river">
 					<placeName type="main">Pezo River</placeName>
-					<note type="editorial">Reference uncertain. Schapera suggests this is the Peso River, which he
-						identifies as a tributary that joins the Luangue River in northern Angola's present-day Lunda
-						Norte Province (Schapera 1963,1:234n3).</note>
+					<note type="editorial">Reference uncertain. Schapera suggests this is the Peso
+						River, which he identifies as a tributary that joins the Luangue River in
+						northern Angola's present-day Lunda Norte Province (Schapera
+						1963,1:234n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0198" type="geogName_hill">
 					<placeName type="main">Piri</placeName>
-					<note type="editorial">Also called Peeri by Livingstone. Hills near present-day Cazombo in
-						eastern Angola's Moxico Province. Schapera notes that this is not a specific geographical
-						place name but is rather the Luvale word for hill or mountain, "pili" (Livingstone
-						1857aa:306-07, 685; Schapera 1963,1:69n1).</note>
+					<note type="editorial">Also called Peeri by Livingstone. Hills near present-day
+						Cazombo in eastern Angola's Moxico Province. Schapera notes that this is not
+						a specific geographical place name but is rather the Luvale word for hill or
+						mountain, "pili" (Livingstone 1857aa:306-07, 685; Schapera
+						1963,1:69n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0199" type="geogName_mountain">
 					<placeName type="main">Ranges of Cahenda</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, mountains in
-						north-western Angola just north of Ambaca.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, mountains
+						in north-western Angola just north of Ambaca.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0200" type="geogName_spring">
 					<placeName type="main">Rapesh</placeName>
-					<note type="editorial">Spring to the north of Ntwetwe Pan, near present-day Gweta in
-						north-eastern Botswana. In his journals, Livingstone also uses the name Kiadjara for the same
-						place (Schapera 1960a:9, 10n1).</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a spring
+						to the north of Ntwetwe Pan, near present-day Gweta in north-eastern
+						Botswana. In his journals, Livingstone also uses the name Kiadjara for the
+						same place (Schapera 1960a:9, 10n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0201" type="geogName_river">
 					<placeName type="main">Rio Cataziana</placeName>
-					<note type="editorial">Called Catrina by Livingstone. Distributary of the Zambezi River, that
-						enters the sea about seven miles above the river's main mouth on the Mozambique coast
-						(Schapera 1963,2:473n3).</note>
+					<note type="editorial">Called Catrina by Livingstone. Distributary of the
+						Zambezi River, that enters the sea about seven miles above the
+						river's main mouth on the Mozambique coast (Schapera 1963,2:473n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0202" type="geogName_river">
 					<placeName type="main">Rio Mucelo</placeName>
-					<note type="editorial">Called Maiudo by Livingstone. Distributary of the Zambezi River, which
-						branches off that river about twenty-five miles from the Mozambique coast. It enters the
-						Indian Ocean about ten miles down the coast from the main mouth of the Zambezi River.</note>
+					<note type="editorial">Called Maiudo by Livingstone. Distributary of the Zambezi
+						River, which branches off that river about twenty-five miles from the
+						Mozambique coast. It enters the sea about ten miles down the coast
+						from the main mouth of the Zambezi River.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0203" type="geogName_river">
 					<placeName type="main">River Clyde</placeName>
-					<note type="editorial">River in Scotland that rises in the Southern Uplands and flows into the
-						Atlantic on the west coast. Livingstone's home town of Blantyre is on the Clyde. In the
-						nineteenth century, Clydeside shipyards made Glasgow the world's leading shipbuilding
-						city.</note>
+					<note type="editorial">River in Scotland that rises in the Southern Uplands and
+						flows into the Atlantic on the west coast. Livingstone's home town of
+						Blantyre is on the Clyde. In the nineteenth century, Clydeside shipyards
+						made Glasgow the world's leading shipbuilding city.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0204" type="geogName_mountain">
 					<placeName type="main">Roggeveld Mountains</placeName>
-					<note type="editorial">Called Roggefelt by Livingstone. Mountain range in present-day South
-						Africa's Northern Cape.</note>
+					<note type="editorial">Called Roggefelt by Livingstone. Mountain range in
+						present-day South Africa's Northern Cape.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0205" type="geogName_hill">
 					<placeName type="main">Saloisho</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a range of hills in the
-						vicinity of Shinde's town (the paramount of the southern Lunda), which was near the confluence
-						of the Lumbala and Zambezi Rivers in present-day eastern Angola's Moxico province.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a range of
+						hills in the vicinity of Shinde's town (the paramount of the southern
+						Lunda), which was near the confluence of the Lumbala and Zambezi rivers in
+						present-day eastern Angola's Moxico province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0206" type="geogName_river">
 					<placeName type="main">Sanshureh River</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a branch of the Chobe
-						River filled by seasonal flooding in present-day Namibia's Caprivi Strip.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a branch
+						of the Chobe River filled by seasonal flooding in present-day Namibia's
+						Caprivi Strip.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0207" type="geogName_river">
 					<placeName type="main">Save River</placeName>
-					<note type="editorial">Also known as the Sabi River. Called Sabia and Sabe by Livingstone.
-						River in south-eastern Africa that rises near present-day Harare in Zimbabwe and enters the
-						Indian Ocean on the Mozambique coast.</note>
+					<note type="editorial">Also known as the Sabi River. Called Sabia and Sabe by
+						Livingstone. River in south-eastern Africa that rises near present-day
+						Harare in Zimbabwe and enters the Indian Ocean on the Mozambique
+						coast.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0208" type="geogName_river">
 					<placeName type="main">Savuti Channel</placeName>
-					<note type="editorial">Called Sonta by Livingstone. Intermittent and predominantly dry channel
-						in present-day northern Botswana that connects the Linyanti Swamps and the Mababe Depression
-						(Ransford 1978:62, Schapera 1960a:15n3).</note>
+					<note type="editorial">Called Sonta by Livingstone. Intermittent and
+						predominantly dry channel in present-day northern Botswana that connects the
+						Linyanti Swamps and the Mababe Depression (Ransford 1978:62, Schapera
+						1960a:15n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0209" type="geogName_fountain">
 					<placeName type="main">Serinane</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a hot spring in the
-						vicinity of present-day Lephephe in east-central Botswana.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a hot
+						spring in the vicinity of present-day Lephephe in east-central
+						Botswana.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0210" type="geogName_fountain">
 					<placeName type="main">Serotli</placeName>
-					<note type="editorial">Spring about fifty miles north-west of the Ngwato capital, Shoshong, in
-						present-day east-central Botswana (Schapera 1960a:304n7).</note>
+					<note type="editorial">Spring about fifty miles north-west of the BaNgwato
+						capital, Shoshong, in present-day east-central Botswana (Schapera
+						1960a:304n7).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0211" type="geogName_river">
 					<placeName type="main">Shire River</placeName>
-					<note type="editorial">Major river of present-day Malawi that flows south from Lake Malawi to
-						join the Zambezi River in central Mozambique about thirty miles downstream of Sena.
-						Livingstone explored this river and the Shire Highlands during his Zambezi Expedition
-						(1858-64).</note>
+					<note type="editorial">Major river of present-day Malawi that flows south from
+						Lake Malawi to join the Zambezi River in central Mozambique about thirty
+						miles downstream of Sena. Livingstone explored this river and the Shire
+						Highlands during his Zambezi Expedition (1858-64).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0212" type="geogName_mountain">
 					<placeName type="main">Shoshong Hills</placeName>
-					<note type="editorial">Called Bamangwato hills and Bakaa mountains by Livingstone. Hills in
-						present-day east-central Botswana. The BaNgwato and BaKaa settled there in the eighteenth
-						century and were resident in the vicinity during Livingstone's period in Botswana (Schapera
-						1960a:304n6, 1961:17n1).</note>
+					<note type="editorial">Called Bamangwato hills and Bakaa mountains by
+						Livingstone. Hills in present-day east-central Botswana. The BaNgwato and
+						BaKaa settled there in the eighteenth century and were resident in the
+						vicinity during Livingstone's period in Botswana (Schapera 1960a:304n6,
+						1961:17n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0213" type="geogName_river">
 					<placeName type="main">Southern Lueti River</placeName>
-					<note type="editorial">Called Simah by Livingstone. River in present-day Zambia's Western
-						Province (Schapera 1960a:175n3).</note>
+					<note type="editorial">Called Simah by Livingstone. River in present-day
+						Zambia's Western Province (Schapera 1960a:175n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
@@ -1688,23 +1810,23 @@
 				<!-- MT glossary entry -->
 				<place xml:id="geog0215" type="geogName_hill">
 					<placeName type="main">Taba Cheu</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a hill in present-day
-						southern Zambia in the vicinity of Lake Kariba.</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a hill in
+						present-day southern Zambia in the vicinity of Lake Kariba.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0216" type="geogName_mountain">
 					<placeName type="main">Table Mountain</placeName>
-					<note type="editorial">Mountain at the northern point of present-day South Africa's Cape
-						Peninsula, notable for its distinctive flat top.</note>
+					<note type="editorial">Mountain at the northern point of present-day South
+						Africa's Cape Peninsula, notable for its distinctive flat top.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0217" type="geogName_rivulet">
 					<placeName type="main">Tamba River</placeName>
-					<note type="editorial">River in north-eastern Angola that joins the Mombo River in present-day
-						Lunda Sul Province, shortly before the Mombo flows into the Luachimo River (Schapera
-						1963,2:237n3).</note>
+					<note type="editorial">River in north-eastern Angola that joins the Mombo River
+						in present-day Lunda Sul Province, shortly before the Mombo flows into the
+						Luachimo River (Schapera 1963,2:237n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
@@ -1716,133 +1838,144 @@
 				<!-- MT glossary entry -->
 				<place xml:id="geog0219" type="geogName_river">
 					<placeName type="main">Thamalakane River</placeName>
-					<note type="editorial">Called Tamunakle by Livingstone. River of present-day north-western
-						Botswana that provides a line of drainage from the southern Okavango Delta. The river divides
-						just south of Maun to form two branches: the Boteti River which flows south-east and the Nhabe
-						River which leads south-west towards Lake Ngami (Hughes and Huges 1992:618).</note>
+					<note type="editorial">Called Tamunakle by Livingstone. River of present-day
+						north-western Botswana that provides a line of drainage from the southern
+						Okavango Delta. The river divides just south of Maun to form two branches:
+						the Boteti River which flows south-east and the Nhabe River which leads
+						south-west towards Lake Ngami (Hughes and Huges 1992:618).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0220" type="geogName_river">
 					<placeName type="main">Thaoge River</placeName>
-					<note type="editorial">Called Teoughe by Livingstone. River in present-day north-western
-						Botswana that was once the major western outlet of the Okavango delta. Previously, the river
-						supplied Lake Ngami but it no longer does so as a result of diversions to its course (Hughes
-						and Hughes 1992:618).</note>
+					<note type="editorial">Called Teoughe by Livingstone. River in present-day
+						north-western Botswana that was once the major western outlet of the
+						Okavango delta. Previously, the river supplied Lake Ngami but it no longer
+						does so as a result of diversions to its course (Hughes and Hughes
+						1992:618).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0221" type="geogName_spring">
 					<placeName type="main">Thutsa</placeName>
-					<note type="editorial">Reference uncertain. According to Livingstone, a spring in present-day
-						north-eastern Botswana just north-east of Orapa (Schapera 1960a:70).</note>
+					<note type="editorial">Reference uncertain. According to Livingstone, a spring
+						in present-day north-eastern Botswana just north-east of Orapa (Schapera
+						1960a:70).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0222" type="geogName_pan">
 					<placeName type="main">Tsaugara Pan</placeName>
-					<note type="editorial">Called Maila by Livingstone. Pan or depression in present-day
-						north-eastern Botswana, to the north of Ntwetwe Pan and the east of Khama Khama Pan (Schapera
-						1960a:11n1).</note>
+					<note type="editorial">Called Maila by Livingstone. Pan or depression in
+						present-day north-eastern Botswana, to the north of Ntwetwe Pan and the east
+						of Khama Khama Pan (Schapera 1960a:11n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0223" type="geogName_river">
 					<placeName type="main">Tshikapa River</placeName>
-					<note type="editorial">Called Chikapa by Livingstone. Tributary of the Kasai River, which it
-						joins about forty miles north of the Angolan border in present-day south-western Democratic
-						Republic of the Congo (Schapera 1963,1:116n1).</note>
+					<note type="editorial">Called Chikapa by Livingstone. Tributary of the Kasai
+						River, which it joins about forty miles north of the Angolan border in
+						present-day south-western Democratic Republic of the Congo (Schapera
+						1963,1:116n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0224" type="geogName_hill">
 					<placeName type="main">Tsodilo Hills</placeName>
-					<note type="editorial">Called Sorila by Livingstone. Hills in present-day north-western
-						Botswana about twenty-five miles west of Sepupa and thirty miles south of the Namibian border.
-						They are known for their ancient rock paintings, which number over 4000 and appear at hundreds
-						of distinct sites (Schapera 1960a:67n1; Morton, Ramsay, and Mgadla 2008:34-35).</note>
+					<note type="editorial">Called Sorila by Livingstone. Hills in present-day
+						north-western Botswana about twenty-five miles west of Sepupa and thirty
+						miles south of the Namibian border. They are known for their ancient rock
+						paintings, which number over 4000 and appear at hundreds of distinct sites
+						(Schapera 1960a:67n1; Morton, Ramsay, and Mgadla 2008:34-35).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0225" type="geogName_island">
 					<placeName type="main">Ulva</placeName>
-					<note type="editorial">Island just west of Mull, and part of the Inner Hebrides off the west
-						coast of Scotland. Livingstone's grandfather Neil had been a farmer in Ulva before he moved to
-						Blantyre in 1792.</note>
+					<note type="editorial">Island just west of Mull, and part of the Inner Hebrides
+						off the west coast of Scotland. Livingstone's grandfather Neil had been a
+						farmer in Ulva before he moved to Blantyre in 1792.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0226" type="geogName_pan">
 					<placeName type="main">Unku</placeName>
-					<note type="editorial">Reference uncertain. Possibly Kumsedisha Pan, just north-east of Khama
-						Khama Pan in present-day north-eastern Botswana. In his journals, Livingstone also uses the
-						name Gumkirreh for the same place (Schapera 1960a:11n4).</note>
+					<note type="editorial">Reference uncertain. Possibly Kumsedisha Pan, just
+						north-east of Khama Khama Pan in present-day north-eastern Botswana. In his
+						journals, Livingstone also uses the name Gumkirreh for the same place
+						(Schapera 1960a:11n4).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0227" type="geogName_valley">
 					<placeName type="main">Upper Zambezi valley</placeName>
-					<note type="editorial">Called valley of the Leeambye by Livingstone. Region surrounding the
-						upper part of the Zambezi River.</note>
+					<note type="editorial">Called valley of the Leeambye by Livingstone. Region
+						surrounding the upper part of the Zambezi River.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0228" type="geogName_river">
 					<placeName type="main">Vaal River</placeName>
-					<note type="editorial">Called Likwa by Livingstone. River of present-day South Africa and a
-						tributary of the Orange River. It rises in Mpumalanga and flows south-west to join the Orange
-						near Douglas in the Northern Cape.</note>
+					<note type="editorial">Called Likwa by Livingstone. River of present-day South
+						Africa and a tributary of the Orange River. It rises in Mpumalanga and flows
+						south-west to join the Orange near Douglas in the Northern Cape.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0229" type="geogName_valley">
 					<placeName type="main">Valley of the Nile</placeName>
-					<note type="editorial">Region in Egypt around the course of the Nile River.</note>
+					<note type="editorial">Region in Egypt around the course of the Nile
+						River.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0230" type="geogName_waterfall">
 					<placeName type="main">Victoria Falls</placeName>
-					<note type="editorial">One of the world's largest waterfalls, located on the Zambezi River, and
-						bordering present-day Zambia and Zimbabwe. Livingstone sighted the falls in November 1855 and
-						gave them the name Victoria Falls. They are known as Mosi-oa-Tunya in Lozi and as Shongwe in
-						the Shona language.</note>
+					<note type="editorial">One of the world's largest waterfalls, located on the
+						Zambezi River, and bordering present-day Zambia and Zimbabwe. Livingstone
+						sighted the falls in November 1855 and gave them the name Victoria Falls.
+						They are known as Mosi-oa-Tunya in Lozi and as Shongwe in the Shona
+						language.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0231" type="geogName_river">
 					<placeName type="main">Wilge River</placeName>
-					<note type="editorial">Called Namagari by Livingstone. River in present-day central South
-						Africa and tributary of the Vaal (Dreyer 2001:73).</note>
+					<note type="editorial">Called Namagari by Livingstone. River in present-day
+						central South Africa and tributary of the Vaal (Dreyer 2001:73).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0232" type="geogName_river">
 					<placeName type="main">Zambezi River</placeName>
-					<note type="editorial">Also called Leeba/Loiba and Leeambye/Liambai by Livingstone at parts of
-						its course. Major river in south-central Africa that rises in present-day Zambia, then flows
-						east across the continent to the Indian Ocean. During his transcontinental expedition
-						(1852-56), Livingstone was hopeful that the Zambezi could provide a highway into central
-						Africa, but during his later Zambezi Expedition (1858-64) he realised that he had
-						overestimated the river's navigability. Livingstone provides various other local names for
-						stretches of the river including Luambéji, Luambési, Ambézi, Ojimbési, Luabo, and
-						Cuama.</note>
+					<note type="editorial">Also called Leeba/Loiba and Leeambye/Liambai by
+						Livingstone at parts of its course. Major river in south-central Africa that
+						rises in present-day Zambia, then flows east across the continent to the
+						Indian Ocean. During his transcontinental expedition (1852-56), Livingstone
+						was hopeful that the Zambezi could provide a highway into central Africa,
+						but during his later Zambezi Expedition (1858-64) he realised that he had
+						overestimated the river's navigability. Livingstone provides various other
+						local names for stretches of the river including Luambéji, Luambési, Ambézi,
+						Ojimbési, Luabo, and Cuama.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0233" type="geogName_river">
 					<placeName type="main">Zangue River</placeName>
-					<note type="editorial">Also called Pungue by Livingstone. Tributary of the Zambezi River, which
-						it joins near present-day Caia in Mozambique's Sofala Province.</note>
+					<note type="editorial">Also called Pungue by Livingstone. Tributary of the
+						Zambezi River, which it joins near present-day Caia in Mozambique's Sofala
+						Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="geog0234" type="geogName_island">
 					<placeName type="main">Zanzibar</placeName>
-					<note type="editorial">Island in the Indian Ocean off the coast of present-day Tanzania. In the
-						nineteenth century, Zanzibar was the major center of a commercial network extending across
-						east and central Africa and the primary entrepôt of the east African and Indian Ocean slave
-						trade (Sheriff 1987:1-4).</note>
+					<note type="editorial">Island in the Indian Ocean off the coast of present-day
+						Tanzania. In the nineteenth century, Zanzibar was the major center of a
+						commercial network extending across east and central Africa and the primary
+						entrepôt of the east African and Indian Ocean slave trade (Sheriff
+						1987:1-4).</note>
 				</place>
 
 

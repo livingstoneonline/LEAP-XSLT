@@ -14,11 +14,12 @@
 				<authority>Livingstone Online</authority>
 				<publisher>University of Maryland Libraries</publisher>
 				<pubPlace>College Park, MD, USA</pubPlace>
-				<date>2017</date>
+				<date>2019</date>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
-						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
-						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c)
+						Livingstone Online. <ref
+							target="https://creativecommons.org/licenses/by-nc/3.0/">Creative
+							Commons Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -33,124 +34,169 @@
 				<!-- Current higest number = ethnic0100 -->
 
 				<entry xml:id="ethnic0018">
-					<form> <orth>Bagenya</orth> </form>
-					<def>Also Wagenya. One of three tribes, all with the same name but ethnically distinct,
-						residing in the Congo along the Lualaba River (Droogers 1980:31). Through their access to
-						canoes, the Wagenya near Nyangwe both controlled the river traffic in the vicinity of the
-						village and were the principal suppliers of fish to many of the local markets in the
-						region.</def>
+					<form>
+						<orth>Bagenya</orth>
+					</form>
+					<def>Also Wagenya. One of three tribes, all with the same name but ethnically
+						distinct, residing in the Congo along the Lualaba River (Droogers 1980:31).
+						Through their access to canoes, the Wagenya near Nyangwe both controlled the
+						river traffic in the vicinity of the village and were the principal
+						suppliers of fish to many of the local markets in the region.</def>
 				</entry>
 
 				<entry xml:id="ethnic0001">
-					<form> <orth>Baguha</orth> </form>
-					<def>African ethnic group whose descendants are now known as the Holoholo and who, in
-						Livingstone's time, lived on the western shore of Lake Tanganyika in east Africa.</def>
+					<form>
+						<orth>Baguha</orth>
+					</form>
+					<def>African ethnic group whose descendants are now known as the Holoholo and
+						who, in Livingstone's time, lived on the western shore of Lake Tanganyika in
+						east Africa.</def>
 				</entry>
 
 				<entry xml:id="ethnic0016">
-					<form> <orth>BaKwena</orth> </form>
-					<def>A SeTswana speaking group in southern Africa. Livingstone became a missionary to the
-						BaKwena (under the leadership of Sechele) in 1846.</def>
+					<form>
+						<orth>BaKwena</orth>
+					</form>
+					<def>A SeTswana speaking group in southern Africa. Livingstone became a
+						missionary to the BaKwena (under the leadership of Sechele) in 1846.</def>
 				</entry>
 
 				<entry xml:id="ethnic0002">
-					<form> <orth>Bemba</orth> </form>
-					<def>Also Awemba. African ethnic group based in the north-eastern part of present-day Zambia
-						with historical links to the Luba and Lunda populations of the Kantanga region of the
-						Congo.</def>
+					<form>
+						<orth>Bemba</orth>
+					</form>
+					<def>Also Awemba. African ethnic group based in the north-eastern part of
+						present-day Zambia with historical links to the Luba and Lunda populations
+						of the Kantanga region of the Congo.</def>
 				</entry>
 
 				<entry xml:id="ethnic0003">
-					<form> <orth>Bena</orth> </form>
-					<def>African ethnic group based in what is the south-central part of Tanzania.</def>
+					<form>
+						<orth>Bena</orth>
+					</form>
+					<def>African ethnic group based in what is the south-central part of
+						Tanzania.</def>
 				</entry>
 
 				<entry xml:id="ethnic0004">
-					<form> <orth>Bira</orth> </form>
-					<def>African ethnic group based in the Ituri rainforest in the north-eastern part of
-						present-day Democratic Republic of the Congo.</def>
+					<form>
+						<orth>Bira</orth>
+					</form>
+					<def>African ethnic group based in the Ituri rainforest in the north-eastern
+						part of present-day Democratic Republic of the Congo.</def>
 				</entry>
 
 				<entry xml:id="ethnic0005">
-					<form> <orth>Bungu</orth> </form>
-					<def>African ethnic group based in present-day Tanzania and settled to the south-east of Lake
-						Rukwa.</def>
+					<form>
+						<orth>Bungu</orth>
+					</form>
+					<def>African ethnic group based in present-day Tanzania and settled to the
+						south-east of Lake Rukwa.</def>
 				</entry>
 
 				<entry xml:id="ethnic0025">
-					<form> <orth>Basarwa</orth> </form>
-					<def>Also San or (often pejoratively) Bushmen. Collective term for southern Africa's indigenous
-						hunter-gatherer populations.</def>
+					<form>
+						<orth>Basarwa</orth>
+					</form>
+					<def>Also San or (often pejoratively) Bushmen. Collective term for southern
+						Africa's indigenous hunter-gatherer populations.</def>
 				</entry>
 
 				<entry xml:id="ethnic0006">
-					<form> <orth>Garaganza</orth> </form>
-					<def>African ethnic group from present-day Tanzania often included in the larger Nyamwezi
-						group.</def>
+					<form>
+						<orth>Garaganza</orth>
+					</form>
+					<def>African ethnic group from present-day Tanzania often included in the larger
+						Nyamwezi group.</def>
 				</entry>
 
 				<entry xml:id="ethnic0007">
-					<form> <orth>Gogo</orth> </form>
-					<def>African ethnic group based in the central part of present-day Tanzania.</def>
+					<form>
+						<orth>Gogo</orth>
+					</form>
+					<def>African ethnic group based in the central part of present-day
+						Tanzania.</def>
 				</entry>
 
 				<entry xml:id="ethnic0008">
-					<form> <orth>Makololo</orth> </form>
-					<def>Sotho people of southern Africa. Having been displaced by political upheaval in the early
-						nineteenth century (known as the Mfecane), migrated north under the leadership of Sebitwane
-						and came to settle in the Zambezi River valley in present-day Zambia around 1840. Makololo
-						porters, sent by chief Sekeletu, journeyed with Livingstone on his famous African
+					<form>
+						<orth>Makololo</orth>
+					</form>
+					<def>Sotho people of southern Africa. Having been displaced by political
+						upheaval in the early nineteenth century (known as the Mfecane), migrated
+						north under the leadership of Sebitwane and came to settle in the Zambezi
+						River valley in present-day Zambia around 1840. Makololo porters, sent by
+						chief Sekeletu, journeyed with Livingstone on his famous African
 						transcontinental journey.</def>
 				</entry>
 
 				<entry xml:id="ethnic0009">
-					<form> <orth>Lega</orth> </form>
-					<def>African ethnic group based in the rainforests of the eastern part of present-day
-						Democratic Republic of the Congo.</def>
+					<form>
+						<orth>Lega</orth>
+					</form>
+					<def>African ethnic group based in the rainforests of the eastern part of
+						present-day Democratic Republic of the Congo.</def>
 				</entry>
 
 				<entry xml:id="ethnic0017">
-					<form> <orth>Luba</orth> </form>
-					<def>African ethnic group from the central part of present-day Democratic Republic of the
-						Congo, whose kingdom constituted one of the major central African polities of the eighteenth-
-						and nineteenth-centuries.</def>
+					<form>
+						<orth>Luba</orth>
+					</form>
+					<def>African ethnic group from the central part of present-day Democratic
+						Republic of the Congo, whose kingdom constituted one of the major central
+						African polities of the eighteenth- and nineteenth-centuries.</def>
 				</entry>
 
 				<entry xml:id="ethnic0010">
-					<form> <orth>Manyema</orth> </form>
-					<def>Also Manyuema. Collective group that, in Livingstone's use, encompasses the many ethnic
-						groups residing in Manyema, eastern Congo.</def>
+					<form>
+						<orth>Manyema</orth>
+					</form>
+					<def>Also Manyuema. Collective group that, in Livingstone's use, encompasses the
+						many ethnic groups residing in Manyema, eastern Congo.</def>
 				</entry>
 
 				<entry xml:id="ethnic0011">
-					<form> <orth>Masaai</orth> </form>
-					<def>Well known African ethnic group based in the southern part of present-day Kenya and
-						northern part of present-day Tanzania.</def>
+					<form>
+						<orth>Masaai</orth>
+					</form>
+					<def>Well known African ethnic group based in the southern part of present-day
+						Kenya and northern part of present-day Tanzania.</def>
 				</entry>
 
 				<entry xml:id="ethnic0012">
-					<form> <orth>Ngoni</orth> </form>
-					<def>African ethnic group descended from the Nguni of kwaZulu-Natal in present-day South Africa
-						who migrated north due to the Mfecane of the early nineteenth century.</def>
+					<form>
+						<orth>Ngoni</orth>
+					</form>
+					<def>African ethnic group descended from the Nguni of kwaZulu-Natal in
+						present-day South Africa who migrated north due to the Mfecane of the early
+						nineteenth century.</def>
 				</entry>
 
 				<entry xml:id="ethnic0013">
-					<form> <orth>Nyamnyams</orth> </form>
-					<def>African ethnic group of uncertain identity. The term Nyamnyam regularly refers to the
-						Azande of north-central Africa, but the context of Livingstone's use of the term in the 1870
-						Field Diary points to a different group.</def>
+					<form>
+						<orth>Nyamnyams</orth>
+					</form>
+					<def>African ethnic group of uncertain identity. The term Nyamnyam regularly
+						refers to the Azande of north-central Africa, but the context of
+						Livingstone's use of the term in the 1870 Field Diary points to a different
+						group.</def>
 				</entry>
 
 				<entry xml:id="ethnic0014">
-					<form> <orth>Nyamwezi</orth> </form>
-					<def>East African ethnic group based in present-day Tanzania whose members often worked as
-						independent traders or served as porters for Arab and African caravans.</def>
+					<form>
+						<orth>Nyamwezi</orth>
+					</form>
+					<def>East African ethnic group based in present-day Tanzania whose members often
+						worked as independent traders or served as porters for Arab and African
+						caravans.</def>
 				</entry>
 
 				<entry xml:id="ethnic0015">
-					<form> <orth>Sangu</orth> </form>
-					<def>African ethnic group based in present-day Tanzania and settled to the east and south-east
-						of Lake Rukwa.</def>
+					<form>
+						<orth>Sangu</orth>
+					</form>
+					<def>African ethnic group based in present-day Tanzania and settled to the east
+						and south-east of Lake Rukwa.</def>
 				</entry>
 
 				<!-- 
@@ -195,355 +241,496 @@
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0026">
-					<form> <orth>AmaMpondo</orth> </form>
-					<def>Called Amapanda by Livingstone. African ethnic group based primarily in present-day South
-						Africa's Eastern Cape (Appiah and Gates Jr. 2010:195).</def>
+					<form>
+						<orth>AmaMpondo</orth>
+					</form>
+					<def>Called Amapanda by Livingstone. African ethnic group based primarily in
+						present-day South Africa's Eastern Cape (Appiah and Gates Jr.
+						2010:195).</def>
+				</entry>
+
+				<!-- MT glossary entry -->
+				<entry xml:id="ethnic0092">
+					<form>
+						<orth>AmaNdebele</orth>
+					</form>
+					<def>Called Matibele and Makonkobi by Livingstone. African ethnic group of
+						present-day Zimbabwe, South Africa, and Botswana. The group was founded by
+						Mzilikazi, who established the AmaNdebele state, Matabeleland, around 1840
+						(Young 2010b:222-23).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0027">
-					<form> <orth>AmaXhosa</orth> </form>
-					<def>Called Amakosa by Livingstone. African ethnic group (and part of the Nguni linguistic
-						group) based primarily in present-day South Africa's Eastern Cape (Heath 2010e:555).</def>
+					<form>
+						<orth>AmaXhosa</orth>
+					</form>
+					<def>Called Amakosa by Livingstone. African ethnic group (and part of the Nguni
+						linguistic group) based primarily in present-day South Africa's Eastern Cape
+						(Heath 2010e:555).</def>
+				</entry>
+
+				<!-- MT glossary entry -->
+				<entry xml:id="ethnic0100">
+					<form>
+						<orth>AmaZulu</orth>
+					</form>
+					<def>Major African ethnic group (and part of the Nguni linguistic group) of
+						present-day South Africa. In the early nineteenth century, the military
+						leader Shaka developed a powerful military state (Zululand, in what is now
+						KwaZulu-Natal), which conquered and incorporated many other peoples. AmaZulu
+						expansion played a key role in the widespread warfare, migrations, and
+						political transformation of southern Africa, known as the Mfecane. Today,
+						the AmaZulu are South Africa's largest ethnic group (Heath
+						2010f:579-80).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0028">
-					<form> <orth>Baakhahela</orth> </form>
-					<def>Reference uncertain. According to Livingstone, an African ethnic group living in the
-						northern part of present-day South Africa to the north of the Basotho nation.</def>
+					<form>
+						<orth>Baakhahela</orth>
+					</form>
+					<def>Reference uncertain. According to Livingstone, an African ethnic group
+						living to the north of the Basotho nation (present-day Lesotho).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0029">
-					<form> <orth>Babimpe</orth> </form>
-					<def>Reference uncertain. According to Livingstone, an African ethnic group based in
-						present-day southern Zambia near the confluence of the Kafue and Zambezi rivers. However, a
-						group by this name is not recorded in more recent sources (Schapera 1960a:49n1).</def>
+					<form>
+						<orth>Babimpe</orth>
+					</form>
+					<def>Reference uncertain. According to Livingstone, an African ethnic group
+						based in present-day southern Zambia near the confluence of the Kafue and
+						Zambezi rivers. However, a group by this name is not recorded in more recent
+						sources (Schapera 1960a:49n1).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0030">
-					<form> <orth>Babindele</orth> </form>
-					<def>Reference uncertain. In his journals, Livingstone describes the group as "servants of the
-						Portuguese" residing on the west African coast (Schapera 1960a:31). </def>
+					<form>
+						<orth>Babindele</orth>
+					</form>
+					<def>Reference uncertain. In his journals, Livingstone describes the group as
+						"servants of the Portuguese" residing on the west African coast (Schapera
+						1960a:31). </def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0031">
-					<form> <orth>Babiriri</orth> </form>
-					<def>Reference uncertain. Possibly the same group referred to in Livingstone's journals as the
-						Babirikwe, who apparently lived near the confluence of the Lungwebungu and Zambezi rivers in
-						present-day Zambia's Western Province (Schapera 1960a:31).</def>
+					<form>
+						<orth>Babiriri</orth>
+					</form>
+					<def>Reference uncertain. Possibly the same group referred to in Livingstone's
+						journals as the Babirikwe, who apparently lived near the confluence of the
+						Lungwebungu and Zambezi rivers in present-day Zambia's Western Province
+						(Schapera 1960a:31).</def>
 				</entry>
 
 				<!-- up to here.JL -->
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0032">
-					<form> <orth>BaFokeng</orth> </form>
-					<def>Called Bahukeng by Livingstone. African ethnic group based in present-day South Africa's
-						North West province, who are part of the larger BaTswana group. Today, their ancestral lands
-						in South Africa are known as the Royal Bafokeng Nation (Schweitzer 2015:36).</def>
+					<form>
+						<orth>BaFokeng</orth>
+					</form>
+					<def>Called Bahukeng by Livingstone. African ethnic group based in present-day
+						South Africa's North West province, who are part of the larger BaTswana
+						group. Today, their ancestral lands in South Africa are known as the Royal
+						Bafokeng Nation (Schweitzer 2015:36).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0033">
-					<form> <orth>BaHurutshe</orth> </form>
-					<def>African ethnic group based in present-day South Africa's North West province, who are part
-						of the larger BaTswana group (Bammann 2016:3).</def>
+					<form>
+						<orth>BaHurutshe</orth>
+					</form>
+					<def>African ethnic group based in present-day South Africa's North West
+						province, who are part of the larger BaTswana group (Bammann 2016:3).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0034">
-					<form> <orth>BaKaa</orth> </form>
-					<def>African ethnic group (and part of the larger BaTswana group) who split from the BaRolong
-						kingdom in the early eighteenth century, to settle near the Shoshong hills in present-day
-						eastern Botswana. They were eventually destroyed as an independent group by the BaNgwato
-						(Otlogetswe and Chebanne 2018:191-92).</def>
+					<form>
+						<orth>BaKaa</orth>
+					</form>
+					<def>African ethnic group (and part of the larger BaTswana group) who split from
+						the BaRolong kingdom in the early eighteenth century, to settle near the
+						Shoshong hills in present-day eastern Botswana. They were eventually
+						destroyed as an independent group by the BaNgwato (Otlogetswe and Chebanne
+						2018:191-92).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0035">
-					<form> <orth>BaKalanga</orth> </form>
-					<def>Called Makalaka by Livingstone. African ethnic group based primarily in present-day
-						north-eastern Botswana and western Zimbabwe, who speak a variant of Shona. The SeTswana term
-						for this group, which Livingstone uses (Makalaka), is often considered pejorative (Morton,
-						Ramsay, and Mgadla 2008:158).</def>
+					<form>
+						<orth>BaKalanga</orth>
+					</form>
+					<def>Called Makalaka by Livingstone. African ethnic group based primarily in
+						present-day north-eastern Botswana and western Zimbabwe, who speak a variant
+						of Shona. The SeTswana term for this group, which Livingstone uses
+						(Makalaka), is often considered pejorative (Morton, Ramsay, and Mgadla
+						2008:158).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0036">
-					<form> <orth>BaKgalagadi</orth> </form>
-					<def>Called Bakalahari by Livingstone. African ethnic group based in present-day Botswana. The
-						name refers to peoples living in the Kalahari Desert and who speak the SeKgalagadi language (a
-						language related to but distinct from SeTswana). In the nineteenth century, the BaKgalagadi
-						played a significant part in Kalahari trade but were increasingly subjugated by BaTswana
-						groups (Morton, Ramsay, and Mgadla 2008:165-66).</def>
+					<form>
+						<orth>BaKgalagadi</orth>
+					</form>
+					<def>Called Bakalahari by Livingstone. African ethnic group based in present-day
+						Botswana. The name refers to peoples living in the Kalahari Desert and who
+						speak the SeKgalagadi language (a language related to but distinct from
+						SeTswana). In the nineteenth century, the BaKgalagadi played a significant
+						part in Kalahari trade but were increasingly subjugated by BaTswana groups
+						(Morton, Ramsay, and Mgadla 2008:165-66).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0037">
-					<form> <orth>BaKgatla</orth> </form>
-					<def>Called Bakatla by Livingstone. African ethnic group based in present-day Botswana and
-						South Africa, who are part of the larger BaTswana group. There are multiple branches of
-						BaKgatla, including the Mmanaana Kgatla and the Kgafela Bakgatla (Morton, Ramsay, and Mgadla
-						2008:164-65, 222).</def>
+					<form>
+						<orth>BaKgatla</orth>
+					</form>
+					<def>Called Bakatla by Livingstone. African ethnic group based in present-day
+						Botswana and South Africa, who are part of the larger BaTswana group. There
+						are multiple branches of BaKgatla, including the Mmanaana Kgatla and the
+						Kgafela Bakgatla (Morton, Ramsay, and Mgadla 2008:164-65, 222).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0038">
-					<form> <orth>BaKgatla-Mosetlha</orth> </form>
-					<def>Called Bamosetla by Livingstone. African ethnic group based in present-day South Africa's
-						North West province, who are part of the larger BaTswana group. They are traditionally
-						considered to be the most senior section of the BaKgatla (Schapera 1961:97n1, Otlogetswe and
-						Chebanne 2018:194).</def>
+					<form>
+						<orth>BaKgatla-Mosetlha</orth>
+					</form>
+					<def>Called Bamosetla by Livingstone. African ethnic group based in present-day
+						South Africa's North West province, who are part of the larger BaTswana
+						group. They are traditionally considered to be the most senior polity of the
+						BaKgatla (Schapera 1961:97n1, Otlogetswe and Chebanne 2018:194).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0039">
-					<form> <orth>Bakoni</orth> </form>
-					<def>Collective term used by the southern BaTswana to refer to Sotho-speaking groups living to
-						the east and north of the Marico (or Madikwe) River (Schapera 1961:54n4).</def>
+					<form>
+						<orth>Bakoni</orth>
+					</form>
+					<def>Collective term used by the southern BaTswana to refer to SeSotho-speaking
+						groups living to the east and north of the Marico (or Madikwe) River
+						(Schapera 1961:54n4).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0040">
-					<form> <orth>BaKurutshe</orth> </form>
-					<def>Called Bakurutse and Bakurutze by Livingstone. African ethnic group based in the eastern
-						part of present-day Botswana, who are considered to be a branch of the Bahurutshe. They are
-						part of the larger BaTswana group (Schapera 1961:137n2; Morton, Ramsay, and Mgadla 2008:179).
-					</def>
+					<form>
+						<orth>BaKurutshe</orth>
+					</form>
+					<def>Called Bakurutse and Bakurutze by Livingstone. African ethnic group based
+						in the eastern part of present-day Botswana, who are considered to be a
+						branch of the Bahurutshe. They are part of the larger BaTswana group
+						(Schapera 1961:137n2; Morton, Ramsay, and Mgadla 2008:179). </def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0041">
-					<form> <orth>BaKwena</orth> </form>
-					<def>Also called Bakwains by Livingstone. African ethnic group primarily based in present-day
-						Botswana. They are traditionally considered to be the most senior of the BaTswana groups
-						resident in Botswana. MoKwena (Mokwain to Livingstone) refers to an individual of this group.
-						Livingstone became a missionary to the BaKwena in 1846 (Morton, Ramsay, and Mgadla
+					<form>
+						<orth>BaKwena</orth>
+					</form>
+					<def>Also called Bakwains by Livingstone. African ethnic group primarily based
+						in present-day Botswana. They are traditionally considered to be the most
+						senior of the BaTswana polities in Botswana. MoKwena (Mokwain to
+						Livingstone) refers to an individual of this group. Livingstone became a
+						missionary to the BaKwena in 1846 (Morton, Ramsay, and Mgadla
 						2008:185-86).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0042">
-					<form> <orth>Bamakakana</orth> </form>
-					<def>Reference uncertain. Nineteenth-century records indicate this was one of various groups
-						who settled in the Highveld of present-day central South Africa in the late eighteenth
-						century. According to Livingstone, this group was part of the Basutho nation founded by
-						Moshoeshoe I (Etherington 2001:22, 41n70).</def>
+					<form>
+						<orth>Bamakakana</orth>
+					</form>
+					<def>Reference uncertain. Nineteenth-century records indicate this was one of
+						various groups who settled in the Highveld of present-day central South
+						Africa in the late eighteenth century. According to Livingstone, this group
+						was part of the Basotho nation (present-day Lesotho) founded by Moshoeshoe I
+						(Etherington 2001:22, 41n70).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0043">
-					<form> <orth>BaNgwaketse</orth> </form>
-					<def>Also called Bangwaketze by Livingstone. African ethnic group based in present-day
-						Botswana, and part of the larger BaTswana group. They are one of the larger sections of
-						BaTswana and trace their origin to an early split with the BaKwena (Morton and Ramsay
-						2018:220).</def>
+					<form>
+						<orth>BaNgwaketse</orth>
+					</form>
+					<def>Also called Bangwaketze by Livingstone. African ethnic group based in
+						present-day Botswana, and part of the larger BaTswana group. They are one of
+						the larger polities of BaTswana and trace their origin to an early split
+						with the BaKwena (Morton and Ramsay 2018:220).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0044">
-					<form> <orth>BaNgwato</orth> </form>
-					<def>Also known as Bamangwato. African ethnic group based in present-day Botswana who are part
-						of the larger BaTswana group. The BaNgwato originated as an offshoot of the BaKwena that
-						became independent in the late eighteenth century (Morton and Ramsay 2018:221).</def>
+					<form>
+						<orth>BaNgwato</orth>
+					</form>
+					<def>Also known as Bamangwato. African ethnic group based in present-day
+						Botswana who are part of the larger BaTswana group. The BaNgwato originated
+						as an offshoot of the BaKwena that became independent in the late eighteenth
+						century (Morton and Ramsay 2018:221).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0045">
-					<form> <orth>Banoga</orth> </form>
-					<def>Reference uncertain. According to Livingstone, a previous BaTswana group of which he found
-						evidence but had ceased to exist by the time of his arrival in southern Africa.</def>
+					<form>
+						<orth>Banoga</orth>
+					</form>
+					<def>Reference uncertain. According to Livingstone, a previous BaTswana group of
+						which he found evidence but had ceased to exist by the time of his arrival
+						in southern Africa.</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0046">
-					<form> <orth>BaPedi</orth> </form>
-					<def>Called Baperi by Livingstone. African ethnic group primarily based in present-day South
-						Africa's Limpopo province, but also in southern Zimbabwe and eastern Botswana (Appiah and
-						Gates Jr. 2010:295; Morton, Ramsay, and Mgadla 2008:265).</def>
+					<form>
+						<orth>BaPedi</orth>
+					</form>
+					<def>Called Baperi by Livingstone. African ethnic group primarily based in
+						present-day South Africa's Limpopo province, but also in southern Zimbabwe
+						and eastern Botswana (Appiah and Gates Jr. 2010:295; Morton, Ramsay, and
+						Mgadla 2008:265).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0047">
-					<form> <orth>BaPhaleng</orth> </form>
-					<def>Called Bapalleng by Livingstone. African ethnic group based in the Kalahari region of
-						present-day Botswana, who are part of the larger BaKgalagadi group (Morton, Ramsay, and Mgadla
-						2008:165)</def>
+					<form>
+						<orth>BaPhaleng</orth>
+					</form>
+					<def>Called Bapalleng by Livingstone. African ethnic group based in the Kalahari
+						region of present-day Botswana, who are part of the larger BaKgalagadi group
+						(Morton, Ramsay, and Mgadla 2008:165)</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0048">
-					<form> <orth>BaPhuthi</orth> </form>
-					<def>Called Baputi by Livingstone. African ethnic group based in present-day Lesotho, who were
-						integrated into the Basotho nation in the 1820s under the rule of Moshoeshoe I (Eldredge
-						1993:43, Rosenberg and Weisfelder 2013:46). </def>
+					<form>
+						<orth>BaPhuthi</orth>
+					</form>
+					<def>Called Baputi by Livingstone. African ethnic group based in present-day
+						Lesotho, who were integrated into the Basotho nation in the 1820s under the
+						rule of Moshoeshoe I (Eldredge 1993:43, Rosenberg and Weisfelder 2013:46).
+					</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0049">
-					<form> <orth>Bapiri</orth> </form>
-					<def>Reference uncertain. Possibly a reference to the Bapedi, whom Livingstone also calls
-						Baperi.</def>
+					<form>
+						<orth>Bapiri</orth>
+					</form>
+					<def>Reference uncertain. Possibly a reference to the Bapedi, whom Livingstone
+						also calls Baperi.</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0050">
-					<form> <orth>BaPo</orth> </form>
-					<def>African ethnic group based in present-day South Africa's North West province, who are part
-						of the larger BaTswana group (Morton 2010:24).</def>
+					<form>
+						<orth>BaPo</orth>
+					</form>
+					<def>African ethnic group based in present-day South Africa's North West
+						province, who are part of the larger BaTswana group (Morton 2010:24).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0051">
-					<form> <orth>BaRolong</orth> </form>
-					<def>African ethnic group based primarily in present-day South Africa's North West province.
-						They are one of the largest BaTswana groups with among the longest recorded histories
-						(Schapera 1961:42n6, Legassick 2010:29, Eldredge 2015:245).</def>
+					<form>
+						<orth>BaRolong</orth>
+					</form>
+					<def>African ethnic group based primarily in present-day South Africa's North
+						West province. They are one of the largest BaTswana polities with among the
+						longest recorded histories (Schapera 1961:42n6, Legassick 2010:29, Eldredge
+						2015:245).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0052">
-					<form> <orth>Basotho</orth> </form>
-					<def>Called Basuto, Basutu, and Basuta by Livingstone. One of the largest ethnic groups of
-						southern Africa. The Basotho nation was founded by Moshoeshoe I in the early nineteenth
-						century and became a major state in the area of present-day Lesotho (Olson 1996:534, Appiah
-						and Gates Jr. 2010:406). </def>
+					<form>
+						<orth>Basotho</orth>
+					</form>
+					<def>Called Basuto, Basutu, and Basuta by Livingstone. One of the largest ethnic
+						groups of southern Africa. The Basotho nation was founded by Moshoeshoe I in
+						the early nineteenth century and became present-day Lesotho, gaining
+						independence from British colonial rule in 1966 (Olson 1996:534, Appiah and
+						Gates Jr. 2010:406). </def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0053">
-					<form> <orth>BaTaung</orth> </form>
-					<def>Called Batau by Livingstone. African ethnic group based primarily in present-day Lesotho,
-						who are part of the larger Basotho group. Having been displaced from the region between the
-						Vaal and Sand rivers by the Ndebele, the BaTaung settled in the territory of the Basotho
-						nation in the 1830s (Rosenberg and Weisfelder 2013:74).</def>
+					<form>
+						<orth>BaTaung</orth>
+					</form>
+					<def>Called Batau by Livingstone. African ethnic group based primarily in
+						present-day Lesotho, who are part of the larger Basotho group. Having been
+						displaced from the region between the Vaal and Sand rivers by the
+						AmaNdebele, the BaTaung settled in the territory of the Basotho nation in
+						the 1830s (Rosenberg and Weisfelder 2013:74).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0054">
-					<form> <orth>BaTawana</orth> </form>
-					<def>Called Batauana by Livingstone. African ethnic group based primarily in present-day
-						Botswana, who are part of the larger BaTswana group. The BaTawana originated as an offshoot of
-						the BaNgwato in the late eighteenth century (Morton, Ramsay, and Mgadla 2008:325).</def>
+					<form>
+						<orth>BaTawana</orth>
+					</form>
+					<def>Called Batauana by Livingstone. African ethnic group based primarily in
+						present-day Botswana, who are part of the larger BaTswana group. The
+						BaTawana originated as an offshoot of the BaNgwato in the late eighteenth
+						century (Morton, Ramsay, and Mgadla 2008:325).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0055">
-					<form> <orth>BaTeti</orth> </form>
-					<def>Called Batletli by Livingstone. African ethnic group based in the Boteti Floodplains of
-						present-day Botswana, who are part of the larger Khoisan group. The BaTeti once spoke Deti, an
-						eastern Khoe language, but this was gradually replaced by SeTswana (Cashdan 1987:125-26,
-						Wilmsen 2002:834).</def>
+					<form>
+						<orth>BaTeti</orth>
+					</form>
+					<def>Called Batletli by Livingstone. African ethnic group based in the Boteti
+						Floodplains of present-day Botswana, who are part of the larger Khoesan
+						group. The BaTeti once spoke Deti, an eastern Khoe language, but this was
+						gradually replaced by SeTswana (Cashdan 1987:125-26, Wilmsen
+						2002:834).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0056">
-					<form> <orth>BaTlhaping</orth> </form>
-					<def>Called Batlapi by Livingstone. African ethnic group based in present-day South Africa's
-						Northern Cape and North West provinces, who are part of the larger BaTswana group. They are
-						the southernmost of the BaTswana (Schapera 1961:16n1).</def>
+					<form>
+						<orth>BaTlhaping</orth>
+					</form>
+					<def>Called Batlapi by Livingstone. African ethnic group based in present-day
+						South Africa's Northern Cape and North West provinces, who are part of the
+						larger BaTswana group. They are the southernmost of the BaTswana (Schapera
+						1961:16n1).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0057">
-					<form> <orth>BaTlharo</orth> </form>
-					<def>Called Bamatlaru by Livingstone. African ethnic group based in present-day South Africa's
-						Northern Cape, who are part of the larger BaTswana group (Schapera 1961:97n2, Comaroff and
-						Comaroff 1997:53).</def>
+					<form>
+						<orth>BaTlharo</orth>
+					</form>
+					<def>Called Bamatlaru by Livingstone. African ethnic group based in present-day
+						South Africa's Northern Cape, who are part of the larger BaTswana group
+						(Schapera 1961:97n2, Comaroff and Comaroff 1997:53).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0058">
-					<form> <orth>BaTlokwa</orth> </form>
-					<def>Called Batlokua by Livingstone. African ethnic group based in present-day Lesotho,
-						Botswana, and South Africa who are part of the larger BaTswana group (Olson 1996:561).</def>
+					<form>
+						<orth>BaTlokwa</orth>
+					</form>
+					<def>Called Batlokua by Livingstone. African ethnic group based in present-day
+						Lesotho, Botswana, and South Africa who are part of the larger BaTswana
+						group (Olson 1996:561).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0059">
-					<form> <orth>Batlou</orth> </form>
-					<def>Reference uncertain. Probably the Batloung, an African ethnic group based in present-day
-						Lesotho (Eldredge 2015:226-27).</def>
+					<form>
+						<orth>Batlou</orth>
+					</form>
+					<def>Reference uncertain. Probably the Batloung, an African ethnic group based
+						in present-day Lesotho (Eldredge 2015:226-27).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0060">
-					<form> <orth>Batonga</orth> </form>
-					<def>Also called Batoka by Livingstone. Major African ethnic group of the Zambezi basin, based
-						primarily in southern Zambia but also in Zimbabwe, Botswana, Malawi, and Mozambique. The
-						Tonga-speaking peoples living in the vicinity of Victoria Falls are known as the Toka-Leya
-						(Nave 2010c:484, Vickery 1986:14).</def>
+					<form>
+						<orth>Batonga</orth>
+					</form>
+					<def>Also called Batoka by Livingstone. Major African ethnic group of the
+						Zambezi basin, based primarily in southern Zambia but also in Zimbabwe,
+						Botswana, Malawi, and Mozambique. The Tonga-speaking peoples living in the
+						vicinity of Victoria Falls are known as the Toka-Leya (Nave 2010c:484,
+						Vickery 1986:14).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0061">
-					<form> <orth>BaTswana</orth> </form>
-					<def>Called Bechuana by Livingstone. Major African ethnic group based in present-day Botswana,
-						Namibia, and South Africa, consisting of numerous subgroups. BaTswana subgroups of present-day
-						Botswana include the BaKwena, BaNgwaketse, BaKgatla, BaLete, BaNgwato, BaRolong, BaTawana, and
-						BaTlkowa (Nave 2010d:498-99).</def>
+					<form>
+						<orth>BaTswana</orth>
+					</form>
+					<def>Called Bechuana by Livingstone. Major African ethnic group based in
+						present-day Botswana, Namibia, and South Africa, consisting of numerous
+						subgroups. BaTswana polities of present-day Botswana include the BaKwena,
+						BaNgwaketse, BaKgatla, BaLete, BaNgwato, BaRolong, BaTawana, and BaTlkowa
+						(Nave 2010d:498-99).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0062">
-					<form> <orth>BaYeyi</orth> </form>
-					<def>Called Bayeiye and Bakoba by Livingstone. Ethnic group based primarily in the Ngamiland
-						region of present-day north-western Botswana. The BaYeyi had been based in the Chobe and
-						Linyanti regions, but began to relocate to Ngamiland in the mid-eighteenth century to escape
-						Lozi expansion (Larson 1989:23-25). </def>
+					<form>
+						<orth>BaYeyi</orth>
+					</form>
+					<def>Called Bayeiye and Bakoba by Livingstone. Ethnic group based primarily in
+						the Ngamiland region of present-day north-western Botswana. The BaYeyi had
+						been based in the Chobe and Linyanti regions, but began to relocate to
+						Ngamiland in the mid-eighteenth century to escape Lozi expansion (Larson
+						1989:23-25). </def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0063">
-					<form> <orth>Cassanges</orth> </form>
-					<def>Name sometimes given to the Mbangala of northern Angola. It derived from the name Kasanje,
-						an early Mbangala leader who founded the Kasanje Kingdom in the upper Kwango (or Cuango) River
-						Valley in the seventeenth century (Schapera 1963,1:55n2; Birmingham 1981:79).</def>
+					<form>
+						<orth>Cassanges</orth>
+					</form>
+					<def>Name sometimes given to the Mbangala of northern Angola. It derived from
+						the name Kasanje, an early Mbangala leader who founded the Kasanje Kingdom
+						in the upper Kwango (or Cuango) River Valley in the seventeenth century
+						(Schapera 1963,1:55n2; Birmingham 1981:79).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0064">
-					<form> <orth>Chokwe</orth> </form>
-					<def>Called Chiboque by Livingstone. Major African ethnic group of Angola, Democratic Republic
-						of the Congo, and Zambia. In the nineteenth century, they had significant involvement in the
-						wax, ivory, and rubber trades, and became one of the wealthiest trading groups of the Congo
-						basin before the advent of Belgian colonialism (Heath 2010b:266-67).</def>
+					<form>
+						<orth>Chokwe</orth>
+					</form>
+					<def>Called Chiboque by Livingstone. Major African ethnic group of Angola,
+						Democratic Republic of the Congo, and Zambia. In the nineteenth century,
+						they had significant involvement in the wax, ivory, and rubber trades, and
+						became one of the wealthiest trading groups of the Congo basin before the
+						advent of Belgian colonialism (Heath 2010b:266-67).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0065">
-					<form> <orth>Damara</orth> </form>
-					<def>African ethnic group based primarily in present-day north-western Namibia, who are one of
-						southern Africa's Khoisan peoples (Barnard 1992:11).</def>
+					<form>
+						<orth>Damara</orth>
+					</form>
+					<def>African ethnic group based primarily in present-day north-western Namibia,
+						who are one of southern Africa's Khoesan peoples (Barnard 1992:11).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0066">
-					<form> <orth>Gogo</orth> </form>
-					<def>Called Bagogo by Livingstone. African ethnic group based in the central highlands of
-						present-day Tanzania (Appiah and Gates Jr. 2010:524).</def>
+					<form>
+						<orth>Gogo</orth>
+					</form>
+					<def>Called Bagogo by Livingstone. African ethnic group based in the central
+						highlands of present-day Tanzania (Appiah and Gates Jr. 2010:524).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0067">
-					<form> <orth>Haco</orth> </form>
-					<def>Also called Ako by Livingstone. African ethnic group based in Angola, who form part of the
-						larger Mbundu group (James 2011:164).</def>
+					<form>
+						<orth>Haco</orth>
+					</form>
+					<def>Also called Ako by Livingstone. African ethnic group based in Angola, who
+						form part of the larger Mbundu group (James 2011:164).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0068">
 					<form><orth>Ila</orth></form>
-					<def>Called Bashukulompo by Livingstone. African ethnic group based in present-day southern
-						Zambia's Kafue Valley (Rijpma 2015:104, Olson 1996:238).</def>
+					<def>Called Bashukulompo by Livingstone. African ethnic group based in
+						present-day southern Zambia's Kafue Valley (Rijpma 2015:104, Olson
+						1996:238).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0069">
-					<form> <orth>Jinga</orth> </form>
+					<form>
+						<orth>Jinga</orth>
+					</form>
 					<def>Name sometimes used for the Mbundu. It was derived from the name of the
 						seventeenth-century Queen of the Ndongo Kingdom, Nzinga a Mbandi (Schapera
 						1963,1:159n5).</def>
@@ -551,274 +738,319 @@
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0070">
-					<form> <orth>Kanyika</orth> </form>
-					<def>Reference uncertain. Livingstone is presumably referring to inhabitants of the Nyika
-						Plateau, which is largely in present-day northern Malawi and partly in north-eastern
-						Zambia.</def>
+					<form>
+						<orth>Kanyika</orth>
+					</form>
+					<def>Reference uncertain. Livingstone is presumably referring to inhabitants of
+						the Nyika Plateau, which is largely in present-day northern Malawi and
+						partly in north-eastern Zambia.</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0071">
-					<form> <orth>Kasabi</orth> </form>
-					<def>Reference uncertain. Livingstone appears to use the term to refer to peoples settled
-						around the upper Kasai River in Angola (Schapera 1963,1:101, 105)</def>
+					<form>
+						<orth>Kasabi</orth>
+					</form>
+					<def>Reference uncertain. Livingstone appears to use the term to refer to
+						peoples settled around the upper Kasai River in Angola (Schapera 1963,1:101,
+						105)</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0072">
-					<form> <orth>Kisama</orth> </form>
-					<def>Also called Quisamas by Livingstone. African ethnic group based in Angola's present-day
-						Quiçama region, who are part of the larger Mbundu group (Schapera 1963,1:170).</def>
+					<form>
+						<orth>Kisama</orth>
+					</form>
+					<def>Also called Quisamas by Livingstone. African ethnic group based in Angola's
+						present-day Quiçama region, who are part of the larger Mbundu group
+						(Schapera 1963,1:170).</def>
 				</entry>
 
-				<!-- MT glossary entry -->
-				<entry xml:id="ethnic0073">
-					<form> <orth>Korana</orth> </form>
-					<def>Called Corannas by Livingstone. African ethnic group who were historic inhabitants of
-						present-day central and northern South Africa, and who belonged to the larger Khoekhoe group.
-						Since the nineteenth century, their descendants have largely assimilated into other southern
-						African populations (Barnard 1992:156).</def>
-				</entry>
-
-				<!-- here -->
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0074">
-					<form> <orth>Landeens</orth></form>
-					<def>Term used by the colonial Portuguese in south-eastern Africa to refer to groups of Ngoni
-						who had arrived on the southern banks of the Zambezi River from the 1830s during the Mfecane
-						(Dritsas 2010:9)</def>
+					<form>
+						<orth>Landeens</orth></form>
+					<def>Term used by the colonial Portuguese in south-eastern Africa to refer to
+						groups of Ngoni who had arrived on the southern banks of the Zambezi River
+						from the 1830s during the Mfecane (Dritsas 2010:9)</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0075">
-					<form> <orth>Langa</orth> </form>
-					<def>Called Balaka and Bamapela by Livingstone. African ethnic group based in present-day
-						northern South Africa, who are part of the larger Ndebele group (Schapera 1961:97n5, Morton
-						2010:31).</def>
+					<form>
+						<orth>Langa</orth>
+					</form>
+					<def>Called Balaka and Bamapela by Livingstone. African ethnic group based in
+						present-day northern South Africa, who are part of the larger AmaNdebele
+						group (Schapera 1961:97n5, Morton 2010:31).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0076">
-					<form> <orth>Libolo</orth> </form>
-					<def>Called Libollo by Livingstone. African ethnic group based in north-central Angola, who are
-						part of the larger Mbundu group (James 2011:164, Olson 1996:335).</def>
+					<form>
+						<orth>Libolo</orth>
+					</form>
+					<def>Called Libollo by Livingstone. African ethnic group based in north-central
+						Angola, who are part of the larger Mbundu group (James 2011:164, Olson
+						1996:335).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0077">
-					<form> <orth>Lozi</orth> </form>
-					<def>Called Barotse by Livingstone. African ethnic group based primarily in present-day Zambia.
-						They established themselves in the Zambezi Floodplain in the seventeenth century where they
-						developed an expansionist state. The Lozi were conquered by the Makololo in the 1830s, but
-						re-established their independence through an uprising in 1864. The Lozi traditionally called
-						themselves the Luyi or Luyana, which accounts for Livingstone's alternative names: Baloiana
-						and little Baloi (Nave 2010b:87). </def>
+					<form>
+						<orth>Lozi</orth>
+					</form>
+					<def>Called Barotse by Livingstone. African ethnic group based primarily in
+						present-day Zambia. They established themselves in the Zambezi Floodplain in
+						the seventeenth century where they developed an expansionist state. The Lozi
+						were conquered by the Makololo in the 1830s, but re-established their
+						independence through an uprising in 1864. The Lozi traditionally called
+						themselves the Luyi or Luyana, which accounts for Livingstone's alternative
+						names: Baloiana and little Baloi (Nave 2010b:87). </def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0078">
-					<form> <orth>Lunda</orth> </form>
-					<def>Called Balonda, Balunda, and Baloi by Livingstone. African ethnic group of present-day
-						Democratic Republic of the Congo, Zambia, and Angola. The Lunda established a kingdom in
-						central Africa in the fifteenth century, which eventually developed into a powerful
-						commonwealth of interlinking states. The Lunda became increasingly involved in long-distance
-						commerce in the seventeenth century, and played an important role in the slave and ivory
+					<form>
+						<orth>Lunda</orth>
+					</form>
+					<def>Called Balonda, Balunda, and Baloi by Livingstone. African ethnic group of
+						present-day Democratic Republic of the Congo, Zambia, and Angola. The Lunda
+						established a kingdom in central Africa in the fifteenth century, which
+						eventually developed into a powerful commonwealth of interlinking states.
+						The Lunda became increasingly involved in long-distance commerce in the
+						seventeenth century, and played an important role in the slave and ivory
 						trades of the eighteenth and nineteenth centuries (Heath 2010d:91-92, Macola
 						2016b:1320-22).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0079">
-					<form> <orth>Luvale</orth> </form>
-					<def>Called Balobale by Livingstone. African ethnic group based primarily in north-western
-						Zambia and in eastern Angola. Luvale traditions connect the group closely with the Lunda
-						people (Olson 1996:351).</def>
+					<form>
+						<orth>Luvale</orth>
+					</form>
+					<def>Called Balobale by Livingstone. African ethnic group based primarily in
+						north-western Zambia and in eastern Angola. Luvale traditions connect the
+						group closely with the Lunda people (Olson 1996:351).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0080">
-					<form> <orth>Makatla</orth> </form>
-					<def>Reference uncertain. According to Livingstone, this group was part of the Basutho nation
-						founded by Moshoeshoe I.</def>
+					<form>
+						<orth>Makatla</orth>
+					</form>
+					<def>Reference uncertain. According to Livingstone, this group was part of the
+						Basotho nation (present-day Lesotho) founded by Moshoeshoe I.</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0081">
-					<form> <orth>Makolokue</orth> </form>
-					<def>Reference uncertain. According to Livingstone, this group was part of the Basutho nation
-						founded by Moshoeshoe I. Livingstone is possibly referring to inhabitants of Makolokwe in
+					<form>
+						<orth>Makolokue</orth>
+					</form>
+					<def>Reference uncertain. According to Livingstone, this group was part of the
+						Basotho nation (present-day Lesotho) founded by Moshoeshoe I. It is also
+						possible that Livingstone is referring to inhabitants of Makolokwe in
 						present-day South Africa's North West province.</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0082">
-					<form> <orth>Makololo</orth> </form>
-					<def>African ethnic group based primarily in present-day Zambia's Western Province, who are
-						part of the larger Basotho group. The Makololo's founder was initially a BaFokeng leader based
-						in present-day South Africa's Free State. Displaced by the political upheaval in the early
-						nineteenth century (known as the Mfecane), the group migrated north and came to settle in the
-						Zambezi Valley in present-day Zambia around 1840. Makololo porters, sent by chief Sekeletu,
-						journeyed with Livingstone on his famous African transcontinental journey (1852-56) (Kalusa
-						2009:60-61).</def>
+					<form>
+						<orth>Makololo</orth>
+					</form>
+					<def>African ethnic group based primarily in present-day Zambia's Western
+						Province, who are part of the larger Basotho group. The Makololo's founder
+						was initially a BaFokeng leader based in present-day South Africa's Free
+						State. Displaced by the political upheaval in the early nineteenth century
+						(known as the Mfecane), the group migrated north and came to settle in the
+						Zambezi Valley in present-day Zambia around 1840. Makololo porters, sent by
+						chief Sekeletu, journeyed with Livingstone on his famous African
+						transcontinental journey (1852-56) (Kalusa 2009:60-61).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0083">
-					<form> <orth>Mambari</orth> </form>
-					<def>Name given to Ovimbundu traders from Angola who had established long distance caravan
-						routes in central Africa (Birmingham 1981:86)</def>
+					<form>
+						<orth>Mambari</orth>
+					</form>
+					<def>Name given to Ovimbundu traders from Angola who had established long
+						distance caravan routes in central Africa (Birmingham 1981:86).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0084">
-					<form> <orth>Mang'anja</orth> </form>
-					<def>Called Maganja by Livingstone. African ethnic group based in present-day southern Malawi,
-						who are part of the larger Maravi group. The Mang'anja are often described as the earliest
-						occupants of Malawi's Shire Highlands and Shire Valley (Morris 2016:59, Kalinga
-						2012:281).</def>
+					<form>
+						<orth>Mang'anja</orth>
+					</form>
+					<def>Called Maganja by Livingstone. African ethnic group based in present-day
+						southern Malawi, who are part of the larger Maravi group. The Mang'anja are
+						often described as the earliest occupants of Malawi's Shire Highlands and
+						Shire Valley (Morris 2016:59, Kalinga 2012:281).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0085">
-					<form> <orth>Mang'ete</orth> </form>
-					<def>Called Banyeti and Manyeti by Livingstone. Livingstone's usage suggests this is a specific
-						ethnic group, but the word is actually a Lozi term meaning "foreigners" (Colson and Gluckman
-						1959:19; Schapera 1963,1:14n3).</def>
+					<form>
+						<orth>Mang'ete</orth>
+					</form>
+					<def>Called Banyeti and Manyeti by Livingstone. Livingstone's usage suggests
+						this is a specific ethnic group, but the word is actually a Lozi term
+						meaning "foreigners" (Colson and Gluckman 1959:19; Schapera
+						1963,1:14n3).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0086">
-					<form> <orth>Maravi</orth> </form>
-					<def>Cluster of related ethnic groups who traditionally consider themselves to be descendants
-						of the Maravi States, a confederacy established by groups who migrated into central and
-						southern Malawi and the Shire Valley in the late fifteenth century, and which declined in the
-						1700s. Maravi groups include the Chipeta, the Chewa, the Nyanja, and the Mang'anja (Darch
-						2019:246-47, Morris 2016:62).</def>
+					<form>
+						<orth>Maravi</orth>
+					</form>
+					<def>Cluster of related ethnic groups who traditionally consider themselves to
+						be descendants of the Maravi States, a confederacy established by groups who
+						migrated into central and southern Malawi and the Shire Valley in the late
+						fifteenth century, and which declined in the 1700s. Maravi groups include
+						the Chipeta, the Chewa, the Nyanja, and the Mang'anja (Darch 2019:246-47,
+						Morris 2016:62).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0087">
-					<form> <orth>Matlapatlapa</orth> </form>
-					<def>Reference uncertain. Nineteenth-century records indicate this was one of various groups
-						who settled in the Highveld of present-day central South Africa in the late eighteenth
-						century. According to Livingstone, this group was part of the Basutho nation founded by
-						Moshoeshoe I (Etherington 2001:22, 41n70).</def>
+					<form>
+						<orth>Matlapatlapa</orth>
+					</form>
+					<def>Reference uncertain. Nineteenth-century records indicate this was one of
+						various groups who settled in the Highveld of present-day central South
+						Africa in the late eighteenth century. According to Livingstone, this group
+						was part of the Basotho nation (present-day Lesotho) founded by Moshoeshoe I
+						(Etherington 2001:22, 41n70).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0088">
-					<form> <orth>Mbangala</orth> </form>
-					<def>Called Bangala by Livingstone. African ethnic group of northern and eastern Angola. The
-						Mbangala were involved in long-distance commerce to the Angolan coast from the seventeenth
-						century, and became an important trading partner of the central Lunda (or Ruund) (Oppen
-						1993:56).</def>
+					<form>
+						<orth>Mbangala</orth>
+					</form>
+					<def>Called Bangala by Livingstone. African ethnic group of northern and eastern
+						Angola. The Mbangala were involved in long-distance commerce to the Angolan
+						coast from the seventeenth century, and became an important trading partner
+						of the central Lunda (or Ruund) (Oppen 1993:56).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0089">
-					<form> <orth>Mbundu</orth> </form>
-					<def>Called Ambonda and Ambunda by Livingstone. Major African ethnic group based primarily in
-						Angola's north-western and north-central regions. Today, the Mbundu are Angola's second
-						largest ethnic group following the Ovimbundu (Young 2010a:163-64).</def>
+					<form>
+						<orth>Mbundu</orth>
+					</form>
+					<def>Called Ambonda and Ambunda by Livingstone. Major African ethnic group based
+						primarily in Angola's north-western and north-central regions. Today, the
+						Mbundu are Angola's second largest ethnic group following the Ovimbundu
+						(Young 2010a:163-64).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0090">
-					<form> <orth>Mfengu</orth> </form>
-					<def>Called Fingoe by Livingstone. African ethnic group based primarily in present-day South
-						Africa's Eastern Cape. They were formed over time from a variety of immigrant groups who
-						arrived in AmaXhosa territory. In the nineteenth century, the term Fingo was also used with
-						less specificity to refer to workers from the AmaXhosa homelands seeking employment in the
-						Cape Colony (Keegan 1996:146, Appiah and Gates Jr. 2010:168). </def>
+					<form>
+						<orth>Mfengu</orth>
+					</form>
+					<def>Called Fingoe by Livingstone. African ethnic group based primarily in
+						present-day South Africa's Eastern Cape. They were formed over time from a
+						variety of immigrant groups who arrived in AmaXhosa territory. In the
+						nineteenth century, the term Fingo was also used with less specificity to
+						refer to workers from the AmaXhosa homelands seeking employment in the Cape
+						Colony (Keegan 1996:146, Appiah and Gates Jr. 2010:168). </def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0091">
-					<form> <orth>Najwa</orth> </form>
-					<def>Called Banajoa by Livingstone. African ethnic group based in present-day Botswana. They
-						were originally Namyba speakers who relocated from present-day Zimbabwe as a result of
-						conflict with the Ndebele, and settled near the Boteti River (Schapera 1960a:14n3; Frawley
+					<form>
+						<orth>Najwa</orth>
+					</form>
+					<def>Called Banajoa by Livingstone. African ethnic group based in present-day
+						Botswana. They were originally Namyba speakers who relocated from
+						present-day Zimbabwe as a result of conflict with the AmaNdebele, and
+						settled near the Boteti River (Schapera 1960a:14n3; Frawley
 						2003,3:126).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
-				<entry xml:id="ethnic0092">
-					<form> <orth>Ndebele</orth> </form>
-					<def>Called Matibele and Makonkobi by Livingstone. African ethnic group of present-day
-						Zimbabwe, South Africa, and Botswana. The group was founded by Mzilikazi, who established the
-						Ndebele state, Matabeleland, around 1840 (Young 2010b:222-23).</def>
-				</entry>
-
-				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0093">
-					<form> <orth>Ovimbundu</orth> </form>
-					<def>Called Kimbonda by Livingstone. Major African ethnic group primarily based in Angola's
-						central regions. By the late eighteenth century, Ovimbundu states had established an extensive
-						trading network from the Angolan coast into the interior. Today, the Ovimbundu are Angola's
-						largest ethnic group (Birmingham 1981:85-87, Young 2010c:281).</def>
+					<form>
+						<orth>Ovimbundu</orth>
+					</form>
+					<def>Called Kimbonda by Livingstone. Major African ethnic group primarily based
+						in Angola's central regions. By the late eighteenth century, Ovimbundu
+						states had established an extensive trading network from the Angolan coast
+						into the interior. Today, the Ovimbundu are Angola's largest ethnic group
+						(Birmingham 1981:85-87, Young 2010c:281).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0094">
-					<form> <orth>Sangu</orth> </form>
-					<def>Also known historically as the Rori. Called Baroro by Livingstone. African ethnic group
-						based in present-day Tanzania, and settled primarily in the Mbeya and Iringa regions (Olson
-						1996:509).</def>
+					<form>
+						<orth>Sangu</orth>
+					</form>
+					<def>Also known historically as the Rori. Called Baroro by Livingstone. African
+						ethnic group based in present-day Tanzania, and settled primarily in the
+						Mbeya and Iringa regions (Olson 1996:509).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0095">
-					<form> <orth>Shinji</orth> </form>
-					<def>Called Bashinje and Chinge by Livingstone. African ethnic group based in northern and
-						eastern Angola, who are part of the larger Lunda group (Schapera 1963,1:123n1; Oppen
-						1993:212).</def>
+					<form>
+						<orth>Shinji</orth>
+					</form>
+					<def>Called Bashinje and Chinge by Livingstone. African ethnic group based in
+						northern and eastern Angola, who are part of the larger Lunda group
+						(Schapera 1963,1:123n1; Oppen 1993:212).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0096">
-					<form> <orth>Shona</orth> </form>
-					<def>Also known as Mashona. Major African ethnic group of present-day Zimbabwe, southern
-						Zambia, and west-central Mozambique. The Shona consist of a number of linguistic subgroups who
-						speak variants of the same language, including the Korekore, Zezuru, Karanga, Kalanga,
-						Manyika, and Nadau (Young 2010d:379).</def>
+					<form>
+						<orth>Shona</orth>
+					</form>
+					<def>Also known as Mashona. Major African ethnic group of present-day Zimbabwe,
+						southern Zambia, and west-central Mozambique. The Shona consist of a number
+						of linguistic subgroups who speak variants of the same language, including
+						the Korekore, Zezuru, Karanga, Kalanga, Manyika, and Nadau (Young
+						2010d:379).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0097">
-					<form> <orth>Songo</orth> </form>
-					<def>Called Basongo by Livingstone. African ethnic group based in present-day north-central
-						Angola, who are part of the larger Mbundu group (Olson 1996:532, James 2011:164).</def>
+					<form>
+						<orth>Songo</orth>
+					</form>
+					<def>Called Basongo by Livingstone. African ethnic group based in present-day
+						north-central Angola, who are part of the larger Mbundu group (Olson
+						1996:532, James 2011:164).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0098">
-					<form> <orth>Subiya</orth> </form>
-					<def>Called Bashubia by Livingstone. African ethnic group based primarily in present-day
-						Botswana, as well as south-western Zambia and Namibia's Caprivi Strip. They were subject to
-						the Makololo during the period of Makololo ascendancy from the 1830s to 1864 (Olson 1996:536,
-						Kanguma 2011:36-38).</def>
+					<form>
+						<orth>Subiya</orth>
+					</form>
+					<def>Called Bashubia by Livingstone. African ethnic group based primarily in
+						present-day Botswana, as well as south-western Zambia and Namibia's Caprivi
+						Strip. They were subject to the Makololo during the period of Makololo
+						ascendancy from the 1830s to 1864 (Olson 1996:536, Kanguma
+						2011:36-38).</def>
 				</entry>
 
 				<!-- MT glossary entry -->
 				<entry xml:id="ethnic0099">
-					<form> <orth>Watuta</orth> </form>
-					<def>Called Batutu by Livingstone. Itinerant Ngoni in and around lakes Tanganyika and Victoria.
-						In the early 1820s, the Ngoni began to migrate from the south under the leadership of
-						Zwangendaba, eventually crossing the Zambezi River in 1835. Following his death around 1845,
-						the group splintered into separate states, with one branch becoming known as the Watuta
-						(Rockel 2012:224, Spear 2012:253-54).</def>
+					<form>
+						<orth>Watuta</orth>
+					</form>
+					<def>Called Batutu by Livingstone. Itinerant Ngoni in and around lakes
+						Tanganyika and Victoria. In the early 1820s, the Ngoni began to migrate from
+						the south under the leadership of Zwangendaba, eventually crossing the
+						Zambezi River in 1835. Following his death around 1845, the group splintered
+						into separate states, with one branch becoming known as the Watuta (Rockel
+						2012:224, Spear 2012:253-54).</def>
 				</entry>
 
-				<!-- MT glossary entry -->
-				<entry xml:id="ethnic0100">
-					<form> <orth>Zulu</orth> </form>
-					<def>Major African ethnic group (and part of the Nguni linguistic group) of present-day South
-						Africa. In the early nineteenth century, the military leader Shaka developed a powerful
-						military state (Zululand, in what is now KwaZulu-Natal), which conquered and incorporated many
-						other peoples. Zulu expansion played a key role in the widespread warfare, migrations, and
-						political transformation of southern Africa, known as the Mfecane. Today, the Zulu are South
-						Africa's largest ethnic group (Heath 2010f:579-80).</def>
-				</entry>
 
 			</div>
 		</body>

@@ -14,11 +14,12 @@
 				<authority>Livingstone Online</authority>
 				<publisher>University of Maryland Libraries</publisher>
 				<pubPlace>College Park, MD, USA</pubPlace>
-				<date>2017</date>
+				<date>2019</date>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
-						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
-						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c)
+						Livingstone Online. <ref
+							target="https://creativecommons.org/licenses/by-nc/3.0/">Creative
+							Commons Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -35,66 +36,74 @@
 
 				<place xml:id="sett0001" type="settlement_town">
 					<placeName type="main">Bagamoyo</placeName>
-					<note type="editorial">East African costal town in present-day Tanzania that served as one of
-						the most important trading ports of the nineteenth century.</note>
+					<note type="editorial">East African costal town in present-day Tanzania that
+						served as one of the most important trading ports of the nineteenth
+						century.</note>
 				</place>
 
 				<place xml:id="sett0002" type="settlement_village">
 					<placeName type="main">Bambarre</placeName>
-					<note type="editorial">Also Bambare, Kabambare, and Kabambarre. Village in Maniema, an eastern
-						region in present-day Democratic Republic of the Congo. Livingstone stayed there 21
-						September-1 November 1869, 19-26 December 1869, and 22 July 1870-16 February 1871, and wrote
-						most of the 1870 Field Diary there.</note>
+					<note type="editorial">Also Bambare, Kabambare, and Kabambarre. Village in
+						Maniema, an eastern region in present-day Democratic Republic of the Congo.
+						Livingstone stayed there 21 September-1 November 1869, 19-26 December 1869,
+						and 22 July 1870-16 February 1871, and wrote most of the 1870 Field Diary
+						there.</note>
 				</place>
 
 				<place xml:id="sett0003" type="settlement">
 					<placeName type="main">Delphi</placeName>
-					<note type="editorial">City in Greece known for its oracle in ancient times.</note>
+					<note type="editorial">City in Greece known for its oracle in ancient
+						times.</note>
 				</place>
 
 				<place xml:id="sett0004" type="settlement_village">
 					<placeName type="main">Kanyembo</placeName>
-					<note type="editorial">In present-day northern Zambia. The capital of Cazembe (Kazembe VIII),
-						chief of the Lunda.</note>
+					<note type="editorial">In present-day northern Zambia. The capital of Cazembe
+						(Kazembe VIII), chief of the Lunda.</note>
 				</place>
 
 				<place xml:id="sett0005" type="settlement_village">
 					<placeName type="main">Kasongo</placeName>
-					<note type="editorial">Village in Maniema, an eastern region in present-day Democratic Republic
-						of the Congo, lying to the east of the Lualaba River. One of the key nineteenth-century
-						outposts for Zanzibari traders</note>
+					<note type="editorial">Village in Maniema, an eastern region in present-day
+						Democratic Republic of the Congo, lying to the east of the Lualaba River.
+						One of the key nineteenth-century outposts for Zanzibari traders</note>
 				</place>
 
 				<place xml:id="sett0016" type="settlement_town">
 					<placeName type="main">Kilwa</placeName>
-					<note type="editorial">Collective name for Kilwa Kisiwani, Kilwa Kivinje, and Kilwa Masoko, all
-						in present-day Tanzania. One of the most important centers for the slave trade on the east
-						coast of Africa in the nineteenth century.</note>
+					<note type="editorial">Collective name for Kilwa Kisiwani, Kilwa Kivinje, and
+						Kilwa Masoko, all in present-day Tanzania. One of the most important centers
+						for the slave trade on the east coast of Africa in the nineteenth
+						century.</note>
 				</place>
 
 				<place xml:id="sett0006" type="settlement_village">
 					<!-- Entry slightly adapted by JL, to include dates. JL -->
 					<placeName type="main">Kolobeng</placeName>
-					<note type="editorial">Livingstone's third mission station, near Gaborone in present-day
-						Botswana. Livingstone, Sechele, and the BaKwena settled here in 1847 following serious water
-						shortage at Chonuane. From Kolobeng, Livingstone journeyed to Lake Ngami (1849), and laid
-						plans to make contact with Sebitwane (1851) and explore the Zambezi. A group of Transvaal
-						Boers ransacked the Kolobeng mission in 1852 as part of an attack on Sechele.</note>
+					<note type="editorial">Livingstone's third mission station, near Gaborone in
+						present-day Botswana. Livingstone, Sechele, and the BaKwena settled here in
+						1847 following serious water shortage at Chonuane. From Kolobeng,
+						Livingstone journeyed to Lake Ngami (1849), and laid plans to make contact
+						with Sebitwane (1851) and explore the Zambezi. A group of Transvaal Boers
+						ransacked the Kolobeng mission in 1852 as part of an attack on
+						Sechele.</note>
 				</place>
 
 				<place xml:id="sett0007" type="settlement_village">
 					<placeName type="main">Kuruman</placeName>
-					<note type="editorial">London Missionary Society (LMS) mission to the BaTlhaping (a SeTswana
-						speaking group) in the Northern Cape of present-day South Africa. Owed its origins to the work
-						of missionary James Read and was developed in the 1820s by Robert and Mary Moffat, later
-						Livingstone's parents-in-law. When Livingstone arrived, Kuruman was the northernmost of the
-						LMS's mission stations in southern Africa and was considered to be a prototype of a successful
-						mission station.</note>
+					<note type="editorial">London Missionary Society (LMS) mission to the BaTlhaping
+						(a SeTswana speaking group) in the Northern Cape of present-day South
+						Africa. Owed its origins to the work of missionary James Read and was
+						developed in the 1820s by Robert and Mary Moffat, later Livingstone's
+						parents-in-law. When Livingstone arrived, Kuruman was the northernmost of
+						the LMS's mission stations in southern Africa and was considered to be a
+						prototype of a successful mission station.</note>
 				</place>
 
 				<place xml:id="sett0008" type="settlement_town">
 					<placeName type="main">Lebadea</placeName>
-					<note type="editorial">Town in ancient Greece (Livadeia in modern Greece).</note>
+					<note type="editorial">Town in ancient Greece (Livadeia in modern
+						Greece).</note>
 				</place>
 
 				<place xml:id="sett0017" type="settlement_village">
@@ -115,14 +124,16 @@
 
 				<place xml:id="sett0011" type="settlement_city">
 					<placeName type="main">Nineveh</placeName>
-					<note type="editorial">Ancient city of Upper Mesopotamia, located in modern-day Iraq.</note>
+					<note type="editorial">Ancient city of Upper Mesopotamia, located in modern-day
+						Iraq.</note>
 				</place>
 
 				<place xml:id="sett0012" type="settlement_village">
 					<placeName type="main">Nyangwe</placeName>
-					<note type="editorial">Village and marketplace on the banks of the Lualaba River in Maniema, an
-						eastern region in present-day Democratic Republic of the Congo. Livingstone stayed there 23
-						March-20 July 1871 and wrote most of the 1871 Field Diary there.</note>
+					<note type="editorial">Village and marketplace on the banks of the Lualaba River
+						in Maniema, an eastern region in present-day Democratic Republic of the
+						Congo. Livingstone stayed there 23 March-20 July 1871 and wrote most of the
+						1871 Field Diary there.</note>
 				</place>
 
 				<place xml:id="sett0013" type="settlement_city">
@@ -132,16 +143,16 @@
 
 				<place xml:id="sett0014" type="settlement_village">
 					<placeName type="main">Ujiji</placeName>
-					<note type="editorial">Village on the eastern shore of Lake Tanganyika. In the nineteenth
-						century, Ujiji was one of the major trading depots in the Arab-African trading network of east
-						Africa.</note>
+					<note type="editorial">Village on the eastern shore of Lake Tanganyika. In the
+						nineteenth century, Ujiji was one of the major trading depots in the
+						Arab-African trading network of east Africa.</note>
 				</place>
 
 				<place xml:id="sett0015" type="settlement_town">
 					<placeName type="main">Unyanyembe</placeName>
-					<note type="editorial">Town in the central part of present-day Tanzania that, in the nineteenth
-						century, served as one of the major depots on the trade routes that ran between the east coast
-						of Africa and the interior.</note>
+					<note type="editorial">Town in the central part of present-day Tanzania that, in
+						the nineteenth century, served as one of the major depots on the trade
+						routes that ran between the east coast of Africa and the interior.</note>
 				</place>
 
 
@@ -151,208 +162,226 @@
 				<!-- MT glossary entry -->
 				<place xml:id="sett0018" type="settlement_town">
 					<placeName type="main">Aden</placeName>
-					<note type="editorial">Port in Yemen, under British governance from 1839–1967. It occupied a
-						strategic position between Africa and the Middle East, and played an important role in
-						Britain's imperial trade network.</note>
+					<note type="editorial">Port in Yemen, under British governance from 1839–1967.
+						It occupied a strategic position between Africa and the Middle East, and
+						played an important role in Britain's imperial trade network.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0019" type="settlement_village">
 					<placeName type="main">Ambaca</placeName>
-					<note type="editorial">Early Portuguese trading centre in north-western Angola. From the
-						seventeenth century it was one of the most important towns in the slave trade, occupying a key
-						location on the caravan route between the Angolan interior and Luanda. It is estimated that in
-						1845, over half of the district's population of around 73,000 individuals were slaves (Vansina
+					<note type="editorial">Early Portuguese trading centre in north-western Angola.
+						From the seventeenth century it was one of the most important towns in the
+						slave trade, occupying a key location on the caravan route between the
+						Angolan interior and Luanda. It is estimated that in 1845, over half of the
+						district's population of around 73,000 individuals were slaves (Vansina
 						2005:1-2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0020" type="settlement_village">
 					<placeName type="main">Ambriz</placeName>
-					<note type="editorial">Slave port in Angola, about seventy miles north of Luanda. It had long
-						been a point of departure for slaves headed to the Americas, but was only occupied by the
-						Portuguese in 1855. In his journals, Livingstone describes it as a "notorious nest of
-						slave-dealers" (Birmingham 2015:35; Schapera 1963,1:156n2, 189)</note>
+					<note type="editorial">Slave port in Angola, about seventy miles north of
+						Luanda. It had long been a point of departure for slaves headed to the
+						Americas, but was only occupied by the Portuguese in 1855. In his journals,
+						Livingstone describes it as a "notorious nest of slave-dealers" (Birmingham
+						2015:35; Schapera 1963,1:156n2, 189)</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0021" type="settlement_city">
 					<placeName type="main">Babel</placeName>
-					<note type="editorial">City in the land of "Shinar" described in the Old Testament. According
-						to the book of Genesis, the inhabitants set out to construct an enormous tower "to make a name
-						for [them]selves," before God intervened by confounding the language of the people and
-						scattering them "over the face of the whole earth" (Genesis 11:1–9).</note>
+					<note type="editorial">City in the land of "Shinar" described in the Old
+						Testament. According to the book of Genesis, the inhabitants set out to
+						construct an enormous tower "to make a name for [them]selves," before God
+						intervened by confounding the language of the people and scattering them
+						"over the face of the whole earth" (Genesis 11:1–9).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0022" type="settlement_village">
 					<placeName type="main">Bango</placeName>
-					<note type="editorial">Village in north-western Angola, in the vicinity of Golungo Alto in
-						present-day Cuanza Norte Province. It was probably a Mbundu settlement.</note>
+					<note type="editorial">Village in north-western Angola, in the vicinity of
+						Golungo Alto in present-day Cuanza Norte Province. It was probably a Mbundu
+						settlement.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0023" type="settlement_town">
 					<placeName type="main">Bannockburn</placeName>
-					<note type="editorial">Historic country in central Scotland and the location of the Battle of
-						Bannockburn (1314) in which Robert the Bruce defeated the English army under Edward II. See
-						also Robert I (Robert the Bruce).</note>
+					<note type="editorial">Historic country in central Scotland and the location of
+						the Battle of Bannockburn (1314) in which Robert the Bruce defeated the
+						English army under Edward II. See also Robert I (Robert the Bruce).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0024" type="settlement_city">
 					<placeName type="main">Benguela</placeName>
-					<note type="editorial">City on the west coast of Angola. It was founded in 1617 by the
-						Portuguese and became a major port for the trade and transportation of slaves (James
-						2011:40).</note>
+					<note type="editorial">City on the west coast of Angola. It was founded in 1617
+						by the Portuguese and became a major port for the trade and transportation
+						of slaves (James 2011:40).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0025" type="settlement_village">
 					<placeName type="main">Blantyre</placeName>
-					<note type="editorial">Industrial and mining town about eight miles south-east of Glasgow in
-						South Lanarkshire, Scotland, and the birthplace of David Livingstone.</note>
+					<note type="editorial">Industrial and mining town about eight miles south-east
+						of Glasgow in South Lanarkshire, Scotland, and the birthplace of David
+						Livingstone.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0026" type="settlement_city">
 					<placeName type="main">Bloemfontein</placeName>
-					<note type="editorial">City in present-day South Africa's Free State. It was the capital city
-						of the Orange Free State (1854–1902), one of the independent Boer Republics.</note>
+					<note type="editorial">City in present-day South Africa's Free State. It was the
+						capital city of the Orange Free State (1854–1902), one of the independent
+						Boer Republics.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0027" type="settlement_farm">
 					<placeName type="main">Boomplaats</placeName>
-					<note type="editorial">Site of the battle of Boomplaats, about fifty miles south of
-						Bloemfontein in present-day South Africa's Free State. Following the annexation of the Orange
-						River Sovereignty, a contingent of Boers under Andries Pretorius rebelled and installed itself
-						at Boomplaats farm. They were defeated by the British, led by Sir Harry Smith, on 29th August
-						1848 (Raugh 2004:56).</note>
+					<note type="editorial">Site of the battle of Boomplaats, about fifty miles south
+						of Bloemfontein in present-day South Africa's Free State. Following the
+						annexation of the Orange River Sovereignty, a contingent of Boers under
+						Andries Pretorius rebelled and installed itself at Boomplaats farm. They
+						were defeated by the British, led by Sir Harry Smith, on 29th August 1848
+						(Raugh 2004:56).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0028" type="settlement_village">
 					<placeName type="main">Bothithong</placeName>
-					<note type="editorial">Called Motito by Livingstone. Village in the north-eastern part of
-						present-day South Africa's Northern Cape, where the Société des Missions Évangélique de Paris
-						(Paris Evangelical Missionary Society) established its first mission station in 1833 (Newcomb
-						1855:47-48, Mosimann-Barbier 2014:21).</note>
+					<note type="editorial">Called Motito by Livingstone. Village in the
+						north-eastern part of present-day South Africa's Northern Cape, where the
+						Société des Missions Évangélique de Paris (Paris Evangelical Missionary
+						Society) established its first mission station in 1833 (Newcomb 1855:47-48,
+						Mosimann-Barbier 2014:21).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0029" type="settlement_village">
 					<placeName type="main">Bothwell</placeName>
-					<note type="editorial">Village in South Lanarkshire, Scotland. Bothwell Bridge, over the River
-						Clyde, was the site of the defeat of the Presbyterian Covenanters in 1679 by the Royalists
-						under the Duke of Monmouth. The area is also home to the medieval Bothwell Castle, where
-						repeated battles were fought during the Scottish Wars of Independence in the late thirteenth
-						and early fourteenth centuries (Chisholm 1910-11,4:304; Hull 2008:82).</note>
+					<note type="editorial">Village in South Lanarkshire, Scotland. Bothwell Bridge,
+						over the River Clyde, was the site of the defeat of the Presbyterian
+						Covenanters in 1679 by the Royalists under the Duke of Monmouth. The area is
+						also home to the medieval Bothwell Castle, where repeated battles were
+						fought during the Scottish Wars of Independence in the late thirteenth and
+						early fourteenth centuries (Chisholm 1910-11,4:304; Hull 2008:82).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0030" type="settlement_village">
 					<placeName type="main">Cabango</placeName>
-					<note type="editorial">Lunda village in north-eastern Angola, around forty-five miles east of
-						Saurimo in present-day Lunda Sul Province (Schapera 1963,2:242n2).</note>
+					<note type="editorial">Lunda village in north-eastern Angola, around forty-five
+						miles east of Saurimo in present-day Lunda Sul Province (Schapera
+						1963,2:242n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0031" type="settlement_town">
 					<placeName type="main">Cabinda</placeName>
-					<note type="editorial">Portuguese station in north-western Angola, in present-day Cuanza Norte
-						Province. According to Livingstone's journal, it was four and a half hours east of Golungo
-						Alto on the road to Ambaca (Schapera 1963,1:180).</note>
+					<note type="editorial">Portuguese station in north-western Angola, in
+						present-day Cuanza Norte Province. According to Livingstone's journal, it
+						was four and a half hours east of Golungo Alto on the road to Ambaca
+						(Schapera 1963,1:180).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0032" type="settlement_village">
 					<placeName type="main">Caconda</placeName>
-					<note type="editorial">Town in west-central Angola, in the northern part of present-day Huila
-						Province and about eighty miles south-west of Huambo.</note>
+					<note type="editorial">Town in west-central Angola, in the northern part of
+						present-day Huila Province and about eighty miles south-west of
+						Huambo.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0033" type="settlement_village">
 					<placeName type="main">Cahenda</placeName>
-					<note type="editorial">Site of a former mission station in north-western Angola, just north of
-						Ambaca. According to the traveller, Francisco Travassos Valdez, it was established in 1651 by
-						Anontio de Montecuculi, an Italian member of the Order of Friars Minor Capuchin (Valdez
+					<note type="editorial">Site of a former mission station in north-western Angola,
+						just north of Ambaca. According to the nineteenth-century traveller,
+						Francisco Travassos Valdez, it was established in 1651 by Anontio de
+						Montecuculi, an Italian member of the Order of Friars Minor Capuchin (Valdez
 						1861:301).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0034" type="settlement_town">
 					<placeName type="main">Cambambe</placeName>
-					<note type="editorial">Town in north-western Angola on the Cuanza River, in the southern part
-						of present-day Cuanza Norte Province.</note>
+					<note type="editorial">Town in north-western Angola on the Cuanza River, in the
+						southern part of present-day Cuanza Norte Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0035" type="settlement_village">
 					<placeName type="main">Cambondo</placeName>
-					<note type="editorial">Clearing near Golungo Alto in north-western Angola, in present-day
-						Cuanza Norte Province. It is also called Cambombe in Livingstone's journals (Schapera
-						1963,1:163, 179).</note>
+					<note type="editorial">Clearing near Golungo Alto in north-western Angola, in
+						present-day Cuanza Norte Province. It is also called Cambombe in
+						Livingstone's journals (Schapera 1963,1:163, 179).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0036" type="settlement_town">
 					<placeName type="main">Cambuslang</placeName>
-					<note type="editorial">Town in South Lanarkshire and a suburb of Glasgow, about five miles
-						south-east of the city centre.</note>
+					<note type="editorial">Town in South Lanarkshire and a suburb of Glasgow, about
+						five miles south-east of the city centre.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0037" type="settlement_village">
 					<placeName type="main">Candumba</placeName>
-					<note type="editorial">Village in north-western Angola, in present-day Malanje Province.
-						According to Livingstone, it was fifteen miles east of Pungo Andongo and 300 yards north of
-						the Cuanza River (Livingstone 1857aa:686)</note>
+					<note type="editorial">Village in north-western Angola, in present-day Malanje
+						Province. According to Livingstone, it was fifteen miles east of Pungo
+						Andongo and 300 yards north of the Cuanza River (Livingstone
+						1857aa:686)</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0038" type="settlement_city">
 					<placeName type="main">Cape Town</placeName>
-					<note type="editorial">City on the south coast of present-day South Africa's Western Cape. In
-						Livingstone's day, it was the capital of the Cape Colony. See also Cape Colony.</note>
+					<note type="editorial">City on the south coast of present-day South Africa's
+						Western Cape. In Livingstone's day, it was the capital of the Cape Colony.
+						See also Cape Colony.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0039" type="settlement_village">
 					<placeName type="main">Cassange</placeName>
-					<note type="editorial">Portuguese settlement in north-central Angola, in present-day Lunda
-						Norte Province. It was about 300 miles east of Luanda, and was described by Livingstone as
-						"the farthest inland station of the Portuguese in Western Africa" (Livingstone 1857aa:368,
-						375).</note>
+					<note type="editorial">Portuguese settlement in north-central Angola, in
+						present-day Lunda Norte Province. It was about 300 miles east of Luanda, and
+						was described by Livingstone as "the farthest inland station of the
+						Portuguese in Western Africa" (Livingstone 1857aa:368, 375).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0040" type="settlement_town">
 					<placeName type="main">Cazengo</placeName>
-					<note type="editorial">District just south of Golungo Alto in north-western Angola, in
-						present-day Cuanza-Norte Province. In the mid-nineteenth century it became an important centre
-						in Angola's developing coffee industry. Livingstone provides census information of 1854 for
-						Cazengo in his journal (Birmingham 1999:97; Schapera 1963,1:178)</note>
+					<note type="editorial">District just south of Golungo Alto in north-western
+						Angola, in present-day Cuanza-Norte Province. In the mid-nineteenth century
+						it became an important centre in Angola's developing coffee industry.
+						Livingstone provides census information of 1854 for Cazengo in his journal
+						(Birmingham 1999:97; Schapera 1963,1:178)</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0041" type="settlement_city">
 					<placeName type="main">Chennai</placeName>
-					<note type="editorial">Known historically as Madras. City in south-eastern India, on the Bay of
-						Bengal coast. During the period of East India Company rule and the British Raj, it was the
-						administrative capital of southern India.</note>
+					<note type="editorial">Known historically as Madras. City in south-eastern
+						India, on the Bay of Bengal coast. During the period of East India Company
+						rule and the British Raj, it was the administrative capital of southern
+						India.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0042" type="settlement_village">
 					<placeName type="main">Chonuane</placeName>
-					<note type="editorial">Livingstone's second mission station, about fifteen miles south of
-						present-day Gaborone in south-eastern Botswana. Livingstone established the mission in 1846 to
-						develop his work among the BaKwena people. He had also quarrelled with his colleague Roger
-						Edwards at Mabotsa, their shared station. Chonuane was poorly resourced with water and so the
-						Livingstones and the BaKwena moved to Kolobeng in the following year (Ross 2002:51, 55;
-						Schapera 1960a:74n2).</note>
+					<note type="editorial">Livingstone's second mission station, about fifteen miles
+						south of present-day Gaborone in south-eastern Botswana. Livingstone
+						established the mission in 1846 to develop his work among the BaKwena
+						people. He had also quarrelled with his colleague Roger Edwards at Mabotsa,
+						their shared station. Chonuane was poorly resourced with water and so the
+						Livingstones and the BaKwena moved to Kolobeng in the following year (Ross
+						2002:51, 55; Schapera 1960a:74n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
@@ -364,92 +393,100 @@
 				<!-- MT glossary entry -->
 				<place xml:id="sett0044" type="settlement_village">
 					<placeName type="main">Culloden</placeName>
-					<note type="editorial">Site of the Battle of Culloden (16th April, 1746) in Inverness-shire,
-						Scotland. The battle was the last stand in the Jacobite rebellion (1745-46), which sought to
-						restore the House of Stuart to the throne of Great Britain. See also Stuart, Charles
-						Edward.</note>
+					<note type="editorial">Site of the Battle of Culloden (16th April, 1746) in
+						Inverness-shire, Scotland. The battle was the last stand in the Jacobite
+						rebellion (1745-46), which sought to restore the House of Stuart to the
+						throne of Great Britain. See also Stuart, Charles Edward.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0045" type="settlement_village">
 					<placeName type="main">Dambarari</placeName>
-					<note type="editorial">Village in the vicinity of present-day Jumbo (where the Jumbo mine was
-						established in 1890), in northern Zimbabwe. According to Livingstone, it was also known as
-						Bambala. In 1856, he identified it as a settlement with an active gold trade (Schapera
-						1963,2:431-32, 432n1).</note>
+					<note type="editorial">Village in the vicinity of present-day Jumbo (where the
+						Jumbo mine was established in 1890), in northern Zimbabwe. According to
+						Livingstone, it was also known as Bambala. In 1856, he identified it as a
+						settlement with an active gold trade (Schapera 1963,2:431-32, 432n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0046" type="settlement_village">
 					<placeName type="main">Dikgatlhong</placeName>
-					<note type="editorial">Called Likatlong by Livingstone. BaTlhaping settlement near the
-						confluence of the Harts and Vaal rivers in Griqualand West (in present-day South Africa's
-						Northern Cape), where the London Missionary Society had a station. It originated as an outpost
-						of the more established mission at Griqua Town (present-day Griekwastad) (Laband 2014:160;
-						Mackenzie 1871:90, 84-85).</note>
+					<note type="editorial">Called Likatlong by Livingstone. BaTlhaping settlement
+						near the confluence of the Harts and Vaal rivers in Griqualand West (in
+						present-day South Africa's Northern Cape), where the London Missionary
+						Society had a station. It originated as an outpost of the more established
+						mission at Griqua Town (present-day Griekwastad) (Laband 2014:160; Mackenzie
+						1871:90, 84-85).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0047" type="settlement_village">
 					<placeName type="main">Dithubaruba</placeName>
-					<note type="editorial">Called Litubaruba by Livingstone. BaKwena settlement several miles from
-						Molepolole, north-west of present-day Gaborone in south-eastern Botswana. It was occupied
-						briefly by the Makololo between 1824 and 1826, and it served as the BaKwena capital from 1853
-						to 1863. Livingstone spent time there learning SeTswana after meeting Sechele in 1842.
-						According to Livingstone, it was also known as Lepelole, after nearby caves of that name
-						(Morton, Ramsay, and Mgadla 2008:95).</note>
+					<note type="editorial">Called Litubaruba by Livingstone. BaKwena settlement
+						several miles from Molepolole, north-west of present-day Gaborone in
+						south-eastern Botswana. It was occupied briefly by the Makololo between 1824
+						and 1826, and it served as the BaKwena capital from 1853 to 1863.
+						Livingstone spent time there learning SeTswana after meeting Sechele in
+						1842. According to Livingstone, it was also known as Lepelole, after nearby
+						caves of that name (Morton, Ramsay, and Mgadla 2008:95).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0048" type="settlement_town">
 					<placeName type="main">Duque de Bragança</placeName>
-					<note type="editorial">Called Braganza by Livingstone. District and Portuguese station in
-						north-western Angola, established in 1838. Now known as Calandula, it is about forty miles
-						north-west of Malanje in present-day Malanje Province (Corrado 2008:10).</note>
+					<note type="editorial">Called Braganza by Livingstone. District and Portuguese
+						station in north-western Angola, established in 1838. Now known as
+						Calandula, it is about forty miles north-west of Malanje in present-day
+						Malanje Province (Corrado 2008:10).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0049" type="settlement_castle">
 					<placeName type="main">Eglinton Castle</placeName>
-					<note type="editorial">Site of the Eglinton Tournament in Ayrshire, Scotland, held in August
-						1839. Organised and financed by the Earl of Eglinton, Archibald William Montgomerie, the
-						tournament was a three-day historical recreation of a medieval joust consisting of fully
-						armoured knights and guests attired in medieval garb. Attendees numbered in the thousands
-						(Pionke 2008:27).</note>
+					<note type="editorial">Site of the Eglinton Tournament in Ayrshire, Scotland,
+						held in August 1839. Organised and financed by the Earl of Eglinton,
+						Archibald William Montgomerie, the tournament was a three-day historical
+						recreation of a medieval joust consisting of fully armoured knights and
+						guests attired in medieval garb. Attendees numbered in the thousands (Pionke
+						2008:27).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0050" type="settlement_street">
 					<placeName type="main">Fleet Street</placeName>
-					<note type="editorial">Commercial London street, particularly associated with journalism, but
-						which was also a popular address for scientific instrument makers in the eighteenth and
-						nineteenth centuries.</note>
+					<note type="editorial">Commercial London street, particularly associated with
+						journalism, but which was also a popular address for scientific instrument
+						makers in the eighteenth and nineteenth centuries.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0051" type="settlement_village">
 					<placeName type="main">Gio</placeName>
-					<note type="editorial">Also known as N'Gio-N'Gio. Village in north-western Angola about fifteen
-						miles south-east of Malanje, in present-day Malanje Province. Livingstone adopts the spelling
-						Ngio in Missionary Travels, but uses Gio in his journals (Schapera 1963,1:133).</note>
+					<note type="editorial">Also known as N'Gio-N'Gio. Village in north-western
+						Angola about fifteen miles south-east of Malanje, in present-day Malanje
+						Province. Livingstone adopts the spelling Ngio in Missionary Travels, but
+						uses Gio in his journals (Schapera 1963,1:133).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0052" type="settlement_town">
 					<placeName type="main">Golungo Alto</placeName>
-					<note type="editorial">Town in north-western Angola, in present-day Cuanza Norte Province,
-						around 100 miles inland from Luanda. In his journal, Livingstone describes the wider Golungo
-						Alto district as "about 67 ½ miles east &amp; west and about 30 north and south," and "not so
-						populous as Ambaca and some other districts, nor so destitute of inhabitants as others." He
-						also provides information on the district's organisation (Schapera 1963,1:141).</note>
+					<note type="editorial">Town in north-western Angola, in present-day Cuanza Norte
+						Province, around 100 miles inland from Luanda. In his journal, Livingstone
+						describes the wider Golungo Alto district as "about 67 ½ miles east &amp;
+						west and about 30 north and south," and "not so populous as Ambaca and some
+						other districts, nor so destitute of inhabitants as others." He also
+						provides information on the district's organisation (Schapera
+						1963,1:141).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0053" type="settlement_town">
 					<placeName type="main">Grahamstown</placeName>
-					<note type="editorial">City in present-day South Africa's Eastern Cape. It began in 1812 as a
-						defensive garrison on the frontier of Xhosa territory and by Livingstone's day had become the
-						capital of the Cape Colony's Eastern Province (Vernal 2012:85-87).</note>
+					<note type="editorial">City in present-day South Africa's Eastern Cape. It began
+						in 1812 as a defensive garrison on the frontier of AmaXhosa territory and by
+						Livingstone's day had become the capital of the Cape Colony's Eastern
+						Province (Vernal 2012:85-87).</note>
 				</place>
 
 				<!-- MT glossary entry -->
@@ -461,361 +498,389 @@
 				<!-- MT glossary entry -->
 				<place xml:id="sett0055" type="settlement_town">
 					<placeName type="main">Griekwastad</placeName>
-					<note type="editorial">Known historically as Griquatown. Town in present-day South Africa's
-						Northern Cape. In Livingstone's day it was the capital of the Griqua settlement, Griqualand
-						West, where the London Missionary Society had established a mission in 1804 (Waldman 2007:62,
-						Moffat 1842:193).</note>
+					<note type="editorial">Known historically as Griquatown. Town in present-day
+						South Africa's Northern Cape. In Livingstone's day it was the capital of the
+						Griqua settlement, Griqualand West, where the London Missionary Society had
+						established a mission in 1804 (Waldman 2007:62, Moffat 1842:193).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0056" type="settlement_village">
 					<placeName type="main">Hadley Green</placeName>
-					<note type="editorial">A park in Monken Hadley, an historic village north of London (which is
-						now part of the London Borough of Barnet). Livingstone rented a property here in 1857 while
-						writing Missionary Travels, prior to his departure on the Zambezi Expedition (Roberts
-						2008).</note>
+					<note type="editorial">A park in Monken Hadley, an historic village north of
+						London (which is now part of the London Borough of Barnet). Livingstone
+						rented a property there in 1857 while writing Missionary Travels, prior to
+						his departure on the Zambezi Expedition (Roberts 2008).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0057" type="settlement_town">
 					<placeName type="main">Hamilton</placeName>
-					<note type="editorial">Industrial town in South Lankarkshire, Scotland, about two miles from
-						Livingstone's childhood home in Blantyre.</note>
+					<note type="editorial">Industrial town in South Lankarkshire, Scotland, about
+						two miles from Livingstone's childhood home in Blantyre.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0058" type="settlement_town">
 					<placeName type="main">Icolo e Bengo</placeName>
-					<note type="editorial">Called Icollo I Bengo by Livingstone. District and Portuguese station in
-						north-western Angola, just east of Luanda in present-day Bengo Province. When Livingstone
-						visited, its headquarters were on the shore of Lake Quilunda. In his journal, Livingstone
-						offers more information about the district from a census taken in 1852-53 (Schapera
-						1963,1:160, 176)</note>
+					<note type="editorial">Called Icollo I Bengo by Livingstone. District and
+						Portuguese station in north-western Angola, just east of Luanda in
+						present-day Bengo Province. When Livingstone visited, its headquarters were
+						on the shore of Lake Quilunda. In his journal, Livingstone offers more
+						information about the district from a census taken in 1852-53 (Schapera
+						1963,1:160, 176).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0059" type="settlement_village">
 					<placeName type="main">Interra</placeName>
-					<note type="editorial">Village in east-central Mozambique near the Cuacua River, about thirty
-						miles inland from Quelimane (Shapera 1963,2:472n2).</note>
+					<note type="editorial">Village in east-central Mozambique near the Cuacua River,
+						about thirty miles inland from Quelimane (Shapera 1963,2:472n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0060" type="settlement_village">
 					<placeName type="main">John o' Groats</placeName>
-					<note type="editorial">Village in Scotland, at the most northerly point of the mainland United
-						Kingdom.</note>
+					<note type="editorial">Village in Scotland, at the most northerly point of the
+						mainland United Kingdom.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0061" type="settlement_town">
 					<placeName type="main">Kat River Settlement</placeName>
-					<note type="editorial">Settlement on the Kat River in the Cape Colony's eastern frontier
-						(present-day South Africa's Eastern Cape). It was established in 1829 as a defensive barrier
-						between AmaXhosa territory and the Cape, and was populated with Khoekhoe and "mixed race"
-						groups. It remained loyal to the British during the Sixth and Seventh Frontier Wars (1834-35
-						and 1846-47). However, fuelled by discriminatory Cape policy and land dispossession, the
-						settlement unexpectedly refused to support the Cape Colony in 1851 during the Eighth Frontier
-						War, with a considerable proportion joining the AmaXhosa forces. The rebellion was defeated
-						and the settlement lands were allocated to European colonists (Kirk 1973:412, 425,
-						427).</note>
+					<note type="editorial">Settlement on the Kat River in the Cape Colony's eastern
+						frontier (present-day South Africa's Eastern Cape). It was established in
+						1829 as a defensive barrier between AmaXhosa territory and the Cape, and was
+						populated with Khoekhoe and "mixed race" groups. It remained loyal to the
+						British during the Sixth and Seventh Frontier Wars (1834-35 and 1846-47).
+						However, fuelled by discriminatory Cape policy and land dispossession, the
+						settlement unexpectedly refused to support the Cape Colony in 1851 during
+						the Eighth Frontier War, with a considerable proportion joining the AmaXhosa
+						forces. The rebellion was defeated and the settlement lands were allocated
+						to European colonists (Kirk 1973:412, 425, 427).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0062" type="settlement_town">
 					<placeName type="main">Katima Mulilo</placeName>
-					<note type="editorial">Called Katima-molelo by Livingstone. Town on the Zambezi River in
-						present-day Namibia's Caprivi Strip, bordering Zambia's Western Province and directly across
-						river from Sesheke.</note>
+					<note type="editorial">Called Katima-molelo by Livingstone. Town on the Zambezi
+						River in present-day Namibia's Caprivi Strip, bordering Zambia's Western
+						Province and directly across river from Sesheke.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0063" type="settlement_village">
 					<placeName type="main">Kilombo</placeName>
-					<note type="editorial">Presumably a Mbundu village, in the vicinity of Golungo Alto in Angola's
-						present-day Cuanza Norte Province. The word may be a descriptor for a settlement rather than a
-						proper name. The Mbundu term, "kilombo," initially meant a "male initiation camp" and was
-						later used to describe "a military encampment in constant readiness for attack." In his
-						journal, Livingstone uses the spelling Quilombo (Jaede 2007:406; Schapera 1963,1:183).</note>
+					<note type="editorial">Presumably a Mbundu village, in the vicinity of Golungo
+						Alto in Angola's present-day Cuanza Norte Province. The word may be a
+						descriptor for a settlement rather than a proper name. The Mbundu term,
+						"kilombo," initially meant a "male initiation camp" and was later used to
+						describe "a military encampment in constant readiness for attack." In his
+						journal, Livingstone uses the spelling Quilombo (Jaede 2007:406; Schapera
+						1963,1:183).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0064" type="settlement_village">
 					<placeName type="main">Langside</placeName>
-					<note type="editorial">District in south Glasgow and the site of the "Battle of Langside" (13th
-						May 1568) fought between Mary Queen of Scots and James Stuart, the Earl of Moray, her half
-						brother. Following defeat, Mary fled to England where she was soon imprisoned by Elizabeth I
-						(Wagner 1999:180-81).</note>
+					<note type="editorial">District in south Glasgow and the site of the Battle of
+						Langside (13th May 1568) fought between Mary Queen of Scots and James
+						Stuart, the Earl of Moray, her half brother. Following defeat, Mary fled to
+						England where she was soon imprisoned by Elizabeth I (Wagner
+						1999:180-81).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0065" type="settlement_village">
 					<placeName type="main">Lattakoo</placeName>
-					<note type="editorial">Historical name for Dithakong in present-day South Africa's Northern
-						Cape, where the London Missionary Society mission to the BaTlhaping people had initially been
-						based. When the Moffats moved the mission south-west to Kuruman, it was known for some time as
-						New Lattakoo or simply Lattakoo (Schapera 1961:13n2, 42n5; Weinberg 2015:147). </note>
+					<note type="editorial">Historical name for Dithakong in present-day South
+						Africa's Northern Cape, where the London Missionary Society mission to the
+						BaTlhaping people had initially been based. When the Moffats moved the
+						mission south-west to Kuruman, it was known for some time as New Lattakoo or
+						simply Lattakoo (Schapera 1961:13n2, 42n5; Weinberg 2015:147).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0066" type="settlement_village">
 					<placeName type="main">Letlhakane</placeName>
-					<note type="editorial">Called Lotlakani and Lotlakane by Livingstone. Village in present-day
-						east-central Botswana, about twenty miles south of the outskirts of Ntwetwe Pan.</note>
+					<note type="editorial">Called Lotlakani and Lotlakane by Livingstone. Village in
+						present-day east-central Botswana, about twenty miles south of the outskirts
+						of Ntwetwe Pan.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0067" type="settlement_village">
 					<placeName type="main">Letloche</placeName>
-					<note type="editorial">Settlement about twenty miles north of the BaNgwato capital, Shoshong,
-						in present-day east-central Botswana (Parsons 1973:100n55).</note>
+					<note type="editorial">Settlement about twenty miles north of the BaNgwato
+						capital, Shoshong, in present-day east-central Botswana (Parsons
+						1973:100n55).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0068" type="settlement_village">
 					<placeName type="main">Libebe</placeName>
-					<note type="editorial">Village on the Okavango River, in the western part of present-day
-						Nambia's Caprivi strip (Schapera 1963,2:334n1).</note>
+					<note type="editorial">Village on the Okavango River, in the western part of
+						present-day Namibia's Caprivi strip (Schapera 1963,2:334n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0069" type="settlement_village">
 					<placeName type="main">Libonda</placeName>
-					<note type="editorial">Called Libonta by Livingstone. Village on the Zambezi River in the
-						north-western part of present-day Zambia's Western Province, near the Liuwa Plain National
-						Park. In Livingstone's day it was the "last town of the Makololo" when travelling westward
-						(Livingstone 1857aa:250; Schapera 1963,1:16n1).</note>
+					<note type="editorial">Called Libonta by Livingstone. Village on the Zambezi
+						River in the north-western part of present-day Zambia's Western Province,
+						near the Liuwa Plain National Park. In Livingstone's day it was the "last
+						town of the Makololo" when travelling westward (Livingstone 1857aa:250;
+						Schapera 1963,1:16n1).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0070" type="settlement_town">
 					<placeName type="main">Linangelo</placeName>
-					<note type="editorial">Former town on the Zambezi River in the vicinity of Naliele, in the
-						western part of present-day Zambia's Western Province. It is described by Livingstone as the
-						"old town of Santuru" (the former Lozi King, Mulambwa Santulu) and also as "the town of one of
-						Santuru's wives" (Livingstone 1857aa:685, Schapera 1960a:211). See also Mulambwa
+					<note type="editorial">Former town on the Zambezi River in the vicinity of
+						Naliele, in the western part of present-day Zambia's Western Province. It is
+						described by Livingstone as the "old town of Santuru" (the former Lozi King,
+						Mulambwa Santulu) and also as "the town of one of Santuru's wives"
+						(Livingstone 1857aa:685, Schapera 1960a:211). See also Mulambwa
 						Santulu.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0071" type="settlement_town">
 					<placeName type="main">Linyanti</placeName>
-					<note type="editorial">Town on the Chobe River, on the border between present-day Botswana and
-						Namibia's Caprivi Strip. It was the capital of the Makololo kingdom during the period of
-						Makololo ascendancy in the Zambezi Valley (c.1840–1864). Livingstone hoped his
-						transcontinental expedition (1852-56), which took him from Linyanti to both Angola and
-						Mozambique, would establish a trade route connecting central Africa with the west and east
+					<note type="editorial">Town on the Chobe River, on the border between
+						present-day Botswana and Namibia's Caprivi Strip. It was the capital of the
+						Makololo kingdom during the period of Makololo ascendancy in the Zambezi
+						Valley (c.1840–1864). Livingstone hoped his transcontinental expedition
+						(1852-56), which took him from Linyanti to both Angola and Mozambique, would
+						establish a trade route connecting central Africa with the west and east
 						coasts (Kalusa 2009:55-56, Livingstone 1857aa:203).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0072" type="settlement_town">
 					<placeName type="main">Litofe</placeName>
-					<note type="editorial">Island and Makololo town on the Zambezi River north of Ngonye Falls, in
-						present-day Zambia's Western Province. Livingstone describes it as one of Sebitwane's
-						"stations" (Schapera 1960a:22, 199; Livingstone 1857aa:685).</note>
+					<note type="editorial">Island and Makololo town on the Zambezi River north of
+						Ngonye Falls, in present-day Zambia's Western Province. Livingstone
+						describes it as one of Sebitwane's "stations" (Schapera 1960a:22, 199;
+						Livingstone 1857aa:685).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0073" type="settlement_city">
 					<placeName type="main">Luanda</placeName>
-					<note type="editorial">Known historically as São Paulo de Luanda or St Paul de Loanda. Also
-						called Loanda and Loando by Livingstone. Coastal city and capital of Angola, founded in the
-						1570s by the Portuguese. It developed into a major centre for the international export of
-						slaves, mainly to Brazil (James 2011:152). </note>
+					<note type="editorial">Known historically as São Paulo de Luanda or St Paul de
+						Loanda. Also called Loanda and Loando by Livingstone. Coastal city and
+						capital of Angola, founded in the 1570s by the Portuguese. It developed into
+						a major centre for the international export of slaves, mainly to Brazil
+						(James 2011:152). </note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0074" type="settlement_village">
 					<placeName type="main">Mabotsa</placeName>
-					<note type="editorial">Livingstone's first mission station, in present-day South Africa's North
-						West Province near the border with Botswana (about fifty miles south of Gaborone). The station
-						was established with Roger Edwards in 1844 and was over 200 miles north-east of Kuruman.
-						According to Livingstone, permission to establish the mission was given by the BaKgatla chief,
-						Mosiele. After quarrelling with Edwards Livingstone moved to a new site, Chonuane, in 1846
-						(Livingstone 1843; Ross 2002:45, 51; Schapera 1960a:299n6).</note>
+					<note type="editorial">Livingstone's first mission station, in present-day South
+						Africa's North West Province near the border with Botswana (about fifty
+						miles south of Gaborone). The station was established with Roger Edwards in
+						1844 and was over 200 miles north-east of Kuruman. According to Livingstone,
+						permission to establish the mission was given by the BaKgatla chief,
+						Mosiele. After quarrelling with Edwards Livingstone moved to a new site,
+						Chonuane, in 1846 (Livingstone 1843; Ross 2002:45, 51; Schapera
+						1960a:299n6).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0075" type="settlement_village">
 					<placeName type="main">Makolontwane</placeName>
-					<note type="editorial">Called Melita by Livingstone. Former BaNgwaketse capital in the vicinity
-						of Moshaneng, south-west of Gaborone in present-day Botswana (Morton 2014:31).</note>
+					<note type="editorial">Called Melita by Livingstone. Former BaNgwaketse capital
+						in the vicinity of Moshaneng, south-west of Gaborone in present-day Botswana
+						(Morton 2014:31).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0076" type="settlement_village">
 					<placeName type="main">Malanje</placeName>
-					<note type="editorial">Called Malange by Livingstone. Village in north-western Angola. It is
-						now the capital city of present-day Malanje Province and lies about fifteen miles from the
-						Cuanza River.</note>
+					<note type="editorial">Called Malange by Livingstone. Village in north-western
+						Angola. It is now the capital city of present-day Malanje Province and lies
+						about fifteen miles from the Cuanza River.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0077" type="settlement_village">
 					<placeName type="main">Massangano</placeName>
-					<note type="editorial">District and town in north-western Angola, in present-day Cuanze Norte
-						Province. It is about fifty miles south-west of Golungo Alto, where the Lucala River enters
-						the Cuanza River. The Portuguese fortress at Massangano was established by Paulo Dias de
-						Novais, the first Governor of Portuguese Angola, and dates to the late sixteenth century
-						(Newitt 2010:18-19).</note>
+					<note type="editorial">District and town in north-western Angola, in present-day
+						Cuanze Norte Province. It is about fifty miles south-west of Golungo Alto,
+						where the Lucala River enters the Cuanza River. The Portuguese fortress at
+						Massangano was established by Paulo Dias de Novais, the first Governor of
+						Portuguese Angola, and dates to the late sixteenth century (Newitt
+						2010:18-19).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0078" type="settlement_village">
 					<placeName type="main">Mazaro</placeName>
-					<note type="editorial">Point at which the Muto channel (called Mutu by Livingstone) connects
-						the Zambezi and Cuacua rivers in east-central Mozambique. It is in the vicinity of present-day
-						Mopeia district and about seventy miles from the main mouth of the Zambezi River (Schapera
+					<note type="editorial">Point at which the Muto channel (called Mutu by
+						Livingstone) connects the Zambezi and Cuacua rivers in east-central
+						Mozambique. It is in the vicinity of present-day Mopeia district and about
+						seventy miles from the main mouth of the Zambezi River (Schapera
 						1963,2:471n3, 471n5)</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0079" type="settlement_village">
 					<placeName type="main">Mitilone</placeName>
-					<note type="editorial">Reference uncertain. Presumably Ilha Mitaone or another port at the
-						Chinde mouth of the Zambezi River, which is about twenty-five miles above the river's main
-						mouth on the Mozambique coast (Schapera 1963,2:470n3).</note>
+					<note type="editorial">Reference uncertain. Presumably Ilha Mitaone or another
+						port at the Chinde mouth of the Zambezi River, which is about twenty-five
+						miles above the river's main mouth on the Mozambique coast (Schapera
+						1963,2:470n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0080" type="settlement_town">
 					<placeName type="main">Naliele</placeName>
-					<note type="editorial">Important town on the Zambezi River, near the capital of present-day
-						Zambia's Western Province, Mongu. Naliele had previously been a major Lozi centre, but when
-						Livingstone visited in the early 1850s it was the Makololo's northern capital under the
-						governorship of Mpepe (Kalusa 2009:66, Rijpma 2015:52n45).</note>
+					<note type="editorial">Important town on the Zambezi River, near the capital of
+						present-day Zambia's Western Province, Mongu. Naliele had previously been a
+						major Lozi centre, but when Livingstone visited in the early 1850s it was
+						the Makololo's northern capital under the governorship of Mpepe (Kalusa
+						2009:66, Rijpma 2015:52n45).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0081" type="settlement_village">
 					<placeName type="main">Nameta</placeName>
-					<note type="editorial">Village on the Zambezi River, just north of Ngonye Falls in present-day
-						Zambia's Western Province (Livingstone 1857aa:684).</note>
+					<note type="editorial">Village on the Zambezi River, just north of Ngonye Falls
+						in present-day Zambia's Western Province (Livingstone 1857aa:684).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0082" type="settlement_village">
 					<placeName type="main">Namissan</placeName>
-					<note type="editorial">Called Ngabisane by Livingstone. Settlement on the Boteti River in
-						present-day north-central Botswana. It is south-west of Nxai Pan, and about 100 miles east of
-						Lake Ngami. In his journals, Livingstone also uses the spelling Ñabisane (Schapera 1960a:69n4,
-						306).</note>
+					<note type="editorial">Called Ngabisane by Livingstone. Settlement on the Boteti
+						River in present-day north-central Botswana. It is south-west of Nxai Pan,
+						and about 100 miles east of Lake Ngami. In his journals, Livingstone also
+						uses the spelling Ñabisane (Schapera 1960a:69n4, 306).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0083" type="settlement_town">
 					<placeName type="main">Quelimane</placeName>
-					<note type="editorial">Called Kilimane and Quilimane by Livingstone. Port city near the
-						Mozambique coast. Originally an Islamic settlement, it became a Portuguese trading post in
-						1544 and by the mid-eighteenth century had developed into a colonial town. It was a
-						significant entrepôt for the trade and export of slaves in the eighteenth and ninteenth
-						centuries (Augustyn et al. 2017f, Newitt 1995:139).</note>
+					<note type="editorial">Called Kilimane and Quilimane by Livingstone. Port city
+						near the Mozambique coast. Originally an Islamic settlement, it became a
+						Portuguese trading post in 1544 and by the mid-eighteenth century had
+						developed into a colonial town. It was a significant entrepôt for the trade
+						and export of slaves in the eighteenth and ninteenth centuries (Augustyn et
+						al. 2017f, Newitt 1995:139).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0084" type="settlement_village">
 					<placeName type="main">Sanza</placeName>
-					<note type="editorial">Village in north-western Angola, about thirty-five miles east of Malanje
-						in present-day Malanje Province.</note>
+					<note type="editorial">Village in north-western Angola, about thirty-five miles
+						east of Malanje in present-day Malanje Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0085" type="settlement_town">
 					<placeName type="main">Sena</placeName>
-					<note type="editorial">Called Senna by Livingstone. Town on the Zambezi River in central
-						Mozambique, about 125 miles from Quelimane and about 130 miles from Tete. It had originally
-						been an Islamic settlement, but was occupied by the Portuguese in the late sixteenth century.
-						It was an important post on the major trade route from the east African coast (Newitt
-						1995:141).</note>
+					<note type="editorial">Called Senna by Livingstone. Town on the Zambezi River in
+						central Mozambique, about 125 miles from Quelimane and about 130 miles from
+						Tete. It had originally been an Islamic settlement, but was occupied by the
+						Portuguese in the late sixteenth century. It was an important post on the
+						major trade route from the east African coast (Newitt 1995:141).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0086" type="settlement_town">
 					<placeName type="main">Sesheke</placeName>
-					<note type="editorial">Town on the Zambezi River. When Livingstone visited, it was an important
-						Makololo centre and was located in the south-western corner of present-day Zambia's Southern
-						Province. The modern town of Sesheke is located today around sixty-five miles further
-						north-west, in Western Province (Livingstone 1857aa:684).</note>
+					<note type="editorial">Town on the Zambezi River. When Livingstone visited, it
+						was an important Makololo centre and was located in the south-western corner
+						of present-day Zambia's Southern Province. The modern town of Sesheke is
+						located today around sixty-five miles further north-west, in Western
+						Province (Livingstone 1857aa:684).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0087" type="settlement_village">
 					<placeName type="main">Shokwane</placeName>
-					<note type="editorial">Called Shokuan and Shokuane by Livingstone. BaKwena settlement, just
-						north-east of Molepole in present-day south-eastern Botswana. The BaKwena were resident there
-						when Livingstone first met Sechele in 1842 (Schapera 1974:49n2).</note>
+					<note type="editorial">Called Shokuan and Shokuane by Livingstone. BaKwena
+						settlement, just north-east of Molepolole in present-day south-eastern
+						Botswana. The BaKwena were resident there when Livingstone first met Sechele
+						in 1842 (Schapera 1974:49n2).</note>
 				</place>
 				<!-- MT glossary entry -->
 				<place xml:id="sett0088" type="settlement_town">
 					<placeName type="main">Smithfield</placeName>
-					<note type="editorial">Area in north-west London, known for its meat market which dates from
-						the middle ages.</note>
+					<note type="editorial">Area in north-west London, known for its meat market
+						which dates from the middle ages.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0089" type="settlement_town">
 					<placeName type="main">Sofala</placeName>
-					<note type="editorial">Historic harbour on the Mozambique coast, in present-day Sofala
-						Province. It was southern Africa's oldest seaport, its use dating from the tenth century.
-						Conquered by Pero de Anhaia in 1506, it became one of the first Portuguese possessions in east
-						Africa. Sofala declined in importance during the nineteenth century and was eventually
-						eclipsed when the port city, Beira, was founded in 1891 (Augustyn et al. 1998b, Newitt
+					<note type="editorial">Historic harbour on the Mozambique coast, in present-day
+						Sofala Province. It was southern Africa's oldest seaport, its use dating
+						from the tenth century. Conquered by Pero de Anhaia in 1506, it became one
+						of the first Portuguese possessions in east Africa. Sofala declined in
+						importance during the nineteenth century and was eventually eclipsed when
+						the port city, Beira, was founded in 1891 (Augustyn et al. 1998b, Newitt
 						2005:74).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0090" type="settlement_village">
 					<placeName type="main">Tala Mungongo</placeName>
-					<note type="editorial">District and Portuguese station in north-central Angola, around sixty
-						miles east of Malanje in present-day Malanje Province.</note>
+					<note type="editorial">District and Portuguese station in north-central Angola,
+						around sixty miles east of Malanje in present-day Malanje Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0091" type="settlement_town">
 					<placeName type="main">Tete</placeName>
-					<note type="editorial">Port town on the Zambezi River in west-central Mozambique, about 130
-						miles from Sena and 250 miles from Quelimane. Originally an Islamic settlement, it was
-						occupied by the Portuguese in the sixteenth century. It was a key destination on the trade
-						route into central Africa from the east coast, and in the eighteenth century surpassed Sena as
+					<note type="editorial">Port town on the Zambezi River in west-central
+						Mozambique, about 130 miles from Sena and 250 miles from Quelimane.
+						Originally an Islamic settlement, it was occupied by the Portuguese in the
+						sixteenth century. It was a key destination on the trade route into central
+						Africa from the east coast, and in the eighteenth century surpassed Sena as
 						a centre of commerce (Newitt 1995:141, 144-45).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0092" type="settlement_city">
 					<placeName type="main">Timbuktu</placeName>
-					<note type="editorial">Known historically as Timbuctu or Timbuctoo. City in present-day Mali,
-						west Africa, and historically a major trading centre. From the Renaissance, it acquired
-						mythical status in the western imagination as a place of unrivalled opulence and isolation. It
-						was visited by European explorers in the early nineteenth century, but remained symbolic of
-						the inaccessible outer reaches of the known world (Heffernan 2001:203, 205-06).</note>
+					<note type="editorial">Known historically as Timbuctu or Timbuctoo. City in
+						present-day Mali, west Africa, and historically a major trading centre. From
+						the Renaissance, it acquired mythical status in the western imagination as a
+						place of unrivalled opulence and isolation. It was visited by European
+						explorers in the early nineteenth century, but remained symbolic of the
+						inaccessible outer reaches of the known world (Heffernan 2001:203,
+						205-06).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0093" type="settlement_village">
 					<placeName type="main">Tlomtla</placeName>
-					<note type="editorial">Settlement just north of Ntwetwe Pan in present-day north-eastern
-						Botswana. It was described by Livingstone as an BaNgwato "cattle post" (Schapera
-						1960a:9).</note>
+					<note type="editorial">Settlement just north of Ntwetwe Pan in present-day
+						north-eastern Botswana. It was described by Livingstone as an BaNgwato
+						"cattle post" (Schapera 1960a:9).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0094" type="settlement_town">
 					<placeName type="main">Trombeta</placeName>
-					<note type="editorial">Portuguese station in north-western Angola in present-day Cuanza Norte
-						Province, just west of Golungo Alto and about ninety miles inland from Luanda (Schapera
-						1963,1:144n2).</note>
+					<note type="editorial">Portuguese station in north-western Angola in present-day
+						Cuanza Norte Province, just west of Golungo Alto and about ninety miles
+						inland from Luanda (Schapera 1963,1:144n2).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="sett0095" type="settlement_town">
 					<placeName type="main">Zumbo</placeName>
-					<note type="editorial">River port at the confluence of the Luangwa and Zambezi rivers, and the
-						westernmost town of Mozambique. It was established in 1715 by the Portuguese and was a
-						destination on the trade route into central Africa from the east coast. For a time it was the
-						largest Portuguese town on the Zambezi River, but it declined later in the eighteenth century
-						and was abandoned in 1836. It was in ruins when Livingstone first visited in the 1850s, but it
-						was re-established in 1862 (Newitt 1995:202-06, 284).</note>
+					<note type="editorial">River port at the confluence of the Luangwa and Zambezi
+						rivers, and the westernmost town of Mozambique. It was established in 1715
+						by the Portuguese and was a destination on the trade route into central
+						Africa from the east coast. For a time it was the largest Portuguese town on
+						the Zambezi River, but it declined later in the eighteenth century and was
+						abandoned in 1836. It was in ruins when Livingstone first visited in the
+						1850s, but it was re-established in 1862 (Newitt 1995:202-06, 284).</note>
 				</place>
 
 			</listPlace>

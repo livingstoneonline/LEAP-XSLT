@@ -14,11 +14,12 @@
 				<authority>Livingstone Online</authority>
 				<publisher>University of Maryland Libraries</publisher>
 				<pubPlace>College Park, MD, USA</pubPlace>
-				<date>2017</date>
+				<date>2019</date>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c) Livingstone Online. <ref
-						target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons
-						Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
+					<licence target="https://creativecommons.org/licenses/by-nc/3.0/">(c)
+						Livingstone Online. <ref
+							target="https://creativecommons.org/licenses/by-nc/3.0/">Creative
+							Commons Attribution-Noncommercial 3.0 Unported License</ref>.</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -36,106 +37,112 @@
 				<place xml:id="region0017" type="region">
 					<!-- The Cape -->
 					<placeName type="main">Cape of Good Hope</placeName>
-					<note type="editorial">Also the Cape. The southern tip of Africa. Traditionally, the dividing
-						point between the Atlantic and Indian Oceans.</note>
+					<note type="editorial">Also the Cape. The southern tip of Africa. Traditionally,
+						the dividing point between the Atlantic and Indian Oceans.</note>
 				</place>
 
 				<place xml:id="region0001" type="region">
 					<placeName type="main">Chunya district of Mbeya region[?]</placeName>
-					<note type="editorial">Area in the western part of present-day Tanzania that is home to the
-						Bungu people and that lies just to the south-east of Lake Rukwa.</note>
+					<note type="editorial">Area in the western part of present-day Tanzania that is
+						home to the Bungu people and that lies just to the south-east of Lake
+						Rukwa.</note>
 				</place>
 
 				<place xml:id="region0002" type="region">
 					<placeName type="main">Dodoma[?]</placeName>
-					<note type="editorial">Region in the central part of present-day Tanzania that is home to the
-						Gogo people.</note>
+					<note type="editorial">Region in the central part of present-day Tanzania that
+						is home to the Gogo people.</note>
 				</place>
 
 				<place xml:id="region0003" type="region">
 					<placeName type="main">Iringa[?]</placeName>
-					<note type="editorial">Region in the south-central part of present-day Tanzania that is home to
-						the Bena people.</note>
+					<note type="editorial">Region in the south-central part of present-day Tanzania
+						that is home to the Bena people.</note>
 				</place>
 
 				<place xml:id="region0004" type="region">
 					<placeName type="main">Karagwe</placeName>
-					<note type="editorial">Region in present-day northern Tanzania lying just to the west of Lake
-						Victoria and to the east of Rwanda that served as the site of a major kingdom in the
-						nineteenth century.</note>
+					<note type="editorial">Region in present-day northern Tanzania lying just to the
+						west of Lake Victoria and to the east of Rwanda that served as the site of a
+						major kingdom in the nineteenth century.</note>
 				</place>
 
 				<place xml:id="region0005" type="region">
 					<placeName type="main">Katanga</placeName>
-					<note type="editorial">Region in the southern part of present-day Democratic Republic of the
-						Congo. During the period in question, ruled by Msiri and known for its underground mines and
-						for resources such as copper, gold, and malachite.</note>
+					<note type="editorial">Region in the southern part of present-day Democratic
+						Republic of the Congo. During the period in question, ruled by Msiri and
+						known for its underground mines and for resources such as copper, gold, and
+						malachite.</note>
 				</place>
 
 				<place xml:id="region0006" type="region">
 					<placeName type="main">Kingdom of Tirhaka</placeName>
-					<note type="editorial">Tirhaka (also Taharqa, Taharka, or Tirhakah) ruled over Egypt and Kush
-						from 690 to 664, B.C.</note>
+					<note type="editorial">Tirhaka (also Taharqa, Taharka, or Tirhakah) ruled over
+						Egypt and Kush from 690 to 664, B.C.</note>
 				</place>
 
 				<place xml:id="region0007" type="region">
 					<placeName type="main">Legaland</placeName>
 					<!-- Metamba -->
-					<note type="editorial">Also called Metamba by Livingstone. Region in the eastern part of
-						present-day Democratic Republic of the Congo that is home to the Lega people and that
-						encompasses the valleys of the middle and upper Elila and the upper Ulindi rivers.</note>
+					<note type="editorial">Also called Metamba by Livingstone. Region in the eastern
+						part of present-day Democratic Republic of the Congo that is home to the
+						Lega people and that encompasses the valleys of the middle and upper Elila
+						and the upper Ulindi rivers.</note>
 				</place>
 
 				<place xml:id="region0009" type="region">
 					<placeName type="main">Linyanti</placeName>
-					<note type="editorial">Region in the northern part of present-day Botswana, just south of the
-						Zambezi River, which became one of the primary settlements of the Makololo state.</note>
+					<note type="editorial">Region in the northern part of present-day Botswana, just
+						south of the Zambezi River, which became one of the primary settlements of
+						the Makololo state.</note>
 				</place>
 
 				<place xml:id="region0010" type="region">
 					<placeName type="main">Lubaland</placeName>
-					<note type="editorial">Savannah region in the central part of present-day Democratic Republic
-						of the Congo that served as the site of the Luba kingdom, a major African empire in the
-						nineteenth century.</note>
+					<note type="editorial">Savannah region in the central part of present-day
+						Democratic Republic of the Congo that served as the site of the Luba
+						kingdom, a major African empire in the nineteenth century.</note>
 				</place>
 
 				<place xml:id="region0011" type="region">
 					<placeName type="main">Lunda</placeName>
-					<note type="editorial">Significant central African kingdom that, in the nineteenth century,
-						encompassed what are now the southern part of the Democratic Republic of the Congo,
-						north-eastern Angola, and north-western Zambia.</note>
+					<note type="editorial">Significant central African kingdom that, in the
+						nineteenth century, encompassed what are now the southern part of the
+						Democratic Republic of the Congo, north-eastern Angola, and north-western
+						Zambia.</note>
 				</place>
 
 				<place xml:id="region0012" type="region">
 					<placeName type="main">Maasailand</placeName>
-					<note type="editorial">Region in east Africa that is home to the Maasi people and stretches
-						from northern Tanzania to southern Kenya.</note>
+					<note type="editorial">Region in east Africa that is home to the Maasi people
+						and stretches from northern Tanzania to southern Kenya.</note>
 				</place>
 
 				<place xml:id="region0013" type="region">
 					<placeName type="main">Maniema</placeName>
-					<note type="editorial">Also Manyema or Mayuema. Region in the eastern part of present-day
-						Democratic Republic of the Congo roughly bordering the Lomami River to the west, Katanga to
-						the south, Lakes Tanganyika and Kivu to the east, and the territory of Stanley Falls to the
-						north.</note>
+					<note type="editorial">Also Manyema or Mayuema. Region in the eastern part of
+						present-day Democratic Republic of the Congo roughly bordering the Lomami
+						River to the west, Katanga to the south, Lakes Tanganyika and Kivu to the
+						east, and the territory of Stanley Falls to the north.</note>
 				</place>
 
 				<place xml:id="region0014" type="region">
 					<placeName type="main">Mbeya[?]</placeName>
-					<note type="editorial">Also called Usango in Livingstone's time. Region in the western part of
-						present-day Tanzania that is home to the Sangu people and that lies just to the east and
-						south-east of Lake Rukwa.</note>
+					<note type="editorial">Also called Usango in Livingstone's time. Region in the
+						western part of present-day Tanzania that is home to the Sangu people and
+						that lies just to the east and south-east of Lake Rukwa.</note>
 				</place>
 
 				<place xml:id="region0015" type="region">
 					<placeName type="main">Midian</placeName>
-					<note type="editorial">Ancient civilization in the northwest Arabian peninsula.</note>
+					<note type="editorial">Ancient civilization in the northwest Arabian
+						peninsula.</note>
 				</place>
 
 				<place xml:id="region0016" type="region">
 					<placeName type="main">Shire highlands</placeName>
-					<note type="editorial">Plateau east of the Shire River in the southern part of present-day
-						Malawi.</note>
+					<note type="editorial">Plateau east of the Shire River in the southern part of
+						present-day Malawi.</note>
 				</place>
 
 
@@ -144,301 +151,333 @@
 				<!-- MT glossary entry -->
 				<place xml:id="region0018" type="region">
 					<placeName type="main">Barotseland</placeName>
-					<note type="editorial">Called Barotse country by Livingstone. Region in present-day western
-						Zambia to the west of the Kafue River, and homeland of the Lozi people. Historically, it
-						covered a larger area including Zambia's current Western, North-western, and Southern
-						Provinces (Minahan 2002:1115).</note>
+					<note type="editorial">Called Barotse country by Livingstone. Region in
+						present-day western Zambia to the west of the Kafue River, and homeland of
+						the Lozi people. Historically, it covered a larger area including Zambia's
+						current Western, North-western, and Southern Provinces (Minahan
+						2002:1115).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0019" type="region">
 					<placeName type="main">Bashan</placeName>
-					<note type="editorial">Country appearing in the Old Testament, which formed part of ancient
-						Palestine. The Israelites' victory over Og, the King of Bashan, is recorded in Numbers
-						21:33-36. See also Deuteronomy 3:1-11, which recounts the events in more detail and describes
-						Og's enormous iron decorated bed, held by the Ammonites, as a relic of his kingdom.</note>
+					<note type="editorial">Country appearing in the Old Testament, which formed part
+						of ancient Palestine. The Israelites' victory over Og, the King of Bashan,
+						is recorded in Numbers 21:33-36. See also Deuteronomy 3:1-11, which recounts
+						the events in more detail and describes Og's enormous iron decorated bed,
+						held by the Ammonites, as a relic of his kingdom.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0020" type="region">
 					<placeName type="main">Bechuanaland</placeName>
-					<note type="editorial">Called Bechuana country by Livingstone. Region in southern Africa, and
-						homeland of the BaTswana groups. It was annexed by Britain in 1885, with the area south of the
-						Molopo River becoming a crown colony and the northern area becoming the Bechuanaland
-						Protectorate. It became independent Botswana in 1966 (Curran 2003:52).</note>
+					<note type="editorial">Called Bechuana country by Livingstone. Region in
+						southern Africa, and homeland of the BaTswana groups. It was annexed by
+						Britain in 1885, with the area south of the Molopo River becoming a crown
+						colony and the northern area becoming the Bechuanaland Protectorate. It
+						became independent Botswana in 1966 (Curran 2003:52).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0021" type="region">
 					<placeName type="main">Benguela</placeName>
-					<note type="editorial">Region on the west coast of Angola. Its capital city, also named
-						Benguela, was founded in 1617 by the Portuguese and became a major port for the trade and
-						transportation of slaves (James 2011:40).</note>
+					<note type="editorial">Region on the west coast of Angola. Its capital city,
+						also named Benguela, was founded in 1617 by the Portuguese and became a
+						major port for the trade and transportation of slaves (James
+						2011:40).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0022" type="region">
 					<placeName type="main">Boróro</placeName>
-					<note type="editorial">Livingstone uses the term to mean the country of the "Baroro," or the
-						Sangu people (also historically known as the Rori). Their historic homelands are in the Mbeya
-						region, north of Lake Malawi in south-western Tanganyika (Olson 1996:509).</note>
+					<note type="editorial">Livingstone uses the term to mean the country of the
+						"Baroro," or the Sangu people (also historically known as the Rori). Their
+						historic homelands are in the Mbeya region, north of Lake Malawi in
+						south-western Tanganyika (Olson 1996:509).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0023" type="region">
 					<placeName type="main">Canaan</placeName>
-					<note type="editorial">Name used in the Old Testament and other sources for ancient Palestine.
-						The Israelites' occupation of Canaan, which was for them the "promised land," in the second
-						millennium BC is described in the book of Joshua.</note>
+					<note type="editorial">Name used in the Old Testament and other sources for
+						ancient Palestine. The Israelites' occupation of Canaan, which was for them
+						the "promised land," in the second millennium BC is described in the book of
+						Joshua.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0024" type="region">
 					<placeName type="main">Cape Colony</placeName>
-					<note type="editorial">British colony in the south and west of what is now South Africa. It
-						began as a Dutch port and settlement in 1652, but was occupied by the British in 1795. It was
-						briefly returned to the Dutch in 1803 before becoming a British possession in 1814. With the
-						Union of South Africa in 1910, it became the Cape Province (or the Province of the Cape of
-						Good Hope) (Olson 1991:115).</note>
+					<note type="editorial">British colony in the south and west of what is now South
+						Africa. It began as a Dutch port and settlement in 1652, but was occupied by
+						the British in 1795. It was briefly returned to the Dutch in 1803 before
+						becoming a British possession in 1814. With the Union of South Africa in
+						1910, it became the Cape Province (or the Province of the Cape of Good Hope)
+						(Olson 1991:115).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0025" type="region">
 					<placeName type="main">Cassange valley</placeName>
-					<note type="editorial">Upper valley of the Kwango River, in north-central Angola.</note>
+					<note type="editorial">Upper valley of the Kwango (or Cuango) River, in
+						north-central Angola.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0026" type="region">
 					<placeName type="main">Central African basin</placeName>
-					<note type="editorial">Called central basin and central valley by Livingstone. Roderick
-						Murchison, the President of the Royal Geographical Society, had proposed in 1852 that the
-						physical structure of southern Africa was an elevated "central trough or basin" encircled by a
-						highland ridge. Although based on limited information and mistaken geological premises, his
-						theoretical speculation proved largely correct. Livingstone came to the same view of Africa's
-						continental structure during his cross-continental expedition, and considered his observations
-						to provide empirical confirmation of Murchison's proposition (Stafford 1988:8, 17; Murchison
+					<note type="editorial">Called central basin and central valley by Livingstone.
+						Roderick Murchison, the President of the Royal Geographical Society, had
+						proposed in 1852 that the physical structure of southern Africa was an
+						elevated "central trough or basin" encircled by a highland ridge. Although
+						based on limited information and mistaken geological premises, his
+						theoretical speculation proved largely correct. Livingstone came to the same
+						view of Africa's continental structure during his cross-continental
+						expedition, and considered his observations to provide empirical
+						confirmation of Murchison's proposition (Stafford 1988:8, 17; Murchison
 						1852:cxxii; Livingstone 1857aa:475, 500; Schapera 1963,2:314).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0027" type="region">
 					<placeName type="main">Crimea</placeName>
-					<note type="editorial">Peninsula located between the Black Sea and the Sea of Azov. It was the
-						site of the Crimean War (1853-56), in which Russia was defeated by the combined forces of
-						Britain, France, and the Ottomans. The conflict was the result of power struggles in the
-						Middle East, and was precipitated by a dispute between the Ottomans and the Russians over the
-						protection of Orthodox Christians in the Ottoman Empire. It was a badly organised campaign,
-						with infection and unsanitary conditions responsible for a large proportion of lives lost
-						(Kohn 2013:133).</note>
+					<note type="editorial">Peninsula located between the Black Sea and the Sea of
+						Azov. It was the site of the Crimean War (1853-56), in which Russia was
+						defeated by the combined forces of Britain, France, and the Ottomans. The
+						conflict was the result of power struggles in the Middle East, and was
+						precipitated by a dispute between the Ottomans and the Russians over the
+						protection of Orthodox Christians in the Ottoman Empire. It was a badly
+						organised campaign, with infection and unsanitary conditions responsible for
+						a large proportion of lives lost (Kohn 2013:133).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0028" type="region">
 					<placeName type="main">Dande</placeName>
-					<note type="editorial">Coastal region of north-western Angola, in present-day Bengo
-						Province.</note>
+					<note type="editorial">Coastal region of north-western Angola, in present-day
+						Bengo Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0029" type="region">
 					<placeName type="main">Darfur</placeName>
-					<note type="editorial">Region of present-day western Sudan, predominantly consisting of
-						extensive plains.</note>
+					<note type="editorial">Region of present-day western Sudan, predominantly
+						consisting of extensive plains.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0030" type="region">
 					<placeName type="main">Eastern Province</placeName>
-					<note type="editorial">Eastern region of the Cape Colony. The colony's eastern frontier and the
-						AmaXhosa territories beyond, known in the nineteenth century as "Kaffraria" or "Kaffreland,"
-						were the site of the century-long series of disputes between the AmaXhosa and the British
-						known as the Cape Frontier Wars (1779–1879). See also Kaffraria.</note>
+					<note type="editorial">Eastern region of the Cape Colony. The colony's eastern
+						frontier and the AmaXhosa territories beyond, known in the nineteenth
+						century as "Kaffraria" or "Kaffreland," were the site of the century-long
+						series of disputes between the AmaXhosa and the British known as the Cape
+						Frontier Wars (1779–1879). See also Kaffraria.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0031" type="region">
 					<placeName type="main">Hebrides</placeName>
-					<note type="editorial">Group of islands off the west coast of Scotland. Those to the west of
-						the Minch and Little Minch channels are known as the Outer Hebrides, while those to the east
-						are known as the Inner Hebrides.</note>
+					<note type="editorial">Group of islands off the west coast of Scotland. Those to
+						the west of the Minch and Little Minch channels are known as the Outer
+						Hebrides, while those to the east are known as the Inner Hebrides.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0032" type="region">
 					<placeName type="main">Kaffraria</placeName>
-					<note type="editorial">Called Caffraria and Caffreland by Livingstone. Region in the Eastern
-						Cape of present-day South Africa, and historically homeland of the AmaXhosa people. It was the
-						site of the century-long series of disputes between the AmaXhosa and the British, known as the
-						Cape Frontier Wars (1779–1879). The region was annexed in 1835 as Queen Adelaide Province, but
-						this was annulled within the year. It was annexed again in 1847 as British Kaffraria and was
-						integrated into the Cape Colony in 1865 (Augustyn et al. 2017c).</note>
+					<note type="editorial">Called Caffraria and Caffreland by Livingstone. Region in
+						the Eastern Cape of present-day South Africa, and historically homeland of
+						the AmaXhosa people. It was the site of the century-long series of disputes
+						between the AmaXhosa and the British, known as the Cape Frontier Wars
+						(1779–1879). The region was annexed in 1835 as Queen Adelaide Province, but
+						this was annulled within the year. It was annexed again in 1847 as British
+						Kaffraria and was integrated into the Cape Colony in 1865 (Augustyn et al.
+						2017c).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0033" type="region">
 					<placeName type="main">Kashmir</placeName>
-					<note type="editorial">North-western region of the Indian subcontinent. In 1846, following the
-						first Anglo-Sikh War, Kashmir became a princely state under British indirect rule.</note>
+					<note type="editorial">North-western region of the Indian subcontinent. In 1846,
+						following the first Anglo-Sikh War, Kashmir became a princely state under
+						British indirect rule.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0034" type="region">
 					<placeName type="main">Katonga</placeName>
-					<note type="editorial">Area on the Zambezi River in present-day Zambia's Western Province,
-						bordering Namibia's Caprivi Strip. According to Livingstone, it was twenty-five miles west of
-						where Sesheke was then located (Livingstone 1857aa:684).</note>
+					<note type="editorial">Area on the Zambezi River in present-day Zambia's Western
+						Province, bordering Namibia's Caprivi Strip. According to Livingstone, it
+						was twenty-five miles west of where Sesheke was then located (Livingstone
+						1857aa:684).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0035" type="region">
 					<placeName type="main">Lanarkshire</placeName>
-					<note type="editorial">Historical county in south-central Scotland, covering the area of
-						present-day North Lanarkshire, South Lanarkshire, the City of Glasgow, and East
-						Dumbartonshire.</note>
+					<note type="editorial">Historical county in south-central Scotland, covering the
+						area of present-day North Lanarkshire, South Lanarkshire, the City of
+						Glasgow, and East Dumbartonshire.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0036" type="region">
 					<placeName type="main">Luanda</placeName>
-					<note type="editorial">Called Loanda and Loando by Livingstone. Region in western Angola, which
-						is today one of the country's eighteen provinces.</note>
+					<note type="editorial">Called Loanda and Loando by Livingstone. Region in
+						western Angola, which is today one of the country's eighteen
+						provinces.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0037" type="region">
 					<placeName type="main">Luba</placeName>
-					<note type="editorial">Major central African state, which existed in the region between the
-						Lomami and Lualaba rivers in what is now southern Democratic Republic of the Congo. Luba had
-						become a "dynastic kingdom" by 1700, and expanded its sway throughout the eighteenth and
-						nineteenth centuries as far east as Lake Tanganyika, as far south as Lake Mweru, and as far
-						north as Kasuland and Songyeland (Macola 2016b:1320-21).</note>
+					<note type="editorial">Major central African state, which existed in the region
+						between the Lomami and Lualaba rivers in what is now southern Democratic
+						Republic of the Congo. Luba had become a "dynastic kingdom" by 1700, and
+						expanded its sway throughout the eighteenth and nineteenth centuries as far
+						east as Lake Tanganyika, as far south as Lake Mweru, and as far north as
+						Kasuland and Songyeland (Macola 2016b:1320-21).</note>
 				</place>
 				<!-- MT glossary entry -->
 				<place xml:id="region0038" type="region">
 					<placeName type="main">Lunda</placeName>
-					<note type="editorial">Also called Lui, Loi, and Londa by Livingstone. Significant central
-						African commonwealth of autonomous but interlinking states, encompassing what is now southern
-						Democratic Republic of the Congo, north-eastern Angola, and north-western Zambia. At the heart
-						of the commonwealth was the central Lunda state (known as the Ruund), situated between the
-						Kasai and Lubilash rivers. Other Lunda polities traced their origin to the Ruund and derived
-						their status from its royal title. The commonwealth stretched west to Kasanje's kingdom on the
-						Kwango River, east to Kazembe's kingdom in the Luapula valley, and south to a number of
-						smaller states (Macola 2016a:34, 2016b:1320-22).</note>
+					<note type="editorial">Also called Lui, Loi, and Londa by Livingstone.
+						Significant central African commonwealth of autonomous but interlinking
+						states, encompassing what is now southern Democratic Republic of the Congo,
+						north-eastern Angola, and north-western Zambia. At the heart of the
+						commonwealth was the central Lunda state (known as the Ruund), situated
+						between the Kasai and Lubilash rivers. Other Lunda polities traced their
+						origin to the Ruund and derived their status from its royal title. The
+						commonwealth stretched west to Kasanje's kingdom on the Kwango (or Cuango)
+						River, east to Kazembe's kingdom in the Luapula valley, and south to a
+						number of smaller states (Macola 2016a:34, 2016b:1320-22).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0039" type="region">
 					<placeName type="main">Luvale</placeName>
-					<note type="editorial">Called Lobale by Livingstone. Region encompassing parts of present-day
-						north-western Zambia and south-eastern Angola, that was historically homeland of the Luvale
-						people (Schapera 1963,1:38n2; Augustyn et al. 2017d).</note>
+					<note type="editorial">Called Lobale by Livingstone. Region encompassing parts
+						of present-day north-western Zambia and south-eastern Angola, that was
+						historically homeland of the Luvale people (Schapera 1963,1:38n2; Augustyn
+						et al. 2017d).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0040" type="region">
 					<placeName type="main">Makololo country</placeName>
-					<note type="editorial">Territory occupied by the Makololo in the 1830s and 40s, predominantly
-						in the Bulozi Plain of present-day Zambia's Western Province. Before the Lozi uprising of
-						1864, the Makololo empire extended from the northern point of the plain as far south as the
-						Linyanti swamps and Victoria Falls (Kalusa 2009:62).</note>
+					<note type="editorial">Territory occupied by the Makololo in the 1830s and 40s,
+						predominantly in the Bulozi Plain of present-day Zambia's Western Province.
+						Before the Lozi uprising of 1864, the Makololo empire extended from the
+						northern point of the plain as far south as the Linyanti swamps and Victoria
+						Falls (Kalusa 2009:62).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0041" type="region">
 					<placeName type="main">Mango</placeName>
-					<note type="editorial">Also called Manga by Livingstone. Area around the confluence of the
-						Lungwebungu and Zambezi rivers, in the northern part of present-day Zambia's Western
-						Province.</note>
+					<note type="editorial">Also called Manga by Livingstone. Area around the
+						confluence of the Lungwebungu and Zambezi rivers, in the northern part of
+						present-day Zambia's Western Province.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0042" type="region">
 					<placeName type="main">Manica</placeName>
-					<note type="editorial">Also called Manoa and Manwa by Livingstone. Region historically occupied
-						by the Shona-speaking Manyika people, in the eastern part of present-day Zimbabwe (Manicaland
-						Province) and the bordering area of Mozambique (Manica District). Its gold fields and gold
-						trade date to at least the seventeenth century (Augustyn et al. 2017e; Schapera
+					<note type="editorial">Also called Manoa and Manwa by Livingstone. Region
+						historically occupied by the Shona-speaking Manyika people, in the eastern
+						part of present-day Zimbabwe (Manicaland Province) and the bordering area of
+						Mozambique (Manica District). Its gold fields and gold trade date to at
+						least the seventeenth century (Augustyn et al. 2017e; Schapera
 						1963,2:426n3).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0043" type="region">
 					<placeName type="main">Mashonaland</placeName>
-					<note type="editorial">Called Mashona hills by Livingstone. Historic homelands of the Shona
-						people, in present-day north-eastern Zimbabwe.</note>
+					<note type="editorial">Called Mashona hills by Livingstone. Historic homelands
+						of the Shona people, in present-day north-eastern Zimbabwe.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0044" type="region">
 					<placeName type="main">Mokwankwa</placeName>
-					<note type="editorial">Area in eastern Angola, in the vicinity of present-day Cazombo in Moxico
-						Province (Schapera 1963,1:69n1; Livingstone 1857aa:306-07, 685).</note>
+					<note type="editorial">Area in eastern Angola, in the vicinity of present-day
+						Cazombo in Moxico Province (Schapera 1963,1:69n1; Livingstone 1857aa:306-07,
+						685).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0045" type="region">
 					<placeName type="main">Natal</placeName>
-					<note type="editorial">British colony in what is now KwaZulu-Natal, South Africa. The region,
-						which had been established as an independent Boer Republic in 1839, was annexed by Britain in
-						1843. In 1910, it was integrated into the newly formed Union of South Africa as Natal Province
-						(Augustyn et al. 2007).</note>
+					<note type="editorial">British colony in what is now KwaZulu-Natal, South
+						Africa. The region, which had been established as an independent Boer
+						Republic in 1839, was annexed by Britain in 1843. In 1910, it was integrated
+						into the newly formed Union of South Africa as Natal Province (Augustyn et
+						al. 2007).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0046" type="region">
 					<placeName type="main">Ophir</placeName>
-					<note type="editorial">Wealthy region described in the Old Testament, which traded with King
-						Solomon in gold and opulent goods (see 1 Kings 9:28, 10:11, and 2 Chronicles 8:18). It has
-						been identified variously with sites in the Arabian Peninsula, India, and east Africa.</note>
+					<note type="editorial">Wealthy region described in the Old Testament, which
+						traded with King Solomon in gold and opulent goods (see 1 Kings 9:28, 10:11,
+						and 2 Chronicles 8:18). It has been identified variously with sites in the
+						Arabian Peninsula, India, and east Africa.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0047" type="region">
 					<placeName type="main">Orange Free State</placeName>
-					<note type="editorial">Boer Republic between the Orange and Vaal rivers, in what is now
-						east-central South Africa. The region was initially annexed by Britain as the Orange River
-						Sovereignty in 1848, but was granted status as an independent Boer Republic in 1854. In the
-						Second Anglo-Boer War (1899-1902), it was defeated by the British and made into the Orange
-						River Colony. In 1910, it was integrated into the newly formed Union of South Africa as the
-						Orange Free State Province (Olson 1991:473).</note>
+					<note type="editorial">Boer Republic between the Orange and Vaal rivers, in what
+						is now east-central South Africa. The region was initially annexed by
+						Britain as the Orange River Sovereignty in 1848, but was granted status as
+						an independent Boer Republic in 1854. In the Second Anglo-Boer War
+						(1899-1902), it was defeated by the British and made into the Orange River
+						Colony. In 1910, it was integrated into the newly formed Union of South
+						Africa as the Orange Free State Province (Olson 1991:473).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0048" type="region">
 					<placeName type="main">Polynesia</placeName>
-					<note type="editorial">Known historically as the South Sea Islands. Group of over 1000 islands
-						in the east-central Pacific Ocean.</note>
+					<note type="editorial">Known historically as the South Sea Islands. Group of
+						over 1000 islands in the east-central Pacific Ocean.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0049" type="region">
 					<placeName type="main">Pungo Andongo</placeName>
-					<note type="editorial">Portuguese settlement in north-western Angola, about fifty miles west of
-						Malanje in present-day Malanje Province. Before it was conquered by the Portuguese in 1671 and
-						established as a military enclave, it was a stronghold of the Ndongo Kingdom (Pungo-a-Ndongo).
-						Pungo Andongo is also the site of a celebrated formation of giant monoliths (Thompson 2017:51,
-						Wheeler and Pélissier 1971:39).</note>
+					<note type="editorial">Region of north-western Angola, and the site of a
+						seventeenth-century Portuguese fort, about fifty miles west of Malanje in
+						present-day Malanje Province. Before it was conquered by the Portuguese in
+						1671 and established as a military enclave, it was a stronghold of the
+						Ndongo Kingdom (Pungo-a-Ndongo). Pungo Andongo is also the site of a
+						celebrated formation of giant monoliths (Thompson 2017:51, Wheeler and
+						Pélissier 1971:39).</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0052" type="region">
 					<placeName type="main">Salisbury Plains</placeName>
-					<note type="editorial">Chalk plateau in Wiltshire, south-west England, best known for its
-						archaelogical sites and prehistoric monuments including Stonehenge.</note>
+					<note type="editorial">Chalk plateau in Wiltshire, south-west England, best
+						known for its archaelogical sites and prehistoric monuments including
+						Stonehenge.</note>
 				</place>
 
 				<!-- MT glossary entry -->
 				<place xml:id="region0050" type="region">
 					<placeName type="main">South African Republic</placeName>
-					<note type="editorial">Also known as the Transvaal. Boer Republic between the Vaal and Limpopo
-						rivers, in what is now north-eastern South Africa. The state was established with the Sand
-						River Convention of 1852, which conceded the independence of the Boer communities north of the
-						Vaal River. It was annexed in 1877 as the British Transvaal Territory, but this was revoked as
-						a result of the Boers' victory in the First Anglo-Boer War (1880-81). Defeated by the British
-						in the Second Anglo-Boer War (1899-1902), it became the Crown Colony of the Transvaal. In
-						1910, it was integrated into the newly formed Union of South Africa as the Transvaal Province
-						(Laband 2009b:264-65, Augustyn et al. 2009).</note>
+					<note type="editorial">Also known as the Transvaal. Boer Republic between the
+						Vaal and Limpopo rivers, in what is now north-eastern South Africa. The
+						state was established with the Sand River Convention of 1852, which conceded
+						the independence of the Boer communities north of the Vaal River. It was
+						annexed in 1877 as the British Transvaal Territory, but this was revoked as
+						a result of the Boers' victory in the First Anglo-Boer War (1880-81).
+						Defeated by the British in the Second Anglo-Boer War (1899-1902), it became
+						the Crown Colony of the Transvaal. In 1910, it was integrated into the newly
+						formed Union of South Africa as the Transvaal Province (Laband 2009b:264-65,
+						Augustyn et al. 2009).</note>
 				</place>
 
 				<!-- MT glossary entry -->
