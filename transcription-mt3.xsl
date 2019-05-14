@@ -17,8 +17,13 @@
 		</xd:desc>
 		<xd:desc>
 			<xd:p><xd:b>Author:</xd:b> Justin Livingstone</xd:p>
-			<xd:p>Revisions for Missionary Travles</xd:p>
+			<xd:p>Revisions for Missionary Travels</xd:p>
 			<xd:p>Updated in Mar 2017.</xd:p>
+		</xd:desc>
+		<xd:desc>
+			<xd:p><xd:b>Author:</xd:b> Justin Livingstone</xd:p>
+			<xd:p>Revisions for Missionary Travels</xd:p>
+			<xd:p>Updated in May 2019.</xd:p>
 		</xd:desc>
 	</xd:doc>
 	
@@ -1066,6 +1071,94 @@
 
 	<xsl:variable name="geogName" select="doc('geogName.xml')"/>
 
+	<xsl:template match="placeName/geogName[@type='bay']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A bay.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName bay" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="placeName/geogName[@type='cape']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A Cape.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName cape" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="placeName/geogName[@type='cataracts']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>Cataracts.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName cataracts" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='cave']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A cave.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName cave" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
 	<xsl:template match="placeName/geogName[@type='desert']">
 		<!-- Make the output of the @title attribute in a variable -->
 		<xsl:variable name="title">
@@ -1150,6 +1243,28 @@
 		</xsl:variable>
 		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
 		<span class="geogName garden" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='headland']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A headland.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName headland" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1241,6 +1356,50 @@
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='pan']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A pan.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName pan" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="placeName/geogName[@type='pass']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A pass.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName pass" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
 
 	<xsl:template match="placeName/geogName[@type='plain']">
 		<!-- Make the output of the @title attribute in a variable -->
@@ -1260,6 +1419,28 @@
 		</xsl:variable>
 		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
 		<span class="geogName plain" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='plateau']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A plateau.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName plateau" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1392,6 +1573,28 @@
 		</xsl:variable>
 		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
 		<span class="geogName valley" title="{$title}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+	
+	<xsl:template match="placeName/geogName[@type='waterfall']">
+		<!-- Make the output of the @title attribute in a variable -->
+		<xsl:variable name="title">
+			<xsl:choose>
+				<!-- when there is a @ref, assume it is right and go get information about the person -->
+				<xsl:when test="@ref">
+					<xsl:variable name="id" select="substring-after(@ref, '#')"/>
+					<xsl:variable name="thisGeogName" select="$geogName//place[@xml:id=$id]"/>
+					<xsl:value-of select="$thisGeogName/placeName[@type='main']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="normalize-space($thisGeogName/note[1])"/>
+				</xsl:when>
+				<!-- otherwise... -->
+				<xsl:otherwise>A waterfall.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<!-- output the geogName in a html:span element with whatever is now in the $title variable -->
+		<span class="geogName waterfall" title="{$title}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
