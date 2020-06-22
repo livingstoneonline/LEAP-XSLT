@@ -157,7 +157,7 @@
 				                </ul>
 				            </div>
 				        </div>
-				    </n>
+				    </nav>
 				
 				<!-- end of nav -->
 				       
