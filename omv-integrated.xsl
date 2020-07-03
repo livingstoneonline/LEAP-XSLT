@@ -21,11 +21,10 @@
 	<xsl:param name="page" select="'0001'"/>
 	<xsl:param name="paged" select="'true'"/>
 
-	<!-- Transform these to global variables in case I need to use them anywhere -->
+	<!-- Transform these to global variables in case they are needed anywhere -->
 	<xsl:variable name="pagenumber" select="$page"/>
 	<xsl:variable name="isPaged" select="$paged"/>
 
-	<!-- When not producing full HTML files, this template could be removed but javascript and CSS will need to be copied to correct location. -->
 	<xsl:template match="/">
 		<xsl:variable name="subtitle">
 			<xsl:choose>
@@ -44,7 +43,7 @@
 		<xsl:variable name="LEAP-ID">
 			<xsl:value-of select="//idno[@type='LEAP-ID']"/>
 		</xsl:variable>
-		<html>
+		<html lang="en">
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<title>
@@ -55,12 +54,18 @@
 			    <meta name="description" content="Critically-edited primary material for One More Voice. One More Voice, a work of digital humanities scholarship, focuses on recovering non-European contributions from the nineteenth-century British imperial and colonial archives." />
     			<meta name="keywords" content="one more voice,livingstone online,recovery,archives,colonial,colonialism,postcolonial,postcolonialism,empire,imperialism,digital humanities,minimal computing,travel,missionary,expeditionary,exploration,intercultural,encounter,non-western,non-European,literature,British,African,Africa,Victorian,nineteenth-century,travel narratives,autobiographies,letters,diaries,testimonies,interviews,maps,oral histories,genealogies,vocabularies,coronavirus,covid-19,creative commons" />
 			    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-			    <!-- <link rel="stylesheet" type="text/css" href="../style.css" />
+			    <!--<link rel="stylesheet" type="text/css" href="../style.css" />
 			    <script src="../overlay.js"></script>
-			    <script src="../stickynav.js" defer=""></script> -->
+			    <script src="../stickynav.js" defer=""></script>
+				<xsl:if test="/TEI//graphic[@n='artifact rotate-180']">
+					<script src="../rotate.js" defer=""></script>
+				</xsl:if>-->
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/style.css" />
 			    <script src="http://livingstoneonline.github.io/onemorevoice/overlay.js"></script>
 			    <script src="http://livingstoneonline.github.io/onemorevoice/stickynav.js" defer=""></script>
+				<xsl:if test="/TEI//graphic[@n='artifact rotate-180']">
+					<script src="http://livingstoneonline.github.io/onemorevoice/rotate.js" defer=""></script>
+				</xsl:if>
 				<!-- Global site tag (gtag.js) - Google Analytics -->
 				<script async='' src="https://www.googletagmanager.com/gtag/js?id=UA-31768072-5"></script>
 				<script>
@@ -80,7 +85,11 @@
 				    <!-- Dropdown menu adapted from https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/ -->
 				    <!-- Idea for checkboxes that act like radio buttons adapted from https://stackoverflow.com/questions/42870002/how-to-uncheck-a-checkbox-when-another-one-is-checked-->
 				    
-				    <nav class="topnav" aria-labelledby="nav1">
+				        <nav id="skiptocontent">
+							<a href="#main" tabindex="1">skip to main content</a>
+						</nav>
+						
+						<nav class="topnav" aria-labelledby="nav1">
 				            <ul role="menubar" id="nav1" aria-label="Site Sections">
 				                <li role="none"><a role="menuitem" aria-haspopup="false" href="../index.html">home</a></li>
 				                <li role="none"><a role="menuitem" aria-haspopup="false" href="../texts.html">texts</a></li>
@@ -114,7 +123,7 @@
 				                            <ul role="none">
 				                                <li role="none"><a role="menuitem" href="../contributors.html">contributors</a></li>
 				                                <li role="none"><a role="menuitem" href="../bibliography.html">bibliography</a></li>
-				                                <li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/" target="_blank">github repo</a></li>
+				                                <li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/">github repo</a></li>
 				                                <li role="none"><a role="menuitem" href="mailto:awisnicki@yahoo.com">contact</a></li>
 				                            </ul>
 				                        </div>
@@ -128,7 +137,7 @@
 				    <!-- Mobile sticky nav adapted from https://www.mattmorgante.com/technology/sticky-navigation-bar-javascript -->
 				    <nav id="sticky" aria-labelledby="nav2">
 				        <div class="menu" id="nav2">
-				            <span class="icon-title"><a style="cursor:pointer" class="icon" role="menu" aria-label="Site Sections" aria-hidden="true" onclick="openNav()"><i class="fa fa-bars"></i></a></span>
+				            <span class="icon-title"><a style="cursor:pointer" class="icon" aria-label="Show Site Sections" aria-hidden="true" onclick="openNav()" tabindex="2"><i class="fa fa-bars"></i></a></span>
 				            <span class="nav-title">One More Voice</span>
 				        </div>
 				    </nav>
@@ -155,7 +164,7 @@
 				                        <ul role="menu" aria-label="Miscellaneous">
 				                            <li role="none"><a role="menuitem" href="../contributors.html">contributors</a></li>
 				                            <li role="none"><a role="menuitem" href="../bibliography.html">bibliography</a></li>
-				                            <li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/" target="_blank">github repo</a> (external)</li>
+				                            <li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/">github repo</a></li>
 				                            <li role="none"><a role="menuitem" href="mailto:awisnicki@yahoo.com">contact</a> (mailto)</li>
 				                        </ul>
 				                    </li>
@@ -168,7 +177,7 @@
 				<!-- end of nav -->
 				       
 				<header class="title" id="title-div"> 
-				    <img class="image image-border" src="../images/xml-code.png" alt="A segment of coded text taken from the One More Voice project." title="A segment of coded text taken from the One More Voice project." />
+				    <img class="image image-border" src="../images/xml-code.png" alt="Coded text from an XML file produced by the One More Voice project according to the TEI P5 guidelines." title="A segment of coded text taken from the One More Voice project." />
 	        		<h1 class="header-title">One More Voice</h1>
 	        		<hr/>
 	        		<div><span class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
@@ -253,21 +262,97 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
+		<xsl:variable name="repo-location">
+			<xsl:text> (</xsl:text><xsl:value-of select="string-join((//sourceDesc/msDesc/msIdentifier/settlement, //sourceDesc/msDesc/msIdentifier/country), ', ')"/><xsl:text>)</xsl:text>
+		</xsl:variable>
+		<xsl:variable name="show-repo-location">
+			<xsl:choose>
+				<xsl:when test="//sourceDesc/msDesc/msIdentifier/country/text() and //sourceDesc/msDesc/msIdentifier/settlement/text()">
+					<xsl:copy-of select="$repo-location"/>
+				</xsl:when>
+				<xsl:otherwise/>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="repository">
+			<xsl:choose>
+				<xsl:when test="//teiHeader//sourceDesc/msDesc/msIdentifier/repository/text()">															<p><span class="bold">Repository:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/repository" /><xsl:copy-of select="$show-repo-location"/></p>
+				</xsl:when>
+				<xsl:otherwise/>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="collection-link">
+			<xsl:value-of select="//sourceDesc/msDesc/msIdentifier/collection/@ref"/>
+		</xsl:variable>
+		<xsl:variable name="collection-spec">
+			<xsl:choose>
+			<xsl:when test="//sourceDesc/msDesc/msIdentifier/collection[@ref]">
+				<a href="{$collection-link}"><xsl:value-of select="//sourceDesc/msDesc/msIdentifier/collection"/></a>
+			</xsl:when>
+			<xsl:when test="not(//sourceDesc/msDesc/msIdentifier/collection[@ref])">
+				<xsl:value-of select="//sourceDesc/msDesc/msIdentifier/collection"/>
+			</xsl:when>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="collection">
+			<xsl:choose>
+				<xsl:when test="//teiHeader//sourceDesc/msDesc/msIdentifier/collection/text()">															<p><span class="bold">Collection:</span><xsl:text> </xsl:text><xsl:copy-of select="$collection-spec"/><xsl:copy-of select="$show-repo-location"/></p>
+				</xsl:when>
+				<xsl:otherwise/>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="shelfmark">
+			<xsl:choose>
+				<xsl:when test="//teiHeader//sourceDesc/msDesc/msIdentifier/idno[@type='shelfmark']/text()">											<p><span class="bold">Shelfmark / Identifier:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/idno[@type='shelfmark']" /></p>
+				</xsl:when>
+				<xsl:otherwise/>
+			</xsl:choose>
+		</xsl:variable>
 		<xsl:variable name="license">
 			<xsl:value-of select="//teiHeader//publicationStmt/availability/licence/@target"/>
+		</xsl:variable>
+		<xsl:variable name="availP">
+			<xsl:apply-templates select="//availability/p/node()"/>
 		</xsl:variable>
 		<xsl:variable name="copyright">
 			<xsl:choose>
 			<xsl:when test="//availability/licence[@target]">
-				<a href="{$license}" target="_blank"><xsl:value-of select="//teiHeader//publicationStmt/availability"/></a>
+				<xsl:copy-of select="$availP"/><xsl:text> </xsl:text><a href="{$license}"><xsl:value-of select="//teiHeader//publicationStmt/availability/licence"/></a>
 			</xsl:when>
 			<xsl:when test="not(//availability/licence[@target])">
-				<xsl:value-of select="//teiHeader//publicationStmt/availability"/>
+				<xsl:value-of select="//availability/p"/><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/availability/licence"/>
 			</xsl:when>
 			</xsl:choose>
 		</xsl:variable>
 		<xsl:variable name="LEAP-ID">
 			<xsl:value-of select="//idno[@type='LEAP-ID']"/>
+		</xsl:variable>
+		<xsl:variable name="pub-deets">
+			<xsl:choose>
+				<xsl:when test="//sourceDesc/biblStruct/monogr/@n='book-chapter'">
+					<xsl:text>In </xsl:text>
+					<span class="italic"><xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//title"/></span>
+					<xsl:text>, by </xsl:text>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/author"/>
+					<xsl:text>, </xsl:text>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='pages']"/>
+					<xsl:text>. </xsl:text>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/pubPlace"/>
+					<xsl:text>: </xsl:text>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/publisher"/>
+					<xsl:text>, </xsl:text>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/date"/>
+					<xsl:text>.</xsl:text>
+				</xsl:when>
+				<xsl:otherwise>
+					<span class="italic"><xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//title"/></span>
+					<xsl:text> </xsl:text>
+					<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='vol']"/>
+					<xsl:text> (</xsl:text>
+					<xsl:value-of select="//sourceDesc/biblStruct[@type='journal']//imprint/date"/>
+					<xsl:text>): </xsl:text>
+					<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='pages']"/>
+				</xsl:otherwise>
+			</xsl:choose>
 		</xsl:variable>
 		<xsl:variable name="editorial">
 			<xsl:if test="count(//teiHeader//respStmt) > 1">
@@ -281,56 +366,44 @@
 			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="base-uri" select="base-uri(.)"/>
-		<!--<xsl:variable name="document-uri" select="document-uri(.)"/>-->
  		<xsl:variable name="filename" select="(tokenize($base-uri,'/'))[last()]"/>
 		<xsl:choose>
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
-		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits">
+		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[@type='alternative']"/></h3>
 					<p><span class="bold">Author(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
-					<!--<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date"/></p>-->
 					<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
-					<p><span class="bold">Repository:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/repository" /> (<xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/settlement" />, <xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/country" />)</p>
-					<p><span class="bold">Shelfmark / Identifier:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/idno[@type='shelfmark']" /></p>
-					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/" target="_blank">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
+					<xsl:copy-of select="$repository"/>
+					<xsl:copy-of select="$collection"/>
+					<xsl:copy-of select="$shelfmark"/>
+					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
 					<p><span class="bold">Critical editing &amp; encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
-					<!--<p class="item-spec"><span class="bold">Encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></p>-->
 					<p><span class="bold">Note:</span> This historical document, published in unabridged form, reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
 					<hr/>
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
-		    	<aside class="credits" id="credits1-div"  aria-labelledby="opening-credits">
+		    	<aside class="credits" id="credits1-div"  aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
 					<h3 id="opening-credits">“<xsl:value-of select="//teiHeader//titleStmt/title[1]"/>”</h3>
 					<p><span class="bold">Author(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
 					<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date"/></p>
-					<p><span class="bold">Original publication details:</span><xsl:text> </xsl:text>
-						<span class="italic"><xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//title"/></span>
-						<xsl:text> </xsl:text>
-						<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='vol']"/>
-						<xsl:text> (</xsl:text>
-						<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/date"/>
-						<xsl:text>): </xsl:text>
-						<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='pages']"/>
-					</p>
-					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/" target="_blank">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
+					<p><span class="bold">Original publication details:</span><xsl:text> </xsl:text><xsl:copy-of select="$pub-deets"/></p>
+					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
 					<p><span class="bold">Critical editing &amp; encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
-					<!--<p class="item-spec"><span class="bold">Encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></p>-->
 					<p><span class="bold">Note:</span> This historical document, published in unabridged form, reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
 					<hr/>
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/msDesc[@type='artifact']">
-		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits">
+		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[@type='alternative']"/></h3>
 					<p><span class="bold">Creator(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
-					<!--<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date"/></p>-->
 					<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
-					<p><span class="bold">Repository:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/repository" /> (<xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/settlement" />, <xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/country" />)</p>
-					<p><span class="bold">Shelfmark / Identifier:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/msDesc/msIdentifier/idno[@type='shelfmark']" /></p>
-					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/" target="_blank">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
+					<xsl:copy-of select="$repository"/>
+					<xsl:copy-of select="$collection"/>
+					<xsl:copy-of select="$shelfmark"/>
+					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
 					<p><span class="bold">Digital artifact curation</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
-					<!--<p class="item-spec"><span class="bold">Encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></p>-->
 					<p><span class="bold">Note:</span> This historical artifact reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
 					<hr/>
 				</aside>
@@ -403,7 +476,7 @@
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
 				<main class="journal" id="journal-div"><!-- style="background:#{$body-color};" -->
-					<div class="TEI"><!-- style="background:#{$body-color};" -->	
+					<div class="TEI">
 						<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 						<xsl:choose>
 							<xsl:when test="$isPaged='true' and //jc:page[@n=$pagenumber]">
@@ -453,7 +526,13 @@
 					<div id="closing-credits">
 						<hr />
 						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></p>
-						<p><span class="bold">Cite item (MLA)</span><xsl:text>: </xsl:text>
+						<xsl:if test="//publicationStmt/ref">
+							<xsl:variable name="source-link">
+								<xsl:value-of select="//publicationStmt/ref/@target"/>
+							</xsl:variable>
+							<p><span class="bold">Explore original item image(s):</span><xsl:text> </xsl:text><a href="{$source-link}"><xsl:value-of select="//publicationStmt/ref"/></a></p>
+						</xsl:if>
+						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
 						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/title[not(@type='alternative')]"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
@@ -468,7 +547,13 @@
 					<div id="closing-credits">
 						<hr/>
 						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></p>
-						<p><span class="bold">Cite item (MLA)</span><xsl:text>: </xsl:text>
+						<xsl:if test="//publicationStmt/ref">
+							<xsl:variable name="source-link">
+								<xsl:value-of select="//publicationStmt/ref/@target"/>
+							</xsl:variable>
+							<p><span class="bold">Explore complete/original item:</span><xsl:text> </xsl:text><a href="{$source-link}"><xsl:value-of select="//publicationStmt/ref"/></a></p>
+						</xsl:if>
+						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
 						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/title[not(@type='alternative')]"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
@@ -483,7 +568,13 @@
 					<div id="closing-credits">
 						<hr />
 						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></p>
-						<p><span class="bold">Cite item (MLA)</span><xsl:text>: </xsl:text>
+						<xsl:if test="//publicationStmt/ref">
+							<xsl:variable name="source-link">
+								<xsl:value-of select="//publicationStmt/ref/@target"/>
+							</xsl:variable>
+							<p><span class="bold">Explore complete/original item:</span><xsl:text> </xsl:text><a href="{$source-link}"><xsl:value-of select="//publicationStmt/ref"/></a></p>
+						</xsl:if>
+						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
 						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/title[not(@type='alternative')]"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
@@ -493,10 +584,9 @@
 				</aside>
 			</xsl:when>
 		</xsl:choose>
-			
 		<footer class="footer" id="footer-div">
             <hr />
-			<p>&#169; 2020, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> | <span class="italic">One More Voice</span> is an imprint of <a href="https://livingstoneonline.org/" target="_blank">Livingstone Online</a> | Hosted by <a href="https://github.com/" target="_blank">GitHub</a> | Design &amp; admin: <a href="mailto:awisnicki@yahoo.com">Adrian S. Wisnicki</a> (University of Nebraska-Lincoln) | <a href="../site_map.html">Site Map</a></p>
+			<p>&#169; 2020, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> | <span class="italic">One More Voice</span> is an imprint of <a href="https://livingstoneonline.org/">Livingstone Online</a> | Hosted by <a href="https://github.com/">GitHub</a> | Design &amp; admin: <a href="mailto:awisnicki@yahoo.com">Adrian S. Wisnicki</a> (University of Nebraska-Lincoln) | <a href="../site_map.html">Site Map</a></p>
         </footer>
 	</xsl:template>
 
@@ -530,13 +620,6 @@
 					<xsl:value-of select="$class"/>
 				</xsl:attribute>
 			</xsl:if>
-			<!--<xsl:if test="$title/text()">
-				<xsl:attribute name="title">
-					<xsl:value-of select="$title"/>
-				</xsl:attribute>
-			</xsl:if>-->
-			<!-- Necessary to turn this off, otherwise it creates wonky tooltips.
-			Tooltips as needed should be set on the specific element. -->
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -577,16 +660,6 @@
 				<xsl:text> </xsl:text>
 			</xsl:if>
 		</xsl:variable>
-		<!--<br/><xsl:if test="$class/text()"><xsl:attribute name="class"><xsl:value-of select="$class"/></xsl:attribute></xsl:if></br>-->
-		<!--<xsl:variable name="lb-with-p">
-			<xsl:choose>
-				<xsl:when test="lb[child::p]"/>
-				<xsl:otherwise>
-					<br/>
-				</xsl:otherwise>
-			</xsl:choose>
-		</xsl:variable>-->
-		<!-- <xsl:value-of select="$lb-with-p"/>  -->
 			<br/>
 		<xsl:variable name="num">
 			<xsl:number level="any" from="pb"/>
@@ -596,6 +669,72 @@
 				<xsl:value-of select="$num"/>
 			</span>
 		</xsl:if>
+	</xsl:template>
+
+	<!-- Alphabetical list of elements. Alphabetized by last element in path *or* first element among options. -->
+
+	<xsl:template match="ab|p">
+		<p class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
+			<xsl:apply-templates/>
+		</p>
+	</xsl:template>
+
+	<xsl:template match="abbr|orig">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="add">
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
+			<xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> [<xsl:apply-templates/>] </span>
+	</xsl:template>
+
+	<xsl:template match="add[@place='over-text']">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text"><xsl:apply-templates/></span>
+	</xsl:template>
+
+	<xsl:template match="tei:addSpan[preceding-sibling::node()[1][name()='p']]|tei:addSpan[preceding-sibling::node()[2][name()='p']]|p/addSpan">
+		<br/>
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="tei:addSpan|p/anchor">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match="tei:anchor">		
+		<xsl:apply-templates/>
+		<br/>
+	</xsl:template>
+
+	<!-- app: show first rdg, offer alternatives in title -->
+	<xsl:template match="app">
+		<xsl:variable name="rdg-rdg">
+			<xsl:value-of select="../app/rdg" separator=" [or] "/>
+		</xsl:variable>
+		<span class="app">
+			<xsl:attribute name="title">This passage can be read in alternate ways: <xsl:value-of select="$rdg-rdg"/></xsl:attribute>
+			<xsl:apply-templates select="rdg[1]"/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="cb">
+		<xsl:choose>
+			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
+				<br/>
+				<xsl:apply-templates/>
+			</xsl:when>
+			<xsl:when test="//sourceDesc/biblStruct [@type='journal']">
+				<xsl:apply-templates/>
+			</xsl:when>
+		</xsl:choose>
+	</xsl:template>
+
+	<xsl:template match="div/cb">
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<xsl:template match="choice">
@@ -629,155 +768,13 @@
 			</span>
 	</xsl:template>
 
-	<!-- "Choice" variants begin here -->
-
-	<xsl:template match="abbr|orig">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="corr|expan|reg"/>
-	
-	<!-- Text below removed for annotated edition; also see app, supplied & unclear -->
-	
-	<!--<xsl:template match="choice/abbr">
-		<span class="abbr diplomatic">
-			<xsl:if test="../expan">
-				<xsl:attribute name="title"><xsl:value-of select="../expan"/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="choice/expan">
-		<span class="abbr edited hidden">
-			<xsl:if test="../abbr">
-				<xsl:attribute name="title"><xsl:value-of select="."/></xsl:attribute>
-			</xsl:if>
-			<xsl:apply-templates select="../abbr[1]/node()"/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="choice/orig|choice/reg">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="orig">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="reg" priority="10"> </xsl:template>-->
-
-	<!-- "Choice" variants end here -->
-
-	<!-- Alphabetical list of elements. Alphabetized by last element in path *or* first element among options. -->
-
-	<xsl:template match="ab|p">
-		<p class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
-			<xsl:apply-templates/>
-		</p>
-	</xsl:template>
-
-	<!-- For "abbr" see above -->
-
-	<xsl:template match="add">
-			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
-			<xsl:apply-templates/></span>
-	</xsl:template>
-
-	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> [<xsl:apply-templates/>] </span>
-	</xsl:template>
-
-	<xsl:template match="add[@place='over-text']">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text"><xsl:apply-templates/></span>
-	</xsl:template>
-
-	<xsl:template match="opener/add">
-		<span
-			class="opener-add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="address">
-		<span class="address">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="addrLine">
-		<br/>
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<!-- Start of addSpan/anchor -->
-
-	<xsl:template match="tei:addSpan[preceding-sibling::node()[1][name()='p']]|tei:addSpan[preceding-sibling::node()[2][name()='p']]|p/addSpan">
-		<br/>
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="tei:addSpan|p/anchor">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<xsl:template match="tei:anchor">		
-		<xsl:apply-templates/>
-		<br/>
-	</xsl:template>
-
-	<!-- End of addSpan/anchor -->
-
-	<!-- app: show first rdg, offer alternatives in title -->
-	<xsl:template match="app">
-		<!-- Hidden for annotated version. Also choice, supplied & unclear. -->
-		<!--<span class="app">
-			<xsl:attribute name="title">
-				<xsl:for-each select="rdg">
-					<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-				</xsl:for-each>
-			</xsl:attribute>
-			<xsl:apply-templates select="rdg[1]"/>
-		</span>-->
-		<xsl:variable name="rdg-rdg">
-			<xsl:value-of select="../app/rdg" separator=" [or] "/>
-		</xsl:variable>
-		<span class="app">
-			<xsl:attribute name="title">This passage can be read in alternate ways: <xsl:value-of select="$rdg-rdg"/></xsl:attribute>
-			<xsl:apply-templates select="rdg[1]"/>
-		</span>
-	</xsl:template>
-
-	<!-- For "back" see above -->
-
-	<!-- For "body" see above -->
-	<xsl:template match="cb">
-		<xsl:choose>
-			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
-				<br/>
-				<xsl:apply-templates/>
-			</xsl:when>
-			<xsl:when test="//sourceDesc/biblStruct [@type='journal']">
-				<xsl:apply-templates/>
-			</xsl:when>
-		</xsl:choose>
-	</xsl:template>
-
-	<xsl:template match="div/cb">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<!-- For "choice" see above -->
-
 	<xsl:template match="closer">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
 
-	<!-- For "corr" see above -->
+	<xsl:template match="corr|expan|reg"/>
 
 	<xsl:template match="dateline">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
@@ -787,17 +784,6 @@
 
 	<xsl:template match="del">
 		<span class="del cancelled">
-			<!--<xsl:if test="@*">
-				<xsl:attribute name="title">
-					<xsl:value-of select="concat(name(), 'etion, ')"/>
-					<xsl:for-each select="@*">
-						<xsl:sort/>
-						<xsl:if test="not(name()='status')">
-							<xsl:value-of select="concat(name(),': ', ., '; ')"/>
-						</xsl:if>
-					</xsl:for-each>
-				</xsl:attribute>
-			</xsl:if>-->
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -806,45 +792,16 @@
 		<span class="del-by-over-text" title="Text deleted by over-writing"><xsl:apply-templates/></span>
 	</xsl:template>
 
-	<!-- For "div" see above -->
-
-	<!-- For "expan" see above -->
-
-	<!-- For "facsimile" see above -->
-
-	<!-- For "front" see above -->
-
 	<xsl:template match="figure">
-		<!-- newFigDesc goes away and applies templates to content to get it into a single dedupped string -->
-		<xsl:variable name="newHead">
-			<xsl:apply-templates select="head" mode="normalizeHead"/>
-		</xsl:variable>
-		<xsl:variable name="newFigDesc">
-			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
-		</xsl:variable>
 		<xsl:variable name="graphicURL">
 			<xsl:apply-templates select="..//@url"/>
 		</xsl:variable>
+		<xsl:variable name="altText">
+			<xsl:apply-templates select="..//figDesc"/>
+		</xsl:variable>
 		<xsl:choose>
-			<!--<xsl:when test="head and $newFigDesc/text()">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ', $newFigDesc)}">{figure}</span>
-			</xsl:when>
-			<xsl:when test="head and not($newFigDesc/text())">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ')}">{figure}</span>
-			</xsl:when>
-			<xsl:when test="not(head) and $newFigDesc/text()">
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{$newFigDesc}">{figure}</span>
-			</xsl:when>-->
-			<xsl:when test="..//graphic[@n='medium']">
-				<span class="graphic image-medium"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
-			</xsl:when>
-			<xsl:when test="..//graphic[@n='small']">
-				<span class="graphic image-small"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
-			</xsl:when>
-			<xsl:when test="..//graphic[@n='inline-left small']">
-				<span class="graphic image-small inline-left"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
-			</xsl:when>
-			<xsl:when test="..//graphic[@n='artifact']">
+			<xsl:when test="..//graphic[@n='artifact']|..//graphic[@n='artifact rotate-180']">
+				<!-- This variable creates the title for the artifact image; the image URL and alt text are created by other variables set up above. -->
 				<xsl:variable name="caption">
 					<xsl:variable name="additional-authors-1">			
 						<xsl:choose>
@@ -862,15 +819,36 @@
 						<xsl:when test="not(//availability/licence[@target])"/>					
 						</xsl:choose>
 					</xsl:variable>
-					<xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/><xsl:text>, “</xsl:text><xsl:value-of select="//titleStmt/title[not(@type='alternative')]"/><xsl:text>”, </xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>. </xsl:text><xsl:value-of select="//availability/licence"/><xsl:value-of select="$copyright2"/>
+					<xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/><xsl:text>, “</xsl:text><xsl:value-of select="//titleStmt/title[not(@type='alternative')]"/><xsl:text>”, </xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>. </xsl:text><xsl:value-of select="//availability/p"/><xsl:text> </xsl:text><xsl:value-of select="//availability/licence"/><xsl:value-of select="$copyright2"/>
 				</xsl:variable>
-				<span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" alt="{normalize-space($caption)}" title="{normalize-space($caption)}" style="width:100%;"/></a></span>
+				<!-- This variable creates a static id for all images to be rotated. This is not an ideal solution and needs to be improved down the road because, if there are two artifact images in the same document that both need to rotated, they will both get the same id. -->
+				<!-- The following code instead, if used in place of <xsl:text>image-to-rotate</xsl:text> below, gives each image to be rotated a unique id based on its page number(s). This could be the way to a better solution, but would involved working out the Javascript to select that same id.-->
+				<!-- <xsl:value-of select="/TEI/text/body/div/p/figure/graphic/@*[namespace-uri()='http://www.w3.org/XML/1998/namespace' and local-name()='id']"/> -->
+				<xsl:variable name="rotate-id">
+					<xsl:if test="..//graphic[@n='artifact rotate-180']">
+						<xsl:text>image-to-rotate</xsl:text>
+					</xsl:if>
+				</xsl:variable>
+				<xsl:if test="..//graphic[@n='artifact rotate-180']">
+					<!-- Button/rotation functionality adapted from https://www.w3schools.com/howto/howto_js_toggle_class.asp and https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role -->
+					<button role="switch" aria-checked="false" id="rotate-button" onclick="myFunction()">Rotate <i class="fa fa-repeat" aria-hidden="true"></i></button>
+				</xsl:if>
+				<span class="figure"><span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" alt="{$altText}" title="{normalize-space($caption)}" id="{$rotate-id}" style="width:100%;"/></a></span></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='medium']">
+				<span class="figure"><span class="graphic image-medium"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='small']">
+				<span class="figure"><span class="graphic image-small"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
+			</xsl:when>
+			<xsl:when test="..//graphic[@n='inline-left small']">
+				<span class="figure"><span class="graphic image-small inline-left"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
 			</xsl:when>
 			<xsl:when test="..//graphic">
-				<span class="graphic"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" style="width:100%;"/><!--</a>--></span>
+				<span class="figure"><span class="graphic"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span>
+				<span class="figure"><span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span></span>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -906,10 +884,7 @@
 
 	<!-- An undefined foreign word. -->
 	<xsl:template match="foreign[not(term[@xml:lang])]">
-		<!--<xsl:variable name="title">A foreign word (not defined).</xsl:variable>
-		<span class="foreign" title="{$title}">-->
-			<xsl:apply-templates/>
-		<!--</span>-->
+		<xsl:apply-templates/>
 	</xsl:template>
 
 	<xsl:template match="fw|fw[@type='catch']|fw[@type='pageno']">
@@ -951,8 +926,6 @@
 		</span>
 	</xsl:template>
 
-	<!-- For "lb" see above -->
-
 	<xsl:template match="list">
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}" title="list">
 			<xsl:apply-templates/>
@@ -971,7 +944,6 @@
 				<xsl:choose>
 					<xsl:when test="contains(@rend,'double-line')">
 						<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
-						<!--<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>-->
 					</xsl:when>
 					<xsl:when test="contains(@rend,'triple-line')">
 						<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''), ' ', 'line')}"/>
@@ -987,7 +959,6 @@
 				<xsl:choose>
 					<xsl:when test="contains(@rend,'double-line')">
 						<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''), ' ', 'line', ' ', 'first-double')}"/>
-						<!--<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>-->
 					</xsl:when>
 					<xsl:when test="contains(@rend,'triple-line')">
 						<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''), ' ', 'line')}"/>
@@ -1023,17 +994,9 @@
 		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="opener">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
 	<xsl:template match="orgName">
 		<span class="orgName"><xsl:attribute name="title">A formally-named group or organization.</xsl:attribute><xsl:apply-templates/></span>
 	</xsl:template>
-
-	<!-- For "orig" see above -->
 
 	<xsl:template match="text/body/div[1]/pb[1]|text/front/div[1]/pb[1]|text/back/div[1]/pb[1]" priority="10">
 		<span class="pb-title">
@@ -1047,12 +1010,13 @@
 			<xsl:value-of select="@n"/>
 		</span>
 		<span class="blank">&lt;This page is blank in the original manuscript.&gt;</span>
+		<!-- Adds appropriate number of empty lines on a blank page -->
 		<!--<xsl:for-each select="1 to @ana"><br/></xsl:for-each>-->
 	</xsl:template>
 
 	<xsl:template match="pb">
 		<xsl:choose>
-			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']|//sourceDesc/msDesc[@type='artifact']">
+			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
 				<br/>
 				<span class="pb-title">
 					<xsl:value-of select="@n"/>
@@ -1063,10 +1027,15 @@
 					<xsl:value-of select="@n"/>
 				</span>
 			</xsl:when>
+			<xsl:when test="//sourceDesc/msDesc[@type='artifact']">
+				<br/><br/>
+				<span class="pb-title">
+					<xsl:value-of select="@n"/>
+				</span>
+			</xsl:when>
 		</xsl:choose>
 	</xsl:template>
 
-	<!-- Not sure what this does. AW -->
 	<xsl:template match="jc:page">
 		<xsl:choose> 
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']|//sourceDesc/msDesc[@type='artifact']">
@@ -1125,39 +1094,12 @@
 
 <!-- end placeNames -->
 
-	<xsl:template match="postscript">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<!-- For "reg" see above -->
-
 	<xsl:template match="rdg">
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="opener/salute">
-		<span class="opener-salute">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="closer/salute">
-		<span class="closer-salute">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
 	<xsl:template match="seg[@n]">
 		<span class="{concat(name(), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span>
-	</xsl:template>
-
-
-	<!-- For "sic" see above -->
-
-	<xsl:template match="signed">
-		<span class="signed">
-			<xsl:apply-templates/>
-		</span>
 	</xsl:template>
 
 	<xsl:template match="space[@extent][@unit]" priority="10">
@@ -1174,6 +1116,7 @@
 				</span>
 			</xsl:when>
 			<xsl:when test="@dim='vertical'">
+				<!-- Adds empty space at the end of pages OMV -->
 				<!--<xsl:for-each select="1 to @extent"><br/></xsl:for-each>-->
 				<xsl:apply-templates/>
 			</xsl:when>
@@ -1193,50 +1136,30 @@
 		</span>
 	</xsl:template>
 	
-	<!-- Text below removed for annotated edition; also see app, choice & unlcear -->
-	<!--<xsl:template match="supplied">
-		<span class="supplied edited hidden"> <xsl:if test="@*"> <xsl:attribute name="title">
-			<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
-			</xsl:attribute> </xsl:if>[<xsl:apply-templates select="node()"/>]</span>
-	</xsl:template>-->
-
-	<!-- For "surface" see above -->
-
 	<!-- Beginning of elements that go with table -->
 	<xsl:template match="table">
 		<table>
 			<xsl:apply-templates/>
-			<!-- select="@*|node()" -->
 		</table>
 	</xsl:template>
 
 	<xsl:template match="row">
 		<tr>
 			<xsl:apply-templates/>
-			<!-- select="@*|node()" -->
 		</tr>
 	</xsl:template>
 
 	<xsl:template match="cell">
-		<td> &#x00A0;<xsl:apply-templates/>&#x00A0;<!-- select="@*|node()" --> </td>
+		<td> &#x00A0;<xsl:apply-templates/>&#x00A0; </td>
 	</xsl:template>
-	<!-- End of elements that go with table -->
-
-	<!-- For "TEI" see above -->
-
-	<!-- For "teiHeader" see above -->
 
 	<xsl:template match="term[@type]" priority="1">
-		<!--<span class="term" title="{@type}">-->
 		<xsl:apply-templates/>
-		<!--</span>-->
 	</xsl:template>
 
 	<xsl:template match="term[@type='collective']" priority="10">
 		<span class="collective"><xsl:attribute name="title">A collective term that signifies an individual or plural entity.</xsl:attribute><xsl:apply-templates/></span>
 	</xsl:template>
-
-	<!-- For "text" see above -->
 
 	<xsl:template match="trailer">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}"><xsl:apply-templates/></span>
@@ -1264,14 +1187,126 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<!-- For "zone" see above -->
+	<!-- ******************* -->
 
+	<!-- Removed from <xsl:template match="TEI">-->
+	<!--<xsl:variable name="document-uri" select="document-uri(.)"/>-->
+	<!--<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date"/></p>-->
+	<!--<p class="item-spec"><span class="bold">Encoding dates</span><xsl:text>: </xsl:text><xsl:value-of select="$sortedDates" separator=", "/></p>-->
+
+	<!-- Removed from <xsl:template match="*" priority="-10">-->
+	<!--<xsl:if test="$title/text()">
+		<xsl:attribute name="title">
+			<xsl:value-of select="$title"/>
+		</xsl:attribute>
+	</xsl:if>-->
+	<!-- Necessary to turn this off, otherwise it creates wonky tooltips.
+	Tooltips as needed should be set on the specific element. -->
+
+	<!-- Removed from <xsl:template match="lb">-->
+	<!--<br/><xsl:if test="$class/text()"><xsl:attribute name="class"><xsl:value-of select="$class"/></xsl:attribute></xsl:if></br>-->
+	<!--<xsl:variable name="lb-with-p">
+		<xsl:choose>
+			<xsl:when test="lb[child::p]"/>
+			<xsl:otherwise>
+				<br/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>-->
+	<!-- <xsl:value-of select="$lb-with-p"/>  -->
+
+	<!-- Removed from <xsl:template match="app"> -->
+	<!--<span class="app">
+		<xsl:attribute name="title">
+			<xsl:for-each select="rdg">
+				<xsl:value-of select="concat(name(),': ', ., '; ')"/>
+			</xsl:for-each>
+		</xsl:attribute>
+		<xsl:apply-templates select="rdg[1]"/>
+	</span>-->
+
+	<!-- Removed from <xsl:template match="del"> -->
+	<!--<xsl:if test="@*">
+		<xsl:attribute name="title">
+			<xsl:value-of select="concat(name(), 'etion, ')"/>
+			<xsl:for-each select="@*">
+				<xsl:sort/>
+				<xsl:if test="not(name()='status')">
+					<xsl:value-of select="concat(name(),': ', ., '; ')"/>
+				</xsl:if>
+			</xsl:for-each>
+		</xsl:attribute>
+	</xsl:if>-->
+	
+	<!-- Removed from <xsl:template match="figure"> -->
+		<!-- newFigDesc goes away and applies templates to content to get it into a single dedupped string -->
+		<!--<xsl:variable name="newHead">
+			<xsl:apply-templates select="head" mode="normalizeHead"/>
+		</xsl:variable>
+		<xsl:variable name="newFigDesc">
+			<xsl:apply-templates select="figDesc" mode="normalizeFigDesc"/>
+		</xsl:variable>-->
+		<!--<xsl:when test="head and $newFigDesc/text()">
+			<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ', $newFigDesc)}">{figure}</span>
+		</xsl:when>
+		<xsl:when test="head and not($newFigDesc/text())">
+			<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{concat('&quot;', $newHead, '.&quot; ')}">{figure}</span>
+		</xsl:when>
+		<xsl:when test="not(head) and $newFigDesc/text()">
+			<span class="{concat(name(), ' ', @rend, ' ', @place)}" title="{$newFigDesc}">{figure}</span>
+		</xsl:when>-->
+
+		<!-- Removed from <xsl:template match="milestone"> -->
+		<!--<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', 'second-line')}"/>-->
+
+		<!-- Removed from: <xsl:template match="table"> / row /cell -->
+		<!-- select="@*|node()" -->
+
+	<!-- ******************* -->
 
 	<!-- Code not in use, but that could be useful -->
 
 	<!--  <xsl:template match="*[not(@type)][not(@reason)][not(@unit)][not(@extent)]" priority="-1">
 		<span class="{name()}"><xsl:apply-templates select="@*|node()"/></span>
 		</xsl:template> -->
+	
+	<!-- <xsl:template match="opener/add">
+		<span
+			class="opener-add {concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="address">
+		<span class="address">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="addrLine">
+		<br/>
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template> -->
+
+	<!--<xsl:template match="choice/abbr">
+		<span class="abbr diplomatic">
+			<xsl:if test="../expan">
+				<xsl:attribute name="title"><xsl:value-of select="../expan"/></xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="choice/expan">
+		<span class="abbr edited hidden">
+			<xsl:if test="../abbr">
+				<xsl:attribute name="title"><xsl:value-of select="."/></xsl:attribute>
+			</xsl:if>
+			<xsl:apply-templates select="../abbr[1]/node()"/>
+		</span>
+	</xsl:template>-->
 
 	<!--<xsl:template match="choice/orig">
 		<span class="orig diplomatic">
@@ -1301,7 +1336,6 @@
 		<xsl:variable name="title"><xsl:apply-templates/></xsl:variable>
 		<span class="figfigDesc" title="{$title}">{figure}</span>
 	</xsl:template>-->
-
 
 	<!-- foreign should be italiced in edited view -->
 	<!-- <xsl:template match="foreign" xml:space="preserve">
@@ -1342,6 +1376,16 @@
 	</xsl:template>-->
 	<!--[not(ancestor::note)]-->
 
+	<!--<xsl:template match="opener">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>-->
+
+	<!--<xsl:template match="postscript">
+		<xsl:apply-templates/>
+	</xsl:template>-->
+
 	<!--<xsl:template match="space[@extent][@unit][@dim='vertical']" priority="1">
 		<span class="space-other vertical verticalSpace">
 			<xsl:attribute name="title">
@@ -1354,6 +1398,28 @@
 				<br class="verticalSpace"/>
 			</xsl:for-each>
 		</span>
+	</xsl:template>-->	
+
+	<!--<xsl:template match="opener/salute">
+		<span class="opener-salute">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="closer/salute">
+		<span class="closer-salute">
+			<xsl:apply-templates/>
+		</span>
+	</xsl:template>
+
+	<xsl:template match="signed">
+		<span class="signed">
+			<xsl:apply-templates/>
+		</span>
 	</xsl:template>-->
 
+	<!--<xsl:template match="supplied">
+	<span class="supplied edited hidden"> <xsl:if test="@*"> <xsl:attribute name="title">
+		<xsl:value-of select="concat(name(), ', certainty: ', @cert, ', reason: ', @reason)"/>
+		</xsl:attribute> </xsl:if>[<xsl:apply-templates select="node()"/>]</span></xsl:template>-->
 </xsl:stylesheet>
