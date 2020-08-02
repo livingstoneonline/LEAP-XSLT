@@ -28,8 +28,8 @@
 	<xsl:template match="/">
 		<xsl:variable name="subtitle">
 			<xsl:choose>
-				<xsl:when test="//sourceDesc/msDesc[@type='artifact']">Curated Historical Artifact</xsl:when>
-				<xsl:otherwise>Critically-edited Primary Text</xsl:otherwise>
+				<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">Curated Historical Artifact</xsl:when>
+				<xsl:otherwise>Critically-Edited Archival Text</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 		<xsl:variable name="additional-authors-1">			
@@ -51,21 +51,20 @@
 				</title>
 			    <meta charset="UTF-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			    <meta name="description" content="Critically-edited primary material for One More Voice. One More Voice, a work of digital humanities scholarship, focuses on recovering non-European contributions from the nineteenth-century British imperial and colonial archives." />
+				<xsl:choose>
+					<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
+					    <meta name="description" content="Curated historical artifact for One More Voice. One More Voice, a work of digital humanities scholarship, focuses on recovering non-European contributions from the nineteenth-century British imperial and colonial archives." />
+					</xsl:when>
+					<xsl:otherwise>
+					    <meta name="description" content="Critically-edited archival text for One More Voice. One More Voice, a work of digital humanities scholarship, focuses on recovering non-European contributions from the nineteenth-century British imperial and colonial archives." />
+					</xsl:otherwise>
+				</xsl:choose>
     			<meta name="keywords" content="one more voice,livingstone online,recovery,archives,colonial,colonialism,postcolonial,postcolonialism,empire,imperialism,digital humanities,minimal computing,travel,missionary,expeditionary,exploration,intercultural,encounter,non-western,non-European,literature,British,African,Africa,Victorian,nineteenth-century,travel narratives,autobiographies,letters,diaries,testimonies,interviews,maps,oral histories,genealogies,vocabularies,coronavirus,covid-19,creative commons" />
 			    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 			    <!--<link rel="stylesheet" type="text/css" href="../style.css" />
-			    <script src="../overlay.js"></script>
-			    <script src="../stickynav.js" defer=""></script>
-				<xsl:if test="/TEI//graphic[@n='artifact rotate-180']">
-					<script src="../rotate.js" defer=""></script>
-				</xsl:if>-->
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/style.css" />
-			    <script src="http://livingstoneonline.github.io/onemorevoice/overlay.js"></script>
-			    <script src="http://livingstoneonline.github.io/onemorevoice/stickynav.js" defer=""></script>
-				<xsl:if test="/TEI//graphic[@n='artifact rotate-180']">
-					<script src="http://livingstoneonline.github.io/onemorevoice/rotate.js" defer=""></script>
-				</xsl:if>
+			    <script src="../scripts.js" defer=''></script>-->
+			    <link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/style.css" />
+			    <script src="http://livingstoneonline.github.io/onemorevoice/scripts.js" defer=''></script>
 				<!-- Global site tag (gtag.js) - Google Analytics -->
 				<script async='' src="https://www.googletagmanager.com/gtag/js?id=UA-31768072-5"></script>
 				<script>
@@ -81,57 +80,71 @@
 				
 				<!-- start of nav -->
 				
+					<nav id="skiptocontent" aria-labelledby="nav0">
+						<a href="#main" id="nav0" tabindex="1">skip to main content</a>
+					</nav>
+				
 				    <!-- Topnav adapted from https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
 				    <!-- Dropdown menu adapted from https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/ -->
 				    <!-- Idea for checkboxes that act like radio buttons adapted from https://stackoverflow.com/questions/42870002/how-to-uncheck-a-checkbox-when-another-one-is-checked-->
-				    
-				        <nav id="skiptocontent">
-							<a href="#main" tabindex="1">skip to main content</a>
-						</nav>
-						
-						<nav class="topnav" aria-labelledby="nav1">
-				            <ul role="menubar" id="nav1" aria-label="Site Sections">
-				                <li role="none"><a role="menuitem" aria-haspopup="false" href="../index.html">home</a></li>
-				                <li role="none"><a role="menuitem" aria-haspopup="false" href="../texts.html">texts</a></li>
-				                <li role="none">
-				                    <div class="dropdown" role="menuitem" data-menu-component="">
-				                        <input class="vh" type="checkbox" role="button" aria-haspopup="true" id="toggle-1" onclick="document.getElementById('toggle-2').checked = false">
-				                        <label class="dropbtn" for="toggle-1" data-opens-menu="">
-				                            concepts
-				                            <span class="vh expanded-text">expanded</span>
-				                            <span class="vh collapsed-text">collapsed</span>
-				                        </label>
-				                        <div class="dropdown-content" role="menu" aria-label="Concepts" data-menu-origin="left">
-				                            <ul role="none">
-				                                <li role="none"><a role="menuitem" href="../analytical_priorities.html">analytical priorities</a></li>
-				                                <li role="none"><a role="menuitem" href="../project_design.html">project design</a></li>
-				                                <li role="none"><a role="menuitem" href="../coding_guidelines.html">coding guidelines</a></li>
-				                            </ul>
-				                        </div>
-										</input>
-				                    </div>
-				                </li>
-				                <li role="none">
-				                    <div class="dropdown" role="menuitem" data-menu-component="">
-				                        <input class="vh" type="checkbox" role="button" aria-haspopup="true" id="toggle-2" onclick="document.getElementById('toggle-1').checked = false">
-				                        <label class="dropbtn" for="toggle-2" data-opens-menu="">
-				                            misc
-				                            <span class="vh expanded-text">expanded</span>
-				                            <span class="vh collapsed-text">collapsed</span>
-				                        </label>
-				                        <div class="dropdown-content" role="menu" aria-label="Miscellaneous" data-menu-origin="left">
-				                            <ul role="none">
-				                                <li role="none"><a role="menuitem" href="../contributors.html">contributors</a></li>
-				                                <li role="none"><a role="menuitem" href="../bibliography.html">bibliography</a></li>
-				                                <li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/">github repo</a></li>
-				                                <li role="none"><a role="menuitem" href="mailto:awisnicki@yahoo.com">contact</a></li>
-				                            </ul>
-				                        </div>
-										</input>
-				                    </div>
-				                </li>
-				            </ul>
-				        
+				    	
+					<nav class="topnav" aria-labelledby="nav1">
+						<ul role="menubar" id="nav1" aria-label="Site Sections">
+							<li role="none"><a role="menuitem" aria-haspopup="false" href="../index.html">home</a></li>
+							<li role="none">
+								<div class="dropdown" role="menuitem" data-menu-component="">
+									<input class="vh" type="checkbox" role="button" aria-haspopup="true" id="toggle-1" onclick="document.getElementById('toggle-2').checked = false, document.getElementById('toggle-3').checked = false" />
+									<label class="dropbtn" for="toggle-1" data-opens-menu="">
+										materials
+										<span class="vh expanded-text">expanded</span>
+										<span class="vh collapsed-text">collapsed</span>
+									</label>
+									<div class="dropdown-content" role="menu" aria-label="Materials" data-menu-origin="left">
+										<ul role="none">
+											<li role="none"><a role="menuitem" href="../texts.html">archival texts</a></li>
+											<li role="none"><a role="menuitem" href="../artifacts.html">artifacts</a></li>
+											<li role="none"><a role="menuitem" href="../books.html">book-length works</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li role="none">
+								<div class="dropdown" role="menuitem" data-menu-component="">
+									<input class="vh" type="checkbox" role="button" aria-haspopup="true" id="toggle-2" onclick="document.getElementById('toggle-1').checked = false, document.getElementById('toggle-3').checked = false" />
+									<label class="dropbtn" for="toggle-2" data-opens-menu="">
+										concepts
+										<span class="vh expanded-text">expanded</span>
+										<span class="vh collapsed-text">collapsed</span>
+									</label>
+									<div class="dropdown-content" role="menu" aria-label="Concepts" data-menu-origin="left">
+										<ul role="none">
+											<li role="none"><a role="menuitem" href="../analytical_priorities.html">analytical priorities</a></li>
+											<li role="none"><a role="menuitem" href="../project_design.html">project design</a></li>
+											<li role="none"><a role="menuitem" href="../collaboration.html">collaboration</a></li>
+				                            <li role="none"><a role="menuitem" href="../coding_guidelines.html">coding guidelines</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li role="none">
+								<div class="dropdown" role="menuitem" data-menu-component="">
+									<input class="vh" type="checkbox" role="button" aria-haspopup="true" id="toggle-3" onclick="document.getElementById('toggle-1').checked = false, document.getElementById('toggle-2').checked = false" />
+									<label class="dropbtn" for="toggle-3" data-opens-menu="">
+										misc
+										<span class="vh expanded-text">expanded</span>
+										<span class="vh collapsed-text">collapsed</span>
+									</label>
+									<div class="dropdown-content" role="menu" aria-label="Miscellaneous" data-menu-origin="left">
+										<ul role="none">
+											<li role="none"><a role="menuitem" href="../contributors.html">contributors</a></li>
+											<li role="none"><a role="menuitem" href="../bibliography.html">bibliography</a></li>
+											<li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/">github repo</a></li>
+											<li role="none"><a role="menuitem" href="mailto:awisnicki@yahoo.com">contact</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
 				    </nav>
 				
 				    <!-- Mobile sticky nav adapted from https://www.mattmorgante.com/technology/sticky-navigation-bar-javascript -->
@@ -152,11 +165,18 @@
 				            <div class="overlay-content" role="menu">
 				                <ul role="none">
 				                    <li role="none"><a role="menuitem" href="../index.html">home</a></li>
-				                    <li role="none"><a role="menuitem" href="../texts.html">texts</a></li>
-				                    <li class="section" role="menuitem">concepts <i class="fa fa-caret-down"></i>
+									<li class="section" role="menuitem">materials <i class="fa fa-caret-down"></i>
+				                        <ul role="menu" aria-label="Materials">
+											<li role="none"><a role="menuitem" href="../texts.html">archival texts</a></li>
+											<li role="none"><a role="menuitem" href="../artifacts.html">artifacts</a></li>
+											<li role="none"><a role="menuitem" href="../books.html">book-length works</a></li>
+				                        </ul>
+				                    </li>
+									<li class="section" role="menuitem">concepts <i class="fa fa-caret-down"></i>
 				                        <ul role="menu" aria-label="Concepts">
 				                            <li role="none"><a role="menuitem" href="../analytical_priorities.html">analytical priorities</a></li>
 				                            <li role="none"><a role="menuitem" href="../project_design.html">project design</a></li>
+				                            <li role="none"><a role="menuitem" href="../collaboration.html">collaboration</a></li>
 				                            <li role="none"><a role="menuitem" href="../coding_guidelines.html">coding guidelines</a></li>
 				                        </ul>
 				                    </li>
@@ -180,7 +200,14 @@
 				    <img class="image image-border" src="../images/xml-code.png" alt="Coded text from an XML file produced by the One More Voice project according to the TEI P5 guidelines." title="A segment of coded text taken from the One More Voice project." />
 	        		<h1 class="header-title">One More Voice</h1>
 	        		<hr/>
-	        		<div><span class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
+					<xsl:choose>
+						<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
+							<div><span class="back-button"><a href="../artifacts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
+						</xsl:when>
+						<xsl:otherwise>
+							<div><span class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
+						</xsl:otherwise>
+					</xsl:choose>
 	    		</header>
 				<xsl:apply-templates select="TEI"/>
 			</body>
@@ -190,7 +217,7 @@
 	<!-- Don't show -->
 	<xsl:template match="teiHeader|facsimile|surface|zone"/>
 
-	<!-- The following section is key as it sets up the whole text and chooses one of three paths, either manuscript, journal, or artifact. -->
+	<!-- The following section is key as it sets up the whole text and chooses one of three paths, either manuscript, journal, or artifact (archive, book, journal). -->
 	<!-- TEI -->
 	<xsl:template match="TEI">
 		<xsl:variable name="body-color-front">
@@ -327,18 +354,29 @@
 			<xsl:value-of select="//idno[@type='LEAP-ID']"/>
 		</xsl:variable>
 		<xsl:variable name="pub-deets">
+			<xsl:variable name="title">
+				<xsl:if test="//teiHeader//sourceDesc/biblStruct[@type='journal']//title">
+					<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//title"/>
+				</xsl:if>
+				<xsl:if test="//teiHeader//sourceDesc/biblStruct[@type='artifact-book-journal']//title">
+					<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='artifact-book-journal']//title"/>
+				</xsl:if>
+			</xsl:variable>
 			<xsl:choose>
-				<xsl:when test="//sourceDesc/biblStruct/monogr/@n='book-chapter'">
+				<xsl:when test="//sourceDesc/biblStruct/monogr[contains(@n,'book-section')]">
 					<xsl:text>In </xsl:text>
-					<span class="italic"><xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//title"/></span>
+					<span class="italic"><xsl:value-of select="$title"/></span>
 					<xsl:text>, by </xsl:text>
-					<xsl:value-of select="//sourceDesc/biblStruct/monogr/author"/>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/author" separator=" and "/>
 					<xsl:text>, </xsl:text>
 					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='pages']"/>
 					<xsl:text>. </xsl:text>
-					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/pubPlace"/>
+					<xsl:if test="//sourceDesc/biblStruct/monogr/editor/text()">
+						<xsl:text>Edited by </xsl:text><xsl:value-of select="//sourceDesc/biblStruct/monogr/editor"/><xsl:text>. </xsl:text>
+					</xsl:if>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/pubPlace" separator="; "/>
 					<xsl:text>: </xsl:text>
-					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/publisher"/>
+					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/publisher" separator="; "/>
 					<xsl:text>, </xsl:text>
 					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/date"/>
 					<xsl:text>.</xsl:text>
@@ -347,10 +385,25 @@
 					<span class="italic"><xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//title"/></span>
 					<xsl:text> </xsl:text>
 					<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='vol']"/>
+					<xsl:if test="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='issue']">
+						<xsl:text>:</xsl:text><xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='issue']"/>
+					</xsl:if>
 					<xsl:text> (</xsl:text>
 					<xsl:value-of select="//sourceDesc/biblStruct[@type='journal']//imprint/date"/>
-					<xsl:text>): </xsl:text>
-					<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='pages']"/>
+					<xsl:text>)</xsl:text>
+					<xsl:if test="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='pages']">
+						<xsl:text>: </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='journal']//imprint/biblScope[@unit='pages']"/>
+					</xsl:if>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="normTitle">
+			<xsl:choose>
+				<xsl:when test="//teiHeader/fileDesc/titleStmt/title[(@type='normalized')]">
+					<xsl:value-of select="//teiHeader/fileDesc/titleStmt/title[(@type='normalized')]"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="//teiHeader//sourceDesc/bibl/title[not(@type='alternative')]"/>
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
@@ -367,12 +420,25 @@
 		</xsl:variable>
 		<xsl:variable name="base-uri" select="base-uri(.)"/>
  		<xsl:variable name="filename" select="(tokenize($base-uri,'/'))[last()]"/>
+		<xsl:variable name="custom-note">
+			<xsl:apply-templates select="//encodingDesc/projectDesc/p/node()"/>
+		</xsl:variable>
+		<xsl:variable name="prod-note">
+			<xsl:choose>
+				<xsl:when test="//encodingDesc/projectDesc/p">
+					<xsl:copy-of select="$custom-note"/>
+				</xsl:when>
+				<xsl:otherwise>This digital edition duplicates as much as possible the textual, structural, and material characteristics of the original document. The editors produced the edition by transcribing and encoding the text directly from images of the original document using the <span class="italic">One More Voice</span><xsl:text> </xsl:text><a href="../coding_guidelines.html">coding guidelines</a>. Users, however, are encouraged to consult the original document if possible.</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
 		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[@type='alternative']"/></h3>
 					<p><span class="bold">Author(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
-					<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+					<xsl:if test="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']">
+						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+					</xsl:if>
 					<xsl:copy-of select="$repository"/>
 					<xsl:copy-of select="$collection"/>
 					<xsl:copy-of select="$shelfmark"/>
@@ -384,9 +450,9 @@
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
 		    	<aside class="credits" id="credits1-div"  aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
-					<h3 id="opening-credits">“<xsl:value-of select="//teiHeader//titleStmt/title[1]"/>”</h3>
+					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
 					<p><span class="bold">Author(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
-					<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date"/></p>
+					<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date" separator="; "/></p>
 					<p><span class="bold">Original publication details:</span><xsl:text> </xsl:text><xsl:copy-of select="$pub-deets"/></p>
 					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
 					<p><span class="bold">Critical editing &amp; encoding</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
@@ -394,16 +460,29 @@
 					<hr/>
 				</aside>
 			</xsl:when>
-			<xsl:when test="//sourceDesc/msDesc[@type='artifact']">
+			<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']">
 		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[@type='alternative']"/></h3>
 					<p><span class="bold">Creator(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
-					<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+					<xsl:if test="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']">
+						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+					</xsl:if>
 					<xsl:copy-of select="$repository"/>
 					<xsl:copy-of select="$collection"/>
 					<xsl:copy-of select="$shelfmark"/>
-					<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
-					<p><span class="bold">Digital artifact curation</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
+					<p><span class="bold">Note:</span> This historical artifact reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
+					<hr/>
+				</aside>
+			</xsl:when>
+			<xsl:when test="//sourceDesc/biblStruct[@type='artifact-book-journal']">
+		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
+					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
+					<p><span class="bold">Creator(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
+					<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date" separator="; "/></p>
+					<xsl:if test="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']">
+						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+					</xsl:if>
+					<p><span class="bold">Original publication details:</span><xsl:text> </xsl:text><xsl:copy-of select="$pub-deets"/></p>
 					<p><span class="bold">Note:</span> This historical artifact reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
 					<hr/>
 				</aside>
@@ -475,7 +554,10 @@
 				</main>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
-				<main class="journal" id="journal-div"><!-- style="background:#{$body-color};" -->
+				<xsl:variable name="narrow">
+					<xsl:if test="//sourceDesc/biblStruct/monogr[contains(@n,'narrow')]">narrow</xsl:if>
+				</xsl:variable>
+				<main class="journal {$narrow}" id="journal-div"><!-- style="background:#{$body-color};" -->
 					<div class="TEI">
 						<xsl:comment><xsl:value-of select="$isPaged"/></xsl:comment>
 						<xsl:choose>
@@ -495,7 +577,7 @@
 					</div>
 				</main>
 			</xsl:when>
-			<xsl:when test="//sourceDesc/msDesc[@type='artifact']">
+			<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
 				<main class="artifact" id="artifact-div"><!-- style="background:#{$body-color};" -->
 					<section class="TEI" aria-labelledby="main-section">
 						<div class="ms-container" id="main-section">
@@ -525,20 +607,20 @@
 				<aside class="credits" id="credits2-div" aria-labelledby="closing-credits">
 					<div id="closing-credits">
 						<hr />
-						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></p>
+						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>
+						<p><span class="bold">Terms of use:</span><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
+						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
+						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
+						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
+						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
+						<span class="italic">One More Voice</span> (an imprint of <span class="italic">Livingstone Online</span>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://onemorevoice.org/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
 						<xsl:if test="//publicationStmt/ref">
 							<xsl:variable name="source-link">
 								<xsl:value-of select="//publicationStmt/ref/@target"/>
 							</xsl:variable>
 							<p><span class="bold">Explore original item image(s):</span><xsl:text> </xsl:text><a href="{$source-link}"><xsl:value-of select="//publicationStmt/ref"/></a></p>
 						</xsl:if>
-						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
-						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
-						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
-						<xsl:value-of select="//teiHeader//titleStmt/title[not(@type='alternative')]"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
-						<span class="italic">One More Voice</span> (an imprint of <span class="italic">Livingstone Online</span>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://onemorevoice.org/texts/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/texts/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
-						<p><span class="bold">Terms of use:</span><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
-						<p><span class="bold">Production note</span>: This digital edition duplicates as much as possible the textual, structural, and material characteristics of the original document. The editors produced the edition by transcribing and encoding the text directly from images of the original document using the <span class="italic">One More Voice</span><xsl:text> </xsl:text><a href="../coding_guidelines.html">coding guidelines</a>. Users, however, are encouraged to consult the original document if possible.</p>
+						<p><span class="bold">Production note</span><xsl:text>: </xsl:text><xsl:copy-of select="$prod-note"/></p>
 					</div>
 				</aside>
 			</xsl:when>
@@ -546,40 +628,42 @@
 				<aside class="credits" id="credits2-div" aria-labelledby="closing-credits">
 					<div id="closing-credits">
 						<hr/>
-						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></p>
+						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>
+						<p><span class="bold">Terms of use:</span><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
+						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
+						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
+						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
+						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
+						<span class="italic">One More Voice</span> (an imprint of <span class="italic">Livingstone Online</span>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://onemorevoice.org/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
 						<xsl:if test="//publicationStmt/ref">
 							<xsl:variable name="source-link">
 								<xsl:value-of select="//publicationStmt/ref/@target"/>
 							</xsl:variable>
 							<p><span class="bold">Explore complete/original item:</span><xsl:text> </xsl:text><a href="{$source-link}"><xsl:value-of select="//publicationStmt/ref"/></a></p>
 						</xsl:if>
-						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
-						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
-						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
-						<xsl:value-of select="//teiHeader//titleStmt/title[not(@type='alternative')]"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
-						<span class="italic">One More Voice</span> (an imprint of <span class="italic">Livingstone Online</span>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://onemorevoice.org/texts/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/texts/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
-						<p><span class="bold">Terms of use:</span><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
-						<p><span class="bold">Production note</span>: This digital edition duplicates as much as possible the textual and material characteristics of the original document. The editors produced the edition by using the following workflow: 1) Convert PDF of original document via OCR to Word; 2) Convert Word to XML;  3) Proofread XML against PDF of original document; and 4) Edit and encode XML using the <span class="italic">One More Voice</span><xsl:text> </xsl:text><a href="../coding_guidelines.html">coding guidelines</a>. Users are encouraged to consult the original document if possible.</p>
+						<p><span class="bold">Production note</span><xsl:text>: </xsl:text><xsl:copy-of select="$prod-note"/></p>
 					</div>
 				</aside>
 			</xsl:when>
-			<xsl:when test="//sourceDesc/msDesc[@type='artifact']">
+			<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
 				<aside class="credits" id="credits2-div" aria-labelledby="closing-credits">
 					<div id="closing-credits">
 						<hr />
-						<p class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013; Back</a></p>
+						<p class="back-button"><a href="../artifacts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>
+						<p><span class="bold">Terms of use:</span><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
+						<p><span class="bold">Digital edition &amp; date:</span><xsl:text> </xsl:text><a href="../index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
+						<p><span class="bold">Digital artifact curation</span><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
+						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
+						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
+						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
+						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
+						<span class="italic">One More Voice</span> (an imprint of <span class="italic">Livingstone Online</span>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://onemorevoice.org/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
 						<xsl:if test="//publicationStmt/ref">
 							<xsl:variable name="source-link">
 								<xsl:value-of select="//publicationStmt/ref/@target"/>
 							</xsl:variable>
 							<p><span class="bold">Explore complete/original item:</span><xsl:text> </xsl:text><a href="{$source-link}"><xsl:value-of select="//publicationStmt/ref"/></a></p>
 						</xsl:if>
-						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
-						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
-						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
-						<xsl:value-of select="//teiHeader//titleStmt/title[not(@type='alternative')]"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
-						<span class="italic">One More Voice</span> (an imprint of <span class="italic">Livingstone Online</span>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://onemorevoice.org/texts/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/texts/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
-						<p><span class="bold">Terms of use:</span><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
 					</div>
 				</aside>
 			</xsl:when>
@@ -640,7 +724,7 @@
 	</xsl:template>
 
 	<xsl:template match="div">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<div class="{concat(name(), ' ', @rend, ' ', @n)}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -684,7 +768,7 @@
 	</xsl:template>
 
 	<xsl:template match="add">
-			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}">
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
@@ -803,14 +887,6 @@
 			<xsl:when test="..//graphic[@n='artifact']|..//graphic[@n='artifact rotate-180']">
 				<!-- This variable creates the title for the artifact image; the image URL and alt text are created by other variables set up above. -->
 				<xsl:variable name="caption">
-					<xsl:variable name="additional-authors-1">			
-						<xsl:choose>
-							<xsl:when test="//teiHeader//titleStmt/author[@role='normalized']">
-								<xsl:text>, </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='normalized']" separator=", "/>
-							</xsl:when>
-							<xsl:otherwise/>
-						</xsl:choose>
-					</xsl:variable>
 					<xsl:variable name="copyright2">
 						<xsl:choose>
 						<xsl:when test="//availability/licence[@target]">
@@ -819,7 +895,7 @@
 						<xsl:when test="not(//availability/licence[@target])"/>					
 						</xsl:choose>
 					</xsl:variable>
-					<xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/><xsl:text>, “</xsl:text><xsl:value-of select="//titleStmt/title[not(@type='alternative')]"/><xsl:text>”, </xsl:text><xsl:value-of select="//sourceDesc/bibl/date"/><xsl:text>. </xsl:text><xsl:value-of select="//availability/p"/><xsl:text> </xsl:text><xsl:value-of select="//availability/licence"/><xsl:value-of select="$copyright2"/>
+					<xsl:value-of select="..//label"/><xsl:text>. </xsl:text><xsl:value-of select="//availability/p"/><xsl:text> </xsl:text><xsl:value-of select="//availability/licence"/><xsl:value-of select="$copyright2"/>
 				</xsl:variable>
 				<!-- This variable creates a static id for all images to be rotated. This is not an ideal solution and needs to be improved down the road because, if there are two artifact images in the same document that both need to rotated, they will both get the same id. -->
 				<!-- The following code instead, if used in place of <xsl:text>image-to-rotate</xsl:text> below, gives each image to be rotated a unique id based on its page number(s). This could be the way to a better solution, but would involved working out the Javascript to select that same id.-->
@@ -833,19 +909,19 @@
 					<!-- Button/rotation functionality adapted from https://www.w3schools.com/howto/howto_js_toggle_class.asp and https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role -->
 					<button role="switch" aria-checked="false" id="rotate-button" onclick="myFunction()">Rotate <i class="fa fa-repeat" aria-hidden="true"></i></button>
 				</xsl:if>
-				<span class="figure"><span class="graphic"><a href="{$graphicURL}"><img src="{$graphicURL}" alt="{$altText}" title="{normalize-space($caption)}" id="{$rotate-id}" style="width:100%;"/></a></span></span>
+				<span class="figure"><span class="{concat('graphic', ' ', ..//graphic/@rend)}"><a href="{$graphicURL}"><img src="{$graphicURL}" alt="{$altText}" title="{normalize-space($caption)}" id="{$rotate-id}"/></a></span></span>
 			</xsl:when>
 			<xsl:when test="..//graphic[@n='medium']">
-				<span class="figure"><span class="graphic image-medium"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
+				<span class="figure"><span class="graphic image-medium"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
 			</xsl:when>
 			<xsl:when test="..//graphic[@n='small']">
-				<span class="figure"><span class="graphic image-small"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
+				<span class="figure"><span class="graphic image-small"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
 			</xsl:when>
-			<xsl:when test="..//graphic[@n='inline-left small']">
-				<span class="figure"><span class="graphic image-small inline-left"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
+			<xsl:when test="..//graphic[@n='small inline-left']">
+				<span class="figure"><span class="graphic image-small inline-left"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
 			</xsl:when>
 			<xsl:when test="..//graphic">
-				<span class="figure"><span class="graphic"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}" style="width:100%;"/><!--</a>--></span></span>
+				<span class="figure"><span class="{concat('graphic', ' ', ..//graphic/@n)}"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="figure"><span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span></span>
@@ -898,6 +974,7 @@
 			<xsl:when test="@unit='chars'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit)}">[<xsl:for-each select="1 to @extent">&#x00A0;</xsl:for-each>]</span></xsl:when>
 			<xsl:when test="@unit='words'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:when>
 			<xsl:when test="@unit='lines'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit)}">[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]</span></xsl:when>
+			<xsl:when test="@unit='pages'"><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit)}">[&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;]</span></xsl:when>
 			<xsl:otherwise><span class="gap" title="{concat(name(), ', extent: ',@extent, ' ', @unit)}">[<xsl:for-each select="1 to @extent">&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;</xsl:for-each>]</span></xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -974,24 +1051,7 @@
 	</xsl:template>
 	
 	<xsl:template match="note">
-		<xsl:choose>
-			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
-				<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}">[<xsl:apply-templates/>]</span>
-			</xsl:when>
-			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
-				<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @anchored)}"><xsl:apply-templates/></span>
-			</xsl:when>
-		</xsl:choose>
-	</xsl:template>
-
-	<xsl:template match="note[ancestor::add[@place='marginleft']]" priority="10">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}">
-			<xsl:apply-templates/>
-		</span>
-	</xsl:template>
-
-	<xsl:template match="p/note" priority="8">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}"><xsl:apply-templates/></span>
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @n)}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="orgName">
@@ -1027,7 +1087,7 @@
 					<xsl:value-of select="@n"/>
 				</span>
 			</xsl:when>
-			<xsl:when test="//sourceDesc/msDesc[@type='artifact']">
+			<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
 				<br/><br/>
 				<span class="pb-title">
 					<xsl:value-of select="@n"/>
@@ -1038,7 +1098,7 @@
 
 	<xsl:template match="jc:page">
 		<xsl:choose> 
-			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']|//sourceDesc/msDesc[@type='artifact']">
+			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']|//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
 			<div class="page">
 				<!--<br/>-->
 				<span class="pb-title">
@@ -1093,6 +1153,13 @@
 	</xsl:template>
 
 <!-- end placeNames -->
+
+	<xsl:template match="//encodingDesc/projectDesc//ref[@target]">
+		<xsl:variable name="link">
+			<xsl:value-of select="//encodingDesc/projectDesc//ref/@target"/>
+		</xsl:variable>
+		<a href="{$link}"><xsl:apply-templates/></a>
+	</xsl:template>
 
 	<xsl:template match="rdg">
 		<xsl:apply-templates/>
