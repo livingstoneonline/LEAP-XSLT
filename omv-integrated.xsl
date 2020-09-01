@@ -72,7 +72,7 @@
 			  		function gtag(){dataLayer.push(arguments);}
 			  		gtag('js', new Date());
 			  		gtag('config', 'UA-31768072-5');
-				</script>    
+				</script>
 			</head>
 			<body class="transcription "><!-- style="background:#{$body-color};" -->
 			
@@ -491,6 +491,23 @@
 		</xsl:choose>
 		<xsl:choose>
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
+				<aside id="transcription-switches" class="manuscript-switches">
+					<label for="remove-color" class="md_switch" title="Color: On/Off">
+						Remove Color
+						<input type="checkbox" checked="" id="remove-color"/>
+						<span class="md_switch__toggle"></span>
+				  	</label>
+				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
+						Invert
+						<input type="checkbox" checked="" id="invert" />
+						<span class="md_switch__toggle"></span>
+				  	</label>
+				  	<label for="remove-rotation" class="md_switch" title="Rotation: On/Off">
+						Remove Rotation
+						<input type="checkbox" checked="" id="remove-rotation" />
+						<span class="md_switch__toggle"></span>
+				  	</label>
+			  	</aside>
 				<div class="narrow-mobile" id="narrow-mobile-div"  role="alert" aria-labelledby="mobile">
 					<p id="mobile">Please turn your mobile device to <span class="highlight">landscape</span> or <span class="highlight">widen your browser window</span> for optimal viewing of this archival document.</p>
 				</div>
@@ -555,6 +572,18 @@
 				</main>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
+				<aside id="transcription-switches" class="journal-switches">
+				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
+						Invert
+						<input type="checkbox" checked="" id="invert" />
+						<span class="md_switch__toggle"></span>
+				  	</label>
+				  	<label for="remove-justification" class="md_switch" title="Justification: On/Off">
+						Remove Justification
+						<input type="checkbox" checked="" id="remove-justification" />
+						<span class="md_switch__toggle"></span>
+				  	</label>
+			  	</aside>
 				<xsl:variable name="narrow">
 					<xsl:if test="//sourceDesc/biblStruct/monogr[contains(@n,'narrow')]">narrow</xsl:if>
 				</xsl:variable>
@@ -773,8 +802,12 @@
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']|add[@place='marginright']" priority="10">
+	<xsl:template match="add[@place='marginleft']" priority="10">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> [<xsl:apply-templates/>] </span>
+	</xsl:template>
+
+	<xsl:template match="add[@place='marginright']" priority="10">
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> <xsl:apply-templates/> </span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
@@ -1119,6 +1152,10 @@
 		</xsl:choose>
 	</xsl:template>
 
+	<xsl:template match="persName">
+		<span class="persName"><xsl:attribute name="title">A formally-named person.</xsl:attribute><xsl:apply-templates/></span>
+	</xsl:template>
+
 <!-- placeNames -->
 
 	<xsl:template match="placeName">
@@ -1167,7 +1204,7 @@
 	</xsl:template>
 
 	<xsl:template match="seg">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span>
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@type, '-', ''), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="space[@extent][@unit]" priority="10">
