@@ -59,29 +59,39 @@
 					    <meta name="description" content="Critically-edited archival text for One More Voice. One More Voice, a work of digital humanities scholarship, focuses on recovering non-European contributions from the nineteenth-century British imperial and colonial archives." />
 					</xsl:otherwise>
 				</xsl:choose>
-    			<meta name="keywords" content="one more voice,livingstone online,recovery,archives,colonial,colonialism,postcolonial,postcolonialism,empire,imperialism,digital humanities,minimal computing,travel,missionary,expeditionary,exploration,intercultural,encounter,non-western,non-European,literature,British,African,Africa,Victorian,nineteenth-century,travel narratives,autobiographies,letters,diaries,testimonies,interviews,maps,oral histories,genealogies,vocabularies,coronavirus,covid-19,creative commons" />
-			    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-			    <!--<link rel="stylesheet" type="text/css" href="../style.css" />
-			    <script src="../scripts.js" defer=''></script>-->
-			    <link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/style.css" />
-			    <script src="http://livingstoneonline.github.io/onemorevoice/scripts.js" defer=''></script>
-				<!-- Global site tag (gtag.js) - Google Analytics -->
+				<meta name="keywords" content="one more voice,livingstone online,recovery,archives,colonial,colonialism,postcolonial,postcolonialism,empire,imperialism,digital humanities,minimal computing,travel,missionary,expeditionary,exploration,intercultural,encounter,non-western,non-European,literature,British,African,Africa,Victorian,nineteenth-century,travel narratives,autobiographies,letters,diaries,testimonies,interviews,maps,oral histories,genealogies,vocabularies,coronavirus,covid-19,creative commons" />
+			    <meta name="theme-color" content="#2e68ac"/>
+			    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
+			    <link rel="icon" type="image/png" sizes="32x32" href="../images/icons/favicon-32x32.png" />
+			    <link rel="icon" type="image/png" sizes="16x16" href="../images/icons/favicon-16x16.png" />
+			    <link rel="manifest" href="../site.webmanifest" />
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/style.css" />
+				<!--<link rel="stylesheet" type="text/css" href="../style.css" />-->
+			    <!-- Global site tag (gtag.js) - Google Analytics -->
 				<script async='' src="https://www.googletagmanager.com/gtag/js?id=UA-31768072-5"></script>
 				<script>
 			  		window.dataLayer = window.dataLayer || [];
 			  		function gtag(){dataLayer.push(arguments);}
 			  		gtag('js', new Date());
+			
 			  		gtag('config', 'UA-31768072-5');
 				</script>
 			</head>
+
+			<xsl:text disable-output-escaping="yes">
+        		<![CDATA[<?php flush(); ?>]]>
+				
+			</xsl:text>
+
 			<body class="transcription "><!-- style="background:#{$body-color};" -->
 			
 				<!-- Informed throughout by https://w3c.github.io/aria-practices/examples/ -->
 				
 				<!-- start of nav -->
 				
+					<!-- href differs from regular HTML pages -->
 					<nav id="skiptocontent" aria-labelledby="nav0">
-						<a href="#main" id="nav0" tabindex="1">skip to main content</a>
+						<a href="#credits1-div" id="nav0" tabindex="0">skip to main content</a>
 					</nav>
 				
 				    <!-- Topnav adapted from https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
@@ -149,8 +159,8 @@
 				
 				    <!-- Mobile sticky nav adapted from https://www.mattmorgante.com/technology/sticky-navigation-bar-javascript -->
 				    <nav id="sticky" aria-labelledby="nav2">
-				        <div class="menu" id="nav2">
-				            <span class="icon-title"><a style="cursor:pointer" class="icon" aria-label="Show Site Sections" aria-hidden="true" onclick="openNav()" tabindex="2"><i class="fa fa-bars"></i></a></span>
+				        <div class="menu" id="nav2" title="Menu">
+				            <span class="icon-title"><a style="cursor:pointer" class="icon" aria-label="Show Site Sections" aria-hidden="false" onclick="openNav()" tabindex="0"><i class="fa fa-bars"></i></a></span>
 				            <span class="nav-title">One More Voice</span>
 				        </div>
 				    </nav>
@@ -158,7 +168,7 @@
 				    <!-- Overlay adapted from from https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp -->
 				    <nav aria-labelledby="nav3">
 				        <div class="overlay" id="nav3">
-				            <div class="menu">
+				            <div class="menu" title="Close">
 				                <span class="close-title"><a class="closebtn" aria-label="Close Overlay" aria-pressed="false" onclick="closeNav()" href="javascript:void(0)">&#215;</a></span>
 				                <span class="nav-title">One More Voice</span>
 				            </div>
@@ -197,7 +207,7 @@
 				<!-- end of nav -->
 				       
 				<header class="title" id="title-div"> 
-				    <img class="image image-border" src="../images/xml-code.png" alt="Coded text from an XML file produced by the One More Voice project according to the TEI P5 guidelines." title="A segment of coded text taken from the One More Voice project." />
+				    <img class="image image-border content-holder-1" src="../site-images/liv_023005_0001_deriv-1300px.png" srcset="../site-images/liv_023005_0001_deriv-1300px.png 1300w, ../site-images/liv_023005_0001_deriv-1000px.png 1000w, ../site-images/liv_023005_0001_deriv-700px.png 700w, ../site-images/liv_023005_0001_deriv-400px.png 400w" sizes="(min-width: 1000px) 638px, (min-width: 780px) 699px, calc(100vw - 32px)" alt="Coded text from an XML file produced by the One More Voice project according to the TEI P5 guidelines." title="A segment of coded text taken from the One More Voice project." />
 	        		<h1 class="header-title">One More Voice</h1>
 	        		<hr/>
 					<xsl:choose>
@@ -210,6 +220,33 @@
 					</xsl:choose>
 	    		</header>
 				<xsl:apply-templates select="TEI"/>
+			    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" defer=''/>
+				<script src="http://livingstoneonline.github.io/onemorevoice/scripts/scripts.js"></script>
+				<!--<script src="../scripts/scripts.js"></script>-->
+			<xsl:if test="//sourceDesc/msDesc[@type='manuscript']">
+				<script src="http://livingstoneonline.github.io/onemorevoice/scripts/manuscript-transform.js"></script>
+			</xsl:if>
+			<xsl:if test="//sourceDesc/biblStruct [@type='journal']">
+				<script src="http://livingstoneonline.github.io/onemorevoice/scripts/journal-transform.js"></script>
+			</xsl:if>
+			<xsl:if test="//figure[@n='artifact' and @change='rotate-180']">
+				<script>
+					// Image Rotation */
+					// Adapted from https://www.w3schools.com/howto/howto_js_toggle_class.asp and https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role
+					
+					function myFunction() {
+					    var element1 = document.getElementById("rotate-button");
+					    var element2 = document.getElementById("image-to-rotate");
+					    if (element1.getAttribute("aria-checked") == "true") {
+					        element1.setAttribute("aria-checked", "false");
+					    } else {
+					        element1.setAttribute("aria-checked", "true");
+					    }
+					    element1.classList.toggle("click-color");
+					    element2.classList.toggle("rotate-180");
+					}
+				</script>
+			</xsl:if>
 			</body>
 		</html>
 	</xsl:template>
@@ -264,7 +301,7 @@
 		<xsl:variable name="additional-authors-1">			
 			<xsl:choose>
 				<xsl:when test="//teiHeader//titleStmt/author[@role='normalized']">
-					<xsl:text>, </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='normalized']" separator=", "/>
+					<xsl:text>; </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='normalized']" separator="; "/>
 				</xsl:when>
 				<xsl:otherwise/>
 			</xsl:choose>
@@ -362,6 +399,16 @@
 					<xsl:value-of select="//teiHeader//sourceDesc/biblStruct[@type='artifact-book-journal']//title"/>
 				</xsl:if>
 			</xsl:variable>
+			<xsl:variable name="period-after-date">
+				<xsl:choose>
+					<xsl:when test="//sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='pages'][ends-with(text(), '.')]">
+						<xsl:text> </xsl:text>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>. </xsl:text>							
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
 			<xsl:choose>
 				<xsl:when test="//sourceDesc/biblStruct/monogr[contains(@n,'book-section')]">
 					<xsl:text>In </xsl:text>
@@ -370,7 +417,7 @@
 					<xsl:value-of select="//sourceDesc/biblStruct/monogr/author" separator=" and "/>
 					<xsl:text>, </xsl:text>
 					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='pages']"/>
-					<xsl:text>. </xsl:text>
+					<xsl:value-of select="$period-after-date"/>
 					<xsl:if test="//sourceDesc/biblStruct/monogr/editor/text()">
 						<xsl:text>Edited by </xsl:text><xsl:value-of select="//sourceDesc/biblStruct/monogr/editor"/><xsl:text>. </xsl:text>
 					</xsl:if>
@@ -434,11 +481,11 @@
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
-		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
+		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits">
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[@type='alternative']"/></h3>
 					<p><span class="bold">Author(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
 					<xsl:if test="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']">
-						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator="; "/></p>
 					</xsl:if>
 					<xsl:copy-of select="$repository"/>
 					<xsl:copy-of select="$collection"/>
@@ -450,7 +497,7 @@
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
-		    	<aside class="credits" id="credits1-div"  aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
+		    	<aside class="credits" id="credits1-div"  aria-labelledby="opening-credits">
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
 					<p><span class="bold">Author(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
 					<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date" separator="; "/></p>
@@ -462,11 +509,11 @@
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']">
-		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
+		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits">
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[@type='alternative']"/></h3>
 					<p><span class="bold">Creator(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
 					<xsl:if test="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']">
-						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator="; "/></p>
 					</xsl:if>
 					<xsl:copy-of select="$repository"/>
 					<xsl:copy-of select="$collection"/>
@@ -476,12 +523,12 @@
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='artifact-book-journal']">
-		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits"><a class="anchor" id="main"></a>
+		    	<aside class="credits" id="credits1-div" aria-labelledby="opening-credits">
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
 					<p><span class="bold">Creator(s) &amp; contributor(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
 					<p><span class="bold">Date(s):</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date" separator="; "/></p>
 					<xsl:if test="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']">
-						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator=", "/></p>
+						<p><span class="bold">Place(s) of creation:</span><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/placeName[@type='compositionPlace']" separator="; "/></p>
 					</xsl:if>
 					<p><span class="bold">Original publication details:</span><xsl:text> </xsl:text><xsl:copy-of select="$pub-deets"/></p>
 					<p><span class="bold">Note:</span> This historical artifact reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
@@ -492,19 +539,19 @@
 		<xsl:choose>
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
 				<aside id="transcription-switches" class="manuscript-switches">
-					<label for="remove-color" class="md_switch" title="Color: On/Off">
+					<label for="remove-color" class="md_switch" title="Color: On/Off" alt="Clickable 'on/off' switch.">
 						Remove Color
-						<input type="checkbox" checked="" id="remove-color"/>
+						<input type="checkbox" checked="" role="button" data-toggle="button" aria-label="Toggle color" id="remove-color" />
 						<span class="md_switch__toggle"></span>
 				  	</label>
-				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
+				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off" alt="Clickable 'on/off' switch.">
 						Invert
-						<input type="checkbox" checked="" id="invert" />
+						<input type="checkbox" checked="" role="button" data-toggle="button" aria-label="Toggle color inversion" id="invert" />
 						<span class="md_switch__toggle"></span>
 				  	</label>
-				  	<label for="remove-rotation" class="md_switch" title="Rotation: On/Off">
+				  	<label for="remove-rotation" class="md_switch" title="Rotation: On/Off" alt="Clickable 'on/off' switch.">
 						Remove Rotation
-						<input type="checkbox" checked="" id="remove-rotation" />
+						<input type="checkbox" checked="" role="button" data-toggle="button" aria-label="Toggle rotation" id="remove-rotation" />
 						<span class="md_switch__toggle"></span>
 				  	</label>
 			  	</aside>
@@ -573,14 +620,14 @@
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
 				<aside id="transcription-switches" class="journal-switches">
-				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
+				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off" alt="Clickable 'on/off' switch.">
 						Invert
-						<input type="checkbox" checked="" id="invert" />
+						<input type="checkbox" checked="" role="button" data-toggle="button" aria-label="Toggle color inversion" id="invert" />
 						<span class="md_switch__toggle"></span>
 				  	</label>
-				  	<label for="remove-justification" class="md_switch" title="Justification: On/Off">
+				  	<label for="remove-justification" class="md_switch" title="Justification: On/Off" alt="Clickable 'on/off' switch.">
 						Remove Justification
-						<input type="checkbox" checked="" id="remove-justification" />
+						<input type="checkbox" checked="" role="button" data-toggle="button" aria-label="Toggle rotation" id="remove-justification" />
 						<span class="md_switch__toggle"></span>
 				  	</label>
 			  	</aside>
@@ -911,84 +958,63 @@
 	</xsl:template>
 
 	<xsl:template match="figure">
-		<xsl:variable name="graphicURL">
-			<xsl:apply-templates select="..//@url"/>
+		<!-- start of variables -->
+		<xsl:variable name="figure-facs">
+			<xsl:apply-templates select="self::node()/@facs"/>
+		</xsl:variable>
+		<xsl:variable name="graphic-url">
+			<xsl:apply-templates select="self::node()/graphic/@url"/>
+		</xsl:variable>
+		<xsl:variable name="graphic-facs">
+			<xsl:apply-templates select="self::node()/graphic/@facs"/>
+		</xsl:variable>
+		<xsl:variable name="graphic-n">
+			<xsl:apply-templates select="self::node()/graphic/@n"/>
 		</xsl:variable>
 		<xsl:variable name="altText">
-			<xsl:apply-templates select="..//figDesc"/>
+			<xsl:apply-templates select="self::node()/figDesc"/>
 		</xsl:variable>
-		<xsl:choose>
-			<xsl:when test="..//graphic[@n='artifact']|..//graphic[@n='artifact rotate-180']">
-				<!-- This variable creates the title for the artifact image; the image URL and alt text are created by other variables set up above. -->
-				<xsl:variable name="caption">
-					<xsl:variable name="copyright2">
-						<xsl:choose>
-						<xsl:when test="//availability/licence[@target]">
-							<xsl:text> </xsl:text><xsl:value-of select="//availability/licence/@target"/><xsl:text>.</xsl:text>
-						</xsl:when>
-						<xsl:when test="not(//availability/licence[@target])"/>					
-						</xsl:choose>
-					</xsl:variable>
-					<xsl:value-of select="..//label"/><xsl:text>. </xsl:text><xsl:value-of select="//availability/p"/><xsl:text> </xsl:text><xsl:value-of select="//availability/licence"/><xsl:value-of select="$copyright2"/>
-				</xsl:variable>
-				<!-- This variable creates a static id for all images to be rotated. This is not an ideal solution and needs to be improved down the road because, if there are two artifact images in the same document that both need to rotated, they will both get the same id. -->
-				<!-- The following code instead, if used in place of <xsl:text>image-to-rotate</xsl:text> below, gives each image to be rotated a unique id based on its page number(s). This could be the way to a better solution, but would involved working out the Javascript to select that same id.-->
-				<!-- <xsl:value-of select="/TEI/text/body/div/p/figure/graphic/@*[namespace-uri()='http://www.w3.org/XML/1998/namespace' and local-name()='id']"/> -->
-				<xsl:variable name="rotate-id">
-					<xsl:if test="..//graphic[@n='artifact rotate-180']">
-						<xsl:text>image-to-rotate</xsl:text>
-					</xsl:if>
-				</xsl:variable>
-				<xsl:if test="..//graphic[@n='artifact rotate-180']">
-					<!-- Button/rotation functionality adapted from https://www.w3schools.com/howto/howto_js_toggle_class.asp and https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role -->
-					<button role="switch" aria-checked="false" id="rotate-button" onclick="myFunction()">Rotate <i class="fa fa-repeat" aria-hidden="true"></i></button>
+		<!-- This variable creates the title for the artifact image. -->
+		<xsl:variable name="caption">
+			<xsl:variable name="copyright">
+				<xsl:if test="//availability/licence[@target]">
+					<xsl:text> </xsl:text><xsl:value-of select="//availability/licence/@target"/><xsl:text>.</xsl:text>
 				</xsl:if>
-				<span class="figure"><span class="{concat('graphic', ' ', ..//graphic/@rend)}"><a href="{$graphicURL}"><img src="{$graphicURL}" alt="{$altText}" title="{normalize-space($caption)}" id="{$rotate-id}"/></a></span></span>
+			</xsl:variable>
+			<xsl:value-of select="self::node()/label"/><xsl:text>. </xsl:text><xsl:value-of select="//availability/p"/><xsl:text> </xsl:text><xsl:value-of select="//availability/licence"/><xsl:value-of select="$copyright"/>
+		</xsl:variable>
+		<xsl:variable name="rotate-id">
+			<xsl:if test="self::node()[@n='artifact' and @change='rotate-180']">
+				<xsl:text>image-to-rotate</xsl:text>
+			</xsl:if>
+		</xsl:variable>
+		<!-- The prior variable creates a static id for all images to be rotated. This is not an ideal solution and needs to be improved down the road because, if there are two artifact images in the same document that both need to rotated, they will both get the same id. However, The following code, if used in place of <xsl:text>image-to-rotate</xsl:text> above, gives each image to be rotated a unique id based on its page number(s). This could be the way to a better solution, but would involved working out the Javascript to select that same id.-->
+		<!-- <xsl:value-of select="/TEI/text/body/div/p/figure/graphic/@*[namespace-uri()='http://www.w3.org/XML/1998/namespace' and local-name()='id']"/> -->
+		<!-- end of variables -->
+		<xsl:choose>
+			<xsl:when test="contains(@n,'artifact') and contains(@change,'rotate-180')">
+				<!-- Button/rotation functionality adapted from https://www.w3schools.com/howto/howto_js_toggle_class.asp and https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role -->
+				<button role="switch" aria-checked="false" aria-label="Rotate image" id="rotate-button" onclick="myFunction()">Rotate <i class="fa fa-repeat" aria-hidden="true"></i></button>
+				<br/><br/><br/>
+				<span class="{concat(name(), ' ', @rend, ' ', @n)}">
+					<a href="{$figure-facs}">	
+						<img src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}" title="{normalize-space($caption)}" id="{$rotate-id}"/>
+					</a>
+				</span>
 			</xsl:when>
-			<xsl:when test="..//graphic[@n='medium']">
-				<span class="figure"><span class="graphic image-medium"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
+			<xsl:when test="contains(@n,'artifact')">
+				<span class="{concat(name(), ' ', @rend, ' ', @n)}">
+					<a href="{$figure-facs}">	
+						<img src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}" title="{normalize-space($caption)}"/>
+					</a>
+				</span>
 			</xsl:when>
-			<xsl:when test="..//graphic[@n='small']">
-				<span class="figure"><span class="graphic image-small"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
-			</xsl:when>
-			<xsl:when test="..//graphic[@n='small inline-left']">
-				<span class="figure"><span class="graphic image-small inline-left"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
-			</xsl:when>
-			<xsl:when test="..//graphic">
-				<span class="figure"><span class="{concat('graphic', ' ', ..//graphic/@n)}"><!--<a href="{$graphicURL}">--><img src="{$graphicURL}" alt="{$altText}"/><!--</a>--></span></span>
+			<xsl:when test="'[child::graphic]'">
+				<span class="{concat(name(), ' ', @rend, ' ', @n)}"><img src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}"/></span>
 			</xsl:when>
 			<xsl:otherwise>
-				<span class="figure"><span class="{concat(name(), ' ', @rend, ' ', @place)}">{figure}</span></span>
+				<span class="{concat(name(), ' ', @rend, ' ', @n)}">{figure}</span>
 			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-
-	<!-- Template passes through abbr, sic, and orig in head in normalizeHead mode -->
-	<xsl:template match="head//abbr|head//sic|head//orig" mode="normalizeHead">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<!-- Template kills through expan, corr, reg, and supplied in head in normalizeHead mode -->
-	<xsl:template match="head//expan|head//corr|head//reg|head//supplied"
-		mode="normalizeHead"/>
-
-	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
-	<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
-		<xsl:apply-templates/>
-	</xsl:template>
-
-	<!-- Template kills through expan, corr, reg, and supplied in figDesc in normalizeFigDesc mode -->
-	<xsl:template match="figDesc//expan|figDesc//corr|figDesc//reg|figDesc//supplied"
-		mode="normalizeFigDesc"/>
-
-	<xsl:template match="add[@place='marginleft']/figure|add[@place='marginright']/figure" priority="10">
-		<xsl:choose>
-		<xsl:when test="head">
-			<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">figure</span>
-		</xsl:when>
-		<xsl:otherwise>
-			<span class="figure" title="{figDesc}">figure</span>
-		</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
@@ -1022,7 +1048,7 @@
 	<xsl:template match="graphic"/>
 
 	<xsl:template match="head">
-		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place)}" title="">
+		<span class="{concat(name(), ' ', @type, ' ', @rend, ' ', @place, ' ', @n)}" title="">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
@@ -1440,6 +1466,35 @@
 	<!--<xsl:template match="figure/figDesc">
 		<xsl:variable name="title"><xsl:apply-templates/></xsl:variable>
 		<span class="figfigDesc" title="{$title}">{figure}</span>
+	</xsl:template>-->
+
+	<!-- Template passes through abbr, sic, and orig in head in normalizeHead mode -->
+	<!--<xsl:template match="head//abbr|head//sic|head//orig" mode="normalizeHead">
+		<xsl:apply-templates/>
+	</xsl:template>-->
+
+	<!-- Template kills through expan, corr, reg, and supplied in head in normalizeHead mode -->
+	<!--<xsl:template match="head//expan|head//corr|head//reg|head//supplied"
+		mode="normalizeHead"/>-->
+
+	<!-- Template passes through abbr, sic, and orig in figDesc in normalizeFigDesc mode -->
+	<!--<xsl:template match="figDesc//abbr|figDesc//sic|figDesc//orig" mode="normalizeFigDesc">
+		<xsl:apply-templates/>
+	</xsl:template>-->
+
+	<!-- Template kills through expan, corr, reg, and supplied in figDesc in normalizeFigDesc mode -->
+	<!--<xsl:template match="figDesc//expan|figDesc//corr|figDesc//reg|figDesc//supplied"
+		mode="normalizeFigDesc"/>-->
+
+	<!--<xsl:template match="add[@place='marginleft']/figure|add[@place='marginright']/figure" priority="10">
+		<xsl:choose>
+		<xsl:when test="head">
+			<span class="figure" title="{concat('&quot;', head, '.&quot; ', figDesc)}">figure</span>
+		</xsl:when>
+		<xsl:otherwise>
+			<span class="figure" title="{figDesc}">figure</span>
+		</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>-->
 
 	<!-- foreign should be italiced in edited view -->
