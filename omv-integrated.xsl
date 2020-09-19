@@ -65,8 +65,8 @@
 			    <link rel="icon" type="image/png" sizes="32x32" href="../images/icons/favicon-32x32.png" />
 			    <link rel="icon" type="image/png" sizes="16x16" href="../images/icons/favicon-16x16.png" />
 			    <link rel="manifest" href="../site.webmanifest" />
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/style.css" />
-				<!--<link rel="stylesheet" type="text/css" href="../style.css" />-->
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/style.css" />
+				<!--<link rel="stylesheet" type="text/css" href="../css/style.css" />-->
 			    <!-- Global site tag (gtag.js) - Google Analytics -->
 				<script async='' src="https://www.googletagmanager.com/gtag/js?id=UA-31768072-5"></script>
 				<script>
@@ -220,14 +220,18 @@
 					</xsl:choose>
 	    		</header>
 				<xsl:apply-templates select="TEI"/>
-			    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" defer=''/>
+			    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/styleTEI.css" />
+				<!--<link rel="stylesheet" type="text/css" href="../css/styleTEI.css" />-->
 				<script src="http://livingstoneonline.github.io/onemorevoice/scripts/scripts.js"></script>
 				<!--<script src="../scripts/scripts.js"></script>-->
 			<xsl:if test="//sourceDesc/msDesc[@type='manuscript']">
-				<script src="http://livingstoneonline.github.io/onemorevoice/scripts/manuscript-transform.js"></script>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/scripts/manuscript-transform.js" />
+				<!--<script src="../scripts/manuscript-transform.js"></script>-->
 			</xsl:if>
 			<xsl:if test="//sourceDesc/biblStruct [@type='journal']">
-				<script src="http://livingstoneonline.github.io/onemorevoice/scripts/journal-transform.js"></script>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/scripts/journal-transform.js" />
+				<!--<script src="../scripts/journal-transform.js"></script>-->
 			</xsl:if>
 			<xsl:if test="//figure[@n='artifact' and @change='rotate-180']">
 				<script>
