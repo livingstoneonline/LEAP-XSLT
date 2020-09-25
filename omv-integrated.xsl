@@ -66,7 +66,7 @@
 			    <link rel="icon" type="image/png" sizes="16x16" href="../images/icons/favicon-16x16.png" />
 			    <link rel="manifest" href="../site.webmanifest" />
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/style.css" />
-				<!--<link rel="stylesheet" type="text/css" href="../css/style.css" />-->
+				<!-- <link rel="stylesheet" type="text/css" href="../css/style.css" /> -->
 			    <!-- Global site tag (gtag.js) - Google Analytics -->
 				<script async='' src="https://www.googletagmanager.com/gtag/js?id=UA-31768072-5"></script>
 				<script>
@@ -220,18 +220,19 @@
 					</xsl:choose>
 	    		</header>
 				<xsl:apply-templates select="TEI"/>
-			    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/font-awesome.min.css" />
+			    <!-- <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/> -->
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/styleTEI.css" />
-				<!--<link rel="stylesheet" type="text/css" href="../css/styleTEI.css" />-->
+				<!-- <link rel="stylesheet" type="text/css" href="../css/styleTEI.css" /> -->
 				<script src="http://livingstoneonline.github.io/onemorevoice/scripts/scripts.js"></script>
-				<!--<script src="../scripts/scripts.js"></script>-->
+				<!-- <script src="../scripts/scripts.js"></script> -->
 			<xsl:if test="//sourceDesc/msDesc[@type='manuscript']">
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/scripts/manuscript-transform.js" />
-				<!--<script src="../scripts/manuscript-transform.js"></script>-->
+				<!-- <script src="../scripts/manuscript-transform.js"></script> -->
 			</xsl:if>
 			<xsl:if test="//sourceDesc/biblStruct [@type='journal']">
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/scripts/journal-transform.js" />
-				<!--<script src="../scripts/journal-transform.js"></script>-->
+				<!-- <script src="../scripts/journal-transform.js"></script> -->
 			</xsl:if>
 			<xsl:if test="//figure[@n='artifact' and @change='rotate-180']">
 				<script>
@@ -737,7 +738,7 @@
 						<p><span class="bold">Cite this digital edition (MLA)</span><xsl:text>: </xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
 						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
-						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
+						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><!--<xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>-->
 						<span class="italic">One More Voice</span> (an imprint of <span class="italic">Livingstone Online</span>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://onemorevoice.org/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
 						<xsl:if test="//publicationStmt/ref">
 							<xsl:variable name="source-link">
@@ -1002,14 +1003,14 @@
 				<br/><br/><br/>
 				<span class="{concat(name(), ' ', @rend, ' ', @n)}">
 					<a href="{$figure-facs}">	
-						<img src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}" title="{normalize-space($caption)}" id="{$rotate-id}"/>
+						<img loading="lazy" src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}" title="{normalize-space($caption)}" id="{$rotate-id}"/>
 					</a>
 				</span>
 			</xsl:when>
 			<xsl:when test="contains(@n,'artifact')">
 				<span class="{concat(name(), ' ', @rend, ' ', @n)}">
 					<a href="{$figure-facs}">	
-						<img src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}" title="{normalize-space($caption)}"/>
+						<img loading="lazy" src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}" title="{normalize-space($caption)}"/>
 					</a>
 				</span>
 			</xsl:when>
