@@ -84,11 +84,12 @@
 			</xsl:text>
 
 			<body class="transcription "><!-- style="background:#{$body-color};" -->
-			
-				<!-- Informed throughout by https://w3c.github.io/aria-practices/examples/ -->
-				
-				<!-- start of nav -->
-				
+				<article>			
+	
+					<!-- Informed throughout by https://w3c.github.io/aria-practices/examples/ -->
+					
+					<!-- start of nav -->
+					
 					<!-- href differs from regular HTML pages -->
 					<nav id="skiptocontent" aria-labelledby="nav0">
 						<a href="#credits1-div" id="nav0" tabindex="0">skip to main content</a>
@@ -148,6 +149,7 @@
 										<ul role="none">
 											<li role="none"><a role="menuitem" href="../contributors.html">contributors</a></li>
 											<li role="none"><a role="menuitem" href="../bibliography.html">bibliography</a></li>
+											<li role="none"><a role="menuitem" href="https://www.zotero.org/groups/2578736/one_more_voice/library/">zotero library</a></li>
 											<li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/">github repo</a></li>
 											<li role="none"><a role="menuitem" href="mailto:awisnicki@yahoo.com">contact</a></li>
 										</ul>
@@ -194,6 +196,7 @@
 				                        <ul role="menu" aria-label="Miscellaneous">
 				                            <li role="none"><a role="menuitem" href="../contributors.html">contributors</a></li>
 				                            <li role="none"><a role="menuitem" href="../bibliography.html">bibliography</a></li>
+											<li role="none"><a role="menuitem" href="https://www.zotero.org/groups/2578736/one_more_voice/library/">zotero library</a></li>
 				                            <li role="none"><a role="menuitem" href="https://github.com/livingstoneonline/onemorevoice/">github repo</a></li>
 				                            <li role="none"><a role="menuitem" href="mailto:awisnicki@yahoo.com">contact</a> (mailto)</li>
 				                        </ul>
@@ -204,21 +207,21 @@
 				        </div>
 				    </nav>
 				
-				<!-- end of nav -->
-				       
-				<header class="title" id="title-div"> 
-				    <img class="image image-border content-holder-1" src="../site-images/liv_023005_0001_deriv-1300px.png" srcset="../site-images/liv_023005_0001_deriv-1300px.png 1300w, ../site-images/liv_023005_0001_deriv-1000px.png 1000w, ../site-images/liv_023005_0001_deriv-700px.png 700w, ../site-images/liv_023005_0001_deriv-400px.png 400w" sizes="(min-width: 1000px) 638px, (min-width: 780px) 699px, calc(100vw - 32px)" alt="Coded text from an XML file produced by the One More Voice project according to the TEI P5 guidelines." title="A segment of coded text taken from the One More Voice project." />
-	        		<h1 class="header-title">One More Voice</h1>
-	        		<hr/>
-					<xsl:choose>
-						<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
-							<div><span class="back-button"><a href="../artifacts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
-						</xsl:when>
-						<xsl:otherwise>
-							<div><span class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
-						</xsl:otherwise>
-					</xsl:choose>
-	    		</header>
+					<!-- end of nav -->
+					       
+					<header class="title" id="title-div"> 
+					    <img class="image image-border content-holder-1" src="../site-images/liv_023005_0001_deriv-1399px.jpg" srcset="../site-images/liv_023005_0001_deriv-1399px.jpg 1399w, ../site-images/liv_023005_0001_deriv-1276px.jpg 1276w, ../site-images/liv_023005_0001_deriv-1216px.jpg 1216w, ../site-images/liv_023005_0001_deriv-699px.jpg 699w, ../site-images/liv_023005_0001_deriv-638px.jpg 638w, ../site-images/liv_023005_0001_deriv-608px.jpg 608w, ../site-images/liv_023005_0001_deriv-400px.jpg 400w" sizes="(min-width: 1000px) 638px, (min-width: 780px) 699px, calc(100vw - 32px)" alt="Coded text from an XML file produced by the One More Voice project according to the TEI P5 guidelines." title="A segment of coded text taken from the One More Voice project." />
+		        		<h1 class="header-title">One More Voice</h1>
+		        		<hr/>
+						<xsl:choose>
+							<xsl:when test="//sourceDesc/msDesc[@type='artifact-archive']|//sourceDesc/biblStruct[@type='artifact-book-journal']">
+								<div><span class="back-button"><a href="../artifacts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
+							</xsl:when>
+							<xsl:otherwise>
+								<div><span class="back-button"><a href="../texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2 class="italic"><xsl:value-of select="$subtitle"/></h2></div>
+							</xsl:otherwise>
+						</xsl:choose>
+		    		</header>
 				<xsl:apply-templates select="TEI"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/font-awesome.min.css" />
 			    <!-- <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/> -->
@@ -234,24 +237,25 @@
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/scripts/journal-transform.js" />
 				<!-- <script src="../scripts/journal-transform.js"></script> -->
 			</xsl:if>
-			<xsl:if test="//figure[@n='artifact' and @change='rotate-180']">
-				<script>
-					// Image Rotation */
-					// Adapted from https://www.w3schools.com/howto/howto_js_toggle_class.asp and https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role
-					
-					function myFunction() {
-					    var element1 = document.getElementById("rotate-button");
-					    var element2 = document.getElementById("image-to-rotate");
-					    if (element1.getAttribute("aria-checked") == "true") {
-					        element1.setAttribute("aria-checked", "false");
-					    } else {
-					        element1.setAttribute("aria-checked", "true");
-					    }
-					    element1.classList.toggle("click-color");
-					    element2.classList.toggle("rotate-180");
-					}
-				</script>
-			</xsl:if>
+					<xsl:if test="//figure[@n='artifact' and @change='rotate-180']">
+						<script>
+							// Image Rotation */
+							// Adapted from https://www.w3schools.com/howto/howto_js_toggle_class.asp and https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Switch_role
+							
+							function myFunction() {
+							    var element1 = document.getElementById("rotate-button");
+							    var element2 = document.getElementById("image-to-rotate");
+							    if (element1.getAttribute("aria-checked") == "true") {
+							        element1.setAttribute("aria-checked", "false");
+							    } else {
+							        element1.setAttribute("aria-checked", "true");
+							    }
+							    element1.classList.toggle("click-color");
+							    element2.classList.toggle("rotate-180");
+							}
+						</script>
+					</xsl:if>
+				</article>
 			</body>
 		</html>
 	</xsl:template>
@@ -560,9 +564,9 @@
 						<span class="md_switch__toggle"></span>
 				  	</label>
 			  	</aside>
-				<div class="narrow-mobile" id="narrow-mobile-div"  role="alert" aria-labelledby="mobile">
+				<aside class="narrow-mobile" id="narrow-mobile-div"  role="alert" aria-labelledby="mobile">
 					<p id="mobile">Please turn your mobile device to <span class="highlight">landscape</span> or <span class="highlight">widen your browser window</span> for optimal viewing of this archival document.</p>
-				</div>
+				</aside>
 				<main class="manuscript" id="manuscript-div"><!-- style="background:#{$body-color};" -->
 					<section class="TEI front {$front}" style="background:#{$body-color-front};" aria-labelledby="front-section">
 						<div class="ms-container" id="front-section">
@@ -854,14 +858,6 @@
 			<xsl:apply-templates/></span>
 	</xsl:template>
 
-	<xsl:template match="add[@place='marginleft']" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> [<xsl:apply-templates/>] </span>
-	</xsl:template>
-
-	<xsl:template match="add[@place='marginright']" priority="10">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}"> <xsl:apply-templates/> </span>
-	</xsl:template>
-
 	<xsl:template match="add[@place='over-text']">
 		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''))}" title="Addition written over existing text"><xsl:apply-templates/></span>
 	</xsl:template>
@@ -1015,7 +1011,7 @@
 				</span>
 			</xsl:when>
 			<xsl:when test="'[child::graphic]'">
-				<span class="{concat(name(), ' ', @rend, ' ', @n)}"><img src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}"/></span>
+				<span class="{concat(name(), ' ', @rend, ' ', @n)}"><img loading="lazy" src="{$graphic-url}" srcset="{$graphic-facs}" sizes="{$graphic-n}" alt="{$altText}"/></span>
 			</xsl:when>
 			<xsl:otherwise>
 				<span class="{concat(name(), ' ', @rend, ' ', @n)}">{figure}</span>
@@ -1085,7 +1081,7 @@
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
 				<xsl:choose>
 					<xsl:when test="contains(@rend,'double-line')">
-						<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''), ' ', 'line', ' ', 'first-double')}"/><br/>
+						<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''), ' ', 'line', ' ', 'first-double')}"/>
 					</xsl:when>
 					<xsl:when test="contains(@rend,'triple-line')">
 						<hr class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''), ' ', 'line')}"/>
