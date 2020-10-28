@@ -60,7 +60,7 @@
 					</xsl:otherwise>
 				</xsl:choose>
 				<meta name="keywords" content="one more voice,livingstone online,recovery,archives,colonial,colonialism,postcolonial,postcolonialism,empire,imperialism,digital humanities,minimal computing,travel,missionary,expeditionary,exploration,intercultural,encounter,non-western,non-European,literature,British,African,Africa,Victorian,nineteenth-century,travel narratives,autobiographies,letters,diaries,testimonies,interviews,maps,oral histories,genealogies,vocabularies,coronavirus,covid-19,creative commons" />
-			    <meta name="theme-color" content="#2e68ac"/>
+			    <meta name="theme-color" content="#235185"/>
 			    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
 			    <link rel="icon" type="image/png" sizes="32x32" href="../images/icons/favicon-32x32.png" />
 			    <link rel="icon" type="image/png" sizes="16x16" href="../images/icons/favicon-16x16.png" />
@@ -421,9 +421,13 @@
 			<xsl:choose>
 				<xsl:when test="//sourceDesc/biblStruct/monogr[contains(@n,'book-section')]">
 					<xsl:text>In </xsl:text>
-					<span class="italic"><xsl:value-of select="$title"/></span>
-					<xsl:text>, by </xsl:text>
-					<xsl:value-of select="//sourceDesc/biblStruct/monogr/author" separator=" and "/>
+					<xsl:if test="//sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='section']/text()">
+						<xsl:text>“</xsl:text><xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='section']"/><xsl:text>,” </xsl:text>
+					</xsl:if><span class="italic"><xsl:value-of select="$title"/></span>
+					<xsl:if test="//sourceDesc/biblStruct/monogr/author/text()">
+						<xsl:text>, by </xsl:text>
+						<xsl:value-of select="//sourceDesc/biblStruct/monogr/author" separator=" and "/>
+					</xsl:if>
 					<xsl:text>, </xsl:text>
 					<xsl:value-of select="//sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='pages']"/>
 					<xsl:value-of select="$period-after-date"/>
@@ -640,6 +644,9 @@
 						<span class="md_switch__toggle"></span>
 				  	</label>
 			  	</aside>
+				<aside class="narrow-mobile" id="narrow-mobile-div"  role="alert" aria-labelledby="mobile">
+					<p id="mobile">Please turn your mobile device to <span class="highlight">landscape</span> or <span class="highlight">widen your browser window</span> for optimal viewing of this archival document.</p>
+				</aside>
 				<xsl:variable name="narrow">
 					<xsl:if test="//sourceDesc/biblStruct/monogr[contains(@n,'narrow')]">narrow</xsl:if>
 				</xsl:variable>
@@ -1270,20 +1277,21 @@
 	
 	<!-- Beginning of elements that go with table -->
 	<xsl:template match="table">
-		<table>
+		<table class="{concat(name(), ' ', @rend, ' ', @n)}">
 			<xsl:apply-templates/>
 		</table>
 	</xsl:template>
 
 	<xsl:template match="row">
-		<tr>
+		<tr class="{concat(name(), ' ', @rend, ' ', @n)}">
 			<xsl:apply-templates/>
 		</tr>
 	</xsl:template>
 
 	<xsl:template match="cell">
-		<td> &#x00A0;<xsl:apply-templates/>&#x00A0; </td>
+		<td class="{concat(name(), ' ', @rend, ' ', @n)}"><xsl:apply-templates/></td>
 	</xsl:template>
+	<!-- Non-breaking space &#x00A0; -->
 
 	<xsl:template match="term[@type]" priority="1">
 		<xsl:apply-templates/>
