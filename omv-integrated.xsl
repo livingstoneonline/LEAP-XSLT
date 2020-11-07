@@ -415,7 +415,7 @@
 				<xsl:copy-of select="$availP"/><xsl:text> </xsl:text><a href="{$license}"><xsl:value-of select="//teiHeader//publicationStmt/availability/licence"/></a>
 			</xsl:when>
 			<xsl:when test="not(//availability/licence[@target])">
-				<xsl:value-of select="//availability/p"/><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/availability/licence"/>
+				<xsl:copy-of select="$availP"/><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/availability/licence"/>
 			</xsl:when>
 			</xsl:choose>
 		</xsl:variable>
@@ -493,13 +493,13 @@
 		</xsl:variable>
 		<xsl:variable name="editorial">
 			<xsl:if test="count(//teiHeader//respStmt) > 1">
-				<xsl:text>, eds., </xsl:text>
+				<xsl:text>, eds. </xsl:text>
 			</xsl:if>
 			<xsl:if test="count(//teiHeader//respStmt) = 1">
-				<xsl:text>, ed., </xsl:text>
+				<xsl:text>, ed. </xsl:text>
 			</xsl:if>
 			<xsl:if test="count(//teiHeader//respStmt) = 0">
-				<xsl:text>, </xsl:text>
+				<xsl:text>. </xsl:text>
 			</xsl:if>
 		</xsl:variable>
 		<xsl:variable name="base-uri" select="base-uri(.)"/>
@@ -1364,7 +1364,7 @@
 	</xsl:template>
 
 	<xsl:template match="w">
-		<xsl:apply-templates/>
+		<span class="word"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<!-- ******************* -->
