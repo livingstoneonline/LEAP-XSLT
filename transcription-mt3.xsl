@@ -2067,6 +2067,10 @@
 		</span>
 	</xsl:template>
 
+ 	<xsl:template match="placeName">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<!-- @placeName plus others. To eliminate two spans and addition of whitespace in HTML -->
 	<xsl:template match="placeName/bloc|placeName/country">
 		<xsl:apply-templates/>
