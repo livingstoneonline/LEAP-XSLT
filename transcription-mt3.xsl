@@ -157,6 +157,9 @@
 		</xsl:attribute>
 	</xsl:template>
 
+	<xsl:template match="anchor|bibl|fw|geogName|measure|settlement|sic|space">
+		<xsl:apply-templates/>
+	</xsl:template>
 
 	<!-- Textual divisions -->
 	<xsl:template match="text|body|front|back">
