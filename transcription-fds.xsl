@@ -177,25 +177,25 @@
 	</xsl:template>
 
 	<xsl:template match="div">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div/div">
-		<br/><br/><div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<br/><br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div[preceding-sibling::div][child::pb[1]]">
-		<br/><div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div[@n='noSpace']" priority="10">
-		<div class="{concat(name(), ' ', translate(@rend, '-', ''))}">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -950,7 +950,7 @@
 	<!-- For "lb" see above -->
 
 	<xsl:template match="list|table">
-		<span class="{concat(name(), ' ', translate(@rend, '-', ''))}"><xsl:apply-templates/></span>
+		<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="list/head">
