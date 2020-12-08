@@ -22,7 +22,7 @@ Table of Contents
 /* Rules for containers either this is shown embedded in the viewer or not */
 body.non-embedded-transcription,
 div.transcription-viewer-content.style-UJ-complete {
-	background:#ccc3b4;
+	background:#c9c0b1;
 	/*#c7beb0;*/
 	/*#e7d5bd*/
 }
@@ -48,7 +48,7 @@ div.transcription.style-UJ-complete .TEI {
 	padding-left:1em;
 	padding-right:1em;
 	text-align:left;
-	background:#ccc3b4;
+	background:#c9c0b1;
 	/*#c7beb0;*/
 	/*#e7d5bd*/
 }
@@ -643,7 +643,6 @@ div.transcription.style-UJ-complete .left.right {
 	text-align:left !important;
 	min-width:23.7em !important;
 }
-/*--------------------------------*/
 div.transcription.style-UJ-complete .fw .right {
 	margin-left:15em !important;
 	float:none !important;
@@ -656,62 +655,147 @@ div.transcription.style-UJ-complete .cell.right {
 	float:right;
 	margin:-1.4em 16em;
 }
-div.transcription.style-UJ-complete .altitudesRight .right {
-	float:right;
-	text-align:left;
-	margin:-1.4em 13em;
-	min-width:5em;
-	max-width:0em;
+/*--------------------------------*/
+/* start 0380-0395 */
+div.transcription.style-UJ-complete .rightFloatRain{
+	position: relative;
+}
+div.transcription.style-UJ-complete .rightFloatRain .center,
+div.transcription.style-UJ-complete .rightFloatRain .center.right,
+div.transcription.style-UJ-complete .rightFloatRain .right,
+div.transcription.style-UJ-complete .rightFloatRainMod .center,
+div.transcription.style-UJ-complete .rightFloatRainMod .right{
+	float: unset !important;
+	min-width: unset !important;
+	margin: unset !important;
+	position: absolute;
+}
+div.transcription.style-UJ-complete .rightFloatRain .center{
+	left: 10em;
+}
+div.transcription.style-UJ-complete .rightFloatRain .center.right{
+	left: 13em;
 }
 div.transcription.style-UJ-complete .rightFloatRain .right {
-	float:right;
-	text-align:right;
-	margin:-1.4em 8em;
-	min-width:9em;
-	max-width:4em;
-	padding:0 2em 0 7em;
+	right: 5.5em;
+}
+div.transcription.style-UJ-complete .rightFloatRainMod .center{
+	left: 35em;
 }
 div.transcription.style-UJ-complete .rightFloatRainMod .right {
-	float:right;
-	text-align:right;
-	margin:-1.4em 11em;
-	min-width:11em;
-	max-width:4em;
-	padding:0 2em 0 7em;
+	right: 24em;
 }
-div.transcription.style-UJ-complete .rightFloatTOC .right {
-	float:right;
+/* end 0380-0395 */
+/* start 0402-0416 */
+div.transcription.style-UJ-complete .altitudesRight{
+	position: relative;
+}
+div.transcription.style-UJ-complete .altitudesRight .center{
+	position: absolute;
+	left: 6em;
+	min-width: unset !important;
+	margin: unset !important;
+}
+div.transcription.style-UJ-complete .altitudesRight .center.right{
+	position: absolute;
+	left: unset;
+	right: 12em;
+	min-width: unset !important;
+	margin: unset !important;
+}
+div.transcription.style-UJ-complete .altitudesRight .right {
 	text-align:left;
-	margin:-1.4em 7.4em;
-	min-width:5em;
-	max-width:0em;
+	float: unset;
+	margin: unset;
+	right: 9em;
+	position: absolute;
+}
+/* end 0402-0416*/
+/* start 0422-0424 */
+div.transcription.style-UJ-complete .rightFloatTOCmod1{
+	position: relative;
 }
 div.transcription.style-UJ-complete .rightFloatTOCmod1 .right {
-	float:right;
-	text-align:right;
-	margin:-1.4em 9.2em;
+	position: absolute;
+	right: -3em;
 }
-div.transcription.style-UJ-complete .rightFloatTOCmod2 .right {
-	float:right;
+div.transcription.style-UJ-complete .rightFloatTOCmod1 .left.right {
+	position: absolute;
+	right: 22em;
+	float: unset !important;
+	min-width: unset !important;
+	margin: unset !important;
+}
+/* end 0422-0424 */
+/* start 449 */
+div.transcription.style-UJ-complete .altitudesRight1{
+	position: relative;
+	display: inline-block;
+}
+div.transcription.style-UJ-complete .altitudesRight1 .right {
 	text-align:left;
-	margin:-1.4em 4.4em;
-	min-width:5em;
-	max-width:0em;
+	float: unset;
+	margin: unset;
+	right: unset;
+	left: 13em;
+	position: absolute;
 }
-div.transcription.style-UJ-complete .rightFloatTOCmod3 .right {
-	float:right;
+/* end 449 */
+/* start 0525-0534 */
+div.transcription.style-UJ-complete .singleCalcs{
+	position: relative;
+}
+div.transcription.style-UJ-complete .singleCalcs .left.right {
+	position: absolute;
+	right: 20em;
 	text-align:left;
-	margin:-1.4em 5.6em;
-	min-width:5em;
-	max-width:0em;
+	float: unset !important;
+	margin: unset !important;
+	min-width: unset !important;
 }
-div.transcription.style-UJ-complete .rightFloatTOCmod4 .right {
-	float:right;
+div.transcription.style-UJ-complete .singleCalcs .right {
+	position: absolute;
+	right: 11em;
 	text-align:left;
-	margin:-1.4em 10em;
-	min-width:5em;
-	max-width:0em;
+	float: unset !important;
+	margin: unset !important;
+	min-width: unset !important;
 }
+/* end 0525-0534 */
+/* start 0541 */
+div.transcription.style-UJ-complete .poundCalcs{
+	position: relative;
+}
+div.transcription.style-UJ-complete .poundCalcs .right {
+	position: absolute;
+	right: 1em;
+}
+/* end 0541 */
+/* start 0736 */
+div.transcription.style-UJ-complete .rightFloatTOCa{
+	position: relative;
+}
+div.transcription.style-UJ-complete .rightFloatTOCa .right {
+	position: absolute;
+	right: 16em;
+	float: unset !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	margin: unset !important;
+}
+/* end 0736 */
+/* start 0743-766 */
+div.transcription.style-UJ-complete .rightFloatTOC{
+	position: relative;
+}
+div.transcription.style-UJ-complete .rightFloatTOC .right {
+	position: absolute;
+	right: 7em;
+	float: unset !important;
+	min-width: unset !important;
+	margin: unset !important;
+}
+/* end 0743-766 */
 /*--------------------------------*/
 div.transcription.style-UJ-complete .small {
 	font-size:85%;
