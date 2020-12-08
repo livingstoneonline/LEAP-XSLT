@@ -16,6 +16,7 @@ Table of Contents
 11. Colors 
 12. Lists and Tables 
 13. Misc 
+14. Diary-Specific CSS
 
 */
 /* Rules for containers either this is shown embedded in the viewer or not */
@@ -477,10 +478,8 @@ div.transcription.style-fds .note.marginleft {
 	text-align:center;
 }
 div.transcription.style-fds .note.marginright {
-	margin-right:-2.6em !important;
-	text-indent:0;	
-	float:right;
-	margin-top:-1.4em;
+	position: absolute;
+	left: 22em;
 }
 
 
@@ -773,4 +772,70 @@ div.transcription.style-fds .term-ailment,
 div.transcription.style-fds .term-tribe {
   border-bottom:2px #428bca dotted;
   /* change to 1px */
+}
+
+
+/* 14. Diary-Specific CSS */
+
+.table.liv_000005_0091 .row{
+	position: relative;
+}
+.table.liv_000005_0091 .right{
+	margin-left: unset !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	display: unset !important;
+	position: absolute;
+	left: 9.6em;
+}
+/* 14.div1: 82-83, 110, 137-138 */
+/* 14.div2: 100-101 */
+/* 14.div3: 117 */
+.liv_000014.div1 .item br,
+.liv_000014.div2 .item br,
+.liv_000014.div3 .item br{
+	position: relative;
+}
+.liv_000014.div1 .item .right,
+.liv_000014.div2 .item .right,
+.liv_000014.div3 .item .right{
+	margin-left: unset !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	display: unset !important;
+	position: absolute;
+}
+.liv_000014.div1 .item .right,
+.liv_000014.div2 .item .right,
+.liv_000014.div3 .item .right{
+	margin-top: unset !important;
+	padding-right: unset !important;
+	float: unset !important;
+}
+.liv_000014.div1 .item .right{
+	left: 17em;
+}
+.liv_000014.div2 .item .right{
+	right: 20em;
+}
+.liv_000014.div2 .note.marginright{
+	margin-top: unset !important;
+}
+.liv_000014.div3 .item .right{
+	left: 22em;
+}
+/* 15: 42-44, 46, 48, 50-52, 54-55, 64, 
+70-72, 75-76, 78-80, 85-86, 88, 91, 95, 
+105, 109, 113, 125 */
+.liv_000015.div1{
+	position: relative;
+}
+.liv_000015.div1 .right{
+	margin-top: unset !important;
+	margin-left: unset !important;
+	float: unset !important;
+	position: absolute;
+}
+.liv_000015.div1 .right{
+	right: 15em;
 }
