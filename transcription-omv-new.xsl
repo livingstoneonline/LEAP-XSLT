@@ -37,6 +37,7 @@
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
 				<meta charset="UTF-8"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/normalize.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/common.css"/>
 				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/LEAP-XSLT/style-omv.css"/>
