@@ -69,6 +69,7 @@ div.transcription.style-mt-html .item-details {
 }
 div.transcription.style-mt-html div.text {
 	/*margin-left:3em;*/ /*Prevent line numbers from being hidden.*/ /*Removed*/
+	position: relative;
 }
 div.transcription.style-mt-html div.body {
 	display:block;
@@ -194,15 +195,17 @@ div.transcription.style-mt-html .lb {
 	display:block;
 }
 div.transcription.style-mt-html .linenumber {
-	text-align:right;
-	float:left;
+	/* text-align:right; */
+	/* float:left; */
 	color:#8c8b85;
-	margin-left:-2em !important;/*Changed. AW*/
-	text-indent:37em;
+	/* margin-left:-2em !important;*/ /*Changed. AW*/
+	/* text-indent:37em; */
 	font-size:80%;
-	width:1em;
+	/* width:1em; */
+	right: 5.2em;
+	position: absolute;
 }
-div.transcription.style-mt-html .p .linenumber {
+/* div.transcription.style-mt-html .p .linenumber {
 	text-indent:37em;
 }
 div.transcription.style-mt-html .p.noindent .linenumber {
@@ -214,19 +217,19 @@ div.transcription.style-mt-html .p.noindent .marginleft.marginleft .linenumber {
 }
 div.transcription.style-mt-html .note .linenumber {
 	text-indent:37em !important;	
-}
+}*/
 div.transcription.style-mt-html .add.marginleft .note .linenumber {
 	text-indent:56.2em !important;
 	display:none;
 }
-div.transcription.style-mt-html .U1 .linenumber,
+/*div.transcription.style-mt-html .U1 .linenumber,
 div.transcription.style-mt-html .U2 .linenumber,
 div.transcription.style-mt-html .U3 .linenumber,
 div.transcription.style-mt-html .U4 .linenumber,
 div.transcription.style-mt-html .U5 .linenumber,
 div.transcription.style-mt-html .CL .linenumber {
-	font-style:normal;
-}
+	font-style:normal; 
+}*/
 /*div.transcription.style-mt-html p .linenumber {
 	text-indent:-1%;
 }
