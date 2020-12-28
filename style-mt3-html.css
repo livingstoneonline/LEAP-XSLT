@@ -3,9 +3,8 @@ div.transcription.style-mt3-html {
 	padding-right:4.2em;
 }
 div.transcription.style-mt3-html .div {
-	white-space:nowrap; /* 1) value can be nowrap or normal */
-	/* 2) note: if you select nowrap and it's going over the line number, don't worry. I'll fix that. Just tell me the places to look for issues. normal will break lines */
-	width:32.8em; /* 3) if you select normal, adjust number to determine when text wraps. Smaller number = more narrow page, etc. */
+	white-space:normal;
+	width:41em;
 	padding-right:3.2em;
 }
 div.transcription.style-mt3-html .linenumber {
@@ -17,7 +16,7 @@ div.transcription.style-mt3-html .linenumber {
 	font-size:80%;
 	font-style: normal;
 	/* width:1em; */
-	right: -3.75em;
+	right: 5em;
 	position: absolute;
 }
 /* div.transcription.style-mt3-html .p .linenumber {
@@ -34,7 +33,7 @@ div.transcription.style-mt3-html .note .linenumber {
 	text-indent:46.7em !important;	
 } */
 div.transcription.style-mt3-html .add.marginleft .note .linenumber {
-	text-indent:65.7em !important;
+	/* text-indent:65.7em !important; */
 	display:none;
 }
 
