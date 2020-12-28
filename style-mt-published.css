@@ -607,18 +607,110 @@ div.transcription.style-mt-published .list {
 	display:block;
 	margin-top:12px;
 }
-div.transcription.style-mt-published table {
-	padding-left:20px;
-	font-size:.9em; /*85%;*//*Changed for 1870 Field Diary*/
-	border-style:none; /*Needed so that the text doesn't run up against the right edge in the viewer.*/
-	color:#46381e; /*Added color for 1870 Field Diary*/
-}
-div.transcription.style-mt-published tr,
+/*div.transcription.style-mt-published table {*/
+	/*font-size:.9em;*/ /*85%;*//*Changed for 1870 Field Diary*/
+	/*color:#46381e;*/ /*Added color for 1870 Field Diary*/
+	/* padding-left:20px; */
+	/*border-style:none;*/ /*Needed so that the text doesn't run up against the right edge in the viewer.*/
+/*}*/
+/* div.transcription.style-mt-published tr,
 div.transcription.style-mt-published td {
 	border-style:none;
+} */
+/* div.transcription.style-mt-published td {
+	width: auto;
+} */
+div.transcription.style-mt-published .table.liv_015011_0458,
+div.transcription.style-mt-published .table.liv_015011_0459,
+div.transcription.style-mt-published .table.liv_015011_0497,
+div.transcription.style-mt-published .table.liv_015011_0498{
+	font-size: .8em;
+	color:#46381e;
+	border-collapse: collapse;
 }
-div.transcription.style-mt-published td {
-	width:auto;
+div.transcription.style-mt-published .table.liv_015011_0458{
+	margin-left: 2em;
+}
+div.transcription.style-mt-published .table.liv_015011_0459{
+	margin: 1em 0;
+}
+div.transcription.style-mt-published .table.liv_015011_0458 > tbody > tr > td:nth-child(1){
+	width: 47%;
+	border-right: 1px #46381e solid;
+	padding-right: 1em;
+	margin-right: 0;
+}
+div.transcription.style-mt-published .table.liv_015011_0458 > tbody > tr > td:nth-child(2){
+	padding-left: 1em;
+}
+div.transcription.style-mt-published .table.liv_015011_0459 > tbody > tr > td:nth-child(1){
+	width: 54%;
+	border-right: 1px #46381e solid;
+	padding-right: 0;
+	margin-right: 0;
+}
+div.transcription.style-mt-published table.table.liv_015011_0459.second{
+	margin-left: 3em;
+}
+div.transcription.style-mt-published table.table.liv_015011_0459.second:nth-child(57) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > span{
+	padding-left: .2em;
+}
+div.transcription.style-mt-published table.table.liv_015011_0459.second:nth-child(57) > tbody:nth-child(1) > tr > td:nth-child(2){
+	padding-left: .5em;
+}
+div.transcription.style-mt-published .table.liv_015011_0497{
+	margin-left: 1em;
+}
+div.transcription.style-mt-published .table.liv_015011_0497 > tbody:nth-child(1) > tr > td{
+	width: 25%;
+}
+div.transcription.style-mt-published .table.liv_015011_0497.first,
+div.transcription.style-mt-published .table.liv_015011_0498{
+	margin-top: 1em;
+	border-top: 2px #46381e solid;
+	border-bottom: 2px #46381e solid;
+}
+div.transcription.style-mt-published .table.liv_015011_0498.second{
+	margin-bottom: 1em;
+}
+div.transcription.style-mt-published .table.liv_015011_0498.first{
+	margin-left: -3em;
+}
+div.transcription.style-mt-published .table.liv_015011_0497.first > tbody:nth-child(1) > tr:nth-child(3){
+	border-top: 1px #46381e solid;
+}
+div.transcription.style-mt-published .table.liv_015011_0497.first > tbody:nth-child(1) > tr:nth-child(2) > td:not(:first-child){
+	border-top: 1px #46381e solid;
+}
+div.transcription.style-mt-published .table.liv_015011_0497.first > tbody:nth-child(1) > tr > td:nth-child(2){
+	border-left: 1px #46381e solid;
+	border-right: 4px #46381e double;
+}
+div.transcription.style-mt-published .table.liv_015011_0497.second > tbody:nth-child(1) > tr > td:nth-child(2){
+	padding-left: 3em;
+}
+div.transcription.style-mt-published .table.liv_015011_0498 > tbody:nth-child(1) > tr:nth-child(1){
+	border-bottom: 1px #46381e solid;
+}
+div.transcription.style-mt-published .table.liv_015011_0498 > tbody:nth-child(1) > tr > td:not(:last-child){
+	border-right: 1px #46381e solid;	
+}
+div.transcription.style-mt-published .table.liv_015011_0498.second > tbody:nth-child(1) > tr > td:last-child{
+	width: 16%;
+}
+div.transcription.style-mt-published .table.liv_015011_0498.first > tbody:nth-child(1) > tr > td:not(:last-child){
+	width: 12%;	
+}
+div.transcription.style-mt-published .table.liv_015011_0498.first > tbody:nth-child(1) > tr > td:nth-child(5){
+	width: 20%;
+}
+div.transcription.style-mt-published .table.liv_015011_0498 > tbody:nth-child(1) > tr:nth-child(13) > td:nth-child(2),
+div.transcription.style-mt-published .table.liv_015011_0498 > tbody:nth-child(1) > tr:nth-child(13) > td:nth-child(3),
+div.transcription.style-mt-published .table.liv_015011_0498 > tbody:nth-child(1) > tr:nth-child(13) > td:nth-child(5){
+	border-bottom: 1px #46381e solid;
+}
+div.transcription.style-mt-published .table.liv_015011_0498.second > tbody:nth-child(1) > tr > td:nth-child(1){
+	width: 18%;
 }
 
 
