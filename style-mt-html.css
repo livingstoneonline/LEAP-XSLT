@@ -194,7 +194,8 @@ div.transcription.style-mt-html p span.pb-title {
 div.transcription.style-mt-html .lb {
 	display:block;
 }
-div.transcription.style-mt-html .linenumber {
+div.transcription.style-mt-html .linenumber,
+div.transcription.style-mt-html .seg.left .linenumber {
 	/* text-align:right; */
 	/* float:left; */
 	color:#8c8b85;
@@ -566,8 +567,10 @@ div.transcription.style-mt-html .large {
 	font-size:120%;
 }
 div.transcription.style-mt-html .seg.left {
-	position:relative;
-	right:4em;
+	/* position:relative;
+	right:4em; */
+	margin-left: -6em;
+	display: inline-block;
 }
 div.transcription.style-mt-html .body.left {
 	text-indent:0;
