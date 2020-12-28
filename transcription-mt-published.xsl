@@ -1347,7 +1347,7 @@
 
 	<!-- Beginning of elements that go with table -->
 	<xsl:template match="table">
-		<table>
+		<table class="{concat(name(), ' ', @n)}">
 			<xsl:apply-templates/>
 			<!-- select="@*|node()" -->
 		</table>
