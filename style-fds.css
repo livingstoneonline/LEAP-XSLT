@@ -51,6 +51,7 @@ div.transcription.style-fds .TEI {
 	/*#d3c2a8;*/
 	/*#e7d5bd*/
 	text-align:left;
+	position: relative;
 }
 /*@media all and (max-width:768px)  {
 .TEI {	
