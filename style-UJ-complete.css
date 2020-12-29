@@ -717,7 +717,9 @@ div.transcription.style-UJ-complete .rightFloatTOCmod1{
 }
 div.transcription.style-UJ-complete .rightFloatTOCmod1 .right {
 	position: absolute;
-	right: -3em;
+	right: 10.5em;
+	float: unset;
+	margin: unset;
 }
 div.transcription.style-UJ-complete .rightFloatTOCmod1 .left.right {
 	position: absolute;
