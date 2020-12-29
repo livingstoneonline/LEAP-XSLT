@@ -569,6 +569,7 @@ div.transcription.style-mt-html .large {
 div.transcription.style-mt-html .seg.left {
 	/* position:relative;
 	right:4em; */
+	text-indent: 0;
 	margin-left: -6em;
 	display: inline-block;
 }
