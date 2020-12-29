@@ -685,6 +685,8 @@ div.transcription.style-mt-published .table.liv_015011_0498.second{
 }
 div.transcription.style-mt-published .table.liv_015011_0498.first{
 	margin-left: -3em;
+	width: unset;
+	max-width: unset;
 }
 div.transcription.style-mt-published .table.liv_015011_0497.first > tbody:nth-child(1) > tr:nth-child(3){
 	border-top: 1px #46381e solid;
