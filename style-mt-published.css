@@ -667,9 +667,9 @@ div.transcription.style-mt-published table.table.liv_015011_0459.second:nth-chil
 div.transcription.style-mt-published table.table.liv_015011_0459.second:nth-child(57) > tbody:nth-child(1) > tr > td:nth-child(2){
 	padding-left: .5em;
 }
-div.transcription.style-mt-published .table.liv_015011_0497{
+/* div.transcription.style-mt-published .table.liv_015011_0497{
 	margin-left: 1em;
-}
+} */
 div.transcription.style-mt-published .table.liv_015011_0497 > tbody:nth-child(1) > tr > td{
 	width: 25%;
 }
