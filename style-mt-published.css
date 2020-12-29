@@ -626,7 +626,16 @@ div.transcription.style-mt-published .table.liv_015011_0497,
 div.transcription.style-mt-published .table.liv_015011_0498{
 	font-size: .8em;
 	color:#46381e;
+	text-align: left;
+	line-height: 100%;
 	border-collapse: collapse;
+}
+div.transcription.style-mt-published .table.liv_015011_0458 td,
+div.transcription.style-mt-published .table.liv_015011_0459 td,
+div.transcription.style-mt-published .table.liv_015011_0497 td,
+div.transcription.style-mt-published .table.liv_015011_0498 td{
+	padding: 1px;
+	border-top: unset;	
 }
 div.transcription.style-mt-published .table.liv_015011_0458{
 	margin-left: 2em;
