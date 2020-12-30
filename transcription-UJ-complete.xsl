@@ -1111,7 +1111,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="pb[1][parent::back]" priority="10">
+	<!--<xsl:template match="pb[1][parent::back]" priority="10">
 		<span class="pb-title">
 			<xsl:value-of select="@n"/>
 		</span>
@@ -1133,7 +1133,7 @@
 		<span class="pb-title del-pb">
 			<xsl:value-of select="@n"/>
 		</span>
-	</xsl:template>
+	</xsl:template>-->
 
 	<xsl:variable name="people" select="doc('people.xml')"/>
 	<xsl:template match="persName">
