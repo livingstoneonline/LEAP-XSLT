@@ -187,7 +187,7 @@ div.transcription.style-UJ-complete .pb-title:hover {
 	color:#AAA;
 	cursor:pointer;
 }
-div.transcription.style-UJ-complete .pb-title:first-of-type {
+div.transcription.style-UJ-complete .front > div:nth-child(1) > span:nth-child(2) {
 	margin-top:0;
 }
 div.transcription.style-UJ-complete p span.pb-title {
