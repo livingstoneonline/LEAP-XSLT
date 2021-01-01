@@ -650,9 +650,9 @@ div.transcription.style-UJ-complete .cell.right {
 }
 /*--------------------------------*/
 /* start 0380-0395 */
-div.transcription.style-UJ-complete .rightFloatRain{
+/* div.transcription.style-UJ-complete .rightFloatRain{
 	position: relative;
-}
+} */
 div.transcription.style-UJ-complete .rightFloatRain .center,
 div.transcription.style-UJ-complete .rightFloatRain .center.right,
 div.transcription.style-UJ-complete .rightFloatRain .right,
@@ -666,17 +666,13 @@ div.transcription.style-UJ-complete .rightFloatRainMod .right{
 div.transcription.style-UJ-complete .rightFloatRain .center{
 	left: 10em;
 }
-div.transcription.style-UJ-complete .rightFloatRain .center.right{
+div.transcription.style-UJ-complete .rightFloatRain .center.right,
+div.transcription.style-UJ-complete .rightFloatRainMod .center{
 	left: 13em;
 }
-div.transcription.style-UJ-complete .rightFloatRain .right {
-	right: 5.5em;
-}
-div.transcription.style-UJ-complete .rightFloatRainMod .center{
-	left: 35em;
-}
+div.transcription.style-UJ-complete .rightFloatRain .right,
 div.transcription.style-UJ-complete .rightFloatRainMod .right {
-	right: 24em;
+	right: 5.5em;
 }
 /* end 0380-0395 */
 /* start 0402-0416 */
