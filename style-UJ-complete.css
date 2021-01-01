@@ -70,6 +70,7 @@ div.transcription.style-UJ-complete .item-details {
 div.transcription.style-UJ-complete div.text {
 	min-width:34em;
 	max-width:34em;
+	position: relative;
 }
 div.transcription.style-UJ-complete div.body {
 	display:block;
