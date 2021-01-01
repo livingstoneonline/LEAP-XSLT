@@ -61,7 +61,7 @@ div.transcription.style-fds .item-details {
 	min-width:29em;
 	white-space:normal;
 }
-div.transcription.style-fds .text {
+div.transcription.style-fds div.text {
 	position: relative;
 }
 /* div.transcription.style-fds .div {
