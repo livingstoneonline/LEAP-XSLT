@@ -184,13 +184,13 @@
 	</xsl:template>
 
 	<xsl:template match="div/div">
-		<br/><br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
 
 	<xsl:template match="div[preceding-sibling::div][child::pb[1]]">
-		<br/><div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
+		<div class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@n, '-', ''))}">
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -1095,7 +1095,7 @@
 		</span>
 	</xsl:template>
 
-	<xsl:template match="pb[1][parent::back]" priority="10">
+	<!--<xsl:template match="pb[1][parent::back]" priority="10">
 		<span class="pb-title">
 			<xsl:value-of select="@n"/>
 		</span>
@@ -1117,7 +1117,7 @@
 		<span class="pb-title del-pb">
 			<xsl:value-of select="@n"/>
 		</span>
-	</xsl:template>
+	</xsl:template>-->
 
 	<xsl:variable name="people" select="doc('people.xml')"/>
 	<xsl:template match="persName">
