@@ -64,9 +64,9 @@ div.transcription.style-fds .item-details {
 div.transcription.style-fds .text {
 	position: relative;
 }
-div.transcription.style-fds .div {
+/* div.transcription.style-fds .div {
 	margin-top:-1.2em;
-}
+} */
 div.transcription.style-fds div.body {
 	display:block;
 	padding-bottom:2.4em;
@@ -162,8 +162,8 @@ div.transcription.style-fds .pb-title {
 	color:#428bca;
 	/*text-decoration:underline;*/
 	font-size:90%;
-	margin-top:2em;
-	margin-bottom:-0.9em;
+	margin-top:3em;
+	font-style:normal;
 }
 div.transcription.style-fds .notop {
   /*needed for some .pb-titles*/
