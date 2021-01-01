@@ -488,7 +488,7 @@ div.transcription.style-fds .note.marginleft {
 4.83, 4.94
 6.103
 7.12, 7.117, 7.129
-10.133
+10.134
 14.31-32, 14.100
 16.158, 16.169
 17.17, 17.25, 17.30
@@ -793,6 +793,7 @@ div.transcription.style-fds .term-tribe {
 
 /* 14. Diary-Specific CSS */
 
+/* also see .note.marginright, above */
 /* .table.liv_000005_0091 .row{
 	position: relative;
 } */
@@ -829,16 +830,16 @@ div.transcription.style-fds .term-tribe {
 	float: unset !important;
 }
 .liv_000014.div1 .item .right{
-	left: 8em;
+	left: 7em;
 }
 .liv_000014.div2 .item .right{
-	right: 20em;
+	right: 19em;
 }
 .liv_000014.div2 .note.marginright{
 	margin-top: unset !important;
 }
 .liv_000014.div3 .item .right{
-	left: 13em;
+	left: 12em;
 }
 /* 15: 42-44, 46, 48, 50-52, 54-55, 64, 
 70-72, 75-76, 78-80, 85-86, 88, 91, 95, 
