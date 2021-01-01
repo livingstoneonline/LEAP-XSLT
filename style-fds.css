@@ -51,7 +51,6 @@ div.transcription.style-fds .TEI {
 	/*#d3c2a8;*/
 	/*#e7d5bd*/
 	text-align:left;
-	position: relative;
 }
 /*@media all and (max-width:768px)  {
 .TEI {	
@@ -61,6 +60,9 @@ div.transcription.style-fds .item-details {
 	max-width:29em;
 	min-width:29em;
 	white-space:normal;
+}
+div.transcription.style-fds .text {
+	position: relative;
 }
 div.transcription.style-fds .div {
 	margin-top:-1.2em;
