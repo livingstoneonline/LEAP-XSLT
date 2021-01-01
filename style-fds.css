@@ -778,25 +778,25 @@ div.transcription.style-fds .term-tribe {
 
 /* 14. Diary-Specific CSS */
 
-.table.liv_000005_0091 .row{
+/* .table.liv_000005_0091 .row{
 	position: relative;
-}
+} */
 .table.liv_000005_0091 .right{
 	margin-left: unset !important;
 	max-width: unset !important;
 	min-width: unset !important;
 	display: unset !important;
 	position: absolute;
-	left: 9.6em;
+	left: 10.6em;
 }
 /* 14.div1: 82-83, 110, 137-138 */
 /* 14.div2: 100-101 */
 /* 14.div3: 117 */
-.liv_000014.div1 .item br,
+/* .liv_000014.div1 .item br,
 .liv_000014.div2 .item br,
 .liv_000014.div3 .item br{
 	position: relative;
-}
+} */
 .liv_000014.div1 .item .right,
 .liv_000014.div2 .item .right,
 .liv_000014.div3 .item .right{
@@ -828,9 +828,9 @@ div.transcription.style-fds .term-tribe {
 /* 15: 42-44, 46, 48, 50-52, 54-55, 64, 
 70-72, 75-76, 78-80, 85-86, 88, 91, 95, 
 105, 109, 113, 125 */
-.liv_000015.div1{
+/* .liv_000015.div1{
 	position: relative;
-}
+} */
 .liv_000015.div1 .right{
 	margin-top: unset !important;
 	margin-left: unset !important;
@@ -838,5 +838,5 @@ div.transcription.style-fds .term-tribe {
 	position: absolute;
 }
 .liv_000015.div1 .right{
-	right: 15em;
+	right: 16em;
 }
