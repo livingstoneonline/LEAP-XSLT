@@ -176,7 +176,7 @@ div.transcription.style-fds .pb-title:hover {
 	cursor:pointer;
 }
 div.transcription.style-fds .front > span:nth-child(2),
-div.transcription.style-fds body.div:nth-child(1) > span:nth-child(2) {
+div.transcription.style-fds .body > span:nth-child(2) {
 	margin-top:0;
 }
 div.transcription.style-fds p span.pb-title {
