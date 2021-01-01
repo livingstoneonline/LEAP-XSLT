@@ -676,9 +676,9 @@ div.transcription.style-UJ-complete .rightFloatRainMod .right {
 }
 /* end 0380-0395 */
 /* start 0402-0416 */
-div.transcription.style-UJ-complete .altitudesRight{
+/* div.transcription.style-UJ-complete .altitudesRight{
 	position: relative;
-}
+} */
 div.transcription.style-UJ-complete .altitudesRight .center{
 	position: absolute;
 	left: 6em;
@@ -701,9 +701,9 @@ div.transcription.style-UJ-complete .altitudesRight .right {
 }
 /* end 0402-0416*/
 /* start 0422-0424 */
-div.transcription.style-UJ-complete .rightFloatTOCmod1{
+/* div.transcription.style-UJ-complete .rightFloatTOCmod1{
 	position: relative;
-}
+} */
 div.transcription.style-UJ-complete .rightFloatTOCmod1 .right {
 	position: absolute;
 	right: 10.5em;
@@ -720,7 +720,7 @@ div.transcription.style-UJ-complete .rightFloatTOCmod1 .left.right {
 /* end 0422-0424 */
 /* start 449 */
 div.transcription.style-UJ-complete .altitudesRight1{
-	position: relative;
+	/* position: relative; */
 	display: inline-block;
 }
 div.transcription.style-UJ-complete .altitudesRight1 .right {
@@ -733,9 +733,9 @@ div.transcription.style-UJ-complete .altitudesRight1 .right {
 }
 /* end 449 */
 /* start 0525-0534 */
-div.transcription.style-UJ-complete .singleCalcs{
+/* div.transcription.style-UJ-complete .singleCalcs{
 	position: relative;
-}
+} */
 div.transcription.style-UJ-complete .singleCalcs .left.right {
 	position: absolute;
 	right: 20em;
@@ -754,18 +754,18 @@ div.transcription.style-UJ-complete .singleCalcs .right {
 }
 /* end 0525-0534 */
 /* start 0541 */
-div.transcription.style-UJ-complete .poundCalcs{
+/* div.transcription.style-UJ-complete .poundCalcs{
 	position: relative;
-}
+} */
 div.transcription.style-UJ-complete .poundCalcs .right {
 	position: absolute;
 	right: 1em;
 }
 /* end 0541 */
 /* start 0736 */
-div.transcription.style-UJ-complete .rightFloatTOCa{
+/* div.transcription.style-UJ-complete .rightFloatTOCa{
 	position: relative;
-}
+} */
 div.transcription.style-UJ-complete .rightFloatTOCa .right {
 	position: absolute;
 	right: 16em;
@@ -776,9 +776,9 @@ div.transcription.style-UJ-complete .rightFloatTOCa .right {
 }
 /* end 0736 */
 /* start 0743-766 */
-div.transcription.style-UJ-complete .rightFloatTOC{
+/* div.transcription.style-UJ-complete .rightFloatTOC{
 	position: relative;
-}
+} */
 div.transcription.style-UJ-complete .rightFloatTOC .right {
 	position: absolute;
 	right: 7em;
