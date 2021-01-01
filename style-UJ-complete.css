@@ -167,6 +167,7 @@ div.transcription.style-UJ-complete .pb-title {
 	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:3em;
+	margin-bottom:-0.9em;
 	font-style:normal;
 }
 div.transcription.style-UJ-complete .notop {
