@@ -67,7 +67,7 @@ div.transcription.style-mt-html .item-details {
 	padding-left:7em;
 	/*padding-right:12em;*/
 }
-div.transcription.style-mt-html div.text {
+div.transcription.style-mt-html .text {
 	/*margin-left:3em;*/ /*Prevent line numbers from being hidden.*/ /*Removed*/
 	position: relative;
 }
