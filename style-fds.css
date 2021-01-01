@@ -163,6 +163,7 @@ div.transcription.style-fds .pb-title {
 	/*text-decoration:underline;*/
 	font-size:90%;
 	margin-top:3em;
+	margin-bottom:-0.9em;
 	font-style:normal;
 }
 div.transcription.style-fds .notop {
@@ -174,7 +175,8 @@ div.transcription.style-fds .pb-title:hover {
 	color:#AAA;
 	cursor:pointer;
 }
-div.transcription.style-fds .pb-title:first-of-type {
+div.transcription.style-fds .front > span:nth-child(2),
+div.transcription.style-fds body.div:nth-child(1) > span:nth-child(2) {
 	margin-top:0;
 }
 div.transcription.style-fds p span.pb-title {
