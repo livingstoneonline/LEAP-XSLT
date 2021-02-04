@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-	xmlns:tei="https://tei-c.org/ns/1.0/" xmlns:jc="http://james.blushingbunny.net/ns.html"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="https://www.oxygenxml.com/ns/doc/xsl"
+	xmlns:tei="https://tei-c.org/ns/1.0/" xmlns:jc="https://james.blushingbunny.net/ns.html"
 	xpath-default-namespace="https://tei-c.org/ns/1.0/" exclude-result-prefixes="xs xd tei jc"
 	version="2.0">
 <!-- /*xmlns="http://www.w3.org/TR/REC-html40"*/ -->
@@ -53,7 +53,7 @@
 		<html lang="en" id="html">
 			<xsl:comment>This HTML has been generated from an XML original. Do not manually modify this as a source.</xsl:comment>
 			<head>
-				<title><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><!--<xsl:value-of select="$additional-authors-1"/>, --><xsl:value-of select="//teiHeader//titleStmt/title[1]"/> | One More Voice</title>
+				<title><!--<xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/>--><!--<xsl:value-of select="$additional-authors-1"/>, --><xsl:value-of select="//teiHeader//titleStmt/title[1]"/> | One More Voice</title>
 				<xsl:choose>
 					<xsl:when test="//sourceDesc/msDesc[@type='object-archive']|//sourceDesc/biblStruct[@type='object-book-journal']">
 						<meta name="description" content="{$object-creator}" />
@@ -69,7 +69,7 @@
 				<link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/css/criticalTEI.css"/>
 				<!-- Link to full CSS file at end; critical CSS linked above.-->
 				<!--<script>var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/criticalTEI.css?="+randomString;document.head.appendChild(css);</script>-->
-				<link rel="apple-touch-icon" sizes="180x180" href="https://livingstoneonline.github.io/onemorevoice/img/icons/apple-touch-icon.png" />
+				<link rel="apple-touch-icon" sizes="180x180" href="https://livingstoneonline.github.io/onemorevoice/img/icons/apple-touch-icon-180x180.png" />
 				<link rel="icon" type="image/png" sizes="32x32" href="https://livingstoneonline.github.io/onemorevoice/img/icons/favicon-32x32.png" />
 				<link rel="icon" type="image/png" sizes="16x16" href="https://livingstoneonline.github.io/onemorevoice/img/icons/favicon-16x16.png" />
 				<link rel="manifest" href="https://livingstoneonline.github.io/onemorevoice/site.webmanifest" />
@@ -831,8 +831,7 @@
 	</xsl:template>
 
 	<xsl:template match="add">
-			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''))}">
-			<xsl:apply-templates/></span>
+			<span class="{concat(name(), ' ', translate(@rend, '-', ''), ' ', translate(@place, '-', ''), ' ', translate(@n, '-', ''))}"><xsl:apply-templates/></span>
 	</xsl:template>
 
 	<xsl:template match="add[@place='over-text']">
