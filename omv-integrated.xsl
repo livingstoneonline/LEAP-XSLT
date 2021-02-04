@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-	xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:jc="http://james.blushingbunny.net/ns.html"
-	xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs xd tei jc"
+	xmlns:tei="https://tei-c.org/ns/1.0/" xmlns:jc="http://james.blushingbunny.net/ns.html"
+	xpath-default-namespace="https://tei-c.org/ns/1.0/" exclude-result-prefixes="xs xd tei jc"
 	version="2.0">
 <!-- /*xmlns="http://www.w3.org/TR/REC-html40"*/ -->
 <!-- Useful for DTDs https://www.w3.org/TR/xhtml1/dtds.html#h-A2 -->
@@ -56,36 +56,36 @@
 				<title><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><!--<xsl:value-of select="$additional-authors-1"/>, --><xsl:value-of select="//teiHeader//titleStmt/title[1]"/> | One More Voice</title>
 				<xsl:choose>
 					<xsl:when test="//sourceDesc/msDesc[@type='object-archive']|//sourceDesc/biblStruct[@type='object-book-journal']">
-					    <meta name="description" content="{$object-creator}" />
+						<meta name="description" content="{$object-creator}" />
 					</xsl:when>
 					<xsl:otherwise>
-					    <meta name="description" content="{$text-creator}" />
+						<meta name="description" content="{$text-creator}" />
 					</xsl:otherwise>
 				</xsl:choose>
 				<meta charset="UTF-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 				<meta name="robots" content="index, follow"/>
-		        <meta name="theme-color" content="#204A79"/>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/criticalTEI.css"/>
+				<meta name="theme-color" content="#204A79"/>
+				<link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/css/criticalTEI.css"/>
 				<!-- Link to full CSS file at end; critical CSS linked above.-->
-		        <!--<script>var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="http://livingstoneonline.github.io/onemorevoice/css/criticalTEI.css?="+randomString;document.head.appendChild(css);</script>-->
-			    <link rel="apple-touch-icon" sizes="180x180" href="http://livingstoneonline.github.io/onemorevoice/img/icons/apple-touch-icon.png" />
-			    <link rel="icon" type="image/png" sizes="32x32" href="http://livingstoneonline.github.io/onemorevoice/img/icons/favicon-32x32.png" />
-			    <link rel="icon" type="image/png" sizes="16x16" href="http://livingstoneonline.github.io/onemorevoice/img/icons/favicon-16x16.png" />
-			    <link rel="manifest" href="http://livingstoneonline.github.io/onemorevoice/site.webmanifest" />
-				<link rel="preload" as="script" href="http://livingstoneonline.github.io/onemorevoice/js/jquery-3.5.1.min.js"/>
-				<link rel="preload" as="font" type="font/woff2" crossorigin='' href="http://livingstoneonline.github.io/onemorevoice/fonts/sourcesanspro-regular-webfont.woff2"/>
-				<link rel="preload" as="font" type="font/woff" crossorigin='' href="http://livingstoneonline.github.io/onemorevoice/fonts/sourcesanspro-regular-webfont.woff"/>
-				<link rel="preload" as="style" href="http://livingstoneonline.github.io/onemorevoice/css/font-awesome.min.css" onload="this.rel='stylesheet'"/>
-				<link rel="preload" as="font" type="font/woff2" crossorigin='' href="http://livingstoneonline.github.io/onemorevoice/fonts/fontawesome-webfont.woff2?v=4.7.0"/>
-				<link rel="preload" as="font" type="font/woff" crossorigin='' href="http://livingstoneonline.github.io/onemorevoice/fonts/fontawesome-webfont.woff?v=4.7.0"/>
-			    <!-- Global site tag (gtag.js) - Google Analytics -->
+				<!--<script>var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/criticalTEI.css?="+randomString;document.head.appendChild(css);</script>-->
+				<link rel="apple-touch-icon" sizes="180x180" href="https://livingstoneonline.github.io/onemorevoice/img/icons/apple-touch-icon.png" />
+				<link rel="icon" type="image/png" sizes="32x32" href="https://livingstoneonline.github.io/onemorevoice/img/icons/favicon-32x32.png" />
+				<link rel="icon" type="image/png" sizes="16x16" href="https://livingstoneonline.github.io/onemorevoice/img/icons/favicon-16x16.png" />
+				<link rel="manifest" href="https://livingstoneonline.github.io/onemorevoice/site.webmanifest" />
+				<link rel="preload" as="script" href="https://livingstoneonline.github.io/onemorevoice/js/jquery-3.5.1.min.js"/>
+				<link rel="preload" as="font" type="font/woff2" crossorigin='' href="https://livingstoneonline.github.io/onemorevoice/fonts/sourcesanspro-regular-webfont.woff2"/>
+				<link rel="preload" as="font" type="font/woff" crossorigin='' href="https://livingstoneonline.github.io/onemorevoice/fonts/sourcesanspro-regular-webfont.woff"/>
+				<link rel="preload" as="style" href="https://livingstoneonline.github.io/onemorevoice/css/font-awesome.min.css" onload="this.rel='stylesheet'"/>
+				<link rel="preload" as="font" type="font/woff2" crossorigin='' href="https://livingstoneonline.github.io/onemorevoice/fonts/fontawesome-webfont.woff2?v=4.7.0"/>
+				<link rel="preload" as="font" type="font/woff" crossorigin='' href="https://livingstoneonline.github.io/onemorevoice/fonts/fontawesome-webfont.woff?v=4.7.0"/>
+				<!-- Global site tag (gtag.js) - Google Analytics -->
 				<script async='' src="https://www.googletagmanager.com/gtag/js?id=UA-31768072-5"></script>
 				<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','UA-31768072-5');</script>
 			</head>
 
 			<!--<xsl:text disable-output-escaping="yes">
-        		<![CDATA[<?php flush(); ?>]]>
+				<![CDATA[<?php flush(); ?>]]>
 			</xsl:text>-->
 
 			<body class="transcription "><!-- style="background:#{$body-color};" -->
@@ -93,41 +93,41 @@
 	
 					<!-- Informed throughout by https://w3c.github.io/aria-practices/examples/ -->
 
-        			<div class="navspace" data-include="nav2"></div>
-										       
+					<div class="navspace" data-include="nav2"></div>
+
 					<header class="title" id="title-div">
-						    <img class="image-border content-holder-1" src="http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1399px.jpg" srcset="http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1399px.jpg 1399w, http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1276px.jpg 1276w, http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1216px.jpg 1216w, http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-699px.jpg 699w, http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-638px.jpg 638w, http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-608px.jpg 608w, http://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-400px.jpg 400w" sizes="(min-width: 1000px) 638px, (min-width: 780px) 699px, calc(100vw - 32px)" alt="Coded text from an XML file produced by One More Voice according to the TEI P5 guidelines." title="A segment of coded text from One More Voice." />
-		        		<h1 class="header-title">One More Voice</h1>
-		        		<hr/>
+							<img class="image-border content-holder-1" src="https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1399px.jpg" srcset="https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1399px.jpg 1399w, https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1276px.jpg 1276w, https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-1216px.jpg 1216w, https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-699px.jpg 699w, https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-638px.jpg 638w, https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-608px.jpg 608w, https://livingstoneonline.github.io/onemorevoice/img/main-pages/liv_023005_0001_deriv-400px.jpg 400w" sizes="(min-width: 1000px) 638px, (min-width: 780px) 699px, calc(100vw - 32px)" alt="Coded text from an XML file produced by One More Voice according to the TEI P5 guidelines." title="A segment of coded text from One More Voice." />
+						<h1 class="header-title">One More Voice</h1>
+						<hr/>
 						<div><h2><em><xsl:value-of select="$subtitle"/></em></h2></div>
 						<!--<xsl:choose>
 							<xsl:when test="//sourceDesc/msDesc[@type='object-archive']|//sourceDesc/biblStruct[@type='object-book-journal']">
-								<div><span class="back-button"><a class="art-return" href="http://livingstoneonline.github.io/onemorevoice/objects.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2><em><xsl:value-of select="$subtitle"/></em></h2></div>
+								<div><span class="back-button"><a class="art-return" href="https://livingstoneonline.github.io/onemorevoice/objects.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2><em><xsl:value-of select="$subtitle"/></em></h2></div>
 							</xsl:when>
 							<xsl:otherwise>
-								<div><span class="back-button"><a class="trans-return" href="http://livingstoneonline.github.io/onemorevoice/texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2><em><xsl:value-of select="$subtitle"/></em></h2></div>
+								<div><span class="back-button"><a class="trans-return" href="https://livingstoneonline.github.io/onemorevoice/texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></span><h2><em><xsl:value-of select="$subtitle"/></em></h2></div>
 							</xsl:otherwise>
 						</xsl:choose>-->
-		    		</header>
+					</header>
 					<xsl:apply-templates select="TEI"/>
 				</div>
 				<!-- Adds CSS file and adds random string to end of CSS file. Adapted from https://stackoverflow.com/a/22634359 and https://stackoverflow.com/a/39179486 -->
-		        <script>var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="http://livingstoneonline.github.io/onemorevoice/css/style.css?="+randomString;document.head.appendChild(css);var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="http://livingstoneonline.github.io/onemorevoice/css/styleTEI.css?="+randomString;document.head.appendChild(css);<xsl:if test="/TEI/text[contains(@n,'styleTEI-add')]">var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="http://livingstoneonline.github.io/onemorevoice/css/styleTEI-add.css?="+randomString;document.head.appendChild(css);</xsl:if> ;</script>
-		        <!-- <link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/style.css"/> --> 
-				<script src="http://livingstoneonline.github.io/onemorevoice/js/jquery-3.5.1.min.js"></script> 
+				<script>var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/style.css?="+randomString;document.head.appendChild(css);var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI.css?="+randomString;document.head.appendChild(css);<xsl:if test="/TEI/text[contains(@n,'styleTEI-add')]">var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI-add.css?="+randomString;document.head.appendChild(css);</xsl:if> ;</script>
+				<!-- <link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/css/style.css"/> --> 
+				<script src="https://livingstoneonline.github.io/onemorevoice/js/jquery-3.5.1.min.js"></script> 
 				<!-- Adapted from https://stackoverflow.com/a/31837264 -->
-				<script>$(function(){var includes=$('[data-include]');jQuery.each(includes,function(){var file='http://livingstoneonline.github.io/onemorevoice/common/'+$(this).data('include')+'.html';$(this).load(file)})});</script>
-				<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/font-awesome.min.css"/>
-				<!-- <link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/styleTEI.css" />-->
-		        <!-- <link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/css/styleTEI.css"/> --> 
-				<!-- <script src="http://livingstoneonline.github.io/onemorevoice/js/scripts.js"></script> -->
+				<script>$(function(){var includes=$('[data-include]');jQuery.each(includes,function(){var file='https://livingstoneonline.github.io/onemorevoice/common/'+$(this).data('include')+'.html';$(this).load(file)})});</script>
+				<link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/css/font-awesome.min.css"/>
+				<!-- <link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI.css" />-->
+				<!-- <link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI.css"/> --> 
+				<!-- <script src="https://livingstoneonline.github.io/onemorevoice/js/scripts.js"></script> -->
 				<xsl:if test="//sourceDesc/msDesc[@type='manuscript']">
-					<!--<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/js/manuscript-transform.js" />-->
-					<script src="http://livingstoneonline.github.io/onemorevoice/js/manuscript-transform.js"></script>
+					<!--<link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/js/manuscript-transform.js" />-->
+					<script src="https://livingstoneonline.github.io/onemorevoice/js/manuscript-transform.js"></script>
 				</xsl:if>
 				<xsl:if test="//sourceDesc/biblStruct [@type='journal']">
-					<!--<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/js/journal-transform.js" />-->
-					<script src="http://livingstoneonline.github.io/onemorevoice/js/journal-transform.js"></script>
+					<!--<link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/js/journal-transform.js" />-->
+					<script src="https://livingstoneonline.github.io/onemorevoice/js/journal-transform.js"></script>
 				</xsl:if>
 				<xsl:if test="//figure[@n='object' and @change='rotate-180']">
 					<!-- Image Rotation -->
@@ -137,8 +137,8 @@
 				<script>function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:'en'},'google_translate_element')}</script>
 				<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 				<!-- Loads JS file only after rest of page has loaded and adds random string to end of JS file. Adapted from https://varvy.com/pagespeed/defer-loading-javascript.html and https://stackoverflow.com/a/39179486 -->
-				<script>function downloadJSAtOnload(){var randomString=Math.floor(Math.random()*1000000);var element=document.createElement("script");element.src="http://livingstoneonline.github.io/onemorevoice/js/scripts.js?="+randomString;document.body.appendChild(element)}if(window.addEventListener){window.addEventListener("load",downloadJSAtOnload,false)}else if(window.attachEvent){window.attachEvent("onload",downloadJSAtOnload)}else{window.onload=downloadJSAtOnload}</script>
-				<!--<link rel="stylesheet" type="text/css" href="http://livingstoneonline.github.io/onemorevoice/js/scripts.js" />-->
+				<script>function downloadJSAtOnload(){var randomString=Math.floor(Math.random()*1000000);var element=document.createElement("script");element.src="https://livingstoneonline.github.io/onemorevoice/js/scripts.js?="+randomString;document.body.appendChild(element)}if(window.addEventListener){window.addEventListener("load",downloadJSAtOnload,false)}else if(window.attachEvent){window.attachEvent("onload",downloadJSAtOnload)}else{window.onload=downloadJSAtOnload}</script>
+				<!--<link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/js/scripts.js" />-->
 			</body>
 		</html>
 	</xsl:template>
@@ -407,13 +407,13 @@
 				<xsl:when test="//encodingDesc/projectDesc/p">
 					<xsl:copy-of select="$custom-note"/>
 				</xsl:when>
-				<xsl:when test="//sourceDesc/biblStruct[@type='journal']">This digital edition duplicates as much as possible the textual and material characteristics of the original document. The editors produced the edition by using the following workflow: 1) Convert PDF of original document via OCR to Word; 2) Convert Word to XML;  3) Proofread XML against PDF of original document; and 4) Edit and encode XML using the <em>One More Voice</em><xsl:text> </xsl:text><a href="http://livingstoneonline.github.io/onemorevoice/coding_guidelines.html">coding guidelines</a>. However, users are encouraged to consult the original document if possible.</xsl:when>
-				<xsl:otherwise>This digital edition duplicates as much as possible the textual, structural, and material characteristics of the original document. The editors produced the edition by transcribing and encoding the text directly from images of the original document using the <em>One More Voice</em><xsl:text> </xsl:text><a href="http://livingstoneonline.github.io/onemorevoice/coding_guidelines.html">coding guidelines</a>. Users, however, are encouraged to consult the original document if possible.</xsl:otherwise>
+				<xsl:when test="//sourceDesc/biblStruct[@type='journal']">This digital edition duplicates as much as possible the textual and material characteristics of the original document. The editors produced the edition by using the following workflow: 1) Convert PDF of original document via OCR to Word; 2) Convert Word to XML; 3) Proofread XML against PDF of original document; and 4) Edit and encode XML using the <em>One More Voice</em><xsl:text> </xsl:text><a href="https://livingstoneonline.github.io/onemorevoice/coding_guidelines.html">coding guidelines</a>. However, users are encouraged to consult the original document if possible.</xsl:when>
+				<xsl:otherwise>This digital edition duplicates as much as possible the textual, structural, and material characteristics of the original document. The editors produced the edition by transcribing and encoding the text directly from images of the original document using the <em>One More Voice</em><xsl:text> </xsl:text><a href="https://livingstoneonline.github.io/onemorevoice/coding_guidelines.html">coding guidelines</a>. Users, however, are encouraged to consult the original document if possible.</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="//sourceDesc/msDesc[@type='manuscript']">
-		    	<aside class="credits" id="main" aria-labelledby="opening-credits">
+				<aside class="credits" id="main" aria-labelledby="opening-credits">
 					<div class="translate"><div id="google_translate_element" title="Google Translate provides only a rough, machine-generated rendering of the text. Users should proceed with caution and are urged to consult the original site page alongside any generated translation."></div></div>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
 					<p><strong>Author(s) &amp; contributor(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
@@ -424,7 +424,7 @@
 					<xsl:copy-of select="$repository"/>
 					<xsl:copy-of select="$collection"/>
 					<xsl:copy-of select="$shelfmark"/>
-					<p><strong>Digital edition &amp; date:</strong><xsl:text> </xsl:text><a href="http://livingstoneonline.github.io/onemorevoice/index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
+					<p><strong>Digital edition &amp; date:</strong><xsl:text> </xsl:text><a href="https://livingstoneonline.github.io/onemorevoice/index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="https://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
 					<p><strong>Critical editing &amp; encoding</strong><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
 					<p><strong>Note:</strong> This historical document, published in unabridged form, reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
 					<xsl:copy-of select="$warning-violence"/>
@@ -433,13 +433,13 @@
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
-		    	<aside class="credits" id="main"  aria-labelledby="opening-credits">
+				<aside class="credits" id="main" aria-labelledby="opening-credits">
 					<div class="translate"><div id="google_translate_element" title="Google Translate provides only a rough, machine-generated rendering of the text. Users should proceed with caution and are urged to consult the original site page alongside any generated translation."></div></div>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
 					<p><strong>Author(s) &amp; contributor(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
 					<p><strong>Date(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//sourceDesc/bibl[@type='sourceMetadata']/date" separator="; "/></p>
 					<p><strong>Original publication details:</strong><xsl:text> </xsl:text><xsl:copy-of select="$pub-deets"/></p>
-					<p><strong>Digital edition &amp; date:</strong><xsl:text> </xsl:text><a href="http://livingstoneonline.github.io/onemorevoice/index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
+					<p><strong>Digital edition &amp; date:</strong><xsl:text> </xsl:text><a href="https://livingstoneonline.github.io/onemorevoice/index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="https://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
 					<p><strong>Critical editing &amp; encoding</strong><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
 					<p><strong>Note:</strong> This historical document, published in unabridged form, reflects the cultural beliefs, distortions, and prejudices of its time and may contain material that will upset or distress some readers.</p>
 					<xsl:copy-of select="$warning-violence"/>
@@ -448,7 +448,7 @@
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/msDesc[@type='object-archive']">
-		    	<aside class="credits" id="main" aria-labelledby="opening-credits">
+				<aside class="credits" id="main" aria-labelledby="opening-credits">
 					<div class="translate"><div id="google_translate_element" title="Google Translate provides only a rough, machine-generated rendering of the text. Users should proceed with caution and are urged to consult the original site page alongside any generated translation."></div></div>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
 					<p><strong>Creator(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
@@ -466,7 +466,7 @@
 				</aside>
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='object-book-journal']">
-		    	<aside class="credits" id="main" aria-labelledby="opening-credits">
+				<aside class="credits" id="main" aria-labelledby="opening-credits">
 					<div class="translate"><div id="google_translate_element" title="Google Translate provides only a rough, machine-generated rendering of the text. Users should proceed with caution and are urged to consult the original site page alongside any generated translation."></div></div>
 					<h3 id="opening-credits"><xsl:value-of select="//teiHeader//titleStmt/title[1]"/></h3>
 					<p><strong>Creator(s) &amp; contributor(s):</strong><xsl:text> </xsl:text><xsl:value-of select="//teiHeader//titleStmt/author[@role='first-normalized']"/><xsl:value-of select="$additional-authors-1"/></p>
@@ -489,18 +489,18 @@
 						<xsl:text>Remove Color</xsl:text>
 						<input type="checkbox" role="switch" data-toggle="button" aria-checked="true" aria-label="Toggle color" id="remove-color" checked="" />
 						<span class="md_switch__toggle"></span>
-				  	</label>
-				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
+				 	</label>
+				 	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
 						<xsl:text>Invert</xsl:text>
 						<input type="checkbox" role="switch" data-toggle="button" aria-checked="true" aria-label="Toggle color inversion" id="invert" checked="" />
 						<span class="md_switch__toggle"></span>
-				  	</label>
-				  	<label for="remove-rotation" class="md_switch" title="Rotation: On/Off">
+				 	</label>
+				 	<label for="remove-rotation" class="md_switch" title="Rotation: On/Off">
 						<xsl:text>Remove Rotation</xsl:text>
 						<input type="checkbox" role="switch" data-toggle="button" aria-checked="true" aria-label="Toggle rotation" id="remove-rotation" checked="" />
 						<span class="md_switch__toggle"></span>
-				  	</label>
-			  	</aside>
+				 	</label>
+			 	</aside>
 				<aside class="narrow-mobile" id="narrow-mobile-div" aria-labelledby="mobile">
 					<p id="mobile">Please turn your mobile device to <span class="highlight">landscape</span> or <span class="highlight">widen your browser window</span> for optimal viewing of this archival document.</p>
 				</aside>
@@ -566,17 +566,17 @@
 			</xsl:when>
 			<xsl:when test="//sourceDesc/biblStruct[@type='journal']">
 				<aside id="transcription-switches" class="journal-switches">
-				  	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
+				 	<label for="invert" class="md_switch" title="Color Inversion: On/Off">
 						<xsl:text>Invert</xsl:text>
 						<input type="checkbox" role="switch" data-toggle="button" aria-checked="true" aria-label="Toggle color inversion" id="invert" checked="" />
 						<span class="md_switch__toggle"></span>
-				  	</label>
-				  	<label for="remove-justification" class="md_switch" title="Justification: On/Off">
+				 	</label>
+				 	<label for="remove-justification" class="md_switch" title="Justification: On/Off">
 						<xsl:text>Remove Justification</xsl:text>
 						<input type="checkbox" role="switch" data-toggle="button" aria-checked="true" aria-label="Toggle rotation" id="remove-justification" checked="" />
 						<span class="md_switch__toggle"></span>
-				  	</label>
-			  	</aside>
+				 	</label>
+			 	</aside>
 				<aside class="narrow-mobile" id="narrow-mobile-div" aria-labelledby="mobile">
 					<p id="mobile">Please turn your mobile device to <span class="highlight">landscape</span> or <span class="highlight">widen your browser window</span> for optimal viewing of this archival document.</p>
 				</aside>
@@ -633,13 +633,13 @@
 				<aside class="credits" id="credits2-div" aria-labelledby="closing-credits">
 					<div id="closing-credits">
 						<hr />
-						<!--<p class="back-button"><a class="trans-return" href="http://livingstoneonline.github.io/onemorevoice/texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>-->
+						<!--<p class="back-button"><a class="trans-return" href="https://livingstoneonline.github.io/onemorevoice/texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>-->
 						<p><strong>Terms of use:</strong><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
 						<p><strong>Cite this digital edition (MLA)</strong><xsl:text>: </xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
 						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
 						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
-						<em>One More Voice</em> (an imprint of <em>Livingstone Online</em>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="http://livingstoneonline.github.io/onemorevoice/html/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/html/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
+						<em>One More Voice</em> (an imprint of <em>Livingstone Online</em>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://livingstoneonline.github.io/onemorevoice/html/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/html/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
 						<xsl:if test="//publicationStmt/ref">
 							<xsl:variable name="source-link1">
 								<xsl:value-of select="//publicationStmt/ref[1]/@target"/>
@@ -661,13 +661,13 @@
 				<aside class="credits" id="credits2-div" aria-labelledby="closing-credits">
 					<div id="closing-credits">
 						<hr/>
-						<!--<p class="back-button"><a class="trans-return" href="http://livingstoneonline.github.io/onemorevoice/texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>-->
+						<!--<p class="back-button"><a class="trans-return" href="https://livingstoneonline.github.io/onemorevoice/texts.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>-->
 						<p><strong>Terms of use:</strong><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
 						<p><strong>Cite this digital edition (MLA)</strong><xsl:text>: </xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
 						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
 						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>
-						<em>One More Voice</em> (an imprint of <em>Livingstone Online</em>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="http://livingstoneonline.github.io/onemorevoice/html/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/html/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
+						<em>One More Voice</em> (an imprint of <em>Livingstone Online</em>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://livingstoneonline.github.io/onemorevoice/html/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/html/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
 						<xsl:if test="//publicationStmt/ref">
 							<xsl:variable name="source-link1">
 								<xsl:value-of select="//publicationStmt/ref[1]/@target"/>
@@ -689,24 +689,24 @@
 				<aside class="credits" id="credits2-div" aria-labelledby="closing-credits">
 					<div id="closing-credits">
 						<hr />
-						<!--<p class="back-button"><a class="art-return" href="http://livingstoneonline.github.io/onemorevoice/objects.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>-->
+						<!--<p class="back-button"><a class="art-return" href="https://livingstoneonline.github.io/onemorevoice/objects.html#{$LEAP-ID}">&#11013;&#xFE0E; Back</a></p>-->
 						<p><strong>Terms of use:</strong><xsl:text> </xsl:text><xsl:copy-of select="$copyright"/></p>
-						<p><strong>Digital edition &amp; date:</strong><xsl:text> </xsl:text><a href="http://livingstoneonline.github.io/onemorevoice/index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="http://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
+						<p><strong>Digital edition &amp; date:</strong><xsl:text> </xsl:text><a href="https://livingstoneonline.github.io/onemorevoice/index.html"><xsl:value-of select="//teiHeader//authority"/></a>, an imprint of <a href="https://livingstoneonline.org/">Livingstone Online</a>,<xsl:text> </xsl:text><xsl:value-of select="//teiHeader//publicationStmt/date"/></p>
 						<p><strong>Digital object curation</strong><xsl:text>: </xsl:text> <xsl:value-of select="$encoding"/></p>
 						<p><strong>Cite this digital edition (MLA)</strong><xsl:text>: </xsl:text>
 						<xsl:value-of select="//teiHeader//titleStmt/author[@role='first']"/>
 						<xsl:value-of select="$additional-authors-2"/><xsl:value-of select="$period-after-name"/><xsl:text> “</xsl:text>
 						<xsl:value-of select="$normTitle"/><xsl:text>” (</xsl:text><xsl:value-of select="//sourceDesc/bibl/date" separator="; "/><xsl:text>). </xsl:text><!--<xsl:value-of select="$encoding"/><xsl:value-of select="$editorial"/>-->
-						<em>One More Voice</em> (an imprint of <em>Livingstone Online</em>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="http://livingstoneonline.github.io/onemorevoice/html/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/html/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
+						<em>One More Voice</em> (an imprint of <em>Livingstone Online</em>), site launch edition, <xsl:value-of select="//teiHeader//publicationStmt/date"/>, <a href="https://livingstoneonline.github.io/onemorevoice/html/transcriptions/{substring-before($filename, '.xml')}.html">https://onemorevoice.org/html/transcriptions/<xsl:value-of select="substring-before($filename, '.xml')"/>.html</a>.</p>
 						<xsl:if test="//publicationStmt/ref">
 							<xsl:variable name="source">
 								<xsl:for-each select="//publicationStmt/ref">
 									<xsl:variable name="link" select="@target"/>
 									<xsl:variable name="source" select="node()"/>
 									<a href="{$link}"><xsl:value-of select="$source"/></a>
-								   	<xsl:if test="position() != last()">
+								 	<xsl:if test="position() != last()">
 										<xsl:text>; </xsl:text>
-								   	</xsl:if>
+								 	</xsl:if>
 								</xsl:for-each>
 							</xsl:variable>
 								<!--<xsl:variable name="link">
@@ -1330,7 +1330,7 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>-->
-	<!-- <xsl:value-of select="$lb-with-p"/>  -->
+	<!-- <xsl:value-of select="$lb-with-p"/> -->
 
 	<!-- Removed from <xsl:template match="app"> -->
 	<!--<span class="app">
@@ -1383,7 +1383,7 @@
 
 	<!-- Code not in use, but that could be useful -->
 
-	<!--  <xsl:template match="*[not(@type)][not(@reason)][not(@unit)][not(@extent)]" priority="-1">
+	<!-- <xsl:template match="*[not(@type)][not(@reason)][not(@unit)][not(@extent)]" priority="-1">
 		<span class="{name()}"><xsl:apply-templates select="@*|node()"/></span>
 		</xsl:template> -->
 	
