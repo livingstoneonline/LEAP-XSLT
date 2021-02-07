@@ -15,7 +15,7 @@
 		</xd:desc>
 	</xd:doc>
 	
-	<xsl:strip-space elements="*"/>
+	<!-- <xsl:strip-space elements="*"/> -->
 	<xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes" omit-xml-declaration="yes"/>
 
 	<!-- Incoming parameters -->
@@ -112,7 +112,7 @@
 					<xsl:apply-templates select="TEI"/>
 				</div>
 				<!-- Adds CSS file and adds random string to end of CSS file. Adapted from https://stackoverflow.com/a/22634359 and https://stackoverflow.com/a/39179486 -->
-				<script>var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/style.css?="+randomString;document.head.appendChild(css);var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI.css?="+randomString;document.head.appendChild(css);<xsl:if test="/TEI/text[contains(@n,'styleTEI-add')]">var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI-add.css?="+randomString;document.head.appendChild(css);</xsl:if> ;</script>
+				<script>var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/style.css?="+randomString;document.head.appendChild(css);var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI.css?="+randomString;document.head.appendChild(css);<xsl:if test="/TEI/text[contains(@n,'styleTEI-add')]">var randomString=Math.floor(Math.random()*1000000);var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";css.href="https://livingstoneonline.github.io/onemorevoice/css/styleTEI-add.css?="+randomString;document.head.appendChild(css);</xsl:if></script>
 				<!-- <link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/css/style.css"/> --> 
 				<script src="https://livingstoneonline.github.io/onemorevoice/js/jquery-3.5.1.min.js"></script> 
 				<!-- Adapted from https://stackoverflow.com/a/31837264 -->
@@ -136,8 +136,8 @@
 				</xsl:if>
 				<script>function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:'en'},'google_translate_element')}</script>
 				<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-				<!-- Loads JS file only after rest of page has loaded and adds random string to end of JS file. Adapted from https://varvy.com/pagespeed/defer-loading-javascript.html and https://stackoverflow.com/a/39179486 -->
-				<script>function downloadJSAtOnload(){var randomString=Math.floor(Math.random()*1000000);var element=document.createElement("script");element.src="https://livingstoneonline.github.io/onemorevoice/js/scripts.js?="+randomString;document.body.appendChild(element)}if(window.addEventListener){window.addEventListener("load",downloadJSAtOnload,false)}else if(window.attachEvent){window.attachEvent("onload",downloadJSAtOnload)}else{window.onload=downloadJSAtOnload}</script>
+				<!-- Loads JS file only after rest of page has loaded and adds random string to end of JS file. Adapted from https://learn.jquery.com/using-jquery-core/document-ready/ and https://stackoverflow.com/a/39179486 -->
+				<script>$(window).on("load",function(){var randomString=Math.floor(Math.random()*1000000);var element=document.createElement("script");element.src="https://livingstoneonline.github.io/onemorevoice/js/scripts.js?="+randomString;document.body.appendChild(element)});</script>
 				<!--<link rel="stylesheet" type="text/css" href="https://livingstoneonline.github.io/onemorevoice/js/scripts.js" />-->
 			</body>
 		</html>
