@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="https://www.oxygenxml.com/ns/doc/xsl"
-	xmlns:tei="https://tei-c.org/ns/1.0/" xmlns:jc="https://james.blushingbunny.net/ns.html"
-	xpath-default-namespace="https://tei-c.org/ns/1.0/" exclude-result-prefixes="xs xd tei jc"
+	xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:jc="https://james.blushingbunny.net/ns.html"
+	xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs xd tei jc"
 	version="2.0">
 <!-- /*xmlns="http://www.w3.org/TR/REC-html40"*/ -->
 <!-- Useful for DTDs https://www.w3.org/TR/xhtml1/dtds.html#h-A2 -->
