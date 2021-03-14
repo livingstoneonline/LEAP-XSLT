@@ -72,19 +72,17 @@
 				<link rel="icon" type="image/png" sizes="32x32" href="https://onemorevoice.org/img/icons/favicon-32x32.png"/>
 				<link rel="icon" type="image/png" sizes="16x16" href="https://onemorevoice.org/img/icons/favicon-16x16.png"/>
 				<link rel="manifest" href="https://onemorevoice.org/site.webmanifest"/>
-				<link rel="preload" as="style" href="https://onemorevoice.org/css/critical.css?=newVers_0001" onload="this.rel='stylesheet'"/>
-				<link rel="preload" as="style" href="https://onemorevoice.org/css/style.css?=newVers_0001" onload="this.rel='stylesheet'"/>
+				<link rel="preload" as="style" href="https://onemorevoice.org/css/critical.css?=newVers_0004" onload="this.rel='stylesheet'"/>
+				<link rel="preload" as="style" href="https://onemorevoice.org/css/style.css?=newVers_0004" onload="this.rel='stylesheet'"/>
 				<link rel="preload" as="style" href="https://onemorevoice.org/css/styleTEI.css?=newVers_0001" onload="this.rel='stylesheet'"/>
 				<xsl:if test="/TEI/text[contains(@n,'styleTEI-add')]">
 					<link rel="preload" as="style" href="https://onemorevoice.org/css/styleTEI-add.css?=newVers_0001" onload="this.rel='stylesheet'"/>
 				</xsl:if>
-				<link rel="preload" as="style" href="https://onemorevoice.org/css/font-awesome.min.css" onload="this.rel='stylesheet'"/>
-				<link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://onemorevoice.org/fonts/fontawesome-webfont.woff2?v=4.7.0"/>
-				<link rel="preload" as="font" type="font/woff" crossorigin="" href="https://onemorevoice.org/fonts/fontawesome-webfont.woff?v=4.7.0"/>
-				<link rel="preload" as="script" href="https://onemorevoice.org/js/scripts.js?=newVers_0001"/>
+				<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
+				<link rel="preload" as="script" href="https://onemorevoice.org/js/scripts.js?=newVers_0003"/>
 				<link rel="preload" as="script" href="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"/>
 				<link rel="preconnect" href="https://fonts.gstatic.com"/>
-				<link rel="stylesheet" type="text/css" href="https://onemorevoice.org/css/critical.css?=newVers_0001"/>
+				<link rel="stylesheet" type="text/css" href="https://onemorevoice.org/css/critical.css?=newVers_0004"/>
 				<script>
 					// Hides fallback nav so that it only appears if Javascript disabled
 					function addStyle(styles){var css=document.createElement('style');if(css.styleSheet){css.styleSheet.cssText=styles}else{css.appendChild(document.createTextNode(styles))}document.getElementsByTagName("head")[0].appendChild(css)}var styles='.fallback,.fallback a#nav10,.fallback a#nav11,.fallback a#nav12{display:none !important;visibility:hidden !important}';window.onload=function(){addStyle(styles)};
@@ -135,12 +133,12 @@
 				<xsl:if test="/TEI/text[contains(@n,'dancing')]"><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap" rel="stylesheet"/></xsl:if>
 				<xsl:if test="/TEI/text[contains(@n,'parisienne')]"><link href="https://fonts.googleapis.com/css2?family=Parisienne&amp;display=swap" rel="stylesheet"/></xsl:if>
 				<xsl:if test="/TEI/text[contains(@n,'unifrakturM')]"><link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&amp;display=swap" rel="stylesheet"/></xsl:if>
-				<link rel="stylesheet" type="text/css" href="https://onemorevoice.org/css/style.css?=newVers_0001"/>
+				<link rel="stylesheet" type="text/css" href="https://onemorevoice.org/css/style.css?=newVers_0004"/>
 				<link rel="stylesheet" type="text/css" href="https://onemorevoice.org/css/styleTEI.css?=newVers_0001"/>
 				<xsl:if test="/TEI/text[contains(@n,'styleTEI-add')]">
 					<link rel="stylesheet" type="text/css" href="../../css/styleTEI-add.css?=newVers_0001"/>
 				</xsl:if>
-				<link rel="stylesheet" type="text/css" href="https://onemorevoice.org/css/font-awesome.min.css"/>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
 				<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 				<script>
 					// Adapted from https://stackoverflow.com/a/31837264
@@ -164,9 +162,9 @@
 					// Adapted from https://learn.jquery.com/using-jquery-core/document-ready/ and https://stackoverflow.com/a/39179486
 					// Loads JS file only after rest of page has loaded; adds random string to end of file.
 					// $(window).on("load",function(){var randomString=Math.floor(Math.random()*1000000);var element=document.createElement("script");element.src="https://onemorevoice.org/js/scripts.js?="+randomString;document.body.appendChild(element)});
-					$(window).on("load",function(){var element=document.createElement("script");element.src="https://livingstoneonline.github.io/onemorevoice/js/scripts.js?=newVers_0001";document.body.appendChild(element)});
+					$(window).on("load",function(){var element=document.createElement("script");element.src="https://livingstoneonline.github.io/onemorevoice/js/scripts.js?=newVers_0003";document.body.appendChild(element)});
 				</script>
-				<!-- <script src="https://onemorevoice.org/js/scripts.js?=newVers_0001"></script> -->
+				<!-- <script src="https://onemorevoice.org/js/scripts.js?=newVers_0003"></script> -->
 			</body>
 		</html>
 	</xsl:template>
